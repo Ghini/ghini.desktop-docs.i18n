@@ -1,0 +1,20 @@
+#!/bin/bash
+
+LANGUAGES='ar ca cs da de el es fr id it pl pt ru sv tr uk '
+
+cp -a ../ghini.desktop/doc/*.rst source
+
+cd source
+make gettext
+sphinx-intl update -p _build/locale $(for i in $LANGUAGES; do printf -- '-l %s ' $i; done)
+sphinx-intl build
+
+exit 0
+
+for i in $LANGUAGES
+do
+    make -e SPHINXOPTS="-D language='"$i"'" html
+    mkdir -p ../translated/$i
+    cp -a _build/html ../translated/$i
+done
+
