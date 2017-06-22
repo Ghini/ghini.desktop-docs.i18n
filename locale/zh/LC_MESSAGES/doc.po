@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Ghini 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-22 16:15-0500\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-06-22 16:16-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,11 +27,6 @@ msgid ""
 "something about database administration. While database adnimistration is"
 " far beyond the scope of this document, we make our users aware of it."
 msgstr ""
-"Nel caso si stia utilizzando un vero e proprio DBMS (sistema di gestione "
-"di basi di dati) per contenere le collezioni di Bauble, è importante "
-"prendere in considerazione l'amministrazione di questo DBMS. Una "
-"descrizione del compito di amministrare una base dati è qui assolutamente"
-" fuori luogo, ma è importante che un utente sia consapevole del problema."
 
 #: ../../administration.rst:9
 msgid "SQLite"
@@ -44,12 +39,6 @@ msgid ""
 "don't know where to look for your database files, consider that, per "
 "default, bauble puts its data in the ``~/.bauble/`` directory."
 msgstr ""
-"SQLite offre una soluzione in quanto SQLite non è esattamente quanto si "
-"potrebbe definire un DMBS: ogni base dati SQLite è un file, farne copia "
-"di emergenza (backup) sarà sufficiente. Se si è creata la connessione "
-"alla base dati SQLite accettando i valori per difetto, il file relativo "
-"alla connessione si trova nella directory ``~/.bauble/`` (con Windows "
-"bisognerà trovare la ``AppData``)."
 
 #: ../../administration.rst:16
 msgid ""
@@ -70,7 +59,7 @@ msgstr ""
 
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
-msgstr "Prego riferirsi alla documentazione ufficiale."
+msgstr ""
 
 #: ../../administration.rst:29
 msgid "PostgreSQL"
@@ -81,8 +70,6 @@ msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
 " your backup options starts at `chapter_24`_."
 msgstr ""
-"Prego riferirsi alla documentazione ufficiale. Una discussione molto "
-"approfondita sulle varie opzioni di backup inizia al `chapter_24`_."
 
 #: ../../administration.rst:37
 msgid "Ghini Configuration"
@@ -242,9 +229,8 @@ msgid "Developer's Manual"
 msgstr ""
 
 #: ../../building.rst:5
-#, fuzzy
 msgid "Helping Ghini development"
-msgstr "Sviluppo di Ghini"
+msgstr ""
 
 #: ../../building.rst:7
 msgid ""
@@ -2239,16 +2225,13 @@ msgstr ""
 
 #: ../../index.rst:2
 msgid "Documentation for Ghini 1.0"
-msgstr "Documentazione di Ghini 1.0"
+msgstr ""
 
 #: ../../index.rst:8
 msgid ""
 "Ghini is an application for managing botanical specimen collections. With"
 " it you can create a searchable database of plant records."
 msgstr ""
-"Ghini è un programma per la gestione di collezioni di oggetti botanici. "
-"Con Ghini puoi creare una base dati di registri di piante, con molte "
-"opzioni di ricerca."
 
 #: ../../index.rst:11
 msgid ""
@@ -2256,9 +2239,6 @@ msgid ""
 "<http://www.fsf.org>`_ and is released under the `GNU Public License "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 msgstr ""
-"Ghini è software `aperto <http://www.opensource.org>`_ e `libero "
-"<http://www.fsf.org>`_ ed è distribuito secondo la `GPL: Licenza Pubblica"
-" GNU <http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
 #: ../../index.rst:17
 msgid "Statements"
@@ -2266,43 +2246,39 @@ msgstr ""
 
 #: ../../index.rst:26
 msgid "Installing Ghini"
-msgstr "Istallare Bauble"
+msgstr ""
 
 #: ../../index.rst:35
 msgid "Using Ghini"
-msgstr "Uso di Ghini"
+msgstr ""
 
 #: ../../index.rst:51
 msgid "Administration"
-msgstr "Amministrazione"
+msgstr ""
 
 #: ../../index.rst:60
 msgid "Ghini Development"
-msgstr "Sviluppo di Ghini"
+msgstr ""
 
 #: ../../index.rst:69
 msgid "Supporting Ghini"
-msgstr "Appoggiare Ghini"
+msgstr ""
 
 #: ../../index.rst:73
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
 msgstr ""
-"Se utilizzi Ghini, o se ti sembra giusto aiutarne lo sviluppo, puoi "
-"considerare una `donazione <https://pledgie.com/campaigns/29188>`_"
 
 #: ../../installing.rst:2
 msgid "Installation"
-msgstr "Istallazione"
+msgstr ""
 
 #: ../../installing.rst:4
 msgid ""
 "ghini.desktop is a cross-platform program and it will run on unix "
 "machines like GNU/Linux and MacOSX, as well as on Windows."
 msgstr ""
-"ghini.desktop è un programma multipiattaforma e funziona su macchine unix"
-" (Linux e MacOSX) ma anche su Windows."
 
 #: ../../installing.rst:7
 msgid ""
@@ -2312,12 +2288,6 @@ msgid ""
 "these packages installed then Ghini should be able to install the rest of"
 " its dependencies by itself."
 msgstr ""
-"Per installare Ghini, c'è bisogno di soddifare un paio di dipendenze che "
-"non possono essere risolte automaticamente. Queste includono "
-"virtualenvwrapper, PyGTK e pip. Python è presente su ogni macchina unix, "
-"mentre GTK+ è nativo di Linux ed altrimenti va installato. Dopo aver "
-"soddisfatte queste richieste, è possibile lasciare a Ghini il compito di "
-"risolvere tutte le altre."
 
 #: ../../installing.rst:13
 msgid ""
@@ -2326,22 +2296,16 @@ msgid ""
 "locally, non conflicting with any other Python program you may have on "
 "your system."
 msgstr ""
-"Seguendo le seguenti istruzioni di installazione si ottiene un Ghini "
-"installato in un ambiente Python virtuale, tutte le dipendenze saranno "
-"installate localmente e non entreranno in conflitto con altri programmi "
-"Python che possono essere sullo stesso elaborator."
 
 #: ../../installing.rst:18
 msgid ""
 "if you later choose to remove Ghini, you simply remove the virtual "
 "environment, which is a directory, with all of its content."
 msgstr ""
-"se dovessi in seguito decidere di rimuovere Ghini, basterà rimuovere "
-"l'ambiente virtuale, che è una directory, con tutto il suo contenuto."
 
 #: ../../installing.rst:23
 msgid "Installing on GNU/Linux"
-msgstr "Installare su Linux"
+msgstr ""
 
 #: ../../installing.rst:25
 msgid "Open a shell terminal window, and follow these instructions."
@@ -2371,7 +2335,7 @@ msgstr ""
 
 #: ../../installing.rst:49
 msgid "Download the `devinstall.sh` script and run it::"
-msgstr "Scaricare il programmino `devinstall.sh` ed eseguirlo::"
+msgstr ""
 
 #: ../../installing.rst:53
 msgid ""
@@ -2383,32 +2347,22 @@ msgstr ""
 #: ../../installing.rst:56
 msgid "If the script ends without error, you can now start ghini::"
 msgstr ""
-"Se il programmino di installazione termina senza errori, si può ora "
-"avviare ghini::"
 
 #: ../../installing.rst:60
 msgid "or update ghini to the latest released production patch::"
 msgstr ""
-"o aggiornare ghini all'ultima versione rilasciata nella linea di "
-"produzione::"
 
 #: ../../installing.rst:64
-#, fuzzy
 msgid ""
 "The same script you can use to switch to a different production line. At "
 "the moment it's just `ghini-1.0` and `ghini-1.1`."
 msgstr ""
-"Lo stesso programmino puoi utilizzarlo per cambiare ad un'altra linea di "
-"produzione, anche se al momento c'è solo la `ghini-1.0`."
 
 #: ../../installing.rst:67
 msgid ""
 "on Unity, open a terminal, start ghini, its icon will show up in the "
 "launcher, you can now `lock to launcher` it."
 msgstr ""
-"su Unity, apri un terminale, avvia ghini, la sua icona (il signor Ghini "
-"mostrando il suo erbario) apparirà nel `launcher`, e se si vuole lo si "
-"può saldare al launcher."
 
 #: ../../installing.rst:70
 msgid ""
@@ -3190,9 +3144,8 @@ msgid "code, name"
 msgstr ""
 
 #: ../../searching.rst:51
-#, fuzzy
 msgid "Location"
-msgstr "Istallazione"
+msgstr ""
 
 #: ../../searching.rst:52
 msgid "contact, person, org, source"
@@ -3913,329 +3866,4 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
-
-#~ msgid "helping bauble development"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "use the software, note the things "
-#~ "you don't like, open issue for "
-#~ "each of them. a developer will "
-#~ "react."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "if you have an idea of what "
-#~ "you miss in the software but can't"
-#~ " quite formalize it into separate "
-#~ "issues, you could consider hiring a "
-#~ "professional. this is the best way "
-#~ "to make sure that something happens "
-#~ "quickly on Ghini. do make sure the"
-#~ " developer opens issues and publishes "
-#~ "their contribution on github."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "translate! any help with translations "
-#~ "will be welcome, so please do! you"
-#~ " can do this without installing "
-#~ "anything on your computer, just using"
-#~ " the on-line translation service "
-#~ "offered by http://hosted.weblate.org/"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "fork the respository, choose an issue,"
-#~ " solve it, open a pull request. "
-#~ "see the `bug solving workflow`_ below."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "write unit tests and commit them "
-#~ "to your branch (do not commit "
-#~ "failing unit tests to the ``master`` "
-#~ "branch)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "open the pull request page using "
-#~ "as base the production line, compared"
-#~ " to ``master``."
-#~ msgstr ""
-
-#~ msgid "Ghini's goal"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "An ``Accession`` may be obtained from"
-#~ " an external ``Contact``, or be the"
-#~ " result of a garden ``Propagation``.  "
-#~ "This information is optional.  A "
-#~ "successful ``Propagation`` trial can only "
-#~ "result in one accession (0..1), while"
-#~ " a ``Contact`` may provide multiple "
-#~ "``Accessions`` (0..n)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "At the beginning of 2007 we got"
-#~ " five seedlings of *Heliconia longa* "
-#~ "(a plant ``Species``) from our neighbour"
-#~ " (the ``Contact`` source). Since it "
-#~ "was the first acquisition of the "
-#~ "year, we named them 2007.0001 (we "
-#~ "gave them a single unique ``Accession``"
-#~ " code) and we planted them all "
-#~ "together at one ``Location`` as a "
-#~ "single ``Planting`` with quantity 5."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "At the time of writing, nine years"
-#~ " later, ``Accession`` 2007.0001 has 6 "
-#~ "distinct ``Plantings``, each at a "
-#~ "different ``Locations`` in our garden, "
-#~ "obtained vegetatively (asexually) from the "
-#~ "original 5 plants. Our only intervention"
-#~ " was splitting, moving, and of course"
-#~ " writing this information in the "
-#~ "database."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Three are three types of search "
-#~ "strategies available in Ghini. Considering "
-#~ "the search stragety types available in"
-#~ " Ghini, sorted in increasing complexity:"
-#~ " you can search by value, expression"
-#~ " or query."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Searching by query, the most complex "
-#~ "and powerful, is assisted by the "
-#~ "Query Builder, described below."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All searches are case insensitive so "
-#~ "searching for Maxillaria and maxillaria "
-#~ "will return the same results."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Search by value is the simplest "
-#~ "way to search. You just type in"
-#~ " a string and see what matches. "
-#~ "Which fields/columns are search for your"
-#~ " string depends on how the different"
-#~ " plugins are configured. For example, "
-#~ "by default the PlantPlugin search the"
-#~ " family name, the genus name, the "
-#~ "species and infraspecific species names, "
-#~ "vernacular names and geography. So if"
-#~ " you want to search in the "
-#~ "notes field of any of these types"
-#~ " then searching by value is not "
-#~ "the search you're looking for."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Examples of searching by value would "
-#~ "be: Maxillaria, Acanth, 2008.1234, 2003.2.1"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Search string are separated by spaces."
-#~ " For example if you enter the "
-#~ "search string ``Block 10`` then Ghini"
-#~ " will search for the strings Block"
-#~ " and 10 and return all the "
-#~ "results that match either of these "
-#~ "strings. If you want to search for"
-#~ " Block 10 as a while string "
-#~ "then you should quote the string "
-#~ "like ``\"Block 10\"``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Searching with expression gives you a"
-#~ " little more control over what you"
-#~ " are searching for. It can narrow "
-#~ "the search down to a specific "
-#~ "domain. Expression consist of a domain,"
-#~ " an operator and a value. For "
-#~ "example the search: ``gen=Maxillaria`` would"
-#~ " return all the genera that match "
-#~ "the name Maxillaria. In this case "
-#~ "the domain is gen, the operator is"
-#~ " = and the value is Maxillaria."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The search string ``gen like max%`` "
-#~ "would return all the genera whose "
-#~ "names start with \"Max\". In this "
-#~ "case the domain again is gen, the"
-#~ " operator is like, which allows for"
-#~ " \"fuzzy\" searching and the value is"
-#~ " max%. The percent sign is used "
-#~ "as a wild card so if you "
-#~ "search for max% then it search for"
-#~ " all value that start with max. "
-#~ "If you search for %max it searches"
-#~ " for all values that end in "
-#~ "max. The string %max%a would search "
-#~ "for all value that contain max and"
-#~ " end in a."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "For more information about the different"
-#~ " search domain and their short-hand"
-#~ " aliases, see search-domains_ ."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If expression are invalid they are "
-#~ "usually used as search by value "
-#~ "searchs. For example the search string"
-#~ " ``gen=`` will execute a search by"
-#~ " value for the string gen and "
-#~ "the search string ``gen like`` will "
-#~ "search for the string gen and the"
-#~ " string like."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Queries allow the most control over "
-#~ "searching. With queries you can search"
-#~ " across relations, specific columns and "
-#~ "join search using boolean operators like"
-#~ " AND and OR."
-#~ msgstr ""
-
-#~ msgid "An example of a query would be::"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This query would return all the "
-#~ "plants whose family are Fabaceae and "
-#~ "are located in Block 10."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Searching with queries usually requires "
-#~ "some knowledge of the Ghini internals"
-#~ " and database table layouts."
-#~ msgstr ""
-
-#~ msgid "A couple of useful examples:"
-#~ msgstr ""
-
-#~ msgid "Which locations are in use::"
-#~ msgstr ""
-
-#~ msgid "Which genera are associated to at least one accession::"
-#~ msgstr ""
-
-#~ msgid "Domains"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The following are the common search "
-#~ "domain and the columns they search "
-#~ "by default. The default columns are "
-#~ "used when searching by value and "
-#~ "expression. The queries do not use "
-#~ "the default columns."
-#~ msgstr ""
-
-#~ msgid "family, fam: Search :class:`bauble.plugins.plants.Family`"
-#~ msgstr ""
-
-#~ msgid "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
-#~ msgstr ""
-
-#~ msgid "species, sp: Search :class:`bauble.plugins.plants.Species`"
-#~ msgstr ""
-
-#~ msgid "geography: Search :class:`bauble.plugins.plants.Geography`"
-#~ msgstr ""
-
-#~ msgid "acc: Search :class:`bauble.plugins.garden.Accession`"
-#~ msgstr ""
-
-#~ msgid "plant: Search :class:`bauble.plugins.garden.Plant`"
-#~ msgstr ""
-
-#~ msgid "location, loc: Search :class:`bauble.plugins.garden.Location`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The Query Builder helps you build "
-#~ "complex search queries through a point"
-#~ " and click interface.  To open the"
-#~ " Query Builder click the to the "
-#~ "left of the search entry or select"
-#~ " :menuselection:`Tools-->Query Builder` from the"
-#~ " menu."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The Query Builder composes a query "
-#~ "that will be understood by the "
-#~ "Query Search Strategy described above. "
-#~ "You can use the Query Builder to"
-#~ " get a feeling of correct queries "
-#~ "before you start typing them by "
-#~ "hand, something that you might prefer"
-#~ " if you are a fast typer."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After opening the Query Builder you "
-#~ "must select a search domain.  The "
-#~ "search domain will determine the type"
-#~ " of data that is returned and "
-#~ "the properties that you can search."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The search domain is similar to a"
-#~ " table in the database and the "
-#~ "properties would be the columns on "
-#~ "the table.  Often the table/domain and"
-#~ " properties/columns are the same but "
-#~ "not always."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Once a search domain is selected "
-#~ "you can then select a property of"
-#~ " the domain to compare values to."
-#~ "  The search operator can then be "
-#~ "changed for how you want to make"
-#~ " the search comparison.  Finally you "
-#~ "must enter a value to compare to"
-#~ " the search property."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If the search property you have "
-#~ "selected can only have specific values"
-#~ " then a list of possible values "
-#~ "will be provided for you to choose"
-#~ " from."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If multiple search properties are "
-#~ "necessary then clicking on the plus "
-#~ "sign will add more search properties."
-#~ "  Select And/Or next to the property"
-#~ " name choose how the properties will"
-#~ " be combined in the search query."
-#~ msgstr ""
 
