@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-22 12:35-0500\n"
+"POT-Creation-Date: 2017-06-22 16:15-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../administration.rst:2
 msgid "Database Administration"
-msgstr ""
+msgstr "Administración de bases de datos"
 
 #: ../../administration.rst:4
 msgid ""
@@ -27,6 +27,11 @@ msgid ""
 "something about database administration. While database adnimistration is"
 " far beyond the scope of this document, we make our users aware of it."
 msgstr ""
+"Si está utilizando un verdadero sistema de manejo de base de datos (un "
+"DBMS) para guardar sus datos, es preciso saber algo de como se administra"
+" una base de datos. Esto está muy fuera del alcance de la documentación "
+"de Ghini, sin embargo es importante que los usuarios sean conscientes de "
+"la necesidad."
 
 #: ../../administration.rst:9
 msgid "SQLite"
@@ -39,6 +44,11 @@ msgid ""
 "don't know where to look for your database files, consider that, per "
 "default, bauble puts its data in the ``~/.bauble/`` directory."
 msgstr ""
+"De SQLite no se puede decir que sea un verdadero DBMS: cada database "
+"SQLite no es más que un archivo. De estos archivo haganse copias de "
+"seguridad y estará bien. Si no sabe donde buscar los archivos SQLite "
+"representantes sus colecciones, considere que, por defecto, Ghini pone "
+"sus datos en la carpeta ``~/.bauble``."
 
 #: ../../administration.rst:16
 msgid ""
@@ -46,6 +56,9 @@ msgid ""
 "``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best "
 "to hide the ``AppData`` directory structure to normal users."
 msgstr ""
+"En Windows estaría en algún lugar en su carpeta ``AppData``, muy "
+"probablemente en ``AppData\\Roaming\\Bauble``. Windows hace todo lo "
+"posible para no hacer visible la estructura ``AppData`` a sus usuarios."
 
 #: ../../administration.rst:20
 msgid ""
@@ -110,12 +123,126 @@ msgstr ""
 msgid "Ghini development site can be accessed via the Help menu."
 msgstr ""
 
+#: ../../api.rst:2
+msgid "API Documentation"
+msgstr ""
+
+#: ../../api.rst:5
+msgid ":mod:`bauble`"
+msgstr ""
+
+#: ../../api.rst:17
+msgid ":mod:`bauble.db`"
+msgstr ""
+
+#: ../../api.rst:24
+msgid ""
+"All tables/mappers in Ghini which use the SQLAlchemy declarative plugin "
+"for declaring tables and mappers should derive from this class."
+msgstr ""
+
+#: ../../api.rst:28
+msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
+msgstr ""
+
+#: ../../api.rst:33
+msgid "The default metadata for all Ghini tables."
+msgstr ""
+
+#: ../../api.rst:35
+msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
+msgstr ""
+
+#: ../../api.rst:49
+msgid ":mod:`bauble.connmgr`"
+msgstr ""
+
+#: ../../api.rst:57
+msgid ":mod:`bauble.editor`"
+msgstr ""
+
+#: ../../api.rst:78
+msgid ":mod:`bauble.i18n`"
+msgstr ""
+
+#: ../../api.rst:83
+msgid ":mod:`bauble.ui`"
+msgstr ""
+
+#: ../../api.rst:91
+msgid ":mod:`bauble.meta`"
+msgstr ""
+
+#: ../../api.rst:99
+msgid ":mod:`bauble.paths`"
+msgstr ""
+
+#: ../../api.rst:108
+msgid ":mod:`bauble.pluginmgr`"
+msgstr ""
+
+#: ../../api.rst:122
+msgid ":mod:`bauble.prefs`"
+msgstr ""
+
+#: ../../api.rst:133
+msgid ":mod:`bauble.task`"
+msgstr ""
+
+#: ../../api.rst:141
+msgid ":mod:`bauble.types`"
+msgstr ""
+
+#: ../../api.rst:154
+msgid ":mod:`bauble.utils`"
+msgstr ""
+
+#: ../../api.rst:204
+msgid ":mod:`bauble.view`"
+msgstr ""
+
+#: ../../api.rst:230
+msgid ":mod:`bauble.search`"
+msgstr ""
+
+#: ../../api.rst:243
+msgid ":mod:`bauble.plugins.plants`"
+msgstr ""
+
+#: ../../api.rst:278
+msgid ":mod:`bauble.plugins.garden`"
+msgstr ""
+
+#: ../../api.rst:316
+msgid ":mod:`bauble.plugins.abcd`"
+msgstr ""
+
+#: ../../api.rst:325
+msgid ":mod:`bauble.plugins.imex`"
+msgstr ""
+
+#: ../../api.rst:329
+msgid ":mod:`bauble.plugins.report`"
+msgstr ""
+
+#: ../../api.rst:333
+msgid ":mod:`bauble.plugins.report.xsl`"
+msgstr ""
+
+#: ../../api.rst:337
+msgid ":mod:`bauble.plugins.report.mako`"
+msgstr ""
+
+#: ../../api.rst:341
+msgid ":mod:`bauble.plugins.tag`"
+msgstr ""
+
 #: ../../building.rst:2
 msgid "Developer's Manual"
 msgstr ""
 
 #: ../../building.rst:5
-msgid "helping bauble development"
+msgid "Helping Ghini development"
 msgstr ""
 
 #: ../../building.rst:7
@@ -133,41 +260,805 @@ msgstr ""
 
 #: ../../building.rst:13
 msgid ""
-"use the software, note the things you don't like, open issue for each of "
-"them. a developer will react."
+"Use the software, note the things you don't like, `open an issue "
+"<http://github.com/Ghini/ghini.desktop/issues/new>`_ for each of them. A "
+"developer will react sooner than you can imagine."
 msgstr ""
 
-#: ../../building.rst:14
+#: ../../building.rst:16
 msgid ""
-"if you have an idea of what you miss in the software but can't quite "
+"If you have an idea of what you miss in the software but can't quite "
 "formalize it into separate issues, you could consider hiring a "
-"professional. this is the best way to make sure that something happens "
-"quickly on Ghini. do make sure the developer opens issues and publishes "
+"professional. This is the best way to make sure that something happens "
+"quickly on Ghini. Do make sure the developer opens issues and publishes "
 "their contribution on github."
 msgstr ""
 
-#: ../../building.rst:19
+#: ../../building.rst:21
 msgid ""
-"translate! any help with translations will be welcome, so please do! you "
+"Translate! Any help with translations will be welcome, so please do! you "
 "can do this without installing anything on your computer, just using the "
 "on-line translation service offered by http://hosted.weblate.org/"
 msgstr ""
 
-#: ../../building.rst:22
+#: ../../building.rst:24
 msgid ""
-"fork the respository, choose an issue, solve it, open a pull request. see"
+"fork the respository, choose an issue, solve it, open a pull request. See"
 " the `bug solving workflow`_ below."
 msgstr ""
 
-#: ../../building.rst:26
+#: ../../building.rst:27
+msgid ""
+"If you haven't yet installed Ghini, and want to have a look at its code "
+"history, you can open our `github project page "
+"<http://github.com/Ghini/ghini.desktop>`_ and see all that has been going"
+" on around Ghini since its inception as Bauble, back in the year 2004."
+msgstr ""
+
+#: ../../building.rst:33
+msgid "Software source, versions, branches"
+msgstr ""
+
+#: ../../building.rst:35
+msgid ""
+"If you want a particular version of Ghini, we release and maintain "
+"versions as branches. You should ``git checkout`` the branch "
+"corresponding to the version of your choice."
+msgstr ""
+
+#: ../../building.rst:40 ../../devdl.rst:32
+msgid "production line"
+msgstr ""
+
+#: ../../building.rst:42
+msgid ""
+"Branch names for Ghini stable (production) versions are of the form "
+"``ghini-x.y`` (eg: ghini-1.0); branch names where Ghini testing versions "
+"are published are of the form ``ghini-x.y-dev`` (eg: ghini-1.0-dev)."
+msgstr ""
+
+#: ../../building.rst:47 ../../devdl.rst:29
+msgid "Development Workflow"
+msgstr ""
+
+#: ../../building.rst:49
+msgid ""
+"Our workflow is to continuously commit to the testing branch, to often "
+"push them to github, to let travis-ci and coveralls.io check the quality "
+"of the pushed testing branches, finally, from time to time, to merge the "
+"testing branch into the corresponding release."
+msgstr ""
+
+#: ../../building.rst:54
+msgid ""
+"When working at larger issues, which seem to take longer than a couple of"
+" days, I might open a branch associated to the issue. I don't do this "
+"very often."
+msgstr ""
+
+#: ../../building.rst:59 ../../devdl.rst:51
+msgid "larger issues"
+msgstr ""
+
+#: ../../building.rst:61
+msgid ""
+"When facing a single larger issue, create a branch tag at the tip of a "
+"main development line (e.g.: ``ghini-1.0-dev``), and follow the workflow "
+"described at"
+msgstr ""
+
+#: ../../building.rst:65 ../../devdl.rst:56
+msgid "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
+msgstr ""
+
+#: ../../building.rst:67 ../../devdl.rst:58
+msgid "in short::"
+msgstr ""
+
+#: ../../building.rst:73
+msgid ""
+"Work on the new temporary branch. When ready, go to github, merge the "
+"branch with the main development line from which you branched, solve "
+"conflicts where necessary, delete the temporary branch."
+msgstr ""
+
+#: ../../building.rst:77
+msgid ""
+"When ready for publication, merge the development line into the "
+"corresponding production line."
+msgstr ""
+
+#: ../../building.rst:81 ../../devdl.rst:70
+msgid "Updating the set of translatable strings"
+msgstr ""
+
+#: ../../building.rst:83 ../../devdl.rst:72
+msgid ""
+"From time to time, during the process of updating the software, you will "
+"be adding or modifying strings in the python sources, in the "
+"documentation, in the glade sources. Most of our strings are "
+"translatable, and are offered to weblate for people to contribute, in the"
+" form of several ``.po`` files. These ``po`` files receive contributions "
+"from weblate, and offer lines without translation from new lines of code."
+msgstr ""
+
+#: ../../building.rst:90 ../../devdl.rst:79
+msgid ""
+"We have organized the translation of ghini as two separate repositories "
+"in github, each repository being associated to sections of the same "
+"project on weblate. Translation of the software is in ghini.desktop, the "
+"software project, while translation of the documentation —itself part of "
+"the software— is in a separate project, ghini.desktop-docs.i18n."
+msgstr ""
+
+#: ../../building.rst:96 ../../devdl.rst:85
+msgid ""
+"To update the ``po`` files relative to the software, you run a script "
+"from the project root dir::"
+msgstr ""
+
+#: ../../building.rst:101 ../../devdl.rst:90
+msgid ""
+"This will update your ``po`` files, something you need commit and push to"
+" github."
+msgstr ""
+
+#: ../../building.rst:104
+msgid ""
+"We haven't yet defined a workflow for publishing translated documentation"
+" on readthedocs. If you have experience with it please have a go at it. "
+"Thank you in advance."
+msgstr ""
+
+#: ../../building.rst:110 ../../devdl.rst:102
+msgid "Adding missing unit tests"
+msgstr ""
+
+#: ../../building.rst:112 ../../devdl.rst:104
+msgid ""
+"If you are interested contributing to development of Ghini, a good way to"
+" do so would be by helping us finding and writing the missing unit tests."
+msgstr ""
+
+#: ../../building.rst:115 ../../devdl.rst:107
+msgid ""
+"A well tested function is one whose behaviour you cannot change without "
+"breaking at least one unit test."
+msgstr ""
+
+#: ../../building.rst:118 ../../devdl.rst:110
+msgid ""
+"We all agree that in theory theory and practice match perfectly and that "
+"one first writes the tests, then implements the function. In practice, "
+"however, practice does not match theory and we have been writing tests "
+"after writing and even publishing the functions."
+msgstr ""
+
+#: ../../building.rst:123 ../../devdl.rst:115
+msgid ""
+"This section describes the process of adding unit tests for "
+"``bauble.plugins.plants.family.remove_callback``."
+msgstr ""
+
+#: ../../building.rst:127 ../../devdl.rst:119
+msgid "What to test"
+msgstr ""
+
+#: ../../building.rst:129 ../../devdl.rst:121
+msgid ""
+"First of all, open the coverage report index, and choose a file with low "
+"coverage."
+msgstr ""
+
+#: ../../building.rst:132 ../../devdl.rst:124
+msgid ""
+"For this example, run in October 2015, we landed on "
+"``bauble.plugins.plants.family``, at 33%."
+msgstr ""
+
+#: ../../building.rst:135 ../../devdl.rst:127
+#, python-format
+msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
+msgstr ""
+
+#: ../../building.rst:137 ../../devdl.rst:129
+msgid ""
+"The first two functions which need tests, ``edit_callback`` and "
+"``add_genera_callback``, include creation and activation of an object "
+"relying on a custom dialog box. We should really first write unit tests "
+"for that class, then come back here."
+msgstr ""
+
+#: ../../building.rst:142 ../../devdl.rst:134
+msgid ""
+"The next function, ``remove_callback``, also activates a couple of dialog"
+" and message boxes, but in the form of invoking a function requesting "
+"user input via yes-no-ok boxes. These functions we can easily replace "
+"with a function mocking the behaviour."
+msgstr ""
+
+#: ../../building.rst:148 ../../devdl.rst:140
+msgid "how to test"
+msgstr ""
+
+#: ../../building.rst:150 ../../devdl.rst:142
+msgid ""
+"So, having decided what to describe in unit test, we look at the code and"
+" we see it needs discriminate a couple of cases:"
+msgstr ""
+
+#: ../../building.rst:156 ../../devdl.rst:148
+msgid "**parameter correctness**"
+msgstr ""
+
+#: ../../building.rst:154 ../../devdl.rst:146
+msgid "the list of families has no elements."
+msgstr ""
+
+#: ../../building.rst:155 ../../devdl.rst:147
+msgid "the list of families has more than one element."
+msgstr ""
+
+#: ../../building.rst:156 ../../devdl.rst:148
+msgid "the list of families has exactly one element."
+msgstr ""
+
+#: ../../building.rst:160 ../../devdl.rst:152
+msgid "**cascade**"
+msgstr ""
+
+#: ../../building.rst:159 ../../devdl.rst:151
+msgid "the family has no genera"
+msgstr ""
+
+#: ../../building.rst:160 ../../devdl.rst:152
+msgid "the family has one or more genera"
+msgstr ""
+
+#: ../../building.rst:164 ../../devdl.rst:156
+msgid "**confirm**"
+msgstr ""
+
+#: ../../building.rst:163 ../../devdl.rst:155
+msgid "the user confirms deletion"
+msgstr ""
+
+#: ../../building.rst:164 ../../devdl.rst:156
+msgid "the user does not confirm deletion"
+msgstr ""
+
+#: ../../building.rst:168 ../../devdl.rst:160
+msgid "**deleting**"
+msgstr ""
+
+#: ../../building.rst:167 ../../devdl.rst:159
+msgid "all goes well when deleting the family"
+msgstr ""
+
+#: ../../building.rst:168 ../../devdl.rst:160
+msgid "there is some error while deleting the family"
+msgstr ""
+
+#: ../../building.rst:170 ../../devdl.rst:162
+msgid ""
+"I decide I will only focus on the **cascade** and the **confirm** "
+"aspects. Two binary questions: 4 cases."
+msgstr ""
+
+#: ../../building.rst:174 ../../devdl.rst:166
+msgid "where to put the tests"
+msgstr ""
+
+#: ../../building.rst:176 ../../devdl.rst:168
+msgid ""
+"Locate the test script and choose the class where to put the extra unit "
+"tests."
+msgstr ""
+
+#: ../../building.rst:178 ../../devdl.rst:170
+#, python-format
+msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
+msgstr ""
+
+#: ../../building.rst:180 ../../devdl.rst:172
+msgid ""
+"The ``FamilyTests`` class contains a skipped test, implementing it will "
+"be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
+" separate it from the FamilyEditorView and reconsider what to do with the"
+" FamilyEditor class, which I think should be removed and replaced with a "
+"single function."
+msgstr ""
+
+#: ../../building.rst:187 ../../devdl.rst:179
+msgid "writing the tests"
+msgstr ""
+
+#: ../../building.rst:189 ../../devdl.rst:181
+msgid ""
+"After the last test in the FamilyTests class, I add the four cases I want"
+" to describe, and I make sure they fail, and since I'm lazy, I write the "
+"most compact code I know for generating an error::"
+msgstr ""
+
+#: ../../building.rst:206 ../../devdl.rst:198
+msgid "One test, step by step"
+msgstr ""
+
+#: ../../building.rst:208 ../../devdl.rst:200
+msgid "Let's start with the first test case."
+msgstr ""
+
+#: ../../building.rst:210 ../../devdl.rst:202
+msgid "When writing tests, I generally follow the pattern:"
+msgstr ""
+
+#: ../../building.rst:212 ../../devdl.rst:204
+msgid "T₀ (initial condition),"
+msgstr ""
+
+#: ../../building.rst:213 ../../devdl.rst:205
+msgid "action,"
+msgstr ""
+
+#: ../../building.rst:214 ../../devdl.rst:206
+msgid "T₁ (testing the result of the action given the initial conditions)"
+msgstr ""
+
+#: ../../building.rst:216 ../../devdl.rst:208
+msgid ""
+"There's a reason why unit tests are called unit tests. Please never test "
+"two actions in one test."
+msgstr ""
+
+#: ../../building.rst:219 ../../devdl.rst:211
+msgid ""
+"So let's describe T₀ for the first test, a database holding a family "
+"without genera::"
+msgstr ""
+
+#: ../../building.rst:227 ../../devdl.rst:219
+msgid ""
+"We do not want the function being tested to invoke the interactive "
+"``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
+" non-interactive replacement function. We achieve this simply by making "
+"``utils.yes_no_dialog`` point to a ``lambda`` expression which, like the "
+"original interactive function, accepts one parameter and returns a "
+"boolean. In this case: ``False``::"
+msgstr ""
+
+#: ../../building.rst:245 ../../devdl.rst:237
+msgid "Next we test the result."
+msgstr ""
+
+#: ../../building.rst:247 ../../devdl.rst:239
+msgid ""
+"Well, we don't just want to test whether or not the object Arecaceae was "
+"deleted, we also should test the value returned by ``remove_callback``, "
+"and whether ``yes_no_dialog`` and ``message_details_dialog`` were invoked"
+" or not."
+msgstr ""
+
+#: ../../building.rst:252 ../../devdl.rst:244
+msgid ""
+"A ``lambda`` expression is not enough for this. We do something "
+"apparently more complex, which will make life a lot easier."
+msgstr ""
+
+#: ../../building.rst:255 ../../devdl.rst:247
+msgid "Let's first define a rather generic function::"
+msgstr ""
+
+#: ../../building.rst:261 ../../devdl.rst:253
+msgid ""
+"and we grab ``partial`` from the ``functools`` standard module, to "
+"partially apply the above ``mockfunc``, leaving only ``msg`` unspecified,"
+" and use this partial application, which is a function accepting one "
+"parameter and returning a value, to replace the two functions in "
+"``utils``. The test function now looks like this::"
+msgstr ""
+
+#: ../../building.rst:283 ../../devdl.rst:275
+msgid ""
+"The test section checks that ``message_details_dialog`` was not invoked, "
+"that ``yes_no_dialog`` was invoked, with the correct message parameter, "
+"that Arecaceae is still there::"
+msgstr ""
+
+#: ../../building.rst:299 ../../devdl.rst:291
+msgid "And so on"
+msgstr ""
+
+#: ../../building.rst:301 ../../devdl.rst:293
+msgid ""
+"`there are two kinds of people, those who complete what they start, and "
+"so on`"
+msgstr ""
+
+#: ../../building.rst:304 ../../devdl.rst:296
+msgid ""
+"Next test is almost the same, with the difference that the "
+"``utils.yes_no_dialog`` should return ``True`` (this we achieve by "
+"specifying ``result=True`` in the partial application of the generic "
+"``mockfunc``)."
+msgstr ""
+
+#: ../../building.rst:309 ../../devdl.rst:301
+msgid ""
+"With this action, the value returned by ``remove_callback`` should be "
+"``True``, and there should be no Arecaceae Family in the database any "
+"more::"
+msgstr ""
+
+#: ../../building.rst:339 ../../devdl.rst:331
+msgid ""
+"have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
+"other two test functions."
+msgstr ""
+
+#: ../../building.rst:343
+msgid "Testing logging"
+msgstr ""
+
+#: ../../building.rst:345
+msgid ""
+"Our ``bauble.test.BaubleTestCase`` objects use handlers of the class "
+"``bauble.test.MockLoggingHandler``.  Every time an individual unit test "
+"is started, the ``setUp`` method will create a new ``handler`` and "
+"associate it to the root logger.  The ``tearDown`` method takes care of "
+"removing it."
+msgstr ""
+
+#: ../../building.rst:350
+#, python-format
+msgid ""
+"You can check for presence of specific logging messages in "
+"``self.handler.messages``. ``messages`` is a dictionary, initially empty,"
+" with two levels of indexation. First the name of the logger issuing the "
+"logging record, then the name of the level of the logging record. Keys "
+"are created when needed. Values hold lists of messages, formatted "
+"according to whatever formatter you associate to the handler, defaulting "
+"to ``logging.Formatter(\"%(message)s\")``."
+msgstr ""
+
+#: ../../building.rst:358
+msgid ""
+"You can explicitly empty the collected messages by invoking "
+"``self.handler.clear()``."
+msgstr ""
+
+#: ../../building.rst:363 ../../devdl.rst:335
+msgid "Putting all together"
+msgstr ""
+
+#: ../../building.rst:365 ../../devdl.rst:337
+msgid "From time to time you want to activate the test class you're working at::"
+msgstr ""
+
+#: ../../building.rst:369 ../../devdl.rst:341
+msgid "And at the end of the process you want to update the statistics::"
+msgstr ""
+
+#: ../../building.rst:375 ../../extending.rst:2
+msgid "Structure of user interface"
+msgstr ""
+
+#: ../../building.rst:377
+msgid ""
+"The user interface is built according to the **Model** — **View** — "
+"**Presenter** architectural pattern.  For much of the interface, "
+"**Model** is a SQLAlchemy database object, but we also have interface "
+"elements where there is no corresponding database model.  In general:"
+msgstr ""
+
+#: ../../building.rst:382
+msgid ""
+"The **View** is described as part of a **glade** file. This should "
+"include the signal-callback and ListStore-TreeView associations. Just "
+"reuse the base class ``GenericEditorView`` defined in ``bauble.editor``. "
+"When you create your instance of this generic class, pass it the "
+"**glade** file name and the root widget name, then hand this instance "
+"over to the **presenter** constructor."
+msgstr ""
+
+#: ../../building.rst:389
+msgid ""
+"In the glade file, in the ``action-widgets`` section closing your "
+"GtkDialog object description, make sure every ``action-widget`` element "
+"has a valid ``response`` value.  Use `valid GtkResponseType values "
+"<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, for"
+" example:"
+msgstr ""
+
+#: ../../building.rst:395
+msgid "GTK_RESPONSE_OK, -5"
+msgstr ""
+
+#: ../../building.rst:396
+msgid "GTK_RESPONSE_CANCEL, -6"
+msgstr ""
+
+#: ../../building.rst:397
+msgid "GTK_RESPONSE_YES, -8"
+msgstr ""
+
+#: ../../building.rst:398
+msgid "GTK_RESPONSE_NO, -9"
+msgstr ""
+
+#: ../../building.rst:400
+msgid ""
+"There is no easy way to unit test a subclassed view, so please don't "
+"subclass views, there's really no need to."
+msgstr ""
+
+#: ../../building.rst:403
+msgid ""
+"In the glade file, every input widget should define which handler is "
+"activated on which signal.  The generic Presenter class offers generic "
+"callbacks which cover the most common cases."
+msgstr ""
+
+#: ../../building.rst:407
+msgid ""
+"GtkEntry (one-line text entry) will handle the ``changed`` signal, with "
+"either ``on_text_entry_changed`` or ``on_unique_text_entry_changed``."
+msgstr ""
+
+#: ../../building.rst:409
+msgid ""
+"GtkTextView: associate it to a GtkTextBuffer. To handle the ``changed`` "
+"signal on the GtkTextBuffer, we have to define a handler which invokes "
+"the generic ``on_textbuffer_changed``, the only role for this function is"
+" to pass our generic handler the name of the model attribute that "
+"receives the change. This is a workaroud for an `unresolved bug in GTK "
+"<http://stackoverflow.com/questions/32106765/>`_."
+msgstr ""
+
+#: ../../building.rst:415
+msgid ""
+"GtkComboBox with translated texts can't be easily handled from the glade "
+"file, so we don't even try.  Use the ``init_translatable_combo`` method "
+"of the generic ``GenericEditorView`` class, but please invoke it from the"
+" **presenter**."
+msgstr ""
+
+#: ../../building.rst:420
+msgid ""
+"The **Model** is just an object with known attributes. In this "
+"interaction, the **model** is just a passive data container, it does "
+"nothing more than to let the **presenter** modify it."
+msgstr ""
+
+#: ../../building.rst:424
+msgid "The subclassed **Presenter** defines and implements:"
+msgstr ""
+
+#: ../../building.rst:426
+msgid ""
+"``widget_to_field_map``, a dictionary associating widget names to name of"
+" model attributes,"
+msgstr ""
+
+#: ../../building.rst:428 ../../extending.rst:24
+msgid ""
+"``view_accept_buttons``, the list of widget names which, if activated by "
+"the user, mean that the view should be closed,"
+msgstr ""
+
+#: ../../building.rst:430 ../../extending.rst:26
+msgid "all needed callbacks,"
+msgstr ""
+
+#: ../../building.rst:431 ../../extending.rst:27
+msgid "optionally, it plays the **model** role, too."
+msgstr ""
+
+#: ../../building.rst:433
+msgid ""
+"The **presenter** continuously updates the **model** according to changes"
+" in the **view**. If the **model** corresponds to a database object, the "
+"**presenter** commits all **model** updates to the database when the "
+"**view** is closed successfully, or rolls them back if the **view** is "
+"canceled. (this behaviour is influenced by the parameter ``do_commit``)"
+msgstr ""
+
+#: ../../building.rst:439
+msgid ""
+"If the **model** is something else, then the **presenter** will do "
+"something else."
+msgstr ""
+
+#: ../../building.rst:444
+msgid ""
+"A well behaved **presenter** uses the **view** api to query the values "
+"inserted by the user or to forcibly set widget statuses. Please do not "
+"learn from the practice of our misbehaving presenters, some of which "
+"directly handle fields of ``view.widgets``. By doing so, these presenters"
+" prevents us from writing unit tests."
+msgstr ""
+
+#: ../../building.rst:450
+msgid ""
+"The base class for the presenter, ``GenericEditorPresenter`` defined in "
+"``bauble.editor``, implements many useful generic callbacks.  There is a "
+"``MockView`` class, that you can use when writing tests for your "
+"presenters."
+msgstr ""
+
+#: ../../building.rst:455
+msgid "Examples"
+msgstr ""
+
+#: ../../building.rst:457
+msgid ""
+"``Contact`` and ``ContactPresenter`` are implemented following the above "
+"lines.  The view is defined in the ``contact.glade`` file."
+msgstr ""
+
+#: ../../building.rst:460
+msgid ""
+"A good example of Presenter/View pattern (no model) is given by the "
+"connection manager."
+msgstr ""
+
+#: ../../building.rst:463 ../../extending.rst:39
+msgid ""
+"We use the same architectural pattern for non-database interaction, by "
+"setting the presenter also as model. We do this, for example, for the "
+"JSON export dialog box. The following command will give you a list of "
+"``GenericEditorView`` instantiations::"
+msgstr ""
+
+#: ../../building.rst:471 ../../extending.rst:50
+msgid "Extending Ghini with Plugins"
+msgstr ""
+
+#: ../../building.rst:473 ../../extending.rst:52
+msgid ""
+"Nearly everything about Ghini is extensible through plugins. Plugins can "
+"create tables, define custom searchs, add menu items, create custom "
+"commands and more."
+msgstr ""
+
+#: ../../building.rst:477 ../../extending.rst:56
+msgid ""
+"To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
+"class."
+msgstr ""
+
+#: ../../building.rst:480 ../../extending.rst:59
+msgid ""
+"The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
+"falls outside the Model-View-Presenter architectural pattern."
+msgstr ""
+
+#: ../../building.rst:484 ../../devdl.rst:347
+msgid "Plugins structure"
+msgstr ""
+
+#: ../../building.rst:486 ../../devdl.rst:349
+msgid ""
+"Ghini is a framework for handling collections, and is distributed along "
+"with a set of plugins making Ghini a botanical collection manager. But "
+"Ghini stays a framework and you could in theory remove all plugins we "
+"distribute and write your own, or write your own plugins that extend or "
+"complete the current Ghini behaviour."
+msgstr ""
+
+#: ../../building.rst:492 ../../devdl.rst:355
+msgid ""
+"Once you have selected and opened a database connection, you land in the "
+"Search window. The Search window is an interaction between two objects: "
+"SearchPresenter (SP) and SearchView (SV)."
+msgstr ""
+
+#: ../../building.rst:496 ../../devdl.rst:359
+msgid ""
+"SV is what you see, SP holds the program status and handles the requests "
+"you express through SV. Handling these requests affect the content of SV "
+"and the program status in SP."
+msgstr ""
+
+#: ../../building.rst:500 ../../devdl.rst:363
+msgid ""
+"The search results shown in the largest part of SV are rows, objects that"
+" are instances of classes registered in a plugin."
+msgstr ""
+
+#: ../../building.rst:503 ../../devdl.rst:366
+msgid ""
+"Each of these classes must implement an amount of functions in order to "
+"properly behave within the Ghini framework. The Ghini framework reserves "
+"space to pluggable classes."
+msgstr ""
+
+#: ../../building.rst:507 ../../devdl.rst:370
+msgid ""
+"SP knows of all registered (plugged in) classes, they are stored in a "
+"dictionary, associating a class to its plugin implementation.  SV has a "
+"slot (a gtk.Box) where you can add elements. At any time, at most only "
+"one element in the slot is visible."
+msgstr ""
+
+#: ../../building.rst:512 ../../devdl.rst:375
+msgid ""
+"A plugin defines one or more plugin classes. A plugin class plays the "
+"role of a partial presenter (pP - plugin presenter) as it implement the "
+"callbacks needed by the associated partial view fitting in the slot (pV -"
+" plugin view), and the MVP pattern is completed by the parent presenter "
+"(SP), again acting as model. To summarize and complete:"
+msgstr ""
+
+#: ../../building.rst:518 ../../devdl.rst:381
+msgid "SP acts as model,"
+msgstr ""
+
+#: ../../building.rst:519 ../../devdl.rst:382
+msgid "the pV partial view is defined in a glade file."
+msgstr ""
+
+#: ../../building.rst:520 ../../devdl.rst:383
+msgid "the callbacks implemented by pP are referenced by the glade file."
+msgstr ""
+
+#: ../../building.rst:521 ../../devdl.rst:384
+msgid "a context menu for the SP row,"
+msgstr ""
+
+#: ../../building.rst:522 ../../devdl.rst:385
+msgid "a children property."
+msgstr ""
+
+#: ../../building.rst:524 ../../devdl.rst:387
+msgid "when you register a plugin class, the SP:"
+msgstr ""
+
+#: ../../building.rst:526 ../../devdl.rst:389
+msgid "adds the pV in the slot and makes it non-visible."
+msgstr ""
+
+#: ../../building.rst:527 ../../devdl.rst:390
+msgid "adds an instance of pP in the registered plugin classes."
+msgstr ""
+
+#: ../../building.rst:528 ../../devdl.rst:391
+msgid "tells the pP that the SP is the model."
+msgstr ""
+
+#: ../../building.rst:529 ../../devdl.rst:392
+msgid "connects all callbacks from pV to pP."
+msgstr ""
+
+#: ../../building.rst:531 ../../devdl.rst:394
+msgid ""
+"when an element in pV triggers an action in pP, the pP can forward the "
+"action to SP and can request SP that it updates the model and refreshes "
+"the view."
+msgstr ""
+
+#: ../../building.rst:535 ../../devdl.rst:398
+msgid ""
+"When the user selects a row in SP, SP hides everything in the pluggable "
+"slot and shows only the single pV relative to the type of the selected "
+"row, and asks the pP to refresh the pV with whatever is relative to the "
+"selected row."
+msgstr ""
+
+#: ../../building.rst:539 ../../devdl.rst:402
+msgid ""
+"Apart from setting the visibility of the various pV, nothing needs be "
+"disabled nor removed: an invisible pV cannot trigger events!"
+msgstr ""
+
+#: ../../building.rst:543
 msgid "bug solving workflow"
 msgstr ""
 
-#: ../../building.rst:29
+#: ../../building.rst:546
 msgid "normal development workflow"
 msgstr ""
 
-#: ../../building.rst:31
+#: ../../building.rst:548
 msgid ""
 "while using the software, you notice a problem, or you get an idea of "
 "something that could be better, you think about it good enough in order "
@@ -175,112 +1066,112 @@ msgid ""
 "open an issue and describe the problem. someone might react with hints."
 msgstr ""
 
-#: ../../building.rst:35
+#: ../../building.rst:552
 msgid "you open the issues site and choose one you want to tackle."
 msgstr ""
 
-#: ../../building.rst:36
+#: ../../building.rst:553
 msgid ""
 "assign the issue to yourself, this way you are informing the world that "
 "you have the intention to work at it. someone might react with hints."
 msgstr ""
 
-#: ../../building.rst:38
+#: ../../building.rst:555
 msgid ""
 "optionally fork the repository in your account and preferably create a "
 "branch, clearly associated to the issue."
 msgstr ""
 
-#: ../../building.rst:40
+#: ../../building.rst:557
 msgid ""
-"write unit tests and commit them to your branch (do not commit failing "
-"unit tests to the ``master`` branch)."
+"write unit tests and commit them to your branch (please do not push "
+"failing unit tests to github, run ``nosetests`` locally first)."
 msgstr ""
 
-#: ../../building.rst:42
+#: ../../building.rst:559
 msgid ""
 "write more unit tests (ideally, the tests form the complete description "
 "of the feature you are adding or correcting)."
 msgstr ""
 
-#: ../../building.rst:44
+#: ../../building.rst:561
 msgid ""
 "make sure the feature you are adding or correcting is really completely "
 "described by the unit tests you wrote."
 msgstr ""
 
-#: ../../building.rst:46
+#: ../../building.rst:563
 msgid ""
 "make sure your unit tests are atomic, that is, that you test variations "
 "on changes along one single variable. do not give complex input to unit "
 "tests or tests that do not fit on one screen (25 lines of code)."
 msgstr ""
 
-#: ../../building.rst:49
+#: ../../building.rst:566
 msgid "write the code that makes your tests succeed."
 msgstr ""
 
-#: ../../building.rst:50
+#: ../../building.rst:567
 msgid "update the i18n files (run ``./scripts/i18n.sh``)."
 msgstr ""
 
-#: ../../building.rst:51
+#: ../../building.rst:568
 msgid ""
 "whenever possible, translate the new strings you put in code or glade "
 "files."
 msgstr ""
 
-#: ../../building.rst:53
+#: ../../building.rst:570
 msgid "commit your changes."
 msgstr ""
 
-#: ../../building.rst:54
+#: ../../building.rst:571
 msgid "push to github."
 msgstr ""
 
-#: ../../building.rst:55
+#: ../../building.rst:572
 msgid "open a pull request."
 msgstr ""
 
-#: ../../building.rst:58
+#: ../../building.rst:575
 msgid "publishing to production"
 msgstr ""
 
-#: ../../building.rst:60
+#: ../../building.rst:577
 msgid ""
-"open the pull request page using as base the production line, compared to"
-" ``master``."
+"open the pull request page using as base a production line ``ghini-x.y``,"
+" compared to ``ghini-x.y-dev``."
 msgstr ""
 
-#: ../../building.rst:62
+#: ../../building.rst:579
 msgid "make sure a ``bump`` commit is included in the differences."
 msgstr ""
 
-#: ../../building.rst:63
+#: ../../building.rst:580
 msgid "it should be possible to automatically merge the branches."
 msgstr ""
 
-#: ../../building.rst:64
+#: ../../building.rst:581
 msgid "create the new pull request, call it as “publish to the production line”."
 msgstr ""
 
-#: ../../building.rst:65
+#: ../../building.rst:582
 msgid "you possibly need wait for travis-ci to perform the checks."
 msgstr ""
 
-#: ../../building.rst:66
+#: ../../building.rst:583
 msgid "merge the changes."
 msgstr ""
 
-#: ../../building.rst:67
+#: ../../building.rst:584
 msgid "tell the world about it: on facebook, the google group, linkedin, ..."
 msgstr ""
 
-#: ../../building.rst:70
+#: ../../building.rst:587
 msgid "closing step"
 msgstr ""
 
-#: ../../building.rst:72
+#: ../../building.rst:589
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
@@ -351,14 +1242,6 @@ msgid ""
 "`ghini.desktop on github <http://www.github.com/Ghini/ghini.desktop>`_."
 msgstr ""
 
-#: ../../devdl.rst:29
-msgid "Development Workflow"
-msgstr ""
-
-#: ../../devdl.rst:32
-msgid "production line"
-msgstr ""
-
 #: ../../devdl.rst:34
 msgid ""
 "A bauble production line is a branch. Currently there is only one "
@@ -385,22 +1268,10 @@ msgid ""
 "production line bauble-1.0."
 msgstr ""
 
-#: ../../devdl.rst:51
-msgid "larger issues"
-msgstr ""
-
 #: ../../devdl.rst:53
 msgid ""
 "When facing a single larger issue, create a branch tag, and follow the "
 "workflow described at"
-msgstr ""
-
-#: ../../devdl.rst:56
-msgid "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
-msgstr ""
-
-#: ../../devdl.rst:58
-msgid "in short::"
 msgstr ""
 
 #: ../../devdl.rst:64
@@ -413,461 +1284,11 @@ msgstr ""
 msgid "when ready for publication, merge master into the production line."
 msgstr ""
 
-#: ../../devdl.rst:70
-msgid "Updating the set of translatable strings"
-msgstr ""
-
-#: ../../devdl.rst:72
-msgid ""
-"From time to time, during the process of updating the software, you will "
-"be adding or modifying strings in the python sources, in the "
-"documentation, in the glade sources. Most of our strings are "
-"translatable, and are offered to weblate for people to contribute, in the"
-" form of several ``.po`` files. These ``po`` files receive contributions "
-"from weblate, and offer lines without translation from new lines of code."
-msgstr ""
-
-#: ../../devdl.rst:79
-msgid ""
-"We have organized the translation of ghini as two separate repositories "
-"in github, each repository being associated to sections of the same "
-"project on weblate. Translation of the software is in ghini.desktop, the "
-"software project, while translation of the documentation —itself part of "
-"the software— is in a separate project, ghini.desktop-docs.i18n."
-msgstr ""
-
-#: ../../devdl.rst:85
-msgid ""
-"To update the ``po`` files relative to the software, you run a script "
-"from the project root dir::"
-msgstr ""
-
-#: ../../devdl.rst:90
-msgid ""
-"This will update your ``po`` files, something you need commit and push to"
-" github."
-msgstr ""
-
 #: ../../devdl.rst:93
 msgid ""
 "To update the ``po`` filese relative to the documentation, you need a up-"
 "to-date checkout of both projects. The root directory of the ghini"
 ".desktop-docs.i18n project contains a script with an all telling name::"
-msgstr ""
-
-#: ../../devdl.rst:102
-msgid "Adding missing unit tests"
-msgstr ""
-
-#: ../../devdl.rst:104
-msgid ""
-"If you are interested contributing to development of Ghini, a good way to"
-" do so would be by helping us finding and writing the missing unit tests."
-msgstr ""
-
-#: ../../devdl.rst:107
-msgid ""
-"A well tested function is one whose behaviour you cannot change without "
-"breaking at least one unit test."
-msgstr ""
-
-#: ../../devdl.rst:110
-msgid ""
-"We all agree that in theory theory and practice match perfectly and that "
-"one first writes the tests, then implements the function. In practice, "
-"however, practice does not match theory and we have been writing tests "
-"after writing and even publishing the functions."
-msgstr ""
-
-#: ../../devdl.rst:115
-msgid ""
-"This section describes the process of adding unit tests for "
-"``bauble.plugins.plants.family.remove_callback``."
-msgstr ""
-
-#: ../../devdl.rst:119
-msgid "What to test"
-msgstr ""
-
-#: ../../devdl.rst:121
-msgid ""
-"First of all, open the coverage report index, and choose a file with low "
-"coverage."
-msgstr ""
-
-#: ../../devdl.rst:124
-msgid ""
-"For this example, run in October 2015, we landed on "
-"``bauble.plugins.plants.family``, at 33%."
-msgstr ""
-
-#: ../../devdl.rst:127
-#, python-format
-msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
-msgstr ""
-
-#: ../../devdl.rst:129
-msgid ""
-"The first two functions which need tests, ``edit_callback`` and "
-"``add_genera_callback``, include creation and activation of an object "
-"relying on a custom dialog box. We should really first write unit tests "
-"for that class, then come back here."
-msgstr ""
-
-#: ../../devdl.rst:134
-msgid ""
-"The next function, ``remove_callback``, also activates a couple of dialog"
-" and message boxes, but in the form of invoking a function requesting "
-"user input via yes-no-ok boxes. These functions we can easily replace "
-"with a function mocking the behaviour."
-msgstr ""
-
-#: ../../devdl.rst:140
-msgid "how to test"
-msgstr ""
-
-#: ../../devdl.rst:142
-msgid ""
-"So, having decided what to describe in unit test, we look at the code and"
-" we see it needs discriminate a couple of cases:"
-msgstr ""
-
-#: ../../devdl.rst:148
-msgid "**parameter correctness**"
-msgstr ""
-
-#: ../../devdl.rst:146
-msgid "the list of families has no elements."
-msgstr ""
-
-#: ../../devdl.rst:147
-msgid "the list of families has more than one element."
-msgstr ""
-
-#: ../../devdl.rst:148
-msgid "the list of families has exactly one element."
-msgstr ""
-
-#: ../../devdl.rst:152
-msgid "**cascade**"
-msgstr ""
-
-#: ../../devdl.rst:151
-msgid "the family has no genera"
-msgstr ""
-
-#: ../../devdl.rst:152
-msgid "the family has one or more genera"
-msgstr ""
-
-#: ../../devdl.rst:156
-msgid "**confirm**"
-msgstr ""
-
-#: ../../devdl.rst:155
-msgid "the user confirms deletion"
-msgstr ""
-
-#: ../../devdl.rst:156
-msgid "the user does not confirm deletion"
-msgstr ""
-
-#: ../../devdl.rst:160
-msgid "**deleting**"
-msgstr ""
-
-#: ../../devdl.rst:159
-msgid "all goes well when deleting the family"
-msgstr ""
-
-#: ../../devdl.rst:160
-msgid "there is some error while deleting the family"
-msgstr ""
-
-#: ../../devdl.rst:162
-msgid ""
-"I decide I will only focus on the **cascade** and the **confirm** "
-"aspects. Two binary questions: 4 cases."
-msgstr ""
-
-#: ../../devdl.rst:166
-msgid "where to put the tests"
-msgstr ""
-
-#: ../../devdl.rst:168
-msgid ""
-"Locate the test script and choose the class where to put the extra unit "
-"tests."
-msgstr ""
-
-#: ../../devdl.rst:170
-#, python-format
-msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
-msgstr ""
-
-#: ../../devdl.rst:172
-msgid ""
-"The ``FamilyTests`` class contains a skipped test, implementing it will "
-"be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
-" separate it from the FamilyEditorView and reconsider what to do with the"
-" FamilyEditor class, which I think should be removed and replaced with a "
-"single function."
-msgstr ""
-
-#: ../../devdl.rst:179
-msgid "writing the tests"
-msgstr ""
-
-#: ../../devdl.rst:181
-msgid ""
-"After the last test in the FamilyTests class, I add the four cases I want"
-" to describe, and I make sure they fail, and since I'm lazy, I write the "
-"most compact code I know for generating an error::"
-msgstr ""
-
-#: ../../devdl.rst:198
-msgid "One test, step by step"
-msgstr ""
-
-#: ../../devdl.rst:200
-msgid "Let's start with the first test case."
-msgstr ""
-
-#: ../../devdl.rst:202
-msgid "When writing tests, I generally follow the pattern:"
-msgstr ""
-
-#: ../../devdl.rst:204
-msgid "T₀ (initial condition),"
-msgstr ""
-
-#: ../../devdl.rst:205
-msgid "action,"
-msgstr ""
-
-#: ../../devdl.rst:206
-msgid "T₁ (testing the result of the action given the initial conditions)"
-msgstr ""
-
-#: ../../devdl.rst:208
-msgid ""
-"There's a reason why unit tests are called unit tests. Please never test "
-"two actions in one test."
-msgstr ""
-
-#: ../../devdl.rst:211
-msgid ""
-"So let's describe T₀ for the first test, a database holding a family "
-"without genera::"
-msgstr ""
-
-#: ../../devdl.rst:219
-msgid ""
-"We do not want the function being tested to invoke the interactive "
-"``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
-" non-interactive replacement function. We achieve this simply by making "
-"``utils.yes_no_dialog`` point to a ``lambda`` expression which, like the "
-"original interactive function, accepts one parameter and returns a "
-"boolean. In this case: ``False``::"
-msgstr ""
-
-#: ../../devdl.rst:237
-msgid "Next we test the result."
-msgstr ""
-
-#: ../../devdl.rst:239
-msgid ""
-"Well, we don't just want to test whether or not the object Arecaceae was "
-"deleted, we also should test the value returned by ``remove_callback``, "
-"and whether ``yes_no_dialog`` and ``message_details_dialog`` were invoked"
-" or not."
-msgstr ""
-
-#: ../../devdl.rst:244
-msgid ""
-"A ``lambda`` expression is not enough for this. We do something "
-"apparently more complex, which will make life a lot easier."
-msgstr ""
-
-#: ../../devdl.rst:247
-msgid "Let's first define a rather generic function::"
-msgstr ""
-
-#: ../../devdl.rst:253
-msgid ""
-"and we grab ``partial`` from the ``functools`` standard module, to "
-"partially apply the above ``mockfunc``, leaving only ``msg`` unspecified,"
-" and use this partial application, which is a function accepting one "
-"parameter and returning a value, to replace the two functions in "
-"``utils``. The test function now looks like this::"
-msgstr ""
-
-#: ../../devdl.rst:275
-msgid ""
-"The test section checks that ``message_details_dialog`` was not invoked, "
-"that ``yes_no_dialog`` was invoked, with the correct message parameter, "
-"that Arecaceae is still there::"
-msgstr ""
-
-#: ../../devdl.rst:291
-msgid "And so on"
-msgstr ""
-
-#: ../../devdl.rst:293
-msgid ""
-"`there are two kinds of people, those who complete what they start, and "
-"so on`"
-msgstr ""
-
-#: ../../devdl.rst:296
-msgid ""
-"Next test is almost the same, with the difference that the "
-"``utils.yes_no_dialog`` should return ``True`` (this we achieve by "
-"specifying ``result=True`` in the partial application of the generic "
-"``mockfunc``)."
-msgstr ""
-
-#: ../../devdl.rst:301
-msgid ""
-"With this action, the value returned by ``remove_callback`` should be "
-"``True``, and there should be no Arecaceae Family in the database any "
-"more::"
-msgstr ""
-
-#: ../../devdl.rst:331
-msgid ""
-"have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
-"other two test functions."
-msgstr ""
-
-#: ../../devdl.rst:335
-msgid "Putting all together"
-msgstr ""
-
-#: ../../devdl.rst:337
-msgid "From time to time you want to activate the test class you're working at::"
-msgstr ""
-
-#: ../../devdl.rst:341
-msgid "And at the end of the process you want to update the statistics::"
-msgstr ""
-
-#: ../../devdl.rst:347
-msgid "Plugins structure"
-msgstr ""
-
-#: ../../devdl.rst:349
-msgid ""
-"Ghini is a framework for handling collections, and is distributed along "
-"with a set of plugins making Ghini a botanical collection manager. But "
-"Ghini stays a framework and you could in theory remove all plugins we "
-"distribute and write your own, or write your own plugins that extend or "
-"complete the current Ghini behaviour."
-msgstr ""
-
-#: ../../devdl.rst:355
-msgid ""
-"Once you have selected and opened a database connection, you land in the "
-"Search window. The Search window is an interaction between two objects: "
-"SearchPresenter (SP) and SearchView (SV)."
-msgstr ""
-
-#: ../../devdl.rst:359
-msgid ""
-"SV is what you see, SP holds the program status and handles the requests "
-"you express through SV. Handling these requests affect the content of SV "
-"and the program status in SP."
-msgstr ""
-
-#: ../../devdl.rst:363
-msgid ""
-"The search results shown in the largest part of SV are rows, objects that"
-" are instances of classes registered in a plugin."
-msgstr ""
-
-#: ../../devdl.rst:366
-msgid ""
-"Each of these classes must implement an amount of functions in order to "
-"properly behave within the Ghini framework. The Ghini framework reserves "
-"space to pluggable classes."
-msgstr ""
-
-#: ../../devdl.rst:370
-msgid ""
-"SP knows of all registered (plugged in) classes, they are stored in a "
-"dictionary, associating a class to its plugin implementation.  SV has a "
-"slot (a gtk.Box) where you can add elements. At any time, at most only "
-"one element in the slot is visible."
-msgstr ""
-
-#: ../../devdl.rst:375
-msgid ""
-"A plugin defines one or more plugin classes. A plugin class plays the "
-"role of a partial presenter (pP - plugin presenter) as it implement the "
-"callbacks needed by the associated partial view fitting in the slot (pV -"
-" plugin view), and the MVP pattern is completed by the parent presenter "
-"(SP), again acting as model. To summarize and complete:"
-msgstr ""
-
-#: ../../devdl.rst:381
-msgid "SP acts as model,"
-msgstr ""
-
-#: ../../devdl.rst:382
-msgid "the pV partial view is defined in a glade file."
-msgstr ""
-
-#: ../../devdl.rst:383
-msgid "the callbacks implemented by pP are referenced by the glade file."
-msgstr ""
-
-#: ../../devdl.rst:384
-msgid "a context menu for the SP row,"
-msgstr ""
-
-#: ../../devdl.rst:385
-msgid "a children property."
-msgstr ""
-
-#: ../../devdl.rst:387
-msgid "when you register a plugin class, the SP:"
-msgstr ""
-
-#: ../../devdl.rst:389
-msgid "adds the pV in the slot and makes it non-visible."
-msgstr ""
-
-#: ../../devdl.rst:390
-msgid "adds an instance of pP in the registered plugin classes."
-msgstr ""
-
-#: ../../devdl.rst:391
-msgid "tells the pP that the SP is the model."
-msgstr ""
-
-#: ../../devdl.rst:392
-msgid "connects all callbacks from pV to pP."
-msgstr ""
-
-#: ../../devdl.rst:394
-msgid ""
-"when an element in pV triggers an action in pP, the pP can forward the "
-"action to SP and can request SP that it updates the model and refreshes "
-"the view."
-msgstr ""
-
-#: ../../devdl.rst:398
-msgid ""
-"When the user selects a row in SP, SP hides everything in the pluggable "
-"slot and shows only the single pV relative to the type of the selected "
-"row, and asks the pP to refresh the pV with whatever is relative to the "
-"selected row."
-msgstr ""
-
-#: ../../devdl.rst:402
-msgid ""
-"Apart from setting the visibility of the various pV, nothing needs be "
-"disabled nor removed: an invisible pV cannot trigger events!"
 msgstr ""
 
 #: ../../editing.rst:4
@@ -927,7 +1348,7 @@ msgid ""
 "selected item does not have any notes."
 msgstr ""
 
-#: ../../editing.rst:39
+#: ../../editing.rst:39 ../../searching.rst:44
 msgid "Family"
 msgstr ""
 
@@ -979,7 +1400,7 @@ msgid ""
 "opens a new blank family editor."
 msgstr ""
 
-#: ../../editing.rst:69
+#: ../../editing.rst:69 ../../searching.rst:45
 msgid "Genus"
 msgstr ""
 
@@ -1093,7 +1514,7 @@ msgid ""
 "either a Collection or a Donation."
 msgstr ""
 
-#: ../../editing.rst:143
+#: ../../editing.rst:143 ../../searching.rst:53
 msgid "Collection"
 msgstr ""
 
@@ -1109,7 +1530,7 @@ msgstr ""
 msgid "A Donation."
 msgstr ""
 
-#: ../../editing.rst:154
+#: ../../editing.rst:154 ../../searching.rst:50
 msgid "Plant"
 msgstr ""
 
@@ -1208,10 +1629,6 @@ msgid ""
 "spelling mistakes or implement policy changes."
 msgstr ""
 
-#: ../../extending.rst:2
-msgid "Structure of user interface"
-msgstr ""
-
 #: ../../extending.rst:4
 msgid ""
 "The user interface is built according to the Model-View-Presenter "
@@ -1247,20 +1664,6 @@ msgid ""
 "model attribute,"
 msgstr ""
 
-#: ../../extending.rst:24
-msgid ""
-"``view_accept_buttons``, the list of widget names which, if activated by "
-"the user, mean that the view should be closed,"
-msgstr ""
-
-#: ../../extending.rst:26
-msgid "all needed callbacks,"
-msgstr ""
-
-#: ../../extending.rst:27
-msgid "optionally, it plays the **model** role, too."
-msgstr ""
-
 #: ../../extending.rst:29
 msgid ""
 "A well behaved **presenter** uses the **view** api to query the values "
@@ -1281,45 +1684,14 @@ msgid ""
 "``bauble.editor``, implements many useful generic callbacks."
 msgstr ""
 
-#: ../../extending.rst:39
-msgid ""
-"We use the same architectural pattern for non-database interaction, by "
-"setting the presenter also as model. We do this, for example, for the "
-"JSON export dialog box. The following command will give you a list of "
-"``GenericEditorView`` instantiations::"
-msgstr ""
-
 #: ../../extending.rst:46
 msgid ""
 "An other good example of Presenter/View pattern (no model) is given by "
 "the connection manager."
 msgstr ""
 
-#: ../../extending.rst:50
-msgid "Extending Ghini with Plugins"
-msgstr ""
-
-#: ../../extending.rst:52
-msgid ""
-"Nearly everything about Ghini is extensible through plugins. Plugins can "
-"create tables, define custom searchs, add menu items, create custom "
-"commands and more."
-msgstr ""
-
-#: ../../extending.rst:56
-msgid ""
-"To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
-"class."
-msgstr ""
-
-#: ../../extending.rst:59
-msgid ""
-"The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
-"falls outside the Model-View-Presenter architectural pattern."
-msgstr ""
-
 #: ../../goal.rst:2
-msgid "Ghini's goal"
+msgid "Ghini's goals and highlights"
 msgstr ""
 
 #: ../../goal.rst:4
@@ -1383,7 +1755,7 @@ msgid ""
 "physical space and the dynamic of a botanic garden."
 msgstr ""
 
-#: ../../goal.rst:45
+#: ../../goal.rst:45 ../../searching.rst:158
 msgid "**core structure of Ghini's database**"
 msgstr ""
 
@@ -1416,20 +1788,23 @@ msgstr ""
 
 #: ../../goal.rst:64
 msgid ""
-"An ``Accession`` may be obtained from an external ``Contact``, or be the "
-"result of a garden ``Propagation``.  This information is optional.  A "
-"successful ``Propagation`` trial can only result in one accession (0..1),"
-" while a ``Contact`` may provide multiple ``Accessions`` (0..n)."
+"``Propagations`` and ``Contacts`` provide plant material for the garden; "
+"this information is optional and smaller collectors might prefer to leave"
+" this aside. A ``Propagation`` trial may be unsuccessful, most of the "
+"time it will result in exactly one accession, but it may also produce "
+"slightly different taxa, so the database allows for zero  or more "
+"``Accessions`` per ``Propagation`` (0..n). Also a ``Contact`` may provide"
+" zero or more ``Accessions`` (0..n)."
 msgstr ""
 
-#: ../../goal.rst:69
+#: ../../goal.rst:71
 msgid ""
 "Specialists may formulate their opinion about the ``Species`` to which an"
 " ``Accession`` belongs, by providing a ``Verification``, signing it, and "
 "stating the applicable level of confidence."
 msgstr ""
 
-#: ../../goal.rst:73
+#: ../../goal.rst:75
 msgid ""
 "If an ``Accession`` was obtained in the garden nursery from a successful "
 "``Propagation``, the ``Propagation`` links the ``Accession`` and all of "
@@ -1437,7 +1812,7 @@ msgid ""
 "vegetative parent."
 msgstr ""
 
-#: ../../goal.rst:78
+#: ../../goal.rst:80
 msgid ""
 "Even after the above explanation, new users generally still ask why they "
 "need pass through an ``Accession`` screen while all they want is to "
@@ -1451,25 +1826,26 @@ msgstr ""
 msgid "use case"
 msgstr ""
 
-#: ../../goal.rst:85
+#: ../../goal.rst:87
 msgid ""
 "At the beginning of 2007 we got five seedlings of *Heliconia longa* (a "
 "plant ``Species``) from our neighbour (the ``Contact`` source). Since it "
 "was the first acquisition of the year, we named them 2007.0001 (we gave "
-"them a single unique ``Accession`` code) and we planted them all together"
-" at one ``Location`` as a single ``Planting`` with quantity 5."
+"them a single unique ``Accession`` code, with quantity 5) and we planted "
+"them all together at one ``Location`` as a single ``Planting``, also with"
+" quantity 5."
 msgstr ""
 
-#: ../../goal.rst:92
+#: ../../goal.rst:95
 msgid ""
 "At the time of writing, nine years later, ``Accession`` 2007.0001 has 6 "
 "distinct ``Plantings``, each at a different ``Locations`` in our garden, "
 "obtained vegetatively (asexually) from the original 5 plants. Our only "
 "intervention was splitting, moving, and of course writing this "
-"information in the database."
+"information in the database. Total plant quantity is above 40."
 msgstr ""
 
-#: ../../goal.rst:99
+#: ../../goal.rst:102
 msgid ""
 "New ``Plantings`` obtained by (assisted) sexual ``Propagation`` come in "
 "our database under different ``Accession`` codes, where our garden is the"
@@ -1477,11 +1853,11 @@ msgid ""
 "seed parent."
 msgstr ""
 
-#: ../../goal.rst:104
+#: ../../goal.rst:107
 msgid "the above three cases translate into several short usage stories:"
 msgstr ""
 
-#: ../../goal.rst:106
+#: ../../goal.rst:109
 msgid ""
 "activate the menu Insert → Accession, verify the existence and "
 "correctness of the ``Species`` *Heliconia longa*, specify the initial "
@@ -1489,34 +1865,34 @@ msgid ""
 "``Location``."
 msgstr ""
 
-#: ../../goal.rst:110
+#: ../../goal.rst:113
 msgid ""
 "edit ``Planting`` to correct the amount of living plants — repeat this as"
 " often as necessary."
 msgstr ""
 
-#: ../../goal.rst:112
+#: ../../goal.rst:115
 msgid ""
 "edit ``Planting`` to split it at separate ``Locations`` — this produces a"
 " different ``Planting`` under the same ``Accession``."
 msgstr ""
 
-#: ../../goal.rst:114
+#: ../../goal.rst:117
 msgid "edit ``Planting`` to add a (seed) ``Propagation``."
 msgstr ""
 
-#: ../../goal.rst:115
+#: ../../goal.rst:118
 msgid "edit ``Planting`` to update the status of the ``Propagation``."
 msgstr ""
 
-#: ../../goal.rst:116
+#: ../../goal.rst:119
 msgid ""
 "activate the menu Insert → Accession to associate an accession to a "
 "successful ``Propagation`` trial; add the ``Planting`` at the desired "
 "``Location``."
 msgstr ""
 
-#: ../../goal.rst:120
+#: ../../goal.rst:123
 msgid ""
 "In particular the ability to split a ``Planting`` at several different "
 "``Locations`` and to keep all uniformly associated to one ``Species``, or"
@@ -1525,8 +1901,219 @@ msgid ""
 "``Accession`` abstraction level."
 msgstr ""
 
-#: ../../goal.rst:128
+#: ../../goal.rst:131
 msgid "Our User Stories section contains details about the above, and more."
+msgstr ""
+
+#: ../../goal.rst:136 ../../peptalk.rst:2
+msgid "Highlights"
+msgstr ""
+
+#: ../../goal.rst:137 ../../peptalk.rst:3
+msgid "not-so-brief list of highlights, meant to whet your appetite."
+msgstr ""
+
+#: ../../goal.rst:140 ../../peptalk.rst:6
+msgid "taxonomic information"
+msgstr ""
+
+#: ../../goal.rst:142 ../../peptalk.rst:8
+msgid ""
+"When you first start Ghini, and connect to a database, Ghini will "
+"initialize the database not only with all tables it needs to run, but it "
+"will also populate the taxon tables for ranks family and genus, using the"
+" data from the “RBG Kew's Family and Genera list from Vascular Plant "
+"Families and Genera compiled by R. K. Brummitt and published by the Royal"
+" Botanic Gardens, Kew in 1992”.  In 2015 we have reviewed the data "
+"regarding the Orchidaceae, using “Tropicos, botanical information system "
+"at the Missouri Botanical Garden - www.tropicos.org” as a source."
+msgstr ""
+
+#: ../../goal.rst:152 ../../peptalk.rst:18
+msgid "importing data"
+msgstr ""
+
+#: ../../goal.rst:154 ../../peptalk.rst:20
+msgid ""
+"Ghini will let you import any data you put in an intermediate json "
+"format. What you import will complete what you already have in the "
+"database. If you need help, you can ask some Ghini professional to help "
+"you transform your data into Ghini's intermediate json format."
+msgstr ""
+
+#: ../../goal.rst:160 ../../peptalk.rst:26
+msgid "synonyms"
+msgstr ""
+
+#: ../../goal.rst:162 ../../peptalk.rst:28
+msgid ""
+"Ghini will allow you define synonyms for species, genera, families. Also "
+"this information can be represented in its intermediate json format and "
+"be imported in an existing Ghini database."
+msgstr ""
+
+#: ../../goal.rst:167 ../../peptalk.rst:33
+msgid "scientific responsible"
+msgstr ""
+
+#: ../../goal.rst:169 ../../peptalk.rst:35
+msgid ""
+"Ghini implements the concept of 'accession', intermediate between "
+"physical plant (or a group thereof) and abstract taxon. Each accession "
+"can associate the same plants to different taxa, if two taxonomists do "
+"not agree on the identification: each taxonomist can have their say and "
+"do not need overwrite each other's work. All verifications can be found "
+"back in the database, with timestamp and signature."
+msgstr ""
+
+#: ../../goal.rst:177 ../../peptalk.rst:43
+msgid "helps off-line identification"
+msgstr ""
+
+#: ../../goal.rst:179 ../../peptalk.rst:45
+msgid ""
+"Ghini allows you associate pictures to physical plants, this can help "
+"recognize the plant in case a sticker is lost, or help taxonomic "
+"identification if a taxonomist is not available at all times."
+msgstr ""
+
+#: ../../goal.rst:184 ../../peptalk.rst:50
+msgid "exports and reports"
+msgstr ""
+
+#: ../../goal.rst:186 ../../peptalk.rst:52
+msgid ""
+"Ghini will let you export a report in whatever textual format you need. "
+"It uses a powerful templating engine named 'mako', which will allow you "
+"export the data in a selection to whatever format you need. Once "
+"installed, a couple of examples are available in the mako subdirectory."
+msgstr ""
+
+#: ../../goal.rst:192 ../../peptalk.rst:58
+msgid "annotate your info"
+msgstr ""
+
+#: ../../goal.rst:194 ../../peptalk.rst:60
+msgid ""
+"You can associate notes to plants, accessions, species, .... Notes can be"
+" categorized and used in searches or reports."
+msgstr ""
+
+#: ../../goal.rst:198 ../../peptalk.rst:64
+msgid "garden or herbarium"
+msgstr ""
+
+#: ../../goal.rst:200 ../../peptalk.rst:66
+msgid "Management of plant locations."
+msgstr ""
+
+#: ../../goal.rst:203 ../../peptalk.rst:69
+msgid "database history"
+msgstr ""
+
+#: ../../goal.rst:205 ../../peptalk.rst:71
+msgid ""
+"All changes in the database is stored in the database, as history log. "
+"All changes are 'signed' and time-stamped.  Ghini makes it easy to "
+"retrieve the list of all changes in the last working day or week, or in "
+"any specific period in the past."
+msgstr ""
+
+#: ../../goal.rst:211 ../../peptalk.rst:77
+msgid "simple and powerful search"
+msgstr ""
+
+#: ../../goal.rst:213 ../../peptalk.rst:79
+msgid ""
+"Ghini allows you search the database using simple keywords, e.g.: the "
+"name of the location or a genus name, or you can write more complex "
+"queries, which do not reach the complexity of SQL but allow you a decent "
+"level of detail localizing your data."
+msgstr ""
+
+#: ../../goal.rst:219 ../../peptalk.rst:85
+msgid "database agnostic"
+msgstr ""
+
+#: ../../goal.rst:221 ../../peptalk.rst:87
+msgid ""
+"Ghini is not a database management system, so it does not reinvent the "
+"wheel. It works storing its data in a SQL database, and it will connect "
+"to any database management system which accepts a SQLAlchemy connector. "
+"This means any reasonably modern database system and includes MySQL, "
+"PostgreSQL, Oracle. It can also work with sqlite, which, for single user "
+"purposes is quite sufficient and efficient. If you connect Ghini to a "
+"real database system, you can consider making the database part of a LAMP"
+" system (Linux-Apache-MySQL-Php) and include your live data on your "
+"institution web site."
+msgstr ""
+
+#: ../../goal.rst:232 ../../peptalk.rst:98
+msgid "language agnostic"
+msgstr ""
+
+#: ../../goal.rst:234 ../../peptalk.rst:100
+msgid ""
+"The program was born in English and all its technical and user "
+"documentation is still only in that language, but the program itself has "
+"been translated and can be used in various other languages, including "
+"Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
+"American languages, as well as Swedish (100%) and Czech (100%)."
+msgstr ""
+
+#: ../../goal.rst:241 ../../peptalk.rst:107
+msgid "platform agnostic"
+msgstr ""
+
+#: ../../goal.rst:243 ../../peptalk.rst:109
+msgid ""
+"Installing Ghini on Windows is an easy and linear process, it will not "
+"take longer than 10 minutes. Ghini was born on Linux and installing it on"
+" ubuntu, fedora or debian is consequently even easier. MacOSX being based"
+" on unix, it is possible to successfully run the Linux installation "
+"procedure on any recent Apple computer, after a few preparation steps."
+msgstr ""
+
+#: ../../goal.rst:250 ../../peptalk.rst:116
+msgid "easily updated"
+msgstr ""
+
+#: ../../goal.rst:252 ../../peptalk.rst:118
+msgid ""
+"The installation process will produce an updatable installation, where "
+"updating it will take less than one minute. Depending on the amount of "
+"feedback we receive, we will produce updates every few days or once in a "
+"while."
+msgstr ""
+
+#: ../../goal.rst:258 ../../peptalk.rst:124
+msgid "unit tested"
+msgstr ""
+
+#: ../../goal.rst:260 ../../peptalk.rst:126
+msgid ""
+"Ghini is continuously and extensively unit tested, something that makes "
+"regression of functionality close to impossible. Every update is "
+"automatically quality checked, on the Travis Continuous Integration "
+"service. Integration of TravisCI with the github platform will make it "
+"difficult for us to release anything which has a single failing unit "
+"test."
+msgstr ""
+
+#: ../../goal.rst:266 ../../peptalk.rst:132
+msgid ""
+"Most changes and additions we make, come with some extra unit test, which"
+" defines the behaviour and will make any undesired change easily visible."
+msgstr ""
+
+#: ../../goal.rst:270 ../../peptalk.rst:136
+msgid "customizable/extensible"
+msgstr ""
+
+#: ../../goal.rst:272 ../../peptalk.rst:138
+msgid ""
+"Ghini is extensible through plugins and can be customized to suit the "
+"needs of the institution."
 msgstr ""
 
 #: ../../imex.rst:2
@@ -1666,31 +2253,31 @@ msgid ""
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 msgstr ""
 
-#: ../../index.rst:17 ../../statements.rst:2
+#: ../../index.rst:17
 msgid "Statements"
 msgstr ""
 
-#: ../../index.rst:27
+#: ../../index.rst:26
 msgid "Installing Ghini"
 msgstr ""
 
-#: ../../index.rst:36
+#: ../../index.rst:35
 msgid "Using Ghini"
 msgstr ""
 
-#: ../../index.rst:52
+#: ../../index.rst:51
 msgid "Administration"
 msgstr ""
 
-#: ../../index.rst:61
+#: ../../index.rst:60
 msgid "Ghini Development"
 msgstr ""
 
-#: ../../index.rst:72
+#: ../../index.rst:69
 msgid "Supporting Ghini"
 msgstr ""
 
-#: ../../index.rst:76
+#: ../../index.rst:73
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
@@ -1780,8 +2367,8 @@ msgstr ""
 
 #: ../../installing.rst:64
 msgid ""
-"The same script you can use to switch to a different production line, but"
-" at the moment there's only `ghini-1.0`."
+"The same script you can use to switch to a different production line. At "
+"the moment it's just `ghini-1.0` and `ghini-1.1`."
 msgstr ""
 
 #: ../../installing.rst:67
@@ -2191,217 +2778,6 @@ msgid ""
 "to."
 msgstr ""
 
-#: ../../peptalk.rst:2
-msgid "Highlights"
-msgstr ""
-
-#: ../../peptalk.rst:3
-msgid "not-so-brief list of highlights, meant to whet your appetite."
-msgstr ""
-
-#: ../../peptalk.rst:6
-msgid "taxonomic information"
-msgstr ""
-
-#: ../../peptalk.rst:8
-msgid ""
-"When you first start Ghini, and connect to a database, Ghini will "
-"initialize the database not only with all tables it needs to run, but it "
-"will also populate the taxon tables for ranks family and genus, using the"
-" data from the “RBG Kew's Family and Genera list from Vascular Plant "
-"Families and Genera compiled by R. K. Brummitt and published by the Royal"
-" Botanic Gardens, Kew in 1992”.  In 2015 we have reviewed the data "
-"regarding the Orchidaceae, using “Tropicos, botanical information system "
-"at the Missouri Botanical Garden - www.tropicos.org” as a source."
-msgstr ""
-
-#: ../../peptalk.rst:18
-msgid "importing data"
-msgstr ""
-
-#: ../../peptalk.rst:20
-msgid ""
-"Ghini will let you import any data you put in an intermediate json "
-"format. What you import will complete what you already have in the "
-"database. If you need help, you can ask some Ghini professional to help "
-"you transform your data into Ghini's intermediate json format."
-msgstr ""
-
-#: ../../peptalk.rst:26
-msgid "synonyms"
-msgstr ""
-
-#: ../../peptalk.rst:28
-msgid ""
-"Ghini will allow you define synonyms for species, genera, families. Also "
-"this information can be represented in its intermediate json format and "
-"be imported in an existing Ghini database."
-msgstr ""
-
-#: ../../peptalk.rst:33
-msgid "scientific responsible"
-msgstr ""
-
-#: ../../peptalk.rst:35
-msgid ""
-"Ghini implements the concept of 'accession', intermediate between "
-"physical plant (or a group thereof) and abstract taxon. Each accession "
-"can associate the same plants to different taxa, if two taxonomists do "
-"not agree on the identification: each taxonomist can have their say and "
-"do not need overwrite each other's work. All verifications can be found "
-"back in the database, with timestamp and signature."
-msgstr ""
-
-#: ../../peptalk.rst:43
-msgid "helps off-line identification"
-msgstr ""
-
-#: ../../peptalk.rst:45
-msgid ""
-"Ghini allows you associate pictures to physical plants, this can help "
-"recognize the plant in case a sticker is lost, or help taxonomic "
-"identification if a taxonomist is not available at all times."
-msgstr ""
-
-#: ../../peptalk.rst:50
-msgid "exports and reports"
-msgstr ""
-
-#: ../../peptalk.rst:52
-msgid ""
-"Ghini will let you export a report in whatever textual format you need. "
-"It uses a powerful templating engine named 'mako', which will allow you "
-"export the data in a selection to whatever format you need. Once "
-"installed, a couple of examples are available in the mako subdirectory."
-msgstr ""
-
-#: ../../peptalk.rst:58
-msgid "annotate your info"
-msgstr ""
-
-#: ../../peptalk.rst:60
-msgid ""
-"You can associate notes to plants, accessions, species, .... Notes can be"
-" categorized and used in searches or reports."
-msgstr ""
-
-#: ../../peptalk.rst:64
-msgid "garden or herbarium"
-msgstr ""
-
-#: ../../peptalk.rst:66
-msgid "Management of plant locations."
-msgstr ""
-
-#: ../../peptalk.rst:69
-msgid "database history"
-msgstr ""
-
-#: ../../peptalk.rst:71
-msgid ""
-"All changes in the database is stored in the database, as history log. "
-"All changes are 'signed' and time-stamped.  Ghini makes it easy to "
-"retrieve the list of all changes in the last working day or week, or in "
-"any specific period in the past."
-msgstr ""
-
-#: ../../peptalk.rst:77
-msgid "simple and powerful search"
-msgstr ""
-
-#: ../../peptalk.rst:79
-msgid ""
-"Ghini allows you search the database using simple keywords, e.g.: the "
-"name of the location or a genus name, or you can write more complex "
-"queries, which do not reach the complexity of SQL but allow you a decent "
-"level of detail localizing your data."
-msgstr ""
-
-#: ../../peptalk.rst:85
-msgid "database agnostic"
-msgstr ""
-
-#: ../../peptalk.rst:87
-msgid ""
-"Ghini is not a database management system, so it does not reinvent the "
-"wheel. It works storing its data in a SQL database, and it will connect "
-"to any database management system which accepts a SQLAlchemy connector. "
-"This means any reasonably modern database system and includes MySQL, "
-"PostgreSQL, Oracle. It can also work with sqlite, which, for single user "
-"purposes is quite sufficient and efficient. If you connect Ghini to a "
-"real database system, you can consider making the database part of a LAMP"
-" system (Linux-Apache-MySQL-Php) and include your live data on your "
-"institution web site."
-msgstr ""
-
-#: ../../peptalk.rst:98
-msgid "language agnostic"
-msgstr ""
-
-#: ../../peptalk.rst:100
-msgid ""
-"The program was born in English and all its technical and user "
-"documentation is still only in that language, but the program itself has "
-"been translated and can be used in various other languages, including "
-"Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
-"American languages, as well as Swedish (100%) and Czech (100%)."
-msgstr ""
-
-#: ../../peptalk.rst:107
-msgid "platform agnostic"
-msgstr ""
-
-#: ../../peptalk.rst:109
-msgid ""
-"Installing Ghini on Windows is an easy and linear process, it will not "
-"take longer than 10 minutes. Ghini was born on Linux and installing it on"
-" ubuntu, fedora or debian is consequently even easier. MacOSX being based"
-" on unix, it is possible to successfully run the Linux installation "
-"procedure on any recent Apple computer, after a few preparation steps."
-msgstr ""
-
-#: ../../peptalk.rst:116
-msgid "easily updated"
-msgstr ""
-
-#: ../../peptalk.rst:118
-msgid ""
-"The installation process will produce an updatable installation, where "
-"updating it will take less than one minute. Depending on the amount of "
-"feedback we receive, we will produce updates every few days or once in a "
-"while."
-msgstr ""
-
-#: ../../peptalk.rst:124
-msgid "unit tested"
-msgstr ""
-
-#: ../../peptalk.rst:126
-msgid ""
-"Ghini is continuously and extensively unit tested, something that makes "
-"regression of functionality close to impossible. Every update is "
-"automatically quality checked, on the Travis Continuous Integration "
-"service. Integration of TravisCI with the github platform will make it "
-"difficult for us to release anything which has a single failing unit "
-"test."
-msgstr ""
-
-#: ../../peptalk.rst:132
-msgid ""
-"Most changes and additions we make, come with some extra unit test, which"
-" defines the behaviour and will make any undesired change easily visible."
-msgstr ""
-
-#: ../../peptalk.rst:136
-msgid "customizable/extensible"
-msgstr ""
-
-#: ../../peptalk.rst:138
-msgid ""
-"Ghini is extensible through plugins and can be customized to suit the "
-"needs of the institution."
-msgstr ""
-
 #: ../../propagations.rst:4
 msgid "Dealing with Propagations"
 msgstr ""
@@ -2641,22 +3017,29 @@ msgid "Search Strategies"
 msgstr ""
 
 #: ../../searching.rst:15
-msgid ""
-"Three are three types of search strategies available in Ghini. "
-"Considering the search stragety types available in Ghini, sorted in "
-"increasing complexity: you can search by value, expression or query."
+msgid "Ghini offers four distinct search strategies:"
+msgstr ""
+
+#: ../../searching.rst:17
+msgid "by value — in all domains;"
+msgstr ""
+
+#: ../../searching.rst:18
+msgid "by expression — in a few implicit fields in one explicit domain;"
 msgstr ""
 
 #: ../../searching.rst:19
-msgid ""
-"Searching by query, the most complex and powerful, is assisted by the "
-"Query Builder, described below."
+msgid "by query — in one domain;"
+msgstr ""
+
+#: ../../searching.rst:20
+msgid "by binomial name — only searches the Species domain."
 msgstr ""
 
 #: ../../searching.rst:22
 msgid ""
-"All searches are case insensitive so searching for Maxillaria and "
-"maxillaria will return the same results."
+"All search strategies —with the notable exception of the binomial name "
+"search— are case insensitive."
 msgstr ""
 
 #: ../../searching.rst:27
@@ -2665,204 +3048,393 @@ msgstr ""
 
 #: ../../searching.rst:29
 msgid ""
-"Search by value is the simplest way to search. You just type in a string "
-"and see what matches. Which fields/columns are search for your string "
-"depends on how the different plugins are configured. For example, by "
-"default the PlantPlugin search the family name, the genus name, the "
-"species and infraspecific species names, vernacular names and geography. "
-"So if you want to search in the notes field of any of these types then "
-"searching by value is not the search you're looking for."
+"Search by value is the simplest way to search. You enter one or more "
+"strings and see what matches. The result includes objects of any type "
+"(domain) where one or more of its fields contain one or more of the "
+"search strings."
 msgstr ""
 
-#: ../../searching.rst:38
+#: ../../searching.rst:33
 msgid ""
-"Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
-"2003.2.1"
+"You don't specify the search domain, all are included, nor do you "
+"indicate which fields you want to match, this is implicit in the search "
+"domain."
 msgstr ""
 
-#: ../../searching.rst:41
+#: ../../searching.rst:36
 msgid ""
-"Search string are separated by spaces. For example if you enter the "
-"search string ``Block 10`` then Ghini will search for the strings Block "
-"and 10 and return all the results that match either of these strings. If "
-"you want to search for Block 10 as a while string then you should quote "
-"the string like ``\"Block 10\"``."
+"The following table helps you understand the results and guides you in "
+"formulating your searches."
+msgstr ""
+
+#: ../../searching.rst:40
+msgid "search domain overview"
+msgstr ""
+
+#: ../../searching.rst:42
+msgid "name and shorthands"
+msgstr ""
+
+#: ../../searching.rst:42
+msgid "field"
+msgstr ""
+
+#: ../../searching.rst:42
+msgid "result type"
+msgstr ""
+
+#: ../../searching.rst:44
+msgid "family, fam"
+msgstr ""
+
+#: ../../searching.rst:44
+msgid "epithet (family)"
+msgstr ""
+
+#: ../../searching.rst:45
+msgid "genus, gen"
+msgstr ""
+
+#: ../../searching.rst:45
+msgid "epithet (genus)"
+msgstr ""
+
+#: ../../searching.rst:46
+msgid "species, sp"
+msgstr ""
+
+#: ../../searching.rst:46
+msgid "epithet (sp) **×**"
+msgstr ""
+
+#: ../../searching.rst:46 ../../searching.rst:47
+msgid "Species"
+msgstr ""
+
+#: ../../searching.rst:47
+msgid "vernacular, common, vern"
+msgstr ""
+
+#: ../../searching.rst:47 ../../searching.rst:48 ../../searching.rst:52
+#: ../../searching.rst:54
+msgid "name"
+msgstr ""
+
+#: ../../searching.rst:48
+msgid "geography, geo"
+msgstr ""
+
+#: ../../searching.rst:48
+msgid "Geography"
 msgstr ""
 
 #: ../../searching.rst:49
-msgid "Search by Expression"
+msgid "accession, acc"
+msgstr ""
+
+#: ../../searching.rst:49
+msgid "code"
+msgstr ""
+
+#: ../../searching.rst:49
+msgid "Accession"
+msgstr ""
+
+#: ../../searching.rst:50
+msgid "planting, plant"
+msgstr ""
+
+#: ../../searching.rst:50
+msgid "code **×**"
 msgstr ""
 
 #: ../../searching.rst:51
-msgid ""
-"Searching with expression gives you a little more control over what you "
-"are searching for. It can narrow the search down to a specific domain. "
-"Expression consist of a domain, an operator and a value. For example the "
-"search: ``gen=Maxillaria`` would return all the genera that match the "
-"name Maxillaria. In this case the domain is gen, the operator is = and "
-"the value is Maxillaria."
+msgid "location, loc"
 msgstr ""
 
-#: ../../searching.rst:58
+#: ../../searching.rst:51
+msgid "code, name"
+msgstr ""
+
+#: ../../searching.rst:51
+msgid "Location"
+msgstr ""
+
+#: ../../searching.rst:52
+msgid "contact, person, org, source"
+msgstr ""
+
+#: ../../searching.rst:52
+msgid "Contact"
+msgstr ""
+
+#: ../../searching.rst:53
+msgid "collection, col, coll"
+msgstr ""
+
+#: ../../searching.rst:53
+msgid "locale"
+msgstr ""
+
+#: ../../searching.rst:54
+msgid "tag, tags"
+msgstr ""
+
+#: ../../searching.rst:54
+msgid "Tag"
+msgstr ""
+
+#: ../../searching.rst:57
 msgid ""
-"The search string ``gen like max%`` would return all the genera whose "
-"names start with \"Max\". In this case the domain again is gen, the "
-"operator is like, which allows for \"fuzzy\" searching and the value is "
-"max%. The percent sign is used as a wild card so if you search for max% "
-"then it search for all value that start with max. If you search for %max "
-"it searches for all values that end in max. The string %max%a would "
-"search for all value that contain max and end in a."
+"Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
+"2003.2.1, indica."
+msgstr ""
+
+#: ../../searching.rst:60
+msgid ""
+"Unless explicitly quoted, spaces separate search strings. For example if "
+"you search for ``Block 10`` then Ghini will search for the strings Block "
+"and 10 and return all the results that match either of these strings. If "
+"you want to search for Block 10 as one whole string then you should quote"
+" the string like ``\"Block 10\"``."
 msgstr ""
 
 #: ../../searching.rst:66
-msgid ""
-"For more information about the different search domain and their short-"
-"hand aliases, see search-domains_ ."
+msgid "× Composite Primary Keys"
 msgstr ""
 
 #: ../../searching.rst:69
 msgid ""
-"If expression are invalid they are usually used as search by value "
-"searchs. For example the search string ``gen=`` will execute a search by "
-"value for the string gen and the search string ``gen like`` will search "
-"for the string gen and the string like."
+"A **species** epithet means little without the corresponding genus, "
+"likewise a **planting** code is unique only within the accession to which"
+" it belongs.  In database theory terminology, epithet and code are not "
+"sufficient to form a **primary key** for respectively species and "
+"planting. These domains need a **composite** primary key."
 msgstr ""
 
 #: ../../searching.rst:76
-msgid "Search by Query"
-msgstr ""
-
-#: ../../searching.rst:78
 msgid ""
-"Queries allow the most control over searching. With queries you can "
-"search across relations, specific columns and join search using boolean "
-"operators like AND and OR."
+"Search by value lets you look for **plantings** by their complete "
+"planting code, which includes the accession code. Taken together, "
+"Accession code and Planting code do provide a **composite primary key** "
+"for plantings.  For **species**, we have introduced the binomial search, "
+"described below."
 msgstr ""
 
-#: ../../searching.rst:82
-msgid "An example of a query would be::"
+#: ../../searching.rst:84
+msgid "Search by Expression"
 msgstr ""
 
 #: ../../searching.rst:86
 msgid ""
-"This query would return all the plants whose family are Fabaceae and are "
-"located in Block 10."
+"Searching with expression gives you a little more control over what you "
+"are searching for. You narrow the search down to a specific domain, the "
+"software defines which fields to search within the domain you specified."
 msgstr ""
 
-#: ../../searching.rst:89
+#: ../../searching.rst:90
 msgid ""
-"Searching with queries usually requires some knowledge of the Ghini "
-"internals and database table layouts."
+"An expression is built as ``<domain> <operator> <value>``. For example "
+"the search: ``gen=Maxillaria`` would return all the genera that match the"
+" name Maxillaria. In this case the domain is ``gen``, the operator is "
+"``=`` and the value is ``Maxillaria``."
 msgstr ""
 
-#: ../../searching.rst:92
-msgid "A couple of useful examples:"
-msgstr ""
-
-#: ../../searching.rst:94
-msgid "Which locations are in use::"
+#: ../../searching.rst:95
+msgid ""
+"The above search domain overview table tells you the names of the search "
+"domains, and, per search domain, which fields are searched."
 msgstr ""
 
 #: ../../searching.rst:98
-msgid "Which genera are associated to at least one accession::"
-msgstr ""
-
-#: ../../searching.rst ../../searching.rst:105
-msgid "Domains"
-msgstr ""
-
-#: ../../searching.rst:107
+#, python-format
 msgid ""
-"The following are the common search domain and the columns they search by"
-" default. The default columns are used when searching by value and "
-"expression. The queries do not use the default columns."
+"The search string ``loc like block%`` would return all the Locations for "
+"which name or code start with \"block\".  In this case the domain is "
+"``loc`` (a shorthand for ``location``), the operator is ``like`` (this "
+"comes from SQL and allows for \"fuzzy\" searching), the value is "
+"``block%``, the implicitly matched fields are ``name`` and ``code``.  The"
+" percent sign is used as a wild card so if you search for ``block%`` then"
+" it searches for all values that start with max.  If you search for "
+"``%10`` it searches for all values that end in ``10``.  The string "
+"``%ck%10`` would search for all value that contain ``ck`` and end in "
+"``10``."
 msgstr ""
 
-#: ../../searching.rst:113
-msgid "family, fam: Search :class:`bauble.plugins.plants.Family`"
+#: ../../searching.rst:108
+msgid "When a query takes ages to complete"
 msgstr ""
 
-#: ../../searching.rst:115
-msgid "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
-msgstr ""
-
-#: ../../searching.rst:117
-msgid "species, sp: Search :class:`bauble.plugins.plants.Species`"
-msgstr ""
-
-#: ../../searching.rst:119
-msgid "geography: Search :class:`bauble.plugins.plants.Geography`"
-msgstr ""
-
-#: ../../searching.rst:121
-msgid "acc: Search :class:`bauble.plugins.garden.Accession`"
-msgstr ""
-
-#: ../../searching.rst:123
-msgid "plant: Search :class:`bauble.plugins.garden.Plant`"
-msgstr ""
-
-#: ../../searching.rst:125
-msgid "location, loc: Search :class:`bauble.plugins.garden.Location`"
-msgstr ""
-
-#: ../../searching.rst:128
-msgid "The Query Builder"
-msgstr ""
-
-#: ../../searching.rst:130
+#: ../../searching.rst:111
 msgid ""
-"The Query Builder helps you build complex search queries through a point "
-"and click interface.  To open the Query Builder click the to the left of "
-"the search entry or select :menuselection:`Tools-->Query Builder` from "
-"the menu."
+"You give a query, it takes time to compute, the result contains "
+"unreasonably many entries.  This happens when you intend to use a "
+"strategy, but your strings do not form a valid expression.  In this case "
+"Ghini falls back to *search by value*. For example the search string "
+"``gen lik maxillaria`` will search for the strings ``gen``, ``lik``, and "
+"``maxillaria``, returning all that match at least one of the three "
+"criteria."
 msgstr ""
 
-#: ../../searching.rst:135
-msgid ""
-"The Query Builder composes a query that will be understood by the Query "
-"Search Strategy described above. You can use the Query Builder to get a "
-"feeling of correct queries before you start typing them by hand, "
-"something that you might prefer if you are a fast typer."
+#: ../../searching.rst:120
+msgid "Binomial search"
 msgstr ""
 
-#: ../../searching.rst:140
+#: ../../searching.rst:122
 msgid ""
-"After opening the Query Builder you must select a search domain.  The "
-"search domain will determine the type of data that is returned and the "
-"properties that you can search."
+"You can also perform a search in the database if you know the species, "
+"just by placing a few initial letters of genus and species epithets in "
+"the search engine, correctly capitalized, i.e.: **Genus epithet** with "
+"one leading capital letter, **Species epithet** all lowercase."
 msgstr ""
 
-#: ../../searching.rst:146
-msgid ""
-"The search domain is similar to a table in the database and the "
-"properties would be the columns on the table.  Often the table/domain and"
-" properties/columns are the same but not always."
+#: ../../searching.rst:127
+msgid "This way you can perform the search ``So ha``."
 msgstr ""
 
-#: ../../searching.rst:150
-msgid ""
-"Once a search domain is selected you can then select a property of the "
-"domain to compare values to.  The search operator can then be changed for"
-" how you want to make the search comparison.  Finally you must enter a "
-"value to compare to the search property."
+#: ../../searching.rst:129
+msgid "These would be the initials for Solanum hayesii, or Solanum havanense."
 msgstr ""
 
-#: ../../searching.rst:157
+#: ../../searching.rst:131
 msgid ""
-"If the search property you have selected can only have specific values "
-"then a list of possible values will be provided for you to choose from."
+"Binomial search comes to compensate the limited usefulness of the above "
+"search by expression when trying to look for a species."
+msgstr ""
+
+#: ../../searching.rst:134
+msgid ""
+"It is the correct capitalization **Xxxx xxxx** that informs the software "
+"of your intention to perform a binomial search.  The software's second "
+"guess will be a search by value, which will possibly result in far more "
+"matches than you had expected."
+msgstr ""
+
+#: ../../searching.rst:139
+msgid ""
+"The similar request ``so ha`` will return, in a fresh install, over 3000 "
+"objects, starting at Family \"Acalyp(**ha**)ceae\", ending at Geography "
+"\"Western (**So**)uth America\"."
+msgstr ""
+
+#: ../../searching.rst:145
+msgid "Search by Query"
+msgstr ""
+
+#: ../../searching.rst:147
+msgid ""
+"Queries allow the most control over searching. With queries you can "
+"search across relations, specific columns, combine search criteria using "
+"boolean operators like ``and``, ``or``, ``not`` (and their shorthands "
+"``&&``, ``||``, ``!``), enclose them in parentheses, and more."
+msgstr ""
+
+#: ../../searching.rst:152
+msgid ""
+"Please contact the authors if you want more information, or if you "
+"volunteer to document this more thoroughly.  In the meanwhile you may "
+"start familiarizing yourself with the core structure of Ghini's database."
 msgstr ""
 
 #: ../../searching.rst:160
-msgid ""
-"If multiple search properties are necessary then clicking on the plus "
-"sign will add more search properties.  Select And/Or next to the property"
-" name choose how the properties will be combined in the search query."
+msgid "A few examples:"
 msgstr ""
 
-#: ../../searching.rst:165
+#: ../../searching.rst:162
+msgid "plantings of family Fabaceae in location Block 10::"
+msgstr ""
+
+#: ../../searching.rst:166
+msgid "locations that contain no plants::"
+msgstr ""
+
+#: ../../searching.rst:170
+msgid ""
+"accessions associated to a species of known binomial name (e.g.: "
+"Mangifera indica)::"
+msgstr ""
+
+#: ../../searching.rst:174
+msgid "accessions we propagated in the year 2016::"
+msgstr ""
+
+#: ../../searching.rst:178
+msgid "accessions we modified in the last three days::"
+msgstr ""
+
+#: ../../searching.rst:182
+msgid ""
+"Searching with queries requires some knowledge of a little syntax and an "
+"idea of the extensive Ghini database table structure. Both you acquire "
+"with practice, and with the help of the Query Builder."
+msgstr ""
+
+#: ../../searching.rst:188
+msgid "The Query Builder"
+msgstr ""
+
+#: ../../searching.rst:190
+msgid ""
+"Ghini offers a Query Builder, that helps you build complex search queries"
+" through a point and click interface.  To open the Query Builder click "
+"the |querybuilder| icon to the left of the search entry or select "
+":menuselection:`Tools-->Query Builder` from the menu."
+msgstr ""
+
+#: ../../searching.rst:199
+msgid ""
+"A window will show up, which will lead you through all steps necessary to"
+" construct a correct query that is understood by Ghini's Query Search "
+"Strategy."
+msgstr ""
+
+#: ../../searching.rst:208
+msgid ""
+"First of all you indicate the search domain, this will allow the Query "
+"Builder complete its graphical user interface, then you add as many "
+"logical clauses as you need, connecting them with a ``and`` or ``or`` "
+"binary operator."
+msgstr ""
+
+#: ../../searching.rst:213
+msgid ""
+"Each clause is formed of three parts: a property that can be reached from"
+" the starting search domain, a comparison operator that you select from "
+"the drop-down list, a value that you can either type or select from the "
+"list of valid values for the field."
+msgstr ""
+
+#: ../../searching.rst:218
+msgid ""
+"Add as many search properties as you need, by clicking on the plus sign. "
+"Select and/or next to the property name to choose how the clauses will be"
+" combined in the search query."
+msgstr ""
+
+#: ../../searching.rst:222
 msgid "When you are done building your query click OK to perform the search."
+msgstr ""
+
+#: ../../searching.rst:226
+msgid "Query Grammar"
+msgstr ""
+
+#: ../../searching.rst:228
+msgid ""
+"For those who don't fear a bit of formal precision, the following BNF "
+"code gives you a rather precise idea of the grammar implemented by the "
+"Query Search Strategy.  Some grammatical categories are informally "
+"defined; any missing ones are left to your fertile imagination; literals "
+"are included in single quotes; the grammar is mostly case insensitive, "
+"unless otherwise stated::"
+msgstr ""
+
+#: ../../searching.rst:291
+msgid ""
+"Please be aware that Ghini's Query language is quite a bit more complex "
+"than what the Query Builder can produce: Queries you can build with the "
+"Query Builder form a proper subset of the queries recognized by the "
+"software::"
 msgstr ""
 
 #: ../../started.rst:2
@@ -3063,6 +3635,10 @@ msgid ""
 "Once your database has been created, configured, initialized, you are "
 "ready to start :ref:`editing-and-inserting-data` and subsequently :ref"
 ":`searching-in-bauble`."
+msgstr ""
+
+#: ../../statements.rst:2
+msgid "Mission & Vision"
 msgstr ""
 
 #: ../../statements.rst:4
@@ -3303,4 +3879,336 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
+
+#~ msgid "helping bauble development"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "use the software, note the things "
+#~ "you don't like, open issue for "
+#~ "each of them. a developer will "
+#~ "react."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "if you have an idea of what "
+#~ "you miss in the software but can't"
+#~ " quite formalize it into separate "
+#~ "issues, you could consider hiring a "
+#~ "professional. this is the best way "
+#~ "to make sure that something happens "
+#~ "quickly on Ghini. do make sure the"
+#~ " developer opens issues and publishes "
+#~ "their contribution on github."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "translate! any help with translations "
+#~ "will be welcome, so please do! you"
+#~ " can do this without installing "
+#~ "anything on your computer, just using"
+#~ " the on-line translation service "
+#~ "offered by http://hosted.weblate.org/"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "fork the respository, choose an issue,"
+#~ " solve it, open a pull request. "
+#~ "see the `bug solving workflow`_ below."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "write unit tests and commit them "
+#~ "to your branch (do not commit "
+#~ "failing unit tests to the ``master`` "
+#~ "branch)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "open the pull request page using "
+#~ "as base the production line, compared"
+#~ " to ``master``."
+#~ msgstr ""
+
+#~ msgid "Ghini's goal"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An ``Accession`` may be obtained from"
+#~ " an external ``Contact``, or be the"
+#~ " result of a garden ``Propagation``.  "
+#~ "This information is optional.  A "
+#~ "successful ``Propagation`` trial can only "
+#~ "result in one accession (0..1), while"
+#~ " a ``Contact`` may provide multiple "
+#~ "``Accessions`` (0..n)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At the beginning of 2007 we got"
+#~ " five seedlings of *Heliconia longa* "
+#~ "(a plant ``Species``) from our neighbour"
+#~ " (the ``Contact`` source). Since it "
+#~ "was the first acquisition of the "
+#~ "year, we named them 2007.0001 (we "
+#~ "gave them a single unique ``Accession``"
+#~ " code) and we planted them all "
+#~ "together at one ``Location`` as a "
+#~ "single ``Planting`` with quantity 5."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At the time of writing, nine years"
+#~ " later, ``Accession`` 2007.0001 has 6 "
+#~ "distinct ``Plantings``, each at a "
+#~ "different ``Locations`` in our garden, "
+#~ "obtained vegetatively (asexually) from the "
+#~ "original 5 plants. Our only intervention"
+#~ " was splitting, moving, and of course"
+#~ " writing this information in the "
+#~ "database."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The same script you can use to "
+#~ "switch to a different production line,"
+#~ " but at the moment there's only "
+#~ "`ghini-1.0`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Three are three types of search "
+#~ "strategies available in Ghini. Considering "
+#~ "the search stragety types available in"
+#~ " Ghini, sorted in increasing complexity:"
+#~ " you can search by value, expression"
+#~ " or query."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Searching by query, the most complex "
+#~ "and powerful, is assisted by the "
+#~ "Query Builder, described below."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All searches are case insensitive so "
+#~ "searching for Maxillaria and maxillaria "
+#~ "will return the same results."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Search by value is the simplest "
+#~ "way to search. You just type in"
+#~ " a string and see what matches. "
+#~ "Which fields/columns are search for your"
+#~ " string depends on how the different"
+#~ " plugins are configured. For example, "
+#~ "by default the PlantPlugin search the"
+#~ " family name, the genus name, the "
+#~ "species and infraspecific species names, "
+#~ "vernacular names and geography. So if"
+#~ " you want to search in the "
+#~ "notes field of any of these types"
+#~ " then searching by value is not "
+#~ "the search you're looking for."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Examples of searching by value would "
+#~ "be: Maxillaria, Acanth, 2008.1234, 2003.2.1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Search string are separated by spaces."
+#~ " For example if you enter the "
+#~ "search string ``Block 10`` then Ghini"
+#~ " will search for the strings Block"
+#~ " and 10 and return all the "
+#~ "results that match either of these "
+#~ "strings. If you want to search for"
+#~ " Block 10 as a while string "
+#~ "then you should quote the string "
+#~ "like ``\"Block 10\"``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Searching with expression gives you a"
+#~ " little more control over what you"
+#~ " are searching for. It can narrow "
+#~ "the search down to a specific "
+#~ "domain. Expression consist of a domain,"
+#~ " an operator and a value. For "
+#~ "example the search: ``gen=Maxillaria`` would"
+#~ " return all the genera that match "
+#~ "the name Maxillaria. In this case "
+#~ "the domain is gen, the operator is"
+#~ " = and the value is Maxillaria."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The search string ``gen like max%`` "
+#~ "would return all the genera whose "
+#~ "names start with \"Max\". In this "
+#~ "case the domain again is gen, the"
+#~ " operator is like, which allows for"
+#~ " \"fuzzy\" searching and the value is"
+#~ " max%. The percent sign is used "
+#~ "as a wild card so if you "
+#~ "search for max% then it search for"
+#~ " all value that start with max. "
+#~ "If you search for %max it searches"
+#~ " for all values that end in "
+#~ "max. The string %max%a would search "
+#~ "for all value that contain max and"
+#~ " end in a."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For more information about the different"
+#~ " search domain and their short-hand"
+#~ " aliases, see search-domains_ ."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If expression are invalid they are "
+#~ "usually used as search by value "
+#~ "searchs. For example the search string"
+#~ " ``gen=`` will execute a search by"
+#~ " value for the string gen and "
+#~ "the search string ``gen like`` will "
+#~ "search for the string gen and the"
+#~ " string like."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Queries allow the most control over "
+#~ "searching. With queries you can search"
+#~ " across relations, specific columns and "
+#~ "join search using boolean operators like"
+#~ " AND and OR."
+#~ msgstr ""
+
+#~ msgid "An example of a query would be::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This query would return all the "
+#~ "plants whose family are Fabaceae and "
+#~ "are located in Block 10."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Searching with queries usually requires "
+#~ "some knowledge of the Ghini internals"
+#~ " and database table layouts."
+#~ msgstr ""
+
+#~ msgid "A couple of useful examples:"
+#~ msgstr ""
+
+#~ msgid "Which locations are in use::"
+#~ msgstr ""
+
+#~ msgid "Which genera are associated to at least one accession::"
+#~ msgstr ""
+
+#~ msgid "Domains"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The following are the common search "
+#~ "domain and the columns they search "
+#~ "by default. The default columns are "
+#~ "used when searching by value and "
+#~ "expression. The queries do not use "
+#~ "the default columns."
+#~ msgstr ""
+
+#~ msgid "family, fam: Search :class:`bauble.plugins.plants.Family`"
+#~ msgstr ""
+
+#~ msgid "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
+#~ msgstr ""
+
+#~ msgid "species, sp: Search :class:`bauble.plugins.plants.Species`"
+#~ msgstr ""
+
+#~ msgid "geography: Search :class:`bauble.plugins.plants.Geography`"
+#~ msgstr ""
+
+#~ msgid "acc: Search :class:`bauble.plugins.garden.Accession`"
+#~ msgstr ""
+
+#~ msgid "plant: Search :class:`bauble.plugins.garden.Plant`"
+#~ msgstr ""
+
+#~ msgid "location, loc: Search :class:`bauble.plugins.garden.Location`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Query Builder helps you build "
+#~ "complex search queries through a point"
+#~ " and click interface.  To open the"
+#~ " Query Builder click the to the "
+#~ "left of the search entry or select"
+#~ " :menuselection:`Tools-->Query Builder` from the"
+#~ " menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Query Builder composes a query "
+#~ "that will be understood by the "
+#~ "Query Search Strategy described above. "
+#~ "You can use the Query Builder to"
+#~ " get a feeling of correct queries "
+#~ "before you start typing them by "
+#~ "hand, something that you might prefer"
+#~ " if you are a fast typer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "After opening the Query Builder you "
+#~ "must select a search domain.  The "
+#~ "search domain will determine the type"
+#~ " of data that is returned and "
+#~ "the properties that you can search."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The search domain is similar to a"
+#~ " table in the database and the "
+#~ "properties would be the columns on "
+#~ "the table.  Often the table/domain and"
+#~ " properties/columns are the same but "
+#~ "not always."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once a search domain is selected "
+#~ "you can then select a property of"
+#~ " the domain to compare values to."
+#~ "  The search operator can then be "
+#~ "changed for how you want to make"
+#~ " the search comparison.  Finally you "
+#~ "must enter a value to compare to"
+#~ " the search property."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the search property you have "
+#~ "selected can only have specific values"
+#~ " then a list of possible values "
+#~ "will be provided for you to choose"
+#~ " from."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If multiple search properties are "
+#~ "necessary then clicking on the plus "
+#~ "sign will add more search properties."
+#~ "  Select And/Or next to the property"
+#~ " name choose how the properties will"
+#~ " be combined in the search query."
+#~ msgstr ""
 

@@ -1,16 +1,13 @@
 #!/bin/bash
 
-LANGUAGES='ar ca cs da de el es fr id it pl pt ru sv tr uk '
+LANGUAGES='ar cs da de es fr hi it pl pt_BR ru sv uk zh'
 
-cp -a ../ghini.desktop/doc/*.rst source
+cp -a ../ghini.desktop/doc/*.rst doc
 
-cd source
+cd doc
 make gettext
-rm -fr _build/split-locale
-mv _build/locale _build/split-locale
-mkdir -p _build/locale
-msgcat -o _build/locale/documentation.pot _build/split-locale/*.pot
-sphinx-intl update -p _build/locale $(for i in $LANGUAGES; do printf -- '-l %s ' $i; done)
+msgcat -o _build/locale-merged/doc.pot _build/locale/*.pot
+sphinx-intl update -p _build/locale-merged $(for i in $LANGUAGES; do printf -- '-l %s ' $i; done)
 sphinx-intl build
 
 exit 0
@@ -22,3 +19,11 @@ do
     cp -a _build/html ../translated/$i
 done
 
+for l in $LANGUAGES
+do
+    cd ~/Local/github/Ghini/ghini.desktop-docs.i18n/locale/$l/LC_MESSAGES/
+    for i in $(find ~/Local/github/Ghini/ghini.desktop-docs.i18n/doc -maxdepth 1 -type f -name "*rst")
+    do
+        ln -s doc.po $(basename $i .rst).po
+    done
+done
