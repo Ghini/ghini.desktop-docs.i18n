@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LANGUAGES=' cs de es fr it pt ru uk '
+LANGUAGES='ar cs da de es fr hi it pl pt_BR ru sv uk zh'
 
 cp -a ../ghini.desktop/doc/*.rst doc
 
