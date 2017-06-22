@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../administration.rst:2
 msgid "Database Administration"
-msgstr ""
+msgstr "Administración de bases de datos"
 
 #: ../../administration.rst:4
 msgid ""
@@ -27,6 +27,11 @@ msgid ""
 "something about database administration. While database adnimistration is"
 " far beyond the scope of this document, we make our users aware of it."
 msgstr ""
+"Si está utilizando un verdadero sistema de manejo de base de datos (un "
+"DBMS) para guardar sus datos, es preciso saber algo de como se administra"
+" una base de datos. Esto está muy fuera del alcance de la documentación "
+"de Ghini, sin embargo es importante que los usuarios sean conscientes de"
+" la necesidad."
 
 #: ../../administration.rst:9
 msgid "SQLite"
@@ -39,6 +44,11 @@ msgid ""
 "don't know where to look for your database files, consider that, per "
 "default, bauble puts its data in the ``~/.bauble/`` directory."
 msgstr ""
+"De SQLite no se puede decir que sea un verdadero DBMS: cada database "
+"SQLite no es más que un archivo. De estos archivo haganse copias de "
+"seguridad y estará bien. Si no sabe donde buscar los archivos SQLite "
+"representantes sus colecciones, considere que, por defecto, Ghini pone "
+"sus datos en la carpeta ``~/.bauble``."
 
 #: ../../administration.rst:16
 msgid ""
@@ -46,6 +56,9 @@ msgid ""
 "``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best "
 "to hide the ``AppData`` directory structure to normal users."
 msgstr ""
+"En Windows estaría en algún lugar en su carpeta ``AppData``, muy "
+"probablemente en ``AppData\\Roaming\\Bauble``. Windows hace todo lo "
+"posible para no hacer visible la estructura ``AppData`` a sus usuarios."
 
 #: ../../administration.rst:20
 msgid ""
