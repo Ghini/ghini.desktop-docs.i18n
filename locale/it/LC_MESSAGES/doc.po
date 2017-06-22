@@ -27,6 +27,11 @@ msgid ""
 "something about database administration. While database adnimistration is"
 " far beyond the scope of this document, we make our users aware of it."
 msgstr ""
+"Nel caso si stia utilizzando un vero e proprio DBMS (sistema di gestione "
+"di basi di dati) per contenere le collezioni di Bauble, è importante "
+"prendere in considerazione l'amministrazione di questo DBMS. Una "
+"descrizione del compito di amministrare una base dati è qui assolutamente"
+" fuori luogo, ma è importante che un utente sia consapevole del problema."
 
 #: ../../administration.rst:9
 msgid "SQLite"
@@ -39,6 +44,12 @@ msgid ""
 "don't know where to look for your database files, consider that, per "
 "default, bauble puts its data in the ``~/.bauble/`` directory."
 msgstr ""
+"SQLite offre una soluzione in quanto SQLite non è esattamente quanto si "
+"potrebbe definire un DMBS: ogni base dati SQLite è un file, farne copia "
+"di emergenza (backup) sarà sufficiente. Se si è creata la connessione "
+"alla base dati SQLite accettando i valori per difetto, il file relativo "
+"alla connessione si trova nella directory ``~/.bauble/`` (con Windows "
+"bisognerà trovare la ``AppData``)."
 
 #: ../../administration.rst:16
 msgid ""
@@ -59,7 +70,7 @@ msgstr ""
 
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
-msgstr ""
+msgstr "Prego riferirsi alla documentazione ufficiale."
 
 #: ../../administration.rst:29
 msgid "PostgreSQL"
@@ -70,6 +81,8 @@ msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
 " your backup options starts at `chapter_24`_."
 msgstr ""
+"Prego riferirsi alla documentazione ufficiale. Una discussione molto "
+"approfondita sulle varie opzioni di backup inizia al `chapter_24`_."
 
 #: ../../administration.rst:37
 msgid "Ghini Configuration"
@@ -1651,13 +1664,16 @@ msgstr ""
 
 #: ../../index.rst:2
 msgid "Documentation for Ghini 1.0"
-msgstr ""
+msgstr "Documentazione di Ghini 1.0"
 
 #: ../../index.rst:8
 msgid ""
 "Ghini is an application for managing botanical specimen collections. With"
 " it you can create a searchable database of plant records."
 msgstr ""
+"Ghini è un programma per la gestione di collezioni di oggetti botanici. "
+"Con Ghini puoi creare una base dati di registri di piante, con molte "
+"opzioni di ricerca."
 
 #: ../../index.rst:11
 msgid ""
@@ -1665,6 +1681,9 @@ msgid ""
 "<http://www.fsf.org>`_ and is released under the `GNU Public License "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 msgstr ""
+"Ghini è software `aperto <http://www.opensource.org>`_ e `libero "
+"<http://www.fsf.org>`_ ed è distribuito secondo la `GPL: Licenza Pubblica"
+" GNU <http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
 #: ../../index.rst:17 ../../statements.rst:2
 msgid "Statements"
@@ -1672,39 +1691,43 @@ msgstr ""
 
 #: ../../index.rst:27
 msgid "Installing Ghini"
-msgstr ""
+msgstr "Istallare Bauble"
 
 #: ../../index.rst:36
 msgid "Using Ghini"
-msgstr ""
+msgstr "Uso di Ghini"
 
 #: ../../index.rst:52
 msgid "Administration"
-msgstr ""
+msgstr "Amministrazione"
 
 #: ../../index.rst:61
 msgid "Ghini Development"
-msgstr ""
+msgstr "Sviluppo di Ghini"
 
 #: ../../index.rst:72
 msgid "Supporting Ghini"
-msgstr ""
+msgstr "Appoggiare Ghini"
 
 #: ../../index.rst:76
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
 msgstr ""
+"Se utilizzi Ghini, o se ti sembra giusto aiutarne lo sviluppo, puoi "
+"considerare una `donazione <https://pledgie.com/campaigns/29188>`_"
 
 #: ../../installing.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "Istallazione"
 
 #: ../../installing.rst:4
 msgid ""
 "ghini.desktop is a cross-platform program and it will run on unix "
 "machines like GNU/Linux and MacOSX, as well as on Windows."
 msgstr ""
+"ghini.desktop è un programma multipiattaforma e funziona su macchine "
+"unix (Linux e MacOSX) ma anche su Windows."
 
 #: ../../installing.rst:7
 msgid ""
@@ -1714,6 +1737,12 @@ msgid ""
 "these packages installed then Ghini should be able to install the rest of"
 " its dependencies by itself."
 msgstr ""
+"Per installare Ghini, c'è bisogno di soddifare un paio di dipendenze che"
+" non possono essere risolte automaticamente. Queste includono "
+"virtualenvwrapper, PyGTK e pip. Python è presente su ogni macchina unix, "
+"mentre GTK+ è nativo di Linux ed altrimenti va installato. Dopo aver "
+"soddisfatte queste richieste, è possibile lasciare a Ghini il compito di"
+" risolvere tutte le altre."
 
 #: ../../installing.rst:13
 msgid ""
@@ -1722,16 +1751,22 @@ msgid ""
 "locally, non conflicting with any other Python program you may have on "
 "your system."
 msgstr ""
+"Seguendo le seguenti istruzioni di installazione si ottiene un Ghini "
+"installato in un ambiente Python virtuale, tutte le dipendenze saranno "
+"installate localmente e non entreranno in conflitto con altri programmi "
+"Python che possono essere sullo stesso elaborator."
 
 #: ../../installing.rst:18
 msgid ""
 "if you later choose to remove Ghini, you simply remove the virtual "
 "environment, which is a directory, with all of its content."
 msgstr ""
+"se dovessi in seguito decidere di rimuovere Ghini, basterà rimuovere "
+"l'ambiente virtuale, che è una directory, con tutto il suo contenuto."
 
 #: ../../installing.rst:23
 msgid "Installing on GNU/Linux"
-msgstr ""
+msgstr "Installare su Linux"
 
 #: ../../installing.rst:25
 msgid "Open a shell terminal window, and follow these instructions."
@@ -1761,7 +1796,7 @@ msgstr ""
 
 #: ../../installing.rst:49
 msgid "Download the `devinstall.sh` script and run it::"
-msgstr ""
+msgstr "Scaricare il programmino `devinstall.sh` ed eseguirlo::"
 
 #: ../../installing.rst:53
 msgid ""
@@ -1773,22 +1808,31 @@ msgstr ""
 #: ../../installing.rst:56
 msgid "If the script ends without error, you can now start ghini::"
 msgstr ""
+"Se il programmino di installazione termina senza errori, si può ora "
+"avviare ghini::"
 
 #: ../../installing.rst:60
 msgid "or update ghini to the latest released production patch::"
 msgstr ""
+"o aggiornare ghini all'ultima versione rilasciata nella linea di "
+"produzione::"
 
 #: ../../installing.rst:64
 msgid ""
 "The same script you can use to switch to a different production line, but"
 " at the moment there's only `ghini-1.0`."
 msgstr ""
+"Lo stesso programmino puoi utilizzarlo per cambiare ad un'altra linea di "
+"produzione, anche se al momento c'è solo la `ghini-1.0`."
 
 #: ../../installing.rst:67
 msgid ""
 "on Unity, open a terminal, start ghini, its icon will show up in the "
 "launcher, you can now `lock to launcher` it."
 msgstr ""
+"su Unity, apri un terminale, avvia ghini, la sua icona (il signor Ghini "
+"mostrando il suo erbario) apparirà nel `launcher`, e se si vuole lo si può saldare al "
+"launcher."
 
 #: ../../installing.rst:70
 msgid ""
