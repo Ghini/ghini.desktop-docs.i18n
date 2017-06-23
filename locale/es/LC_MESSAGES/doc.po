@@ -1738,7 +1738,7 @@ msgstr "**actividades del jardín, relacionadas a la colección**"
 
 #: ../../goal.rst:32
 msgid "Botanic Garden Software"
-msgstr ""
+msgstr "Software para Jardines Botánicos"
 
 #: ../../goal.rst:34
 msgid ""
@@ -1932,7 +1932,7 @@ msgstr ""
 
 #: ../../goal.rst:140 ../../peptalk.rst:6
 msgid "taxonomic information"
-msgstr ""
+msgstr "información taxonómica"
 
 #: ../../goal.rst:142 ../../peptalk.rst:8
 msgid ""
@@ -1948,7 +1948,7 @@ msgstr ""
 
 #: ../../goal.rst:152 ../../peptalk.rst:18
 msgid "importing data"
-msgstr ""
+msgstr "importar data"
 
 #: ../../goal.rst:154 ../../peptalk.rst:20
 msgid ""
@@ -1960,7 +1960,7 @@ msgstr ""
 
 #: ../../goal.rst:160 ../../peptalk.rst:26
 msgid "synonyms"
-msgstr ""
+msgstr "sinónimos"
 
 #: ../../goal.rst:162 ../../peptalk.rst:28
 msgid ""
@@ -1985,7 +1985,7 @@ msgstr ""
 
 #: ../../goal.rst:177 ../../peptalk.rst:43
 msgid "helps off-line identification"
-msgstr ""
+msgstr "facilita la identificación 'off-line'"
 
 #: ../../goal.rst:179 ../../peptalk.rst:45
 msgid ""
@@ -1996,7 +1996,7 @@ msgstr ""
 
 #: ../../goal.rst:184 ../../peptalk.rst:50
 msgid "exports and reports"
-msgstr ""
+msgstr "exportación e informes"
 
 #: ../../goal.rst:186 ../../peptalk.rst:52
 msgid ""
@@ -2018,7 +2018,7 @@ msgstr ""
 
 #: ../../goal.rst:198 ../../peptalk.rst:64
 msgid "garden or herbarium"
-msgstr ""
+msgstr "jardines o herbarios"
 
 #: ../../goal.rst:200 ../../peptalk.rst:66
 msgid "Management of plant locations."
@@ -2026,7 +2026,7 @@ msgstr ""
 
 #: ../../goal.rst:203 ../../peptalk.rst:69
 msgid "database history"
-msgstr ""
+msgstr "historial de la base de datos"
 
 #: ../../goal.rst:205 ../../peptalk.rst:71
 msgid ""
@@ -2038,7 +2038,7 @@ msgstr ""
 
 #: ../../goal.rst:211 ../../peptalk.rst:77
 msgid "simple and powerful search"
-msgstr ""
+msgstr "búsquedas sencillas o complejas"
 
 #: ../../goal.rst:213 ../../peptalk.rst:79
 msgid ""
@@ -2050,7 +2050,7 @@ msgstr ""
 
 #: ../../goal.rst:219 ../../peptalk.rst:85
 msgid "database agnostic"
-msgstr ""
+msgstr "en su propia base de datos"
 
 #: ../../goal.rst:221 ../../peptalk.rst:87
 msgid ""
@@ -2067,7 +2067,7 @@ msgstr ""
 
 #: ../../goal.rst:232 ../../peptalk.rst:98
 msgid "language agnostic"
-msgstr ""
+msgstr "en su propio idioma"
 
 #: ../../goal.rst:234 ../../peptalk.rst:100
 msgid ""
@@ -2080,7 +2080,7 @@ msgstr ""
 
 #: ../../goal.rst:241 ../../peptalk.rst:107
 msgid "platform agnostic"
-msgstr ""
+msgstr "en su propia plataforma software"
 
 #: ../../goal.rst:243 ../../peptalk.rst:109
 msgid ""
@@ -2093,7 +2093,7 @@ msgstr ""
 
 #: ../../goal.rst:250 ../../peptalk.rst:116
 msgid "easily updated"
-msgstr ""
+msgstr "facil puesta al día"
 
 #: ../../goal.rst:252 ../../peptalk.rst:118
 msgid ""
@@ -2105,7 +2105,7 @@ msgstr ""
 
 #: ../../goal.rst:258 ../../peptalk.rst:124
 msgid "unit tested"
-msgstr ""
+msgstr "garantizado por pruebas unitarias"
 
 #: ../../goal.rst:260 ../../peptalk.rst:126
 msgid ""
@@ -2168,7 +2168,7 @@ msgstr ""
 
 #: ../../imex.rst:20
 msgid "Importing from CSV"
-msgstr ""
+msgstr "Importar desde CSV"
 
 #: ../../imex.rst:21
 msgid ""
@@ -2255,7 +2255,7 @@ msgstr ""
 
 #: ../../index.rst:2
 msgid "Documentation for Ghini 1.0"
-msgstr ""
+msgstr "Documentación de Ghini 1.0"
 
 #: ../../index.rst:8
 msgid ""
@@ -2276,11 +2276,11 @@ msgstr ""
 
 #: ../../index.rst:26
 msgid "Installing Ghini"
-msgstr ""
+msgstr "Instalar Ghini"
 
 #: ../../index.rst:35
 msgid "Using Ghini"
-msgstr ""
+msgstr "Utilizar Ghini"
 
 #: ../../index.rst:51
 msgid "Administration"
@@ -2288,11 +2288,11 @@ msgstr ""
 
 #: ../../index.rst:60
 msgid "Ghini Development"
-msgstr ""
+msgstr "Desarrollo de Ghini"
 
 #: ../../index.rst:69
 msgid "Supporting Ghini"
-msgstr ""
+msgstr "Apoyar Ghini"
 
 #: ../../index.rst:73
 msgid ""
@@ -2302,7 +2302,7 @@ msgstr ""
 
 #: ../../installing.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "Instalación"
 
 #: ../../installing.rst:4
 msgid ""
@@ -2335,11 +2335,11 @@ msgstr ""
 
 #: ../../installing.rst:23
 msgid "Installing on GNU/Linux"
-msgstr ""
+msgstr "Instalación en GNU/Linux"
 
 #: ../../installing.rst:25
 msgid "Open a shell terminal window, and follow these instructions."
-msgstr ""
+msgstr "Abra una ventana de terminal, y siga las instrucciones siguientes."
 
 #: ../../installing.rst:29
 msgid ""
