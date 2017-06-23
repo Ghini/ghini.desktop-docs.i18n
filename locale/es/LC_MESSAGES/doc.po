@@ -1709,7 +1709,7 @@ msgstr ""
 
 #: ../../goal.rst:11
 msgid "Botanic Garden"
-msgstr ""
+msgstr "Jardín Botánico"
 
 #: ../../goal.rst:13
 msgid ""
@@ -1730,11 +1730,11 @@ msgstr ""
 
 #: ../../goal.rst:25
 msgid "**the physical garden**"
-msgstr ""
+msgstr "**el jardín en cuanto jardín**"
 
 #: ../../goal.rst:29
 msgid "**collection related activities in the garden**"
-msgstr ""
+msgstr "**actividades del jardín, relacionadas a la colección**"
 
 #: ../../goal.rst:32
 msgid "Botanic Garden Software"
@@ -1757,7 +1757,7 @@ msgstr ""
 
 #: ../../goal.rst:45 ../../searching.rst:158
 msgid "**core structure of Ghini's database**"
-msgstr ""
+msgstr "**la estructura esencial de la base de datos Ghini**"
 
 #: ../../goal.rst:47
 msgid ""
@@ -1765,6 +1765,9 @@ msgid ""
 "Following its links to other database objects lets us better understand "
 "the structure:"
 msgstr ""
+"El elemento central en el punto de vista de Ghini es la ``Accesión``."
+"Siga los enlaces hacia las otras tabelas en la base de datos para "
+"entender mejor su estructura"
 
 #: ../../goal.rst:50
 msgid ""
@@ -1803,6 +1806,9 @@ msgid ""
 " ``Accession`` belongs, by providing a ``Verification``, signing it, and "
 "stating the applicable level of confidence."
 msgstr ""
+"Especialistas pueden exprimir una opinión sobre la ``Especie`` a que "
+"pertenece una ``Accesión``, formulando una ``Verificación``, poniendo su "
+"firma, y afirmando el nivel de confianza a aplicar."
 
 #: ../../goal.rst:75
 msgid ""
