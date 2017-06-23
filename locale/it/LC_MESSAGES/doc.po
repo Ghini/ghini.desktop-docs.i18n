@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-22 16:15-0500\n"
+"POT-Creation-Date: 2017-06-23 11:35-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,120 +121,6 @@ msgstr ""
 
 #: ../../administration.rst:56
 msgid "Ghini development site can be accessed via the Help menu."
-msgstr ""
-
-#: ../../api.rst:2
-msgid "API Documentation"
-msgstr ""
-
-#: ../../api.rst:5
-msgid ":mod:`bauble`"
-msgstr ""
-
-#: ../../api.rst:17
-msgid ":mod:`bauble.db`"
-msgstr ""
-
-#: ../../api.rst:24
-msgid ""
-"All tables/mappers in Ghini which use the SQLAlchemy declarative plugin "
-"for declaring tables and mappers should derive from this class."
-msgstr ""
-
-#: ../../api.rst:28
-msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
-msgstr ""
-
-#: ../../api.rst:33
-msgid "The default metadata for all Ghini tables."
-msgstr ""
-
-#: ../../api.rst:35
-msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
-msgstr ""
-
-#: ../../api.rst:49
-msgid ":mod:`bauble.connmgr`"
-msgstr ""
-
-#: ../../api.rst:57
-msgid ":mod:`bauble.editor`"
-msgstr ""
-
-#: ../../api.rst:78
-msgid ":mod:`bauble.i18n`"
-msgstr ""
-
-#: ../../api.rst:83
-msgid ":mod:`bauble.ui`"
-msgstr ""
-
-#: ../../api.rst:91
-msgid ":mod:`bauble.meta`"
-msgstr ""
-
-#: ../../api.rst:99
-msgid ":mod:`bauble.paths`"
-msgstr ""
-
-#: ../../api.rst:108
-msgid ":mod:`bauble.pluginmgr`"
-msgstr ""
-
-#: ../../api.rst:122
-msgid ":mod:`bauble.prefs`"
-msgstr ""
-
-#: ../../api.rst:133
-msgid ":mod:`bauble.task`"
-msgstr ""
-
-#: ../../api.rst:141
-msgid ":mod:`bauble.types`"
-msgstr ""
-
-#: ../../api.rst:154
-msgid ":mod:`bauble.utils`"
-msgstr ""
-
-#: ../../api.rst:204
-msgid ":mod:`bauble.view`"
-msgstr ""
-
-#: ../../api.rst:230
-msgid ":mod:`bauble.search`"
-msgstr ""
-
-#: ../../api.rst:243
-msgid ":mod:`bauble.plugins.plants`"
-msgstr ""
-
-#: ../../api.rst:278
-msgid ":mod:`bauble.plugins.garden`"
-msgstr ""
-
-#: ../../api.rst:316
-msgid ":mod:`bauble.plugins.abcd`"
-msgstr ""
-
-#: ../../api.rst:325
-msgid ":mod:`bauble.plugins.imex`"
-msgstr ""
-
-#: ../../api.rst:329
-msgid ":mod:`bauble.plugins.report`"
-msgstr ""
-
-#: ../../api.rst:333
-msgid ":mod:`bauble.plugins.report.xsl`"
-msgstr ""
-
-#: ../../api.rst:337
-msgid ":mod:`bauble.plugins.report.mako`"
-msgstr ""
-
-#: ../../api.rst:341
-msgid ":mod:`bauble.plugins.tag`"
 msgstr ""
 
 #: ../../building.rst:2
@@ -4237,5 +4123,93 @@ msgstr ""
 #~ "  Select And/Or next to the property"
 #~ " name choose how the properties will"
 #~ " be combined in the search query."
+#~ msgstr ""
+
+#~ msgid "API Documentation"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.db`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All tables/mappers in Ghini which use"
+#~ " the SQLAlchemy declarative plugin for "
+#~ "declaring tables and mappers should "
+#~ "derive from this class."
+#~ msgstr ""
+
+#~ msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
+#~ msgstr ""
+
+#~ msgid "The default metadata for all Ghini tables."
+#~ msgstr ""
+
+#~ msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.connmgr`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.editor`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.i18n`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.ui`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.meta`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.paths`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.pluginmgr`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.prefs`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.task`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.types`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.utils`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.view`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.search`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.plants`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.garden`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.abcd`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.imex`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.report`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.report.xsl`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.report.mako`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.tag`"
 #~ msgstr ""
 

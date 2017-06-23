@@ -5,7 +5,30 @@ LANGUAGES='ar cs da de es fr hi it pl pt_BR ru sv uk zh'
 SOURCEDOCDIR=~/Local/github/Ghini/ghini.desktop/doc
 CHECKOUTDIR=~/Local/github/Ghini/ghini.desktop-docs.i18n
 
-# make sure we have all the symbolic links for po files
+echo "press enter to start"
+read
+
+echo "all remaining actions must be run from the doc dir"
+cd $CHECKOUTDIR/doc
+
+echo "copy/update files from the documentation"
+echo "press enter to start this."
+read
+cp -pu $SOURCEDOCDIR/*.rst .
+rm api.rst
+
+echo "update the centralised doc.pot (two steps, first all pot, then merge them)"
+echo "press enter to start this"
+read
+make gettext
+msgcat -o _build/locale-merged/doc.pot _build/locale/*.pot
+
+echo "update all LANGUAGE/doc.po files in CHECKOUTDIR/local/"
+sphinx-intl update -p _build/locale-merged $(for i in $LANGUAGES; do printf -- '-l %s ' $i; done)
+
+echo "make sure we have all the symbolic links for po files"
+echo "press enter to start this."
+read
 for l in $LANGUAGES
 do
     cd $CHECKOUTDIR/locale/$l/LC_MESSAGES/
@@ -15,22 +38,10 @@ do
     done
 done
 
-# all remaining actions must be run from the doc dir
-cd $CHECKOUTDIR/doc
-
-# copy/update files from the documentation
-cp -pu $SOURCEDOCDIR/*.rst .
-rm api.rst
-
-# update the centralised doc.pot (two steps, first all pot, then merge them)
-make gettext
-msgcat -o _build/locale-merged/doc.pot _build/locale/*.pot
-
-# update all LANGUAGE/doc.po files in CHECKOUTDIR/local/
-sphinx-intl update -p _build/locale-merged $(for i in $LANGUAGES; do printf -- '-l %s ' $i; done)
-
-# this is enough as far as weblate and readthedocs are concerned
+echo "this is enough as far as weblate and readthedocs are concerned"
 #################################################################
+echo press enter to continue
+read
 
 #################################################################
 # build translated documentation for all configured languages
