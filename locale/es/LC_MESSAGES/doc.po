@@ -1765,7 +1765,7 @@ msgid ""
 "Following its links to other database objects lets us better understand "
 "the structure:"
 msgstr ""
-"El elemento central de la base de datos Ghini es la ``Accession`` (Accesión)."
+"El elemento central de la base de datos Ghini es la ``Accession`` (Accesión). "
 "Seguir los enlaces a las otras tabelas de la base de datos nos permite "
 "entender mejor su estructura:"
 
