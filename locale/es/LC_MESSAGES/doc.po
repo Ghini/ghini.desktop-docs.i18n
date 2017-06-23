@@ -1765,9 +1765,9 @@ msgid ""
 "Following its links to other database objects lets us better understand "
 "the structure:"
 msgstr ""
-"El elemento central en el punto de vista de Ghini es la ``Accesión``."
-"Siga los enlaces hacia las otras tabelas en la base de datos para "
-"entender mejor su estructura"
+"El elemento central de la base de datos Ghini es la ``Accession`` (Accesión)."
+"Seguir los enlaces a las otras tabelas de la base de datos nos permite "
+"entender mejor su estructura:"
 
 #: ../../goal.rst:50
 msgid ""
@@ -1788,6 +1788,10 @@ msgid ""
 "``Accession`` consistently connects all its ``Plantings`` to the "
 "``Species``."
 msgstr ""
+"Una ``Accession`` permanece en la base de datos aunque todas sus "
+"``Planting`` hayan sido removidas, vendida, o se hayan muerto. Al individuar "
+"la ``Species`` de una ``Accession`` se conecta en manera consistente todas "
+"sus ``Planting`` a la misma ``Species``."
 
 #: ../../goal.rst:64
 msgid ""
