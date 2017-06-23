@@ -45,5 +45,3 @@ do
     mkdir -p ../translated/$i
     cp -a _build/html ../translated/$i
 done
-
-cd $CHECKOUTDIR/doc
