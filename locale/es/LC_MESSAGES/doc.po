@@ -224,10 +224,13 @@ msgid ""
 " days, I might open a branch associated to the issue. I don't do this "
 "very often."
 msgstr ""
+"Cuando trabajo en cuestiones mayores, que pienso van a durar más que "
+"un par de días, podría preferir abrir una rama asociada a la cuestión. "
+"No hago esto muy a menudo."
 
 #: ../../building.rst:59 ../../devdl.rst:51
 msgid "larger issues"
-msgstr ""
+msgstr "cuestiones mayores"
 
 #: ../../building.rst:61
 msgid ""
@@ -338,6 +341,7 @@ msgid ""
 "First of all, open the coverage report index, and choose a file with low "
 "coverage."
 msgstr ""
+"En primer lugar, abra el índice del informe de cobertura y eliga un archivo con baja cobertura."
 
 #: ../../building.rst:132 ../../devdl.rst:124
 msgid ""
@@ -2217,6 +2221,7 @@ msgid ""
 "exported. *Plant* will export all living plants (some accession might not"
 " be included), all referred to locations and taxa."
 msgstr ""
+"Exportar *Especies* exportará su base de datos solo pero toda información taxonómica. Seleccionando *Accesión* se exportarán sus accesiones y toda la información taxonómica utilizada: taxones sin utilizar no se exportarán. Seleccionando *Planta* se exportarán todas las plantas vivientes (algunos accesiones pueden no ser incluidas), todos lo referido a ubicaciones y taxa."
 
 #: ../../index.rst:2
 msgid "Documentation for Ghini 1.0"
@@ -2525,6 +2530,10 @@ msgid ""
 "reduced to the same installation procedure as on Unix (GNU/Linux and "
 "MacOSX)."
 msgstr ""
+"El responsable actual de ghini.desktop no tiene ningún interés en "
+"aprender a producir instaladores de Windows, por lo cual prefiere reducir "
+"la instalación de Windows al mismo procedimiento de la instalación "
+"en Unix (GNU/Linux y MacOSX)."
 
 #: ../../installing.rst:149
 msgid ""
@@ -2541,6 +2550,10 @@ msgid ""
 "up, the Ghini installation procedure runs as on GNU/Linux. The concluding"
 " steps are again Windows specific."
 msgstr ""
+"Los pasos descritos aquí les enseñan cómo instalar Git, Gtk, Python, y los "
+"conectores python para base de datos. Una vez correctamente configurato "
+"este entorno, el procedimiento de instalación de Ghini funciona como en "
+"GNU/Linux. Los pasos finales son otra vez específicos de Windows."
 
 #: ../../installing.rst:157
 msgid ""
@@ -2558,6 +2571,10 @@ msgid ""
 "direct download links stops working, please ring the bell, so we can "
 "update the information here."
 msgstr ""
+"Se dan enlaces de descarga directa para todos los componentes necesarios. "
+"Han sido probados en septiembre de 2015, pero las cosas cambian con el tiempo. "
+"Si cualquiera de los enlaces directos de descarga deja de funcionar, "
+"por favor, nos avisen, para que actualicemos la información en esta documentación."
 
 #: ../../installing.rst:172
 msgid "The installation steps on Windows:"
@@ -3072,30 +3089,31 @@ msgid ""
 "search entry or by using the Query Builder to create the queries for you."
 " The results of Ghini searches are listed in the main window."
 msgstr ""
+"Buscar le permite ver, navegar y crear informes a partir de los datos. Puede realizar búsquedas introduciendo las consultas en el formato principal de búsqueda o utilizando el generador de consultas para que cree las consultas para usted. Los resultados de las búsquedas de Ghini se enumeran en la ventana principal."
 
 #: ../../searching.rst:13
 msgid "Search Strategies"
-msgstr ""
+msgstr "Estrategias de Búsqueda"
 
 #: ../../searching.rst:15
 msgid "Ghini offers four distinct search strategies:"
-msgstr ""
+msgstr "Ghini ofrece cuatro estrategias de búsqueda distinctas:"
 
 #: ../../searching.rst:17
 msgid "by value — in all domains;"
-msgstr ""
+msgstr "por valor — implícitamente en todos dominios;"
 
 #: ../../searching.rst:18
 msgid "by expression — in a few implicit fields in one explicit domain;"
-msgstr ""
+msgstr "por expresión — en unos campos implícitos de un dominio explícito;"
 
 #: ../../searching.rst:19
 msgid "by query — in one domain;"
-msgstr ""
+msgstr "por query — en un sólo dominio;"
 
 #: ../../searching.rst:20
 msgid "by binomial name — only searches the Species domain."
-msgstr ""
+msgstr "por nombre binomial — busca solo el dominio Especies."
 
 #: ../../searching.rst:22
 msgid ""
