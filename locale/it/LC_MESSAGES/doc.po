@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../administration.rst:2
 msgid "Database Administration"
-msgstr ""
+msgstr "Amministrazione di basi di dati"
 
 #: ../../administration.rst:4
 msgid ""
@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../administration.rst:9
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #: ../../administration.rst:11
 msgid ""
@@ -1180,7 +1180,7 @@ msgstr ""
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
-msgstr ""
+msgstr "Inserire e modificare dati"
 
 #: ../../editing.rst:6
 msgid ""
@@ -1188,6 +1188,10 @@ msgid ""
 "editors.  Each basic type of data has its own editor.  For example there "
 "is a Family editor, a Genus editor, an Accession editor, etc."
 msgstr ""
+"Fondamentalmente, la maniera per aggiungere o modificare informazione con"
+" Bauble, è utilizzando gli editori. Per ciascun tipo di informazione, "
+"Bauble ha un editore, così per esempio c'è un editore per le famiglie, "
+"per i generi, per le accessioni, eccetera."
 
 #: ../../editing.rst:10
 msgid ""
@@ -1195,6 +1199,9 @@ msgid ""
 "menubar and then select the type of record your would like to create.  "
 "This opens a new blank editor for the type."
 msgstr ""
+"Per creare un nuovo elemento nella base dati, attivare il menu "
+":menuselection:`Insert`, e scegliere il tipo di oggetto da inserire. "
+"Questo apre un nuovo editore, vuoto, per il tipo scelto."
 
 #: ../../editing.rst:14
 msgid ""
@@ -1203,6 +1210,11 @@ msgid ""
 "This opens an editor that allows you to change the values on the record "
 "that you selected."
 msgstr ""
+"Per modificare un registro già presente nella base dati e visualizzato "
+"nella finestra principale di Bauble, fare click destro sulla sua riga e "
+"scegliere :menuselection:`Edit` dal menu che emerge. Questo apre un "
+"editore relativo al registro selezionato, modificando i dati nell'editore"
+" è possibile aggiornare la base dati."
 
 #: ../../editing.rst:19
 msgid ""
@@ -1210,23 +1222,28 @@ msgid ""
 "parent and selecting \"Add ???...\" on the context menu.  For example, a "
 "Family has Genus children: you can add a Genus to a Family by right "
 "clicking on a Family and selecting \"Add genus\"."
-msgstr ""
+msgstr "La maggior parte dei tipi di dati hanno registri che ne dipendono."
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "Note"
 
 #: ../../editing.rst:27
 msgid ""
 "Almost all of the editors in Ghini have a *Notes* tab which should work "
 "the same regardless of which editor you are using."
 msgstr ""
+"Quasi tutti gli editori in Bauble hanno una vista *Note*, che dovrebbe "
+"funzionare ugualmente per qualsivoglia editore attivato."
 
 #: ../../editing.rst:30
 msgid ""
 "If you enter a web address in a note then the link shows up in the Links "
 "box when the item your are editing is selected in the search results."
 msgstr ""
+"Un indirizzo web inserito a sé stante in una nota, viene trattato in modo"
+" speciale da Bauble: quando l'oggetto è selezionato nel pannello "
+"risultati, l'indirizzo web verrà mostrato nel contenitore *Links\"."
 
 #: ../../editing.rst:33
 msgid ""
@@ -1237,11 +1254,13 @@ msgstr ""
 
 #: ../../editing.rst:39 ../../searching.rst:44
 msgid "Family"
-msgstr ""
+msgstr "Famiglia"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
 msgstr ""
+"L'editore per le famiglie permette aggiungere o cambiare una famiglia "
+"botanica."
 
 #: ../../editing.rst:42
 msgid ""
@@ -1268,17 +1287,19 @@ msgstr ""
 
 #: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
 msgid "To cancel your changes without saving then click on the *Cancel* button."
-msgstr ""
+msgstr "Per annullare le modifiche, fare click sul pulsante *Cancel*/*Annulla*."
 
 #: ../../editing.rst:58
 msgid "To save the family you are working on then click *OK*."
-msgstr ""
+msgstr "Per memorizzare le modifiche effettuate, fare click su *OK*."
 
 #: ../../editing.rst:60
 msgid ""
 "To save the family you are working on and add a genus to it then click on"
 " the *Add Genera* button."
 msgstr ""
+"Per memorizzare le modifiche e per aggiungere un genere alla famiglia "
+"aggiunta o modificata, fare click su *Add Genera*."
 
 #: ../../editing.rst:63
 msgid ""
@@ -1286,10 +1307,13 @@ msgid ""
 " on the *Next* button on the bottom.  This saves the current family and "
 "opens a new blank family editor."
 msgstr ""
+"Per aggiungere un'altra famiglia dopo aver memorizzato le modifiche, fare"
+" click su *Next*.  Questo salva la famiglia correntemente aperta ed inizia"
+" la modifica della prossima."
 
 #: ../../editing.rst:69 ../../searching.rst:45
 msgid "Genus"
-msgstr ""
+msgstr "Genere"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
@@ -1302,16 +1326,22 @@ msgid ""
 "families to choose from.  The family name must already exist in the "
 "database before you can set it as the family for the genus."
 msgstr ""
+"Il campo *Famiglia* nell'editore di generi permette di selezionare la "
+"famiglia a cui appartiene il genere. La famiglia dev'essere già presente "
+"nella base dati per poter essere selezionata. Iniziare a scrivere il "
+"nome, Bauble mostrerà quelli che coincidono."
 
 #: ../../editing.rst:78
 msgid "The *Genus* field allows you to set the genus for this entry."
-msgstr ""
+msgstr "Il campo *Epiteto* permette di specificare l'epiteto di questo genere."
 
 #: ../../editing.rst:80
 msgid ""
 "The *Author* field allows you to set the name or abbreviation of the "
 "author(s) for the genus."
 msgstr ""
+"Il campo *Autore* permette di specificare il nome o l'abbreviazione "
+"dell'autore o gli autori della pubblicazione del genere."
 
 #: ../../editing.rst:83
 msgid ""
@@ -1343,7 +1373,7 @@ msgstr ""
 
 #: ../../editing.rst:104
 msgid "Species/Taxon"
-msgstr ""
+msgstr "Specie / Tassone"
 
 #: ../../editing.rst:106
 msgid ""
@@ -1379,7 +1409,7 @@ msgstr ""
 
 #: ../../editing.rst:127
 msgid "Accessions"
-msgstr ""
+msgstr "Accessioni"
 
 #: ../../editing.rst:129
 msgid ""
@@ -1392,7 +1422,7 @@ msgstr ""
 
 #: ../../editing.rst:136
 msgid "Accession Source"
-msgstr ""
+msgstr "Fonte dell'Accessione"
 
 #: ../../editing.rst:137
 msgid ""
@@ -1411,23 +1441,23 @@ msgstr ""
 
 #: ../../editing.rst:148
 msgid "Donation"
-msgstr ""
+msgstr "Donazione"
 
 #: ../../editing.rst:149
 msgid "A Donation."
-msgstr ""
+msgstr "Una donazione"
 
 #: ../../editing.rst:154 ../../searching.rst:50
 msgid "Plant"
-msgstr ""
+msgstr "Pianta"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
-msgstr ""
+msgstr "L'editore di piante"
 
 #: ../../editing.rst:158
 msgid "Creating multiple plants"
-msgstr ""
+msgstr "Creare più di una pianta"
 
 #: ../../editing.rst:159
 msgid ""
@@ -1435,12 +1465,19 @@ msgid ""
 " only allowed when creating new plants and it is not possible when "
 "editing existing Plants in the database."
 msgstr ""
+"È possibile creare più di una pianta in una sola volta, specificando un "
+"intervallo come codice di pianta. Questa opzione è disponibile solo al "
+"momento di inserire una nuova pianta, non quando se ne sta modificando "
+"una già presente nella base dati."
 
 #: ../../editing.rst:163
 msgid ""
 "For example the range, 3-5 will create plant with code 3,4,5.  The range "
 "1,4-7,25 will create plants with codes 1,4,5,6,7,25."
 msgstr ""
+"Per esempio, l'intervallo 3-5 creerà tre piante, con codici "
+"rispettivamente 3, 4 e 5. L'intervallo 1,4-7,25 crea sei piante con "
+"codici rispettivamente 1, 4, 5, 6, 7 e 25."
 
 #: ../../editing.rst:166
 msgid ""
@@ -1452,7 +1489,7 @@ msgstr ""
 
 #: ../../editing.rst:174
 msgid "Pictures"
-msgstr ""
+msgstr "Fotografie"
 
 #: ../../editing.rst:176
 msgid ""
@@ -2005,7 +2042,7 @@ msgstr ""
 
 #: ../../imex.rst:2
 msgid "Importing and Exporting Data"
-msgstr ""
+msgstr "Importare ed esportare dati"
 
 #: ../../imex.rst:4
 msgid ""
@@ -2080,7 +2117,7 @@ msgstr ""
 
 #: ../../imex.rst:46
 msgid "Importing from JSON"
-msgstr ""
+msgstr "Importare da JSON"
 
 #: ../../imex.rst:48
 msgid ""
@@ -2097,14 +2134,16 @@ msgid ""
 "Using the Ghini json interchange format, you can import data which you "
 "have exported from a different Ghini installation."
 msgstr ""
+"Utilizzando il formato di scambio JSON, è possibile esportare dati da una"
+" versione di Bauble ed importarli in una versione differente."
 
 #: ../../imex.rst:59
 msgid "Exporting to JSON"
-msgstr ""
+msgstr "Esportare verso JSON"
 
 #: ../../imex.rst:61
 msgid "This feature is still under development."
-msgstr ""
+msgstr "Questo è ancora “lavori in corso”."
 
 #: ../../imex.rst:65
 msgid ""
@@ -3371,7 +3410,7 @@ msgstr ""
 
 #: ../../started.rst:12
 msgid "Should you SQLite?"
-msgstr ""
+msgstr "E se fosse SQLite?"
 
 #: ../../started.rst:14
 msgid ""
@@ -3387,6 +3426,8 @@ msgid ""
 "With SQLite, you do not need any preparation and you can continue with "
 "`connecting`_."
 msgstr ""
+"Con SQLite non c'è bisogno di preparare altro e si può proseguire con "
+"`connecting`_."
 
 #: ../../started.rst:23
 msgid ""
@@ -3416,19 +3457,23 @@ msgstr ""
 
 #: ../../started.rst:43
 msgid "Connecting to a database"
-msgstr ""
+msgstr "Connettersi ad una base dati"
 
 #: ../../started.rst:45
 msgid ""
 "When you start Ghini the first thing that comes up is the connection "
 "dialog."
 msgstr ""
+"All'avviare Bauble, la prima cosa che appare è la finestra per la scelta "
+"della connessione."
 
 #: ../../started.rst:48
 msgid ""
 "Quite obviously, if this is the first time you start Ghini, you have no "
 "connections yet and Ghini will alert you about it."
 msgstr ""
+"Abbastanza naturalmente, la prima volta che si avvia Bauble non ci "
+"saranno connessioni a disposizione. Bauble mostra una finestra di avviso."
 
 #: ../../started.rst:53
 msgid ""
@@ -3445,10 +3490,15 @@ msgid ""
 "previous screen, but your connection name will be selected and the "
 "Connection Details will have expanded."
 msgstr ""
+"Semplicemente: inserire un nome per la connessione, una cose semplice e "
+"significativa che si associ naturalmente alla collezione che si vuol "
+"inserire (che so, \"alberi monumentali\"), e scegliere **OK**. Bauble "
+"torna allo schermo precedente, ma il nome della connessione sarà "
+"selezionato e la sezione Dettagli della Connessione sarà visibile."
 
 #: ../../started.rst:67
 msgid "**specify the connection details**"
-msgstr ""
+msgstr "**specificare i dettagli della connessione**"
 
 #: ../../started.rst:69
 msgid ""
@@ -3522,17 +3572,19 @@ msgstr ""
 
 #: ../../started.rst:113
 msgid "Initialize a database"
-msgstr ""
+msgstr "Inizializzare la base dati"
 
 #: ../../started.rst:115
 msgid ""
 "First time you open a connection to a database which had never been seen "
 "by Ghini before, Ghini will first display an alert:"
 msgstr ""
+"La prima volta che si apre una connessione ad una base dati che Bauble "
+"non ha mai utilizzato prima, Bauble mostrerà l'avviso:"
 
 #: ../../started.rst:120
 msgid "immediately followed by a question:"
-msgstr ""
+msgstr "seguito a ruota da una domanda:"
 
 #: ../../started.rst:124
 msgid ""
@@ -3556,6 +3608,9 @@ msgid ""
 "ready to start :ref:`editing-and-inserting-data` and subsequently :ref"
 ":`searching-in-bauble`."
 msgstr ""
+"Una volta creata, configurata, inizializzata la base dati, siamo pronti "
+"per iniziare a :ref:`editing-and-inserting-data`ed in seguito :ref"
+":`searching-in-bauble`."
 
 #: ../../statements.rst:2
 msgid "Mission & Vision"
@@ -3799,417 +3854,3 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
-
-#~ msgid "helping bauble development"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "use the software, note the things "
-#~ "you don't like, open issue for "
-#~ "each of them. a developer will "
-#~ "react."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "if you have an idea of what "
-#~ "you miss in the software but can't"
-#~ " quite formalize it into separate "
-#~ "issues, you could consider hiring a "
-#~ "professional. this is the best way "
-#~ "to make sure that something happens "
-#~ "quickly on Ghini. do make sure the"
-#~ " developer opens issues and publishes "
-#~ "their contribution on github."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "translate! any help with translations "
-#~ "will be welcome, so please do! you"
-#~ " can do this without installing "
-#~ "anything on your computer, just using"
-#~ " the on-line translation service "
-#~ "offered by http://hosted.weblate.org/"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "fork the respository, choose an issue,"
-#~ " solve it, open a pull request. "
-#~ "see the `bug solving workflow`_ below."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "write unit tests and commit them "
-#~ "to your branch (do not commit "
-#~ "failing unit tests to the ``master`` "
-#~ "branch)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "open the pull request page using "
-#~ "as base the production line, compared"
-#~ " to ``master``."
-#~ msgstr ""
-
-#~ msgid "Ghini's goal"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "An ``Accession`` may be obtained from"
-#~ " an external ``Contact``, or be the"
-#~ " result of a garden ``Propagation``.  "
-#~ "This information is optional.  A "
-#~ "successful ``Propagation`` trial can only "
-#~ "result in one accession (0..1), while"
-#~ " a ``Contact`` may provide multiple "
-#~ "``Accessions`` (0..n)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "At the beginning of 2007 we got"
-#~ " five seedlings of *Heliconia longa* "
-#~ "(a plant ``Species``) from our neighbour"
-#~ " (the ``Contact`` source). Since it "
-#~ "was the first acquisition of the "
-#~ "year, we named them 2007.0001 (we "
-#~ "gave them a single unique ``Accession``"
-#~ " code) and we planted them all "
-#~ "together at one ``Location`` as a "
-#~ "single ``Planting`` with quantity 5."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "At the time of writing, nine years"
-#~ " later, ``Accession`` 2007.0001 has 6 "
-#~ "distinct ``Plantings``, each at a "
-#~ "different ``Locations`` in our garden, "
-#~ "obtained vegetatively (asexually) from the "
-#~ "original 5 plants. Our only intervention"
-#~ " was splitting, moving, and of course"
-#~ " writing this information in the "
-#~ "database."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Three are three types of search "
-#~ "strategies available in Ghini. Considering "
-#~ "the search stragety types available in"
-#~ " Ghini, sorted in increasing complexity:"
-#~ " you can search by value, expression"
-#~ " or query."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Searching by query, the most complex "
-#~ "and powerful, is assisted by the "
-#~ "Query Builder, described below."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All searches are case insensitive so "
-#~ "searching for Maxillaria and maxillaria "
-#~ "will return the same results."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Search by value is the simplest "
-#~ "way to search. You just type in"
-#~ " a string and see what matches. "
-#~ "Which fields/columns are search for your"
-#~ " string depends on how the different"
-#~ " plugins are configured. For example, "
-#~ "by default the PlantPlugin search the"
-#~ " family name, the genus name, the "
-#~ "species and infraspecific species names, "
-#~ "vernacular names and geography. So if"
-#~ " you want to search in the "
-#~ "notes field of any of these types"
-#~ " then searching by value is not "
-#~ "the search you're looking for."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Examples of searching by value would "
-#~ "be: Maxillaria, Acanth, 2008.1234, 2003.2.1"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Search string are separated by spaces."
-#~ " For example if you enter the "
-#~ "search string ``Block 10`` then Ghini"
-#~ " will search for the strings Block"
-#~ " and 10 and return all the "
-#~ "results that match either of these "
-#~ "strings. If you want to search for"
-#~ " Block 10 as a while string "
-#~ "then you should quote the string "
-#~ "like ``\"Block 10\"``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Searching with expression gives you a"
-#~ " little more control over what you"
-#~ " are searching for. It can narrow "
-#~ "the search down to a specific "
-#~ "domain. Expression consist of a domain,"
-#~ " an operator and a value. For "
-#~ "example the search: ``gen=Maxillaria`` would"
-#~ " return all the genera that match "
-#~ "the name Maxillaria. In this case "
-#~ "the domain is gen, the operator is"
-#~ " = and the value is Maxillaria."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The search string ``gen like max%`` "
-#~ "would return all the genera whose "
-#~ "names start with \"Max\". In this "
-#~ "case the domain again is gen, the"
-#~ " operator is like, which allows for"
-#~ " \"fuzzy\" searching and the value is"
-#~ " max%. The percent sign is used "
-#~ "as a wild card so if you "
-#~ "search for max% then it search for"
-#~ " all value that start with max. "
-#~ "If you search for %max it searches"
-#~ " for all values that end in "
-#~ "max. The string %max%a would search "
-#~ "for all value that contain max and"
-#~ " end in a."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "For more information about the different"
-#~ " search domain and their short-hand"
-#~ " aliases, see search-domains_ ."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If expression are invalid they are "
-#~ "usually used as search by value "
-#~ "searchs. For example the search string"
-#~ " ``gen=`` will execute a search by"
-#~ " value for the string gen and "
-#~ "the search string ``gen like`` will "
-#~ "search for the string gen and the"
-#~ " string like."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Queries allow the most control over "
-#~ "searching. With queries you can search"
-#~ " across relations, specific columns and "
-#~ "join search using boolean operators like"
-#~ " AND and OR."
-#~ msgstr ""
-
-#~ msgid "An example of a query would be::"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This query would return all the "
-#~ "plants whose family are Fabaceae and "
-#~ "are located in Block 10."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Searching with queries usually requires "
-#~ "some knowledge of the Ghini internals"
-#~ " and database table layouts."
-#~ msgstr ""
-
-#~ msgid "A couple of useful examples:"
-#~ msgstr ""
-
-#~ msgid "Which locations are in use::"
-#~ msgstr ""
-
-#~ msgid "Which genera are associated to at least one accession::"
-#~ msgstr ""
-
-#~ msgid "Domains"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The following are the common search "
-#~ "domain and the columns they search "
-#~ "by default. The default columns are "
-#~ "used when searching by value and "
-#~ "expression. The queries do not use "
-#~ "the default columns."
-#~ msgstr ""
-
-#~ msgid "family, fam: Search :class:`bauble.plugins.plants.Family`"
-#~ msgstr ""
-
-#~ msgid "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
-#~ msgstr ""
-
-#~ msgid "species, sp: Search :class:`bauble.plugins.plants.Species`"
-#~ msgstr ""
-
-#~ msgid "geography: Search :class:`bauble.plugins.plants.Geography`"
-#~ msgstr ""
-
-#~ msgid "acc: Search :class:`bauble.plugins.garden.Accession`"
-#~ msgstr ""
-
-#~ msgid "plant: Search :class:`bauble.plugins.garden.Plant`"
-#~ msgstr ""
-
-#~ msgid "location, loc: Search :class:`bauble.plugins.garden.Location`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The Query Builder helps you build "
-#~ "complex search queries through a point"
-#~ " and click interface.  To open the"
-#~ " Query Builder click the to the "
-#~ "left of the search entry or select"
-#~ " :menuselection:`Tools-->Query Builder` from the"
-#~ " menu."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The Query Builder composes a query "
-#~ "that will be understood by the "
-#~ "Query Search Strategy described above. "
-#~ "You can use the Query Builder to"
-#~ " get a feeling of correct queries "
-#~ "before you start typing them by "
-#~ "hand, something that you might prefer"
-#~ " if you are a fast typer."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After opening the Query Builder you "
-#~ "must select a search domain.  The "
-#~ "search domain will determine the type"
-#~ " of data that is returned and "
-#~ "the properties that you can search."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The search domain is similar to a"
-#~ " table in the database and the "
-#~ "properties would be the columns on "
-#~ "the table.  Often the table/domain and"
-#~ " properties/columns are the same but "
-#~ "not always."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Once a search domain is selected "
-#~ "you can then select a property of"
-#~ " the domain to compare values to."
-#~ "  The search operator can then be "
-#~ "changed for how you want to make"
-#~ " the search comparison.  Finally you "
-#~ "must enter a value to compare to"
-#~ " the search property."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If the search property you have "
-#~ "selected can only have specific values"
-#~ " then a list of possible values "
-#~ "will be provided for you to choose"
-#~ " from."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If multiple search properties are "
-#~ "necessary then clicking on the plus "
-#~ "sign will add more search properties."
-#~ "  Select And/Or next to the property"
-#~ " name choose how the properties will"
-#~ " be combined in the search query."
-#~ msgstr ""
-
-#~ msgid "API Documentation"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.db`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All tables/mappers in Ghini which use"
-#~ " the SQLAlchemy declarative plugin for "
-#~ "declaring tables and mappers should "
-#~ "derive from this class."
-#~ msgstr ""
-
-#~ msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
-#~ msgstr ""
-
-#~ msgid "The default metadata for all Ghini tables."
-#~ msgstr ""
-
-#~ msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.connmgr`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.editor`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.i18n`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.ui`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.meta`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.paths`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.pluginmgr`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.prefs`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.task`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.types`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.utils`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.view`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.search`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.plants`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.garden`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.abcd`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.imex`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.report`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.report.xsl`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.report.mako`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.tag`"
-#~ msgstr ""
-
