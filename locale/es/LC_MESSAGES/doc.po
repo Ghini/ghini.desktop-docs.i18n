@@ -1780,6 +1780,13 @@ msgid ""
 "one ``Accession``, each ``Species`` may have multiple ``Accessions`` "
 "relating to it."
 msgstr ""
+"Una ``Accession`` representa el haber recibido material botánico en el"
+" jardín. Por eso, ``Accession`` es un concepto abstracto, conecta las"
+" ``Plantings`` vivas —grupos de plantas puestas en la misma ``Location`` en "
+"el jardín— a la ``Species`` correspondiente. A una ``Accession`` se le asocian cero "
+"o más (0..n) ``Plantings``, y en todo momento está asociada a exactamente una "
+"``Species``. Cada ``Planting`` pertenece a exactamente "
+"una ``Accession``, cada ``Species`` puede tener cero o más ``Accessions``."
 
 #: ../../goal.rst:59
 msgid ""
