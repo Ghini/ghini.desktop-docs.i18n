@@ -72,7 +72,7 @@ msgstr ""
 
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
-msgstr ""
+msgstr "Por favor utilice la documentación oficial."
 
 #: ../../administration.rst:29
 msgid "PostgreSQL"
@@ -83,6 +83,8 @@ msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
 " your backup options starts at `chapter_24`_."
 msgstr ""
+"Por favor utilice la documentación oficial. Una discusión muy detallada "
+"sobre las opciones de backup empieza al `chapter_24`_."
 
 #: ../../administration.rst:37
 msgid "Ghini Configuration"
@@ -111,17 +113,18 @@ msgstr ""
 
 #: ../../administration.rst:51
 msgid "Reporting Errors"
-msgstr ""
+msgstr "Informar sobre faltas"
 
 #: ../../administration.rst:53
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
 msgstr ""
+"Si nota cualquier cosa en el uso de Ghini que no le parezca adecuado, por favor abra un ``issue`` en el sitio de desarrollo de Ghini."
 
 #: ../../administration.rst:56
 msgid "Ghini development site can be accessed via the Help menu."
-msgstr ""
+msgstr "El sitio de desarrollo de Ghini es accesible desde el menu de Ayuda."
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
@@ -1179,7 +1182,7 @@ msgstr ""
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
-msgstr ""
+msgstr "Editar e insertar información"
 
 #: ../../editing.rst:6
 msgid ""
@@ -1213,13 +1216,16 @@ msgstr ""
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "Notas"
 
 #: ../../editing.rst:27
 msgid ""
 "Almost all of the editors in Ghini have a *Notes* tab which should work "
 "the same regardless of which editor you are using."
 msgstr ""
+"Casi todos los editores en Ghini tienen una pestaña *Notas*, "
+"que funciona del mismo modo, independientemente del editor."
+
 
 #: ../../editing.rst:30
 msgid ""
@@ -1236,7 +1242,7 @@ msgstr ""
 
 #: ../../editing.rst:39 ../../searching.rst:44
 msgid "Family"
-msgstr ""
+msgstr "Familia"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
@@ -1264,6 +1270,11 @@ msgid ""
 "software adds the selected synonym to the list.  To remove a synonym, "
 "select the synonym from the list and click on the Remove button."
 msgstr ""
+"*Sinónimos* permite añadir familias que sean sinónimo de la familia que "
+"estás editando. Para añadir un nuevo sinónimo, escriba el nombre de la "
+"familia en el campo. Es necesario seleccionar un nombre de la lista. "
+"Cuando se haya seleccionado el nombre de la familia que es un sinónimo, "
+"presionar *añadir*. Para eliminar una sinonimía, seleccionar el sinónimo de la lista y activar la tecla Remove."
 
 #: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
 msgid "To cancel your changes without saving then click on the *Cancel* button."
@@ -1288,7 +1299,7 @@ msgstr ""
 
 #: ../../editing.rst:69 ../../searching.rst:45
 msgid "Genus"
-msgstr ""
+msgstr "Género"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
@@ -1322,6 +1333,13 @@ msgid ""
 "selected synonym to the list.  To remove a synonym select the synonym "
 "from the list and click on the Remove button."
 msgstr ""
+"*Sinónimos* le permite añadir otros géneros que son sinónimos del "
+"género que esté editando. Para agregar un nuevo sinónimo escriba un nombre"
+" de género. Debe seleccionar un género de la lista. Una vez haya "
+"seleccionado el nombre del género que desea agregar, pulse sobre el botón"
+" Añadir que se encuentra junto a la lista de sinónimos y se agregará a la"
+" lista el sinónimo seleccionado. Para eliminar un sinónimo, selecciónelo de"
+" la lista y pulse el botón Borrar."
 
 #: ../../editing.rst:93
 msgid "To save the genus you are working on then click *OK*."
@@ -1378,7 +1396,7 @@ msgstr ""
 
 #: ../../editing.rst:127
 msgid "Accessions"
-msgstr ""
+msgstr "Accesiones"
 
 #: ../../editing.rst:129
 msgid ""
@@ -1391,7 +1409,7 @@ msgstr ""
 
 #: ../../editing.rst:136
 msgid "Accession Source"
-msgstr ""
+msgstr "Fuente de la accesión"
 
 #: ../../editing.rst:137
 msgid ""
@@ -1402,31 +1420,31 @@ msgstr ""
 
 #: ../../editing.rst:143 ../../searching.rst:53
 msgid "Collection"
-msgstr ""
+msgstr "Colecta"
 
 #: ../../editing.rst:144
 msgid "A Collection."
-msgstr ""
+msgstr "Una colecta."
 
 #: ../../editing.rst:148
 msgid "Donation"
-msgstr ""
+msgstr "Donoción"
 
 #: ../../editing.rst:149
 msgid "A Donation."
-msgstr ""
+msgstr "Una donación."
 
 #: ../../editing.rst:154 ../../searching.rst:50
 msgid "Plant"
-msgstr ""
+msgstr "Planta"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
-msgstr ""
+msgstr "Editor de Plantas."
 
 #: ../../editing.rst:158
 msgid "Creating multiple plants"
-msgstr ""
+msgstr "Crear más que una planta"
 
 #: ../../editing.rst:159
 msgid ""
@@ -1451,7 +1469,7 @@ msgstr ""
 
 #: ../../editing.rst:174
 msgid "Pictures"
-msgstr ""
+msgstr "Fotos"
 
 #: ../../editing.rst:176
 msgid ""
@@ -1472,10 +1490,8 @@ msgstr ""
 msgid ""
 "As of Ghini-1.0.62, Pictures are not kept in the database. To ensure "
 "pictures are available on all terminals where you have installed and "
-"configured Ghini, you can use a file sharing service like Copy or "
-"Dropbox. The personal choice of the writer of this document is to use "
-"Copy, because it offers much more space and because of its \"Fair "
-"Storage\" policy."
+"configured Ghini, you can use a network drive, or a file sharing service "
+"like Tresorit or Dropbox."
 msgstr ""
 
 #: ../../editing.rst:191
@@ -2030,6 +2046,9 @@ msgid ""
 "import and export formats, by default it can only import and export comma"
 " seperated values files or CSV."
 msgstr ""
+"Aunque se puede extender Ghini mediante plugins, para que admita formatos "
+"alternativos de importación y exportación, por defecto solo "
+"importa/exporta ficheros con datos separados por coma (CSV)."
 
 #: ../../imex.rst:8
 msgid ""
@@ -2076,6 +2095,9 @@ msgid ""
 "you're doing a file chooser will open.  In the file chooser select the "
 "files you want to import."
 msgstr ""
+"Tras pulsar OK en el diálogo que solicita confirmación de la acción, se "
+"abrirá un selector de fichero. Seleccione los ficheros que desee importar"
+" en el selector de ficheros."
 
 #: ../../imex.rst:35
 msgid "Exporting to CSV"
@@ -2149,6 +2171,8 @@ msgid ""
 "Ghini is an application for managing botanical specimen collections. With"
 " it you can create a searchable database of plant records."
 msgstr ""
+"Ghini es un programa para manejar una base de datos que represente una "
+"colección botánica: inserción, búsquedas, informes, et cetera."
 
 #: ../../index.rst:11
 msgid ""
@@ -2156,6 +2180,9 @@ msgid ""
 "<http://www.fsf.org>`_ and is released under the `GNU Public License "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 msgstr ""
+"Ghini es `codigo abierto <http://www.opensource.org>`_ y `libre "
+"<http://www.fsf.org>`_ y es distribuido bajo la `GPL, Licencia Pública "
+"GNU <http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
 #: ../../index.rst:17
 msgid "Statements"
@@ -2171,7 +2198,7 @@ msgstr "Utilizar Ghini"
 
 #: ../../index.rst:51
 msgid "Administration"
-msgstr ""
+msgstr "Administración"
 
 #: ../../index.rst:60
 msgid "Ghini Development"
@@ -2186,6 +2213,8 @@ msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
 msgstr ""
+"Si usted utiliza Ghini, o si le parece poder apoyar su desarrollo, por "
+"favor considere una `donación <https://pledgie.com/campaigns/29188>`_"
 
 #: ../../installing.rst:2
 msgid "Installation"
@@ -2196,6 +2225,9 @@ msgid ""
 "ghini.desktop is a cross-platform program and it will run on unix "
 "machines like GNU/Linux and MacOSX, as well as on Windows."
 msgstr ""
+"ghini.desktop es un programa independiente de la plataforma software "
+"pues puede funcionar en sistemas unix como Linux y MacOSX así como en "
+"Windows."
 
 #: ../../installing.rst:7
 msgid ""
@@ -2205,6 +2237,11 @@ msgid ""
 "these packages installed then Ghini should be able to install the rest of"
 " its dependencies by itself."
 msgstr ""
+"Para instalar Ghini primero hay que instalar dependencias que no pueden "
+"ser solucionadas automáticamente. Estas incluyen virtualenv, pygtk, y "
+"pip. Python y GTK+, muy probablemente ya se encuentra en la computadora. "
+"El programa de instalación puede hacerlo todo, después de haberle puesto "
+"a disposición los programas que él necesita."
 
 #: ../../installing.rst:13
 msgid ""
@@ -2213,12 +2250,19 @@ msgid ""
 "locally, non conflicting with any other Python program you may have on "
 "your system."
 msgstr ""
+"Si sigue los siguientes pasos, se encontrará con Ghini instalado en un "
+"entorno virtual, todas la dependencias Python estarán instalada "
+"localmente y no entrarán en conflicto con otros programas Python que "
+"puedan estar el la misma computadora."
 
 #: ../../installing.rst:18
 msgid ""
 "if you later choose to remove Ghini, you simply remove the virtual "
 "environment, which is a directory, with all of its content."
 msgstr ""
+"Si por cualquier razón quisiera usted desinstalar Ghini, lo único que tiene "
+"que hacer es eliminar el entorno virtual, que es una carpeta, con todo su "
+"contenido."
 
 #: ../../installing.rst:23
 msgid "Installing on GNU/Linux"
@@ -2252,7 +2296,7 @@ msgstr ""
 
 #: ../../installing.rst:49
 msgid "Download the `devinstall.sh` script and run it::"
-msgstr ""
+msgstr "Bajar el archivo `devinstall.sh` y ejecutarlo::"
 
 #: ../../installing.rst:53
 msgid ""
@@ -2260,26 +2304,33 @@ msgid ""
 "connector. This is not strictly necessary and you can do it at any later "
 "step."
 msgstr ""
+"Nota: El archivo de instalación no bajará ningún conector de base de "
+"datos. Si quiere utilizar otra base de datos diferente que SQLite, tendrá"
+" que instalar un conector extra."
 
 #: ../../installing.rst:56
 msgid "If the script ends without error, you can now start ghini::"
-msgstr ""
+msgstr "Si el proceso terminó sin errores, ya puede arrancar ghini::"
 
 #: ../../installing.rst:60
 msgid "or update ghini to the latest released production patch::"
-msgstr ""
+msgstr "Si usted desea ponerse al día con la última versión publicada::"
 
 #: ../../installing.rst:64
 msgid ""
 "The same script you can use to switch to a different production line. At "
 "the moment it's just `ghini-1.0` and `ghini-1.1`."
 msgstr ""
+"El mismo archivo `devinstall.sh` puede ser utilizado para pasar a otra "
+"linea de producción. Al momento ofrecemos `ghini-1.0` y `ghini-1.1`."
 
 #: ../../installing.rst:67
 msgid ""
 "on Unity, open a terminal, start ghini, its icon will show up in the "
 "launcher, you can now `lock to launcher` it."
 msgstr ""
+"Utilizando Unity, abra un terminal, arranque ghini, su icono aparecerá "
+"en el lanzador, y puede ahora pegarlo para que quede a disposición."
 
 #: ../../installing.rst:70
 msgid ""
@@ -2288,6 +2339,10 @@ msgid ""
 "If you would like to use a database backend other than the default SQLite"
 " backend then you will also need to install a database connector."
 msgstr ""
+"Si quiere utilizar el conector por defecto de la base de datos  `SQLite "
+"<http://sqlite.org/>`_, o si ni idea tiene de que quiere decir eso, puede"
+" ignorar este paso. Pero si ha decidido conectarse a otra base de datos, "
+"será necesario instalar el conector correspondiente."
 
 #: ../../installing.rst:75
 msgid ""
@@ -2295,6 +2350,8 @@ msgid ""
 "database then activate the virtual environment and install psycopg2 with "
 "the following commands::"
 msgstr ""
+"Para utilizar  `PostgreSQL <http://www.postgresql.org>`_, activar el "
+"entorno virtual e instalar `psycopg2` con las instrucciones siguientes::"
 
 #: ../../installing.rst:82
 msgid ""
@@ -2302,11 +2359,13 @@ msgid ""
 "GNU/Linux flavour you are using. Check with your distribution "
 "documentation."
 msgstr ""
+"Podría ser necesario resolver dependencias. Cómo hacerlo, depende de cual"
+" distribución GNU/Linux utiliza, y en que versión. Averigüe su documentación."
 
 #: ../../installing.rst:86 ../../installing.rst:139 ../../installing.rst:293
 #: ../../installing.rst:329
 msgid "Next..."
-msgstr ""
+msgstr "Siguiente..."
 
 #: ../../installing.rst:87 ../../installing.rst:140 ../../installing.rst:294
 #: ../../installing.rst:330
@@ -2315,13 +2374,15 @@ msgstr ""
 
 #: ../../installing.rst:90
 msgid "Installing on MacOSX"
-msgstr ""
+msgstr "Instalar en MacOSX"
 
 #: ../../installing.rst:92
 msgid ""
 "Being MacOSX a unix environment, most things will work the same as on "
 "GNU/Linux (sort of)."
 msgstr ""
+"Siendo MacOSX una versión de unix, todo funciona como en Linux, pues más "
+"o menos."
 
 #: ../../installing.rst:95
 msgid ""
@@ -2329,26 +2390,34 @@ msgid ""
 "MacOSX 10.5 and we assume similar problems would also show on older OSX "
 "versions.  Ghini has been successfully tested with 10.7, 10.9 and 10.12."
 msgstr ""
+"La última vez que intentamos, no pudimos instalar algunas de las dependencias en "
+"MacOSX 10.5, seguramente los mismos problemas se encuentran con versiones"
+" anteriores. Ghini ha sido instalado exitosamente en las versiones 10.7, 10.9 y 10.12."
 
 #: ../../installing.rst:99
 msgid ""
 "First of all, you need things which are an integral part of a unix "
 "environment, but which are missing in a off-the-shelf mac:"
 msgstr ""
+"Primer paso, construir en MacOSX un entorno reconocible como unix:"
 
 #: ../../installing.rst:102
 msgid ""
 "developers tools: xcode. check the wikipedia page for the version "
 "supported on your mac."
 msgstr ""
+"herramienta de desarrollo: xcode. por favor averigue en la wikipedia cual"
+" es la versión de xcode adapta a su mac."
 
 #: ../../installing.rst:104
 msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr ""
+"gestor de paquetes: homebrew (o si utiliza un sistema más viejo, "
+"tigerbrew)."
 
 #: ../../installing.rst:106
 msgid "with the above installed, open a terminal window and run::"
-msgstr ""
+msgstr "siendo instalado lo de arriba, ejecutar::"
 
 #: ../../installing.rst:110
 msgid ""
@@ -2356,14 +2425,17 @@ msgid ""
 " will need xquartz and brew will not solve the dependency automatically. "
 "either install xquartz using brew or the way you prefer::"
 msgstr ""
+"asegúrese de haber entendido los problemas que serás reportados, y "
+"corríjalos. pygtk necesita xquartz y brew no puede solucionar la "
+"dependencia en manera automatica. use bre para instalar xquartz::"
 
 #: ../../installing.rst:116
 msgid "then install the remaining dependencies::"
-msgstr ""
+msgstr "y finalmente instalar las últimas dependencias::"
 
 #: ../../installing.rst:121
 msgid "follow all instructions on how to activate what you have installed."
-msgstr ""
+msgstr "siga las instrucciones relativas a como activar lo que acaba de instalar."
 
 #: ../../installing.rst:125
 msgid ""
@@ -2382,10 +2454,13 @@ msgid ""
 "The rest is just as on a normal unix machine. Read the above GNU/Linux "
 "instructions, follow them, enjoy."
 msgstr ""
+"ahora puede seguir como en una normal máquina unix, y para eso tenemos un"
+" archivo de instalación. Lea las instrucciones para GNU/Linux, las siga, y "
+"disfrute."
 
 #: ../../installing.rst:143
 msgid "Installing on Windows"
-msgstr ""
+msgstr "Instalar en Windows"
 
 #: ../../installing.rst:145
 msgid ""
@@ -2400,6 +2475,8 @@ msgid ""
 "Please report any trouble. Help with packaging will be very welcome, in "
 "particular by other Windows users."
 msgstr ""
+"Por favor reporte cualquier problema. Ayuda para preparar un paquete de "
+"instalación será muy apreciada."
 
 #: ../../installing.rst:152
 msgid ""
@@ -2415,6 +2492,8 @@ msgid ""
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
+"Ghini ha sido comprobado con W-XP, W7 y W8. Muy probablemente funciona "
+"también con otras versiones de Windows."
 
 #: ../../installing.rst:161
 msgid ""
@@ -2426,13 +2505,13 @@ msgstr ""
 
 #: ../../installing.rst:172
 msgid "The installation steps on Windows:"
-msgstr ""
+msgstr "Los pasos de instalación en Windows:"
 
 #: ../../installing.rst:174
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``) from::"
-msgstr ""
+msgstr "baje e instale ``git`` desde::"
 
 #: ../../installing.rst:177
 msgid "https://git-scm.com/download/win"
@@ -2447,10 +2526,12 @@ msgid ""
 "all default options are fine, except we need git to be executable from "
 "the command prompt:"
 msgstr ""
+"todas opciones por defecto están bien, excepto que queremos poder "
+"encontrar git desde la línea de mando Windows:"
 
 #: ../../installing.rst:186
 msgid "download and install Python 2.x (32bit) from::"
-msgstr ""
+msgstr "baje e instale Python 2.7 (32 bit) desde::"
 
 #: ../../installing.rst:188
 msgid "http://www.python.org"
@@ -2466,16 +2547,20 @@ msgid ""
 " **not** run on Python 3.x.  If you are interested in helping port to "
 "Python 3.x, please contact the Ghini maintainers."
 msgstr ""
+"Ghini ha sido desarrollado utilizando Python 2.x. Las versiones Python "
+"que garantizamos son las 2.6 y 2.7. Ghini no funciona en Python 3.x."
 
 #: ../../installing.rst:196
 msgid "when installing Python, do put Python in the PATH:"
-msgstr ""
+msgstr "Cuando instala Python, ponga sus programas en el PATH:"
 
 #: ../../installing.rst:200
 msgid ""
 "download ``pygtk`` from the following source. (this requires 32bit "
 "python). be sure you download the \"all in one\" version::"
 msgstr ""
+"baje e instale ``pygtk`` desde el repositorio siguiente (se requiere "
+"python 32bit). vamos a necesitar versión \"all in one\"::"
 
 #: ../../installing.rst:203
 msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
@@ -2487,7 +2572,7 @@ msgstr ""
 
 #: ../../installing.rst:207
 msgid "make a complete install, selecting everything:"
-msgstr ""
+msgstr "hágase una instalación completa, incluyéndolo absolutamente todo:"
 
 #: ../../installing.rst:211
 msgid ""
@@ -2516,12 +2601,16 @@ msgid ""
 "(optional) download and install a database connector other than "
 "``sqlite3``."
 msgstr ""
+"(opcional) descargar e instalar un conector de base de datos además que "
+"``sqlite3``."
 
 #: ../../installing.rst:231
 msgid ""
 "On Windows, it is NOT easy to install ``psycopg2`` from sources, using "
 "pip, so \"avoid the gory details\" and use a pre-compiled pagkage from:"
 msgstr ""
+"En Windows no es nada fácil instalar ``psycopg2`` desde las fuentes. Por "
+"favor evítese complicaciones y utilice un paquete precompilado:"
 
 #: ../../installing.rst:234
 msgid "http://initd.org/psycopg/docs/install.html"
