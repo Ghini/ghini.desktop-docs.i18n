@@ -1871,10 +1871,13 @@ msgid ""
 "this information can be represented in its intermediate json format and "
 "be imported in an existing Ghini database."
 msgstr ""
+"Ghini le permite definir sinónimos para especies, géneros, familias. "
+"También esta información puede ser representada en el formato json de "
+"intercambio y puede ser importada in una base de datos Ghini."
 
 #: ../../goal.rst:167 ../../peptalk.rst:33
 msgid "scientific responsible"
-msgstr ""
+msgstr "científicamente responsable"
 
 #: ../../goal.rst:169 ../../peptalk.rst:35
 msgid ""
@@ -1885,10 +1888,18 @@ msgid ""
 "do not need overwrite each other's work. All verifications can be found "
 "back in the database, with timestamp and signature."
 msgstr ""
+"Ghini implementa el concepto de “accesión”, conexión abstracta entre la "
+"planta física (o un grupo de plantas físicas) y la especie o taxón a que "
+"pertenecen. Cada accesión puede asociar todo el mismo grupo de plantas "
+"que le pertenece a uno o más taxones, en el caso no haya acuerdo entre "
+"los taxónomos a disposición del jardín: cada taxónomo puede insertar su "
+"opinión en la base de datos, sin necesitar borrar la información "
+"anteriormente presente. Todas las verificaciones se encuentran en la base"
+" de datos, con fecha y firma."
 
 #: ../../goal.rst:177 ../../peptalk.rst:43
 msgid "helps off-line identification"
-msgstr "facilita la identificación 'off-line'"
+msgstr "facilita la identificación a distancia"
 
 #: ../../goal.rst:179 ../../peptalk.rst:45
 msgid ""
@@ -1896,6 +1907,9 @@ msgid ""
 "recognize the plant in case a sticker is lost, or help taxonomic "
 "identification if a taxonomist is not available at all times."
 msgstr ""
+"Ghini le permite asociar fotos a plantas físicas, esto puede ayudarle a "
+"reconocer la planta en caso de que se pierda la nota, o ayudar a la "
+"identificación taxonómica si no está disponible un taxónomo."
 
 #: ../../goal.rst:184 ../../peptalk.rst:50
 msgid "exports and reports"
@@ -1908,16 +1922,24 @@ msgid ""
 "export the data in a selection to whatever format you need. Once "
 "installed, a couple of examples are available in the mako subdirectory."
 msgstr ""
+"Ghini le permite exportar los datos en cualquier formato textual le "
+"parezca útil. Ghini utiliza un motor de plantillas muy flexible, que se "
+"llama “mako”, con el cual solo su imaginación es el límite a los formatos"
+" en que exportar los datos. Una vez instalado, hay varios ejemplos en la "
+"carpeta `mako`."
 
 #: ../../goal.rst:192 ../../peptalk.rst:58
 msgid "annotate your info"
-msgstr ""
+msgstr "anotar la información"
 
 #: ../../goal.rst:194 ../../peptalk.rst:60
 msgid ""
 "You can associate notes to plants, accessions, species, .... Notes can be"
 " categorized and used in searches or reports."
 msgstr ""
+"A practicamente todos objectos en la base de datos es posible asociar "
+"notas. Las notas se pueden categorizar y por supuesto utilizar en "
+"búsquedas."
 
 #: ../../goal.rst:198 ../../peptalk.rst:64
 msgid "garden or herbarium"
@@ -1925,7 +1947,7 @@ msgstr "jardines o herbarios"
 
 #: ../../goal.rst:200 ../../peptalk.rst:66
 msgid "Management of plant locations."
-msgstr ""
+msgstr "manejo de ubicaciones de plantas."
 
 #: ../../goal.rst:203 ../../peptalk.rst:69
 msgid "database history"
@@ -1938,6 +1960,10 @@ msgid ""
 "retrieve the list of all changes in the last working day or week, or in "
 "any specific period in the past."
 msgstr ""
+"Todos los cambios en la base de datos se almacenan en un log. Todos los "
+"cambios son 'firmados' y sellados temporalmente. Ghini hace fácil la "
+"recuperación de todos los cambio en el último día o semana, o en un "
+"período especifico del pasado."
 
 #: ../../goal.rst:211 ../../peptalk.rst:77
 msgid "simple and powerful search"
@@ -1950,6 +1976,11 @@ msgid ""
 "queries, which do not reach the complexity of SQL but allow you a decent "
 "level of detail localizing your data."
 msgstr ""
+"Ghini le permite consultar la base de datos empleando palabras clave "
+"sencillas, p.e.: el nombre del lugar o un nombre de género, o puede "
+"escribir consultas más complejas, que no llegarán a la complejidad de SQL"
+" paro que le permitirán localizar sus datos con un nivel de detalle "
+"aceptable."
 
 #: ../../goal.rst:219 ../../peptalk.rst:85
 msgid "database agnostic"
@@ -1967,6 +1998,16 @@ msgid ""
 " system (Linux-Apache-MySQL-Php) and include your live data on your "
 "institution web site."
 msgstr ""
+"Ghini no es un sistema de gestión de base de datos, ni intenta serlo. "
+"Ghini guarda la colección en una base de datos SQL, y se puede conectar "
+"a virtualmente cualquier sistema SQL para que exista un conector "
+"SQLAlchemy. En práctica esto incluye todos los más modernos sistemas "
+"relacionales, como MySQL, PostgreSQL, Oracle. También puede trabajar con "
+"SQLite, que, para usuarios independientes es un sistema muy eficiente y "
+"por supuesto más que suficiente. En combinación con un sistema de gestión"
+" SQL, es posible construir un sistema LAMP (Linux-Apache-MySQL-Php) o "
+"similar, e incluir la colección actualizada en el sitio web de su "
+"institución."
 
 #: ../../goal.rst:232 ../../peptalk.rst:98
 msgid "language agnostic"
@@ -1980,6 +2021,12 @@ msgid ""
 "Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
 "American languages, as well as Swedish (100%) and Czech (100%)."
 msgstr ""
+"El programa Ghini tuvo origen en Ingles y toda su documentación nace en "
+"ese idioma. Sin embargo, tanto el programa cuanto la documentación "
+"utilizan `gettext`, la tecnología más avanzada y difundida para la "
+"traducción del software y de la documentación. Al momento de escribir, la"
+" traducción del programa al castellano está al 86%, la documentación algo"
+" menos que el 20%."
 
 #: ../../goal.rst:241 ../../peptalk.rst:107
 msgid "platform agnostic"
@@ -2005,6 +2052,10 @@ msgid ""
 "feedback we receive, we will produce updates every few days or once in a "
 "while."
 msgstr ""
+"El proceso de instalación produce una instalación que, si deseado, se "
+"puede poner al día en menos que un minuto. Dependiendo de la cantidad de "
+"respuesta recibida, quien trabaja en Ghini produce una nueva "
+"distribución cada par de días o de vez en cuando."
 
 #: ../../goal.rst:258 ../../peptalk.rst:124
 msgid "unit tested"
@@ -2025,16 +2076,21 @@ msgid ""
 "Most changes and additions we make, come with some extra unit test, which"
 " defines the behaviour and will make any undesired change easily visible."
 msgstr ""
+"Virtualmente cada cambio y extención que se hace en Ghini, va acompañada"
+" por unas nuevas pruebas unitarias, que define el comportamiento y "
+"evidenciará en el futuro cualquier cambio no deseado."
 
 #: ../../goal.rst:270 ../../peptalk.rst:136
 msgid "customizable/extensible"
-msgstr ""
+msgstr "adaptable/extensible"
 
 #: ../../goal.rst:272 ../../peptalk.rst:138
 msgid ""
 "Ghini is extensible through plugins and can be customized to suit the "
 "needs of the institution."
 msgstr ""
+"Ghini puede ser expandido a través de complementos (plugin), y puede ser"
+" adaptado según lo que necesite la institución que lo adopte."
 
 #: ../../imex.rst:2
 msgid "Importing and Exporting Data"
@@ -2622,15 +2678,15 @@ msgstr ""
 
 #: ../../installing.rst:238
 msgid "**REBOOT**"
-msgstr ""
+msgstr "**REINICIALICE**"
 
 #: ../../installing.rst:240
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
-msgstr ""
+msgstr "así es Windows, cambió cosas en el sistema, tiene que reiniciar!"
 
 #: ../../installing.rst:242
 msgid "download and run (from ``\\system32\\cmd.exe``) the batch file:"
-msgstr ""
+msgstr "baje y ejecute (utilice ``\\system32\\cmd.exe``) el archivo batch::"
 
 #: ../../installing.rst:244
 msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/devinstall.bat"
@@ -2648,6 +2704,10 @@ msgid ""
 "directory, under ``Local\\github\\Ghini``, checkout the ``ghini-1.0`` "
 "production line, create a virtual environment and install ghini into it."
 msgstr ""
+"esto pone una copia del repositorio ``ghini.desktop`` en su equipo, en "
+"la carpeta ``Local\\github\\Ghini``, conectada con la linea de "
+"producción 1.0, en seguida crea un entorno virtual en que finalmente "
+"instala ghini."
 
 #: ../../installing.rst:255
 msgid ""
@@ -2687,7 +2747,7 @@ msgstr ""
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
-msgstr ""
+msgstr "descargue también el archivo para poner al día su instalación::"
 
 #: ../../installing.rst:277
 msgid ""
@@ -2701,12 +2761,16 @@ msgid ""
 "program, Ghini will check on the development site and alert you of any "
 "newer ghini release within your chosen production line."
 msgstr ""
+"si está utilizando una versión suficientemente nueva, al arrancar el programa, ese averiguerá si "
+"hay una versión más recién en el repositorio central."
 
 #: ../../installing.rst:283
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``"
 msgstr ""
+"cuando quiera poner al día su instalación, abra una ventana de terminal y"
+" ejecute ``ghini-update.bat``"
 
 #: ../../installing.rst:286
 msgid ""
@@ -2887,7 +2951,7 @@ msgstr ""
 
 #: ../../report.rst:2
 msgid "Generating reports"
-msgstr ""
+msgstr "Producir informes"
 
 #: ../../report.rst:4
 msgid ""
@@ -2903,7 +2967,7 @@ msgstr ""
 
 #: ../../report.rst:12
 msgid "Using the Mako Report Formatter"
-msgstr ""
+msgstr "Uso del formateador de informes Mako"
 
 #: ../../report.rst:14
 msgid ""
@@ -2992,6 +3056,10 @@ msgid ""
 "extracting the archive you must add the directory you extracted the "
 "archive to to your PATH environment variable."
 msgstr ""
+"En alternativa, puede descargar el `fichero "
+"<http://www.apache.org/dist/xmlgraphics/fop/binaries/>`_. Tras "
+"descomprimir el fichero debe añadir el directorio extraído a su variable "
+"de entorno PATH."
 
 #: ../../searching.rst:4
 msgid "Searching in Ghini"
@@ -3444,7 +3512,7 @@ msgstr ""
 
 #: ../../started.rst:12
 msgid "Should you SQLite?"
-msgstr ""
+msgstr "Que tal SQLite?"
 
 #: ../../started.rst:14
 msgid ""
@@ -3459,7 +3527,7 @@ msgstr ""
 msgid ""
 "With SQLite, you do not need any preparation and you can continue with "
 "`connecting`_."
-msgstr ""
+msgstr "Con SQLite, no hace falta preparar nada y puede seguir con `connecting`_."
 
 #: ../../started.rst:23
 msgid ""
@@ -3489,19 +3557,23 @@ msgstr ""
 
 #: ../../started.rst:43
 msgid "Connecting to a database"
-msgstr ""
+msgstr "Conectarse a una base de datos"
 
 #: ../../started.rst:45
 msgid ""
 "When you start Ghini the first thing that comes up is the connection "
 "dialog."
 msgstr ""
+"Al arrancar Ghini, lo primero que aparece es una ventana en que seleccionar la"
+" conexión."
 
 #: ../../started.rst:48
 msgid ""
 "Quite obviously, if this is the first time you start Ghini, you have no "
 "connections yet and Ghini will alert you about it."
 msgstr ""
+"Pues si esta es la primera vez que arranca Ghini por supuesto no hay "
+"conexiones. Ghini se lo deja notar."
 
 #: ../../started.rst:53
 msgid ""
@@ -3518,6 +3590,11 @@ msgid ""
 "previous screen, but your connection name will be selected and the "
 "Connection Details will have expanded."
 msgstr ""
+"No más inserte el nombre de la conexión, algo sencillo y relevante, que "
+"se asocie a la colección que va a poner en la base de datos (por ejemplo:"
+" \"parques municipales\"), y pise **OK**. Ghini vuelve a la ventana "
+"anterior, donde el nombre de la conexión está seleccionada y los Detalles"
+" de conexión se han expandido."
 
 #: ../../started.rst:67
 msgid "**specify the connection details**"
@@ -3529,16 +3606,21 @@ msgid ""
 "Activate the **Use default locations** check box and create your first "
 "connection by clicking on **Connect**."
 msgstr ""
+"Si no sabría que hacer acá, Ghini le da una mano. Active el **Utilice "
+"los valores por defecto** y finalice el crear la conexión pisando "
+"**Conectar**."
 
 #: ../../started.rst:72
 msgid ""
 "You may safely skip the remainder of this section for the time being and "
 "continue reading to the following section."
 msgstr ""
+"El resto de esta sección da más detalles de natura técnica. Si no quiere "
+"adentrarse, puede seguir con la sección siguiente."
 
 #: ../../started.rst:75
 msgid "**fine-tune the connection details**"
-msgstr ""
+msgstr "**detalles de conexión: sintonización fina**"
 
 #: ../../started.rst:77
 msgid ""
@@ -3595,17 +3677,19 @@ msgstr ""
 
 #: ../../started.rst:113
 msgid "Initialize a database"
-msgstr ""
+msgstr "Inicializar una base de datos"
 
 #: ../../started.rst:115
 msgid ""
 "First time you open a connection to a database which had never been seen "
 "by Ghini before, Ghini will first display an alert:"
 msgstr ""
+"La primera vez que se abre una conexión a una base de datos, nunca antes "
+"vista con Ghini, el programa presenta el aviso:"
 
 #: ../../started.rst:120
 msgid "immediately followed by a question:"
-msgstr ""
+msgstr "e inmediatamente después la pregunta:"
 
 #: ../../started.rst:124
 msgid ""
@@ -3629,6 +3713,9 @@ msgid ""
 "ready to start :ref:`editing-and-inserting-data` and subsequently :ref"
 ":`searching-in-bauble`."
 msgstr ""
+"Cuando se haya creado, configurado, inicialisado la base de datos, "
+"estamos listos para :ref:`editing-and-inserting-data` y lo más "
+"interesante :ref:`searching-in-bauble`."
 
 #: ../../statements.rst:2
 msgid "Mission & Vision"
@@ -3805,7 +3892,7 @@ msgstr ""
 
 #: ../../users.rst:17
 msgid "Ghini allows read, write and execute permissions."
-msgstr ""
+msgstr "Ghini permite la lectura, escritura y ejecución."
 
 #: ../../user_stories.rst:3
 msgid "representing the planned space"
