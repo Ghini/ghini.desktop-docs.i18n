@@ -35,7 +35,7 @@ msgstr ""
 
 #: ../../administration.rst:9
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #: ../../administration.rst:11
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../administration.rst:24
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
@@ -78,7 +78,7 @@ msgstr "Por favor utilice la documentación oficial."
 
 #: ../../administration.rst:29
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #: ../../administration.rst:31
 msgid ""
@@ -97,20 +97,20 @@ msgid ""
 "Ghini uses a configuration file to store values across invocations. This "
 "file is associated to a user account and every user will have their own "
 "configuration file."
-msgstr ""
+msgstr "Ghini utiliza un archivo de configuración para guardar valores de una invocación a la siguiente. Este archivo está asociado a una cuenta de usuario y cada usuario tendrá su propio archivo de configuración."
 
 #: ../../administration.rst:43
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in "
 "the text entry area where you normally type your searches, then hit enter."
-msgstr ""
+msgstr "Para revisar el contenido del archivo de configuración Ghini, inserte ``: prefs`` en el área de entrada de texto donde normalmente escribe tus búsquedas y oprima enter."
 
 #: ../../administration.rst:46
 msgid ""
 "You normally do not need tweaking the configuration file, but you can do so "
 "with a normal text editor program. Ghini configuration file is at the "
 "default location for SQLite databases."
-msgstr ""
+msgstr "Normalmente no es necesario ajustar el archivo de configuración, sin embargo puede hacerlo con un programa de editor de texto normal. El archivo de configuración de Ghini está en la misma ubicación predeterminada de las bases de datos SQLite."
 
 #: ../../administration.rst:51
 msgid "Reporting Errors"
@@ -130,24 +130,24 @@ msgstr "El sitio de desarrollo de Ghini es accesible desde el menu de Ayuda."
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
-msgstr ""
+msgstr "Manual para el desarrollador"
 
 #: ../../building.rst:5
 msgid "Helping Ghini development"
-msgstr ""
+msgstr "Ayuda al desarrollo de Ghini"
 
 #: ../../building.rst:7
 msgid ""
 "Installing Ghini always includes downloading the sources, connected to the "
 "github repository. This is so because in our eyes, every user is always "
 "potentially also a developer."
-msgstr ""
+msgstr "Cada instalación de Ghini incluye la descarga de las fuentes, conectadas al repositorio github. Lo organizamos así porque pensamos que cada usuario sea un desarrollador potencial."
 
 #: ../../building.rst:11
 msgid ""
 "If you want to contribute to Ghini, you can do so in quite a few different "
 "ways:"
-msgstr ""
+msgstr "Si desea contribuir al Ghini, puede hacerlo de diferentes maneras:"
 
 #: ../../building.rst:13
 msgid ""
@@ -166,20 +166,20 @@ msgid ""
 "This is the best way to make sure that something happens quickly on Ghini. "
 "Do make sure the developer opens issues and publishes their contribution on "
 "github."
-msgstr ""
+msgstr "Si tienes una idea de lo que le hace falta en el software pero no piensa saberlo formalizar en cuestiones separadas, podría considerar contratar a un profesional. Se trata de la mejor manera de asegurarse de que algo ocurra rápido en Ghini. Asegúrese de que el desarrollador abra issues y publique sus contribuciones en github."
 
 #: ../../building.rst:21
 msgid ""
 "Translate! Any help with translations will be welcome, so please do! you can "
 "do this without installing anything on your computer, just using the on-line "
 "translation service offered by http://hosted.weblate.org/"
-msgstr ""
+msgstr "¡Traducir! Cada ayuda con las traducciones será bienvenida, así que por favor ¡traduzca! puede hacer esto sin necesidad de instalar nada en tu ordenador, simplemente usando el servicio de traducción en línea ofrecido por http://hosted.weblate.org/"
 
 #: ../../building.rst:24
 msgid ""
 "fork the respository, choose an issue, solve it, open a pull request. See "
 "the `bug solving workflow`_ below."
-msgstr ""
+msgstr "haga un fork del repositorio, eliga un problema, lo resuelva, abra una pull request. Ver el `bug solving workflow`_ a continuación."
 
 #: ../../building.rst:27
 msgid ""
@@ -187,33 +187,33 @@ msgid ""
 "history, you can open our `github project page <http://github.com/Ghini/"
 "ghini.desktop>`_ and see all that has been going on around Ghini since its "
 "inception as Bauble, back in the year 2004."
-msgstr ""
+msgstr "Si todavía no has instalado Ghini y quiere echar un vistazo a su historia de código, puede abrir nuestra `página de github <http:github.com/ghini/ghini.desktop>`_ y ver todo lo que ha estado sucediendo por Ghini desde sus inicios en el año 2004 bajo el nombre de Bauble.</http:>"
 
 #: ../../building.rst:33
 msgid "Software source, versions, branches"
-msgstr ""
+msgstr "Fuente del software, versiones, ramas"
 
 #: ../../building.rst:35
 msgid ""
 "If you want a particular version of Ghini, we release and maintain versions "
 "as branches. You should ``git checkout`` the branch corresponding to the "
 "version of your choice."
-msgstr ""
+msgstr "Si desea una versión particular de Ghini, nosotros las ponemos a disposición como ramas (branch). Usted debe ``git checkout`` de la rama correspondiente a la versión que desea."
 
 #: ../../building.rst:40 ../../devdl.rst:32
 msgid "production line"
-msgstr ""
+msgstr "cadena de producción"
 
 #: ../../building.rst:42
 msgid ""
 "Branch names for Ghini stable (production) versions are of the form ``ghini-"
 "x.y`` (eg: ghini-1.0); branch names where Ghini testing versions are "
 "published are of the form ``ghini-x.y-dev`` (eg: ghini-1.0-dev)."
-msgstr ""
+msgstr "Nombres de rama para las versione esbables (producción) de Ghini son de la forma ``ghini-x.y`` (por ejemplo: ghini-1.0); nombres de rama para el desarrollo de Ghini son de la forma ``ghini-x.y-dev`` (por ejemplo: ghini-1.0-dev)."
 
 #: ../../building.rst:47 ../../devdl.rst:29
 msgid "Development Workflow"
-msgstr ""
+msgstr "Flujo de trabajo de desarrollo"
 
 #: ../../building.rst:49
 msgid ""
@@ -221,7 +221,7 @@ msgid ""
 "them to github, to let travis-ci and coveralls.io check the quality of the "
 "pushed testing branches, finally, from time to time, to merge the testing "
 "branch into the corresponding release."
-msgstr ""
+msgstr "Nuestro flujo de trabajo incluye la entrega rápida y continua a la rama en prueba, empujando frecuentemente a github, para que travis-ci y coveralls.io comprueben la calidad de las ramas, por último, de vez en cuando, fusionando la rama en prueba en la versión correspondiente."
 
 #: ../../building.rst:54
 msgid ""
@@ -242,7 +242,7 @@ msgid ""
 "When facing a single larger issue, create a branch tag at the tip of a main "
 "development line (e.g.: ``ghini-1.0-dev``), and follow the workflow "
 "described at"
-msgstr ""
+msgstr "Frente a un tema mayor bien identificado, crear una rama etiquetada en el final de una línea de desarrollo principal (por ejemplo: ``ghini-1.0-dev``) y seguir el flujo de trabajo descrito en"
 
 #: ../../building.rst:65 ../../devdl.rst:56
 msgid ""
@@ -258,17 +258,17 @@ msgid ""
 "Work on the new temporary branch. When ready, go to github, merge the branch "
 "with the main development line from which you branched, solve conflicts "
 "where necessary, delete the temporary branch."
-msgstr ""
+msgstr "Trabajar en la nueva sucursal de temporal. Cuando esté listo, vaya a github, fusionar la rama con la línea principal de desarrollo de que ramificó, resolver conflictos en caso necesario, eliminar la rama temporal."
 
 #: ../../building.rst:77
 msgid ""
 "When ready for publication, merge the development line into the "
 "corresponding production line."
-msgstr ""
+msgstr "Cuando esté listo para su publicación, combinar la línea de desarrollo en la línea de producción correspondiente."
 
 #: ../../building.rst:81 ../../devdl.rst:70
 msgid "Updating the set of translatable strings"
-msgstr ""
+msgstr "Actualizar el conjunto de cadenas traducibles"
 
 #: ../../building.rst:83 ../../devdl.rst:72
 msgid ""
@@ -278,7 +278,7 @@ msgid ""
 "weblate for people to contribute, in the form of several ``.po`` files. "
 "These ``po`` files receive contributions from weblate, and offer lines "
 "without translation from new lines of code."
-msgstr ""
+msgstr "De vez en cuando, durante el proceso de actualización del software, usted se adición o modificación de cadenas en las fuentes de python, en la documentación, en las fuentes glade. La mayoría de nuestras cadenas traducibles y se ofrece a weblate para las personas a contribuir, en forma de varios archivos de ``po``. Estos archivos de ``po`` reciban contribuciones de weblate y ofrecen líneas sin traducción de nuevas líneas de código."
 
 #: ../../building.rst:90 ../../devdl.rst:79
 msgid ""
