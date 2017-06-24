@@ -1845,7 +1845,7 @@ msgid ""
 "Gardens, Kew in 1992”.  In 2015 we have reviewed the data regarding the "
 "Orchidaceae, using “Tropicos, botanical information system at the Missouri "
 "Botanical Garden - www.tropicos.org” as a source."
-msgstr "QUERY LENGTH LIMIT EXCEDEED. MAX ALLOWED QUERY : 500 CHARS"
+msgstr ""
 
 #: ../../goal.rst:152 ../../peptalk.rst:18
 msgid "importing data"
@@ -2334,7 +2334,7 @@ msgid ""
 "dependencies in the virtual environment, and finally it creates a startup "
 "script. If you have ``sudo`` permissions, it will be placed in ``/usr/local/"
 "bin``, otherwise in your ``~/bin`` folder. Again if you"
-msgstr "QUERY LENGTH LIMIT EXCEDEED. MAX ALLOWED QUERY : 500 CHARS"
+msgstr ""
 
 #: ../../installing.rst:43
 msgid ""
@@ -3324,7 +3324,7 @@ msgid ""
 "values that start with max.  If you search for ``%10`` it searches for all "
 "values that end in ``10``.  The string ``%ck%10`` would search for all value "
 "that contain ``ck`` and end in ``10``."
-msgstr "QUERY LENGTH LIMIT EXCEDEED. MAX ALLOWED QUERY : 500 CHARS"
+msgstr ""
 
 #: ../../searching.rst:108
 msgid "When a query takes ages to complete"
