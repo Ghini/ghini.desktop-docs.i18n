@@ -3559,6 +3559,7 @@ msgid ""
 "with Ghini. By letting Ghini initialize a database, the database will be "
 "emptied and all of its content be lost."
 msgstr ""
+"Fare attenzione quando si specificano manualmente i parametri di connessione: i valori immessi possono riferirsi a un database esistente, non destinato all'uso con Ghini. Permettendo a Ghini di inizializzare il database, questo sarà svuotato e tutto il suo contenuto verrà perso."
 
 #: ../../started.rst:129
 msgid ""
@@ -3567,6 +3568,7 @@ msgid ""
 "the default data. This can take a minute or two so while all of the default "
 "data is imported into the database so be patient."
 msgstr ""
+"Se sei sicuro di voler creare un database con questi parametri seleziona "Sì". Ghini inizierà quindi col creare le tabelle del database e procederà con l'importazione di dati predefiniti. Questo può richiedere un minuto o due: prego pazientare mentre tutti i dati predefiniti vengono importati."
 
 #: ../../started.rst:134
 msgid ""
@@ -3599,6 +3601,7 @@ msgid ""
 "to the needs of a couple of other users who asked him. Brett made Bauble a "
 "commons, by releasing it under a GPL license."
 msgstr ""
+"Ghini iniziò come un progetto individuale, per mano di Brett Adams. Brett iniziò questo software sotto il nome di Bauble, per conto del giardino botanico del Belize, e successivamente lo adattò alle richieste di un paio di altri utenti che fecero richiesta. Brett dichiarò Bauble patrimonio libero, proteggendolo con una licenza GPL."
 
 #: ../../statements.rst:15
 msgid ""
@@ -3607,30 +3610,31 @@ msgid ""
 "travelling, distributing, developing, documenting it, and it is now Mario "
 "Frasca writing this, enhancing the software, looking for users, requesting "
 "feedback..."
-msgstr ""
+msgstr "Dopo alcuni anni di stagnazione che Mario Frasca ha assunto la responsabilità di Bauble, lo ha ridenominado come Ghini, in onore a Luca Ghini, ha iniziato a viaggiare per promuoverlo e distribuirlo, ne ha ripreso lo sviluppo e la documentazione, ed ora è Mario Frasca qui dietro il software, migliorandolo, alla ricerca di utenti, stimolando feedback..."
 
 #: ../../statements.rst:21
 msgid ""
 "So currently behind Ghini there's not only one developer, but much more "
 "importantly, a small but growing global users community."
 msgstr ""
+"Quindi attualmente dietro Ghini c'è molto di più che solo uno sviluppatore, cè una piccola ma crescente comunità globale di utenti."
 
 #: ../../statements.rst:24
 msgid ""
 "Translations are provided by volunteers who mostly stay behind the scenes, "
 "translating a couple of missing terms or sentences, and disappearing again."
-msgstr ""
+msgstr "Le traduzioni sono fornite da volontari che per lo più rimangono dietro le quinte, traducendo un paio di termini o di frasi mancanti e scompaiono nuovamente."
 
 #: ../../statements.rst:27
 msgid ""
 "To make things clearer when we speak of Ghini, but should—and in this "
 "document we will—indicate whether it's Ghini(the software), or Ghini(the "
 "people), unless obviously we mean both things."
-msgstr ""
+msgstr "Per rendere le cose più chiare quando si parla di Ghini, è bene indicare se si tratta di Ghini (il software), o Ghini (le persone), a meno che ovviamente non vogliamo indicare entrambe le cose."
 
 #: ../../statements.rst:32
 msgid "Mission"
-msgstr ""
+msgstr "Missione"
 
 #: ../../statements.rst:34
 msgid ""
@@ -3639,7 +3643,7 @@ msgid ""
 "social order to which Ghini is committed, the needs that are satisfied with "
 "Ghini(the software) and with the services of Ghini(the people), the market "
 "in which Ghini develops and its intended public image."
-msgstr ""
+msgstr "La missione di una organizzazione è la sua ragion d'essere, definisce la logica di un'entità ed è specifica e vera. Per Ghini, la missione stabilisce l'ordine sociale in cui è impegnato, le esigenze che sono soddisfatte con Ghini(il software) e con i servizi di Ghini(le persone), il mercato in cui Ghini si muove e la sua immagine pubblica prevista."
 
 #: ../../statements.rst:40
 msgid "access to software"
@@ -3675,7 +3679,7 @@ msgid ""
 "what we want our organization to be, in a realistic and attractive way.  It "
 "serves as motivation because it visualizes the challenge and direction of "
 "necessary changes in order to grow and prosper."
-msgstr ""
+msgstr "La visione serve a indicare la strada da percorrere e proietta un'immagine futura di quello che vogliamo che la nostra organizzazione diventi, in modo realistico e attraente.  Essa serve come motivazione perché visualizza la sfida e la direzione delle modifiche necessarie per crescere e prosperare."
 
 #: ../../statements.rst:55
 msgid "by the year 2020"
@@ -3728,11 +3732,11 @@ msgid ""
 "results and pressing Ctrl-T or by selecting :menuselection:`Tag-->Tag "
 "Selection` from the menu. If you have selected multiple items then only that "
 "tags that are common to all the selected items will have a check next to it."
-msgstr ""
+msgstr "Tagging può essere fatto in due modi. Selezionando uno o più elementi nei risultati della ricerca e premendo Ctrl-T, o selezionando :menuselection:`Tag--> Tag selezione` dal menu. Se avete selezionato più elementi, solo quel tag che sono comuni a tutti gli elementi selezionati avranno una spunta accanto ad esso."
 
 #: ../../users.rst:2
 msgid "Managing Users"
-msgstr ""
+msgstr "Gestione Utenti"
 
 #: ../../users.rst:4
 msgid "The Ghini users plugin is only available on PostgreSQL based databases."
@@ -3746,7 +3750,7 @@ msgstr ""
 
 #: ../../users.rst:11
 msgid "Creating Users"
-msgstr ""
+msgstr "Creare Utenti"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
