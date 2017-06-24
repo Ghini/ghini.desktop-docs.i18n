@@ -1599,7 +1599,7 @@ msgstr "Un otro buen ejemplo de patrón de vista/presentador (no modelo) es dado
 
 #: ../../goal.rst:2
 msgid "Ghini's goals and highlights"
-msgstr "Gratis videoresúmenes y goles de Ghini"
+msgstr "Objetivos y puntos resaltados de Ghini"
 
 #: ../../goal.rst:4
 msgid ""
