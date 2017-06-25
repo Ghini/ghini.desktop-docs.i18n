@@ -57,13 +57,15 @@ msgid ""
 "In Windows it is somewhere in your ``AppData`` directory, most likely in "
 "``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best to "
 "hide the ``AppData`` directory structure to normal users."
-msgstr "In Windows è da qualche parte nella directory ``AppData``, molto probabilmente nel ``AppData\\Roaming\\Bauble``. Tenete a mente che Windows fa del suo meglio per nascondere la struttura di directory ``AppData`` agli utenti normali."
+msgstr ""
+"In Windows è da qualche parte nella directory ``AppData``, molto probabilmente nel ``AppData\\Roaming\\Bauble``. Tenete a mente che Windows fa del suo meglio per nascondere la struttura di directory ``AppData`` agli utenti normali."
 
 #: ../../administration.rst:20
 msgid ""
 "The fastest way to open it is with the file explorer: type ``%APPDATA%` and "
 "hit enter."
-msgstr "È il modo più veloce per aprirlo con Esplora file: inserisci ``%APPDATA%`` e premi INVIO."
+msgstr ""
+"Il modo più veloce per aprirlo è con *Esplora Risorse*: inserisci ``%APPDATA%`` e premi INVIO."
 
 #: ../../administration.rst:24
 msgid "MySQL"
@@ -94,13 +96,15 @@ msgid ""
 "Ghini uses a configuration file to store values across invocations. This "
 "file is associated to a user account and every user will have their own "
 "configuration file."
-msgstr "Ghini utilizza un file di configurazione per memorizzare i valori tra le chiamate. Questo file è associato a un account utente e ogni utente avrà il proprio file di configurazione."
+msgstr ""
+"Ghini utilizza un file di configurazione per memorizzare i valori tra le chiamate. Questo file è associato all'account dell'utente, così ogni utente avrà il suo file di configurazione."
 
 #: ../../administration.rst:43
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in "
 "the text entry area where you normally type your searches, then hit enter."
-msgstr "Per esaminare il contenuto del file di configurazione Ghini, digitare ``:prefs`` nell'area di immissione testo dove normalmente tipo le ricerche, quindi premere immettere."
+msgstr ""
+"Per esaminare il contenuto del file di configurazione Ghini, digitare ``:prefs`` nell'area di immissione testo dove normalmente tipo le ricerche, quindi premere INVIO."
 
 #: ../../administration.rst:46
 msgid ""
@@ -3248,7 +3252,7 @@ msgstr "La richiesta affatto simile ``so ha`` restituisce, in una nuova installa
 
 #: ../../searching.rst:145
 msgid "Search by Query"
-msgstr "Ricerca di Query"
+msgstr "Ricerca per Query"
 
 #: ../../searching.rst:147
 msgid ""
@@ -3263,7 +3267,7 @@ msgid ""
 "Please contact the authors if you want more information, or if you volunteer "
 "to document this more thoroughly.  In the meanwhile you may start "
 "familiarizing yourself with the core structure of Ghini's database."
-msgstr "Se volete maggiori informazioni, o se volontario per documentare questo più a fondo, si prega di contattare gli autori.  Nel frattempo si può iniziare a familiarizzare con la struttura di base del database di Ghini."
+msgstr "Se volete maggiori informazioni, o volontariare per documentare questo più a fondo, si prega di contattare gli autori.  Nel frattempo si può iniziare a familiarizzare con la struttura di base del database di Ghini."
 
 #: ../../searching.rst:160
 msgid "A few examples:"
@@ -3296,11 +3300,11 @@ msgid ""
 "Searching with queries requires some knowledge of a little syntax and an "
 "idea of the extensive Ghini database table structure. Both you acquire with "
 "practice, and with the help of the Query Builder."
-msgstr "Ricerca con query richiede qualche conoscenza della sintassi un po' e un'idea della struttura di tabella del database estesa Ghini. Entrambi si acquisiscono con la pratica e con l'aiuto del generatore di Query."
+msgstr "Ricerca con query richiede qualche conoscenza della sintassi ed un'idea della struttura dell'esteso database Ghini. Entrambe si acquisiscono con la pratica e magari con l'aiuto del Generatore di Query."
 
 #: ../../searching.rst:188
 msgid "The Query Builder"
-msgstr "Generatore di query"
+msgstr "Generatore di Query"
 
 #: ../../searching.rst:190
 msgid ""
@@ -3308,14 +3312,14 @@ msgid ""
 "through a point and click interface.  To open the Query Builder click the |"
 "querybuilder| icon to the left of the search entry or select :menuselection:"
 "`Tools-->Query Builder` from the menu."
-msgstr "Ghini offre un generatore di Query, che ti aiuta a costruire le query di ricerca complesse tramite un punto e fare clic su interfaccia.  Per aprire il generatore di Query fare clic i | querybuilder | icona a sinistra della voce di ricerca o selezionare: menuselection: 'Strumenti--> Query Builder' dal menu."
+msgstr "Ghini offre un generatore di Query, che ti aiuta a costruire le query di ricerca complesse tramite un punto e fare clic su interfaccia.  Per aprire il generatore di Query fare clic sull'icona |querybuilder| a sinistra della voce di ricerca o selezionare :menuselection:`Strumenti-->Query Builder` dal menu."
 
 #: ../../searching.rst:199
 msgid ""
 "A window will show up, which will lead you through all steps necessary to "
 "construct a correct query that is understood by Ghini's Query Search "
 "Strategy."
-msgstr "Una finestra apparirà, che vi guiderà attraverso tutti i passaggi necessari per creare una query corretta che è compreso dalla strategia di ricerca di Query di Ghini."
+msgstr "Una finestra apparirà, che vi guiderà attraverso tutti i passaggi necessari per creare una query corretta che sarà compresa dalla strategia di Ricerca per Query di Ghini."
 
 #: ../../searching.rst:208
 msgid ""
@@ -3356,14 +3360,14 @@ msgid ""
 "missing ones are left to your fertile imagination; literals are included in "
 "single quotes; the grammar is mostly case insensitive, unless otherwise "
 "stated::"
-msgstr "Per coloro che non temono un po' di precisione formale, il codice BNF seguente vi dà un'idea piuttosto precisa della grammatica implementata dalla strategia di ricerca di Query.  Alcune categorie grammaticali sono informalmente definite; qualsiasi quelli mancanti sono lasciate alla vostra immaginazione fertile; i valori letterali sono inclusi tra virgolette singole; la grammatica è per lo più tra maiuscole e minuscole, se non diversamente indicato::"
+msgstr "Per coloro che non temono un po' di precisione formale, il codice BNF seguente vi dà un'idea piuttosto precisa della grammatica implementata dalla strategia di Ricerca per Query.  Alcune categorie grammaticali sono informalmente definite; qualsiasi quelli mancanti sono lasciate alla vostra immaginazione fertile; i valori letterali sono inclusi tra virgolette singole; la grammatica è per lo più tra maiuscole e minuscole, se non diversamente indicato::"
 
 #: ../../searching.rst:291
 msgid ""
 "Please be aware that Ghini's Query language is quite a bit more complex than "
 "what the Query Builder can produce: Queries you can build with the Query "
 "Builder form a proper subset of the queries recognized by the software::"
-msgstr "Si prega di essere consapevoli del fatto che il linguaggio di Query di Ghini è un po' più complesso rispetto a ciò che può produrre il generatore di Query: query è possibile costruire con il generatore di Query costituiscono un subset delle query riconosciuto dal software::"
+msgstr "Si prega di essere consapevoli del fatto che il linguaggio di Query di Ghini è un po' più complesso di quanto può essere prodotto con il Generatore di Query: le query costruibili con il Generatore di Query costituiscono un sottoinsieme proprio delle query riconosciute dal software::"
 
 #: ../../started.rst:2
 msgid "Initial Configuration"
@@ -3375,7 +3379,7 @@ msgid ""
 "configure their database, and configure Ghini according to their database "
 "configuration. This page focuses on this task. If you don't know what this "
 "is about, please do read the part relative to SQLite."
-msgstr "Dopo una corretta installazione, organizzazioni più complesse sarà necessario configurare loro database e configurare Ghini secondo la loro configurazione del database. Questa pagina si concentra su questo compito. Se non sai di cosa si tratta, si prega di leggere la parte relativo SQLite."
+msgstr "Dopo una corretta installazione, organizzazioni più complesse vorranno configurare il loro database e configurare Ghini secondo la loro configurazione del database. Questa pagina si concentra su questo compito. Se non hai idea di cosa si tratti, meglio continuare la lettura con la parte relativa a SQLite."
 
 #: ../../started.rst:12
 msgid "Should you SQLite?"
@@ -3387,7 +3391,7 @@ msgid ""
 "setting, you have not the faintest idea how to manage a database management "
 "system? If you answered yes to any of the previous, you probably better "
 "stick with SQLite, the easy, fast, zero-administration file-based database."
-msgstr "Questa è la prima volta che si utilizza Ghini, sono stai andando a lavorare in un ambiente autonomo, avete non la più pallida idea come gestire un sistema di gestione di database? Se avete risposto sì a uno qualsiasi dei precedenti, è probabilmente meglio bastone con SQLite, il facile, veloce, zero-amministrazione database basato su file."
+msgstr "Questa è la prima volta che si utilizza Ghini, sono stai andando a lavorare in un ambiente autonomo, avete non la più pallida idea come gestire un sistema di gestione di database? Se avete risposto sì a uno qualsiasi dei precedenti, è probabilmente meglio restare con SQLite, il database facile, veloce, senza doveri di amministrazione, tutto basato su file, il database più diffuso al mondo."
 
 #: ../../started.rst:20
 msgid ""
@@ -3415,13 +3419,13 @@ msgid ""
 "When this is done, Ghini will be able to proceed, creating the tables and "
 "importing the default data set.  The process is database-dependent and it "
 "falls beyond the scope of this manual."
-msgstr "Quando ci si connette a un server di database come uno di cui sopra, è necessario creare manualmente: Bauble almeno un utente, il database desiderato bauble da utilizzare e per dare per timore che un utente Bauble autorizzazioni sul proprio database completo. Quando ciò avviene, Ghini sarà in grado di procedere, creazione di tabelle e importa il set di dati predefinito.  Il processo dipende dal database e cade oltre la portata di questo manuale."
+msgstr "Quando ci si connette a un server di database come uno di cui sopra, è necessario creare manualmente: almeno un utente Ghini, il database che Ghini dovrà usare, e concedere ad almeno un utente bauble tutti i permessi sul database. Fatto ciò, Ghini sarà in grado di procedere, creare tabelle e importare il set di dati predefinito.  Il processo in dettaglio dipende fortemente dal database e cade ben oltre la portata di questo manuale."
 
 #: ../../started.rst:37
 msgid ""
 "If you already got the chills or sick at your stomach, no need to worry, "
 "just stick with SQLite, you do not miss on features nor performance."
-msgstr "Se già avuto i brividi o ammalati al tuo stomaco, non c'è bisogno di preoccuparsi, basta attaccano con SQLite, non perdere su caratteristiche né prestazioni."
+msgstr "Se già vi tremano le ginocchia, non c'è bisogno di preoccuparsi, basta restare con SQLite, senza perdere in funzionalità né prestazioni."
 
 #: ../../started.rst:43
 msgid "Connecting to a database"
@@ -3447,7 +3451,7 @@ msgid ""
 "This alert will show at first activation and also in the future if your "
 "connections list becomes empty. As it says: click on **Add** to create your "
 "first connection."
-msgstr "Questo avviso vi mostrerà alla prima attivazione e anche in futuro se il tuo elenco di connessioni diventa vuota. Come si dice: fare clic su **aggiuntivo** per creare la prima connessione."
+msgstr "Questo avviso vi mostrerà alla prima attivazione e anche in futuro se il tuo elenco di connessioni diventa vuota. Come l'avviso stesso dice: fare clic su **aggiungere** per creare la prima connessione."
 
 #: ../../started.rst:59
 msgid ""
