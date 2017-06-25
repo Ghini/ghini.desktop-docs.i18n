@@ -3785,7 +3785,7 @@ msgid ""
 "people), unless obviously we mean both things."
 msgstr ""
 "Para que sea más claro cuando hablamos de Ghini, deberíamos —y lo hacemos en "
-"este documento— indicar si estamos indicando a Ghini(el software), o a Ghini "
+"este documento— indicar si estamos indicando a Ghini(el software), o a Ghini"
 "(la gente), a menos que obviamente nos referimos a ambas cosas."
 
 #: ../../statements.rst:32
@@ -3799,7 +3799,12 @@ msgid ""
 "social order to which Ghini is committed, the needs that are satisfied with "
 "Ghini(the software) and with the services of Ghini(the people), the market "
 "in which Ghini develops and its intended public image."
-msgstr "La misión es un propósito, define la razón de ser de una entidad y es concreta y verdadera. Por Ghini, la misión establece el orden social a la que se compromete, Ghini las necesidades que se satisfacen con Ghini (el software) y con los servicios de Ghini (la gente), el mercado en que se desarrolla el Ghini y su imagen pública previsto."
+msgstr ""
+"La misión es un propósito, define la razón de ser de una entidad y es "
+"concreta y verdadera. Por Ghini, la misión establece el orden social con el "
+"cual se compromete, las necesidades que se satisfacen con Ghini (el software) "
+"y con los servicios de Ghini (la gente), el mercado en que se desarrolla el "
+"Ghini y su imagen pública prevista."
 
 #: ../../statements.rst:40
 msgid "access to software"
