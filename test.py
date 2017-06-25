@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+translation_to = 'it'
+
 import sys  
 reload(sys)  
 sys.setdefaultencoding('utf8')
@@ -10,11 +12,11 @@ import json
 import requests
 
 def translate(s):
-    r = requests.get('http://api.mymemory.translated.net/get?q=%s&langpair=en|es' % s, timeout=6)
+    r = requests.get('http://api.mymemory.translated.net/get?q=%s&langpair=en|%s' % (s, translation_to), timeout=6)
     j = json.loads(r.text)
     return j['responseData']['translatedText']
 
-with codecs.open("po/es.po") as f:
+with codecs.open("po/%s.po" % translation_to) as f:
     defining = None
     msgdef = {'msgid': '', 'msgstr': ''}
     complete = {'msgid': '', 'msgstr': ''}
