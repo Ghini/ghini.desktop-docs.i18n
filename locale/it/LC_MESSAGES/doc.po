@@ -2985,7 +2985,7 @@ msgid ""
 "Search by value is the simplest way to search. You enter one or more strings "
 "and see what matches. The result includes objects of any type (domain) where "
 "one or more of its fields contain one or more of the search strings."
-msgstr "Ricerca di valore è il modo più semplice per la ricerca. Immettere una o più stringhe e vedere che cosa corrisponde. Il risultato include oggetti di qualsiasi tipo (dominio), dove uno o più dei relativi campi contengono uno o più delle stringhe di ricerca."
+msgstr "Ricerca per valore è il modo più semplice per la ricerca. Immettere una o più stringhe e vedere che cosa corrisponde. Il risultato include oggetti di qualsiasi tipo (dominio), dove uno o più dei relativi campi contengono uno o più delle stringhe di ricerca."
 
 #: ../../searching.rst:33
 msgid ""
@@ -3001,43 +3001,43 @@ msgstr "Nella tabella seguente consente di comprendere i risultati e vi guida ne
 
 #: ../../searching.rst:40
 msgid "search domain overview"
-msgstr "Panoramica di dominio di ricerca"
+msgstr "Panoramica sui domini di ricerca"
 
 #: ../../searching.rst:42
 msgid "name and shorthands"
-msgstr "nome e abbreviazioni"
+msgstr "nome ed abbreviazioni"
 
 #: ../../searching.rst:42
 msgid "field"
-msgstr ""
+msgstr "campo"
 
 #: ../../searching.rst:42
 msgid "result type"
-msgstr "Tipo di risultato:"
+msgstr "tipo di risultato"
 
 #: ../../searching.rst:44
 msgid "family, fam"
-msgstr "famiglia, fam"
+msgstr ""
 
 #: ../../searching.rst:44
 msgid "epithet (family)"
-msgstr "epiteto (famiglia)"
+msgstr ""
 
 #: ../../searching.rst:45
 msgid "genus, gen"
-msgstr "genere, generazione"
+msgstr ""
 
 #: ../../searching.rst:45
 msgid "epithet (genus)"
-msgstr "epiteto (genere)"
+msgstr ""
 
 #: ../../searching.rst:46
 msgid "species, sp"
-msgstr "specie, sp"
+msgstr ""
 
 #: ../../searching.rst:46
 msgid "epithet (sp) **×**"
-msgstr "epiteto (sp) **×**"
+msgstr ""
 
 #: ../../searchingrt:46 ../../searching.rst:47
 msgid "Species"
@@ -3045,7 +3045,7 @@ msgstr ""
 
 #: ../../searching.rst:47
 msgid "vernacular, common, vern"
-msgstr "volgare, comune, vern"
+msgstr ""
 
 #: ../../searching.rst:47 ../../searching.rst:48 ../../searching.rst:52
 #: ../../searching.rst:54
@@ -3054,7 +3054,7 @@ msgstr ""
 
 #: ../../searching.rst:48
 msgid "geography, geo"
-msgstr "Geografia, geo"
+msgstr ""
 
 #: ../../searching.rst:48
 msgid "Geography"
@@ -3062,7 +3062,7 @@ msgstr ""
 
 #: ../../searching.rst:49
 msgid "accession, acc"
-msgstr "accessione, acc"
+msgstr ""
 
 #: ../../searching.rst:49
 msgid "code"
@@ -3074,27 +3074,27 @@ msgstr ""
 
 #: ../../searching.rst:50
 msgid "planting, plant"
-msgstr "piantare, piantare"
+msgstr ""
 
 #: ../../searching.rst:50
 msgid "code **×**"
-msgstr "Codice"
+msgstr ""
 
 #: ../../searching.rst:51
 msgid "location, loc"
-msgstr "posizione, loc"
+msgstr ""
 
 #: ../../searching.rst:51
 msgid "code, name"
-msgstr "Nome Codice"
+msgstr ""
 
 #: ../../searching.rst:51
 msgid "Location"
-msgstr "Ubicazione"
+msgstr ""
 
 #: ../../searching.rst:52
 msgid "contact, person, org, source"
-msgstr "contatto, persona, org, fonte"
+msgstr ""
 
 #: ../../searching.rst:52
 msgid "Contact"
@@ -3102,7 +3102,7 @@ msgstr ""
 
 #: ../../searching.rst:53
 msgid "collection, col, coll"
-msgstr "raccolta, col, coll"
+msgstr ""
 
 #: ../../searching.rst:53
 msgid "locale"
@@ -3110,7 +3110,7 @@ msgstr ""
 
 #: ../../searching.rst:54
 msgid "tag, tags"
-msgstr "Tag, Tag"
+msgstr ""
 
 #: ../../searching.rst:54
 msgid "Tag"
@@ -3120,7 +3120,7 @@ msgstr ""
 msgid ""
 "Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
 "2003.2.1, indica."
-msgstr "Esempi di ricerca di valore sarebbe: Maxillaria, Acanth, 2008.1234, 2003.2.1, indica."
+msgstr "Esempi di ricerca per valore sarebbe: Maxillaria, Acanth, 2008.1234, 2003.2.1, indica."
 
 #: ../../searching.rst:60
 msgid ""
@@ -3150,7 +3150,7 @@ msgid ""
 "code, which includes the accession code. Taken together, Accession code and "
 "Planting code do provide a **composite primary key** for plantings.  For "
 "**species**, we have introduced the binomial search, described below."
-msgstr "Ricerca di valore consente di cercare **planting** dal loro codice planting completo, che include il codice di accessione. Presi insieme, il codice di accessione e la piantatura del codice forniscono uns **chiave primaria composito** per gli planting.  Per **specie**, abbiamo introdotto la ricerca binomia, descritta di seguito."
+msgstr "Ricerca per valore consente di cercare **planting** dal loro codice planting completo, che include il codice di accessione. Presi insieme, il codice di accessione e la piantatura del codice forniscono uns **chiave primaria composito** per gli planting.  Per **specie**, abbiamo introdotto la ricerca binomia, descritta di seguito."
 
 #: ../../searching.rst:84
 msgid "Search by Expression"
@@ -3237,7 +3237,7 @@ msgid ""
 "your intention to perform a binomial search.  The software's second guess "
 "will be a search by value, which will possibly result in far more matches "
 "than you had expected."
-msgstr "È la lettera maiuscola corretta **Xxxx xxxx** che informa il software della vostra intenzione di eseguire una ricerca binomia.  Seconda ipotesi del software sarà una ricerca di valore, che possibilmente si tradurrà nelle partite molto più di quanto aveva previsto."
+msgstr "È la lettera maiuscola corretta **Xxxx xxxx** che informa il software della vostra intenzione di eseguire una ricerca binomiale.  Seconda ipotesi del software sarà una ricerca per valore, che possibilmente si tradurrà in molti più risultati del previsto."
 
 #: ../../searching.rst:139
 msgid ""
