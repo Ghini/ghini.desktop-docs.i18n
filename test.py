@@ -14,7 +14,10 @@ import requests
 def translate(s):
     r = requests.get('http://api.mymemory.translated.net/get?q=%s&langpair=en|%s' % (s, translation_to), timeout=6)
     j = json.loads(r.text)
-    return j['responseData']['translatedText']
+    reply = j['responseData']['translatedText']
+    if reply.startswith('MYMEMORY WARNING:'):
+        return ""
+    return reply
 
 with codecs.open("po/%s.po" % translation_to) as f:
     defining = None
