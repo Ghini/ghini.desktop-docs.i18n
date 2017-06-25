@@ -815,7 +815,7 @@ msgstr "Per creare un nuovo plugin è necessario estendere la classe ``bauble.pl
 msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
-msgstr "Il plugin ' Tag ' è un buon esempio minimo, anche se il 'TagItemGUI ' rientra il pattern architetturale Model-View-Presenter."
+msgstr "Il plugin ``Tag`` è un buon esempio minimo, anche se il ``TagItemGUI`` rientra il pattern architetturale Model-View-Presenter."
 
 #: ../../building.rst:484 ../../devdl.rst:347
 msgid "Plugins structure"
@@ -970,7 +970,7 @@ msgstr "Facoltativamente Forkare il repository nel tuo account e preferibilmente
 msgid ""
 "write unit tests and commit them to your branch (please do not push failing "
 "unit tests to github, run ``nosetests`` locally first)."
-msgstr "scrivere unit test e loro si impegnano a tua filiale (per favore non spingere in mancanza di unit test per github, eseguire prima la ' nosetests ' localmente)."
+msgstr "scrivere unit test e loro si impegnano a tua filiale (per favore non spingere in mancanza di unit test per github, eseguire prima la ``nosetests`` localmente)."
 
 #: ../../building.rst:559
 msgid ""
@@ -997,7 +997,7 @@ msgstr "scrivere il codice che effettua i test riescono."
 
 #: ../../building.rst:567
 msgid "update the i18n files (run ``./scripts/i18n.sh``)."
-msgstr "aggiornare i file i18n (Esegui './scripts/i18n.sh ')."
+msgstr "aggiornare i file i18n (Esegui ``./scripts/i18n.sh``)."
 
 #: ../../building.rst:568
 msgid ""
@@ -1024,11 +1024,11 @@ msgstr "pubblicazione in produzione"
 msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``, "
 "compared to ``ghini-x.y-dev``."
-msgstr "Aprire il pull richiesta pagina utilizzando come base una linea di produzione 'ghini-x. y ', rispetto al 'ghini-x. y-dev '."
+msgstr "Aprire il pull richiesta pagina utilizzando come base una linea di produzione ``ghini-x.y``, rispetto al ``ghini-x.y-dev``."
 
 #: ../../building.rst:579
 msgid "make sure a ``bump`` commit is included in the differences."
-msgstr "Assicurarsi che un commit ' bump ' è incluso nelle differenze."
+msgstr "Assicurarsi che un commit ``bump`` è incluso nelle differenze."
 
 #: ../../building.rst:580
 msgid "it should be possible to automatically merge the branches."
@@ -1093,7 +1093,7 @@ msgstr "Download del sorgente"
 msgid ""
 "The Ghini source can be downloaded from our source repository on `github "
 "<http://github.com/Ghini/ghini.desktop>`_."
-msgstr "L'origine di Ghini può essere scaricato dal nostro repository del codice sorgente su ' github <http: github.com/ghini/ghini.desktop="">' _.</http:>"
+msgstr "L'origine di Ghini può essere scaricato dal nostro repository del codice sorgente su `github <http://github.com/ghini/ghini.desktop>`_."
 
 #: ../../devdl.rst:7
 msgid ""
@@ -1103,7 +1103,7 @@ msgid ""
 "``bauble-x.y``, where x.y can be 1.0, for example. Our workflow is to commit "
 "to the `master` development branch or to a `patch` branch and to include the "
 "commits into a `release` branch when ready."
-msgstr "Se si desidera che una particolare versione di Ghini, abbiamo rilasciare e gestire versioni in rami. Si dovrebbe ' git checkout ' il ramo corrispondente alla versione di vostra scelta. Nomi dei rami per le versioni Ghini sono della forma ' Bagattella-x. y ', dove x. y può essere 1.0, per esempio. Il nostro flusso di lavoro è di impegnarsi per il ramo di sviluppo 'master' o ad un ramo di 'patch' e includere i commit in un ramo di 'liberazione' quando si è pronti."
+msgstr "Se si desidera che una particolare versione di Ghini, abbiamo rilasciare e gestire versioni in rami. Si dovrebbe ``git checkout`` il ramo corrispondente alla versione di vostra scelta. Nomi dei rami per le versioni Ghini sono della forma ``ghini-x.y``, dove x.y può essere 1.0, per esempio. Il nostro flusso di lavoro è di impegnarsi per il ramo di sviluppo ``master`` o ad un ramo di ``patch`` e includere i commit in un ramo di ``release`` quando si è pronti."
 
 #: ../../devdl.rst:14
 msgid ""
@@ -1111,7 +1111,7 @@ msgid ""
 "to install the `Git <http://www.git.org>`_ version control system. Git is "
 "incuded in all reasonable Linux distributions and can be installed on all "
 "current operating systems."
-msgstr "Al check out il codice più recente dal repository del codice sorgente, sarà necessario installare il ' Git <http: www.git.org="">' _ sistema di controllo di versione. Git è inclusa in tutte le distribuzioni Linux ragionevole e può essere installato su tutti i sistemi operativi attuali.</http:>"
+msgstr "Al check out il codice più recente dal repository del codice sorgente, sarà necessario installare il `sistema di controllo di versione git <http://www.git.org>`_. Git è ovviamente incluso in qualsiasi distribuzione Linux ragionevole e può essere installato su tutti i sistemi operativi attuali."
 
 #: ../../devdl.rst:19
 msgid ""
@@ -1123,7 +1123,7 @@ msgstr "Una volta installato Git puoi effettuare il checkout l'ultimo codice di 
 msgid ""
 "For more information about other available code branches go to `ghini."
 "desktop on github <http://www.github.com/Ghini/ghini.desktop>`_."
-msgstr "Per ulteriori informazioni su altri codici disponibili rami andare a ' ghini.desktop su github <http: www.github.com/ghini/ghini.desktop="">' _.</http:>"
+msgstr "Per ulteriori informazioni su altri codici disponibili rami andare a `ghini.desktop su github <http://www.github.com/ghini/ghini.desktop>`_."
 
 #: ../../devdl.rst:34
 msgid ""
@@ -1172,7 +1172,7 @@ msgid ""
 "To update the ``po`` filese relative to the documentation, you need a up-to-"
 "date checkout of both projects. The root directory of the ghini.desktop-docs."
 "i18n project contains a script with an all telling name::"
-msgstr "Per aggiornare il filese ' po ' rispetto la documentazione, avete bisogno di un check-out sono aggiornati di entrambi i progetti. La directory radice del progetto ghini.desktop-docs.i18n contiene uno script con un nome di tutti dicendo::"
+msgstr "Per aggiornare il filese ``po`` rispetto la documentazione, avete bisogno di un check-out sono aggiornati di entrambi i progetti. La directory radice del progetto ghini.desktop-docs.i18n contiene uno script con un nome di tutti dicendo::"
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
@@ -1380,13 +1380,13 @@ msgid ""
 "species editor allows you to construct the name as well as associate "
 "metadata with the taxon such as its distribution, synonyms and other "
 "information."
-msgstr "Per ragioni storiche, chiamati una 'specie', ma da questo si intende un 'taxon' rango 'specie' o inferiore.  Esso rappresenta un nome univoco nel database.  L'editor di specie consente di costruire il nome così come associare metadati con il taxon come la sua distribuzione, sinonimi e altre informazioni."
+msgstr "Per ragioni storiche, chiamati una ``species``, ma da questo si intende un ``taxon`` di rango specie o inferiore.  Esso rappresenta un nome univoco nel database.  L'editor di specie consente di costruire il nome così come associare metadati con il taxon come la sua distribuzione, sinonimi e altre informazioni."
 
 #: ../../editing.rst:112
 msgid ""
 "The *Infraspecific parts* in the species editor allows you to specify the "
 "`taxon` further than at `species` rank."
-msgstr "Il * infraspecifico parti * nell'editor di specie consente di specificare il 'taxon' oltre al rango di 'specie'."
+msgstr "La sezione *informazione infraspecifica* nell'editor di specie consente di specificare il ``taxon`` oltre al rango di specie."
 
 #: ../../editing.rst:117
 msgid "To save the species you are working on then click *OK*."
@@ -1396,7 +1396,7 @@ msgstr "Per salvare la specie stanno lavorando, quindi fare clic su * OK *."
 msgid ""
 "To save the species you are working on and add an accession to it then click "
 "on the *Add Accession* button."
-msgstr "Per salvare la specie stanno lavorando e aggiunta un'adesione ad esso, quindi fare clic sul * adesione * Aggiungi pulsante."
+msgstr "Per salvare la specie stanno lavorando e aggiunta un'accessione ad esso, quindi fare clic sul * accessione * Aggiungi pulsante."
 
 #: ../../editing.rst:122
 msgid ""
@@ -1416,7 +1416,7 @@ msgid ""
 "refer maybe a group of seed or cuttings from a species.  A plant would be an "
 "individual from that accesssion, i.e. a specific plant in a specific "
 "location."
-msgstr "L'editor di adesione ci permette di aggiungere un'adesione ad una specie.  In Ghini un'adesione rappresenta un gruppo di piante o cloni.  L'adesione si riferirebbe forse un gruppo di semi o talee da una specie.  Un impianto sarebbe un individuo da quella accesssion, cioè un impianto specifico in una posizione specifica."
+msgstr "L'editor di accessione ci permette di aggiungere un'accessione ad una specie.  In Ghini un'accessione rappresenta un gruppo di piante o cloni.  L'accessione si riferirebbe forse un gruppo di semi o talee da una specie.  Un planting sarebbe un individuo da quella accesssion, cioè un planting specifico in una posizione specifica."
 
 #: ../../editing.rst:136
 msgid "Accession Source"
@@ -1427,7 +1427,7 @@ msgid ""
 "The source of the accessions lets you add more information about where this "
 "accession came from.  At the moment the type of the source can be either a "
 "Collection or a Donation."
-msgstr "L'origine delle adesioni consente di aggiungere ulteriori informazioni sulla provenienza di questa adesione.  Al momento il tipo dell'origine può essere un insieme o una donazione."
+msgstr "L'origine delle adesioni consente di aggiungere ulteriori informazioni sulla provenienza di questa accessione.  Al momento il tipo dell'origine può essere un insieme o una donazione."
 
 #: ../../editing.rst:143 ../../searching.rst:53
 msgid "Collection"
@@ -1482,7 +1482,7 @@ msgid ""
 "When you enter the range in the plant code entry the entry will turn blue to "
 "indicate that you are now creating multiple plants.  Any fields that are set "
 "while in this mode will be copied to all the plants that are created."
-msgstr "Quando si immette l'intervallo nella voce del codice impianto la voce diventa blu per indicare che si stanno ora creando impianti multipli.  Tutti i campi che sono impostati in questa modalità verranno copiati tutte le piante che vengono create."
+msgstr "Quando si immette l'intervallo nella voce del codice planting la voce diventa blu per indicare che si stanno ora creando planting multipli.  Tutti i campi che sono impostati in questa modalità verranno copiati tutte le piante che vengono create."
 
 #: ../../editing.rst:174
 msgid "Pictures"
@@ -1494,14 +1494,14 @@ msgid ""
 "to them, Plants can have *Pictures*: next to the tab for Notes, the Plants "
 "editor contains an extra tab called \"Pictures\". You can associate as many "
 "pictures as you might need to a plant."
-msgstr "Come quasi tutti gli oggetti nel Ghini database può avere * note * associata a loro, possono avere piante * immagini *: accanto alla scheda per le note, l'editor di piante contiene una scheda aggiuntiva chiamata \"Pictures\". È possibile associare molte immagini come potrebbe essere necessario un impianto."
+msgstr "Come quasi tutti gli oggetti nel Ghini database può avere * note * associata a loro, possono avere piante * immagini *: accanto alla scheda per le note, l'editor di piante contiene una scheda aggiuntiva chiamata \"Pictures\". È possibile associare molte immagini come potrebbe essere necessario un planting."
 
 #: ../../editing.rst:181
 msgid ""
 "When you associate a picture to a plant, the file is copied in the "
 "*pictures* folder, and a miniature (500x500) is generated and copied in the "
 "`thumbnails` folder inside of the pictures folder."
-msgstr "Quando si associa un'immagine di una pianta, il file viene copiato nella * cartella di immagini e una miniatura (500 x 500) è generato e copiato nella cartella 'miniature' all'interno della cartella immagini."
+msgstr "Quando si associa un'immagine di una pianta, il file viene copiato nella * cartella di immagini e una miniatura (500 x 500) è generato e copiato nella cartella ``thumbnails`` all'interno della cartella immagini."
 
 #: ../../editing.rst:185
 msgid ""
@@ -1526,7 +1526,7 @@ msgid ""
 "displayed in the pictures pane, the pane left of the information pane. When "
 "an accession in the selection is highlighted, any picture associated to the "
 "plants in the highlighted accession are displayed in the pictures pane."
-msgstr "Quando una pianta nella selezione corrente viene evidenziata, le relative immagini vengono visualizzate nel riquadro Immagini, nel riquadro a sinistra del riquadro informazioni. Quando viene evidenziato un'adesione nella selezione, qualsiasi immagine associata alle piante nell'adesione evidenziato sono visualizzati nel riquadro immagini."
+msgstr "Quando una pianta nella selezione corrente viene evidenziata, le relative immagini vengono visualizzate nel riquadro Immagini, nel riquadro a sinistra del riquadro informazioni. Quando viene evidenziato un'accessione nella selezione, qualsiasi immagine associata alle piante nell'accessione evidenziato sono visualizzati nel riquadro immagini."
 
 #: ../../editing.rst:202
 msgid "Locations"
@@ -1562,7 +1562,7 @@ msgid ""
 "defined in ``bauble.editor``. Create an instance of the base class, passing "
 "it the **glade** file name and the root widget name, then handle the "
 "instance to the **presenter** constructor."
-msgstr "Il **vista** è descritto come parte di un file **glade**. Questo include le associazioni di segnale-callback. La classe base è ' GenericEditorView ' definito in 'bauble.editor '. Creare un'istanza della classe base, passando il **glade** nome del file e il nome del widget di radice, quindi gestire l'istanza per il **presentatore** costruttore."
+msgstr "Il **vista** è descritto come parte di un file **glade**. Questo include le associazioni di segnale-callback. La classe base è ``GenericEditorView`` definito in ``bauble.editor``. Creare un'istanza della classe base, passando il **glade** nome del file e il nome del widget di radice, quindi gestire l'istanza per il **presentatore** costruttore."
 
 #: ../../extending.rst:14
 msgid ""
@@ -1580,7 +1580,7 @@ msgstr "La sottoclasse **presentatore** definisce e implementa:"
 msgid ""
 "``widget_to_field_map``, the association from widget name to name of model "
 "attribute,"
-msgstr "' widget_to_field_map ', l'associazione dal widget nome al nome dell'attributo di modello,"
+msgstr "``widget_to_field_map``, l'associazione dal widget nome al nome dell'attributo di modello,"
 
 #: ../../extending.rst:29
 msgid ""
@@ -1594,13 +1594,13 @@ msgstr "Un ben educati **presentatore** utilizza il **vista** api per interrogar
 msgid ""
 "There is no way to unit test a subclassed view, so please don't subclass "
 "views."
-msgstr "Non c'è alcun modo per unit test di una sottoclasse vista, così per favore non sottoclasse viste."
+msgstr "Non c'è modo per scrivere prove unitarie di oggetti grafici, così per favore non definire classi per viste."
 
 #: ../../extending.rst:36
 msgid ""
 "The base class for the presenter, ``GenericEditorPresenter`` defined in "
 "``bauble.editor``, implements many useful generic callbacks."
-msgstr "La classe base per il presentatore, ' GenericEditorPresenter ' definito in 'bauble.editor ', implementa molte utili callback generici."
+msgstr "La classe base per il presentatore, ``GenericEditorPresenter`` definito in ``bauble.editor``, implementa molte utili callback generici."
 
 #: ../../extending.rst:46
 msgid ""
@@ -1679,7 +1679,7 @@ msgstr "**struttura di database** di Ghini"
 msgid ""
 "The central element in Ghini's point of view is the ``Accession``. Following "
 "its links to other database objects lets us better understand the structure:"
-msgstr "L'elemento centrale nel punto di vista di Ghini è adesione del ' '. Seguendo i suoi collegamenti agli altri oggetti di database ci permette di comprendere meglio la struttura:"
+msgstr "L'elemento centrale nel punto di vista di Ghini è la accessione (``Accession``). Seguendo i suoi collegamenti agli altri oggetti di database ci permette di comprenderne meglio la struttura:"
 
 #: ../../goal.rst:50
 msgid ""
@@ -1698,7 +1698,7 @@ msgid ""
 "An ``Accession`` stays in the database even if all of its ``Plantings`` have "
 "been removed, sold, or have died. Identifying the ``Species`` of an "
 "``Accession`` consistently connects all its ``Plantings`` to the ``Species``."
-msgstr "Un 'adesione ' rimane nel database anche se tutti i suoi impianti di ' ' sono stati rimossi, venduto, o sono morti. Identificare le 'specie ' di un 'adesione ' costantemente collega tutti i suoi 'impianti ' alla 'specie '."
+msgstr "Una ``Accssion`` rimane nel database anche se tutti i suoi ``Planting`` stati rimossi, venduto, o sono morti. Identificare la ``Species`` di una ``Accession`` equivale al connettere in modo consistente tutti i suoi ``Planting`` alla stessa ``Species``."
 
 #: ../../goal.rst:64
 msgid ""
@@ -1709,14 +1709,14 @@ msgid ""
 "different taxa, so the database allows for zero  or more ``Accessions`` per "
 "``Propagation`` (0..n). Also a ``Contact`` may provide zero or more "
 "``Accessions`` (0..n)."
-msgstr "' Propagazioni ' e ' contatti ' forniscono materiale vegetale per il giardino; Questa informazione è facoltativa e collezionisti più piccoli potrebbero preferire di lasciare questo a parte. Una prova di ' propagazione ' potrebbe non riuscire, il più delle volte che il risultato sarà esattamente una adesione, ma può anche produrre tassi leggermente differenti, quindi il database permette di zero o più 'adesioni ' a 'propagazione ' (0.. n). Anche un 'contatto ' può fornire zero o più 'adesioni ' (0.. n)."
+msgstr "Contatti esterni (``Contact``) o lo stesso orto botanico a traverso di propagazioni (``Propagation``) forniscono materiale vegetale per il giardino; Questa informazione è facoltativa e collezionisti più piccoli potrebbero preferire non approfittare di questa sezione del software. Una prova di ``Propagation`` potrebbe non riuscire, il più delle volte il risultato sarà esattamente una ``Accession``, ma può anche produrre ``Species`` leggermente differenti, quindi il database permette di zero o più ``Accession`` a ``Propagation`` (0.. n). Anche un ``Contact`` può fornire zero o più ``Accession`` (0.. n)."
 
 #: ../../goal.rst:71
 msgid ""
 "Specialists may formulate their opinion about the ``Species`` to which an "
 "``Accession`` belongs, by providing a ``Verification``, signing it, and "
 "stating the applicable level of confidence."
-msgstr "Specialisti possono formulare il loro parere circa la 'specie ' a cui appartiene un 'adesione', fornendo una 'verifica', firmarlo, e affermando il livello applicabile di fiducia."
+msgstr "Specialisti possono formulare il loro parere circa la 'specie' a cui appartiene un 'accessione', fornendo una 'verifica', firmarlo, e affermando il livello applicabile di fiducia."
 
 #: ../../goal.rst:75
 msgid ""
@@ -1724,7 +1724,7 @@ msgid ""
 "``Propagation``, the ``Propagation`` links the ``Accession`` and all of its "
 "``Plantings`` to a single parent ``Planting``, the seed or the vegetative "
 "parent."
-msgstr "Se un 'adesione ' è stato ottenuto nel vivaio giardino da una successo 'propagazione ', i link ' propagazione ' 'adesione ' e tutti i suoi 'impianti ' ad un unico genitore 'piantatura del ', il seme o il genitore vegetativo."
+msgstr "Se un 'accessione' è stato ottenuto nel vivaio giardino da una successo 'propagazione', i link 'propagazione' 'accessione' e tutti i suoi 'planting' ad un unico genitore 'piantatura', il seme o il genitore vegetativo."
 
 #: ../../goal.rst:80
 msgid ""
@@ -1734,7 +1734,7 @@ msgid ""
 "anyway?  Most discussions on the net don't make the concept any clearer. One "
 "of our users gave an example which I'm glad to include in Ghini's "
 "documentation."
-msgstr "Anche dopo la spiegazione di cui sopra, nuovi utenti generalmente ancora chiedono perché hanno bisogno di passare attraverso un schermo di 'Adesione ' mentre tutto quello che vogliono è quello di inserire un impianto di ' ' nell'insieme e ancora: che cosa è questo \"accession\" cosa comunque?  Maggior parte delle discussioni in rete non rendere il concetto più chiaro. Uno dei nostri utenti ha dato un esempio che mi fa piacere da includere nella documentazione di Ghini."
+msgstr "Anche dopo la spiegazione di cui sopra, nuovi utenti generalmente ancora chiedono perché hanno bisogno di passare attraverso un schermo di 'Accessione ' mentre tutto quello che vogliono è quello di inserire un planting di ' ' nell'insieme e ancora: che cosa è questo \"accession\" cosa comunque?  Maggior parte delle discussioni in rete non rendere il concetto più chiaro. Uno dei nostri utenti ha dato un esempio che mi fa piacere da includere nella documentazione di Ghini."
 
 #: ../../goal.rst
 msgid "use case"
@@ -1747,7 +1747,7 @@ msgid ""
 "first acquisition of the year, we named them 2007.0001 (we gave them a "
 "single unique ``Accession`` code, with quantity 5) and we planted them all "
 "together at one ``Location`` as a single ``Planting``, also with quantity 5."
-msgstr "All'inizio del 2007 abbiamo ottenuto cinque piantine di * Heliconia longa * (una pianta ' specie ') dal nostro prossimo (la fonte di ' contatto '). Dato che era la prima acquisizione dell'anno, abbiamo chiamato il loro 2007.0001 (abbiamo dato loro un codice singolo unico 'adesione', con quantità 5) e li abbiamo piantato tutti insieme a una 'posizione ' come una singola piantatura del ' ', anche con quantità 5."
+msgstr "All'inizio del 2007 abbiamo ottenuto cinque piantine di * Heliconia longa * (una pianta ' specie ') dal nostro prossimo (la fonte di ' contatto '). Dato che era la prima acquisizione dell'anno, abbiamo chiamato il loro 2007.0001 (abbiamo dato loro un codice singolo unico 'accessione', con quantità 5) e li abbiamo piantato tutti insieme a una 'posizione ' come una singola piantatura del ' ', anche con quantità 5."
 
 #: ../../goal.rst:95
 msgid ""
@@ -1756,7 +1756,7 @@ msgid ""
 "obtained vegetatively (asexually) from the original 5 plants. Our only "
 "intervention was splitting, moving, and of course writing this information "
 "in the database. Total plant quantity is above 40."
-msgstr "Al momento della scrittura, nove anni più tardi, ' adesione ' 2007.0001 ha 6 distinti 'impianti', ognuno in un diverso 'luoghi ' nel nostro giardino, ottenuti per via vegetativa (asessualmente) da 5 piante originali. Il nostro unico intervento era spaccare, lo spostamento e naturalmente scrivere queste informazioni nel database. La quantità totale dell'impianto è superiore a 40."
+msgstr "Al momento della scrittura, nove anni più tardi, ' accessione ' 2007.0001 ha 6 distinti 'planting', ognuno in un diverso 'luoghi ' nel nostro giardino, ottenuti per via vegetativa (asessualmente) da 5 piante originali. Il nostro unico intervento era spaccare, lo spostamento e naturalmente scrivere queste informazioni nel database. La quantità totale dell'planting è superiore a 40."
 
 #: ../../goal.rst:102
 msgid ""
@@ -1764,7 +1764,7 @@ msgid ""
 "database under different ``Accession`` codes, where our garden is the "
 "``Contact`` source and where we know which of our ``Plantings`` is the seed "
 "parent."
-msgstr "Nuovi 'impianti ' ottenuti (assistita) sessuale 'propagazione ' vengono nel nostro database di codici diversi ' adesione', dove il nostro giardino è la fonte di ' contatto ' e dove sappiamo quale dei nostri impianti di ' ' è il padre di seme."
+msgstr "Nuovi 'planting ' ottenuti (assistita) sessuale 'propagazione ' vengono nel nostro database di codici diversi ' accessione', dove il nostro giardino è la fonte di ' contatto ' e dove sappiamo quale dei nostri planting di ' ' è il padre di seme."
 
 #: ../../goal.rst:107
 msgid "the above three cases translate into several short usage stories:"
@@ -1775,23 +1775,23 @@ msgid ""
 "activate the menu Insert → Accession, verify the existence and correctness "
 "of the ``Species`` *Heliconia longa*, specify the initial quantity of the "
 "``Accession``; add its ``Planting`` at the desired ``Location``."
-msgstr "attivare il menu Inserisci → adesione, verificare l'esistenza e la correttezza della specie ' ' * Heliconia longa *, specificare la quantità iniziale del 'adesione '; aggiungere il suo 'impianto ' 'posizione ' preferita."
+msgstr "attivare il menu Inserisci → accessione, verificare l'esistenza e la correttezza della specie ' ' * Heliconia longa *, specificare la quantità iniziale del 'accessione '; aggiungere il suo 'planting ' 'posizione ' preferita."
 
 #: ../../goal.rst:113
 msgid ""
 "edit ``Planting`` to correct the amount of living plants — repeat this as "
 "often as necessary."
-msgstr "modificare ' impianto ' per correggere la quantità di piante viventi — ripetere questa operazione più spesso necessario."
+msgstr "modificare ' planting ' per correggere la quantità di piante viventi — ripetere questa operazione più spesso necessario."
 
 #: ../../goal.rst:115
 msgid ""
 "edit ``Planting`` to split it at separate ``Locations`` — this produces a "
 "different ``Planting`` under the same ``Accession``."
-msgstr "modificare ' impianto ' per dividerlo in sedi separate del ' ' — questo produce un diverso 'impianto ' sotto la stessa 'adesione '."
+msgstr "modificare ' planting ' per dividerlo in sedi separate del ' ' — questo produce un diverso 'planting ' sotto la stessa 'accessione '."
 
 #: ../../goal.rst:117
 msgid "edit ``Planting`` to add a (seed) ``Propagation``."
-msgstr "modificare ' impianto ' per aggiungere un ' propagazione ' (seme)."
+msgstr "modificare ' planting ' per aggiungere un ' propagazione ' (seme)."
 
 #: ../../goal.rst:118
 msgid "edit ``Planting`` to update the status of the ``Propagation``."
@@ -1802,7 +1802,7 @@ msgid ""
 "activate the menu Insert → Accession to associate an accession to a "
 "successful ``Propagation`` trial; add the ``Planting`` at the desired "
 "``Location``."
-msgstr "attivare il menu Inserisci → adesione per associare un'adesione a un processo di ' propagazione ' successo; aggiungere la piantatura del ' ' nella posizione desiderata del ' '."
+msgstr "attivare il menu Inserisci → accessione per associare un'accessione a un processo di ' propagazione ' successo; aggiungere la piantatura del ' ' nella posizione desiderata del ' '."
 
 #: ../../goal.rst:123
 msgid ""
@@ -1811,7 +1811,7 @@ msgid ""
 "the possibility to keep information about ``Plantings`` that have been "
 "removed from the collection, help justify the presence of the ``Accession`` "
 "abstraction level."
-msgstr "In particolare la capacità di dividere una piantatura del ' ' in diverse località diverse del ' ' e per mantenere tutte le uniformemente associato a una 'specie ', o la possibilità di mantenere informazioni su 'impianti ' che sono stati rimossi dalla raccolta, contribuire a giustificare la presenza del livello di astrazione di 'Adesione '."
+msgstr "In particolare la capacità di dividere una piantatura del ' ' in diverse località diverse del ' ' e per mantenere tutte le uniformemente associato a una 'specie ', o la possibilità di mantenere informazioni su 'planting ' che sono stati rimossi dalla raccolta, contribuire a giustificare la presenza del livello di astrazione di 'Accessione '."
 
 #: ../../goal.rst:131
 msgid "Our User Stories section contains details about the above, and more."
@@ -1876,7 +1876,7 @@ msgid ""
 "identification: each taxonomist can have their say and do not need overwrite "
 "each other's work. All verifications can be found back in the database, with "
 "timestamp and signature."
-msgstr "Ghini implementa il concetto di «adesione», intermedio tra impianto fisico (o un gruppo di loro) e astratte taxon. Ogni adesione possibile associare le stesse piante di diversi taxa, se due tassonomisti non concordano sull'identificazione: ogni tassonomista possono dire la loro e non è necessario sovrascrivere il lavoro di altri. Tutte le verifiche possono essere trovate nel database, con timestamp e firma."
+msgstr "Ghini implementa il concetto di «accessione», intermedio tra planting fisico (o un gruppo di loro) e astratte taxon. Ogni accessione possibile associare le stesse piante di diversi taxa, se due tassonomisti non concordano sull'identificazione: ogni tassonomista possono dire la loro e non è necessario sovrascrivere il lavoro di altri. Tutte le verifiche possono essere trovate nel database, con timestamp e firma."
 
 #: ../../goal.rst:177 ../../peptalk.rst:43
 msgid "helps off-line identification"
@@ -2136,7 +2136,7 @@ msgid ""
 "to export. You can use the current selection to limit the span of the "
 "export, or you can start at the complete content of a domain, to be chosen "
 "among Species, Accession, Plant."
-msgstr "Quando si attiva questo strumento di esportazione, si è data la scelta di specificare cosa esportare. È possibile utilizzare la selezione corrente per limitare l'intervallo di esportazione, oppure è possibile avviare il contenuto completo di un dominio, a scelta tra specie, adesione, pianta."
+msgstr "Quando si attiva questo strumento di esportazione, si è data la scelta di specificare cosa esportare. È possibile utilizzare la selezione corrente per limitare l'intervallo di esportazione, oppure è possibile avviare il contenuto completo di un dominio, a scelta tra specie, accessione, pianta."
 
 #: ../../imex.rst:70
 msgid ""
@@ -2145,7 +2145,7 @@ msgid ""
 "taxonomic information it refers to: unreferred to taxa will not be exported. "
 "*Plant* will export all living plants (some accession might not be "
 "included), all referred to locations and taxa."
-msgstr "Esportazione di * specie * solo esporterà le informazioni tassonomiche complete nel database. * Adesione * esporterà tutte le vostra adesioni oltre a tutte le informazioni tassonomiche si riferisce a: unreferred a taxa non verrà esportati. * Impianto * esporterà tutti i viventi, piante (alcuni adesione non può essere incluso), tutti si riferiscono a posizioni e taxa."
+msgstr "Esportazione di * specie * solo esporterà le informazioni tassonomiche complete nel database. * Accessione * esporterà tutte le vostra adesioni oltre a tutte le informazioni tassonomiche si riferisce a: unreferred a taxa non verrà esportati. * Planting * esporterà tutti i viventi, piante (alcuni accessione non può essere incluso), tutti si riferiscono a posizioni e taxa."
 
 #: ../../index.rst:2
 msgid "Documentation for Ghini 1.0"
@@ -2726,7 +2726,7 @@ msgid ""
 "the description of a Propagation trial. If a Propagation trial is "
 "successful, Ghini lets you associate it to a new Accession. You can only "
 "associate one Accession to a Propagation Trial."
-msgstr "Ghini offre la possibilità di associare prove di propagazioni di piante e di documentare i loro trattamenti e risultati. Trattamenti sono parte integrante della descrizione di una prova di propagazione. Se una prova di propagazione è successo, Ghini consente di associarla a una nuova adesione. È possibile associare solo una adesione ad una prova di propagazione."
+msgstr "Ghini offre la possibilità di associare prove di propagazioni di piante e di documentare i loro trattamenti e risultati. Trattamenti sono parte integrante della descrizione di una prova di propagazione. Se una prova di propagazione è successo, Ghini consente di associarla a una nuova accessione. È possibile associare solo una accessione ad una prova di propagazione."
 
 #: ../../propagations.rst:12
 msgid "Here we describe how you use this part of the interface."
@@ -2788,14 +2788,14 @@ msgstr "Utilizzando una propagazione"
 
 #: ../../propagations.rst:49
 msgid "A Propagation trial may be successful and result in a new Accession."
-msgstr "Una prova di propagazione può essere successo e provocare una nuova adesione."
+msgstr "Una prova di propagazione può essere successo e provocare una nuova accessione."
 
 #: ../../propagations.rst:51
 msgid ""
 "Ghini helps you reflect this in the database: create a new Accession, "
 "immediately switch to the Source tab and select \"Garden Propagation\" in "
 "the (admittedly somewhat misleading) Contact field."
-msgstr "Ghini ti aiuta a riflettere questo nel database: creare una nuova adesione, immediatamente passare alla scheda origine e selezionare \"Garden Propagation\" nel campo contatto (devo ammettere che un po ' fuorviante)."
+msgstr "Ghini ti aiuta a riflettere questo nel database: creare una nuova accessione, immediatamente passare alla scheda origine e selezionare \"Garden Propagation\" nel campo contatto (devo ammettere che un po ' fuorviante)."
 
 #: ../../propagations.rst:55
 msgid ""
@@ -2807,7 +2807,7 @@ msgstr "Iniziare a digitare il numero di piante e verrà visualizzato un elenco 
 msgid ""
 "Select the plant, and the list of accessed and unaccessed propagation trials "
 "will appear in the lower half of the window."
-msgstr "Selezionare l'impianto e l'elenco delle prove di propagazione raggiunto e inutilizzato apparirà nella parte inferiore della finestra."
+msgstr "Selezionare l'planting e l'elenco delle prove di propagazione raggiunto e inutilizzato apparirà nella parte inferiore della finestra."
 
 #: ../../propagations.rst:61
 msgid ""
@@ -2826,7 +2826,7 @@ msgstr "Utilizzando i dati dalla prova di propagazione, Ghini completa alcuni ca
 
 #: ../../propagations.rst:70
 msgid "You can associate a Propagation trial to only one Accession."
-msgstr "È possibile associare una prova di propagazione sola adesione."
+msgstr "È possibile associare una prova di propagazione sola accessione."
 
 #: ../../report.rst:2
 msgid "Generating reports"
@@ -3062,7 +3062,7 @@ msgstr ""
 
 #: ../../searching.rst:49
 msgid "accession, acc"
-msgstr "adesione, acc"
+msgstr "accessione, acc"
 
 #: ../../searching.rst:49
 msgid "code"
@@ -3142,7 +3142,7 @@ msgid ""
 "belongs.  In database theory terminology, epithet and code are not "
 "sufficient to form a **primary key** for respectively species and planting. "
 "These domains need a **composite** primary key."
-msgstr "A **specie** epiteto significa poco senza il genere corrispondente, allo stesso modo un **impianto** codice è univoco solo nell'ambito dell'adesione a cui appartiene.  Nella terminologia dei database teoria, epiteto e codice non sono sufficienti per formare un **chiave** primario per rispettivamente specie e le piantine. Questi domini necessitano di un **composito** chiave primaria."
+msgstr "A **specie** epiteto significa poco senza il genere corrispondente, allo stesso modo un **planting** codice è univoco solo nell'ambito dell'accessione a cui appartiene.  Nella terminologia dei database teoria, epiteto e codice non sono sufficienti per formare un **chiave** primario per rispettivamente specie e le piantine. Questi domini necessitano di un **composito** chiave primaria."
 
 #: ../../searching.rst:76
 msgid ""
@@ -3150,7 +3150,7 @@ msgid ""
 "code, which includes the accession code. Taken together, Accession code and "
 "Planting code do provide a **composite primary key** for plantings.  For "
 "**species**, we have introduced the binomial search, described below."
-msgstr "Ricerca di valore consente di cercare **impianti** dal loro codice impianto completo, che include il codice di adesione. Presi insieme, il codice di adesione e la piantatura del codice forniscono uns **chiave primaria composito** per gli impianti.  Per **specie**, abbiamo introdotto la ricerca binomia, descritta di seguito."
+msgstr "Ricerca di valore consente di cercare **planting** dal loro codice planting completo, che include il codice di accessione. Presi insieme, il codice di accessione e la piantatura del codice forniscono uns **chiave primaria composito** per gli planting.  Per **specie**, abbiamo introdotto la ricerca binomia, descritta di seguito."
 
 #: ../../searching.rst:84
 msgid "Search by Expression"
@@ -3781,7 +3781,7 @@ msgid ""
 "end of the line connecting ``Location`` and ``Planting`` tells us that every "
 "``Planting`` can only belong to exactly one (1) ``Location``, while every "
 "``Location`` may contain zero or more (0..n) ``Plantings``."
-msgstr "In vista software sopra il giardino dati, le indicazioni numeriche alle due estremità della linea di collegamento 'posizione ' e ' la piantatura del ' ci dice che ogni piantatura del ' ' può appartenere solo ad esattamente un 1 'posizione ', mentre ogni 'posizione ' può contenere zero o più (0.. n) ' impianti '."
+msgstr "In vista software sopra il giardino dati, le indicazioni numeriche alle due estremità della linea di collegamento 'posizione ' e ' la piantatura del ' ci dice che ogni piantatura del ' ' può appartenere solo ad esattamente un 1 'posizione ', mentre ogni 'posizione ' può contenere zero o più (0.. n) ' planting '."
 
 #: ../../user_stories.rst:14
 msgid ""
