@@ -149,7 +149,7 @@ msgid ""
 "Use the software, note the things you don't like, `open an issue <http://"
 "github.com/Ghini/ghini.desktop/issues/new>`_ for each of them. A developer "
 "will react sooner than you can imagine."
-msgstr "Utilizzare il software, di notare le cose che non ti piace, ' aprire un problema <http: github.com/ghini/ghini.desktop/issues/new="">' _ per ciascuno di essi. Uno sviluppatore reagirà prima di quanto si possa immaginare.</http:>"
+msgstr "Utilizzare il software, notare cosa piace di meno e potrebbe essere corretto, ``segnalarlo come problema <http://github.com/ghini/ghini.desktop/issues/new>`_ separatamente. Uno sviluppatore reagirà prima di quanto si possa immaginare."
 
 #: ../../building.rst:16
 msgid ""
@@ -158,20 +158,20 @@ msgid ""
 "This is the best way to make sure that something happens quickly on Ghini. "
 "Do make sure the developer opens issues and publishes their contribution on "
 "github."
-msgstr "Se avete un'idea di ciò che manca nel software ma non abbastanza e formalizzare in questioni separate, si potrebbe prendere in considerazione l'assunzione di un professionista. Questo è il modo migliore per assicurarsi che qualcosa accade rapidamente su Ghini. Assicurarsi che lo sviluppatore apre problemi e pubblica il loro contributo su github."
+msgstr "Se avete un'idea di ciò che manca nel software ma non abbastanza e formalizzare in questioni separate, si potrebbe prendere in considerazione l'assunzione di un professionista. Questo è il modo migliore per assicurarsi che qualcosa accade rapidamente su Ghini. Assicurarsi che lo sviluppatore apra problemi su github e vi pubblichi il contributi."
 
 #: ../../building.rst:21
 msgid ""
 "Translate! Any help with translations will be welcome, so please do! you can "
 "do this without installing anything on your computer, just using the on-line "
 "translation service offered by http://hosted.weblate.org/"
-msgstr "Traduci! Qualsiasi aiuto con traduzione sarà gradito, così si prega di fare! è possibile farlo senza installare nulla sul tuo computer, usando solo il servizio di traduzione on-line offerti da http://hosted.weblate.org/"
+msgstr "Traduci! Qualsiasi aiuto con traduzione sarà gradito, così si prega di tradurre! è possibile farlo senza installare nulla sul tuo computer, usando solo il servizio di traduzione on-line offerti da http://hosted.weblate.org/"
 
 #: ../../building.rst:24
 msgid ""
 "fork the respository, choose an issue, solve it, open a pull request. See "
 "the `bug solving workflow`_ below."
-msgstr "forcella del repository, scegliere un problema, risolverlo, aprire una richiesta di pull. Vedere il 'bug solving del flusso di lavoro' _ qui sotto."
+msgstr "“Fork the repository”, scegliere un problema, risolverlo, aprire una richiesta “pull request”. Vedere il `flusso di lavoro per risolvere bug`_ qui sotto."
 
 #: ../../building.rst:27
 msgid ""
@@ -855,7 +855,7 @@ msgid ""
 "Each of these classes must implement an amount of functions in order to "
 "properly behave within the Ghini framework. The Ghini framework reserves "
 "space to pluggable classes."
-msgstr "Ciascuna di queste classi dovrà implementare una quantità di funzioni per comportarsi correttamente nel quadro di Ghini. Il quadro di Ghini si riserva spazio alle classi pluggable."
+msgstr "Ciascuna di queste classi deve implementare un preciso insieme di funzioni per poter correttamente operare all'interno di Ghini. Ghini riserva spazio alle classi dei *plugin*."
 
 #: ../../building.rst:507 ../../devdl.rst:370
 msgid ""
@@ -863,7 +863,7 @@ msgid ""
 "dictionary, associating a class to its plugin implementation.  SV has a slot "
 "(a gtk.Box) where you can add elements. At any time, at most only one "
 "element in the slot is visible."
-msgstr "SP sa di tutte le classi registrate (collegate), sono memorizzati in un dizionario, associando una classe alla relativa implementazione di plugin.  SV ha uno slot (un gtk. Box) dove è possibile aggiungere elementi. In qualsiasi momento, al massimo solo un elemento nello slot è visibile."
+msgstr "SP sa di tutte le classi registrate (contenute nei plugin), sono memorizzate in un dizionario, che associa ciascuna classe alla relativa implementazione di plugin.  SV ha uno slot (un ``gtk.Box``) dove è possibile aggiungere elementi. In qualsiasi momento, al massimo un solo un elemento nello slot è visibile."
 
 #: ../../building.rst:512 ../../devdl.rst:375
 msgid ""
@@ -872,7 +872,7 @@ msgid ""
 "needed by the associated partial view fitting in the slot (pV - plugin "
 "view), and the MVP pattern is completed by the parent presenter (SP), again "
 "acting as model. To summarize and complete:"
-msgstr "Un plugin definisce una o più classi di plugin. Una classe di plugin svolge il ruolo di un presentatore parziale (pP - plugin presenter) come implementare i callback necessari per la visualizzazione parziale associata raccordo nello slot (pV - plugin vista), e il modello MVP è completato dal presentatore padre (SP), ancora una volta funge da modello. Per riassumere e completare:"
+msgstr "Un plugin definisce una o più classi di plugin. Una classe di plugin svolge il ruolo di un presentatore parziale (pP - plugin presenter) come implementare i callback necessari per la visualizzazione parziale associata raccordo nello slot (pV - plugin vista), e il modello MVP è completato dal presentatore padre (SP), ancora una volta funge da modello. Vediamo di riassumere e completare:"
 
 #: ../../building.rst:518 ../../devdl.rst:381
 msgid "SP acts as model,"
@@ -884,7 +884,7 @@ msgstr "la visualizzazione parziale di pV è definita in un file glade."
 
 #: ../../building.rst:520 ../../devdl.rst:383
 msgid "the callbacks implemented by pP are referenced by the glade file."
-msgstr "i callback implementati da pP sono a cui fa riferimento il file glade."
+msgstr "i callback implementati da pP sono nominati e riferiti nel file glade."
 
 #: ../../building.rst:521 ../../devdl.rst:384
 msgid "a context menu for the SP row,"
@@ -892,7 +892,7 @@ msgstr "un menu di scelta rapida per la riga di SP,"
 
 #: ../../building.rst:522 ../../devdl.rst:385
 msgid "a children property."
-msgstr "una proprietà children."
+msgstr "una proprietà dipendente."
 
 #: ../../building.rst:524 ../../devdl.rst:387
 msgid "when you register a plugin class, the SP:"
@@ -900,7 +900,7 @@ msgstr "Quando si registra una classe di plugin, la SP:"
 
 #: ../../building.rst:526 ../../devdl.rst:389
 msgid "adds the pV in the slot and makes it non-visible."
-msgstr "aggiunge il pV nello slot e rende invisibili."
+msgstr "aggiunge il pV nello slot e lo rende invisibile."
 
 #: ../../building.rst:527 ../../devdl.rst:390
 msgid "adds an instance of pP in the registered plugin classes."
@@ -908,7 +908,7 @@ msgstr "aggiunge un'istanza di pP nelle classi plugin registrati."
 
 #: ../../building.rst:528 ../../devdl.rst:391
 msgid "tells the pP that the SP is the model."
-msgstr "racconta il pP che il SP è il modello."
+msgstr "informa il pP che il modello è SP."
 
 #: ../../building.rst:529 ../../devdl.rst:392
 msgid "connects all callbacks from pV to pP."
@@ -919,14 +919,14 @@ msgid ""
 "when an element in pV triggers an action in pP, the pP can forward the "
 "action to SP and can request SP that it updates the model and refreshes the "
 "view."
-msgstr "Quando un elemento in pV genera un'azione in pP, pP può inoltrare l'azione a SP e possono richiedere SP che aggiorna il modello e aggiorna la visualizzazione."
+msgstr "Quando un elemento in pV genera un'azione in pP, pP può inoltrare l'azione a SP e può richiedere che SP aggiorni il modello e di conseguenza la vista."
 
 #: ../../building.rst:535 ../../devdl.rst:398
 msgid ""
 "When the user selects a row in SP, SP hides everything in the pluggable slot "
 "and shows only the single pV relative to the type of the selected row, and "
 "asks the pP to refresh the pV with whatever is relative to the selected row."
-msgstr "Quando l'utente seleziona una riga in SP, SP nasconde tutto nello slot pluggable e Mostra solo il singolo pV rispetto il tipo della riga selezionata e chiede il pP per aggiornare il pV con tutto ciò che è relativo alla riga selezionata."
+msgstr "Quando l'utente seleziona una riga in SP, SP nasconde tutto nello slot pluggable e mostra solo il pV corrispondente al tipo della riga selezionata e chiede al pP di aggiornare il pV con tutto ciò che è relativo alla riga selezionata."
 
 #: ../../building.rst:539 ../../devdl.rst:402
 msgid ""
@@ -936,11 +936,11 @@ msgstr "Oltre a impostare la visibilità del pV vari, niente deve essere disabil
 
 #: ../../building.rst:543
 msgid "bug solving workflow"
-msgstr "flusso di lavoro di risolvere bug"
+msgstr "flusso di lavoro per risolvere bug"
 
 #: ../../building.rst:546
 msgid "normal development workflow"
-msgstr "Workflow di sviluppo normale"
+msgstr "flusso di lavoro in condizioni normali"
 
 #: ../../building.rst:548
 msgid ""
