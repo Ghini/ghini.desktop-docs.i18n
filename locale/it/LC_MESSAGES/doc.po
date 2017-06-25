@@ -1614,7 +1614,7 @@ msgstr "Un altro buon esempio di pattern presentatore/View (nessun modello) è d
 
 #: ../../goal.rst:2
 msgid "Ghini's goals and highlights"
-msgstr "Di Ghini gol e highlights"
+msgstr "Obiettivi e punti salienti"
 
 #: ../../goal.rst:4
 msgid ""
@@ -3604,7 +3604,7 @@ msgstr ""
 
 #: ../../statements.rst:2
 msgid "Mission & Vision"
-msgstr "Missione"
+msgstr "Missione & Visione"
 
 #: ../../statements.rst:4
 msgid ""
@@ -3693,7 +3693,7 @@ msgstr "Comunità che formano"
 
 #: ../../statements.rst:48
 msgid "Vision"
-msgstr ""
+msgstr "Visione"
 
 #: ../../statements.rst:50
 msgid ""

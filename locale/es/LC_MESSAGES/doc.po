@@ -3718,7 +3718,7 @@ msgstr ""
 
 #: ../../statements.rst:2
 msgid "Mission & Vision"
-msgstr "Misión"
+msgstr "Misión y Visión"
 
 #: ../../statements.rst:4
 msgid ""
@@ -3768,7 +3768,7 @@ msgstr "Para hacer las cosas más claras cuando nos hablan de Ghini, pero debe �
 
 #: ../../statements.rst:32
 msgid "Mission"
-msgstr ""
+msgstr "Misión"
 
 #: ../../statements.rst:34
 msgid ""
@@ -3805,7 +3805,7 @@ msgstr "comunidad formando"
 
 #: ../../statements.rst:48
 msgid "Vision"
-msgstr ""
+msgstr "Visión"
 
 #: ../../statements.rst:50
 msgid ""
