@@ -3133,11 +3133,12 @@ msgid ""
 "and return all the results that match either of these strings. If you want "
 "to search for Block 10 as one whole string then you should quote the string "
 "like ``\"Block 10\"``."
-msgstr "A meno che non esplicitamente citato, spazi separare stringhe di ricerca. Per esempio se si cerca ' Block 10 ' poi Ghini sarà cercare le stringhe blocco e 10 e restituire tutti i risultati che corrispondono a uno di questi archi. Se si desidera cercare Block 10 come una stringa intera allora si dovrebbe citare la stringa like '\"Block 10\" '."
+msgstr ""
+"A meno di non includere fra virgolette, gli spazi separano le stringhe di ricerca. Per esempio se si cerca ``Block 10``, Ghini cerca le due stringhe ``blocco`` e ``10`` e restituisce tutti i risultati che corrispondono a una di queste due voci. Se si desidera cercare Block 10 come una stringa intera basterà usare le virgolette, così: ``\"Block 10\"``."
 
 #: ../../searching.rst:66
 msgid "× Composite Primary Keys"
-msgstr "× Chiavi primarie Composite"
+msgstr "× Chiavi primarie composte"
 
 #: ../../searching.rst:69
 msgid ""
@@ -3146,7 +3147,8 @@ msgid ""
 "belongs.  In database theory terminology, epithet and code are not "
 "sufficient to form a **primary key** for respectively species and planting. "
 "These domains need a **composite** primary key."
-msgstr "A **specie** epiteto significa poco senza il genere corrispondente, allo stesso modo un **planting** codice è univoco solo nell'ambito dell'accessione a cui appartiene.  Nella terminologia dei database teoria, epiteto e codice non sono sufficienti per formare un **chiave** primario per rispettivamente specie e le piantine. Questi domini necessitano di un **composito** chiave primaria."
+msgstr ""
+"Un epiteto di **specie** significa poco senza il genere corrispondente, allo stesso modo un codice di **planting** è univoco solo nell'ambito dell'accessione a cui appartiene.  Nella terminologia della teoria dei database, epiteto e codice non sono sufficienti per formare un **chiave primaria** per rispettivamente specie e le planting. Questi domini necessitano di una **chiave primaria composta**."
 
 #: ../../searching.rst:76
 msgid ""
@@ -3154,11 +3156,12 @@ msgid ""
 "code, which includes the accession code. Taken together, Accession code and "
 "Planting code do provide a **composite primary key** for plantings.  For "
 "**species**, we have introduced the binomial search, described below."
-msgstr "Ricerca per valore consente di cercare **planting** dal loro codice planting completo, che include il codice di accessione. Presi insieme, il codice di accessione e la piantatura del codice forniscono uns **chiave primaria composito** per gli planting.  Per **specie**, abbiamo introdotto la ricerca binomia, descritta di seguito."
+msgstr ""
+"Ricerca per valore consente di cercare **planting** dal loro codice planting completo, che include il codice di accessione. Presi insieme, il codice di accessione e la piantatura del codice forniscono uns **chiave primaria composito** per gli planting.  Per **specie**, abbiamo introdotto la ricerca binomia, descritta di seguito."
 
 #: ../../searching.rst:84
 msgid "Search by Expression"
-msgstr "Ricerca di espressione"
+msgstr "Ricerca per espressione"
 
 #: ../../searching.rst:86
 msgid ""
