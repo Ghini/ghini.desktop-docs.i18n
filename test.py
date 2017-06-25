@@ -15,6 +15,11 @@ def translate(s):
     r = requests.get('http://api.mymemory.translated.net/get?q=%s&langpair=en|%s' % (s, translation_to), timeout=6)
     j = json.loads(r.text)
     reply = j['responseData']['translatedText']
+    ## still to handle:
+    # NO QUERY SPECIFIED.
+    # QUERY LENGTH LIMIT EXCEDEED.
+    ## still to handle:
+    # when warning reached, give up and tell user
     if reply.startswith('MYMEMORY WARNING:'):
         return ""
     return reply
@@ -53,4 +58,5 @@ with codecs.open("po/%s.po" % translation_to) as f:
         if defining:
             msgdef[defining] += l[1:-1]
             complete[defining] += l + '\n'
-print 'msgid "%(msgid)s"\nmsgstr "%(msgstr)s"\n' % msgdef
+
+print '%(msgid)s%(msgstr)s' % complete

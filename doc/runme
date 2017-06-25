@@ -2,13 +2,13 @@
 
 # configure languages
 LANGUAGES='ar cs da de es fr hi it pl pt_BR ru sv uk zh jp'
+
+# configure locations, don't incude the final slash
 SOURCEDOCDIR=~/Local/github/Ghini/ghini.desktop/doc
 CHECKOUTDIR=~/Local/github/Ghini/ghini.desktop-docs.i18n
+ALLPODIR=$CHECKOUTDIR/po
 
-echo "press enter to start"
-read
-
-echo "all remaining actions must be run from the doc dir"
+# "all remaining actions must be run from the doc dir"
 cd $CHECKOUTDIR/doc
 
 echo "copy/update files from the documentation"
@@ -20,7 +20,9 @@ rm api.rst
 echo "update the centralised doc.pot (two steps, first all pot, then merge them)"
 echo "press enter to start this"
 read
+echo "update the centralised doc.pot --- step one"
 make gettext
+echo "update the centralised doc.pot --- step two"
 msgcat -o _build/locale-merged/doc.pot _build/locale/*.pot
 
 echo "update all LANGUAGE/doc.po files in CHECKOUTDIR/local/"
@@ -36,6 +38,8 @@ do
     do
         ln -s doc.po $(basename $i .rst).po 2>/dev/null
     done
+    cd $PODIR
+    ln -s ../locale/$l/LC_MESSAGES/doc.po $l.po 2>/dev/null
 done
 
 echo "this is enough as far as weblate and readthedocs are concerned"

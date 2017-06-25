@@ -57,13 +57,15 @@ msgid ""
 "In Windows it is somewhere in your ``AppData`` directory, most likely in "
 "``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best to "
 "hide the ``AppData`` directory structure to normal users."
-msgstr "In Windows è da qualche parte nella directory ``AppData``, molto probabilmente nel ``AppData\\Roaming\\Bauble``. Tenete a mente che Windows fa del suo meglio per nascondere la struttura di directory ``AppData`` agli utenti normali."
+msgstr ""
+"In Windows è da qualche parte nella directory ``AppData``, molto probabilmente nel ``AppData\\Roaming\\Bauble``. Tenete a mente che Windows fa del suo meglio per nascondere la struttura di directory ``AppData`` agli utenti normali."
 
 #: ../../administration.rst:20
 msgid ""
 "The fastest way to open it is with the file explorer: type ``%APPDATA%` and "
 "hit enter."
-msgstr "È il modo più veloce per aprirlo con Esplora file: inserisci ``%APPDATA%`` e premi INVIO."
+msgstr ""
+"Il modo più veloce per aprirlo è con *Esplora Risorse*: inserisci ``%APPDATA%`` e premi INVIO."
 
 #: ../../administration.rst:24
 msgid "MySQL"
@@ -94,13 +96,15 @@ msgid ""
 "Ghini uses a configuration file to store values across invocations. This "
 "file is associated to a user account and every user will have their own "
 "configuration file."
-msgstr "Ghini utilizza un file di configurazione per memorizzare i valori tra le chiamate. Questo file è associato a un account utente e ogni utente avrà il proprio file di configurazione."
+msgstr ""
+"Ghini utilizza un file di configurazione per memorizzare i valori tra le chiamate. Questo file è associato all'account dell'utente, così ogni utente avrà il suo file di configurazione."
 
 #: ../../administration.rst:43
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in "
 "the text entry area where you normally type your searches, then hit enter."
-msgstr "Per esaminare il contenuto del file di configurazione Ghini, digitare ``:prefs`` nell'area di immissione testo dove normalmente tipo le ricerche, quindi premere immettere."
+msgstr ""
+"Per esaminare il contenuto del file di configurazione Ghini, digitare ``:prefs`` nell'area di immissione testo dove normalmente tipo le ricerche, quindi premere INVIO."
 
 #: ../../administration.rst:46
 msgid ""
@@ -1610,7 +1614,7 @@ msgstr "Un altro buon esempio di pattern presentatore/View (nessun modello) è d
 
 #: ../../goal.rst:2
 msgid "Ghini's goals and highlights"
-msgstr "Di Ghini gol e highlights"
+msgstr "Obiettivi e punti salienti"
 
 #: ../../goal.rst:4
 msgid ""
@@ -3129,11 +3133,12 @@ msgid ""
 "and return all the results that match either of these strings. If you want "
 "to search for Block 10 as one whole string then you should quote the string "
 "like ``\"Block 10\"``."
-msgstr "A meno che non esplicitamente citato, spazi separare stringhe di ricerca. Per esempio se si cerca ' Block 10 ' poi Ghini sarà cercare le stringhe blocco e 10 e restituire tutti i risultati che corrispondono a uno di questi archi. Se si desidera cercare Block 10 come una stringa intera allora si dovrebbe citare la stringa like '\"Block 10\" '."
+msgstr ""
+"A meno di non includere fra virgolette, gli spazi separano le stringhe di ricerca. Per esempio se si cerca ``Block 10``, Ghini cerca le due stringhe ``blocco`` e ``10`` e restituisce tutti i risultati che corrispondono a una di queste due voci. Se si desidera cercare Block 10 come una stringa intera basterà usare le virgolette, così: ``\"Block 10\"``."
 
 #: ../../searching.rst:66
 msgid "× Composite Primary Keys"
-msgstr "× Chiavi primarie Composite"
+msgstr "× Chiavi primarie composte"
 
 #: ../../searching.rst:69
 msgid ""
@@ -3142,7 +3147,8 @@ msgid ""
 "belongs.  In database theory terminology, epithet and code are not "
 "sufficient to form a **primary key** for respectively species and planting. "
 "These domains need a **composite** primary key."
-msgstr "A **specie** epiteto significa poco senza il genere corrispondente, allo stesso modo un **planting** codice è univoco solo nell'ambito dell'accessione a cui appartiene.  Nella terminologia dei database teoria, epiteto e codice non sono sufficienti per formare un **chiave** primario per rispettivamente specie e le piantine. Questi domini necessitano di un **composito** chiave primaria."
+msgstr ""
+"Un epiteto di **specie** significa poco senza il genere corrispondente, allo stesso modo un codice di **planting** è univoco solo nell'ambito dell'accessione a cui appartiene.  Nella terminologia della teoria dei database, epiteto e codice non sono sufficienti per formare un **chiave primaria** per rispettivamente specie e le planting. Questi domini necessitano di una **chiave primaria composta**."
 
 #: ../../searching.rst:76
 msgid ""
@@ -3150,18 +3156,20 @@ msgid ""
 "code, which includes the accession code. Taken together, Accession code and "
 "Planting code do provide a **composite primary key** for plantings.  For "
 "**species**, we have introduced the binomial search, described below."
-msgstr "Ricerca per valore consente di cercare **planting** dal loro codice planting completo, che include il codice di accessione. Presi insieme, il codice di accessione e la piantatura del codice forniscono uns **chiave primaria composito** per gli planting.  Per **specie**, abbiamo introdotto la ricerca binomia, descritta di seguito."
+msgstr ""
+"Ricerca per valore consente di cercare **planting** dal loro codice planting completo, che include il codice di accessione. Presi insieme, il codice di accessione e la piantatura del codice forniscono uns **chiave primaria composito** per gli planting.  Per **specie**, abbiamo introdotto la ricerca binomiale, descritta di seguito."
 
 #: ../../searching.rst:84
 msgid "Search by Expression"
-msgstr "Ricerca di espressione"
+msgstr "Ricerca per espressione"
 
 #: ../../searching.rst:86
 msgid ""
 "Searching with expression gives you a little more control over what you are "
 "searching for. You narrow the search down to a specific domain, the software "
 "defines which fields to search within the domain you specified."
-msgstr "Ricerca con l'espressione vi dà un po' più controllo su ciò che stai cercando. È restringere la ricerca verso il basso per un dominio specifico, il software definisce i campi per la ricerca all'interno del dominio specificato."
+msgstr ""
+"Ricerca per espressione vi dà un po' più controllo su ciò che stai cercando. Permette di restringere la ricerca ad un dominio specifico, il software definisce i campi per la ricerca all'interno del dominio indicato."
 
 #: ../../searching.rst:90
 msgid ""
@@ -3169,13 +3177,15 @@ msgid ""
 "search: ``gen=Maxillaria`` would return all the genera that match the name "
 "Maxillaria. In this case the domain is ``gen``, the operator is ``=`` and "
 "the value is ``Maxillaria``."
-msgstr "Un'espressione è costruita come '<domain> <operator> <value>'. Ad esempio la ricerca: cm gen = Maxillaria cm restituirebbe tutti i generi che corrispondono al nome Maxillaria. In questo caso il dominio è ' generazione ', l'operatore è ' = ' e il valore è ' Maxillaria '.</value> </operator> </domain>"
+msgstr ""
+"Un'espressione è costruita come ``<domain> <operator> <value>``. Ad esempio la ricerca: ``gen = Maxillaria`` restituisce tutti i generi che corrispondono al nome Maxillaria. In questo caso il dominio è ``gen``, l'operatore è ``=`` e il valore è ``Maxillaria``."
 
 #: ../../searching.rst:95
 msgid ""
 "The above search domain overview table tells you the names of the search "
 "domains, and, per search domain, which fields are searched."
-msgstr "Tabella Panoramica dominio ricerca sopra ti dice i nomi dei domini di ricerca, e, per ogni dominio di ricerca, vengono cercati i campi."
+msgstr ""
+"La tabella *Panoramica sui domini di ricerca* poco sopra ti indica i nomi dei domini di ricerca, e, per ogni dominio di ricerca, quali campi vengono inclusi implicitamente nelle ricerche."
 
 #: ../../searching.rst:98
 #, python-format
@@ -3203,11 +3213,12 @@ msgid ""
 "*search by value*. For example the search string ``gen lik maxillaria`` will "
 "search for the strings ``gen``, ``lik``, and ``maxillaria``, returning all "
 "that match at least one of the three criteria."
-msgstr "Si dà una query, ci vuole tempo per calcolare il risultato contiene irragionevolmente molte voci.  Questo accade quando si intende utilizzare una strategia, ma le stringhe non formano un'espressione valida.  In questo caso Ghini cade indietro *ricerca per valore*. Ad esempio, la stringa di ricerca ``gen lik maxillaria`` cercherà le stringhe ``gen``, ``lik`` e ``maxillaria``, restituendo tutto ciò che soddisfi almeno uno dei tre criteri."
+msgstr ""
+"Si dà una query, ci vuole davvero tempo per calcolare il risultato e questo contiene una quantità irragionevolmente di voci.  Questo accade quando si intende utilizzare una strategia, ma le stringhe inserite non formano un'espressione valida.  In questo caso Ghini ricorre al caso *ricerca per valore*. Ad esempio, la stringa di ricerca ``gen lik maxillaria`` cercherà le stringhe ``gen``, ``lik`` e ``maxillaria``, restituendo tutto ciò che soddisfi almeno uno dei tre criteri."
 
 #: ../../searching.rst:120
 msgid "Binomial search"
-msgstr "Ricerca binomia"
+msgstr "Ricerca binomiale"
 
 #: ../../searching.rst:122
 msgid ""
@@ -3248,7 +3259,7 @@ msgstr "La richiesta affatto simile ``so ha`` restituisce, in una nuova installa
 
 #: ../../searching.rst:145
 msgid "Search by Query"
-msgstr "Ricerca di Query"
+msgstr "Ricerca per Query"
 
 #: ../../searching.rst:147
 msgid ""
@@ -3263,7 +3274,7 @@ msgid ""
 "Please contact the authors if you want more information, or if you volunteer "
 "to document this more thoroughly.  In the meanwhile you may start "
 "familiarizing yourself with the core structure of Ghini's database."
-msgstr "Se volete maggiori informazioni, o se volontario per documentare questo più a fondo, si prega di contattare gli autori.  Nel frattempo si può iniziare a familiarizzare con la struttura di base del database di Ghini."
+msgstr "Se volete maggiori informazioni, o volontariare per documentare questo più a fondo, si prega di contattare gli autori.  Nel frattempo si può iniziare a familiarizzare con la struttura di base del database di Ghini."
 
 #: ../../searching.rst:160
 msgid "A few examples:"
@@ -3281,7 +3292,8 @@ msgstr "posizioni che non contengono piante::"
 msgid ""
 "accessions associated to a species of known binomial name (e.g.: Mangifera "
 "indica)::"
-msgstr "accessioni associate ad una specie dal nome binomiale noto (es.: Mangifera indica)::"
+msgstr ""
+"accessioni associate ad una specie dal nome binomiale noto (es.: Mangifera indica)::"
 
 #: ../../searching.rst:174
 msgid "accessions we propagated in the year 2016::"
@@ -3296,11 +3308,12 @@ msgid ""
 "Searching with queries requires some knowledge of a little syntax and an "
 "idea of the extensive Ghini database table structure. Both you acquire with "
 "practice, and with the help of the Query Builder."
-msgstr "Ricerca con query richiede qualche conoscenza della sintassi un po' e un'idea della struttura di tabella del database estesa Ghini. Entrambi si acquisiscono con la pratica e con l'aiuto del generatore di Query."
+msgstr ""
+"Ricerca per query richiede qualche conoscenza della sintassi ed un'idea della estesa struttura del database Ghini. Entrambe si acquisiscono con la pratica e magari con l'aiuto del Generatore di Query."
 
 #: ../../searching.rst:188
 msgid "The Query Builder"
-msgstr "Generatore di query"
+msgstr "Generatore di Query"
 
 #: ../../searching.rst:190
 msgid ""
@@ -3308,14 +3321,16 @@ msgid ""
 "through a point and click interface.  To open the Query Builder click the |"
 "querybuilder| icon to the left of the search entry or select :menuselection:"
 "`Tools-->Query Builder` from the menu."
-msgstr "Ghini offre un generatore di Query, che ti aiuta a costruire le query di ricerca complesse tramite un punto e fare clic su interfaccia.  Per aprire il generatore di Query fare clic i | querybuilder | icona a sinistra della voce di ricerca o selezionare: menuselection: 'Strumenti--> Query Builder' dal menu."
+msgstr ""
+"Ghini offre un generatore di Query, una interfaccia grafica che aiuta a costruire query di ricerca anche complesse.  Per aprire il Generatore di Query fare clic sull'icona |querybuilder| a sinistra della voce di ricerca o selezionare :menuselection:`Strumenti-->Query Builder` dal menu."
 
 #: ../../searching.rst:199
 msgid ""
 "A window will show up, which will lead you through all steps necessary to "
 "construct a correct query that is understood by Ghini's Query Search "
 "Strategy."
-msgstr "Una finestra apparirà, che vi guiderà attraverso tutti i passaggi necessari per creare una query corretta che è compreso dalla strategia di ricerca di Query di Ghini."
+msgstr ""
+"Una finestra apparirà, che vi guiderà attraverso tutti i passaggi necessari per creare una query corretta che sarà compresa dalla strategia di Ricerca per Query di Ghini."
 
 #: ../../searching.rst:208
 msgid ""
@@ -3338,15 +3353,17 @@ msgid ""
 "Add as many search properties as you need, by clicking on the plus sign. "
 "Select and/or next to the property name to choose how the clauses will be "
 "combined in the search query."
-msgstr "Aggiungere altretanti ricerca proprietà come necessario, facendo clic sul segno più. Selezionare e/o successivo al nome della proprietà di scegliere come le clausole vengono combinate nella query di ricerca."
+msgstr ""
+"Aggiungere altrettante proprietà di ricerca quante necessarie, facendo clic sul segno più. Selezionare ``and`` / ``or`` al lato dal nome della proprietà, per scegliere come combinare le clausole nella query."
 
 #: ../../searching.rst:222
 msgid "When you are done building your query click OK to perform the search."
-msgstr "Quando si è fatto costruire la query fare clic su OK per eseguire la ricerca."
+msgstr ""
+"Quando si è finito di costruire la query fare clic su OK per eseguire la ricerca."
 
 #: ../../searching.rst:226
 msgid "Query Grammar"
-msgstr "Grammatica di query"
+msgstr "Grammatica delle Query"
 
 #: ../../searching.rst:228
 msgid ""
@@ -3356,14 +3373,16 @@ msgid ""
 "missing ones are left to your fertile imagination; literals are included in "
 "single quotes; the grammar is mostly case insensitive, unless otherwise "
 "stated::"
-msgstr "Per coloro che non temono un po' di precisione formale, il codice BNF seguente vi dà un'idea piuttosto precisa della grammatica implementata dalla strategia di ricerca di Query.  Alcune categorie grammaticali sono informalmente definite; qualsiasi quelli mancanti sono lasciate alla vostra immaginazione fertile; i valori letterali sono inclusi tra virgolette singole; la grammatica è per lo più tra maiuscole e minuscole, se non diversamente indicato::"
+msgstr ""
+"Per coloro che non temono un po' di precisione formale, il codice BNF seguente vi dà un'idea piuttosto precisa della grammatica implementata dalla strategia di Ricerca per Query.  Alcune categorie grammaticali sono informalmente definite; alcune mancano e sono lasciate alla vostra fertile immaginazione; i valori letterali sono inclusi tra virgolette singole; la grammatica non fa differenza tra maiuscole e minuscole, se non diversamente indicato::"
 
 #: ../../searching.rst:291
 msgid ""
 "Please be aware that Ghini's Query language is quite a bit more complex than "
 "what the Query Builder can produce: Queries you can build with the Query "
 "Builder form a proper subset of the queries recognized by the software::"
-msgstr "Si prega di essere consapevoli del fatto che il linguaggio di Query di Ghini è un po' più complesso rispetto a ciò che può produrre il generatore di Query: query è possibile costruire con il generatore di Query costituiscono un subset delle query riconosciuto dal software::"
+msgstr ""
+"Si prega di essere consapevoli del fatto che il linguaggio di Query di Ghini è più complesso di quello descritto dal Generatore di Query: le query costruibili con il Generatore di Query costituiscono un sottoinsieme proprio delle query riconosciute dal software::"
 
 #: ../../started.rst:2
 msgid "Initial Configuration"
@@ -3375,7 +3394,8 @@ msgid ""
 "configure their database, and configure Ghini according to their database "
 "configuration. This page focuses on this task. If you don't know what this "
 "is about, please do read the part relative to SQLite."
-msgstr "Dopo una corretta installazione, organizzazioni più complesse sarà necessario configurare loro database e configurare Ghini secondo la loro configurazione del database. Questa pagina si concentra su questo compito. Se non sai di cosa si tratta, si prega di leggere la parte relativo SQLite."
+msgstr ""
+"Dopo una corretta installazione, organizzazioni più complesse vorranno configurare il loro database e configurare Ghini secondo la loro configurazione del database. Questa pagina si concentra su questo compito. Se non hai idea di cosa si tratti, meglio continuare la lettura con la parte relativa a SQLite."
 
 #: ../../started.rst:12
 msgid "Should you SQLite?"
@@ -3387,7 +3407,8 @@ msgid ""
 "setting, you have not the faintest idea how to manage a database management "
 "system? If you answered yes to any of the previous, you probably better "
 "stick with SQLite, the easy, fast, zero-administration file-based database."
-msgstr "Questa è la prima volta che si utilizza Ghini, sono stai andando a lavorare in un ambiente autonomo, avete non la più pallida idea come gestire un sistema di gestione di database? Se avete risposto sì a uno qualsiasi dei precedenti, è probabilmente meglio bastone con SQLite, il facile, veloce, zero-amministrazione database basato su file."
+msgstr ""
+"Questa è la prima volta che si utilizza Ghini, sono stai andando a lavorare in un ambiente autonomo, avete non la più pallida idea come gestire un sistema di gestione di database? Se avete risposto sì a uno qualsiasi dei precedenti, è probabilmente meglio restare con SQLite, il database facile, veloce, senza doveri di amministrazione, tutto basato su file, il database più diffuso al mondo."
 
 #: ../../started.rst:20
 msgid ""
@@ -3405,7 +3426,8 @@ msgid ""
 "keeping your database in a database management system like `PostgreSQL "
 "<http://www.postgresql.org>`_ or `MySQL/MariaDB <https://mariadb.org/>`_, "
 "both supported by Ghini."
-msgstr "D'altra parte, se si desidera collegare più di una bauble workstation allo stesso database o se si desidera rendere disponibili i dati per altri client, come potrebbe essere un server web in una regolazione della lampada, è consigliabile mantenere il database in un database management system come `PostgreSQL <http://www.postgresql.org>`_ o `MySQL/MariaDB <https://mariadb.org/>`_, entrambi supportati da Ghini."
+msgstr ""
+"D'altra parte, se si desidera collegare più di una workstation ghini allo stesso database o se si desidera rendere disponibili i dati per altri client, come potrebbe essere un server web in una configurazione LAMP, è consigliabile mantenere il database in un database management system come `PostgreSQL <http://www.postgresql.org>`_ o `MySQL/MariaDB <https://mariadb.org/>`_, entrambi supportati da Ghini."
 
 #: ../../started.rst:30
 msgid ""
@@ -3415,13 +3437,13 @@ msgid ""
 "When this is done, Ghini will be able to proceed, creating the tables and "
 "importing the default data set.  The process is database-dependent and it "
 "falls beyond the scope of this manual."
-msgstr "Quando ci si connette a un server di database come uno di cui sopra, è necessario creare manualmente: Bauble almeno un utente, il database desiderato bauble da utilizzare e per dare per timore che un utente Bauble autorizzazioni sul proprio database completo. Quando ciò avviene, Ghini sarà in grado di procedere, creazione di tabelle e importa il set di dati predefinito.  Il processo dipende dal database e cade oltre la portata di questo manuale."
+msgstr "Quando ci si connette a un server di database come uno di cui sopra, è necessario creare manualmente: almeno un utente Ghini, il database che Ghini dovrà usare, e concedere ad almeno un utente bauble tutti i permessi sul database. Fatto ciò, Ghini sarà in grado di procedere, creare tabelle e importare il set di dati predefinito.  Il processo in dettaglio dipende fortemente dal database e cade ben oltre la portata di questo manuale."
 
 #: ../../started.rst:37
 msgid ""
 "If you already got the chills or sick at your stomach, no need to worry, "
 "just stick with SQLite, you do not miss on features nor performance."
-msgstr "Se già avuto i brividi o ammalati al tuo stomaco, non c'è bisogno di preoccuparsi, basta attaccano con SQLite, non perdere su caratteristiche né prestazioni."
+msgstr "Se già vi tremano le ginocchia, non c'è bisogno di preoccuparsi, basta restare con SQLite, senza perdere in funzionalità né prestazioni."
 
 #: ../../started.rst:43
 msgid "Connecting to a database"
@@ -3447,7 +3469,7 @@ msgid ""
 "This alert will show at first activation and also in the future if your "
 "connections list becomes empty. As it says: click on **Add** to create your "
 "first connection."
-msgstr "Questo avviso vi mostrerà alla prima attivazione e anche in futuro se il tuo elenco di connessioni diventa vuota. Come si dice: fare clic su **aggiuntivo** per creare la prima connessione."
+msgstr "Questo avviso vi mostrerà alla prima attivazione e anche in futuro se il tuo elenco di connessioni diventa vuota. Come l'avviso stesso dice: fare clic su **aggiungere** per creare la prima connessione."
 
 #: ../../started.rst:59
 msgid ""
@@ -3582,7 +3604,7 @@ msgstr ""
 
 #: ../../statements.rst:2
 msgid "Mission & Vision"
-msgstr "Missione"
+msgstr "Missione & Visione"
 
 #: ../../statements.rst:4
 msgid ""
@@ -3671,7 +3693,7 @@ msgstr "Comunità che formano"
 
 #: ../../statements.rst:48
 msgid "Vision"
-msgstr ""
+msgstr "Visione"
 
 #: ../../statements.rst:50
 msgid ""

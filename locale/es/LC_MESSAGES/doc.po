@@ -110,7 +110,11 @@ msgid ""
 "You normally do not need tweaking the configuration file, but you can do so "
 "with a normal text editor program. Ghini configuration file is at the "
 "default location for SQLite databases."
-msgstr "Normalmente no es necesario ajustar el archivo de configuración, sin embargo puede hacerlo con un programa de editor de texto normal. El archivo de configuración de Ghini está en la misma ubicación predeterminada de las bases de datos SQLite."
+msgstr ""
+"Normalmente no es necesario ajustar el archivo de configuración, sin embargo "
+"puede hacerlo con un normal programa de edición de texto. El archivo de "
+"configuración de Ghini está en la misma ubicación predeterminada de las bases "
+"de datos SQLite."
 
 #: ../../administration.rst:51
 msgid "Reporting Errors"
@@ -141,7 +145,10 @@ msgid ""
 "Installing Ghini always includes downloading the sources, connected to the "
 "github repository. This is so because in our eyes, every user is always "
 "potentially also a developer."
-msgstr "Cada instalación de Ghini incluye la descarga de las fuentes, conectadas al repositorio github. Lo organizamos así porque pensamos que cada usuario sea un desarrollador potencial."
+msgstr ""
+"Cada instalación de Ghini incluye la descarga de las fuentes, conectadas al "
+"repositorio github. Lo organizamos así porque pensamos que cada usuario sea "
+"un desarrollador potencial."
 
 #: ../../building.rst:11
 msgid ""
@@ -166,14 +173,23 @@ msgid ""
 "This is the best way to make sure that something happens quickly on Ghini. "
 "Do make sure the developer opens issues and publishes their contribution on "
 "github."
-msgstr "Si tienes una idea de lo que le hace falta en el software pero no piensa saberlo formalizar en cuestiones separadas, podría considerar contratar a un profesional. Se trata de la mejor manera de asegurarse de que algo ocurra rápido en Ghini. Asegúrese de que el desarrollador abra issues y publique sus contribuciones en github."
+msgstr ""
+"Si tienes una idea de lo que le hace falta en el software pero no piensa "
+"saberlo formalizar en cuestiones separadas, podría considerar contratar a un "
+"profesional. Se trata de la mejor manera de asegurarse de que algo ocurra "
+"rápido en Ghini. Asegúrese de que el desarrollador abra issues y publique sus "
+"contribuciones en github."
 
 #: ../../building.rst:21
 msgid ""
 "Translate! Any help with translations will be welcome, so please do! you can "
 "do this without installing anything on your computer, just using the on-line "
 "translation service offered by http://hosted.weblate.org/"
-msgstr "¡Traducir! Cada ayuda con las traducciones será bienvenida, así que por favor ¡traduzca! puede hacer esto sin necesidad de instalar nada en tu ordenador, simplemente usando el servicio de traducción en línea ofrecido por http://hosted.weblate.org/"
+msgstr ""
+"¡Traducir! Cada ayuda con las traducciones será bienvenida, así que por "
+"favor ¡traduzca! puede hacer esto sin necesidad de instalar nada en tu "
+"ordenador, simplemente usando el servicio de traducción en línea ofrecido por "
+"`weblate <http://hosted.weblate.org/>`_"
 
 #: ../../building.rst:24
 msgid ""
@@ -3143,7 +3159,7 @@ msgstr "nombre y abreviaturas"
 
 #: ../../searching.rst:42
 msgid "field"
-msgstr ""
+msgstr "campo"
 
 #: ../../searching.rst:42
 msgid "result type"
@@ -3151,27 +3167,27 @@ msgstr "Tipo de resultado"
 
 #: ../../searching.rst:44
 msgid "family, fam"
-msgstr "familia, fam"
+msgstr ""
 
 #: ../../searching.rst:44
 msgid "epithet (family)"
-msgstr "epíteto (familia)"
+msgstr ""
 
 #: ../../searching.rst:45
 msgid "genus, gen"
-msgstr "género, generación"
+msgstr ""
 
 #: ../../searching.rst:45
 msgid "epithet (genus)"
-msgstr "epíteto (género)"
+msgstr ""
 
 #: ../../searching.rst:46
 msgid "species, sp"
-msgstr "especies, sp"
+msgstr ""
 
 #: ../../searching.rst:46
 msgid "epithet (sp) **×**"
-msgstr "epíteto (sp) ** x **"
+msgstr ""
 
 #: ../../searching.rst:46 ../../searching.rst:47
 msgid "Species"
@@ -3179,7 +3195,7 @@ msgstr ""
 
 #: ../../searching.rst:47
 msgid "vernacular, common, vern"
-msgstr "vernáculo, común, vern"
+msgstr ""
 
 #: ../../searching.rst:47 ../../searching.rst:48 ../../searching.rst:52
 
@@ -3189,7 +3205,7 @@ msgstr ""
 
 #: ../../searching.rst:48
 msgid "geography, geo"
-msgstr "Geografía, geo"
+msgstr ""
 
 #: ../../searching.rst:48
 msgid "Geography"
@@ -3197,7 +3213,7 @@ msgstr ""
 
 #: ../../searching.rst:49
 msgid "accession, acc"
-msgstr "accesión, acc"
+msgstr ""
 
 #: ../../searching.rst:49
 msgid "code"
@@ -3209,19 +3225,19 @@ msgstr ""
 
 #: ../../searching.rst:50
 msgid "planting, plant"
-msgstr "siembra, planta"
+msgstr ""
 
 #: ../../searching.rst:50
 msgid "code **×**"
-msgstr "Código"
+msgstr ""
 
 #: ../../searching.rst:51
 msgid "location, loc"
-msgstr "Ubicación, loc"
+msgstr ""
 
 #: ../../searching.rst:51
 msgid "code, name"
-msgstr "Código de nombre"
+msgstr ""
 
 #: ../../searching.rst:51
 msgid "Location"
@@ -3229,7 +3245,7 @@ msgstr ""
 
 #: ../../searching.rst:52
 msgid "contact, person, org, source"
-msgstr "persona de contacto, org, fuente"
+msgstr ""
 
 #: ../../searching.rst:52
 msgid "Contact"
@@ -3237,7 +3253,7 @@ msgstr ""
 
 #: ../../searching.rst:53
 msgid "collection, col, coll"
-msgstr "colección, col coll"
+msgstr ""
 
 #: ../../searching.rst:53
 msgid "locale"
@@ -3245,7 +3261,7 @@ msgstr ""
 
 #: ../../searching.rst:54
 msgid "tag, tags"
-msgstr "etiqueta, etiquetas"
+msgstr ""
 
 #: ../../searching.rst:54
 msgid "Tag"
@@ -3718,7 +3734,7 @@ msgstr ""
 
 #: ../../statements.rst:2
 msgid "Mission & Vision"
-msgstr "Misión"
+msgstr "Misión y Visión"
 
 #: ../../statements.rst:4
 msgid ""
@@ -3757,18 +3773,24 @@ msgstr "Así que en la actualidad detrás de Ghini hay no sólo un programador, 
 msgid ""
 "Translations are provided by volunteers who mostly stay behind the scenes, "
 "translating a couple of missing terms or sentences, and disappearing again."
-msgstr "Las traducciones son proporcionadas por voluntarios que en su mayoría permanecen detrás de las escenas, traducir un par de falta de términos o frases y desaparecer otra vez."
+msgstr ""
+"Las traducciones son proporcionadas por voluntarios que en su mayoría "
+"permanecen detrás de las escenas, traducen un par de términos o frases y "
+"vuelven a desaparecer."
 
 #: ../../statements.rst:27
 msgid ""
 "To make things clearer when we speak of Ghini, but should—and in this "
 "document we will—indicate whether it's Ghini(the software), or Ghini(the "
 "people), unless obviously we mean both things."
-msgstr "Para hacer las cosas más claras cuando nos hablan de Ghini, pero debe — y en este documento vamos a: indicar si es Ghini (el software), o Ghini (la gente), a menos que obviamente nos referimos a ambas cosas."
+msgstr ""
+"Para que sea más claro cuando hablamos de Ghini, deberíamos —y lo hacemos en "
+"este documento— indicar si estamos indicando a Ghini(el software), o a Ghini"
+"(la gente), a menos que obviamente nos referimos a ambas cosas."
 
 #: ../../statements.rst:32
 msgid "Mission"
-msgstr ""
+msgstr "Misión"
 
 #: ../../statements.rst:34
 msgid ""
@@ -3777,11 +3799,16 @@ msgid ""
 "social order to which Ghini is committed, the needs that are satisfied with "
 "Ghini(the software) and with the services of Ghini(the people), the market "
 "in which Ghini develops and its intended public image."
-msgstr "La misión es un propósito, define la razón de ser de una entidad y es concreta y verdadera. Por Ghini, la misión establece el orden social a la que se compromete, Ghini las necesidades que se satisfacen con Ghini (el software) y con los servicios de Ghini (la gente), el mercado en que se desarrolla el Ghini y su imagen pública previsto."
+msgstr ""
+"La misión es un propósito, define la razón de ser de una entidad y es "
+"concreta y verdadera. Por Ghini, la misión establece el orden social con el "
+"cual se compromete, las necesidades que se satisfacen con Ghini (el software) "
+"y con los servicios de Ghini (la gente), el mercado en que se desarrolla el "
+"Ghini y su imagen pública prevista."
 
 #: ../../statements.rst:40
 msgid "access to software"
-msgstr "Acceso al Software"
+msgstr "acceso al software"
 
 #: ../../statements.rst:41
 msgid "access to development"
@@ -3801,11 +3828,11 @@ msgstr "datos abiertos"
 
 #: ../../statements.rst:45
 msgid "community forming"
-msgstr "comunidad formando"
+msgstr "formando una comunidad"
 
 #: ../../statements.rst:48
 msgid "Vision"
-msgstr ""
+msgstr "Visión"
 
 #: ../../statements.rst:50
 msgid ""
@@ -3813,7 +3840,11 @@ msgid ""
 "what we want our organization to be, in a realistic and attractive way.  It "
 "serves as motivation because it visualizes the challenge and direction of "
 "necessary changes in order to grow and prosper."
-msgstr "La visión sirve para indicar el camino a seguir y proyecta una imagen futura de lo que queremos que nuestra organización que, en una forma realista y atractiva.  Sirve como motivación porque visualiza el desafío y la dirección de los cambios necesarios para crecer y prosperar."
+msgstr ""
+"La visión es una afirmación, sirve para indicar el camino a seguir y proyecta "
+"una imagen futura de lo que queremos con nuestra organización, en una forma "
+"realista y atractiva.  Sirve como motivación porque visualiza el desafío y la "
+"dirección de los cambios necesarios para crecer y prosperar."
 
 #: ../../statements.rst:55
 msgid "by the year 2020"
@@ -3825,11 +3856,11 @@ msgstr "punto de referencia"
 
 #: ../../statements.rst:57
 msgid "community"
-msgstr ""
+msgstr "comunidad "
 
 #: ../../statements.rst:58
 msgid "development"
-msgstr ""
+msgstr "desarrollo"
 
 #: ../../statements.rst:59
 msgid "integration with web portal"
@@ -3837,7 +3868,7 @@ msgstr "integración con portal web"
 
 #: ../../statements.rst:60
 msgid "geographic information"
-msgstr "Información Geográfica"
+msgstr "información geográfica"
 
 #: ../../tagging.rst:2
 msgid "Tagging"
@@ -3851,7 +3882,13 @@ msgid ""
 "them with the string \"for that report i was thinking about\". You can then "
 "select \"for that report i was thinking about\" from the tags menu to show "
 "you all the objects you tagged."
-msgstr "Etiquetado es una manera fácil de dar contexto a un objeto o crear una colección de objetos que desea recordar más tarde. Por ejemplo, si desea recopilar un montón de plantas que más adelante desea crear un informe de usted puede etiquetarlas con la cadena \"for ese informe era pensamiento about\". Entonces puede seleccionar \"for que era about\ de pensamiento" en el menú de etiquetas a mostrar todos los objetos que haya seleccionado."
+msgstr ""
+"Etiquetar es una manera fácil de dar contexto a un objeto o crear una "
+"colección de objetos que desea recordar más tarde. Por ejemplo, si desea "
+"recopilar una gran cantidad de plantas de que más adelante se querrá crear un "
+"informe, usted puede etiquetarlas bajo el nombre \"para ese mismo informe\". "
+"Entonces puede seleccionar \"para ese mismo informe\" en el menú de etiquetas "
+"a mostrar todos los objetos que haya seleccionado."
 
 #: ../../tagging.rst:11
 msgid ""
@@ -3859,7 +3896,12 @@ msgid ""
 "results and pressing Ctrl-T or by selecting :menuselection:`Tag-->Tag "
 "Selection` from the menu. If you have selected multiple items then only that "
 "tags that are common to all the selected items will have a check next to it."
-msgstr "Etiquetado se puede hacer dos formas. Seleccionar uno o más elementos en los resultados de la búsqueda y pulsando Ctrl-T o seleccionando: menuselection: 'Etiqueta--> Tag selección' del menú. Si ha seleccionado varios elementos sólo etiquetas que son comunes a todos los elementos seleccionados tendrán un cheque a su lado."
+msgstr ""
+"Etiquetar se puede hacer dos formas. Empezar con seleccionar uno o más "
+"elementos en los resultados de la búsqueda y luego pulsar Ctrl-T o "
+"seleccionar :menuselection:`Etiqueta-->Etiquetar la selección` del menú. Si "
+"ha seleccionado varios elementos sólo etiquetas que son comunes a todos los "
+"elementos seleccionados tendrán un cheque a su lado."
 
 #: ../../users.rst:2
 msgid "Managing Users"
@@ -3955,4 +3997,4 @@ msgstr "elaboración de informe"
 
 #: ../../user_stories.rst:44
 msgid "engraving labels"
-msgstr ""
+msgstr "grabar etiquetas"
