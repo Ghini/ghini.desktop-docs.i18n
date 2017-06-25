@@ -1083,7 +1083,7 @@ msgstr "consentire le connessioni di rete"
 
 #: ../../db-prepare.rst:14
 msgid "create the bauble main user"
-msgstr "creare l'utente principale della bagattella"
+msgstr "creare l'utente principale della bauble"
 
 #: ../../devdl.rst:2
 msgid "Downloading the source"
@@ -1130,7 +1130,7 @@ msgid ""
 "A bauble production line is a branch. Currently there is only one production "
 "line, that is bauble-1.0.  In perspective, we will have several one, each in "
 "use by one or more gardens."
-msgstr "Una linea di produzione della bagattella è un ramo. Attualmente c'è solo una linea di produzione, che è la bagattella-1.0.  In prospettiva, avremo uno diversi, ognuno in uso da uno o più giardini."
+msgstr "Una linea di produzione della bauble è un ramo. Attualmente c'è solo una linea di produzione, che è la bauble-1.0.  In prospettiva, avremo uno diversi, ognuno in uso da uno o più giardini."
 
 #: ../../devdl.rst:38
 msgid ""
@@ -1149,7 +1149,7 @@ msgid ""
 "no other activity on the repository, work on the master branch, accumulate "
 "issue-solving commits, finally merge master into the production line "
 "bauble-1.0."
-msgstr "Per i problemi che possono essere gestiti in uno o due si impegna e finché c'è un'altra attività sul repository, lavorare sul ramo master, si accumulano risolvere problema si impegna, infine unire master nella linea di produzione della bagattella-1.0."
+msgstr "Per i problemi che possono essere gestiti in uno o due si impegna e finché c'è un'altra attività sul repository, lavorare sul ramo master, si accumulano risolvere problema si impegna, infine unire master nella linea di produzione della bauble-1.0."
 
 #: ../../devdl.rst:53
 msgid ""
@@ -1262,7 +1262,7 @@ msgstr ""
 msgid ""
 "The *Family* field on the editor lets you change the epithet of the family. "
 "The Family field is required."
-msgstr "La * famiglia * campo sull'editor consente di modificare l'epiteto della famiglia. Il campo di famiglia è obbligatorio."
+msgstr "Il campo *famiglia* consente di modificare l'epiteto della famiglia. Il campo *famiglia* è obbligatorio."
 
 #: ../../editing.rst:45
 msgid ""
@@ -1279,7 +1279,7 @@ msgid ""
 "the Add button next to the synonym list and the software adds the selected "
 "synonym to the list.  To remove a synonym, select the synonym from the list "
 "and click on the Remove button."
-msgstr "* Sinonimi * consentono di aggiungere altre famiglie che sono sinonimi con la famiglia che si sta modificando.  Per aggiungere un nuovo tipo di sinonimi in un nome di famiglia nella voce.  È necessario selezionare un nome di famiglia dalla lista dei completamenti. Una volta che hai selcted un nome di famiglia che si desidera aggiungere come sinonimo, fare clic sul pulsante Aggiungi accanto all'elenco sinonimo e il software aggiunge il sinonimo selezionato all'elenco.  Per rimuovere un sinonimo, sinonimo di selezionare dall'elenco e fare clic sul pulsante Rimuovi."
+msgstr "*Sinonimi* consente di aggiungere altre famiglie che sono sinonimi con la famiglia che si sta modificando.  Per aggiungere un nuovo sinonimo iniziare a scriverne il nome nella voce *sinonimi*.  È necessario selezionare un nome di famiglia dalla lista dei completamenti. Una volta che hai selezionato un nome di famiglia che si desidera aggiungere come sinonimo, fare clic sul pulsante Aggiungi accanto all'elenco sinonimi e il software aggiunge il sinonimo selezionato all'elenco.  Per rimuovere un sinonimo, selezionarlo nell'elenco e fare clic sul pulsante Rimuovi."
 
 #: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
 msgid ""
@@ -1427,7 +1427,7 @@ msgid ""
 "The source of the accessions lets you add more information about where this "
 "accession came from.  At the moment the type of the source can be either a "
 "Collection or a Donation."
-msgstr "L'origine delle adesioni consente di aggiungere ulteriori informazioni sulla provenienza di questa accessione.  Al momento il tipo dell'origine può essere un insieme o una donazione."
+msgstr "L'origine delle accessioni consente di aggiungere ulteriori informazioni sulla provenienza di questa accessione.  Al momento il tipo dell'origine può essere un insieme o una donazione."
 
 #: ../../editing.rst:143 ../../searching.rst:53
 msgid "Collection"
@@ -1909,7 +1909,7 @@ msgstr "annotare le informazioni"
 msgid ""
 "You can associate notes to plants, accessions, species, .... Notes can be "
 "categorized and used in searches or reports."
-msgstr "È possibile associare note piante, adesioni, specie,... Note possono essere categorizzati e utilizzati nei rapporti o ricerche."
+msgstr "È possibile associare note piante, accessioni, specie,... Note possono essere categorizzati e utilizzati nei rapporti o ricerche."
 
 #: ../../goal.rst:198 ../../peptalk.rst:64
 msgid "garden or herbarium"
@@ -2112,7 +2112,7 @@ msgid ""
 "database. Converting a database into bauble json interchange format is "
 "beyond the scope of this manual, please contact one of the authors if you "
 "need any further help."
-msgstr "Questo è * il * modo per importare dati in un database esistente, senza distruggere il contenuto precedente. Un tipico esempio di questa funzionalità potrebbe essere importazione tua collezione digitale in un database di Ghini fresco, appena inizializzato. Conversione di un database in formato di interscambio di json Bagattella esula dall'ambito del presente manuale, si prega contattare uno degli autori se avete bisogno di ulteriore aiuto."
+msgstr "Questo è * il * modo per importare dati in un database esistente, senza distruggere il contenuto precedente. Un tipico esempio di questa funzionalità potrebbe essere importazione tua collezione digitale in un database di Ghini fresco, appena inizializzato. Conversione di un database in formato di interscambio di json Bauble esula dall'ambito del presente manuale, si prega contattare uno degli autori se avete bisogno di ulteriore aiuto."
 
 #: ../../imex.rst:55
 msgid ""
@@ -2145,7 +2145,7 @@ msgid ""
 "taxonomic information it refers to: unreferred to taxa will not be exported. "
 "*Plant* will export all living plants (some accession might not be "
 "included), all referred to locations and taxa."
-msgstr "Esportazione di * specie * solo esporterà le informazioni tassonomiche complete nel database. * Accessione * esporterà tutte le vostra adesioni oltre a tutte le informazioni tassonomiche si riferisce a: unreferred a taxa non verrà esportati. * Planting * esporterà tutti i viventi, piante (alcuni accessione non può essere incluso), tutti si riferiscono a posizioni e taxa."
+msgstr "Esportazione di * specie * solo esporterà le informazioni tassonomiche complete nel database. * Accessione * esporterà tutte le vostra accessioni oltre a tutte le informazioni tassonomiche si riferisce a: unreferred a taxa non verrà esportati. * Planting * esporterà tutti i viventi, piante (alcuni accessione non può essere incluso), tutti si riferiscono a posizioni e taxa."
 
 #: ../../index.rst:2
 msgid "Documentation for Ghini 1.0"
@@ -2948,37 +2948,37 @@ msgstr "Ricerca permette di visualizzare, esplorare e creare rapporti dai dati. 
 
 #: ../../searching.rst:13
 msgid "Search Strategies"
-msgstr "Strategie di ricerca degli ECG"
+msgstr "Strategie di ricerca"
 
 #: ../../searching.rst:15
 msgid "Ghini offers four distinct search strategies:"
-msgstr "Ghini offre quattro strategie di ricerca distinti:"
+msgstr "Ghini offre quattro strategie di ricerca distinte:"
 
 #: ../../searching.rst:17
 msgid "by value — in all domains;"
-msgstr "di valore — in tutti i domini;"
+msgstr "per valore — in tutti i domini;"
 
 #: ../../searching.rst:18
 msgid "by expression — in a few implicit fields in one explicit domain;"
-msgstr "dall'espressione — in alcuni campi impliciti in un dominio esplicito;"
+msgstr "per espressione — in alcuni campi impliciti in un dominio esplicito;"
 
 #: ../../searching.rst:19
 msgid "by query — in one domain;"
-msgstr "da query — in un dominio;"
+msgstr "per query — in un dominio;"
 
 #: ../../searching.rst:20
 msgid "by binomial name — only searches the Species domain."
-msgstr "di nome binomiale — Cerca solo nel dominio di specie."
+msgstr "di nome binomiale — cerca solo nel dominio di ``Species``."
 
 #: ../../searching.rst:22
 msgid ""
 "All search strategies —with the notable exception of the binomial name search"
 "— are case insensitive."
-msgstr "Tutte le strategie di ricerca — con l'eccezione notevole di ricerca il nome binomiale — sono tra maiuscole e minuscole."
+msgstr "Tutte le strategie di ricerca —ad eccezione di ‘ricerca nome binomiale’— non fanno distinzione tra maiuscole e minuscole."
 
 #: ../../searching.rst:27
 msgid "Search by Value"
-msgstr "Ricerca di valore"
+msgstr "Ricerca per valore"
 
 #: ../../searching.rst:29
 msgid ""
@@ -3037,7 +3037,7 @@ msgstr "specie, sp"
 
 #: ../../searching.rst:46
 msgid "epithet (sp) **×**"
-msgstr "epiteto (sp) **× * *"
+msgstr "epiteto (sp) **×**"
 
 #: ../../searchingrt:46 ../../searching.rst:47
 msgid "Species"
@@ -3203,7 +3203,7 @@ msgid ""
 "*search by value*. For example the search string ``gen lik maxillaria`` will "
 "search for the strings ``gen``, ``lik``, and ``maxillaria``, returning all "
 "that match at least one of the three criteria."
-msgstr "Si dà una query, ci vuole tempo per calcolare il risultato contiene irragionevolmente molte voci.  Questo accade quando si intende utilizzare una strategia, ma le stringhe non formano un'espressione valida.  In questo caso Ghini cade indietro * ricerca di valore *. Ad esempio, la stringa di ricerca ' gen lik maxillaria ' cercherà le stringhe 'generazione ', ' lik ' e ' maxillaria', restituendo tutti che soddisfano almeno uno dei tre criteri."
+msgstr "Si dà una query, ci vuole tempo per calcolare il risultato contiene irragionevolmente molte voci.  Questo accade quando si intende utilizzare una strategia, ma le stringhe non formano un'espressione valida.  In questo caso Ghini cade indietro *ricerca per valore*. Ad esempio, la stringa di ricerca ``gen lik maxillaria`` cercherà le stringhe ``gen``, ``lik`` e ``maxillaria``, restituendo tutto ciò che soddisfi almeno uno dei tre criteri."
 
 #: ../../searching.rst:120
 msgid "Binomial search"
@@ -3219,7 +3219,7 @@ msgstr "È inoltre possibile eseguire una ricerca nel database, se si conosce la
 
 #: ../../searching.rst:127
 msgid "This way you can perform the search ``So ha``."
-msgstr "In questo modo è possibile eseguire la ricerca ' così ha '."
+msgstr "In questo modo è possibile eseguire la ricerca ``So ha``."
 
 #: ../../searching.rst:129
 msgid "These would be the initials for Solanum hayesii, or Solanum havanense."
@@ -3229,7 +3229,7 @@ msgstr "Queste sarebbero le iniziali per il Solanum hayesii, o Solanum havanense
 msgid ""
 "Binomial search comes to compensate the limited usefulness of the above "
 "search by expression when trying to look for a species."
-msgstr "Binomio ricerca viene a compensare la limitata utilità della ricerca sopra di espressione quando si tenta di cercare una specie."
+msgstr "Ricerca nome binomiale viene a compensare la limitata utilità della succitata ricerca per espressione quando si tenta di cercare una specie."
 
 #: ../../searching.rst:134
 msgid ""
@@ -3244,7 +3244,7 @@ msgid ""
 "The similar request ``so ha`` will return, in a fresh install, over 3000 "
 "objects, starting at Family \"Acalyp(**ha**)ceae\", ending at Geography "
 "\"Western (**So**)uth America\"."
-msgstr "Analoga richiesta ' così ha 'verrà restituito, in una nuova installazione, oltre 3000 oggetti, a partire da famiglia \"Acalyp(**ha**)ceae\", che termina a geografia \"Western (**così**) uth America"."
+msgstr "La richiesta affatto simile ``so ha`` restituisce, in una nuova installazione, oltre 3000 oggetti, a partire da famiglia \"Acalyp(**ha**)ceae\", per finire con la geografia \"Western (**So**)uth America\"."
 
 #: ../../searching.rst:145
 msgid "Search by Query"
@@ -3256,7 +3256,7 @@ msgid ""
 "across relations, specific columns, combine search criteria using boolean "
 "operators like ``and``, ``or``, ``not`` (and their shorthands ``&&``, ``||"
 "``, ``!``), enclose them in parentheses, and more."
-msgstr "Le query consentono il massimo controllo su ricerca. Con le query è possibile cercare attraverso relazioni, colonne specifiche, combinare i criteri di ricerca utilizzando gli operatori booleani come ' e ', ' o ', ' non ' (e loro abbreviazioni cm"
+msgstr "Le query consentono il massimo controllo su ricerca. Con le query è possibile cercare attraverso relazioni, colonne specifiche, combinare i criteri di ricerca utilizzando gli operatori booleani come ``and``, ``or``, ``not`` (e loro rispettiva abbreviazioni ``&&``, ``||``, ``!``)."
 
 #: ../../searching.rst:152
 msgid ""
@@ -3271,7 +3271,7 @@ msgstr "Alcuni esempi:"
 
 #: ../../searching.rst:162
 msgid "plantings of family Fabaceae in location Block 10::"
-msgstr "piante della famiglia delle Fabaceae in posizione blocco 10::"
+msgstr "piante della famiglia delle Fabaceae in posizione Blocco 10::"
 
 #: ../../searching.rst:166
 msgid "locations that contain no plants::"
@@ -3281,15 +3281,15 @@ msgstr "posizioni che non contengono piante::"
 msgid ""
 "accessions associated to a species of known binomial name (e.g.: Mangifera "
 "indica)::"
-msgstr "adesioni associati ad una specie di nome binomiale noto (es.: Mangifera indica)::"
+msgstr "accessioni associate ad una specie dal nome binomiale noto (es.: Mangifera indica)::"
 
 #: ../../searching.rst:174
 msgid "accessions we propagated in the year 2016::"
-msgstr "adesioni abbiamo propagate nell'anno 2016::"
+msgstr "accessioni propagate nell'anno 2016::"
 
 #: ../../searching.rst:178
 msgid "accessions we modified in the last three days::"
-msgstr "adesioni abbiamo modificato negli ultimi tre giorni::"
+msgstr "accessioni modificate negli ultimi tre giorni::"
 
 #: ../../searching.rst:182
 msgid ""
@@ -3323,7 +3323,7 @@ msgid ""
 "Builder complete its graphical user interface, then you add as many logical "
 "clauses as you need, connecting them with a ``and`` or ``or`` binary "
 "operator."
-msgstr "Prima di tutto si indica il dominio di ricerca, questo vi permetterà il generatore di Query completa la sua interfaccia grafica, quindi si aggiunge il numero di clausole logico necessario, collegandoli con un ' e ' o ' o ' operatore binario."
+msgstr "Prima di tutto si indica il dominio di ricerca, questo vi permetterà il generatore di Query completa la sua interfaccia grafica, quindi si aggiunge il numero di clausole logico necessario, collegandoli con operatore binario ``and`` o ``or``."
 
 #: ../../searching.rst:213
 msgid ""
@@ -3405,7 +3405,7 @@ msgid ""
 "keeping your database in a database management system like `PostgreSQL "
 "<http://www.postgresql.org>`_ or `MySQL/MariaDB <https://mariadb.org/>`_, "
 "both supported by Ghini."
-msgstr "D'altra parte, se si desidera collegare più di una bagattella workstation allo stesso database o se si desidera rendere disponibili i dati per altri client, come potrebbe essere un server web in una regolazione della lampada, è consigliabile mantenere il database in un database management system come ' PostgreSQL <http: www.postgresql.org="">' _ o ' MySQL/MariaDB <https: mariadb.org/="">' _, entrambi supportati da Ghini.</https:> </http:>"
+msgstr "D'altra parte, se si desidera collegare più di una bauble workstation allo stesso database o se si desidera rendere disponibili i dati per altri client, come potrebbe essere un server web in una regolazione della lampada, è consigliabile mantenere il database in un database management system come `PostgreSQL <http://www.postgresql.org>`_ o `MySQL/MariaDB <https://mariadb.org/>`_, entrambi supportati da Ghini."
 
 #: ../../started.rst:30
 msgid ""
@@ -3415,7 +3415,7 @@ msgid ""
 "When this is done, Ghini will be able to proceed, creating the tables and "
 "importing the default data set.  The process is database-dependent and it "
 "falls beyond the scope of this manual."
-msgstr "Quando ci si connette a un server di database come uno di cui sopra, è necessario creare manualmente: Bagattella almeno un utente, il database desiderato bagattella da utilizzare e per dare per timore che un utente Bagattella autorizzazioni sul proprio database completo. Quando ciò avviene, Ghini sarà in grado di procedere, creazione di tabelle e importa il set di dati predefinito.  Il processo dipende dal database e cade oltre la portata di questo manuale."
+msgstr "Quando ci si connette a un server di database come uno di cui sopra, è necessario creare manualmente: Bauble almeno un utente, il database desiderato bauble da utilizzare e per dare per timore che un utente Bauble autorizzazioni sul proprio database completo. Quando ciò avviene, Ghini sarà in grado di procedere, creazione di tabelle e importa il set di dati predefinito.  Il processo dipende dal database e cade oltre la portata di questo manuale."
 
 #: ../../started.rst:37
 msgid ""
@@ -3504,7 +3504,7 @@ msgid ""
 "with the same name as the connection and ``.db`` extension, and a pictures "
 "folder with the same name and no extension, both in ``~/.bauble`` on Linux/"
 "MacOSX or in ``AppData\\Roaming\\Bauble`` on Windows."
-msgstr "Se si utilizza SQLite, è davvero necessario specificare solo il nome di connessione. Se lasci Ghini utilizzare il nome file predefinito Ghini crea un file di database con lo stesso nome come la connessione e ' DB ' estensione e una cartella di immagini con lo stesso nome e senza estensione, sia in '~/.bauble ' su Linux/MacOSX o in 'AppData\\Roaming\\Bauble ' su Windows."
+msgstr "Se si utilizza SQLite, è davvero necessario specificare solo il nome di connessione. Se permetti che Ghini utilizzi il nome file predefinito, Ghini crea un file di database con lo stesso nome come la connessione ed estensione ``.db`` e una cartella di immagini ancora con lo stesso nome ma senza estensione, entrambe in ``~/.bauble`` su Linux/MacOSX o in ``AppData\\Roaming\\Bauble`` su Windows."
 
 #: ../../started.rst:92
 msgid ""
@@ -3512,7 +3512,7 @@ msgid ""
 "and you want to connect to it. In this case you do not let Ghini use the "
 "default filename, but you browse in your computer to the location where you "
 "saved the Ghini SQLite database file."
-msgstr "Ancora con SQLite, si potrebbe avere ricevuto o scaricato un database bagattella, e si desidera connettersi ad esso. In questo caso non lasciate Ghini utilizzare il nome file predefinito, ma navighi nel vostro computer nel percorso dove è stato salvato il Ghini SQLite database file."
+msgstr "Ancora con SQLite, si potrebbe avere ricevuto o scaricato un database bauble, e si desidera connettersi ad esso. In questo caso non lasciate Ghini utilizzare il nome file predefinito, ma navighi nel vostro computer nel percorso dove è stato salvato il Ghini SQLite database file."
 
 #: ../../started.rst:97
 msgid ""
@@ -3527,7 +3527,7 @@ msgid ""
 "`editing-and-inserting-data` and subsequently :ref:`searching-in-bauble`, "
 "otherwise read on to the following section on initializing a database for "
 "Ghini."
-msgstr "Se ci si connette a un database esistente è possibile continuare a: ref: 'editing-e-inserimento-dati' e successivamente: ref: 'ricerca-in-Bagattella', altrimenti leggete la sezione seguente sull'inizializzazione di un database per Ghini."
+msgstr "Se ci si connette a un database esistente è possibile continuare a :ref:`editing-and-inserting-data` e successivamente :ref:`searching-in-bauble`, altrimenti leggete la sezione seguente sull'inizializzazione di un database per Ghini."
 
 #: ../../started.rst:106
 msgid ""
