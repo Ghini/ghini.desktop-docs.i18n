@@ -1,0 +1,58 @@
+#!/bin/bash
+
+# configure languages
+LANGUAGES='ar cs da de es fr hi it pl pt_BR ru sv uk zh jp'
+SOURCEDOCDIR=~/Local/github/Ghini/ghini.desktop/doc
+CHECKOUTDIR=~/Local/github/Ghini/ghini.desktop-docs.i18n
+
+echo "press enter to start"
+read
+
+echo "all remaining actions must be run from the doc dir"
+cd $CHECKOUTDIR/doc
+
+echo "copy/update files from the documentation"
+echo "press enter to start this."
+read
+cp -pu $SOURCEDOCDIR/*.rst .
+rm api.rst
+
+echo "update the centralised doc.pot (two steps, first all pot, then merge them)"
+echo "press enter to start this"
+read
+make gettext
+msgcat -o _build/locale-merged/doc.pot _build/locale/*.pot
+
+echo "update all LANGUAGE/doc.po files in CHECKOUTDIR/local/"
+sphinx-intl update -p _build/locale-merged $(for i in $LANGUAGES; do printf -- '-l %s ' $i; done)
+
+echo "make sure we have all the symbolic links for po files"
+echo "press enter to start this."
+read
+for l in $LANGUAGES
+do
+    cd $CHECKOUTDIR/locale/$l/LC_MESSAGES/
+    for i in $(find $CHECKOUTDIR/doc -maxdepth 1 -type f -name "*rst")
+    do
+        ln -s doc.po $(basename $i .rst).po 2>/dev/null
+    done
+done
+
+echo "this is enough as far as weblate and readthedocs are concerned"
+#################################################################
+echo press enter to continue
+read
+
+#################################################################
+# build translated documentation for all configured languages
+
+# 1) update mo files from symlinks to doc.po.
+sphinx-intl build
+
+# 2) use the updated mo files to build the local html files
+for i in $LANGUAGES
+do
+    make -e SPHINXOPTS="-D language='"$i"'" html
+    mkdir -p ../translated/$i
+    cp -a _build/html ../translated/$i
+done

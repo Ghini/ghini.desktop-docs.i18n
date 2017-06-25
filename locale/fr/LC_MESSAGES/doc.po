@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-22 16:15-0500\n"
+"POT-Creation-Date: 2017-06-23 11:35-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
-msgstr ""
+msgstr "Référez-vous à la documentation officielle."
 
 #: ../../administration.rst:29
 msgid "PostgreSQL"
@@ -108,120 +108,6 @@ msgstr ""
 
 #: ../../administration.rst:56
 msgid "Ghini development site can be accessed via the Help menu."
-msgstr ""
-
-#: ../../api.rst:2
-msgid "API Documentation"
-msgstr ""
-
-#: ../../api.rst:5
-msgid ":mod:`bauble`"
-msgstr ""
-
-#: ../../api.rst:17
-msgid ":mod:`bauble.db`"
-msgstr ""
-
-#: ../../api.rst:24
-msgid ""
-"All tables/mappers in Ghini which use the SQLAlchemy declarative plugin "
-"for declaring tables and mappers should derive from this class."
-msgstr ""
-
-#: ../../api.rst:28
-msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
-msgstr ""
-
-#: ../../api.rst:33
-msgid "The default metadata for all Ghini tables."
-msgstr ""
-
-#: ../../api.rst:35
-msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
-msgstr ""
-
-#: ../../api.rst:49
-msgid ":mod:`bauble.connmgr`"
-msgstr ""
-
-#: ../../api.rst:57
-msgid ":mod:`bauble.editor`"
-msgstr ""
-
-#: ../../api.rst:78
-msgid ":mod:`bauble.i18n`"
-msgstr ""
-
-#: ../../api.rst:83
-msgid ":mod:`bauble.ui`"
-msgstr ""
-
-#: ../../api.rst:91
-msgid ":mod:`bauble.meta`"
-msgstr ""
-
-#: ../../api.rst:99
-msgid ":mod:`bauble.paths`"
-msgstr ""
-
-#: ../../api.rst:108
-msgid ":mod:`bauble.pluginmgr`"
-msgstr ""
-
-#: ../../api.rst:122
-msgid ":mod:`bauble.prefs`"
-msgstr ""
-
-#: ../../api.rst:133
-msgid ":mod:`bauble.task`"
-msgstr ""
-
-#: ../../api.rst:141
-msgid ":mod:`bauble.types`"
-msgstr ""
-
-#: ../../api.rst:154
-msgid ":mod:`bauble.utils`"
-msgstr ""
-
-#: ../../api.rst:204
-msgid ":mod:`bauble.view`"
-msgstr ""
-
-#: ../../api.rst:230
-msgid ":mod:`bauble.search`"
-msgstr ""
-
-#: ../../api.rst:243
-msgid ":mod:`bauble.plugins.plants`"
-msgstr ""
-
-#: ../../api.rst:278
-msgid ":mod:`bauble.plugins.garden`"
-msgstr ""
-
-#: ../../api.rst:316
-msgid ":mod:`bauble.plugins.abcd`"
-msgstr ""
-
-#: ../../api.rst:325
-msgid ":mod:`bauble.plugins.imex`"
-msgstr ""
-
-#: ../../api.rst:329
-msgid ":mod:`bauble.plugins.report`"
-msgstr ""
-
-#: ../../api.rst:333
-msgid ":mod:`bauble.plugins.report.xsl`"
-msgstr ""
-
-#: ../../api.rst:337
-msgid ":mod:`bauble.plugins.report.mako`"
-msgstr ""
-
-#: ../../api.rst:341
-msgid ":mod:`bauble.plugins.tag`"
 msgstr ""
 
 #: ../../building.rst:2
@@ -906,12 +792,17 @@ msgid ""
 "create tables, define custom searchs, add menu items, create custom "
 "commands and more."
 msgstr ""
+"Presque tout sur Ghini est extensible grâce aux plugins. Les plugins "
+"peuvent créer des tables, définir des recherches personnalisées, ajouter "
+"des éléments de menu, créer des commandes personnalisées et plus encore."
 
 #: ../../building.rst:477 ../../extending.rst:56
 msgid ""
 "To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
 "class."
 msgstr ""
+"Pour créer un nouveau plugin nous devez étendre la classe "
+"``bauble.pluginmgr.Plugin``."
 
 #: ../../building.rst:480 ../../extending.rst:59
 msgid ""
@@ -1337,7 +1228,7 @@ msgstr ""
 
 #: ../../editing.rst:39 ../../searching.rst:44
 msgid "Family"
-msgstr ""
+msgstr "Famille"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
@@ -1389,7 +1280,7 @@ msgstr ""
 
 #: ../../editing.rst:69 ../../searching.rst:45
 msgid "Genus"
-msgstr ""
+msgstr "Genre"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
@@ -1515,11 +1406,11 @@ msgstr ""
 
 #: ../../editing.rst:149
 msgid "A Donation."
-msgstr ""
+msgstr "Une donation."
 
 #: ../../editing.rst:154 ../../searching.rst:50
 msgid "Plant"
-msgstr ""
+msgstr "Plante"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
@@ -3761,6 +3652,13 @@ msgid ""
 "about\". You can then select \"for that report i was thinking about\" "
 "from the tags menu to show you all the objects you tagged."
 msgstr ""
+"Le marquage est un moyen simple de donner un contexte à un objet ou de créer "
+"une collection d'objets que vous souhaitez rappeler plus tard. Par exemple, "
+"si vous voulez rassembler un groupe de plantes et que vous voulez créer plus "
+"tard un rapport, vous pouvez les étiqueter avec la chaîne «pour ce rapport "
+"que je pensais». Vous pouvez alors sélectionner \"pour ce rapport que je "
+"pensais\" dans le menu des balises pour vous montrer tous les objets que "
+"vous avez marqués."
 
 #: ../../tagging.rst:11
 msgid ""
@@ -3770,36 +3668,45 @@ msgid ""
 "multiple items then only that tags that are common to all the selected "
 "items will have a check next to it."
 msgstr ""
+"Le marquage peut se faire de deux façons. En sélectionnant un ou plusieurs "
+"éléments dans les résultats de recherche et en appuyant sur Ctrl-T ou en "
+"sélectionnant :menuselection:`Tag-->Tag Selection` dans le menu. Si vous "
+"avez sélectionné plusieurs éléments, seules les balises communes à tous les "
+"éléments sélectionnés auront une coche à côté de celle-ci."
 
 #: ../../users.rst:2
 msgid "Managing Users"
-msgstr ""
+msgstr "Gestion des utilisateurs"
 
 #: ../../users.rst:4
 msgid "The Ghini users plugin is only available on PostgreSQL based databases."
 msgstr ""
+"Le plugin des utilisateurs Ghini n'est disponible que sur les bases de "
+"données PostgreSQL."
 
 #: ../../users.rst:7
 msgid ""
 "The Ghini User's Plugin will allow you to create and manage the "
 "permissions of users for your Ghini database."
 msgstr ""
+"Le Plugin de l'utilisateur Ghini vous permettra de créer et de gérer les"
+" permissions des utilisateurs pour votre base de données Ghini."
 
 #: ../../users.rst:11
 msgid "Creating Users"
-msgstr ""
+msgstr "Création d'utilisateurs"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
-msgstr ""
+msgstr "Pour créer un nouvel utilisateur..."
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Autorisations"
 
 #: ../../users.rst:17
 msgid "Ghini allows read, write and execute permissions."
-msgstr ""
+msgstr "Ghini permet les autorisations de lecture, d'écriture et d'exécution."
 
 #: ../../user_stories.rst:3
 msgid "representing the planned space"
@@ -4197,5 +4104,93 @@ msgstr ""
 #~ "  Select And/Or next to the property"
 #~ " name choose how the properties will"
 #~ " be combined in the search query."
+#~ msgstr ""
+
+#~ msgid "API Documentation"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.db`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All tables/mappers in Ghini which use"
+#~ " the SQLAlchemy declarative plugin for "
+#~ "declaring tables and mappers should "
+#~ "derive from this class."
+#~ msgstr ""
+
+#~ msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
+#~ msgstr ""
+
+#~ msgid "The default metadata for all Ghini tables."
+#~ msgstr ""
+
+#~ msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.connmgr`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.editor`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.i18n`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.ui`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.meta`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.paths`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.pluginmgr`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.prefs`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.task`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.types`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.utils`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.view`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.search`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.plants`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.garden`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.abcd`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.imex`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.report`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.report.xsl`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.report.mako`"
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble.plugins.tag`"
 #~ msgstr ""
 

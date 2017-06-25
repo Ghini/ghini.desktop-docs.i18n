@@ -1,0 +1,1 @@
+../locale/pl/LC_MESSAGES/doc.po

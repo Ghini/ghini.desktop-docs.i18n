@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-06-23 11:34-0500\n"
+"POT-Creation-Date: 2017-06-23 11:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3752,92 +3752,4 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
-
-#~ msgid "API Documentation"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.db`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All tables/mappers in Ghini which use"
-#~ " the SQLAlchemy declarative plugin for "
-#~ "declaring tables and mappers should "
-#~ "derive from this class."
-#~ msgstr ""
-
-#~ msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
-#~ msgstr ""
-
-#~ msgid "The default metadata for all Ghini tables."
-#~ msgstr ""
-
-#~ msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.connmgr`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.editor`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.i18n`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.ui`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.meta`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.paths`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.pluginmgr`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.prefs`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.task`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.types`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.utils`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.view`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.search`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.plants`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.garden`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.abcd`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.imex`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.report`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.report.xsl`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.report.mako`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.tag`"
-#~ msgstr ""
 
