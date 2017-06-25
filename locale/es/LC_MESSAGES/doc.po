@@ -3143,7 +3143,7 @@ msgstr "nombre y abreviaturas"
 
 #: ../../searching.rst:42
 msgid "field"
-msgstr ""
+msgstr "campo"
 
 #: ../../searching.rst:42
 msgid "result type"
@@ -3151,27 +3151,27 @@ msgstr "Tipo de resultado"
 
 #: ../../searching.rst:44
 msgid "family, fam"
-msgstr "familia, fam"
+msgstr ""
 
 #: ../../searching.rst:44
 msgid "epithet (family)"
-msgstr "epíteto (familia)"
+msgstr ""
 
 #: ../../searching.rst:45
 msgid "genus, gen"
-msgstr "género, generación"
+msgstr ""
 
 #: ../../searching.rst:45
 msgid "epithet (genus)"
-msgstr "epíteto (género)"
+msgstr ""
 
 #: ../../searching.rst:46
 msgid "species, sp"
-msgstr "especies, sp"
+msgstr ""
 
 #: ../../searching.rst:46
 msgid "epithet (sp) **×**"
-msgstr "epíteto (sp) ** x **"
+msgstr ""
 
 #: ../../searching.rst:46 ../../searching.rst:47
 msgid "Species"
@@ -3179,7 +3179,7 @@ msgstr ""
 
 #: ../../searching.rst:47
 msgid "vernacular, common, vern"
-msgstr "vernáculo, común, vern"
+msgstr ""
 
 #: ../../searching.rst:47 ../../searching.rst:48 ../../searching.rst:52
 
@@ -3189,7 +3189,7 @@ msgstr ""
 
 #: ../../searching.rst:48
 msgid "geography, geo"
-msgstr "Geografía, geo"
+msgstr ""
 
 #: ../../searching.rst:48
 msgid "Geography"
@@ -3197,7 +3197,7 @@ msgstr ""
 
 #: ../../searching.rst:49
 msgid "accession, acc"
-msgstr "accesión, acc"
+msgstr ""
 
 #: ../../searching.rst:49
 msgid "code"
@@ -3209,19 +3209,19 @@ msgstr ""
 
 #: ../../searching.rst:50
 msgid "planting, plant"
-msgstr "siembra, planta"
+msgstr ""
 
 #: ../../searching.rst:50
 msgid "code **×**"
-msgstr "Código"
+msgstr ""
 
 #: ../../searching.rst:51
 msgid "location, loc"
-msgstr "Ubicación, loc"
+msgstr ""
 
 #: ../../searching.rst:51
 msgid "code, name"
-msgstr "Código de nombre"
+msgstr ""
 
 #: ../../searching.rst:51
 msgid "Location"
@@ -3229,7 +3229,7 @@ msgstr ""
 
 #: ../../searching.rst:52
 msgid "contact, person, org, source"
-msgstr "persona de contacto, org, fuente"
+msgstr ""
 
 #: ../../searching.rst:52
 msgid "Contact"
@@ -3237,7 +3237,7 @@ msgstr ""
 
 #: ../../searching.rst:53
 msgid "collection, col, coll"
-msgstr "colección, col coll"
+msgstr ""
 
 #: ../../searching.rst:53
 msgid "locale"
@@ -3245,7 +3245,7 @@ msgstr ""
 
 #: ../../searching.rst:54
 msgid "tag, tags"
-msgstr "etiqueta, etiquetas"
+msgstr ""
 
 #: ../../searching.rst:54
 msgid "Tag"
