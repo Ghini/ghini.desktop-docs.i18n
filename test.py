@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-translation_to = 'nl'
+translation_to = 'fr'
 
 import sys  
 reload(sys)  
