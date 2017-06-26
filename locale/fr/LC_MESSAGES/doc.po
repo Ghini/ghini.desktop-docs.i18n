@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../administration.rst:2
 msgid "Database Administration"
-msgstr ""
+msgstr "Administrateur de bases de données"
 
 #: ../../administration.rst:4
 msgid ""
@@ -27,6 +27,10 @@ msgid ""
 "something about database administration. While database adnimistration is"
 " far beyond the scope of this document, we make our users aware of it."
 msgstr ""
+"Si vous utilisez un vrai SGBD pour contenir vos données botaniques, alors "
+"vous devez faire quelque chose pour administrer votre base de données. La "
+"admistration de une base de données est bien au-delà de la portée du "
+"présent document, nous faisons nos utilisateurs au courant."
 
 #: ../../administration.rst:9
 msgid "SQLite"
@@ -39,6 +43,11 @@ msgid ""
 "don't know where to look for your database files, consider that, per "
 "default, bauble puts its data in the ``~/.bauble/`` directory."
 msgstr ""
+"SQLite n’est pas ce que l'on envisagerait un SGBD réel : chaque base de "
+"données SQLite n'est rien plus que un seul fichier. Faites des copies de "
+"sécurité et tous sera bien. Si vous ne savez pas où sont vos fichiers de "
+"base de données, considérez que, par défaut, Ghini met ses données dans "
+"le répertoire ``~/.bauble/``."
 
 #: ../../administration.rst:16
 msgid ""
@@ -46,12 +55,18 @@ msgid ""
 "``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best "
 "to hide the ``AppData`` directory structure to normal users."
 msgstr ""
+"Dans Windows, il est quelque part dans votre répertoire « AppData », "
+"probablement en ``AppData\\Roaming\\Bauble``. Gardez à l’esprit que "
+"Windows fait de son mieux pour cacher la structure de répertoire « "
+"AppData » pour les utilisateurs normaux."
 
 #: ../../administration.rst:20
 msgid ""
 "The fastest way to open it is with the file explorer: type ``%APPDATA%` "
 "and hit enter."
 msgstr ""
+"La manière la plus rapide consiste à ouvrir avec l’Explorateur de "
+"fichiers : taper « %AppData% » et appuyez sur Entrez."
 
 #: ../../administration.rst:24
 msgid "MySQL"
@@ -70,10 +85,12 @@ msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
 " your backup options starts at `chapter_24`_."
 msgstr ""
+"Veuillez vous reporter à la documentation officielle. Une déscription "
+"très approfondie de vos options de sauvegarde commence à « chapter_24 »."
 
 #: ../../administration.rst:37
 msgid "Ghini Configuration"
-msgstr ""
+msgstr "Configuration de Ghini"
 
 #: ../../administration.rst:39
 msgid ""
@@ -81,6 +98,10 @@ msgid ""
 "file is associated to a user account and every user will have their own "
 "configuration file."
 msgstr ""
+"Ghini utilise un fichier de configuration pour stocker des valeurs à "
+"travers les appels du logiciel. Ce fichier est associé à un compte d’"
+"utilisateur et chaque utilisateur aura son propre fichier de "
+"configuration."
 
 #: ../../administration.rst:43
 msgid ""
@@ -88,6 +109,9 @@ msgid ""
 " the text entry area where you normally type your searches, then hit "
 "enter."
 msgstr ""
+"Pour consulter le contenu du fichier de configuration Ghini, tapez ``:"
+"prefs`` dans la zone de saisie de texte où vous normalement tapez votre "
+"recherche, puis appuyez sur Entrez."
 
 #: ../../administration.rst:46
 msgid ""
@@ -95,28 +119,35 @@ msgid ""
 "so with a normal text editor program. Ghini configuration file is at the "
 "default location for SQLite databases."
 msgstr ""
+"Vous ne devez normalement pas peaufiner le fichier de configuration, mais "
+"vous pouvez le faire si vous voulez avec un normal programme d’édition de "
+"texte. Le fichier de configuration Ghini est par défaut au même "
+"emplacement que les bases de données SQLite."
 
 #: ../../administration.rst:51
 msgid "Reporting Errors"
-msgstr ""
+msgstr "Signaler les erreurs"
 
 #: ../../administration.rst:53
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
 msgstr ""
+"Si vous remarquez quelque chose d’inattendu dans le comportement de "
+"Ghini, s’il vous plaît envisager de déposer un *issue* sur le site de "
+"développement de Ghini."
 
 #: ../../administration.rst:56
 msgid "Ghini development site can be accessed via the Help menu."
-msgstr ""
+msgstr "Le site de développement de Ghini est accessible via le menu aide."
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
-msgstr ""
+msgstr "Manuel du développeur"
 
 #: ../../building.rst:5
 msgid "Helping Ghini development"
-msgstr ""
+msgstr "Aider le développement de Ghini"
 
 #: ../../building.rst:7
 msgid ""
@@ -124,12 +155,15 @@ msgid ""
 "the github repository. This is so because in our eyes, every user is "
 "always potentially also a developer."
 msgstr ""
+"Chaque installation de Ghini comprend toujours télécharger les sources, "
+"reliés au dépôt github. Il en est ainsi parce que dans nos yeux, chaque "
+"utilisateur est toujours potentiellement aussi un développeur."
 
 #: ../../building.rst:11
 msgid ""
 "If you want to contribute to Ghini, you can do so in quite a few "
 "different ways:"
-msgstr ""
+msgstr "Si vous souhaitez contribuer à Ghini, vous pouvez le faire de différents manières :"
 
 #: ../../building.rst:13
 msgid ""
@@ -137,6 +171,9 @@ msgid ""
 "<http://github.com/Ghini/ghini.desktop/issues/new>`_ for each of them. A "
 "developer will react sooner than you can imagine."
 msgstr ""
+"Utiliser le logiciel, notez les choses que vous n’aimez pas, `ouvrir une *"
+"issue* <http://github.com/ghini/ghini.desktop/issues/new>`_ pour chacun d’"
+"eux. Un développeur va réagir plus tôt que vous pouvez imaginer."
 
 #: ../../building.rst:16
 msgid ""
@@ -146,6 +183,12 @@ msgid ""
 "quickly on Ghini. Do make sure the developer opens issues and publishes "
 "their contribution on github."
 msgstr ""
+"Si vous avez une idée de ce que vous ne trouvez pas dans le logiciel, "
+"mais ne pouvez pas tout à fait il codifier dans des questions distinctes, "
+"vous pourriez envisager l’embauche d’un professionnel. Ça c'est la "
+"meilleure façon de s’assurer que une chose entre rapidement dans Ghini. "
+"Assurez-vous que le développeur ouvre les *issue* et publie leur "
+"contribution sur github."
 
 #: ../../building.rst:21
 msgid ""
@@ -153,12 +196,19 @@ msgid ""
 "can do this without installing anything on your computer, just using the "
 "on-line translation service offered by http://hosted.weblate.org/"
 msgstr ""
+"Traduisez ! Toutes aide pour les traductions seront les bienvenues, alors "
+"s’il vous plaît, traduisez ! Vous pouvez faire cela sans rien n'installer "
+"sur votre ordinateur, simplement en utilisant le service de traduction en "
+"ligne offert par http://hosted.weblate.org/"
 
 #: ../../building.rst:24
 msgid ""
 "fork the respository, choose an issue, solve it, open a pull request. See"
 " the `bug solving workflow`_ below."
 msgstr ""
+"fourchéz le dépôt, choisissez un problème, résolvez-le, ouvrez une "
+"demande *pull request*. Voir le « flux de travail résolution de bogue » "
+"ci-dessous."
 
 #: ../../building.rst:27
 msgid ""
@@ -167,10 +217,14 @@ msgid ""
 "<http://github.com/Ghini/ghini.desktop>`_ and see all that has been going"
 " on around Ghini since its inception as Bauble, back in the year 2004."
 msgstr ""
+"Si vous n’avez pas encore installé Ghini et veulez avoir un regard sur "
+"son histoire de code, vous pouvez ouvrir notre `page projet github <"
+"http://github.com/ghini/ghini.desktop>`_ et voir tout ce qui s’est passé "
+"autour de Ghini depuis sa création, vers l’an 2004."
 
 #: ../../building.rst:33
 msgid "Software source, versions, branches"
-msgstr ""
+msgstr "Source du logiciel, versions, branches"
 
 #: ../../building.rst:35
 msgid ""
@@ -178,21 +232,24 @@ msgid ""
 "versions as branches. You should ``git checkout`` the branch "
 "corresponding to the version of your choice."
 msgstr ""
+"Si vous voulez une version en particulièr de Ghini, on libère et maintent "
+"les versions en forme de branches. Vous devriez faire le ``git checkout`` "
+"de la branche correspondant à la version de votre choix."
 
 #: ../../building.rst:40 ../../devdl.rst:32
 msgid "production line"
-msgstr ""
+msgstr "ligne de production"
 
 #: ../../building.rst:42
 msgid ""
 "Branch names for Ghini stable (production) versions are of the form "
 "``ghini-x.y`` (eg: ghini-1.0); branch names where Ghini testing versions "
 "are published are of the form ``ghini-x.y-dev`` (eg: ghini-1.0-dev)."
-msgstr ""
+msgstr "Les noms de branche pour les versions stable (production) Ghini sont de la forme ``ghini-x.y`` (par exemple : ``ghini-1.0``) ; les noms de branche où sont publiées les versions tests Ghini sont de la forme ``ghini-x.y-dev`` (par exemple : ``ghini-1. 0-dev``)."
 
 #: ../../building.rst:47 ../../devdl.rst:29
 msgid "Development Workflow"
-msgstr ""
+msgstr "Flux de travail de développement"
 
 #: ../../building.rst:49
 msgid ""
@@ -201,6 +258,10 @@ msgid ""
 "of the pushed testing branches, finally, from time to time, to merge the "
 "testing branch into the corresponding release."
 msgstr ""
+"Notre flux de travail prévoit de publiquer continuement à la branche de "
+"test, puosser souvent à github, laisser travis-ci et coveralls.io "
+"vérifier la qualité du contenu de la branche de test, enfin, de temps en "
+"temps, de fusionner la branche de test dans la version correspondante."
 
 #: ../../building.rst:54
 msgid ""
@@ -208,10 +269,13 @@ msgid ""
 " days, I might open a branch associated to the issue. I don't do this "
 "very often."
 msgstr ""
+"Lorsque je travaille à des questions plus vastes, qui semblent prendre "
+"plus de quelques jours, je pourrais ouvrir une branche liée à la "
+"question. Je ne fais cela pas trop souvent."
 
 #: ../../building.rst:59 ../../devdl.rst:51
 msgid "larger issues"
-msgstr ""
+msgstr "grandes questions"
 
 #: ../../building.rst:61
 msgid ""
@@ -219,6 +283,9 @@ msgid ""
 "main development line (e.g.: ``ghini-1.0-dev``), and follow the workflow "
 "described at"
 msgstr ""
+"Face à un seul problème plus vaste, créez une étiquette de branche à l’"
+"extrémité d’une ligne de développement principal (par exemple : ``ghini-1."
+"0-dev``) et suivez le workflow décrit à"
 
 #: ../../building.rst:65 ../../devdl.rst:56
 msgid "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
@@ -226,24 +293,24 @@ msgstr ""
 
 #: ../../building.rst:67 ../../devdl.rst:58
 msgid "in short::"
-msgstr ""
+msgstr "En bref ::"
 
 #: ../../building.rst:73
 msgid ""
 "Work on the new temporary branch. When ready, go to github, merge the "
 "branch with the main development line from which you branched, solve "
 "conflicts where necessary, delete the temporary branch."
-msgstr ""
+msgstr "Travailler sur la nouvelle branche temporaire. Lorsque vous êtes prêt, allez à github, fusionner la branche avec la ligne de développement principale d'où vous avez creé la branche, résoudre les conflits, le cas échéant, puis supprimez la branche temporaire."
 
 #: ../../building.rst:77
 msgid ""
 "When ready for publication, merge the development line into the "
 "corresponding production line."
-msgstr ""
+msgstr "Lorsque vous êtes prêt pour la publication, fusionner la ligne de développement dans la ligne correspondante."
 
 #: ../../building.rst:81 ../../devdl.rst:70
 msgid "Updating the set of translatable strings"
-msgstr ""
+msgstr "Mise à jour de l’ensemble des chaînes traduisibles"
 
 #: ../../building.rst:83 ../../devdl.rst:72
 msgid ""
@@ -254,6 +321,13 @@ msgid ""
 " form of several ``.po`` files. These ``po`` files receive contributions "
 "from weblate, and offer lines without translation from new lines of code."
 msgstr ""
+"De temps à autre, pendant le processus de mise à jour le logiciel, vous "
+"ajoutez ou modifiez les chaînes dans les sources python, dans la "
+"documentation, dans les sources de glade. La plupart de nos chaînes est "
+"traduisible et est offerts sur weblate pour contribuer, sous forme de "
+"plusieurs fichiers ``.po``. Ces fichiers ``po`` reçoivent contributions "
+"de weblate et incluent en forme des lignes sans traduction tout nouvelles "
+"chaînes dans le code."
 
 #: ../../building.rst:90 ../../devdl.rst:79
 msgid ""
@@ -262,42 +336,42 @@ msgid ""
 "project on weblate. Translation of the software is in ghini.desktop, the "
 "software project, while translation of the documentation —itself part of "
 "the software— is in a separate project, ghini.desktop-docs.i18n."
-msgstr ""
+msgstr "Nous avons organisé la traduction de ghini comme deux dépôt distincts dans github, chaque dépôt étant associé aux sections du même projet sur weblate. Traduction du logiciel est en ghini.desktop, le projet de logiciel, tout en traduction de la documentation — lui-même une partie du logiciel — est dans un projet séparé, ghini.desktop-docs.i18n."
 
 #: ../../building.rst:96 ../../devdl.rst:85
 msgid ""
 "To update the ``po`` files relative to the software, you run a script "
 "from the project root dir::"
-msgstr ""
+msgstr "Pour mettre à jour les fichiers ``po`` par rapport au logiciel, vous exécutez un script depuis le répertoire racine du projet ::"
 
 #: ../../building.rst:101 ../../devdl.rst:90
 msgid ""
 "This will update your ``po`` files, something you need commit and push to"
 " github."
-msgstr ""
+msgstr "Ceci mettra à jour vos fichiers ``po``, quelque chose vous devez valider et pousser à github."
 
 #: ../../building.rst:104
 msgid ""
 "We haven't yet defined a workflow for publishing translated documentation"
 " on readthedocs. If you have experience with it please have a go at it. "
 "Thank you in advance."
-msgstr ""
+msgstr "Nous n’avons pas encore défini un "workflow" pour la publication de documents traduits sur readthedocs. Si vous êtes familier avec elle s’il vous plaît avoir un aller à elle. Je vous remercie à l’avance."
 
 #: ../../building.rst:110 ../../devdl.rst:102
 msgid "Adding missing unit tests"
-msgstr ""
+msgstr "Ajout des tests unitaires manquant"
 
 #: ../../building.rst:112 ../../devdl.rst:104
 msgid ""
 "If you are interested contributing to development of Ghini, a good way to"
 " do so would be by helping us finding and writing the missing unit tests."
-msgstr ""
+msgstr "Si vous êtes intéressé à contribuer au développement de Ghini, un bon moyen de le faire serait de nous aider à trouver et écrire les tests unitaires manquantes."
 
 #: ../../building.rst:115 ../../devdl.rst:107
 msgid ""
 "A well tested function is one whose behaviour you cannot change without "
 "breaking at least one unit test."
-msgstr ""
+msgstr "Une fonction bien testée est un dont le comportement vous ne pouvez pas modifier sans casser au moins un test unitaire."
 
 #: ../../building.rst:118 ../../devdl.rst:110
 msgid ""
@@ -305,29 +379,29 @@ msgid ""
 "one first writes the tests, then implements the function. In practice, "
 "however, practice does not match theory and we have been writing tests "
 "after writing and even publishing the functions."
-msgstr ""
+msgstr "Nous sommes tous d’accord qu’en théorie la théorie et la pratique correspondant parfaitement et que l’un d’abord écrit des essais, puis implémente la fonction. En pratique, toutefois, pratique ne correspond pas à la théorie, et nous avons été l’écriture de tests après avoir écrit et même les fonctions d’édition."
 
 #: ../../building.rst:123 ../../devdl.rst:115
 msgid ""
 "This section describes the process of adding unit tests for "
 "``bauble.plugins.plants.family.remove_callback``."
-msgstr ""
+msgstr "Cette section décrit le processus d’ajout de tests unitaires pour les ``bauble.plugins.plants.family.remove_callback``."
 
 #: ../../building.rst:127 ../../devdl.rst:119
 msgid "What to test"
-msgstr ""
+msgstr "POUR TESTER"
 
 #: ../../building.rst:129 ../../devdl.rst:121
 msgid ""
 "First of all, open the coverage report index, and choose a file with low "
 "coverage."
-msgstr ""
+msgstr "Tout d’abord, ouvrir l’index de rapport de couverture et choisissez un fichier à faible couverture."
 
 #: ../../building.rst:132 ../../devdl.rst:124
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
-msgstr ""
+msgstr "Pour cet exemple, exécutez en octobre 2015, nous avons atterri sur ``bauble.plugins.plants.family``, à 33 %."
 
 #: ../../building.rst:135 ../../devdl.rst:127
 #, python-format
@@ -340,7 +414,7 @@ msgid ""
 "``add_genera_callback``, include creation and activation of an object "
 "relying on a custom dialog box. We should really first write unit tests "
 "for that class, then come back here."
-msgstr ""
+msgstr "Les deux premières fonctions nécessitant des tests, ``edit_callback`` et ``add_genera_callback``, incluent la création et l’activation d’un objet en s’appuyant sur une boîte de dialogue personnalisée. On doit vraiment première écriture des tests unitaires pour cette classe, puis revenir ici."
 
 #: ../../building.rst:142 ../../devdl.rst:134
 msgid ""
@@ -348,33 +422,33 @@ msgid ""
 " and message boxes, but in the form of invoking a function requesting "
 "user input via yes-no-ok boxes. These functions we can easily replace "
 "with a function mocking the behaviour."
-msgstr ""
+msgstr "La fonction suivante, ``remove_callback``, active également quelques boîtes de dialogue et de message, mais sous forme d’appel d’une fonction demandant l’entrée de l’utilisateur par l’intermédiaire de boîtes oui-non-OK. Ces fonctions nous pouvons facilement remplacer une fonction se moquant du comportement."
 
 #: ../../building.rst:148 ../../devdl.rst:140
 msgid "how to test"
-msgstr ""
+msgstr "How to"
 
 #: ../../building.rst:150 ../../devdl.rst:142
 msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
-msgstr ""
+msgstr "Ainsi, après avoir décidé ce qu’il faut décrire en test unitaire, nous regardons le code et nous voyons qu'il faut distinguer deux cas :"
 
 #: ../../building.rst:156 ../../devdl.rst:148
 msgid "**parameter correctness**"
-msgstr ""
+msgstr "**le paramètre correct**"
 
 #: ../../building.rst:154 ../../devdl.rst:146
 msgid "the list of families has no elements."
-msgstr ""
+msgstr "la liste des familles comporte aucun élément."
 
 #: ../../building.rst:155 ../../devdl.rst:147
 msgid "the list of families has more than one element."
-msgstr ""
+msgstr "la liste des familles a plus d’un élément."
 
 #: ../../building.rst:156 ../../devdl.rst:148
 msgid "the list of families has exactly one element."
-msgstr ""
+msgstr "la liste des familles a exactement un élément."
 
 #: ../../building.rst:160 ../../devdl.rst:152
 msgid "**cascade**"
@@ -382,11 +456,11 @@ msgstr ""
 
 #: ../../building.rst:159 ../../devdl.rst:151
 msgid "the family has no genera"
-msgstr ""
+msgstr "la famille n’a aucun genres"
 
 #: ../../building.rst:160 ../../devdl.rst:152
 msgid "the family has one or more genera"
-msgstr ""
+msgstr "la famille a un ou plusieurs genres"
 
 #: ../../building.rst:164 ../../devdl.rst:156
 msgid "**confirm**"
@@ -394,11 +468,11 @@ msgstr ""
 
 #: ../../building.rst:163 ../../devdl.rst:155
 msgid "the user confirms deletion"
-msgstr ""
+msgstr "l’utilisateur confirme la suppression"
 
 #: ../../building.rst:164 ../../devdl.rst:156
 msgid "the user does not confirm deletion"
-msgstr ""
+msgstr "l’utilisateur ne confirme pas la suppression"
 
 #: ../../building.rst:168 ../../devdl.rst:160
 msgid "**deleting**"
@@ -406,27 +480,27 @@ msgstr ""
 
 #: ../../building.rst:167 ../../devdl.rst:159
 msgid "all goes well when deleting the family"
-msgstr ""
+msgstr "tout se passe bien lors de la suppression de la famille"
 
 #: ../../building.rst:168 ../../devdl.rst:160
 msgid "there is some error while deleting the family"
-msgstr ""
+msgstr "Il y a une erreur lors de la suppression de la famille"
 
 #: ../../building.rst:170 ../../devdl.rst:162
 msgid ""
 "I decide I will only focus on the **cascade** and the **confirm** "
 "aspects. Two binary questions: 4 cases."
-msgstr ""
+msgstr "Je décide que je vais me concentrer uniquement sur le **cascade** et **confirmer** aspects. Deux questions binaires : 4 cas."
 
 #: ../../building.rst:174 ../../devdl.rst:166
 msgid "where to put the tests"
-msgstr ""
+msgstr "où mettre les tests"
 
 #: ../../building.rst:176 ../../devdl.rst:168
 msgid ""
 "Locate the test script and choose the class where to put the extra unit "
 "tests."
-msgstr ""
+msgstr "Recherchez le script de test et choisissez la classe où mettre les tests unitaires supplémentaires."
 
 #: ../../building.rst:178 ../../devdl.rst:170
 #, python-format
@@ -440,34 +514,34 @@ msgid ""
 " separate it from the FamilyEditorView and reconsider what to do with the"
 " FamilyEditor class, which I think should be removed and replaced with a "
 "single function."
-msgstr ""
+msgstr "La classe de ``FamilyTests`` contient un test ignoré, sa mise en œuvre va être un peu de travail parce que nous devons réécrire le FamilyEditorPresenter, séparer de la FamilyEditorView et reconsidérer ce qu’il faut faire avec la classe FamilyEditor, qui je pense devrait être supprimé et remplacé par une seule fonction."
 
 #: ../../building.rst:187 ../../devdl.rst:179
 msgid "writing the tests"
-msgstr ""
+msgstr "les essais d’écriture"
 
 #: ../../building.rst:189 ../../devdl.rst:181
 msgid ""
 "After the last test in the FamilyTests class, I add the four cases I want"
 " to describe, and I make sure they fail, and since I'm lazy, I write the "
 "most compact code I know for generating an error::"
-msgstr ""
+msgstr "Après le dernier essai dans la classe de FamilyTests, j’ai ajouter les quatre cas je veux décrire, et je m’assure qu’ils ne parviennent pas, et puisque je suis paresseux, j’écris le code plus compact je sais pour générer une erreur ::"
 
 #: ../../building.rst:206 ../../devdl.rst:198
 msgid "One test, step by step"
-msgstr ""
+msgstr "Un test, étape par étape"
 
 #: ../../building.rst:208 ../../devdl.rst:200
 msgid "Let's start with the first test case."
-msgstr ""
+msgstr "Commençons par le premier cas de test."
 
 #: ../../building.rst:210 ../../devdl.rst:202
 msgid "When writing tests, I generally follow the pattern:"
-msgstr ""
+msgstr "Lorsque vous écrivez des tests, j’ai suivent généralement le modèle :"
 
 #: ../../building.rst:212 ../../devdl.rst:204
 msgid "T₀ (initial condition),"
-msgstr ""
+msgstr "T₀ (condition initiale),"
 
 #: ../../building.rst:213 ../../devdl.rst:205
 msgid "action,"
@@ -475,19 +549,19 @@ msgstr ""
 
 #: ../../building.rst:214 ../../devdl.rst:206
 msgid "T₁ (testing the result of the action given the initial conditions)"
-msgstr ""
+msgstr "T₁ (tester le résultat de l’action, compte tenu des conditions initiales)"
 
 #: ../../building.rst:216 ../../devdl.rst:208
 msgid ""
 "There's a reason why unit tests are called unit tests. Please never test "
 "two actions in one test."
-msgstr ""
+msgstr "Il y a une raison pourquoi les tests unitaires sont appelés des tests unitaires. Ne Testez jamais deux actions dans un essai."
 
 #: ../../building.rst:219 ../../devdl.rst:211
 msgid ""
 "So let's describe T₀ for the first test, a database holding a family "
 "without genera::"
-msgstr ""
+msgstr "Nous allons donc décrire T₀ pour le premier test, une base de données contenant une famille sans genres ::"
 
 #: ../../building.rst:227 ../../devdl.rst:219
 msgid ""
@@ -497,11 +571,11 @@ msgid ""
 "``utils.yes_no_dialog`` point to a ``lambda`` expression which, like the "
 "original interactive function, accepts one parameter and returns a "
 "boolean. In this case: ``False``::"
-msgstr ""
+msgstr "Nous ne voulons pas la fonction testée pour appeler la fonction interactive ``utils.yes_no_dialog``, nous voulons des ``remove_callback`` pour invoquer une fonction de remplacement non interactif. Nous accomplissons ceci simplement en faisant le point de ``utils.yes_no_dialog`` à une expression ``lambda`` qui, comme la fonction interactive originale, accepte un seul paramètre et retourne une valeur booléenne. Dans ce cas : ``False`` ::"
 
 #: ../../building.rst:245 ../../devdl.rst:237
 msgid "Next we test the result."
-msgstr ""
+msgstr "Ensuite, nous vérifions le résultat."
 
 #: ../../building.rst:247 ../../devdl.rst:239
 msgid ""
@@ -509,17 +583,17 @@ msgid ""
 "deleted, we also should test the value returned by ``remove_callback``, "
 "and whether ``yes_no_dialog`` and ``message_details_dialog`` were invoked"
 " or not."
-msgstr ""
+msgstr "Eh bien, nous ne voulons juste tester si oui ou non l’objet Arecaceae a été supprimé, nous aussi devrions tester la valeur renvoyée par ``remove_callback``, et si les ``yes_no_dialog`` et ``message_details_dialog`` ont été invoquées ou non."
 
 #: ../../building.rst:252 ../../devdl.rst:244
 msgid ""
 "A ``lambda`` expression is not enough for this. We do something "
 "apparently more complex, which will make life a lot easier."
-msgstr ""
+msgstr "Une expression ``lambda`` n’est pas assez pour cela. Nous faisons quelque chose d’apparemment plus complexes, qui rendra la vie beaucoup plus facile."
 
 #: ../../building.rst:255 ../../devdl.rst:247
 msgid "Let's first define a rather generic function::"
-msgstr ""
+msgstr "Nous allons d’abord définir une fonction plutôt générique ::"
 
 #: ../../building.rst:261 ../../devdl.rst:253
 msgid ""
@@ -528,24 +602,24 @@ msgid ""
 " and use this partial application, which is a function accepting one "
 "parameter and returning a value, to replace the two functions in "
 "``utils``. The test function now looks like this::"
-msgstr ""
+msgstr "et de nous saisir ``partielle`` du module standard ``functools``, partiellement appliquer la précède ``mockfunc``, laissant seulement ``msg`` non précisée, et employer cette application partielle, qui est une fonction acceptant un paramètre et retournant une valeur, afin de remplacer les deux fonctions dans ``utils``. La fonction de test ressemble maintenant à ceci ::"
 
 #: ../../building.rst:283 ../../devdl.rst:275
 msgid ""
 "The test section checks that ``message_details_dialog`` was not invoked, "
 "that ``yes_no_dialog`` was invoked, with the correct message parameter, "
 "that Arecaceae is still there::"
-msgstr ""
+msgstr "La section test vérifie que ``message_details_dialog`` ne était pas invoquées, que ``yes_no_dialog`` a été, avec le paramètre message correct, Arecaceae est toujours là ::"
 
 #: ../../building.rst:299 ../../devdl.rst:291
 msgid "And so on"
-msgstr ""
+msgstr "et ainsi de suite..."
 
 #: ../../building.rst:301 ../../devdl.rst:293
 msgid ""
 "`there are two kinds of people, those who complete what they start, and "
 "so on`"
-msgstr ""
+msgstr "« Il y a deux sortes de gens, ceux qui terminent ce qu’ils entreprennent et ainsi de suite »"
 
 #: ../../building.rst:304 ../../devdl.rst:296
 msgid ""
@@ -553,24 +627,24 @@ msgid ""
 "``utils.yes_no_dialog`` should return ``True`` (this we achieve by "
 "specifying ``result=True`` in the partial application of the generic "
 "``mockfunc``)."
-msgstr ""
+msgstr "Prochaine épreuve est presque le même, avec la différence que le ``utils.yes_no_dialog`` doit retourner ``vrai`` (cela nous atteindre en spécifiant ``résultat = True`` dans l’application partielle du générique ``mockfunc``)."
 
 #: ../../building.rst:309 ../../devdl.rst:301
 msgid ""
 "With this action, the value returned by ``remove_callback`` should be "
 "``True``, and there should be no Arecaceae Family in the database any "
 "more::"
-msgstr ""
+msgstr "Avec cette action, la valeur retournée par ``remove_callback`` doit être ``True``, et il ne devrait y avoir aucune famille Arecaceae dans la base de données plus ::"
 
 #: ../../building.rst:339 ../../devdl.rst:331
 msgid ""
 "have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
 "other two test functions."
-msgstr ""
+msgstr "Jetez un oeil à 734f5bb9feffc2f4bd22578fcee1802c8682ca83 de validation pour les deux autres fonctions de test."
 
 #: ../../building.rst:343
 msgid "Testing logging"
-msgstr ""
+msgstr "Tests de journalisation"
 
 #: ../../building.rst:345
 msgid ""
@@ -579,7 +653,7 @@ msgid ""
 "is started, the ``setUp`` method will create a new ``handler`` and "
 "associate it to the root logger.  The ``tearDown`` method takes care of "
 "removing it."
-msgstr ""
+msgstr "Nos objets de ``bauble.test.BaubleTestCase`` utilisent des gestionnaires de la classe ``bauble.test.MockLoggingHandler``.  Chaque fois qu’un test unitaire individuel est démarré, la méthode ``paramètres`` créera un nouveau ``gestionnaire`` et associez-le à l’enregistreur de la racine.  La méthode du ``démontage`` prend soin de retirer."
 
 #: ../../building.rst:350
 #, python-format
@@ -591,29 +665,29 @@ msgid ""
 "are created when needed. Values hold lists of messages, formatted "
 "according to whatever formatter you associate to the handler, defaulting "
 "to ``logging.Formatter(\"%(message)s\")``."
-msgstr ""
+msgstr "Vous pouvez vérifier la présence des messages de journalisation spécifique dans ``self.handler.messages``. ``messages`` sont un dictionnaire, initialement vide, avec deux niveaux d’indexation. Tout d’abord le nom du logger délivrant la journalisation enregistrent, puis le nom du niveau de l’enregistrement de journalisation. Les clés sont créées lorsque nécessaire. Valeurs tiennent des listes de messages, mis en forme selon quel que soit le formateur, vous associez au gestionnaire, ou par défaut ``logging.Formatter(\"%(message)s\")``."
 
 #: ../../building.rst:358
 msgid ""
 "You can explicitly empty the collected messages by invoking "
 "``self.handler.clear()``."
-msgstr ""
+msgstr "Vous pouvez explicitement vider les messages collectés en invoquant des ``self.handler.clear()``."
 
 #: ../../building.rst:363 ../../devdl.rst:335
 msgid "Putting all together"
-msgstr ""
+msgstr "Synergie et regroupement"
 
 #: ../../building.rst:365 ../../devdl.rst:337
 msgid "From time to time you want to activate the test class you're working at::"
-msgstr ""
+msgstr "De temps en temps vous voulez activer la classe de test que vous travaillez à ::"
 
 #: ../../building.rst:369 ../../devdl.rst:341
 msgid "And at the end of the process you want to update the statistics::"
-msgstr ""
+msgstr "Et à la fin du processus vous souhaitez mettre à jour les statistiques ::"
 
 #: ../../building.rst:375 ../../extending.rst:2
 msgid "Structure of user interface"
-msgstr ""
+msgstr "Structure de l’interface utilisateur"
 
 #: ../../building.rst:377
 msgid ""
@@ -621,7 +695,7 @@ msgid ""
 "**Presenter** architectural pattern.  For much of the interface, "
 "**Model** is a SQLAlchemy database object, but we also have interface "
 "elements where there is no corresponding database model.  In general:"
-msgstr ""
+msgstr "L’interface utilisateur est construit selon le **modèle** — **vue** — **présentateur** modèle architectural.  Pendant une grande partie de l’interface, **modèle** est un objet de base de données de SQLAlchemy, mais nous avons aussi des éléments de l’interface où il n’y a aucun modèle de base de données correspondante.  En général :"
 
 #: ../../building.rst:382
 msgid ""
@@ -631,7 +705,7 @@ msgid ""
 "When you create your instance of this generic class, pass it the "
 "**glade** file name and the root widget name, then hand this instance "
 "over to the **presenter** constructor."
-msgstr ""
+msgstr "Le **vue** est décrite dans le cadre d’un **fichier glade**. Cela devrait inclure le signal-rappel et associations ListStore-TreeView. Simplement réutiliser la ``GenericEditorView`` ``bauble.editor``, selon la classe de base. Lorsque vous créez votre instance de cette classe générique, passez-lui le **glade** nom de fichier et le nom du widget racine, puis remettre cette instance à la **présentateur** constructeur."
 
 #: ../../building.rst:389
 msgid ""
@@ -640,42 +714,42 @@ msgid ""
 "has a valid ``response`` value.  Use `valid GtkResponseType values "
 "<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, for"
 " example:"
-msgstr ""
+msgstr "Dans le fichier de la clairière, dans la section ``action-widgets`` fermer votre description de l’objet GtkDialog, assurez-vous que tous les éléments ``action-widget`` a une valeur valide ``réponse``.  Utilisez les `valeurs valides de GtkResponseType <http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, par exemple :"
 
 #: ../../building.rst:395
 msgid "GTK_RESPONSE_OK, -5"
-msgstr ""
+msgstr "GTK_RESPONSE_OK, -5"
 
 #: ../../building.rst:396
 msgid "GTK_RESPONSE_CANCEL, -6"
-msgstr ""
+msgstr "GTK_RESPONSE_CANCEL, -6"
 
 #: ../../building.rst:397
 msgid "GTK_RESPONSE_YES, -8"
-msgstr ""
+msgstr "GTK_RESPONSE_YES, -8"
 
 #: ../../building.rst:398
 msgid "GTK_RESPONSE_NO, -9"
-msgstr ""
+msgstr "GTK_RESPONSE_NO, -9"
 
 #: ../../building.rst:400
 msgid ""
 "There is no easy way to unit test a subclassed view, so please don't "
 "subclass views, there's really no need to."
-msgstr ""
+msgstr "Il n’y a aucun moyen facile d'écrire test unitaire une vue sous-classé, donc s’il vous plaît ne pas sous-classer aucune vue, il n’y a vraiment pas besoin de faire ça."
 
 #: ../../building.rst:403
 msgid ""
 "In the glade file, every input widget should define which handler is "
 "activated on which signal.  The generic Presenter class offers generic "
 "callbacks which cover the most common cases."
-msgstr ""
+msgstr "Dans le fichier glade, chaque widget d’entrée devrait définir quel gestionnaire est activé sur lesquels le signal.  La classe générique de présentateur propose des rappels génériques qui couvrent les plupart des cas courants."
 
 #: ../../building.rst:407
 msgid ""
 "GtkEntry (one-line text entry) will handle the ``changed`` signal, with "
 "either ``on_text_entry_changed`` or ``on_unique_text_entry_changed``."
-msgstr ""
+msgstr "GtkEntry (entrée de texte d’une ligne) gérera le signal ``changed``, avec ``on_text_entry_changed`` ou ``on_unique_text_entry_changed``."
 
 #: ../../building.rst:409
 msgid ""
@@ -685,7 +759,7 @@ msgid ""
 " to pass our generic handler the name of the model attribute that "
 "receives the change. This is a workaroud for an `unresolved bug in GTK "
 "<http://stackoverflow.com/questions/32106765/>`_."
-msgstr ""
+msgstr "GtkTextView : associez-le à un GtkTextBuffer. Pour gérer le signal ``changed`` sur le GtkTextBuffer, nous devons définir un gestionnaire qui invoque le générique ``on_textbuffer_changed``, le seul rôle de cette fonction est de transmettre notre gestionnaire générique le nom de l’attribut de modèle qui reçoit le changement. Il s’agit d’un workaroud pour un ' bug non résolu dans GTK <http: stackoverflow.com/questions/32106765/="">' _.</http:>"
 
 #: ../../building.rst:415
 msgid ""
@@ -693,38 +767,38 @@ msgid ""
 "file, so we don't even try.  Use the ``init_translatable_combo`` method "
 "of the generic ``GenericEditorView`` class, but please invoke it from the"
 " **presenter**."
-msgstr ""
+msgstr "GtkComboBox avec textes traduits ne peut pas être facilement manipulé du fichier glade, donc nous n’essayez même pas.  Utilisez la méthode de ``init_translatable_combo`` de la classe générique de ``GenericEditorView``, mais s’il vous plaît appeler à partir du **présentateur**."
 
 #: ../../building.rst:420
 msgid ""
 "The **Model** is just an object with known attributes. In this "
 "interaction, the **model** is just a passive data container, it does "
 "nothing more than to let the **presenter** modify it."
-msgstr ""
+msgstr "Le **modèle** est juste un objet avec des attributs connus. Dans cette interaction, les **modèle** est juste un conteneur de données passives, il ne fait rien plus que de laisser le **présentateur** modifiez-le."
 
 #: ../../building.rst:424
 msgid "The subclassed **Presenter** defines and implements:"
-msgstr ""
+msgstr "Le sous-classé **présentateur** définit et met en œuvre :"
 
 #: ../../building.rst:426
 msgid ""
 "``widget_to_field_map``, a dictionary associating widget names to name of"
 " model attributes,"
-msgstr ""
+msgstr "``widget_to_field_map``, un dictionnaire associant les noms de widget au nom des attributs de modèle,"
 
 #: ../../building.rst:428 ../../extending.rst:24
 msgid ""
 "``view_accept_buttons``, the list of widget names which, if activated by "
 "the user, mean that the view should be closed,"
-msgstr ""
+msgstr "``view_accept_buttons``, la liste des noms de widget qui, si activé par l’utilisateur, cela signifie que la vue doit être fermée,"
 
 #: ../../building.rst:430 ../../extending.rst:26
 msgid "all needed callbacks,"
-msgstr ""
+msgstr "tous besoin de rappels,"
 
 #: ../../building.rst:431 ../../extending.rst:27
 msgid "optionally, it plays the **model** role, too."
-msgstr ""
+msgstr "éventuellement, il joue le **modèle** rôle, trop."
 
 #: ../../building.rst:433
 msgid ""
@@ -733,13 +807,13 @@ msgid ""
 "**presenter** commits all **model** updates to the database when the "
 "**view** is closed successfully, or rolls them back if the **view** is "
 "canceled. (this behaviour is influenced by the parameter ``do_commit``)"
-msgstr ""
+msgstr "Le **présentateur** réactualise la **modèle** selon les changements dans le **vue**. Si le **modèle** correspond à un objet de base de données, le **présentateur** commet tous **mises à jour modèle** de la base de données lorsque le **vue** est fermé avec succès, ou les annule si la **vue** est annulée. (ce comportement est influencé par le paramètre ``do_commit``)"
 
 #: ../../building.rst:439
 msgid ""
 "If the **model** is something else, then the **presenter** will do "
 "something else."
-msgstr ""
+msgstr "Si le **modèle** est autre chose, puis la **présentateur** va faire quelque chose d’autre."
 
 #: ../../building.rst:444
 msgid ""
@@ -748,7 +822,7 @@ msgid ""
 "learn from the practice of our misbehaving presenters, some of which "
 "directly handle fields of ``view.widgets``. By doing so, these presenters"
 " prevents us from writing unit tests."
-msgstr ""
+msgstr "Un sage **présentateur** utilise le **vue** api pour interroger les valeurs insérées par l’utilisateur ou pour régler par la force des statuts de widget. S’il vous plaît n’apprennent pas de la pratique de nos animateurs de mauvaise conduites, certains dont manipuler directement les champs du ``view.widgets``. Ce faisant, ces présentateurs nous empêche d’écrire des tests unitaires."
 
 #: ../../building.rst:450
 msgid ""
@@ -756,7 +830,7 @@ msgid ""
 "``bauble.editor``, implements many useful generic callbacks.  There is a "
 "``MockView`` class, that you can use when writing tests for your "
 "presenters."
-msgstr ""
+msgstr "La classe de base pour le présentateur, ``GenericEditorPresenter``, définie dans ``bauble.editor``, implémente de nombreux rappels génériques utiles.  Il y a une classe de ``MockView``, que vous pouvez utiliser lorsque vous écrivez des tests à vos présentations."
 
 #: ../../building.rst:455
 msgid "Examples"
@@ -766,13 +840,13 @@ msgstr ""
 msgid ""
 "``Contact`` and ``ContactPresenter`` are implemented following the above "
 "lines.  The view is defined in the ``contact.glade`` file."
-msgstr ""
+msgstr "``Contact`` et ``ContactPresenter`` sont mis en œuvre suivant les lignes ci-dessus.  L’affichage est défini dans le fichier ``contact.glade``."
 
 #: ../../building.rst:460
 msgid ""
 "A good example of Presenter/View pattern (no model) is given by the "
 "connection manager."
-msgstr ""
+msgstr "Un bon exemple de modèle de mode/Présentateur (pas de modèle) est donné par le gestionnaire de connexions."
 
 #: ../../building.rst:463 ../../extending.rst:39
 msgid ""
@@ -780,11 +854,11 @@ msgid ""
 "setting the presenter also as model. We do this, for example, for the "
 "JSON export dialog box. The following command will give you a list of "
 "``GenericEditorView`` instantiations::"
-msgstr ""
+msgstr "Nous utilisons le même schéma architectural d’interaction non-base de données, en définissant le présentateur aussi comme modèle. Nous faisons cela, par exemple, pour la boîte de dialogue exportation JSON. La commande suivante vous donnera une liste des instanciations de ``GenericEditorView`` ::"
 
 #: ../../building.rst:471 ../../extending.rst:50
 msgid "Extending Ghini with Plugins"
-msgstr ""
+msgstr "Ghini qui s’étend avec des Plugins"
 
 #: ../../building.rst:473 ../../extending.rst:52
 msgid ""
@@ -808,11 +882,11 @@ msgstr ""
 msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
-msgstr ""
+msgstr "Le plugin ``Tag`` est un bon exemple de minime, même si le ``TagItemGUI`` n’entre pas dans le modèle architectural de Model-View-Presenter."
 
 #: ../../building.rst:484 ../../devdl.rst:347
 msgid "Plugins structure"
-msgstr ""
+msgstr "Structure de plugins"
 
 #: ../../building.rst:486 ../../devdl.rst:349
 msgid ""
@@ -821,34 +895,34 @@ msgid ""
 "Ghini stays a framework and you could in theory remove all plugins we "
 "distribute and write your own, or write your own plugins that extend or "
 "complete the current Ghini behaviour."
-msgstr ""
+msgstr "Ghini est un cadre pour la gestion des collections et est distribué avec un ensemble de plugins des Ghini un gestionnaire de collection botanique. Mais Ghini reste un cadre, et vous pouvez en théorie supprimer tous les plugins, nous distribuons et écrire vos propres, ou écrire vos propres plugins que prolonger ou compléter le comportement actuel de Ghini."
 
 #: ../../building.rst:492 ../../devdl.rst:355
 msgid ""
 "Once you have selected and opened a database connection, you land in the "
 "Search window. The Search window is an interaction between two objects: "
 "SearchPresenter (SP) and SearchView (SV)."
-msgstr ""
+msgstr "Une fois que vous avez sélectionné et ouvert une connexion de base de données, vous atterrissez dans la fenêtre de recherche. Le moteur de recherche est une interaction entre deux objets : SearchPresenter (SP) et SearchView (SV)."
 
 #: ../../building.rst:496 ../../devdl.rst:359
 msgid ""
 "SV is what you see, SP holds the program status and handles the requests "
 "you express through SV. Handling these requests affect the content of SV "
 "and the program status in SP."
-msgstr ""
+msgstr "SV est ce que vous voyez, SP détient le statut de programme et gère les requêtes que vous exprimez par le biais de SV. Traitement de ces demandes affectent le contenu de la SV et l’état du programme de SP."
 
 #: ../../building.rst:500 ../../devdl.rst:363
 msgid ""
 "The search results shown in the largest part of SV are rows, objects that"
 " are instances of classes registered in a plugin."
-msgstr ""
+msgstr "Les résultats de recherche affichés dans la plus grande partie du SV sont rangées, les objets qui sont des instances de classes enregistrés dans un plugin."
 
 #: ../../building.rst:503 ../../devdl.rst:366
 msgid ""
 "Each of these classes must implement an amount of functions in order to "
 "properly behave within the Ghini framework. The Ghini framework reserves "
 "space to pluggable classes."
-msgstr ""
+msgstr "Chacune de ces classes doit implémenter une somme de fonctions afin de se comporter correctement dans le cadre de Ghini. Le cadre Ghini réserve un espace aux classes enfichables."
 
 #: ../../building.rst:507 ../../devdl.rst:370
 msgid ""
@@ -856,7 +930,7 @@ msgid ""
 "dictionary, associating a class to its plugin implementation.  SV has a "
 "slot (a gtk.Box) where you can add elements. At any time, at most only "
 "one element in the slot is visible."
-msgstr ""
+msgstr "SP connaît de toutes les classes (branchés) enregistrés, ils sont stockés dans un dictionnaire, associant une classe pour sa mise en oeuvre du plugin.  SV a un emplacement (un gtk. Box) où vous pouvez ajouter des éléments. À tout moment, au plus qu’un seul élément dans la fente est visible."
 
 #: ../../building.rst:512 ../../devdl.rst:375
 msgid ""
@@ -865,54 +939,54 @@ msgid ""
 "callbacks needed by the associated partial view fitting in the slot (pV -"
 " plugin view), and the MVP pattern is completed by the parent presenter "
 "(SP), again acting as model. To summarize and complete:"
-msgstr ""
+msgstr "Un plugin définit une ou plusieurs classes de plugin. Une classe de plugin joue le rôle d’un présentateur partiel (pP - plugin présentateur) car il implémente les rappels nécessaires par la vue partielle associée dans la fente (pV - plugin vue), et le MVP est complété par le présentateur de parent (SP), agissant à nouveau comme modèle. Pour résumer et remplir :"
 
 #: ../../building.rst:518 ../../devdl.rst:381
 msgid "SP acts as model,"
-msgstr ""
+msgstr "SP sert de modèle,"
 
 #: ../../building.rst:519 ../../devdl.rst:382
 msgid "the pV partial view is defined in a glade file."
-msgstr ""
+msgstr "la vue partielle pV est définie dans un fichier glade."
 
 #: ../../building.rst:520 ../../devdl.rst:383
 msgid "the callbacks implemented by pP are referenced by the glade file."
-msgstr ""
+msgstr "les rappels mis en œuvre par pP sont référencées par le fichier glade."
 
 #: ../../building.rst:521 ../../devdl.rst:384
 msgid "a context menu for the SP row,"
-msgstr ""
+msgstr "un menu contextuel pour la ligne SP,"
 
 #: ../../building.rst:522 ../../devdl.rst:385
 msgid "a children property."
-msgstr ""
+msgstr "une propriété children."
 
 #: ../../building.rst:524 ../../devdl.rst:387
 msgid "when you register a plugin class, the SP:"
-msgstr ""
+msgstr "Lorsque vous vous inscrivez à une classe de plugin, le SP :"
 
 #: ../../building.rst:526 ../../devdl.rst:389
 msgid "adds the pV in the slot and makes it non-visible."
-msgstr ""
+msgstr "Ajoute le pV dans la fente et le rend invisible."
 
 #: ../../building.rst:527 ../../devdl.rst:390
 msgid "adds an instance of pP in the registered plugin classes."
-msgstr ""
+msgstr "Ajoute une instance de pP dans les classes de plugin enregistrés."
 
 #: ../../building.rst:528 ../../devdl.rst:391
 msgid "tells the pP that the SP is the model."
-msgstr ""
+msgstr "raconte le pP que la SP est le modèle."
 
 #: ../../building.rst:529 ../../devdl.rst:392
 msgid "connects all callbacks from pV to pP."
-msgstr ""
+msgstr "se connecte tous les rappels de pV à pP."
 
 #: ../../building.rst:531 ../../devdl.rst:394
 msgid ""
 "when an element in pV triggers an action in pP, the pP can forward the "
 "action to SP and can request SP that it updates the model and refreshes "
 "the view."
-msgstr ""
+msgstr "Lorsqu’un élément dans la pV de déclencher une action en pP, le pP peut transmettre l’action au SP et peut demander des SP qu’il met à jour le modèle et actualise l’affichage."
 
 #: ../../building.rst:535 ../../devdl.rst:398
 msgid ""
@@ -920,21 +994,21 @@ msgid ""
 "slot and shows only the single pV relative to the type of the selected "
 "row, and asks the pP to refresh the pV with whatever is relative to the "
 "selected row."
-msgstr ""
+msgstr "Lorsque l’utilisateur sélectionne une ligne dans SP, SP cache tout dans la fente pluggable montre seulement le seul pV par rapport au type de la ligne sélectionnée et demande à la pP pour actualiser le pV avec tout ce qui est relatif à la ligne sélectionnée."
 
 #: ../../building.rst:539 ../../devdl.rst:402
 msgid ""
 "Apart from setting the visibility of the various pV, nothing needs be "
 "disabled nor removed: an invisible pV cannot trigger events!"
-msgstr ""
+msgstr "En dehors de définir la visibilité du pV divers, rien doit être désactivé ni supprimé : un pV invisible ne peut pas déclencher des événements !"
 
 #: ../../building.rst:543
 msgid "bug solving workflow"
-msgstr ""
+msgstr "flux de travail résolution de bogue"
 
 #: ../../building.rst:546
 msgid "normal development workflow"
-msgstr ""
+msgstr "flux de travail de développement normal"
 
 #: ../../building.rst:548
 msgid ""
@@ -942,152 +1016,152 @@ msgid ""
 "something that could be better, you think about it good enough in order "
 "to have a very clear idea of what it really is, that you noticed. you "
 "open an issue and describe the problem. someone might react with hints."
-msgstr ""
+msgstr "Lorsque vous utilisez le logiciel, vous remarquez un problème, ou vous faire une idée de quelque chose qui pourrait être mieux, vous en pensez assez bon pour avoir une idée très claire de ce qu’il est vraiment, que vous avez remarqué. vous ouvrez un problème et décrivez le problème. quelqu'un pourrait réagir avec des notes."
 
 #: ../../building.rst:552
 msgid "you open the issues site and choose one you want to tackle."
-msgstr ""
+msgstr "vous ouvrez le site de questions et choisissez celui que vous souhaitez aborder."
 
 #: ../../building.rst:553
 msgid ""
 "assign the issue to yourself, this way you are informing the world that "
 "you have the intention to work at it. someone might react with hints."
-msgstr ""
+msgstr "assignez la question à vous-même, de cette façon que vous êtes informer le monde que vous avez l’intention d’y travailler. quelqu'un pourrait réagir avec des notes."
 
 #: ../../building.rst:555
 msgid ""
 "optionally fork the repository in your account and preferably create a "
 "branch, clearly associated to the issue."
-msgstr ""
+msgstr "éventuellement la fourche le dépôt dans votre compte et de préférence créer une branche, clairement liée à la question."
 
 #: ../../building.rst:557
 msgid ""
 "write unit tests and commit them to your branch (please do not push "
 "failing unit tests to github, run ``nosetests`` locally first)."
-msgstr ""
+msgstr "écrire des tests unitaires et elles s’engagent à votre succursale (s’il vous plaît ne pas pousser à défaut des tests unitaires à github, exécutez tout d’abord localement : ``nosetests``)."
 
 #: ../../building.rst:559
 msgid ""
 "write more unit tests (ideally, the tests form the complete description "
 "of the feature you are adding or correcting)."
-msgstr ""
+msgstr "écrire des tests unitaires plus (idéalement, les tests constituent une description complète de la fonctionnalité que vous souhaitez ajouter ou corriger)."
 
 #: ../../building.rst:561
 msgid ""
 "make sure the feature you are adding or correcting is really completely "
 "described by the unit tests you wrote."
-msgstr ""
+msgstr "Assurez-vous que la fonctionnalité vous ajoutez ou correction est vraiment complètement décrite par les tests unitaires, que vous avez écrit."
 
 #: ../../building.rst:563
 msgid ""
 "make sure your unit tests are atomic, that is, that you test variations "
 "on changes along one single variable. do not give complex input to unit "
 "tests or tests that do not fit on one screen (25 lines of code)."
-msgstr ""
+msgstr "Assurez-vous que vos tests unitaires sont atomiques, c'est-à-dire que vous testiez variations sur changements le long d’une seule variable. ne donnez pas de complexe d’entrée pour les tests unitaires ou les tests qui ne tiennent pas sur un seul écran (25 lignes de code)."
 
 #: ../../building.rst:566
 msgid "write the code that makes your tests succeed."
-msgstr ""
+msgstr "écrivez le code qui rend vos tests à réussir."
 
 #: ../../building.rst:567
 msgid "update the i18n files (run ``./scripts/i18n.sh``)."
-msgstr ""
+msgstr "mettre à jour les fichiers i18n (exécuter ``./scripts/i18n.sh``)."
 
 #: ../../building.rst:568
 msgid ""
 "whenever possible, translate the new strings you put in code or glade "
 "files."
-msgstr ""
+msgstr "la mesure du possible, traduire les nouvelles chaînes que vous mettez dans les fichiers de code ou de la clairière."
 
 #: ../../building.rst:570
 msgid "commit your changes."
-msgstr ""
+msgstr "Validez vos modifications."
 
 #: ../../building.rst:571
 msgid "push to github."
-msgstr ""
+msgstr "pousser sur github."
 
 #: ../../building.rst:572
 msgid "open a pull request."
-msgstr ""
+msgstr "Ouvrez une demande de tirer."
 
 #: ../../building.rst:575
 msgid "publishing to production"
-msgstr ""
+msgstr "publication à la production"
 
 #: ../../building.rst:577
 msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``,"
 " compared to ``ghini-x.y-dev``."
-msgstr ""
+msgstr "Ouvrez la traction demande page utilisant comme base une ligne de production ``ghini-x.y``, par rapport à ``ghini-x.y-dev``."
 
 #: ../../building.rst:579
 msgid "make sure a ``bump`` commit is included in the differences."
-msgstr ""
+msgstr "Assurez-vous qu'un commit ``bump`` est inclus dans les différences."
 
 #: ../../building.rst:580
 msgid "it should be possible to automatically merge the branches."
-msgstr ""
+msgstr "Il devrait être possible de fusionner automatiquement les branches."
 
 #: ../../building.rst:581
 msgid "create the new pull request, call it as “publish to the production line”."
-msgstr ""
+msgstr "Créez la nouvelle demande de tirer, appelez-le « publier à la chaîne de production »."
 
 #: ../../building.rst:582
 msgid "you possibly need wait for travis-ci to perform the checks."
-msgstr ""
+msgstr "éventuellement, vous devez attendre pour travis-ci effectuer les contrôles."
 
 #: ../../building.rst:583
 msgid "merge the changes."
-msgstr ""
+msgstr "fusionner les modifications."
 
 #: ../../building.rst:584
 msgid "tell the world about it: on facebook, the google group, linkedin, ..."
-msgstr ""
+msgstr "dire le monde à ce sujet : sur facebook, le groupe google, linkedin,..."
 
 #: ../../building.rst:587
 msgid "closing step"
-msgstr ""
+msgstr "étape de clôture"
 
 #: ../../building.rst:589
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
-msgstr ""
+msgstr "revue de ce flux de travail. Considérez ceci comme une ligne directrice, à vous-même et à vos collègues. s’il vous plaît aider à faire mieux et correspondant à la pratique."
 
 #: ../../db-prepare.rst:2
 msgid "Preparing a Database"
-msgstr ""
+msgstr "Préparer une base de données"
 
 #: ../../db-prepare.rst:5
 msgid "SQLite - the easy choice"
-msgstr ""
+msgstr "SQLite - le choix facile"
 
 #: ../../db-prepare.rst:7
 msgid "there's nothing you need prepare if you are using SQLite."
-msgstr ""
+msgstr "Il n’y a rien que vous devez préparer si vous utilisez SQLite."
 
 #: ../../db-prepare.rst:10
 msgid "PostgreSQL - scalable choice"
-msgstr ""
+msgstr "PostgreSQL - choix évolutif"
 
 #: ../../db-prepare.rst:12
 msgid "allow network connections"
-msgstr ""
+msgstr "autoriser les connexions réseau"
 
 #: ../../db-prepare.rst:14
 msgid "create the bauble main user"
-msgstr ""
+msgstr "créer l’utilisateur principal de brousse"
 
 #: ../../devdl.rst:2
 msgid "Downloading the source"
-msgstr ""
+msgstr "Téléchargement de la source"
 
 #: ../../devdl.rst:4
 msgid ""
 "The Ghini source can be downloaded from our source repository on `github "
 "<http://github.com/Ghini/ghini.desktop>`_."
-msgstr ""
+msgstr "La source de Ghini peut être téléchargée depuis le référentiel de notre source sur ' github <http: github.com/ghini/ghini.desktop="">' _.</http:>"
 
 #: ../../devdl.rst:7
 msgid ""
@@ -1098,7 +1172,7 @@ msgid ""
 "example. Our workflow is to commit to the `master` development branch or "
 "to a `patch` branch and to include the commits into a `release` branch "
 "when ready."
-msgstr ""
+msgstr "Si vous voulez une version particulière de Ghini, nous libérer et de maintenir des versions en branches. La branche correspondant à la version de votre choix, vous devriez ``git checkout``. Les noms de branche pour les versions Ghini sont de la forme ``ghini-x.y``, où x.y peut être 1.0, par exemple. Notre flux de travail est de commettre à la direction du développement de « maître » ou à une branche « patch » et d’inclure le s’engage dans une branche de « libération » lorsque vous êtes prêt."
 
 #: ../../devdl.rst:14
 msgid ""
@@ -1106,37 +1180,37 @@ msgid ""
 "need to install the `Git <http://www.git.org>`_ version control system. "
 "Git is incuded in all reasonable Linux distributions and can be installed"
 " on all current operating systems."
-msgstr ""
+msgstr "Pour vérifier le code plus récent depuis le référentiel de la source, vous devrez installer le ' Git <http: www.git.org="">' _ système de contrôle de version. Git est inclus dans toutes les distributions Linux raisonnables indiqué et peut être installé sur tous les systèmes d’exploitation actuels.</http:>"
 
 #: ../../devdl.rst:19
 msgid ""
 "Once you have installed Git you can checkout the latest Ghini code with "
 "the following command::"
-msgstr ""
+msgstr "Une fois que vous avez installé Git vous pouvez commander le dernier code Ghini avec la commande suivante ::"
 
 #: ../../devdl.rst:24
 msgid ""
 "For more information about other available code branches go to "
 "`ghini.desktop on github <http://www.github.com/Ghini/ghini.desktop>`_."
-msgstr ""
+msgstr "Pour plus d’informations sur les autres codes disponibles branches aller à ' ghini.desktop sur github <http: www.github.com/ghini/ghini.desktop="">' _.</http:>"
 
 #: ../../devdl.rst:34
 msgid ""
 "A bauble production line is a branch. Currently there is only one "
 "production line, that is bauble-1.0.  In perspective, we will have "
 "several one, each in use by one or more gardens."
-msgstr ""
+msgstr "Une ligne de production de brousse est une branche. Il y a actuellement qu’une seule ligne de production, c'est-à-dire bauble-1.0.  Point de vue, nous aurons un plusieurs, chacun en cours d’utilisation par un ou plusieurs jardins."
 
 #: ../../devdl.rst:38
 msgid ""
 "As long as we have only one production line, I keep working on the master"
 " branch, unless I later realize the work is going to take longer than one"
 " or two days."
-msgstr ""
+msgstr "Aussi longtemps que nous n'avons qu’une seule ligne de production, je continue à travailler sur la branche master, à moins que plus tard, je me rends compte que du travail va prendre plus d’un ou deux jours."
 
 #: ../../devdl.rst:43
 msgid "batches of simple issues"
-msgstr ""
+msgstr "lots de questions simples"
 
 #: ../../devdl.rst:45
 msgid ""
@@ -1144,48 +1218,48 @@ msgid ""
 "there's no other activity on the repository, work on the master branch, "
 "accumulate issue-solving commits, finally merge master into the "
 "production line bauble-1.0."
-msgstr ""
+msgstr "Pour les questions qui peuvent être gérés dans un ou deux s’engage et tant qu’il n’y a aucune autre activité sur le référentiel, travailler sur la branche master, accumuler s’engage à cause des problèmes, enfin fusionner maître dans la ligne de production bauble-1.0."
 
 #: ../../devdl.rst:53
 msgid ""
 "When facing a single larger issue, create a branch tag, and follow the "
 "workflow described at"
-msgstr ""
+msgstr "Face à un problème plus vaste unique, créez une étiquette de branche et suivez le workflow décrit à"
 
 #: ../../devdl.rst:64
 msgid ""
 "work on the new branch. When ready, go to github, merge the branch with "
 "master, solve conflicts where necessary, delete the temporary branch."
-msgstr ""
+msgstr "travailler sur la nouvelle branche. Lorsque vous êtes prêt, allez à github, fusionner la branche avec maître, résoudre les conflits, le cas échéant, supprimez la branche temporaire."
 
 #: ../../devdl.rst:67
 msgid "when ready for publication, merge master into the production line."
-msgstr ""
+msgstr "Lorsque vous êtes prêt pour la publication, fusionner maître dans la chaîne de production."
 
 #: ../../devdl.rst:93
 msgid ""
 "To update the ``po`` filese relative to the documentation, you need a up-"
 "to-date checkout of both projects. The root directory of the ghini"
 ".desktop-docs.i18n project contains a script with an all telling name::"
-msgstr ""
+msgstr "Pour mettre à jour le filese ``po`` par rapport à la documentation, vous avez besoin d’une extraction à jour des deux projets. Le répertoire racine du projet ghini.desktop-docs.i18n contient un script avec un nom tout en dit long ::"
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
-msgstr ""
+msgstr "Modification et insertion de données"
 
 #: ../../editing.rst:6
 msgid ""
 "The main way that we add or change information in Ghini is by using the "
 "editors.  Each basic type of data has its own editor.  For example there "
 "is a Family editor, a Genus editor, an Accession editor, etc."
-msgstr ""
+msgstr "Le principal moyen que nous ajouter ou modifier des informations dans Ghini est en utilisant les éditeurs.  Chaque type de base de données possède son propre éditeur.  Par exemple, il y a un rédacteur en chef de famille, un éditeur de genre, un éditeur d’adhésion, etc.."
 
 #: ../../editing.rst:10
 msgid ""
 "To create a new record click on the :menuselection:`Insert` menu on the "
 "menubar and then select the type of record your would like to create.  "
 "This opens a new blank editor for the type."
-msgstr ""
+msgstr "Pour créer un nouveau clic record sur le : menuselection : « Insert » menu dans la barre de menus, puis sélectionnez le type d’enregistrement vos souhaitez créer.  Cela ouvre un nouvel éditeur de vide pour le type."
 
 #: ../../editing.rst:14
 msgid ""
@@ -1193,7 +1267,7 @@ msgid ""
 "search results and select :menuselection:`Edit` from the popup menu.  "
 "This opens an editor that allows you to change the values on the record "
 "that you selected."
-msgstr ""
+msgstr "Pour modifier un enregistrement existant dans la base de données faites un clic droit sur un élément dans les résultats de recherche et sélectionnez : menuselection : « Modifier » dans le menu contextuel.  Cela ouvre un éditeur qui permet de modifier les valeurs dans le dossier que vous avez sélectionné."
 
 #: ../../editing.rst:19
 msgid ""
@@ -1201,7 +1275,7 @@ msgid ""
 "parent and selecting \"Add ???...\" on the context menu.  For example, a "
 "Family has Genus children: you can add a Genus to a Family by right "
 "clicking on a Family and selecting \"Add genus\"."
-msgstr ""
+msgstr "La plupart des types ont aussi des enfants que vous pouvez ajouter en un clic droit sur le parent et en sélectionnant \"Add ??? ... \ » dans le menu contextuel.  Par exemple, une famille a genre enfants : vous pouvez ajouter un genre à une famille en un clic droit sur une famille et en sélectionnant \"Add genus\ »."
 
 #: ../../editing.rst:26
 msgid "Notes"
@@ -1211,20 +1285,20 @@ msgstr ""
 msgid ""
 "Almost all of the editors in Ghini have a *Notes* tab which should work "
 "the same regardless of which editor you are using."
-msgstr ""
+msgstr "Presque tous les éditeurs à Ghini ont une * Notes * onglet qui devrait fonctionner de la même indépendamment de quel éditeur Utilisez-vous."
 
 #: ../../editing.rst:30
 msgid ""
 "If you enter a web address in a note then the link shows up in the Links "
 "box when the item your are editing is selected in the search results."
-msgstr ""
+msgstr "Si vous entrez une adresse web dans une note, le lien apparaît dans les liens boîte lorsque la question vous êtes édition est sélectionné dans les résultats de recherche."
 
 #: ../../editing.rst:33
 msgid ""
 "You can browse the notes for an item in the database using the Notes box "
 "at the bottom of the screen.  The Notes box is desensitized if the "
 "selected item does not have any notes."
-msgstr ""
+msgstr "Vous pouvez consulter les notes d’un élément dans la base de données à l’aide de la boîte de Notes au bas de l’écran.  La boîte de Notes est désensibilisée si l’élément sélectionné ne possède pas toutes les notes."
 
 #: ../../editing.rst:39 ../../searching.rst:44
 msgid "Family"
@@ -1232,19 +1306,19 @@ msgstr "Famille"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
-msgstr ""
+msgstr "Le rédacteur en chef de famille vous permet d’ajouter ou de modifier une famille botanique."
 
 #: ../../editing.rst:42
 msgid ""
 "The *Family* field on the editor lets you change the epithet of the "
 "family. The Family field is required."
-msgstr ""
+msgstr "La * famille * champ sur l’éditeur vous permet de changer l’épithète de la famille. Le champ de la famille est obligatoire."
 
 #: ../../editing.rst:45
 msgid ""
 "The *Qualifier* field lets you change the family qualifier.  The value "
 "can either be *sensu lato*, *sensu stricto*, or nothing."
-msgstr ""
+msgstr "Le * qualification * champ vous permet de changer le qualificatif de famille.  La valeur peut être * sensu lato *, * sensu stricto *, ou rien."
 
 #: ../../editing.rst:48
 msgid ""
@@ -1255,28 +1329,28 @@ msgid ""
 "a synonym click on the Add button next to the synonym list and the "
 "software adds the selected synonym to the list.  To remove a synonym, "
 "select the synonym from the list and click on the Remove button."
-msgstr ""
+msgstr "* Synonymes * permettent d’ajouter d’autres familles qui sont synonymes avec la famille, que vous êtes actuellement en train de modifier.  Pour ajouter un nouveau type de synonymes dans un nom de famille dans l’entrée.  Vous devez sélectionner un nom de famille dans la liste de complètements. Une fois que vous avez sélectionné un nom de famille que vous souhaitez ajouter comme synonyme, cliquez sur le bouton Ajouter en regard de la liste de synonyme et le logiciel ajoute le synonyme sélectionné à la liste.  Pour supprimer un synonyme, sélectionnez le synonyme dans la liste et cliquez sur le bouton supprimer."
 
 #: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
 msgid "To cancel your changes without saving then click on the *Cancel* button."
-msgstr ""
+msgstr "Pour annuler vos modifications sans enregistrer les modifications, puis cliquez sur la * bouton de Cancel."
 
 #: ../../editing.rst:58
 msgid "To save the family you are working on then click *OK*."
-msgstr ""
+msgstr "Pour sauver la famille vous travaillez, puis cliquez sur * OK *."
 
 #: ../../editing.rst:60
 msgid ""
 "To save the family you are working on and add a genus to it then click on"
 " the *Add Genera* button."
-msgstr ""
+msgstr "Pour sauver la famille, vous travaillez sur et y ajouter le genre puis cliquez sur le * genres * Ajouter bouton."
 
 #: ../../editing.rst:63
 msgid ""
 "To add another family when you are finished editing the current one click"
 " on the *Next* button on the bottom.  This saves the current family and "
 "opens a new blank family editor."
-msgstr ""
+msgstr "Pour ajouter une autre famille lorsque vous avez terminé celui en cours d’édition cliquez sur le * suivant * le bouton sur le bas.  Ceci enregistre la famille actuelle et ouvre un nouvel éditeur de famille vide."
 
 #: ../../editing.rst:69 ../../searching.rst:45
 msgid "Genus"
@@ -1284,7 +1358,7 @@ msgstr "Genre"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
-msgstr ""
+msgstr "L’éditeur de genre vous permet d’ajouter ou de modifier un genre botanique."
 
 #: ../../editing.rst:73
 msgid ""
@@ -1292,17 +1366,17 @@ msgid ""
 "for the genus.  When you begin type a family name it will show a list of "
 "families to choose from.  The family name must already exist in the "
 "database before you can set it as the family for the genus."
-msgstr ""
+msgstr "La * famille * champ sur l’éditeur de genre vous permet de choisir la famille pour le genre.  Lorsque vous commencez le type un patronyme il montrera une liste des familles à choisir.  Le nom de famille doit déjà exister dans la base de données avant que vous pouvez le définir comme la famille pour le genre."
 
 #: ../../editing.rst:78
 msgid "The *Genus* field allows you to set the genus for this entry."
-msgstr ""
+msgstr "Le * genre * champ permet de définir le genre pour cette entrée."
 
 #: ../../editing.rst:80
 msgid ""
 "The *Author* field allows you to set the name or abbreviation of the "
 "author(s) for the genus."
-msgstr ""
+msgstr "Le * auteur * champ permet de définir le nom ou l’abréviation du ou des auteurs du genre."
 
 #: ../../editing.rst:83
 msgid ""
@@ -1313,24 +1387,24 @@ msgid ""
 "click on the Add button next to the synonym list and it will add the "
 "selected synonym to the list.  To remove a synonym select the synonym "
 "from the list and click on the Remove button."
-msgstr ""
+msgstr "* Synonymes * permettent d’ajouter d’autres genres qui sont synonymes avec le genre que vous sont actuellement en train de modifier.  Pour ajouter un nouveau type de synonymes dans un nom de genre dans l’entrée.  Vous devez sélectionner un nom de genre dans la liste de complètements.  Une fois que vous avez sélectionné un nom du genre que vous souhaitez ajouter comme synonyme, cliquez sur le bouton Ajouter en regard de la liste de synonyme et il ajoutera le synonyme sélectionné à la liste.  Pour supprimer un synonyme sélectionner le synonyme dans la liste et cliquez sur le bouton supprimer."
 
 #: ../../editing.rst:93
 msgid "To save the genus you are working on then click *OK*."
-msgstr ""
+msgstr "Pour sauver le genre vous travaillez, puis cliquez sur * OK *."
 
 #: ../../editing.rst:95
 msgid ""
 "To save the genus you are working on and add a species to it then click "
 "on the *Add Species* button."
-msgstr ""
+msgstr "Pour sauver le genre vous travaillez sur et inscrire une espèce à elle, puis cliquez sur le * espèces * Ajouter bouton."
 
 #: ../../editing.rst:98
 msgid ""
 "To add another genus when you are finished editing the current one click "
 "on the *Next* button on the bottom.  This will save the current genus and"
 " open a new blank genus editor."
-msgstr ""
+msgstr "Pour ajouter un autre genre, lorsque vous avez fini de modifier le cours d’un clic sur le * suivant * le bouton sur le bas.  Ceci enregistrer le genre actuel et ouvrir un nouvel éditeur de genre vide."
 
 #: ../../editing.rst:104
 msgid "Species/Taxon"
@@ -1343,30 +1417,30 @@ msgid ""
 "  The species editor allows you to construct the name as well as "
 "associate metadata with the taxon such as its distribution, synonyms and "
 "other information."
-msgstr ""
+msgstr "Pour des raisons historiques, appelées une « espèce », mais par là nous entendons un « taxon » à classer « espèce » ou plus bas.  Il représente un nom unique dans la base de données.  L’éditeur d’espèces permet de construire le nom mais aussi associer le taxon tels que sa distribution, de synonymes et autres informations de métadonnées."
 
 #: ../../editing.rst:112
 msgid ""
 "The *Infraspecific parts* in the species editor allows you to specify the"
 " `taxon` further than at `species` rank."
-msgstr ""
+msgstr "Le * infraspécifique pièces * dans l’éditeur d’espèces permet d’indiquer le « taxon » plus loin au rang de « espèce »."
 
 #: ../../editing.rst:117
 msgid "To save the species you are working on then click *OK*."
-msgstr ""
+msgstr "Pour sauver l’espèce vous travaillez, puis cliquez sur * OK *."
 
 #: ../../editing.rst:119
 msgid ""
 "To save the species you are working on and add an accession to it then "
 "click on the *Add Accession* button."
-msgstr ""
+msgstr "Pour sauver l’espèce, vous travaillez sur et ajoutez une adhésion à celle-ci, puis cliquez sur le * adhésion * Ajouter bouton."
 
 #: ../../editing.rst:122
 msgid ""
 "To add another species when you are finished editing the current one "
 "click on the *Next* button on the bottom.  This will save the current "
 "species and open a new blank species editor."
-msgstr ""
+msgstr "Pour ajouter une autre espèce, lorsque vous avez fini de modifier le cours d’un clic sur le * suivant * le bouton sur le bas.  Cela va sauver l’espèce actuelle et ouvrir un nouvel éditeur d’espèces vide."
 
 #: ../../editing.rst:127
 msgid "Accessions"
@@ -1379,18 +1453,18 @@ msgid ""
 " would refer maybe a group of seed or cuttings from a species.  A plant "
 "would be an individual from that accesssion, i.e. a specific plant in a "
 "specific location."
-msgstr ""
+msgstr "L’éditeur d’adhésion nous permet d’ajouter une adhésion à une espèce.  Ghini une adhésion représente un groupe de plantes ou de clones.  L’adhésion se réfère peut-être un groupe des graines ou des boutures d’une espèce.  Une plante serait un individu de cette accesssion, c'est-à-dire une plante spécifique à un emplacement spécifique."
 
 #: ../../editing.rst:136
 msgid "Accession Source"
-msgstr ""
+msgstr "Source de l’adhésion"
 
 #: ../../editing.rst:137
 msgid ""
 "The source of the accessions lets you add more information about where "
 "this accession came from.  At the moment the type of the source can be "
 "either a Collection or a Donation."
-msgstr ""
+msgstr "La source des adhésions vous permet d’ajouter plus d’informations sur la provenance de cette adhésion.  À l’heure actuelle, le type de la source peut être soit un don ou une Collection."
 
 #: ../../editing.rst:143 ../../searching.rst:53
 msgid "Collection"
@@ -1398,7 +1472,7 @@ msgstr ""
 
 #: ../../editing.rst:144
 msgid "A Collection."
-msgstr ""
+msgstr "une collection"
 
 #: ../../editing.rst:148
 msgid "Donation"
@@ -1414,24 +1488,24 @@ msgstr "Plante"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
-msgstr ""
+msgstr "L’éditeur de l’usine."
 
 #: ../../editing.rst:158
 msgid "Creating multiple plants"
-msgstr ""
+msgstr "Création de plusieurs usines"
 
 #: ../../editing.rst:159
 msgid ""
 "You can create multiple Plants by using ranges in the code entry. This is"
 " only allowed when creating new plants and it is not possible when "
 "editing existing Plants in the database."
-msgstr ""
+msgstr "Vous pouvez créer plusieurs usines en utilisant des gammes dans l’entrée de code. C’est seulement lors de la création de nouvelles usines et il n’est pas possible lors de la modification des installations existantes dans la base de données."
 
 #: ../../editing.rst:163
 msgid ""
 "For example the range, 3-5 will create plant with code 3,4,5.  The range "
 "1,4-7,25 will create plants with codes 1,4,5,6,7,25."
-msgstr ""
+msgstr "Par exemple la plage, 3-5 créera plante avec code 3,4,5.  La gamme 1,4-7,25 créera des plantes avec les codes 1,4,5,6,7,25."
 
 #: ../../editing.rst:166
 msgid ""
@@ -1439,7 +1513,7 @@ msgid ""
 " to indicate that you are now creating multiple plants.  Any fields that "
 "are set while in this mode will be copied to all the plants that are "
 "created."
-msgstr ""
+msgstr "Lorsque vous entrez la plage à l’entrée de code usine l’entrée s’allume bleue pour indiquer que vous créez maintenant plusieurs usines.  Tous les champs qui sont définis dans ce mode seront copiés dans toutes les plantes qui sont créés."
 
 #: ../../editing.rst:174
 msgid "Pictures"
@@ -1451,14 +1525,14 @@ msgid ""
 "associated to them, Plants can have *Pictures*: next to the tab for "
 "Notes, the Plants editor contains an extra tab called \"Pictures\". You "
 "can associate as many pictures as you might need to a plant."
-msgstr ""
+msgstr "Comme presque tous les objets dans le Ghini, base de données peut avoir * Notes * associés à eux, peuvent avoir des plantes * photos * : à côté de l’onglet Notes, l’éditeur de plantes contient un onglet supplémentaire appelé \"Pictures\ ». Vous pouvez associer autant de photos que vous pourriez avoir besoin d’une plante."
 
 #: ../../editing.rst:181
 msgid ""
 "When you associate a picture to a plant, the file is copied in the "
 "*pictures* folder, and a miniature (500x500) is generated and copied in "
 "the `thumbnails` folder inside of the pictures folder."
-msgstr ""
+msgstr "Lorsque vous associez une photo à une plante, le fichier est copié dans le * dossier de photos et une miniature (500 x 500) est généré et copié dans le dossier « miniatures » à l’intérieur du dossier images."
 
 #: ../../editing.rst:185
 msgid ""
@@ -1468,7 +1542,7 @@ msgid ""
 "Dropbox. The personal choice of the writer of this document is to use "
 "Copy, because it offers much more space and because of its \"Fair "
 "Storage\" policy."
-msgstr ""
+msgstr "À partir de Ghini-1.0.62, les photos ne sont pas conservés dans la base de données. Pour s’assurer que les images sont disponibles sur tous les terminaux où vous avez installé et configuré Ghini, vous pouvez utiliser un service tel que copie ou Dropbox de partage de fichiers. Le choix personnel de l’auteur du présent document consiste à utiliser la copie, car il offre beaucoup plus d’espace et à cause de sa \"Fair Storage\ » politique."
 
 #: ../../editing.rst:191
 msgid ""
@@ -1476,7 +1550,7 @@ msgid ""
 "specified the details of your database connection. Again, you should make"
 " sure that the pictures root folder is shared with your file sharing "
 "service of choice."
-msgstr ""
+msgstr "N’oubliez pas que vous avez configuré le dossier racine de photos lorsque vous avez spécifié les détails de votre connexion à la base. Encore une fois, vous devez vous assurer que l’images du dossier racine est partagé avec votre service de choix de partage de fichiers."
 
 #: ../../editing.rst:196
 msgid ""
@@ -1485,7 +1559,7 @@ msgid ""
 "When an accession in the selection is highlighted, any picture associated"
 " to the plants in the highlighted accession are displayed in the pictures"
 " pane."
-msgstr ""
+msgstr "Quand une usine dans la sélection actuelle est en surbrillance, ses images sont affichées dans le volet images, le volet de gauche du volet d’informations. Lorsque l’adhésion dans la sélection en surbrillance, n’importe quelle image associée aux plantes à l’adhésion en surbrillance s’affichent dans le volet images."
 
 #: ../../editing.rst:202
 msgid "Locations"
@@ -1493,11 +1567,11 @@ msgstr ""
 
 #: ../../editing.rst:203
 msgid "The Location editor"
-msgstr ""
+msgstr "L’éditeur de carte"
 
 #: ../../editing.rst:206
 msgid "danger zone"
-msgstr ""
+msgstr "zone de sécurité"
 
 #: ../../editing.rst:208
 msgid ""
@@ -1505,14 +1579,14 @@ msgid ""
 "zone*. The widgets contained in this section allow the user to merge the "
 "current location into a different location, letting the user correct "
 "spelling mistakes or implement policy changes."
-msgstr ""
+msgstr "L’éditeur emplacement contient une section initialement cachée nommée * danger zone *. Les widgets contenues dans cette section permettent à l’utilisateur de fusionner l’emplacement actuel dans un emplacement différent, laissant l’utilisateur de corriger les fautes d’orthographe ou de mettre en œuvre des changements de politique."
 
 #: ../../extending.rst:4
 msgid ""
 "The user interface is built according to the Model-View-Presenter "
 "architectural pattern.  In theory, but also in the practice of all new "
 "parts of the software:"
-msgstr ""
+msgstr "L’interface utilisateur est construit selon le modèle architectural de Model-View-Presenter.  En théorie, mais aussi dans la pratique de toutes les nouvelles pièces du logiciel :"
 
 #: ../../extending.rst:8
 msgid ""
@@ -1521,7 +1595,7 @@ msgid ""
 "defined in ``bauble.editor``. Create an instance of the base class, "
 "passing it the **glade** file name and the root widget name, then handle "
 "the instance to the **presenter** constructor."
-msgstr ""
+msgstr "Le **vue** est décrite dans le cadre d’un **fichier glade**. Cela inclut les associations de signal-rappel. La classe de base est ``GenericEditorView``, définie dans ``bauble.editor``. Créez une instance de la classe de base, en lui passant le **glade** nom de fichier et le nom du widget racine, puis gérer l’instance à la **présentateur** constructeur."
 
 #: ../../extending.rst:14
 msgid ""
@@ -1530,17 +1604,17 @@ msgid ""
 "**presenter** commits all **model** updates to the database if the "
 "**view** is closed successfully, or rolls them back if the **view** is "
 "canceled."
-msgstr ""
+msgstr "Le **modèle** suit simplement les pratiques sqlalchemy. Le **présentateur** continuellement mises à jour selon les changements dans le **vue**. Le **présentateur** commet tous **modèle** met à jour la base de données si le **vue** est fermé avec succès, ou les annule si la **vue** est annulée."
 
 #: ../../extending.rst:20
 msgid "The subclassed **presenter** defines and implements:"
-msgstr ""
+msgstr "Le sous-classé **présentateur** définit et met en œuvre :"
 
 #: ../../extending.rst:22
 msgid ""
 "``widget_to_field_map``, the association from widget name to name of "
 "model attribute,"
-msgstr ""
+msgstr "``widget_to_field_map``, l’association du widget à un nom d’attribut de modèle,"
 
 #: ../../extending.rst:29
 msgid ""
@@ -1548,46 +1622,46 @@ msgid ""
 "inserted by the user or to forcibly set widget statuses. Please do not "
 "learn from the practice in our older presenters, most of which directly "
 "handle widgets, something that prevents us from writing unit tests."
-msgstr ""
+msgstr "Un sage **présentateur** utilise le **vue** api pour interroger les valeurs insérées par l’utilisateur ou pour régler par la force des statuts de widget. S’il vous plaît n’apprennent pas de la pratique dans nos plus anciens animateurs, plus dont manipuler directement les widgets, ce qui nous empêche d’écrire des tests unitaires."
 
 #: ../../extending.rst:34
 msgid ""
 "There is no way to unit test a subclassed view, so please don't subclass "
 "views."
-msgstr ""
+msgstr "N’a aucun moyen de test unitaire une vue sous-classé, donc s’il vous plaît ne pas vues de la sous-classe."
 
 #: ../../extending.rst:36
 msgid ""
 "The base class for the presenter, ``GenericEditorPresenter`` defined in "
 "``bauble.editor``, implements many useful generic callbacks."
-msgstr ""
+msgstr "La classe de base pour le présentateur, ``GenericEditorPresenter``, définie dans ``bauble.editor``, implémente de nombreux rappels génériques utiles."
 
 #: ../../extending.rst:46
 msgid ""
 "An other good example of Presenter/View pattern (no model) is given by "
 "the connection manager."
-msgstr ""
+msgstr "Un autre bon exemple de modèle présentateur / (pas de modèle) est donné par le gestionnaire de connexions."
 
 #: ../../goal.rst:2
 msgid "Ghini's goals and highlights"
-msgstr ""
+msgstr "Objectifs et les points culminants de Ghini"
 
 #: ../../goal.rst:4
 msgid ""
 "Should you use this software? This question is for you to answer. We "
 "trust that if you manage a botanic collection, you will find Ghini overly"
 " useful and we hope that this page will convince you about it."
-msgstr ""
+msgstr "Si vous utilisez ce logiciel ? Cette question est pour vous répondre. Nous sommes persuadés que si vous gérez une collection botanique, vous y trouverez Ghini trop utile et nous espérons que cette page vous convaincra à ce sujet."
 
 #: ../../goal.rst:8
 msgid ""
 "This page shows how Ghini makes software meet the needs of a botanic "
 "garden."
-msgstr ""
+msgstr "Cette page montre comment Ghini rend les logiciel à répondre aux besoins d’un jardin botanique."
 
 #: ../../goal.rst:11
 msgid "Botanic Garden"
-msgstr ""
+msgstr "Jardin botanique"
 
 #: ../../goal.rst:13
 msgid ""
@@ -1597,26 +1671,26 @@ msgid ""
 "Wikipedia, »a garden is a planned space, usually outdoors, set aside for "
 "the display, cultivation, and enjoyment of plants and other forms of "
 "nature.«"
-msgstr ""
+msgstr "Selon Wikipedia, » un botanic(al) jardin est un jardin dédié à la collection, la culture et l’affichage d’une large gamme de plantes étiquetées avec leurs noms botaniques « et toujours selon Wikipedia, » un jardin est un espace prévu, habituellement à l’extérieur, mis de côté pour l’affichage, culture et plaisir de plantes et d’autres formes de la nature. «"
 
 #: ../../goal.rst:19
 msgid ""
 "So we have in a botanic garden both the physical space, the garden, as "
 "its dynamic, the activities to which the garden is dedicated, activities "
 "which makes us call the garden a botanic garden."
-msgstr ""
+msgstr "Nous avons donc dans un jardin botanique les deux l’espace physique, le jardin, comme sa dynamique, les activités à laquelle est dédié le jardin, activités qui nous fait appellent le jardin un jardin botanique."
 
 #: ../../goal.rst:25
 msgid "**the physical garden**"
-msgstr ""
+msgstr "**le jardin physique**"
 
 #: ../../goal.rst:29
 msgid "**collection related activities in the garden**"
-msgstr ""
+msgstr "**collection des activités connexes dans le jardin**"
 
 #: ../../goal.rst:32
 msgid "Botanic Garden Software"
-msgstr ""
+msgstr "Logiciel jardin botanique"
 
 #: ../../goal.rst:34
 msgid ""
@@ -1625,24 +1699,24 @@ msgid ""
 "program designed to perform a group of coordinated functions, tasks, or "
 "activities for the benefit of the user«, or, in short, »designed to help "
 "people perform an activity«."
-msgstr ""
+msgstr "À l’autre bout de notre raisonnement, nous avons l’application du programme Ghini et citant à nouveau la Wikipedia, » un programme d’application est un programme informatique conçu pour exécuter un groupe de fonctions coordonnées, des tâches ou activités au profit de l’utilisateur «, ou, en bref, » conçu pour aider les gens à accomplir une activité «."
 
 #: ../../goal.rst:40
 msgid ""
 "Data and algorithms within Ghini have been designed to represent the "
 "physical space and the dynamic of a botanic garden."
-msgstr ""
+msgstr "Données et algorithmes au sein de Ghini ont été conçus pour représenter l’espace physique et la dynamique d’un jardin botanique."
 
 #: ../../goal.rst:45 ../../searching.rst:158
 msgid "**core structure of Ghini's database**"
-msgstr ""
+msgstr "**structure de la base de base de données de Ghini**"
 
 #: ../../goal.rst:47
 msgid ""
 "The central element in Ghini's point of view is the ``Accession``. "
 "Following its links to other database objects lets us better understand "
 "the structure:"
-msgstr ""
+msgstr "L’élément central dans la perspective de Ghini est la ``adhésion``. Suivant ses liens à d’autres objets de base de données nous permet de mieux comprendre la structure :"
 
 #: ../../goal.rst:50
 msgid ""
@@ -1662,7 +1736,7 @@ msgid ""
 "have been removed, sold, or have died. Identifying the ``Species`` of an "
 "``Accession`` consistently connects all its ``Plantings`` to the "
 "``Species``."
-msgstr ""
+msgstr "Une ``Accession`` reste dans la base de données, même si toutes ses ``Plantings`` ont été enlevés, vendus, ou sont morts. Avec son lien à son ``Species``, une ``Accession`` connecte touts ses ``Plantings`` à la ``Species``."
 
 #: ../../goal.rst:64
 msgid ""
@@ -1673,14 +1747,14 @@ msgid ""
 "slightly different taxa, so the database allows for zero  or more "
 "``Accessions`` per ``Propagation`` (0..n). Also a ``Contact`` may provide"
 " zero or more ``Accessions`` (0..n)."
-msgstr ""
+msgstr "``Propagations`` et ``Contacts`` fournissent des matières végétales pour le jardin ; Cette information est facultative et petits collectionneurs préfèrent laisser cela de côté. Un procès ``Propagation`` peut être infructueux, la plupart du temps qu'elle se traduira par une adhésion, mais il peut aussi produire légèrement différents taxons, donc la base permet de zéro ou plusieurs ``Accession`` par ``Propagation`` (0.. n). Également un ``Contact`` peut fournir zéro ou plusieurs ``Accessions`` (0.. n)."
 
 #: ../../goal.rst:71
 msgid ""
 "Specialists may formulate their opinion about the ``Species`` to which an"
 " ``Accession`` belongs, by providing a ``Verification``, signing it, and "
 "stating the applicable level of confidence."
-msgstr ""
+msgstr "Spécialistes peuvent formuler leurs avis sur la ``Species`` auquel appartient une ``Accession``, en fournissant une ``Verification``, en signant et en indiquant le niveau de confiance applicable."
 
 #: ../../goal.rst:75
 msgid ""
@@ -1688,7 +1762,7 @@ msgid ""
 "``Propagation``, the ``Propagation`` links the ``Accession`` and all of "
 "its ``Plantings`` to a single parent ``Planting``, the seed or the "
 "vegetative parent."
-msgstr ""
+msgstr "Si une ``Accession`` a été obtenue dans la pépinière du jardin d’une succès ``Propagation``, les liens de ``Propagation`` la ``Accession`` et tous ses ``Plantings`` à un seul parent ``Planting``, la graine ou le parent végétatif."
 
 #: ../../goal.rst:80
 msgid ""
@@ -1698,11 +1772,11 @@ msgid ""
 "\"accession\" thing anyway?  Most discussions on the net don't make the "
 "concept any clearer. One of our users gave an example which I'm glad to "
 "include in Ghini's documentation."
-msgstr ""
+msgstr "Même après les explications qui précèdent, nouveaux utilisateurs demandent généralement encore pourquoi ils ont besoin de passer par un écran ``Accession`` alors que tout ce qu’ils veulent est d’insérer une ``Planting`` dans la collection et encore une fois : quelle est cette \"accession\ » chose quand même ?  La plupart des discussions sur le net ne font pas le concept plus clair. Un de nos utilisateurs a donné un exemple dont je suis heureux d’inclure dans la documentation de Ghini."
 
 #: ../../goal.rst
 msgid "use case"
-msgstr ""
+msgstr "cas d'utilisation"
 
 #: ../../goal.rst:87
 msgid ""
@@ -1712,7 +1786,7 @@ msgid ""
 "them a single unique ``Accession`` code, with quantity 5) and we planted "
 "them all together at one ``Location`` as a single ``Planting``, also with"
 " quantity 5."
-msgstr ""
+msgstr "Au début de 2007, nous avons obtenu cinq plantules de * Heliconia longa * (une plante ``Species``) de notre voisin (la source de ``Contact``). Puisque c’était la première acquisition de l’année, nous avons nommé les 2007.0001 (nous leur avons donné un code unique unique ``Accession``, avec quantité 5) et nous avons planté eux tous ensemble à un ``Location`` comme un ``Planting`` unique, aussi avec quantité 5."
 
 #: ../../goal.rst:95
 msgid ""
@@ -1721,7 +1795,7 @@ msgid ""
 "obtained vegetatively (asexually) from the original 5 plants. Our only "
 "intervention was splitting, moving, and of course writing this "
 "information in the database. Total plant quantity is above 40."
-msgstr ""
+msgstr "Au moment de l’écriture, neuf ans plus tard, ``Accession`` 2007.0001 a 6 distinctes ``Planting``, chacun à un ``Location`` différent dans notre jardin, obtenu par voie végétative (asexuée) des 5 plantes originales. Notre seule intervention était fractionner, déplacer et bien sûr écrire ces informations dans la base de données. La quantité totale de la plante est supérieur à 40."
 
 #: ../../goal.rst:102
 msgid ""
@@ -1729,11 +1803,11 @@ msgid ""
 "our database under different ``Accession`` codes, where our garden is the"
 " ``Contact`` source and where we know which of our ``Plantings`` is the "
 "seed parent."
-msgstr ""
+msgstr "Nouvelles ``Planting`` obtenues par ``Propagation`` sexuelle (assistée) viennent dans notre base de données sous différents codes de ``Accession``, où notre jardin est la source de ``Contact`` et où nous savons lesquels de nos ``Plantings`` est le parent de la graine."
 
 #: ../../goal.rst:107
 msgid "the above three cases translate into several short usage stories:"
-msgstr ""
+msgstr "les trois cas ci-dessus se traduisent plusieurs histoires courtes utilisation :"
 
 #: ../../goal.rst:109
 msgid ""
@@ -1741,34 +1815,34 @@ msgid ""
 "correctness of the ``Species`` *Heliconia longa*, specify the initial "
 "quantity of the ``Accession``; add its ``Planting`` at the desired "
 "``Location``."
-msgstr ""
+msgstr "activer le menu Insertion → adhésion, vérifier l’existence et l’exactitude de la ``Species`` * Heliconia longa *, spécifiez la quantité initiale de l’``Accession``  ; ajouter son ``Planting`` à la ``Location`` souhaité."
 
 #: ../../goal.rst:113
 msgid ""
 "edit ``Planting`` to correct the amount of living plants — repeat this as"
 " often as necessary."
-msgstr ""
+msgstr "modifier ``Planting`` pour corriger la quantité de plantes vivantes — répète aussi souvent que nécessaire."
 
 #: ../../goal.rst:115
 msgid ""
 "edit ``Planting`` to split it at separate ``Locations`` — this produces a"
 " different ``Planting`` under the same ``Accession``."
-msgstr ""
+msgstr "modifier ``Planting`` pour diviser les ``Location`` distincts — ce qui produit un ``Planting`` différente sous la même ``Accession``."
 
 #: ../../goal.rst:117
 msgid "edit ``Planting`` to add a (seed) ``Propagation``."
-msgstr ""
+msgstr "modifier ``Planting`` pour ajouter une ``Propagation`` (graine)."
 
 #: ../../goal.rst:118
 msgid "edit ``Planting`` to update the status of the ``Propagation``."
-msgstr ""
+msgstr "modifier ``Planting`` pour mettre à jour l’état de la ``Propagation``."
 
 #: ../../goal.rst:119
 msgid ""
 "activate the menu Insert → Accession to associate an accession to a "
 "successful ``Propagation`` trial; add the ``Planting`` at the desired "
 "``Location``."
-msgstr ""
+msgstr "activer le menu Insertion → adhésion à associer une adhésion à un essai réussi de ``Propagation`` ; Ajouter le ``Planting`` à la ``Location`` souhaité."
 
 #: ../../goal.rst:123
 msgid ""
@@ -1777,11 +1851,11 @@ msgid ""
 " the possibility to keep information about ``Plantings`` that have been "
 "removed from the collection, help justify the presence of the "
 "``Accession`` abstraction level."
-msgstr ""
+msgstr "En particulier la possibilité de scinder une ``Planting`` plusieurs différents ``Location`` et de garder tous les uniformément associée à une ``Species``, ou la possibilité de garder des informations sur les ``Plantings`` qui ont été supprimées de la collection, aider à justifier la présence de la niveau d’abstraction ``Accession``."
 
 #: ../../goal.rst:131
 msgid "Our User Stories section contains details about the above, and more."
-msgstr ""
+msgstr "Notre section de récits utilisateur contient des détails sur ce qui précède et plus encore."
 
 #: ../../goal.rst:136 ../../peptalk.rst:2
 msgid "Highlights"
@@ -1789,11 +1863,11 @@ msgstr ""
 
 #: ../../goal.rst:137 ../../peptalk.rst:3
 msgid "not-so-brief list of highlights, meant to whet your appetite."
-msgstr ""
+msgstr "non-ainsi-brève liste des faits saillants, vise à vous mettre en appétit."
 
 #: ../../goal.rst:140 ../../peptalk.rst:6
 msgid "taxonomic information"
-msgstr ""
+msgstr "informations taxonomiques"
 
 #: ../../goal.rst:142 ../../peptalk.rst:8
 msgid ""
@@ -1809,7 +1883,7 @@ msgstr ""
 
 #: ../../goal.rst:152 ../../peptalk.rst:18
 msgid "importing data"
-msgstr ""
+msgstr "Importation de données"
 
 #: ../../goal.rst:154 ../../peptalk.rst:20
 msgid ""
@@ -1817,7 +1891,7 @@ msgid ""
 "format. What you import will complete what you already have in the "
 "database. If you need help, you can ask some Ghini professional to help "
 "you transform your data into Ghini's intermediate json format."
-msgstr ""
+msgstr "Ghini vous permet d’importer toutes les données que vous mettre dans un format intermédiaire json. Ce que vous importez viendra compléter ce que vous avez déjà dans la base de données. Si vous avez besoin d’aide, vous pouvez demander certains professionnel Ghini pour vous aider à transformer vos données au format json intermédiaire de Ghini."
 
 #: ../../goal.rst:160 ../../peptalk.rst:26
 msgid "synonyms"
@@ -1828,11 +1902,11 @@ msgid ""
 "Ghini will allow you define synonyms for species, genera, families. Also "
 "this information can be represented in its intermediate json format and "
 "be imported in an existing Ghini database."
-msgstr ""
+msgstr "Ghini permettra de que vous définir des synonymes pour les espèces, des genres, des familles. Aussi, cette information peut être représentée dans son format json intermédiaire et être importée dans une base de données existante de Ghini."
 
 #: ../../goal.rst:167 ../../peptalk.rst:33
 msgid "scientific responsible"
-msgstr ""
+msgstr "scientifique responsable"
 
 #: ../../goal.rst:169 ../../peptalk.rst:35
 msgid ""
@@ -1842,22 +1916,22 @@ msgid ""
 "not agree on the identification: each taxonomist can have their say and "
 "do not need overwrite each other's work. All verifications can be found "
 "back in the database, with timestamp and signature."
-msgstr ""
+msgstr "Ghini implémente le concept de « adhésion », intermédiaire entre les installations matérielles (ou un groupe) et abstraites de taxon. Chaque adhésion peut associer les mêmes plantes de taxons différents, si deux taxonomistes ne s’entendent pas sur l’identification : chaque taxonomiste peuvent avoir leur mot à dire et ne doivent pas remplacer le travail des uns et des autres. Toutes les vérifications se trouvent dans la base de données, avec la signature et l’horodatage."
 
 #: ../../goal.rst:177 ../../peptalk.rst:43
 msgid "helps off-line identification"
-msgstr ""
+msgstr "aide identification hors ligne"
 
 #: ../../goal.rst:179 ../../peptalk.rst:45
 msgid ""
 "Ghini allows you associate pictures to physical plants, this can help "
 "recognize the plant in case a sticker is lost, or help taxonomic "
 "identification if a taxonomist is not available at all times."
-msgstr ""
+msgstr "Ghini permet de vous associer des photos à des installations physiques, cela peut aider à reconnaître la plante dans le cas où un autocollant est perdu, ou aide identification taxonomique si un taxonomiste n’est pas disponible en tout temps."
 
 #: ../../goal.rst:184 ../../peptalk.rst:50
 msgid "exports and reports"
-msgstr ""
+msgstr "exportations et rapports"
 
 #: ../../goal.rst:186 ../../peptalk.rst:52
 msgid ""
@@ -1865,29 +1939,29 @@ msgid ""
 "It uses a powerful templating engine named 'mako', which will allow you "
 "export the data in a selection to whatever format you need. Once "
 "installed, a couple of examples are available in the mako subdirectory."
-msgstr ""
+msgstr "Ghini vous permet d’exporter un rapport dans n’importe quel format textuel dont vous avez besoin. Il utilise un moteur de templating puissant nommé « mako », qui permettra de que vous exportez les données dans une sélection à n’importe quel format dont vous avez besoin. Une fois installé, il existe quelques exemples dans le sous-répertoire de mako."
 
 #: ../../goal.rst:192 ../../peptalk.rst:58
 msgid "annotate your info"
-msgstr ""
+msgstr "annoter vos infos"
 
 #: ../../goal.rst:194 ../../peptalk.rst:60
 msgid ""
 "You can associate notes to plants, accessions, species, .... Notes can be"
 " categorized and used in searches or reports."
-msgstr ""
+msgstr "Vous pouvez associer des notes de plantes, des adhésions, des espèces... Notes peuvent être catégorisés et utilisés dans des recherches ou des rapports."
 
 #: ../../goal.rst:198 ../../peptalk.rst:64
 msgid "garden or herbarium"
-msgstr ""
+msgstr "jardin ou herbier"
 
 #: ../../goal.rst:200 ../../peptalk.rst:66
 msgid "Management of plant locations."
-msgstr ""
+msgstr "Gestion des emplacements de la plante."
 
 #: ../../goal.rst:203 ../../peptalk.rst:69
 msgid "database history"
-msgstr ""
+msgstr "histoire de la base de données"
 
 #: ../../goal.rst:205 ../../peptalk.rst:71
 msgid ""
@@ -1895,11 +1969,11 @@ msgid ""
 "All changes are 'signed' and time-stamped.  Ghini makes it easy to "
 "retrieve the list of all changes in the last working day or week, or in "
 "any specific period in the past."
-msgstr ""
+msgstr "Toutes les modifications dans la base de données est stockée dans la base de données, comme journal de l’histoire. Toutes les modifications sont « signées » et horodatées.  Ghini, il est facile d’extraire la liste de tous les changements dans la journée de travail ou la semaine dernière, ou dans une période spécifique dans le passé."
 
 #: ../../goal.rst:211 ../../peptalk.rst:77
 msgid "simple and powerful search"
-msgstr ""
+msgstr "Recherche simple et puissante"
 
 #: ../../goal.rst:213 ../../peptalk.rst:79
 msgid ""
@@ -1907,11 +1981,11 @@ msgid ""
 "name of the location or a genus name, or you can write more complex "
 "queries, which do not reach the complexity of SQL but allow you a decent "
 "level of detail localizing your data."
-msgstr ""
+msgstr "Ghini vous permet de rechercher la base de données en utilisant des mots-clés simples, par exemple : le nom de l’emplacement ou un nom de genre ou vous pouvez écrire des requêtes plus complexes, qui n’atteignent pas la complexité du SQL, mais vous permettent un niveau décent de localiser vos données en détail."
 
 #: ../../goal.rst:219 ../../peptalk.rst:85
 msgid "database agnostic"
-msgstr ""
+msgstr "indépendant de la base de données"
 
 #: ../../goal.rst:221 ../../peptalk.rst:87
 msgid ""
@@ -1928,7 +2002,7 @@ msgstr ""
 
 #: ../../goal.rst:232 ../../peptalk.rst:98
 msgid "language agnostic"
-msgstr ""
+msgstr "indépendant du langage"
 
 #: ../../goal.rst:234 ../../peptalk.rst:100
 msgid ""
@@ -1937,11 +2011,11 @@ msgid ""
 "been translated and can be used in various other languages, including "
 "Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
 "American languages, as well as Swedish (100%) and Czech (100%)."
-msgstr ""
+msgstr "Le programme est né en anglais et toute sa documentation technique et utilisateur n’est encore que dans cette langue, mais le programme lui-même a été traduit et peut être utilisé en plusieurs autres langues, y compris espagnol (86 %), portugais (100 %), Français (42 %), pour ne nommer que quelques langues d’Amérique du Sud, ainsi que les suédois (100 %) et tchèque (100 %)."
 
 #: ../../goal.rst:241 ../../peptalk.rst:107
 msgid "platform agnostic"
-msgstr ""
+msgstr "indépendant de la plate-forme"
 
 #: ../../goal.rst:243 ../../peptalk.rst:109
 msgid ""
@@ -1950,11 +2024,11 @@ msgid ""
 " ubuntu, fedora or debian is consequently even easier. MacOSX being based"
 " on unix, it is possible to successfully run the Linux installation "
 "procedure on any recent Apple computer, after a few preparation steps."
-msgstr ""
+msgstr "Installation de Ghini sous Windows est un processus simple et linéaire, il ne faudra pas plu de 10 minutes. Ghini naquit sur Linux et l’installer sur ubuntu, fedora ou debian est par conséquent encore plus facile. MacOSX étant basé sur unix, il est possible d’exécuter avec succès la procédure d’installation de Linux sur n’importe quel ordinateur Apple récemment, après quelques étapes de préparation."
 
 #: ../../goal.rst:250 ../../peptalk.rst:116
 msgid "easily updated"
-msgstr ""
+msgstr "mis à jour facilement"
 
 #: ../../goal.rst:252 ../../peptalk.rst:118
 msgid ""
@@ -1962,11 +2036,11 @@ msgid ""
 "updating it will take less than one minute. Depending on the amount of "
 "feedback we receive, we will produce updates every few days or once in a "
 "while."
-msgstr ""
+msgstr "Le processus d’installation produira une installation actualisable, où la mise à jour prendra moins d’une minute. Selon la quantité de commentaires que nous recevons, nous produirons des mises à jour tous les quelques jours ou une fois dans un certain temps."
 
 #: ../../goal.rst:258 ../../peptalk.rst:124
 msgid "unit tested"
-msgstr ""
+msgstr "Testé"
 
 #: ../../goal.rst:260 ../../peptalk.rst:126
 msgid ""
@@ -1976,13 +2050,13 @@ msgid ""
 "service. Integration of TravisCI with the github platform will make it "
 "difficult for us to release anything which has a single failing unit "
 "test."
-msgstr ""
+msgstr "Ghini est continuellement et unité testées, ce qui rend la régression de la fonctionnalité presque impossible. Chaque mise à jour est automatiquement qualité vérifiée, au service de l’intégration continue de Travis. Intégration de TravisCI avec la plateforme github rendra difficile pour que l'on puisse divulguer quoi que ce soit qui dispose d’une unité unique défaut d’essai."
 
 #: ../../goal.rst:266 ../../peptalk.rst:132
 msgid ""
 "Most changes and additions we make, come with some extra unit test, which"
 " defines the behaviour and will make any undesired change easily visible."
-msgstr ""
+msgstr "La plupart des modifications et des ajouts nous faire, venu avec quelques essais unité supplémentaire, qui définit le comportement et fera tout changement intempestif facilement visible."
 
 #: ../../goal.rst:270 ../../peptalk.rst:136
 msgid "customizable/extensible"
@@ -3773,424 +3847,3 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
-
-#~ msgid "helping bauble development"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "use the software, note the things "
-#~ "you don't like, open issue for "
-#~ "each of them. a developer will "
-#~ "react."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "if you have an idea of what "
-#~ "you miss in the software but can't"
-#~ " quite formalize it into separate "
-#~ "issues, you could consider hiring a "
-#~ "professional. this is the best way "
-#~ "to make sure that something happens "
-#~ "quickly on Ghini. do make sure the"
-#~ " developer opens issues and publishes "
-#~ "their contribution on github."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "translate! any help with translations "
-#~ "will be welcome, so please do! you"
-#~ " can do this without installing "
-#~ "anything on your computer, just using"
-#~ " the on-line translation service "
-#~ "offered by http://hosted.weblate.org/"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "fork the respository, choose an issue,"
-#~ " solve it, open a pull request. "
-#~ "see the `bug solving workflow`_ below."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "write unit tests and commit them "
-#~ "to your branch (do not commit "
-#~ "failing unit tests to the ``master`` "
-#~ "branch)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "open the pull request page using "
-#~ "as base the production line, compared"
-#~ " to ``master``."
-#~ msgstr ""
-
-#~ msgid "Ghini's goal"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "An ``Accession`` may be obtained from"
-#~ " an external ``Contact``, or be the"
-#~ " result of a garden ``Propagation``.  "
-#~ "This information is optional.  A "
-#~ "successful ``Propagation`` trial can only "
-#~ "result in one accession (0..1), while"
-#~ " a ``Contact`` may provide multiple "
-#~ "``Accessions`` (0..n)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "At the beginning of 2007 we got"
-#~ " five seedlings of *Heliconia longa* "
-#~ "(a plant ``Species``) from our neighbour"
-#~ " (the ``Contact`` source). Since it "
-#~ "was the first acquisition of the "
-#~ "year, we named them 2007.0001 (we "
-#~ "gave them a single unique ``Accession``"
-#~ " code) and we planted them all "
-#~ "together at one ``Location`` as a "
-#~ "single ``Planting`` with quantity 5."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "At the time of writing, nine years"
-#~ " later, ``Accession`` 2007.0001 has 6 "
-#~ "distinct ``Plantings``, each at a "
-#~ "different ``Locations`` in our garden, "
-#~ "obtained vegetatively (asexually) from the "
-#~ "original 5 plants. Our only intervention"
-#~ " was splitting, moving, and of course"
-#~ " writing this information in the "
-#~ "database."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The same script you can use to "
-#~ "switch to a different production line,"
-#~ " but at the moment there's only "
-#~ "`ghini-1.0`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Three are three types of search "
-#~ "strategies available in Ghini. Considering "
-#~ "the search stragety types available in"
-#~ " Ghini, sorted in increasing complexity:"
-#~ " you can search by value, expression"
-#~ " or query."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Searching by query, the most complex "
-#~ "and powerful, is assisted by the "
-#~ "Query Builder, described below."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All searches are case insensitive so "
-#~ "searching for Maxillaria and maxillaria "
-#~ "will return the same results."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Search by value is the simplest "
-#~ "way to search. You just type in"
-#~ " a string and see what matches. "
-#~ "Which fields/columns are search for your"
-#~ " string depends on how the different"
-#~ " plugins are configured. For example, "
-#~ "by default the PlantPlugin search the"
-#~ " family name, the genus name, the "
-#~ "species and infraspecific species names, "
-#~ "vernacular names and geography. So if"
-#~ " you want to search in the "
-#~ "notes field of any of these types"
-#~ " then searching by value is not "
-#~ "the search you're looking for."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Examples of searching by value would "
-#~ "be: Maxillaria, Acanth, 2008.1234, 2003.2.1"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Search string are separated by spaces."
-#~ " For example if you enter the "
-#~ "search string ``Block 10`` then Ghini"
-#~ " will search for the strings Block"
-#~ " and 10 and return all the "
-#~ "results that match either of these "
-#~ "strings. If you want to search for"
-#~ " Block 10 as a while string "
-#~ "then you should quote the string "
-#~ "like ``\"Block 10\"``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Searching with expression gives you a"
-#~ " little more control over what you"
-#~ " are searching for. It can narrow "
-#~ "the search down to a specific "
-#~ "domain. Expression consist of a domain,"
-#~ " an operator and a value. For "
-#~ "example the search: ``gen=Maxillaria`` would"
-#~ " return all the genera that match "
-#~ "the name Maxillaria. In this case "
-#~ "the domain is gen, the operator is"
-#~ " = and the value is Maxillaria."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The search string ``gen like max%`` "
-#~ "would return all the genera whose "
-#~ "names start with \"Max\". In this "
-#~ "case the domain again is gen, the"
-#~ " operator is like, which allows for"
-#~ " \"fuzzy\" searching and the value is"
-#~ " max%. The percent sign is used "
-#~ "as a wild card so if you "
-#~ "search for max% then it search for"
-#~ " all value that start with max. "
-#~ "If you search for %max it searches"
-#~ " for all values that end in "
-#~ "max. The string %max%a would search "
-#~ "for all value that contain max and"
-#~ " end in a."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "For more information about the different"
-#~ " search domain and their short-hand"
-#~ " aliases, see search-domains_ ."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If expression are invalid they are "
-#~ "usually used as search by value "
-#~ "searchs. For example the search string"
-#~ " ``gen=`` will execute a search by"
-#~ " value for the string gen and "
-#~ "the search string ``gen like`` will "
-#~ "search for the string gen and the"
-#~ " string like."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Queries allow the most control over "
-#~ "searching. With queries you can search"
-#~ " across relations, specific columns and "
-#~ "join search using boolean operators like"
-#~ " AND and OR."
-#~ msgstr ""
-
-#~ msgid "An example of a query would be::"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This query would return all the "
-#~ "plants whose family are Fabaceae and "
-#~ "are located in Block 10."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Searching with queries usually requires "
-#~ "some knowledge of the Ghini internals"
-#~ " and database table layouts."
-#~ msgstr ""
-
-#~ msgid "A couple of useful examples:"
-#~ msgstr ""
-
-#~ msgid "Which locations are in use::"
-#~ msgstr ""
-
-#~ msgid "Which genera are associated to at least one accession::"
-#~ msgstr ""
-
-#~ msgid "Domains"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The following are the common search "
-#~ "domain and the columns they search "
-#~ "by default. The default columns are "
-#~ "used when searching by value and "
-#~ "expression. The queries do not use "
-#~ "the default columns."
-#~ msgstr ""
-
-#~ msgid "family, fam: Search :class:`bauble.plugins.plants.Family`"
-#~ msgstr ""
-
-#~ msgid "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
-#~ msgstr ""
-
-#~ msgid "species, sp: Search :class:`bauble.plugins.plants.Species`"
-#~ msgstr ""
-
-#~ msgid "geography: Search :class:`bauble.plugins.plants.Geography`"
-#~ msgstr ""
-
-#~ msgid "acc: Search :class:`bauble.plugins.garden.Accession`"
-#~ msgstr ""
-
-#~ msgid "plant: Search :class:`bauble.plugins.garden.Plant`"
-#~ msgstr ""
-
-#~ msgid "location, loc: Search :class:`bauble.plugins.garden.Location`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The Query Builder helps you build "
-#~ "complex search queries through a point"
-#~ " and click interface.  To open the"
-#~ " Query Builder click the to the "
-#~ "left of the search entry or select"
-#~ " :menuselection:`Tools-->Query Builder` from the"
-#~ " menu."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The Query Builder composes a query "
-#~ "that will be understood by the "
-#~ "Query Search Strategy described above. "
-#~ "You can use the Query Builder to"
-#~ " get a feeling of correct queries "
-#~ "before you start typing them by "
-#~ "hand, something that you might prefer"
-#~ " if you are a fast typer."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After opening the Query Builder you "
-#~ "must select a search domain.  The "
-#~ "search domain will determine the type"
-#~ " of data that is returned and "
-#~ "the properties that you can search."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The search domain is similar to a"
-#~ " table in the database and the "
-#~ "properties would be the columns on "
-#~ "the table.  Often the table/domain and"
-#~ " properties/columns are the same but "
-#~ "not always."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Once a search domain is selected "
-#~ "you can then select a property of"
-#~ " the domain to compare values to."
-#~ "  The search operator can then be "
-#~ "changed for how you want to make"
-#~ " the search comparison.  Finally you "
-#~ "must enter a value to compare to"
-#~ " the search property."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If the search property you have "
-#~ "selected can only have specific values"
-#~ " then a list of possible values "
-#~ "will be provided for you to choose"
-#~ " from."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If multiple search properties are "
-#~ "necessary then clicking on the plus "
-#~ "sign will add more search properties."
-#~ "  Select And/Or next to the property"
-#~ " name choose how the properties will"
-#~ " be combined in the search query."
-#~ msgstr ""
-
-#~ msgid "API Documentation"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.db`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All tables/mappers in Ghini which use"
-#~ " the SQLAlchemy declarative plugin for "
-#~ "declaring tables and mappers should "
-#~ "derive from this class."
-#~ msgstr ""
-
-#~ msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
-#~ msgstr ""
-
-#~ msgid "The default metadata for all Ghini tables."
-#~ msgstr ""
-
-#~ msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.connmgr`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.editor`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.i18n`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.ui`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.meta`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.paths`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.pluginmgr`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.prefs`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.task`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.types`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.utils`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.view`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.search`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.plants`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.garden`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.abcd`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.imex`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.report`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.report.xsl`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.report.mako`"
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble.plugins.tag`"
-#~ msgstr ""
-
