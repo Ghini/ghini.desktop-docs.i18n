@@ -1651,7 +1651,7 @@ msgid ""
 "Should you use this software? This question is for you to answer. We "
 "trust that if you manage a botanic collection, you will find Ghini overly"
 " useful and we hope that this page will convince you about it."
-msgstr "Si vous utilisez ce logiciel ? Cette question est pour vous répondre. Nous sommes persuadés que si vous gérez une collection botanique, vous y trouverez Ghini trop utile et nous espérons que cette page vous convaincra à ce sujet."
+msgstr "Ce logiciel, est-il ça que vouz cherchait ? Cette question est pour vous à répondre. Nous sommes persuadés que si vous gérez une collection botanique, vous y trouverez Ghini trop utile et nous espérons que cette page vous convaincra à ce sujet."
 
 #: ../../goal.rst:8
 msgid ""
@@ -1661,7 +1661,7 @@ msgstr "Cette page montre comment Ghini rend les logiciel à répondre aux besoi
 
 #: ../../goal.rst:11
 msgid "Botanic Garden"
-msgstr "Jardin botanique"
+msgstr "Jardin Botanique"
 
 #: ../../goal.rst:13
 msgid ""
@@ -2196,14 +2196,14 @@ msgstr ""
 msgid ""
 "Ghini is an application for managing botanical specimen collections. With"
 " it you can create a searchable database of plant records."
-msgstr ""
+msgstr "Ghini est une application pour la gestion des collections de spécimens botaniques. Avec elle, vous pouvez créer une base de données consultable sur les enregistrements de plantes."
 
 #: ../../index.rst:11
 msgid ""
 "It is `open <http://www.opensource.org>`_ and `free "
 "<http://www.fsf.org>`_ and is released under the `GNU Public License "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
-msgstr ""
+msgstr "Il est `ouvert <http://www.opensource.org>`_ et `livre <http://www.fsf.org>`_ et est diffusé sous `licence GNU <http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
 #: ../../index.rst:17
 msgid "Statements"
