@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-06-23 11:50-0500\n"
+"POT-Creation-Date: 2017-06-27 12:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1459,13 +1459,11 @@ msgstr ""
 msgid ""
 "As of Ghini-1.0.62, Pictures are not kept in the database. To ensure "
 "pictures are available on all terminals where you have installed and "
-"configured Ghini, you can use a file sharing service like Copy or "
-"Dropbox. The personal choice of the writer of this document is to use "
-"Copy, because it offers much more space and because of its \"Fair "
-"Storage\" policy."
+"configured Ghini, you can use a network drive, or a file sharing service "
+"like Tresorit or Dropbox."
 msgstr ""
 
-#: ../../editing.rst:191
+#: ../../editing.rst:190
 msgid ""
 "Remember that you have configured the pictures root folder when you "
 "specified the details of your database connection. Again, you should make"
@@ -1473,7 +1471,7 @@ msgid ""
 "service of choice."
 msgstr ""
 
-#: ../../editing.rst:196
+#: ../../editing.rst:195
 msgid ""
 "When a Plant in the current selection is highlighted, its pictures are "
 "displayed in the pictures pane, the pane left of the information pane. "
@@ -1482,19 +1480,19 @@ msgid ""
 " pane."
 msgstr ""
 
-#: ../../editing.rst:202
+#: ../../editing.rst:201
 msgid "Locations"
 msgstr ""
 
-#: ../../editing.rst:203
+#: ../../editing.rst:202
 msgid "The Location editor"
 msgstr ""
 
-#: ../../editing.rst:206
+#: ../../editing.rst:205
 msgid "danger zone"
 msgstr ""
 
-#: ../../editing.rst:208
+#: ../../editing.rst:207
 msgid ""
 "The location editor contains an initially hidden section named *danger "
 "zone*. The widgets contained in this section allow the user to merge the "
@@ -3752,4 +3750,18 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
+
+#~ msgid ""
+#~ "As of Ghini-1.0.62, Pictures are not "
+#~ "kept in the database. To ensure "
+#~ "pictures are available on all terminals"
+#~ " where you have installed and "
+#~ "configured Ghini, you can use a "
+#~ "file sharing service like Copy or "
+#~ "Dropbox. The personal choice of the "
+#~ "writer of this document is to use"
+#~ " Copy, because it offers much more"
+#~ " space and because of its \"Fair "
+#~ "Storage\" policy."
+#~ msgstr ""
 
