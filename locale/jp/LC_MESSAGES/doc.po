@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-06-27 12:45-0500\n"
+"POT-Creation-Date: 2017-06-27 15:40-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,61 +245,143 @@ msgstr ""
 msgid "Updating the set of translatable strings"
 msgstr ""
 
-#: ../../building.rst:83 ../../devdl.rst:72
+#: ../../building.rst:83
 msgid ""
 "From time to time, during the process of updating the software, you will "
 "be adding or modifying strings in the python sources, in the "
 "documentation, in the glade sources. Most of our strings are "
 "translatable, and are offered to weblate for people to contribute, in the"
-" form of several ``.po`` files. These ``po`` files receive contributions "
-"from weblate, and offer lines without translation from new lines of code."
+" form of several ``.po`` files."
 msgstr ""
 
-#: ../../building.rst:90 ../../devdl.rst:79
+#: ../../building.rst:88
 msgid ""
-"We have organized the translation of ghini as two separate repositories "
-"in github, each repository being associated to sections of the same "
-"project on weblate. Translation of the software is in ghini.desktop, the "
-"software project, while translation of the documentation —itself part of "
-"the software— is in a separate project, ghini.desktop-docs.i18n."
+"A ``po`` file is specific to a language and contains pairs of text, "
+"original and translation. When a translator adds a translation on "
+"weblate, this reaches our repository on github. When a programmer adds a "
+"string to the software, this reaches weblate as \"to be translated\"."
 msgstr ""
 
-#: ../../building.rst:96 ../../devdl.rst:85
+#: ../../building.rst:93
 msgid ""
-"To update the ``po`` files relative to the software, you run a script "
-"from the project root dir::"
+"Weblate hosts the `Ghini <https://hosted.weblate.org/projects/ghini/>`_ "
+"project. Within this project we have components, which correspond to a "
+"branch of a repository on github. Each component accepts translations in "
+"several languages."
 msgstr ""
 
-#: ../../building.rst:101 ../../devdl.rst:90
+#: ../../building.rst:101
 msgid ""
-"This will update your ``po`` files, something you need commit and push to"
-" github."
+"desktop-1.0     ghini.desktop               ghini-1.0-dev desktop-1.1"
+"     ghini.desktop               ghini-1.1-dev docs-1.0        ghini"
+".desktop-docs.i18n     ghini-1.0-dev docs-1.1        ghini.desktop-"
+"docs.i18n     ghini-1.1-dev web-1.2         ghini.web                   "
+"master"
 msgstr ""
 
-#: ../../building.rst:104
+#: ../../building.rst:107
 msgid ""
-"We haven't yet defined a workflow for publishing translated documentation"
-" on readthedocs. If you have experience with it please have a go at it. "
-"Thank you in advance."
+"To update the ``po`` files relative to the *software*, you set the "
+"working directory to the root of your checkout of *ghini.desktop*, and "
+"you run the script::"
 msgstr ""
 
-#: ../../building.rst:110 ../../devdl.rst:102
+#: ../../building.rst:113
+msgid ""
+"To update the ``po`` files relative to the *documentation*, you set the "
+"working directory to the root of your checkout of *ghini.desktop-"
+"docs.i18n*, and you run the script::"
+msgstr ""
+
+#: ../../building.rst:119
+msgid ""
+"When you run either of the above mentioned scripts, chances are you need "
+"to commit *all* ``po`` files in the project. You may want to review the "
+"changes before committing them to the respository. This is most important"
+" when you perform a marginal correction to a string, like removing a "
+"typo."
+msgstr ""
+
+#: ../../building.rst:124
+msgid ""
+"`Our documentation <https://readthedocs.org/projects/ghini/>`_ on "
+"readthedocs has an original English version, and several translations. We"
+" just follow the `description of localisation "
+"<http://docs.readthedocs.io/en/latest/localization.html>`_, there's "
+"nothing that we invented ourselves here."
+msgstr ""
+
+#: ../../building.rst:130
+msgid ""
+"Readthedocs checks the project's *Language* setting, and invokes "
+"``sphinx-intl`` to produce the formatted documentation in the target "
+"language. With the default configuration —which we did not alter— "
+"``sphinx-intl`` expects one ``po`` file per source document, named as the"
+" source document, and that they all reside in the directory "
+"``local/$(LANG)/LC_MESSAGES/``."
+msgstr ""
+
+#: ../../building.rst:137
+msgid ""
+"On the other hand, Weblate (and ourselves) prefer to have a single ``po``"
+" file per language, and to keep them all in the same ``/po`` directory, "
+"just as we do for the software project."
+msgstr ""
+
+#: ../../building.rst:141
+msgid ""
+"We solve this by means of symbolic links (git honors them). When a file "
+"in the documentation is updated, the ``runme.sh`` script will:"
+msgstr ""
+
+#: ../../building.rst:144
+msgid "copy the ``rst`` files from the software to the documentation;"
+msgstr ""
+
+#: ../../building.rst:145
+msgid "create a new ``pot`` file for each of the documentation files;"
+msgstr ""
+
+#: ../../building.rst:146
+msgid "merge all ``pot`` files into one ``doc.pot``;"
+msgstr ""
+
+#: ../../building.rst:147
+msgid ""
+"use the updated ``doc.pot`` to update all ``doc.po`` files (one per "
+"language);"
+msgstr ""
+
+#: ../../building.rst:148
+msgid ""
+"create all symbolic links: a. those expected by ``sphinx-intl`` in "
+"``/local/$(LANG)/LC_MESSAGES/`` b. those used by weblate in "
+"``/po/$(LANG).po``"
+msgstr ""
+
+#: ../../building.rst:152
+msgid ""
+"We could definitely write the above in a Makefile, or even better include"
+" it in ``/doc/Makefile``. Who knows, maybe we will do that."
+msgstr ""
+
+#: ../../building.rst:157 ../../devdl.rst:102
 msgid "Adding missing unit tests"
 msgstr ""
 
-#: ../../building.rst:112 ../../devdl.rst:104
+#: ../../building.rst:159 ../../devdl.rst:104
 msgid ""
 "If you are interested contributing to development of Ghini, a good way to"
 " do so would be by helping us finding and writing the missing unit tests."
 msgstr ""
 
-#: ../../building.rst:115 ../../devdl.rst:107
+#: ../../building.rst:162 ../../devdl.rst:107
 msgid ""
 "A well tested function is one whose behaviour you cannot change without "
 "breaking at least one unit test."
 msgstr ""
 
-#: ../../building.rst:118 ../../devdl.rst:110
+#: ../../building.rst:165 ../../devdl.rst:110
 msgid ""
 "We all agree that in theory theory and practice match perfectly and that "
 "one first writes the tests, then implements the function. In practice, "
@@ -307,34 +389,34 @@ msgid ""
 "after writing and even publishing the functions."
 msgstr ""
 
-#: ../../building.rst:123 ../../devdl.rst:115
+#: ../../building.rst:170 ../../devdl.rst:115
 msgid ""
 "This section describes the process of adding unit tests for "
 "``bauble.plugins.plants.family.remove_callback``."
 msgstr ""
 
-#: ../../building.rst:127 ../../devdl.rst:119
+#: ../../building.rst:174 ../../devdl.rst:119
 msgid "What to test"
 msgstr ""
 
-#: ../../building.rst:129 ../../devdl.rst:121
+#: ../../building.rst:176 ../../devdl.rst:121
 msgid ""
 "First of all, open the coverage report index, and choose a file with low "
 "coverage."
 msgstr ""
 
-#: ../../building.rst:132 ../../devdl.rst:124
+#: ../../building.rst:179 ../../devdl.rst:124
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
 msgstr ""
 
-#: ../../building.rst:135 ../../devdl.rst:127
+#: ../../building.rst:182 ../../devdl.rst:127
 #, python-format
 msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
 msgstr ""
 
-#: ../../building.rst:137 ../../devdl.rst:129
+#: ../../building.rst:184 ../../devdl.rst:129
 msgid ""
 "The first two functions which need tests, ``edit_callback`` and "
 "``add_genera_callback``, include creation and activation of an object "
@@ -342,7 +424,7 @@ msgid ""
 "for that class, then come back here."
 msgstr ""
 
-#: ../../building.rst:142 ../../devdl.rst:134
+#: ../../building.rst:189 ../../devdl.rst:134
 msgid ""
 "The next function, ``remove_callback``, also activates a couple of dialog"
 " and message boxes, but in the form of invoking a function requesting "
@@ -350,90 +432,90 @@ msgid ""
 "with a function mocking the behaviour."
 msgstr ""
 
-#: ../../building.rst:148 ../../devdl.rst:140
+#: ../../building.rst:195 ../../devdl.rst:140
 msgid "how to test"
 msgstr ""
 
-#: ../../building.rst:150 ../../devdl.rst:142
+#: ../../building.rst:197 ../../devdl.rst:142
 msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
 msgstr ""
 
-#: ../../building.rst:156 ../../devdl.rst:148
+#: ../../building.rst:203 ../../devdl.rst:148
 msgid "**parameter correctness**"
 msgstr ""
 
-#: ../../building.rst:154 ../../devdl.rst:146
+#: ../../building.rst:201 ../../devdl.rst:146
 msgid "the list of families has no elements."
 msgstr ""
 
-#: ../../building.rst:155 ../../devdl.rst:147
+#: ../../building.rst:202 ../../devdl.rst:147
 msgid "the list of families has more than one element."
 msgstr ""
 
-#: ../../building.rst:156 ../../devdl.rst:148
+#: ../../building.rst:203 ../../devdl.rst:148
 msgid "the list of families has exactly one element."
 msgstr ""
 
-#: ../../building.rst:160 ../../devdl.rst:152
+#: ../../building.rst:207 ../../devdl.rst:152
 msgid "**cascade**"
 msgstr ""
 
-#: ../../building.rst:159 ../../devdl.rst:151
+#: ../../building.rst:206 ../../devdl.rst:151
 msgid "the family has no genera"
 msgstr ""
 
-#: ../../building.rst:160 ../../devdl.rst:152
+#: ../../building.rst:207 ../../devdl.rst:152
 msgid "the family has one or more genera"
 msgstr ""
 
-#: ../../building.rst:164 ../../devdl.rst:156
+#: ../../building.rst:211 ../../devdl.rst:156
 msgid "**confirm**"
 msgstr ""
 
-#: ../../building.rst:163 ../../devdl.rst:155
+#: ../../building.rst:210 ../../devdl.rst:155
 msgid "the user confirms deletion"
 msgstr ""
 
-#: ../../building.rst:164 ../../devdl.rst:156
+#: ../../building.rst:211 ../../devdl.rst:156
 msgid "the user does not confirm deletion"
 msgstr ""
 
-#: ../../building.rst:168 ../../devdl.rst:160
+#: ../../building.rst:215 ../../devdl.rst:160
 msgid "**deleting**"
 msgstr ""
 
-#: ../../building.rst:167 ../../devdl.rst:159
+#: ../../building.rst:214 ../../devdl.rst:159
 msgid "all goes well when deleting the family"
 msgstr ""
 
-#: ../../building.rst:168 ../../devdl.rst:160
+#: ../../building.rst:215 ../../devdl.rst:160
 msgid "there is some error while deleting the family"
 msgstr ""
 
-#: ../../building.rst:170 ../../devdl.rst:162
+#: ../../building.rst:217 ../../devdl.rst:162
 msgid ""
 "I decide I will only focus on the **cascade** and the **confirm** "
 "aspects. Two binary questions: 4 cases."
 msgstr ""
 
-#: ../../building.rst:174 ../../devdl.rst:166
+#: ../../building.rst:221 ../../devdl.rst:166
 msgid "where to put the tests"
 msgstr ""
 
-#: ../../building.rst:176 ../../devdl.rst:168
+#: ../../building.rst:223 ../../devdl.rst:168
 msgid ""
 "Locate the test script and choose the class where to put the extra unit "
 "tests."
 msgstr ""
 
-#: ../../building.rst:178 ../../devdl.rst:170
+#: ../../building.rst:225 ../../devdl.rst:170
 #, python-format
 msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
 msgstr ""
 
-#: ../../building.rst:180 ../../devdl.rst:172
+#: ../../building.rst:227 ../../devdl.rst:172
 msgid ""
 "The ``FamilyTests`` class contains a skipped test, implementing it will "
 "be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
@@ -442,54 +524,54 @@ msgid ""
 "single function."
 msgstr ""
 
-#: ../../building.rst:187 ../../devdl.rst:179
+#: ../../building.rst:234 ../../devdl.rst:179
 msgid "writing the tests"
 msgstr ""
 
-#: ../../building.rst:189 ../../devdl.rst:181
+#: ../../building.rst:236 ../../devdl.rst:181
 msgid ""
 "After the last test in the FamilyTests class, I add the four cases I want"
 " to describe, and I make sure they fail, and since I'm lazy, I write the "
 "most compact code I know for generating an error::"
 msgstr ""
 
-#: ../../building.rst:206 ../../devdl.rst:198
+#: ../../building.rst:253 ../../devdl.rst:198
 msgid "One test, step by step"
 msgstr ""
 
-#: ../../building.rst:208 ../../devdl.rst:200
+#: ../../building.rst:255 ../../devdl.rst:200
 msgid "Let's start with the first test case."
 msgstr ""
 
-#: ../../building.rst:210 ../../devdl.rst:202
+#: ../../building.rst:257 ../../devdl.rst:202
 msgid "When writing tests, I generally follow the pattern:"
 msgstr ""
 
-#: ../../building.rst:212 ../../devdl.rst:204
+#: ../../building.rst:259 ../../devdl.rst:204
 msgid "T₀ (initial condition),"
 msgstr ""
 
-#: ../../building.rst:213 ../../devdl.rst:205
+#: ../../building.rst:260 ../../devdl.rst:205
 msgid "action,"
 msgstr ""
 
-#: ../../building.rst:214 ../../devdl.rst:206
+#: ../../building.rst:261 ../../devdl.rst:206
 msgid "T₁ (testing the result of the action given the initial conditions)"
 msgstr ""
 
-#: ../../building.rst:216 ../../devdl.rst:208
+#: ../../building.rst:263 ../../devdl.rst:208
 msgid ""
 "There's a reason why unit tests are called unit tests. Please never test "
 "two actions in one test."
 msgstr ""
 
-#: ../../building.rst:219 ../../devdl.rst:211
+#: ../../building.rst:266 ../../devdl.rst:211
 msgid ""
 "So let's describe T₀ for the first test, a database holding a family "
 "without genera::"
 msgstr ""
 
-#: ../../building.rst:227 ../../devdl.rst:219
+#: ../../building.rst:274 ../../devdl.rst:219
 msgid ""
 "We do not want the function being tested to invoke the interactive "
 "``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
@@ -499,11 +581,11 @@ msgid ""
 "boolean. In this case: ``False``::"
 msgstr ""
 
-#: ../../building.rst:245 ../../devdl.rst:237
+#: ../../building.rst:292 ../../devdl.rst:237
 msgid "Next we test the result."
 msgstr ""
 
-#: ../../building.rst:247 ../../devdl.rst:239
+#: ../../building.rst:294 ../../devdl.rst:239
 msgid ""
 "Well, we don't just want to test whether or not the object Arecaceae was "
 "deleted, we also should test the value returned by ``remove_callback``, "
@@ -511,17 +593,17 @@ msgid ""
 " or not."
 msgstr ""
 
-#: ../../building.rst:252 ../../devdl.rst:244
+#: ../../building.rst:299 ../../devdl.rst:244
 msgid ""
 "A ``lambda`` expression is not enough for this. We do something "
 "apparently more complex, which will make life a lot easier."
 msgstr ""
 
-#: ../../building.rst:255 ../../devdl.rst:247
+#: ../../building.rst:302 ../../devdl.rst:247
 msgid "Let's first define a rather generic function::"
 msgstr ""
 
-#: ../../building.rst:261 ../../devdl.rst:253
+#: ../../building.rst:308 ../../devdl.rst:253
 msgid ""
 "and we grab ``partial`` from the ``functools`` standard module, to "
 "partially apply the above ``mockfunc``, leaving only ``msg`` unspecified,"
@@ -530,24 +612,24 @@ msgid ""
 "``utils``. The test function now looks like this::"
 msgstr ""
 
-#: ../../building.rst:283 ../../devdl.rst:275
+#: ../../building.rst:330 ../../devdl.rst:275
 msgid ""
 "The test section checks that ``message_details_dialog`` was not invoked, "
 "that ``yes_no_dialog`` was invoked, with the correct message parameter, "
 "that Arecaceae is still there::"
 msgstr ""
 
-#: ../../building.rst:299 ../../devdl.rst:291
+#: ../../building.rst:346 ../../devdl.rst:291
 msgid "And so on"
 msgstr ""
 
-#: ../../building.rst:301 ../../devdl.rst:293
+#: ../../building.rst:348 ../../devdl.rst:293
 msgid ""
 "`there are two kinds of people, those who complete what they start, and "
 "so on`"
 msgstr ""
 
-#: ../../building.rst:304 ../../devdl.rst:296
+#: ../../building.rst:351 ../../devdl.rst:296
 msgid ""
 "Next test is almost the same, with the difference that the "
 "``utils.yes_no_dialog`` should return ``True`` (this we achieve by "
@@ -555,24 +637,24 @@ msgid ""
 "``mockfunc``)."
 msgstr ""
 
-#: ../../building.rst:309 ../../devdl.rst:301
+#: ../../building.rst:356 ../../devdl.rst:301
 msgid ""
 "With this action, the value returned by ``remove_callback`` should be "
 "``True``, and there should be no Arecaceae Family in the database any "
 "more::"
 msgstr ""
 
-#: ../../building.rst:339 ../../devdl.rst:331
+#: ../../building.rst:386 ../../devdl.rst:331
 msgid ""
 "have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
 "other two test functions."
 msgstr ""
 
-#: ../../building.rst:343
+#: ../../building.rst:390
 msgid "Testing logging"
 msgstr ""
 
-#: ../../building.rst:345
+#: ../../building.rst:392
 msgid ""
 "Our ``bauble.test.BaubleTestCase`` objects use handlers of the class "
 "``bauble.test.MockLoggingHandler``.  Every time an individual unit test "
@@ -581,7 +663,7 @@ msgid ""
 "removing it."
 msgstr ""
 
-#: ../../building.rst:350
+#: ../../building.rst:397
 #, python-format
 msgid ""
 "You can check for presence of specific logging messages in "
@@ -593,29 +675,29 @@ msgid ""
 "to ``logging.Formatter(\"%(message)s\")``."
 msgstr ""
 
-#: ../../building.rst:358
+#: ../../building.rst:405
 msgid ""
 "You can explicitly empty the collected messages by invoking "
 "``self.handler.clear()``."
 msgstr ""
 
-#: ../../building.rst:363 ../../devdl.rst:335
+#: ../../building.rst:410 ../../devdl.rst:335
 msgid "Putting all together"
 msgstr ""
 
-#: ../../building.rst:365 ../../devdl.rst:337
+#: ../../building.rst:412 ../../devdl.rst:337
 msgid "From time to time you want to activate the test class you're working at::"
 msgstr ""
 
-#: ../../building.rst:369 ../../devdl.rst:341
+#: ../../building.rst:416 ../../devdl.rst:341
 msgid "And at the end of the process you want to update the statistics::"
 msgstr ""
 
-#: ../../building.rst:375 ../../extending.rst:2
+#: ../../building.rst:422 ../../extending.rst:2
 msgid "Structure of user interface"
 msgstr ""
 
-#: ../../building.rst:377
+#: ../../building.rst:424
 msgid ""
 "The user interface is built according to the **Model** — **View** — "
 "**Presenter** architectural pattern.  For much of the interface, "
@@ -623,7 +705,7 @@ msgid ""
 "elements where there is no corresponding database model.  In general:"
 msgstr ""
 
-#: ../../building.rst:382
+#: ../../building.rst:429
 msgid ""
 "The **View** is described as part of a **glade** file. This should "
 "include the signal-callback and ListStore-TreeView associations. Just "
@@ -633,7 +715,7 @@ msgid ""
 "over to the **presenter** constructor."
 msgstr ""
 
-#: ../../building.rst:389
+#: ../../building.rst:436
 msgid ""
 "In the glade file, in the ``action-widgets`` section closing your "
 "GtkDialog object description, make sure every ``action-widget`` element "
@@ -642,42 +724,42 @@ msgid ""
 " example:"
 msgstr ""
 
-#: ../../building.rst:395
+#: ../../building.rst:442
 msgid "GTK_RESPONSE_OK, -5"
 msgstr ""
 
-#: ../../building.rst:396
+#: ../../building.rst:443
 msgid "GTK_RESPONSE_CANCEL, -6"
 msgstr ""
 
-#: ../../building.rst:397
+#: ../../building.rst:444
 msgid "GTK_RESPONSE_YES, -8"
 msgstr ""
 
-#: ../../building.rst:398
+#: ../../building.rst:445
 msgid "GTK_RESPONSE_NO, -9"
 msgstr ""
 
-#: ../../building.rst:400
+#: ../../building.rst:447
 msgid ""
 "There is no easy way to unit test a subclassed view, so please don't "
 "subclass views, there's really no need to."
 msgstr ""
 
-#: ../../building.rst:403
+#: ../../building.rst:450
 msgid ""
 "In the glade file, every input widget should define which handler is "
 "activated on which signal.  The generic Presenter class offers generic "
 "callbacks which cover the most common cases."
 msgstr ""
 
-#: ../../building.rst:407
+#: ../../building.rst:454
 msgid ""
 "GtkEntry (one-line text entry) will handle the ``changed`` signal, with "
 "either ``on_text_entry_changed`` or ``on_unique_text_entry_changed``."
 msgstr ""
 
-#: ../../building.rst:409
+#: ../../building.rst:456
 msgid ""
 "GtkTextView: associate it to a GtkTextBuffer. To handle the ``changed`` "
 "signal on the GtkTextBuffer, we have to define a handler which invokes "
@@ -687,7 +769,7 @@ msgid ""
 "<http://stackoverflow.com/questions/32106765/>`_."
 msgstr ""
 
-#: ../../building.rst:415
+#: ../../building.rst:462
 msgid ""
 "GtkComboBox with translated texts can't be easily handled from the glade "
 "file, so we don't even try.  Use the ``init_translatable_combo`` method "
@@ -695,38 +777,38 @@ msgid ""
 " **presenter**."
 msgstr ""
 
-#: ../../building.rst:420
+#: ../../building.rst:467
 msgid ""
 "The **Model** is just an object with known attributes. In this "
 "interaction, the **model** is just a passive data container, it does "
 "nothing more than to let the **presenter** modify it."
 msgstr ""
 
-#: ../../building.rst:424
+#: ../../building.rst:471
 msgid "The subclassed **Presenter** defines and implements:"
 msgstr ""
 
-#: ../../building.rst:426
+#: ../../building.rst:473
 msgid ""
 "``widget_to_field_map``, a dictionary associating widget names to name of"
 " model attributes,"
 msgstr ""
 
-#: ../../building.rst:428 ../../extending.rst:24
+#: ../../building.rst:475 ../../extending.rst:24
 msgid ""
 "``view_accept_buttons``, the list of widget names which, if activated by "
 "the user, mean that the view should be closed,"
 msgstr ""
 
-#: ../../building.rst:430 ../../extending.rst:26
+#: ../../building.rst:477 ../../extending.rst:26
 msgid "all needed callbacks,"
 msgstr ""
 
-#: ../../building.rst:431 ../../extending.rst:27
+#: ../../building.rst:478 ../../extending.rst:27
 msgid "optionally, it plays the **model** role, too."
 msgstr ""
 
-#: ../../building.rst:433
+#: ../../building.rst:480
 msgid ""
 "The **presenter** continuously updates the **model** according to changes"
 " in the **view**. If the **model** corresponds to a database object, the "
@@ -735,13 +817,13 @@ msgid ""
 "canceled. (this behaviour is influenced by the parameter ``do_commit``)"
 msgstr ""
 
-#: ../../building.rst:439
+#: ../../building.rst:486
 msgid ""
 "If the **model** is something else, then the **presenter** will do "
 "something else."
 msgstr ""
 
-#: ../../building.rst:444
+#: ../../building.rst:491
 msgid ""
 "A well behaved **presenter** uses the **view** api to query the values "
 "inserted by the user or to forcibly set widget statuses. Please do not "
@@ -750,7 +832,7 @@ msgid ""
 " prevents us from writing unit tests."
 msgstr ""
 
-#: ../../building.rst:450
+#: ../../building.rst:497
 msgid ""
 "The base class for the presenter, ``GenericEditorPresenter`` defined in "
 "``bauble.editor``, implements many useful generic callbacks.  There is a "
@@ -758,23 +840,23 @@ msgid ""
 "presenters."
 msgstr ""
 
-#: ../../building.rst:455
+#: ../../building.rst:502
 msgid "Examples"
 msgstr ""
 
-#: ../../building.rst:457
+#: ../../building.rst:504
 msgid ""
 "``Contact`` and ``ContactPresenter`` are implemented following the above "
 "lines.  The view is defined in the ``contact.glade`` file."
 msgstr ""
 
-#: ../../building.rst:460
+#: ../../building.rst:507
 msgid ""
 "A good example of Presenter/View pattern (no model) is given by the "
 "connection manager."
 msgstr ""
 
-#: ../../building.rst:463 ../../extending.rst:39
+#: ../../building.rst:510 ../../extending.rst:39
 msgid ""
 "We use the same architectural pattern for non-database interaction, by "
 "setting the presenter also as model. We do this, for example, for the "
@@ -782,34 +864,34 @@ msgid ""
 "``GenericEditorView`` instantiations::"
 msgstr ""
 
-#: ../../building.rst:471 ../../extending.rst:50
+#: ../../building.rst:518 ../../extending.rst:50
 msgid "Extending Ghini with Plugins"
 msgstr ""
 
-#: ../../building.rst:473 ../../extending.rst:52
+#: ../../building.rst:520 ../../extending.rst:52
 msgid ""
 "Nearly everything about Ghini is extensible through plugins. Plugins can "
 "create tables, define custom searchs, add menu items, create custom "
 "commands and more."
 msgstr ""
 
-#: ../../building.rst:477 ../../extending.rst:56
+#: ../../building.rst:524 ../../extending.rst:56
 msgid ""
 "To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
 "class."
 msgstr ""
 
-#: ../../building.rst:480 ../../extending.rst:59
+#: ../../building.rst:527 ../../extending.rst:59
 msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
 msgstr ""
 
-#: ../../building.rst:484 ../../devdl.rst:347
+#: ../../building.rst:531 ../../devdl.rst:347
 msgid "Plugins structure"
 msgstr ""
 
-#: ../../building.rst:486 ../../devdl.rst:349
+#: ../../building.rst:533 ../../devdl.rst:349
 msgid ""
 "Ghini is a framework for handling collections, and is distributed along "
 "with a set of plugins making Ghini a botanical collection manager. But "
@@ -818,34 +900,34 @@ msgid ""
 "complete the current Ghini behaviour."
 msgstr ""
 
-#: ../../building.rst:492 ../../devdl.rst:355
+#: ../../building.rst:539 ../../devdl.rst:355
 msgid ""
 "Once you have selected and opened a database connection, you land in the "
 "Search window. The Search window is an interaction between two objects: "
 "SearchPresenter (SP) and SearchView (SV)."
 msgstr ""
 
-#: ../../building.rst:496 ../../devdl.rst:359
+#: ../../building.rst:543 ../../devdl.rst:359
 msgid ""
 "SV is what you see, SP holds the program status and handles the requests "
 "you express through SV. Handling these requests affect the content of SV "
 "and the program status in SP."
 msgstr ""
 
-#: ../../building.rst:500 ../../devdl.rst:363
+#: ../../building.rst:547 ../../devdl.rst:363
 msgid ""
 "The search results shown in the largest part of SV are rows, objects that"
 " are instances of classes registered in a plugin."
 msgstr ""
 
-#: ../../building.rst:503 ../../devdl.rst:366
+#: ../../building.rst:550 ../../devdl.rst:366
 msgid ""
 "Each of these classes must implement an amount of functions in order to "
 "properly behave within the Ghini framework. The Ghini framework reserves "
 "space to pluggable classes."
 msgstr ""
 
-#: ../../building.rst:507 ../../devdl.rst:370
+#: ../../building.rst:554 ../../devdl.rst:370
 msgid ""
 "SP knows of all registered (plugged in) classes, they are stored in a "
 "dictionary, associating a class to its plugin implementation.  SV has a "
@@ -853,7 +935,7 @@ msgid ""
 "one element in the slot is visible."
 msgstr ""
 
-#: ../../building.rst:512 ../../devdl.rst:375
+#: ../../building.rst:559 ../../devdl.rst:375
 msgid ""
 "A plugin defines one or more plugin classes. A plugin class plays the "
 "role of a partial presenter (pP - plugin presenter) as it implement the "
@@ -862,54 +944,54 @@ msgid ""
 "(SP), again acting as model. To summarize and complete:"
 msgstr ""
 
-#: ../../building.rst:518 ../../devdl.rst:381
+#: ../../building.rst:565 ../../devdl.rst:381
 msgid "SP acts as model,"
 msgstr ""
 
-#: ../../building.rst:519 ../../devdl.rst:382
+#: ../../building.rst:566 ../../devdl.rst:382
 msgid "the pV partial view is defined in a glade file."
 msgstr ""
 
-#: ../../building.rst:520 ../../devdl.rst:383
+#: ../../building.rst:567 ../../devdl.rst:383
 msgid "the callbacks implemented by pP are referenced by the glade file."
 msgstr ""
 
-#: ../../building.rst:521 ../../devdl.rst:384
+#: ../../building.rst:568 ../../devdl.rst:384
 msgid "a context menu for the SP row,"
 msgstr ""
 
-#: ../../building.rst:522 ../../devdl.rst:385
+#: ../../building.rst:569 ../../devdl.rst:385
 msgid "a children property."
 msgstr ""
 
-#: ../../building.rst:524 ../../devdl.rst:387
+#: ../../building.rst:571 ../../devdl.rst:387
 msgid "when you register a plugin class, the SP:"
 msgstr ""
 
-#: ../../building.rst:526 ../../devdl.rst:389
+#: ../../building.rst:573 ../../devdl.rst:389
 msgid "adds the pV in the slot and makes it non-visible."
 msgstr ""
 
-#: ../../building.rst:527 ../../devdl.rst:390
+#: ../../building.rst:574 ../../devdl.rst:390
 msgid "adds an instance of pP in the registered plugin classes."
 msgstr ""
 
-#: ../../building.rst:528 ../../devdl.rst:391
+#: ../../building.rst:575 ../../devdl.rst:391
 msgid "tells the pP that the SP is the model."
 msgstr ""
 
-#: ../../building.rst:529 ../../devdl.rst:392
+#: ../../building.rst:576 ../../devdl.rst:392
 msgid "connects all callbacks from pV to pP."
 msgstr ""
 
-#: ../../building.rst:531 ../../devdl.rst:394
+#: ../../building.rst:578 ../../devdl.rst:394
 msgid ""
 "when an element in pV triggers an action in pP, the pP can forward the "
 "action to SP and can request SP that it updates the model and refreshes "
 "the view."
 msgstr ""
 
-#: ../../building.rst:535 ../../devdl.rst:398
+#: ../../building.rst:582 ../../devdl.rst:398
 msgid ""
 "When the user selects a row in SP, SP hides everything in the pluggable "
 "slot and shows only the single pV relative to the type of the selected "
@@ -917,21 +999,21 @@ msgid ""
 "selected row."
 msgstr ""
 
-#: ../../building.rst:539 ../../devdl.rst:402
+#: ../../building.rst:586 ../../devdl.rst:402
 msgid ""
 "Apart from setting the visibility of the various pV, nothing needs be "
 "disabled nor removed: an invisible pV cannot trigger events!"
 msgstr ""
 
-#: ../../building.rst:543
+#: ../../building.rst:590
 msgid "bug solving workflow"
 msgstr ""
 
-#: ../../building.rst:546
+#: ../../building.rst:593
 msgid "normal development workflow"
 msgstr ""
 
-#: ../../building.rst:548
+#: ../../building.rst:595
 msgid ""
 "while using the software, you notice a problem, or you get an idea of "
 "something that could be better, you think about it good enough in order "
@@ -939,112 +1021,118 @@ msgid ""
 "open an issue and describe the problem. someone might react with hints."
 msgstr ""
 
-#: ../../building.rst:552
+#: ../../building.rst:599
 msgid "you open the issues site and choose one you want to tackle."
 msgstr ""
 
-#: ../../building.rst:553
+#: ../../building.rst:600
 msgid ""
 "assign the issue to yourself, this way you are informing the world that "
 "you have the intention to work at it. someone might react with hints."
 msgstr ""
 
-#: ../../building.rst:555
+#: ../../building.rst:602
 msgid ""
 "optionally fork the repository in your account and preferably create a "
 "branch, clearly associated to the issue."
 msgstr ""
 
-#: ../../building.rst:557
+#: ../../building.rst:604
 msgid ""
 "write unit tests and commit them to your branch (please do not push "
 "failing unit tests to github, run ``nosetests`` locally first)."
 msgstr ""
 
-#: ../../building.rst:559
+#: ../../building.rst:606
 msgid ""
 "write more unit tests (ideally, the tests form the complete description "
 "of the feature you are adding or correcting)."
 msgstr ""
 
-#: ../../building.rst:561
+#: ../../building.rst:608
 msgid ""
 "make sure the feature you are adding or correcting is really completely "
 "described by the unit tests you wrote."
 msgstr ""
 
-#: ../../building.rst:563
+#: ../../building.rst:610
 msgid ""
 "make sure your unit tests are atomic, that is, that you test variations "
 "on changes along one single variable. do not give complex input to unit "
 "tests or tests that do not fit on one screen (25 lines of code)."
 msgstr ""
 
-#: ../../building.rst:566
+#: ../../building.rst:613
 msgid "write the code that makes your tests succeed."
 msgstr ""
 
-#: ../../building.rst:567
+#: ../../building.rst:614
 msgid "update the i18n files (run ``./scripts/i18n.sh``)."
 msgstr ""
 
-#: ../../building.rst:568
+#: ../../building.rst:615
 msgid ""
 "whenever possible, translate the new strings you put in code or glade "
 "files."
 msgstr ""
 
-#: ../../building.rst:570
+#: ../../building.rst:617
+msgid ""
+"when you change strings, please make sure that old translations get re-"
+"used."
+msgstr ""
+
+#: ../../building.rst:618
 msgid "commit your changes."
 msgstr ""
 
-#: ../../building.rst:571
+#: ../../building.rst:619
 msgid "push to github."
 msgstr ""
 
-#: ../../building.rst:572
+#: ../../building.rst:620
 msgid "open a pull request."
 msgstr ""
 
-#: ../../building.rst:575
+#: ../../building.rst:623
 msgid "publishing to production"
 msgstr ""
 
-#: ../../building.rst:577
+#: ../../building.rst:625
 msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``,"
 " compared to ``ghini-x.y-dev``."
 msgstr ""
 
-#: ../../building.rst:579
+#: ../../building.rst:627
 msgid "make sure a ``bump`` commit is included in the differences."
 msgstr ""
 
-#: ../../building.rst:580
+#: ../../building.rst:628
 msgid "it should be possible to automatically merge the branches."
 msgstr ""
 
-#: ../../building.rst:581
+#: ../../building.rst:629
 msgid "create the new pull request, call it as “publish to the production line”."
 msgstr ""
 
-#: ../../building.rst:582
+#: ../../building.rst:630
 msgid "you possibly need wait for travis-ci to perform the checks."
 msgstr ""
 
-#: ../../building.rst:583
+#: ../../building.rst:631
 msgid "merge the changes."
 msgstr ""
 
-#: ../../building.rst:584
+#: ../../building.rst:632
 msgid "tell the world about it: on facebook, the google group, linkedin, ..."
 msgstr ""
 
-#: ../../building.rst:587
+#: ../../building.rst:635
 msgid "closing step"
 msgstr ""
 
-#: ../../building.rst:589
+#: ../../building.rst:637
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
@@ -1157,6 +1245,37 @@ msgstr ""
 msgid "when ready for publication, merge master into the production line."
 msgstr ""
 
+#: ../../devdl.rst:72
+msgid ""
+"From time to time, during the process of updating the software, you will "
+"be adding or modifying strings in the python sources, in the "
+"documentation, in the glade sources. Most of our strings are "
+"translatable, and are offered to weblate for people to contribute, in the"
+" form of several ``.po`` files. These ``po`` files receive contributions "
+"from weblate, and offer lines without translation from new lines of code."
+msgstr ""
+
+#: ../../devdl.rst:79
+msgid ""
+"We have organized the translation of ghini as two separate repositories "
+"in github, each repository being associated to sections of the same "
+"project on weblate. Translation of the software is in ghini.desktop, the "
+"software project, while translation of the documentation —itself part of "
+"the software— is in a separate project, ghini.desktop-docs.i18n."
+msgstr ""
+
+#: ../../devdl.rst:85
+msgid ""
+"To update the ``po`` files relative to the software, you run a script "
+"from the project root dir::"
+msgstr ""
+
+#: ../../devdl.rst:90
+msgid ""
+"This will update your ``po`` files, something you need commit and push to"
+" github."
+msgstr ""
+
 #: ../../devdl.rst:93
 msgid ""
 "To update the ``po`` filese relative to the documentation, you need a up-"
@@ -1221,7 +1340,7 @@ msgid ""
 "selected item does not have any notes."
 msgstr ""
 
-#: ../../editing.rst:39 ../../searching.rst:44
+#: ../../editing.rst:39 ../../searching.rst:46
 msgid "Family"
 msgstr ""
 
@@ -1273,7 +1392,7 @@ msgid ""
 "opens a new blank family editor."
 msgstr ""
 
-#: ../../editing.rst:69 ../../searching.rst:45
+#: ../../editing.rst:69 ../../searching.rst:47
 msgid "Genus"
 msgstr ""
 
@@ -1387,7 +1506,7 @@ msgid ""
 "either a Collection or a Donation."
 msgstr ""
 
-#: ../../editing.rst:143 ../../searching.rst:53
+#: ../../editing.rst:143 ../../searching.rst:55
 msgid "Collection"
 msgstr ""
 
@@ -1403,7 +1522,7 @@ msgstr ""
 msgid "A Donation."
 msgstr ""
 
-#: ../../editing.rst:154 ../../searching.rst:50
+#: ../../editing.rst:154 ../../searching.rst:52
 msgid "Plant"
 msgstr ""
 
@@ -1626,7 +1745,7 @@ msgid ""
 "physical space and the dynamic of a botanic garden."
 msgstr ""
 
-#: ../../goal.rst:45 ../../searching.rst:158
+#: ../../goal.rst:45 ../../searching.rst:160
 msgid "**core structure of Ghini's database**"
 msgstr ""
 
@@ -2144,11 +2263,11 @@ msgstr ""
 msgid "Ghini Development"
 msgstr ""
 
-#: ../../index.rst:69
+#: ../../index.rst:68
 msgid "Supporting Ghini"
 msgstr ""
 
-#: ../../index.rst:73
+#: ../../index.rst:72
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
@@ -2938,130 +3057,130 @@ msgid ""
 "formulating your searches."
 msgstr ""
 
-#: ../../searching.rst:40
+#: ../../searching.rst:42
 msgid "search domain overview"
 msgstr ""
 
-#: ../../searching.rst:42
+#: ../../searching.rst:44
 msgid "name and shorthands"
 msgstr ""
 
-#: ../../searching.rst:42
+#: ../../searching.rst:44
 msgid "field"
 msgstr ""
 
-#: ../../searching.rst:42
+#: ../../searching.rst:44
 msgid "result type"
 msgstr ""
 
-#: ../../searching.rst:44
+#: ../../searching.rst:46
 msgid "family, fam"
 msgstr ""
 
-#: ../../searching.rst:44
+#: ../../searching.rst:46
 msgid "epithet (family)"
 msgstr ""
 
-#: ../../searching.rst:45
+#: ../../searching.rst:47
 msgid "genus, gen"
 msgstr ""
 
-#: ../../searching.rst:45
+#: ../../searching.rst:47
 msgid "epithet (genus)"
 msgstr ""
 
-#: ../../searching.rst:46
+#: ../../searching.rst:48
 msgid "species, sp"
 msgstr ""
 
-#: ../../searching.rst:46
+#: ../../searching.rst:48
 msgid "epithet (sp) **×**"
 msgstr ""
 
-#: ../../searching.rst:46 ../../searching.rst:47
+#: ../../searching.rst:48 ../../searching.rst:49
 msgid "Species"
 msgstr ""
 
-#: ../../searching.rst:47
+#: ../../searching.rst:49
 msgid "vernacular, common, vern"
 msgstr ""
 
-#: ../../searching.rst:47 ../../searching.rst:48 ../../searching.rst:52
-#: ../../searching.rst:54
+#: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
+#: ../../searching.rst:56
 msgid "name"
 msgstr ""
 
-#: ../../searching.rst:48
+#: ../../searching.rst:50
 msgid "geography, geo"
 msgstr ""
 
-#: ../../searching.rst:48
+#: ../../searching.rst:50
 msgid "Geography"
 msgstr ""
 
-#: ../../searching.rst:49
+#: ../../searching.rst:51
 msgid "accession, acc"
 msgstr ""
 
-#: ../../searching.rst:49
+#: ../../searching.rst:51
 msgid "code"
 msgstr ""
 
-#: ../../searching.rst:49
+#: ../../searching.rst:51
 msgid "Accession"
 msgstr ""
 
-#: ../../searching.rst:50
+#: ../../searching.rst:52
 msgid "planting, plant"
 msgstr ""
 
-#: ../../searching.rst:50
+#: ../../searching.rst:52
 msgid "code **×**"
 msgstr ""
 
-#: ../../searching.rst:51
+#: ../../searching.rst:53
 msgid "location, loc"
 msgstr ""
 
-#: ../../searching.rst:51
+#: ../../searching.rst:53
 msgid "code, name"
 msgstr ""
 
-#: ../../searching.rst:51
+#: ../../searching.rst:53
 msgid "Location"
 msgstr ""
 
-#: ../../searching.rst:52
+#: ../../searching.rst:54
 msgid "contact, person, org, source"
 msgstr ""
 
-#: ../../searching.rst:52
+#: ../../searching.rst:54
 msgid "Contact"
 msgstr ""
 
-#: ../../searching.rst:53
+#: ../../searching.rst:55
 msgid "collection, col, coll"
 msgstr ""
 
-#: ../../searching.rst:53
+#: ../../searching.rst:55
 msgid "locale"
 msgstr ""
 
-#: ../../searching.rst:54
+#: ../../searching.rst:56
 msgid "tag, tags"
 msgstr ""
 
-#: ../../searching.rst:54
+#: ../../searching.rst:56
 msgid "Tag"
 msgstr ""
 
-#: ../../searching.rst:57
+#: ../../searching.rst:59
 msgid ""
 "Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
 "2003.2.1, indica."
 msgstr ""
 
-#: ../../searching.rst:60
+#: ../../searching.rst:62
 msgid ""
 "Unless explicitly quoted, spaces separate search strings. For example if "
 "you search for ``Block 10`` then Ghini will search for the strings Block "
@@ -3070,11 +3189,11 @@ msgid ""
 " the string like ``\"Block 10\"``."
 msgstr ""
 
-#: ../../searching.rst:66
+#: ../../searching.rst:68
 msgid "× Composite Primary Keys"
 msgstr ""
 
-#: ../../searching.rst:69
+#: ../../searching.rst:71
 msgid ""
 "A **species** epithet means little without the corresponding genus, "
 "likewise a **planting** code is unique only within the accession to which"
@@ -3083,7 +3202,7 @@ msgid ""
 "planting. These domains need a **composite** primary key."
 msgstr ""
 
-#: ../../searching.rst:76
+#: ../../searching.rst:78
 msgid ""
 "Search by value lets you look for **plantings** by their complete "
 "planting code, which includes the accession code. Taken together, "
@@ -3092,18 +3211,18 @@ msgid ""
 "described below."
 msgstr ""
 
-#: ../../searching.rst:84
+#: ../../searching.rst:86
 msgid "Search by Expression"
 msgstr ""
 
-#: ../../searching.rst:86
+#: ../../searching.rst:88
 msgid ""
 "Searching with expression gives you a little more control over what you "
 "are searching for. You narrow the search down to a specific domain, the "
 "software defines which fields to search within the domain you specified."
 msgstr ""
 
-#: ../../searching.rst:90
+#: ../../searching.rst:92
 msgid ""
 "An expression is built as ``<domain> <operator> <value>``. For example "
 "the search: ``gen=Maxillaria`` would return all the genera that match the"
@@ -3111,13 +3230,13 @@ msgid ""
 "``=`` and the value is ``Maxillaria``."
 msgstr ""
 
-#: ../../searching.rst:95
+#: ../../searching.rst:97
 msgid ""
 "The above search domain overview table tells you the names of the search "
 "domains, and, per search domain, which fields are searched."
 msgstr ""
 
-#: ../../searching.rst:98
+#: ../../searching.rst:100
 #, python-format
 msgid ""
 "The search string ``loc like block%`` would return all the Locations for "
@@ -3132,11 +3251,11 @@ msgid ""
 "``10``."
 msgstr ""
 
-#: ../../searching.rst:108
+#: ../../searching.rst:110
 msgid "When a query takes ages to complete"
 msgstr ""
 
-#: ../../searching.rst:111
+#: ../../searching.rst:113
 msgid ""
 "You give a query, it takes time to compute, the result contains "
 "unreasonably many entries.  This happens when you intend to use a "
@@ -3147,11 +3266,11 @@ msgid ""
 "criteria."
 msgstr ""
 
-#: ../../searching.rst:120
+#: ../../searching.rst:122
 msgid "Binomial search"
 msgstr ""
 
-#: ../../searching.rst:122
+#: ../../searching.rst:124
 msgid ""
 "You can also perform a search in the database if you know the species, "
 "just by placing a few initial letters of genus and species epithets in "
@@ -3159,21 +3278,21 @@ msgid ""
 "one leading capital letter, **Species epithet** all lowercase."
 msgstr ""
 
-#: ../../searching.rst:127
+#: ../../searching.rst:129
 msgid "This way you can perform the search ``So ha``."
 msgstr ""
 
-#: ../../searching.rst:129
+#: ../../searching.rst:131
 msgid "These would be the initials for Solanum hayesii, or Solanum havanense."
 msgstr ""
 
-#: ../../searching.rst:131
+#: ../../searching.rst:133
 msgid ""
 "Binomial search comes to compensate the limited usefulness of the above "
 "search by expression when trying to look for a species."
 msgstr ""
 
-#: ../../searching.rst:134
+#: ../../searching.rst:136
 msgid ""
 "It is the correct capitalization **Xxxx xxxx** that informs the software "
 "of your intention to perform a binomial search.  The software's second "
@@ -3181,18 +3300,18 @@ msgid ""
 "matches than you had expected."
 msgstr ""
 
-#: ../../searching.rst:139
+#: ../../searching.rst:141
 msgid ""
 "The similar request ``so ha`` will return, in a fresh install, over 3000 "
 "objects, starting at Family \"Acalyp(**ha**)ceae\", ending at Geography "
 "\"Western (**So**)uth America\"."
 msgstr ""
 
-#: ../../searching.rst:145
+#: ../../searching.rst:147
 msgid "Search by Query"
 msgstr ""
 
-#: ../../searching.rst:147
+#: ../../searching.rst:149
 msgid ""
 "Queries allow the most control over searching. With queries you can "
 "search across relations, specific columns, combine search criteria using "
@@ -3200,51 +3319,51 @@ msgid ""
 "``&&``, ``||``, ``!``), enclose them in parentheses, and more."
 msgstr ""
 
-#: ../../searching.rst:152
+#: ../../searching.rst:154
 msgid ""
 "Please contact the authors if you want more information, or if you "
 "volunteer to document this more thoroughly.  In the meanwhile you may "
 "start familiarizing yourself with the core structure of Ghini's database."
 msgstr ""
 
-#: ../../searching.rst:160
+#: ../../searching.rst:162
 msgid "A few examples:"
 msgstr ""
 
-#: ../../searching.rst:162
+#: ../../searching.rst:164
 msgid "plantings of family Fabaceae in location Block 10::"
 msgstr ""
 
-#: ../../searching.rst:166
+#: ../../searching.rst:168
 msgid "locations that contain no plants::"
 msgstr ""
 
-#: ../../searching.rst:170
+#: ../../searching.rst:172
 msgid ""
 "accessions associated to a species of known binomial name (e.g.: "
 "Mangifera indica)::"
 msgstr ""
 
-#: ../../searching.rst:174
+#: ../../searching.rst:176
 msgid "accessions we propagated in the year 2016::"
 msgstr ""
 
-#: ../../searching.rst:178
+#: ../../searching.rst:180
 msgid "accessions we modified in the last three days::"
 msgstr ""
 
-#: ../../searching.rst:182
+#: ../../searching.rst:184
 msgid ""
 "Searching with queries requires some knowledge of a little syntax and an "
 "idea of the extensive Ghini database table structure. Both you acquire "
 "with practice, and with the help of the Query Builder."
 msgstr ""
 
-#: ../../searching.rst:188
+#: ../../searching.rst:190
 msgid "The Query Builder"
 msgstr ""
 
-#: ../../searching.rst:190
+#: ../../searching.rst:192
 msgid ""
 "Ghini offers a Query Builder, that helps you build complex search queries"
 " through a point and click interface.  To open the Query Builder click "
@@ -3252,14 +3371,14 @@ msgid ""
 ":menuselection:`Tools-->Query Builder` from the menu."
 msgstr ""
 
-#: ../../searching.rst:199
+#: ../../searching.rst:201
 msgid ""
 "A window will show up, which will lead you through all steps necessary to"
 " construct a correct query that is understood by Ghini's Query Search "
 "Strategy."
 msgstr ""
 
-#: ../../searching.rst:208
+#: ../../searching.rst:210
 msgid ""
 "First of all you indicate the search domain, this will allow the Query "
 "Builder complete its graphical user interface, then you add as many "
@@ -3267,7 +3386,7 @@ msgid ""
 "binary operator."
 msgstr ""
 
-#: ../../searching.rst:213
+#: ../../searching.rst:215
 msgid ""
 "Each clause is formed of three parts: a property that can be reached from"
 " the starting search domain, a comparison operator that you select from "
@@ -3275,22 +3394,22 @@ msgid ""
 "list of valid values for the field."
 msgstr ""
 
-#: ../../searching.rst:218
+#: ../../searching.rst:220
 msgid ""
 "Add as many search properties as you need, by clicking on the plus sign. "
 "Select and/or next to the property name to choose how the clauses will be"
 " combined in the search query."
 msgstr ""
 
-#: ../../searching.rst:222
+#: ../../searching.rst:224
 msgid "When you are done building your query click OK to perform the search."
 msgstr ""
 
-#: ../../searching.rst:226
+#: ../../searching.rst:228
 msgid "Query Grammar"
 msgstr ""
 
-#: ../../searching.rst:228
+#: ../../searching.rst:230
 msgid ""
 "For those who don't fear a bit of formal precision, the following BNF "
 "code gives you a rather precise idea of the grammar implemented by the "
@@ -3300,7 +3419,7 @@ msgid ""
 "unless otherwise stated::"
 msgstr ""
 
-#: ../../searching.rst:291
+#: ../../searching.rst:293
 msgid ""
 "Please be aware that Ghini's Query language is quite a bit more complex "
 "than what the Query Builder can produce: Queries you can build with the "
@@ -3763,5 +3882,13 @@ msgstr ""
 #~ " Copy, because it offers much more"
 #~ " space and because of its \"Fair "
 #~ "Storage\" policy."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We haven't yet defined a workflow "
+#~ "for publishing translated documentation on "
+#~ "readthedocs. If you have experience with"
+#~ " it please have a go at it. "
+#~ "Thank you in advance."
 #~ msgstr ""
 
