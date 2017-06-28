@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-27 15:40-0500\n"
+"POT-Creation-Date: 2017-06-28 14:21-0500\n"
 "PO-Revision-Date: 2017-06-23 20:31-0500\n"
 "Last-Translator: Mario Frasca <mario@anche.no>\n"
 "Language: es\n"
@@ -333,50 +333,114 @@ msgstr ""
 " se adición o modificación de cadenas en las fuentes de python, en la "
 "documentación, en las fuentes glade. La mayoría de nuestras cadenas "
 "traducibles y se ofrece a weblate para las personas a contribuir, en "
-"forma de varios archivos de ``po``. Estos archivos de ``po`` reciban "
-"contribuciones de weblate y ofrecen líneas sin traducción de nuevas "
-"líneas de código."
+"forma de varios archivos de ``po``."
 
 #: ../../building.rst:88
+#, fuzzy
 msgid ""
-"A ``po`` file is specific to a language and contains pairs of text, "
-"original and translation. When a translator adds a translation on "
-"weblate, this reaches our repository on github. When a programmer adds a "
-"string to the software, this reaches weblate as \"to be translated\"."
+"A ``po`` is mostly composed of pairs of text portions, original and "
+"translation, and is specific to a target language. When a translator adds"
+" a translation on weblate, this reaches our repository on github. When a "
+"programmer adds a string to the software, this reaches weblate as \"to be"
+" translated\"."
 msgstr ""
+"Un archivo ``po`` está asociado a un idioma y contiene texto en pares: "
+"original y traducción. Cuando un traductor añade una traducción en "
+"weblate, eso es copiado a nuestro repositorio en github. cuando un "
+"programador añade un texto en el software, esto es copiado a weblate para"
+" ser traducido."
 
-#: ../../building.rst:93
+#: ../../building.rst:94
+#, fuzzy
 msgid ""
 "Weblate hosts the `Ghini <https://hosted.weblate.org/projects/ghini/>`_ "
-"project. Within this project we have components, which correspond to a "
-"branch of a repository on github. Each component accepts translations in "
-"several languages."
+"project. Within this project we have components, each of which "
+"corresponds to a branch of a repository on github. Each component accepts"
+" translations in several languages."
+msgstr ""
+"Weblate alberga `el proyecto Ghini "
+"<https://hosted.weblate.org/projects/ghini/>`_. El proyecto está "
+"organizado en componentes, cada cual corresponde a una rama de uno de "
+"nuestros repositorios en github. Cada componente acepta traducciones a "
+"varios idiomas."
+
+#: ../../building.rst:100
+msgid "component"
+msgstr "componente"
+
+#: ../../building.rst:100
+msgid "repository"
+msgstr "repositorio"
+
+#: ../../building.rst:100
+msgid "branch"
+msgstr "rama"
+
+#: ../../building.rst:102
+msgid "desktop-1.0"
 msgstr ""
 
-#: ../../building.rst:101
-msgid ""
-"desktop-1.0     ghini.desktop               ghini-1.0-dev desktop-1.1"
-"     ghini.desktop               ghini-1.1-dev docs-1.0        ghini"
-".desktop-docs.i18n     ghini-1.0-dev docs-1.1        ghini.desktop-"
-"docs.i18n     ghini-1.1-dev web-1.2         ghini.web                   "
-"master"
+#: ../../building.rst:102 ../../building.rst:103
+msgid "ghini.desktop"
 msgstr ""
 
-#: ../../building.rst:107
+#: ../../building.rst:102 ../../building.rst:104
+msgid "ghini-1.0-dev"
+msgstr ""
+
+#: ../../building.rst:103
+msgid "desktop-1.1"
+msgstr ""
+
+#: ../../building.rst:103 ../../building.rst:105
+msgid "ghini-1.1-dev"
+msgstr ""
+
+#: ../../building.rst:104
+msgid "docs-1.0"
+msgstr ""
+
+#: ../../building.rst:104 ../../building.rst:105
+msgid "ghini.desktop-docs.i18n"
+msgstr ""
+
+#: ../../building.rst:105
+msgid "docs-1.1"
+msgstr ""
+
+#: ../../building.rst:106
+msgid "web-1.2"
+msgstr ""
+
+#: ../../building.rst:106
+msgid "ghini.web"
+msgstr ""
+
+#: ../../building.rst:106
+msgid "master"
+msgstr ""
+
+#: ../../building.rst:109
 msgid ""
 "To update the ``po`` files relative to the *software*, you set the "
 "working directory to the root of your checkout of *ghini.desktop*, and "
 "you run the script::"
 msgstr ""
+"Para poner al día los archivos ``po`` relativos al *software*, active una"
+" linea de comando en la carpeta base del checkout de *ghini.desktop* y "
+"ejecute el script::"
 
-#: ../../building.rst:113
+#: ../../building.rst:115
 msgid ""
 "To update the ``po`` files relative to the *documentation*, you set the "
 "working directory to the root of your checkout of *ghini.desktop-"
 "docs.i18n*, and you run the script::"
 msgstr ""
+"Para poner al día los archivos ``po`` relativos a la *documentación*, "
+"active una linea de comando en la carpeta base del checkout de *ghini"
+".desktop-docs.i18n* y ejecute el script::"
 
-#: ../../building.rst:119
+#: ../../building.rst:121
 msgid ""
 "When you run either of the above mentioned scripts, chances are you need "
 "to commit *all* ``po`` files in the project. You may want to review the "
@@ -385,7 +449,7 @@ msgid ""
 "typo."
 msgstr ""
 
-#: ../../building.rst:124
+#: ../../building.rst:126
 msgid ""
 "`Our documentation <https://readthedocs.org/projects/ghini/>`_ on "
 "readthedocs has an original English version, and several translations. We"
@@ -394,7 +458,7 @@ msgid ""
 "nothing that we invented ourselves here."
 msgstr ""
 
-#: ../../building.rst:130
+#: ../../building.rst:132
 msgid ""
 "Readthedocs checks the project's *Language* setting, and invokes "
 "``sphinx-intl`` to produce the formatted documentation in the target "
@@ -404,55 +468,68 @@ msgid ""
 "``local/$(LANG)/LC_MESSAGES/``."
 msgstr ""
 
-#: ../../building.rst:137
+#: ../../building.rst:139
 msgid ""
-"On the other hand, Weblate (and ourselves) prefer to have a single ``po``"
-" file per language, and to keep them all in the same ``/po`` directory, "
-"just as we do for the software project."
+"On the other hand, Weblate (and ourselves) prefers a single ``po`` file "
+"per language, and keeps them all in the same ``/po`` directory, just as "
+"we do for the software project: ``/po/$(LANG).po``."
 msgstr ""
 
-#: ../../building.rst:141
+#: ../../building.rst:143
 msgid ""
-"We solve this by means of symbolic links (git honors them). When a file "
-"in the documentation is updated, the ``runme.sh`` script will:"
-msgstr ""
-
-#: ../../building.rst:144
-msgid "copy the ``rst`` files from the software to the documentation;"
-msgstr ""
-
-#: ../../building.rst:145
-msgid "create a new ``pot`` file for each of the documentation files;"
+"In order not to repeat information, and to let both systems work their "
+"natural way, we have two sets of symbolic links (git honors them)."
 msgstr ""
 
 #: ../../building.rst:146
-msgid "merge all ``pot`` files into one ``doc.pot``;"
+msgid ""
+"To summarise: when a file in the documentation is updated, the "
+"``runme.sh`` script will:"
 msgstr ""
 
-#: ../../building.rst:147
+#: ../../building.rst:149
+msgid "copy the ``rst`` files from the software to the documentation;"
+msgstr "copia los archiov ``rst`` del software a la documentación;"
+
+#: ../../building.rst:150
+msgid "create a new ``pot`` file for each of the documentation files;"
+msgstr "crea un nuevo archivo ``pot`` para cada documento;"
+
+#: ../../building.rst:151
+msgid "merge all ``pot`` files into one ``doc.pot``;"
+msgstr "junta los archivos ``pot`` en un único ``doc.pot``;"
+
+#: ../../building.rst:152
 msgid ""
 "use the updated ``doc.pot`` to update all ``doc.po`` files (one per "
 "language);"
 msgstr ""
+"pone al día todos ``doc.po`` (uno por idioma) en base al nuevo "
+"``doc.pot``;"
 
-#: ../../building.rst:148
-msgid ""
-"create all symbolic links: a. those expected by ``sphinx-intl`` in "
-"``/local/$(LANG)/LC_MESSAGES/`` b. those used by weblate in "
-"``/po/$(LANG).po``"
-msgstr ""
+#: ../../building.rst:153
+msgid "create all symbolic links:"
+msgstr "crea todos enlaces simbólicos:"
 
-#: ../../building.rst:152
+#: ../../building.rst:155
+msgid "those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``"
+msgstr "para ``sphinx-int`` en ``/local/$(LANG)/LC_MESSAGES/``"
+
+#: ../../building.rst:156
+msgid "those used by weblate in ``/po/$(LANG).po``"
+msgstr "para weblate en ``/po/$(LANG).po``"
+
+#: ../../building.rst:158
 msgid ""
 "We could definitely write the above in a Makefile, or even better include"
 " it in ``/doc/Makefile``. Who knows, maybe we will do that."
 msgstr ""
 
-#: ../../building.rst:157 ../../devdl.rst:102
+#: ../../building.rst:163 ../../devdl.rst:102
 msgid "Adding missing unit tests"
 msgstr "Añadir pruebas unitarias"
 
-#: ../../building.rst:159 ../../devdl.rst:104
+#: ../../building.rst:165 ../../devdl.rst:104
 msgid ""
 "If you are interested contributing to development of Ghini, a good way to"
 " do so would be by helping us finding and writing the missing unit tests."
@@ -461,7 +538,7 @@ msgstr ""
 "hacerlo sería por ayudarnos a encontrar y escribir las pruebas unitarias "
 "que falta."
 
-#: ../../building.rst:162 ../../devdl.rst:107
+#: ../../building.rst:168 ../../devdl.rst:107
 msgid ""
 "A well tested function is one whose behaviour you cannot change without "
 "breaking at least one unit test."
@@ -469,7 +546,7 @@ msgstr ""
 "Una función de bien probada es uno cuyo comportamiento se puede cambiar "
 "sin romper al menos una prueba de unidad."
 
-#: ../../building.rst:165 ../../devdl.rst:110
+#: ../../building.rst:171 ../../devdl.rst:110
 msgid ""
 "We all agree that in theory theory and practice match perfectly and that "
 "one first writes the tests, then implements the function. In practice, "
@@ -482,7 +559,7 @@ msgstr ""
 "teoría y nos hemos estado escribiendo pruebas después de escribir y "
 "publicar incluso las funciones."
 
-#: ../../building.rst:170 ../../devdl.rst:115
+#: ../../building.rst:176 ../../devdl.rst:115
 msgid ""
 "This section describes the process of adding unit tests for "
 "``bauble.plugins.plants.family.remove_callback``."
@@ -490,11 +567,11 @@ msgstr ""
 "Esta sección describe el proceso de agregar pruebas unitarias para '' "
 "bauble.plugins.plants.family.remove_callback''."
 
-#: ../../building.rst:174 ../../devdl.rst:119
+#: ../../building.rst:180 ../../devdl.rst:119
 msgid "What to test"
 msgstr "Para probar"
 
-#: ../../building.rst:176 ../../devdl.rst:121
+#: ../../building.rst:182 ../../devdl.rst:121
 msgid ""
 "First of all, open the coverage report index, and choose a file with low "
 "coverage."
@@ -502,7 +579,7 @@ msgstr ""
 "En primer lugar, abra el índice del informe de cobertura y eliga un "
 "archivo con baja cobertura."
 
-#: ../../building.rst:179 ../../devdl.rst:124
+#: ../../building.rst:185 ../../devdl.rst:124
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
@@ -510,12 +587,12 @@ msgstr ""
 "Para este ejemplo, en octubre de 2015, aterrizamos en '' "
 "bauble.plugins.plants.family'', en el 33%."
 
-#: ../../building.rst:182 ../../devdl.rst:127
+#: ../../building.rst:188 ../../devdl.rst:127
 #, python-format
 msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
 msgstr ""
 
-#: ../../building.rst:184 ../../devdl.rst:129
+#: ../../building.rst:190 ../../devdl.rst:129
 msgid ""
 "The first two functions which need tests, ``edit_callback`` and "
 "``add_genera_callback``, include creation and activation of an object "
@@ -527,7 +604,7 @@ msgstr ""
 "depende de un cuadro de diálogo personalizado. Debe realmente primeras "
 "pruebas de unidad de escritura para esa clase y luego volver aquí."
 
-#: ../../building.rst:189 ../../devdl.rst:134
+#: ../../building.rst:195 ../../devdl.rst:134
 msgid ""
 "The next function, ``remove_callback``, also activates a couple of dialog"
 " and message boxes, but in the form of invoking a function requesting "
@@ -540,11 +617,11 @@ msgstr ""
 "funciones podemos reemplazar fácilmente con una función de burlarse de la"
 " conducta."
 
-#: ../../building.rst:195 ../../devdl.rst:140
+#: ../../building.rst:201 ../../devdl.rst:140
 msgid "how to test"
 msgstr "Cómo se hace:"
 
-#: ../../building.rst:197 ../../devdl.rst:142
+#: ../../building.rst:203 ../../devdl.rst:142
 msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
@@ -553,59 +630,59 @@ msgstr ""
 "fijamos en el código y vemos que es necesario discriminar un par de "
 "casos:"
 
-#: ../../building.rst:203 ../../devdl.rst:148
+#: ../../building.rst:209 ../../devdl.rst:148
 msgid "**parameter correctness**"
 msgstr "** parámetro corrección **"
 
-#: ../../building.rst:201 ../../devdl.rst:146
+#: ../../building.rst:207 ../../devdl.rst:146
 msgid "the list of families has no elements."
 msgstr "la lista de familias no tiene elementos."
 
-#: ../../building.rst:202 ../../devdl.rst:147
+#: ../../building.rst:208 ../../devdl.rst:147
 msgid "the list of families has more than one element."
 msgstr "la lista de familias tiene más de un elemento."
 
-#: ../../building.rst:203 ../../devdl.rst:148
+#: ../../building.rst:209 ../../devdl.rst:148
 msgid "the list of families has exactly one element."
 msgstr "la lista de las familias tiene exactamente un elemento."
 
-#: ../../building.rst:207 ../../devdl.rst:152
+#: ../../building.rst:213 ../../devdl.rst:152
 msgid "**cascade**"
 msgstr ""
 
-#: ../../building.rst:206 ../../devdl.rst:151
+#: ../../building.rst:212 ../../devdl.rst:151
 msgid "the family has no genera"
 msgstr "la familia no tiene géneros"
 
-#: ../../building.rst:207 ../../devdl.rst:152
+#: ../../building.rst:213 ../../devdl.rst:152
 msgid "the family has one or more genera"
 msgstr "la familia tiene uno o más géneros"
 
-#: ../../building.rst:211 ../../devdl.rst:156
+#: ../../building.rst:217 ../../devdl.rst:156
 msgid "**confirm**"
 msgstr ""
 
-#: ../../building.rst:210 ../../devdl.rst:155
+#: ../../building.rst:216 ../../devdl.rst:155
 msgid "the user confirms deletion"
 msgstr "el usuario confirma la eliminación"
 
-#: ../../building.rst:211 ../../devdl.rst:156
+#: ../../building.rst:217 ../../devdl.rst:156
 msgid "the user does not confirm deletion"
 msgstr "el usuario no confirma la eliminación"
 
-#: ../../building.rst:215 ../../devdl.rst:160
+#: ../../building.rst:221 ../../devdl.rst:160
 msgid "**deleting**"
 msgstr ""
 
-#: ../../building.rst:214 ../../devdl.rst:159
+#: ../../building.rst:220 ../../devdl.rst:159
 msgid "all goes well when deleting the family"
 msgstr "todo va bien al eliminar la familia"
 
-#: ../../building.rst:215 ../../devdl.rst:160
+#: ../../building.rst:221 ../../devdl.rst:160
 msgid "there is some error while deleting the family"
 msgstr "hay un error al eliminar la familia"
 
-#: ../../building.rst:217 ../../devdl.rst:162
+#: ../../building.rst:223 ../../devdl.rst:162
 msgid ""
 "I decide I will only focus on the **cascade** and the **confirm** "
 "aspects. Two binary questions: 4 cases."
@@ -613,11 +690,11 @@ msgstr ""
 "Decidir sólo se centrará en la ** cascada ** y el ** confirmar ** "
 "aspectos. Dos preguntas binarias: 4 casos."
 
-#: ../../building.rst:221 ../../devdl.rst:166
+#: ../../building.rst:227 ../../devdl.rst:166
 msgid "where to put the tests"
 msgstr "donde poner las pruebas"
 
-#: ../../building.rst:223 ../../devdl.rst:168
+#: ../../building.rst:229 ../../devdl.rst:168
 msgid ""
 "Locate the test script and choose the class where to put the extra unit "
 "tests."
@@ -625,12 +702,12 @@ msgstr ""
 "Localizar el script de prueba y elija la clase donde poner las pruebas de"
 " unidad extra."
 
-#: ../../building.rst:225 ../../devdl.rst:170
+#: ../../building.rst:231 ../../devdl.rst:170
 #, python-format
 msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
 msgstr ""
 
-#: ../../building.rst:227 ../../devdl.rst:172
+#: ../../building.rst:233 ../../devdl.rst:172
 msgid ""
 "The ``FamilyTests`` class contains a skipped test, implementing it will "
 "be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
@@ -644,11 +721,11 @@ msgstr ""
 "qué hacer con la clase FamilyEditor, que creo que debe eliminado y "
 "reemplazado con una sola función."
 
-#: ../../building.rst:234 ../../devdl.rst:179
+#: ../../building.rst:240 ../../devdl.rst:179
 msgid "writing the tests"
 msgstr "las pruebas de la escritura"
 
-#: ../../building.rst:236 ../../devdl.rst:181
+#: ../../building.rst:242 ../../devdl.rst:181
 msgid ""
 "After the last test in the FamilyTests class, I add the four cases I want"
 " to describe, and I make sure they fail, and since I'm lazy, I write the "
@@ -658,31 +735,31 @@ msgstr ""
 " casos que quiero describir, y aseguro que no, y como soy perezosa, "
 "escribo el código más compacto que conozco para generar un error::"
 
-#: ../../building.rst:253 ../../devdl.rst:198
+#: ../../building.rst:259 ../../devdl.rst:198
 msgid "One test, step by step"
 msgstr "Una prueba, paso a paso"
 
-#: ../../building.rst:255 ../../devdl.rst:200
+#: ../../building.rst:261 ../../devdl.rst:200
 msgid "Let's start with the first test case."
 msgstr "Vamos a empezar con el primer caso de prueba."
 
-#: ../../building.rst:257 ../../devdl.rst:202
+#: ../../building.rst:263 ../../devdl.rst:202
 msgid "When writing tests, I generally follow the pattern:"
 msgstr "Al escribir ensayos, generalmente siguen el patrón:"
 
-#: ../../building.rst:259 ../../devdl.rst:204
+#: ../../building.rst:265 ../../devdl.rst:204
 msgid "T₀ (initial condition),"
 msgstr "T₀ (condición inicial),"
 
-#: ../../building.rst:260 ../../devdl.rst:205
+#: ../../building.rst:266 ../../devdl.rst:205
 msgid "action,"
 msgstr ""
 
-#: ../../building.rst:261 ../../devdl.rst:206
+#: ../../building.rst:267 ../../devdl.rst:206
 msgid "T₁ (testing the result of the action given the initial conditions)"
 msgstr "T₁ (prueba el resultado de la acción dada las condiciones iniciales)"
 
-#: ../../building.rst:263 ../../devdl.rst:208
+#: ../../building.rst:269 ../../devdl.rst:208
 msgid ""
 "There's a reason why unit tests are called unit tests. Please never test "
 "two actions in one test."
@@ -690,7 +767,7 @@ msgstr ""
 "Hay una razón por la cual las pruebas unitarias se llaman pruebas "
 "unitarias. Por favor, nunca pruebe dos acciones en una prueba."
 
-#: ../../building.rst:266 ../../devdl.rst:211
+#: ../../building.rst:272 ../../devdl.rst:211
 msgid ""
 "So let's describe T₀ for the first test, a database holding a family "
 "without genera::"
@@ -698,7 +775,7 @@ msgstr ""
 "Así que vamos a describir T₀ de la primera prueba, una base de datos "
 "manteniendo una familia sin géneros::"
 
-#: ../../building.rst:274 ../../devdl.rst:219
+#: ../../building.rst:280 ../../devdl.rst:219
 msgid ""
 "We do not want the function being tested to invoke the interactive "
 "``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
@@ -714,11 +791,11 @@ msgstr ""
 " que, al igual que la original función interactiva, acepta un parámetro y"
 " devuelve un valor booleano. En este caso: '' falso ''::"
 
-#: ../../building.rst:292 ../../devdl.rst:237
+#: ../../building.rst:298 ../../devdl.rst:237
 msgid "Next we test the result."
 msgstr "A continuación probamos el resultado."
 
-#: ../../building.rst:294 ../../devdl.rst:239
+#: ../../building.rst:300 ../../devdl.rst:239
 msgid ""
 "Well, we don't just want to test whether or not the object Arecaceae was "
 "deleted, we also should test the value returned by ``remove_callback``, "
@@ -729,7 +806,7 @@ msgstr ""
 " nosotros también debemos el valor devuelto por '' remove_callback'', y "
 "si '' yes_no_dialog'' y '' message_details_dialog'' se invocaron o no."
 
-#: ../../building.rst:299 ../../devdl.rst:244
+#: ../../building.rst:305 ../../devdl.rst:244
 msgid ""
 "A ``lambda`` expression is not enough for this. We do something "
 "apparently more complex, which will make life a lot easier."
@@ -737,11 +814,11 @@ msgstr ""
 "Una expresión de '' lambda'' no es suficiente para esto. Hacemos algo "
 "aparentemente más complejo, que hará la vida mucho más fácil."
 
-#: ../../building.rst:302 ../../devdl.rst:247
+#: ../../building.rst:308 ../../devdl.rst:247
 msgid "Let's first define a rather generic function::"
 msgstr "Primero definamos una función más bien genérica::"
 
-#: ../../building.rst:308 ../../devdl.rst:253
+#: ../../building.rst:314 ../../devdl.rst:253
 msgid ""
 "and we grab ``partial`` from the ``functools`` standard module, to "
 "partially apply the above ``mockfunc``, leaving only ``msg`` unspecified,"
@@ -755,7 +832,7 @@ msgstr ""
 "parámetro y devuelve un valor, para reemplazar las dos funciones en '' "
 "utils''. La función de prueba ahora se ve así::"
 
-#: ../../building.rst:330 ../../devdl.rst:275
+#: ../../building.rst:336 ../../devdl.rst:275
 msgid ""
 "The test section checks that ``message_details_dialog`` was not invoked, "
 "that ``yes_no_dialog`` was invoked, with the correct message parameter, "
@@ -765,11 +842,11 @@ msgstr ""
 "message_details_dialog'', que '' yes_no_dialog'' fue invocado, con el "
 "parámetro de mensaje correcto, que existe todavía la Arecaceae::"
 
-#: ../../building.rst:346 ../../devdl.rst:291
+#: ../../building.rst:352 ../../devdl.rst:291
 msgid "And so on"
 msgstr "Etcétera"
 
-#: ../../building.rst:348 ../../devdl.rst:293
+#: ../../building.rst:354 ../../devdl.rst:293
 msgid ""
 "`there are two kinds of people, those who complete what they start, and "
 "so on`"
@@ -777,7 +854,7 @@ msgstr ""
 "\"hay dos clases de personas, aquellos que terminan lo que empiezan y así"
 " sucesivamente\""
 
-#: ../../building.rst:351 ../../devdl.rst:296
+#: ../../building.rst:357 ../../devdl.rst:296
 msgid ""
 "Next test is almost the same, with the difference that the "
 "``utils.yes_no_dialog`` should return ``True`` (this we achieve by "
@@ -789,7 +866,7 @@ msgstr ""
 "especificando '' resultado = True'' en la aplicación parcial de la "
 "genérico '' mockfunc'')."
 
-#: ../../building.rst:356 ../../devdl.rst:301
+#: ../../building.rst:362 ../../devdl.rst:301
 msgid ""
 "With this action, the value returned by ``remove_callback`` should be "
 "``True``, and there should be no Arecaceae Family in the database any "
@@ -799,7 +876,7 @@ msgstr ""
 "verdaderos '', y no debe haber ninguna familia Arecaceae en la base de "
 "datos más::"
 
-#: ../../building.rst:386 ../../devdl.rst:331
+#: ../../building.rst:392 ../../devdl.rst:331
 msgid ""
 "have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
 "other two test functions."
@@ -807,11 +884,11 @@ msgstr ""
 "Echa un vistazo en 734f5bb9feffc2f4bd22578fcee1802c8682ca83 commit para "
 "las otras dos funciones de la prueba."
 
-#: ../../building.rst:390
+#: ../../building.rst:396
 msgid "Testing logging"
 msgstr "Pruebas y Registro"
 
-#: ../../building.rst:392
+#: ../../building.rst:398
 msgid ""
 "Our ``bauble.test.BaubleTestCase`` objects use handlers of the class "
 "``bauble.test.MockLoggingHandler``.  Every time an individual unit test "
@@ -825,7 +902,7 @@ msgstr ""
 "Configuración '' crear un nuevo controlador de '''' y asociado en el "
 "logger root.  El método de '' desmontaje '' se encarga de eliminarlo."
 
-#: ../../building.rst:397
+#: ../../building.rst:403
 #, python-format
 msgid ""
 "You can check for presence of specific logging messages in "
@@ -845,7 +922,7 @@ msgstr ""
 "asocias al controlador, estableciendo '' registro. "
 "Formatter(\"%(Message)s\")''."
 
-#: ../../building.rst:405
+#: ../../building.rst:411
 msgid ""
 "You can explicitly empty the collected messages by invoking "
 "``self.handler.clear()``."
@@ -853,23 +930,23 @@ msgstr ""
 "Explícitamente pueden vaciar los mensajes recogidos mediante la "
 "invocación de '' self.handler.clear()''."
 
-#: ../../building.rst:410 ../../devdl.rst:335
+#: ../../building.rst:416 ../../devdl.rst:335
 msgid "Putting all together"
 msgstr "Al ponerlo todo junto:"
 
-#: ../../building.rst:412 ../../devdl.rst:337
+#: ../../building.rst:418 ../../devdl.rst:337
 msgid "From time to time you want to activate the test class you're working at::"
 msgstr "De vez en cuando usted quiere activar la clase de prueba trabaja en::"
 
-#: ../../building.rst:416 ../../devdl.rst:341
+#: ../../building.rst:422 ../../devdl.rst:341
 msgid "And at the end of the process you want to update the statistics::"
 msgstr "Y al final del proceso que desea actualizar las estadísticas de::"
 
-#: ../../building.rst:422 ../../extending.rst:2
+#: ../../building.rst:428 ../../extending.rst:2
 msgid "Structure of user interface"
 msgstr "Estructura de interfaz de usuario"
 
-#: ../../building.rst:424
+#: ../../building.rst:430
 msgid ""
 "The user interface is built according to the **Model** — **View** — "
 "**Presenter** architectural pattern.  For much of the interface, "
@@ -882,7 +959,7 @@ msgstr ""
 "tenemos elementos de la interfaz donde existe un modelo de base de datos "
 "correspondiente.  En general:"
 
-#: ../../building.rst:429
+#: ../../building.rst:435
 msgid ""
 "The **View** is described as part of a **glade** file. This should "
 "include the signal-callback and ListStore-TreeView associations. Just "
@@ -898,7 +975,7 @@ msgstr ""
 "pasarlo el ** claro ** nombre del archivo y el nombre del widget de raíz,"
 " luego entregar esta instancia a la ** presentador ** constructor."
 
-#: ../../building.rst:436
+#: ../../building.rst:442
 msgid ""
 "In the glade file, in the ``action-widgets`` section closing your "
 "GtkDialog object description, make sure every ``action-widget`` element "
@@ -913,23 +990,23 @@ msgstr ""
 "gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html=\"\">' _, por "
 "ejemplo:</http:>"
 
-#: ../../building.rst:442
+#: ../../building.rst:448
 msgid "GTK_RESPONSE_OK, -5"
 msgstr "GTK_RESPONSE_OK, -5"
 
-#: ../../building.rst:443
+#: ../../building.rst:449
 msgid "GTK_RESPONSE_CANCEL, -6"
 msgstr "GTK_RESPONSE_CANCEL, -6"
 
-#: ../../building.rst:444
+#: ../../building.rst:450
 msgid "GTK_RESPONSE_YES, -8"
 msgstr "GTK_RESPONSE_YES, -8"
 
-#: ../../building.rst:445
+#: ../../building.rst:451
 msgid "GTK_RESPONSE_NO, -9"
 msgstr "GTK_RESPONSE_NO, -9"
 
-#: ../../building.rst:447
+#: ../../building.rst:453
 msgid ""
 "There is no easy way to unit test a subclassed view, so please don't "
 "subclass views, there's really no need to."
@@ -938,7 +1015,7 @@ msgstr ""
 "subclases, así que por favor no vistas de la subclase, no hay realmente "
 "ninguna necesidad."
 
-#: ../../building.rst:450
+#: ../../building.rst:456
 msgid ""
 "In the glade file, every input widget should define which handler is "
 "activated on which signal.  The generic Presenter class offers generic "
@@ -948,7 +1025,7 @@ msgstr ""
 "controlador se activa en que señal.  La clase genérica de presentador "
 "ofrece llamadas genéricas que cubren los casos más comunes."
 
-#: ../../building.rst:454
+#: ../../building.rst:460
 msgid ""
 "GtkEntry (one-line text entry) will handle the ``changed`` signal, with "
 "either ``on_text_entry_changed`` or ``on_unique_text_entry_changed``."
@@ -957,7 +1034,7 @@ msgstr ""
 "cambiada '', con '' on_text_entry_changed'' o '' "
 "on_unique_text_entry_changed''."
 
-#: ../../building.rst:456
+#: ../../building.rst:462
 msgid ""
 "GtkTextView: associate it to a GtkTextBuffer. To handle the ``changed`` "
 "signal on the GtkTextBuffer, we have to define a handler which invokes "
@@ -974,7 +1051,7 @@ msgstr ""
 "resolver en GTK <http: stackoverflow.com/questions/32106765/=\"\">' "
 "_.</http:>"
 
-#: ../../building.rst:462
+#: ../../building.rst:468
 msgid ""
 "GtkComboBox with translated texts can't be easily handled from the glade "
 "file, so we don't even try.  Use the ``init_translatable_combo`` method "
@@ -986,7 +1063,7 @@ msgstr ""
 "'' init_translatable_combo'' de la clase genérica de '' "
 "GenericEditorView'', pero por favor invocarlo desde el ** presentador **."
 
-#: ../../building.rst:467
+#: ../../building.rst:473
 msgid ""
 "The **Model** is just an object with known attributes. In this "
 "interaction, the **model** is just a passive data container, it does "
@@ -996,11 +1073,11 @@ msgstr ""
 "interacción, el ** modelo ** es solo un contenedor de datos pasiva, no "
 "hace nada más que para que el ** presentador ** modificarlo."
 
-#: ../../building.rst:471
+#: ../../building.rst:477
 msgid "The subclassed **Presenter** defines and implements:"
 msgstr "El que se crean subclases ** presentador ** define e implementa:"
 
-#: ../../building.rst:473
+#: ../../building.rst:479
 msgid ""
 "``widget_to_field_map``, a dictionary associating widget names to name of"
 " model attributes,"
@@ -1008,7 +1085,7 @@ msgstr ""
 "'' widget_to_field_map'', un diccionario de asociar nombres de widget a "
 "nombre de los atributos del modelo,"
 
-#: ../../building.rst:475 ../../extending.rst:24
+#: ../../building.rst:481 ../../extending.rst:24
 msgid ""
 "``view_accept_buttons``, the list of widget names which, if activated by "
 "the user, mean that the view should be closed,"
@@ -1016,15 +1093,15 @@ msgstr ""
 "'' view_accept_buttons'', la lista de nombres de widget que, activado por"
 " el usuario, significa que el punto de vista debe ser cerrado,"
 
-#: ../../building.rst:477 ../../extending.rst:26
+#: ../../building.rst:483 ../../extending.rst:26
 msgid "all needed callbacks,"
 msgstr "todos los callbacks, necesarios"
 
-#: ../../building.rst:478 ../../extending.rst:27
+#: ../../building.rst:484 ../../extending.rst:27
 msgid "optionally, it plays the **model** role, too."
 msgstr "Opcionalmente, juega el ** modelo ** papel, demasiado."
 
-#: ../../building.rst:480
+#: ../../building.rst:486
 msgid ""
 "The **presenter** continuously updates the **model** according to changes"
 " in the **view**. If the **model** corresponds to a database object, the "
@@ -1039,7 +1116,7 @@ msgstr ""
 "éxito, o les deshace si el ** ver ** se cancela. (este comportamiento es "
 "influenciado por el parámetro '' do_commit'')"
 
-#: ../../building.rst:486
+#: ../../building.rst:492
 msgid ""
 "If the **model** is something else, then the **presenter** will do "
 "something else."
@@ -1047,7 +1124,7 @@ msgstr ""
 "Si el ** modelo ** es otra cosa, entonces el ** presentador ** hará algo "
 "más."
 
-#: ../../building.rst:491
+#: ../../building.rst:497
 msgid ""
 "A well behaved **presenter** uses the **view** api to query the values "
 "inserted by the user or to forcibly set widget statuses. Please do not "
@@ -1062,7 +1139,7 @@ msgstr ""
 "campos de '' view.widgets''. Al hacerlo, estos presentadores nos impide "
 "escribir pruebas unitarias."
 
-#: ../../building.rst:497
+#: ../../building.rst:503
 msgid ""
 "The base class for the presenter, ``GenericEditorPresenter`` defined in "
 "``bauble.editor``, implements many useful generic callbacks.  There is a "
@@ -1074,11 +1151,11 @@ msgstr ""
 "útiles.  Hay una clase de '' MockView'', que se puede utilizar al "
 "escribir pruebas para sus presentadores."
 
-#: ../../building.rst:502
+#: ../../building.rst:508
 msgid "Examples"
 msgstr ""
 
-#: ../../building.rst:504
+#: ../../building.rst:510
 msgid ""
 "``Contact`` and ``ContactPresenter`` are implemented following the above "
 "lines.  The view is defined in the ``contact.glade`` file."
@@ -1086,7 +1163,7 @@ msgstr ""
 "'' Contacto '' y '' ContactPresenter'' se implementan siguiendo las "
 "líneas de arriba.  La vista se define en el archivo '' contact.glade''."
 
-#: ../../building.rst:507
+#: ../../building.rst:513
 msgid ""
 "A good example of Presenter/View pattern (no model) is given by the "
 "connection manager."
@@ -1094,7 +1171,7 @@ msgstr ""
 "Un buen ejemplo de patrón de vista/presentador (no modelo) está dada por "
 "el administrador de conexiones."
 
-#: ../../building.rst:510 ../../extending.rst:39
+#: ../../building.rst:516 ../../extending.rst:39
 msgid ""
 "We use the same architectural pattern for non-database interaction, by "
 "setting the presenter also as model. We do this, for example, for the "
@@ -1106,11 +1183,11 @@ msgstr ""
 "ejemplo, el cuadro de diálogo de exportación JSON. El siguiente comando "
 "le dará una lista de instancias de '' GenericEditorView''::"
 
-#: ../../building.rst:518 ../../extending.rst:50
+#: ../../building.rst:524 ../../extending.rst:50
 msgid "Extending Ghini with Plugins"
 msgstr "Ghini extensible con Plugins"
 
-#: ../../building.rst:520 ../../extending.rst:52
+#: ../../building.rst:526 ../../extending.rst:52
 msgid ""
 "Nearly everything about Ghini is extensible through plugins. Plugins can "
 "create tables, define custom searchs, add menu items, create custom "
@@ -1120,7 +1197,7 @@ msgstr ""
 " tablas, definir búsquedas personalizadas, agregar elementos de menú, "
 "crear comandos personalizados y mucho más."
 
-#: ../../building.rst:524 ../../extending.rst:56
+#: ../../building.rst:530 ../../extending.rst:56
 msgid ""
 "To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
 "class."
@@ -1128,7 +1205,7 @@ msgstr ""
 "Para crear un nuevo plugin debe extender la clase de '' "
 "bauble.pluginmgr.Plugin''."
 
-#: ../../building.rst:527 ../../extending.rst:59
+#: ../../building.rst:533 ../../extending.rst:59
 msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
@@ -1136,11 +1213,11 @@ msgstr ""
 "La '' etiqueta '' es un ejemplo mínimo, incluso si el '' TagItemGUI'' cae"
 " fuera el patrón de arquitectura Model-View-Presenter."
 
-#: ../../building.rst:531 ../../devdl.rst:347
+#: ../../building.rst:537 ../../devdl.rst:347
 msgid "Plugins structure"
 msgstr "Estructura de plugins"
 
-#: ../../building.rst:533 ../../devdl.rst:349
+#: ../../building.rst:539 ../../devdl.rst:349
 msgid ""
 "Ghini is a framework for handling collections, and is distributed along "
 "with a set of plugins making Ghini a botanical collection manager. But "
@@ -1154,7 +1231,7 @@ msgstr ""
 "que distribuir y escribir su propio, o escribir tus propios plugins que "
 "ampliar o completar el actual comportamiento de Ghini."
 
-#: ../../building.rst:539 ../../devdl.rst:355
+#: ../../building.rst:545 ../../devdl.rst:355
 msgid ""
 "Once you have selected and opened a database connection, you land in the "
 "Search window. The Search window is an interaction between two objects: "
@@ -1165,7 +1242,7 @@ msgstr ""
 "interacción entre dos objetos: SearchPresenter (SP) y vista búsqueda "
 "(SV)."
 
-#: ../../building.rst:543 ../../devdl.rst:359
+#: ../../building.rst:549 ../../devdl.rst:359
 msgid ""
 "SV is what you see, SP holds the program status and handles the requests "
 "you express through SV. Handling these requests affect the content of SV "
@@ -1175,7 +1252,7 @@ msgstr ""
 "peticiones que expresan a través de SV. Manejo de estas solicitudes "
 "afectan el contenido del SV y la situación del programa en SP."
 
-#: ../../building.rst:547 ../../devdl.rst:363
+#: ../../building.rst:553 ../../devdl.rst:363
 msgid ""
 "The search results shown in the largest part of SV are rows, objects that"
 " are instances of classes registered in a plugin."
@@ -1183,7 +1260,7 @@ msgstr ""
 "Resultados de la búsqueda se muestra en la parte más grande de SV son "
 "filas, objetos que son instancias de clases registradas en un plugin."
 
-#: ../../building.rst:550 ../../devdl.rst:366
+#: ../../building.rst:556 ../../devdl.rst:366
 msgid ""
 "Each of these classes must implement an amount of functions in order to "
 "properly behave within the Ghini framework. The Ghini framework reserves "
@@ -1193,7 +1270,7 @@ msgstr ""
 "comportarse adecuadamente en el marco de Ghini. El marco de Ghini Reserva"
 " espacio para clases de acoplamiento."
 
-#: ../../building.rst:554 ../../devdl.rst:370
+#: ../../building.rst:560 ../../devdl.rst:370
 msgid ""
 "SP knows of all registered (plugged in) classes, they are stored in a "
 "dictionary, associating a class to its plugin implementation.  SV has a "
@@ -1206,7 +1283,7 @@ msgstr ""
 "elementos. En cualquier momento, a lo sumo sólo un elemento en la ranura "
 "es visible."
 
-#: ../../building.rst:559 ../../devdl.rst:375
+#: ../../building.rst:565 ../../devdl.rst:375
 msgid ""
 "A plugin defines one or more plugin classes. A plugin class plays the "
 "role of a partial presenter (pP - plugin presenter) as it implement the "
@@ -1221,49 +1298,49 @@ msgstr ""
 "por el presentador de padre (SP), otra vez actuando como modelo. Resumir "
 "y completar:"
 
-#: ../../building.rst:565 ../../devdl.rst:381
+#: ../../building.rst:571 ../../devdl.rst:381
 msgid "SP acts as model,"
 msgstr "SP actúa como modelo,"
 
-#: ../../building.rst:566 ../../devdl.rst:382
+#: ../../building.rst:572 ../../devdl.rst:382
 msgid "the pV partial view is defined in a glade file."
 msgstr "la vista parcial de pV se define en un archivo de glade."
 
-#: ../../building.rst:567 ../../devdl.rst:383
+#: ../../building.rst:573 ../../devdl.rst:383
 msgid "the callbacks implemented by pP are referenced by the glade file."
 msgstr ""
 "las devoluciones de llamadas implementadas por pP se hace referencia en "
 "el archivo de glade."
 
-#: ../../building.rst:568 ../../devdl.rst:384
+#: ../../building.rst:574 ../../devdl.rst:384
 msgid "a context menu for the SP row,"
 msgstr "un menú contextual para la fila de SP,"
 
-#: ../../building.rst:569 ../../devdl.rst:385
+#: ../../building.rst:575 ../../devdl.rst:385
 msgid "a children property."
 msgstr "una característica de los niños."
 
-#: ../../building.rst:571 ../../devdl.rst:387
+#: ../../building.rst:577 ../../devdl.rst:387
 msgid "when you register a plugin class, the SP:"
 msgstr "Cuando se registra una clase de plugin, el SP:"
 
-#: ../../building.rst:573 ../../devdl.rst:389
+#: ../../building.rst:579 ../../devdl.rst:389
 msgid "adds the pV in the slot and makes it non-visible."
 msgstr "agrega el pV en la ranura y hace no visible."
 
-#: ../../building.rst:574 ../../devdl.rst:390
+#: ../../building.rst:580 ../../devdl.rst:390
 msgid "adds an instance of pP in the registered plugin classes."
 msgstr "agrega una instancia del pP en las clases de plugin registrados."
 
-#: ../../building.rst:575 ../../devdl.rst:391
+#: ../../building.rst:581 ../../devdl.rst:391
 msgid "tells the pP that the SP is the model."
 msgstr "dice el pP que el SP es el modelo."
 
-#: ../../building.rst:576 ../../devdl.rst:392
+#: ../../building.rst:582 ../../devdl.rst:392
 msgid "connects all callbacks from pV to pP."
 msgstr "conecta todas las devoluciones de llamada de pV pP."
 
-#: ../../building.rst:578 ../../devdl.rst:394
+#: ../../building.rst:584 ../../devdl.rst:394
 msgid ""
 "when an element in pV triggers an action in pP, the pP can forward the "
 "action to SP and can request SP that it updates the model and refreshes "
@@ -1273,7 +1350,7 @@ msgstr ""
 "enviar la acción a SP y puede solicitar SP que actualiza el modelo y "
 "actualiza la vista."
 
-#: ../../building.rst:582 ../../devdl.rst:398
+#: ../../building.rst:588 ../../devdl.rst:398
 msgid ""
 "When the user selects a row in SP, SP hides everything in the pluggable "
 "slot and shows only the single pV relative to the type of the selected "
@@ -1285,7 +1362,7 @@ msgstr ""
 "fila seleccionada y pide al pP para refrescar el pV con lo que es "
 "relativo a la fila seleccionada."
 
-#: ../../building.rst:586 ../../devdl.rst:402
+#: ../../building.rst:592 ../../devdl.rst:402
 msgid ""
 "Apart from setting the visibility of the various pV, nothing needs be "
 "disabled nor removed: an invisible pV cannot trigger events!"
@@ -1293,15 +1370,15 @@ msgstr ""
 "Aparte de establecer la visibilidad de la pV varios, nada necesita "
 "discapacitado ni quitado: un pV invisible no puede desencadenar eventos!"
 
-#: ../../building.rst:590
+#: ../../building.rst:596
 msgid "bug solving workflow"
 msgstr "error solución de flujo de trabajo"
 
-#: ../../building.rst:593
+#: ../../building.rst:599
 msgid "normal development workflow"
 msgstr "flujo de trabajo de desarrollo normal"
 
-#: ../../building.rst:595
+#: ../../building.rst:601
 msgid ""
 "while using the software, you notice a problem, or you get an idea of "
 "something that could be better, you think about it good enough in order "
@@ -1313,11 +1390,11 @@ msgstr ""
 "una idea muy clara de lo que realmente es, que has notado. abre un tema y"
 " describir el problema. alguien podría reaccionar con notas."
 
-#: ../../building.rst:599
+#: ../../building.rst:605
 msgid "you open the issues site and choose one you want to tackle."
 msgstr "puede abre el sitio de temas y elige que desea abordar."
 
-#: ../../building.rst:600
+#: ../../building.rst:606
 msgid ""
 "assign the issue to yourself, this way you are informing the world that "
 "you have the intention to work at it. someone might react with hints."
@@ -1326,7 +1403,7 @@ msgstr ""
 "tiene la intención de trabajar en ello. alguien podría reaccionar con "
 "notas."
 
-#: ../../building.rst:602
+#: ../../building.rst:608
 msgid ""
 "optionally fork the repository in your account and preferably create a "
 "branch, clearly associated to the issue."
@@ -1334,7 +1411,7 @@ msgstr ""
 "Opcionalmente el repositorio en su cuenta de la bifurcación y "
 "preferiblemente crear una rama, claramente asociada a la cuestión."
 
-#: ../../building.rst:604
+#: ../../building.rst:610
 msgid ""
 "write unit tests and commit them to your branch (please do not push "
 "failing unit tests to github, run ``nosetests`` locally first)."
@@ -1343,7 +1420,7 @@ msgstr ""
 "empuje su defecto pruebas unitarias a github, ejecute '' nosetests'' "
 "localmente primero)."
 
-#: ../../building.rst:606
+#: ../../building.rst:612
 msgid ""
 "write more unit tests (ideally, the tests form the complete description "
 "of the feature you are adding or correcting)."
@@ -1351,7 +1428,7 @@ msgstr ""
 "escribir pruebas unitarias más (idealmente, las pruebas forman la "
 "descripción completa de la función Agregar o corregir)."
 
-#: ../../building.rst:608
+#: ../../building.rst:614
 msgid ""
 "make sure the feature you are adding or correcting is really completely "
 "described by the unit tests you wrote."
@@ -1359,7 +1436,7 @@ msgstr ""
 "Asegúrese de que la función se va a agregar o corregir es realmente "
 "completamente descrita por las pruebas de unidad que usted escribió."
 
-#: ../../building.rst:610
+#: ../../building.rst:616
 msgid ""
 "make sure your unit tests are atomic, that is, that you test variations "
 "on changes along one single variable. do not give complex input to unit "
@@ -1370,15 +1447,15 @@ msgstr ""
 "no le dé entrada complejo a pruebas unitarias o pruebas que no encajan en"
 " una sola pantalla (25 líneas de código)."
 
-#: ../../building.rst:613
+#: ../../building.rst:619
 msgid "write the code that makes your tests succeed."
 msgstr "Escriba el código que hace que las pruebas tengan éxito."
 
-#: ../../building.rst:614
+#: ../../building.rst:620
 msgid "update the i18n files (run ``./scripts/i18n.sh``)."
 msgstr "actualizar los archivos de i18n (ejecutar ''./scripts/i18n.sh'')."
 
-#: ../../building.rst:615
+#: ../../building.rst:621
 msgid ""
 "whenever possible, translate the new strings you put in code or glade "
 "files."
@@ -1386,29 +1463,29 @@ msgstr ""
 "siempre que sea posible, traducir las cadenas nuevo que pones en archivos"
 " de código o glade."
 
-#: ../../building.rst:617
+#: ../../building.rst:623
 msgid ""
 "when you change strings, please make sure that old translations get re-"
 "used."
 msgstr ""
 
-#: ../../building.rst:618
+#: ../../building.rst:624
 msgid "commit your changes."
 msgstr "cometer los cambios."
 
-#: ../../building.rst:619
+#: ../../building.rst:625
 msgid "push to github."
 msgstr "empuje a github."
 
-#: ../../building.rst:620
+#: ../../building.rst:626
 msgid "open a pull request."
 msgstr "abrir una solicitud de extracción."
 
-#: ../../building.rst:623
+#: ../../building.rst:629
 msgid "publishing to production"
 msgstr "editorial a la producción"
 
-#: ../../building.rst:625
+#: ../../building.rst:631
 msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``,"
 " compared to ``ghini-x.y-dev``."
@@ -1416,39 +1493,39 @@ msgstr ""
 "abrir el tirón solicitud página usando como base una cadena de producción"
 " '' ghini-x.y'', en comparación con '' ghini-x.y-dev''."
 
-#: ../../building.rst:627
+#: ../../building.rst:633
 msgid "make sure a ``bump`` commit is included in the differences."
 msgstr "Asegúrese de que confirmar '' bache '' está incluido en las diferencias."
 
-#: ../../building.rst:628
+#: ../../building.rst:634
 msgid "it should be possible to automatically merge the branches."
 msgstr "debe ser posible fusionar automáticamente las ramas."
 
-#: ../../building.rst:629
+#: ../../building.rst:635
 msgid "create the new pull request, call it as “publish to the production line”."
 msgstr ""
 "crear la nueva solicitud de extracción, lo llaman como \"publicar en la "
 "línea de producción\"."
 
-#: ../../building.rst:630
+#: ../../building.rst:636
 msgid "you possibly need wait for travis-ci to perform the checks."
 msgstr "posiblemente necesita esperar para que travis-ci realizar los controles."
 
-#: ../../building.rst:631
+#: ../../building.rst:637
 msgid "merge the changes."
 msgstr "combinar los cambios."
 
-#: ../../building.rst:632
+#: ../../building.rst:638
 msgid "tell the world about it: on facebook, the google group, linkedin, ..."
 msgstr ""
 "decirle al mundo acerca de él: en facebook, el grupo de google, "
 "linkedin,..."
 
-#: ../../building.rst:635
+#: ../../building.rst:641
 msgid "closing step"
 msgstr "Cierre"
 
-#: ../../building.rst:637
+#: ../../building.rst:643
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
@@ -5076,17 +5153,3 @@ msgstr "elaboración de informe"
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr "grabar etiquetas"
-
-#~ msgid ""
-#~ "We haven't yet defined a workflow "
-#~ "for publishing translated documentation on "
-#~ "readthedocs. If you have experience with"
-#~ " it please have a go at it. "
-#~ "Thank you in advance."
-#~ msgstr ""
-#~ "Aún no hemos definido un flujo de"
-#~ " trabajo editorial documentación traducida "
-#~ "en readthedocs. Si tienes experiencia "
-#~ "con ella tenga un ir en él. "
-#~ "Gracias de antemano."
-
