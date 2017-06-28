@@ -85,15 +85,16 @@ adding or modifying strings in the python sources, in the documentation, in
 the glade sources. Most of our strings are translatable, and are offered to
 weblate for people to contribute, in the form of several ``.po`` files.
 
-A ``po`` file is specific to a language and contains pairs of text, original
-and translation. When a translator adds a translation on weblate, this
-reaches our repository on github. When a programmer adds a string to the
-software, this reaches weblate as "to be translated".
+A ``po`` is mostly composed of pairs of text portions, original and
+translation, and is specific to a target language. When a translator adds a
+translation on weblate, this reaches our repository on github. When a
+programmer adds a string to the software, this reaches weblate as "to be
+translated".
 
 Weblate hosts the `Ghini <https://hosted.weblate.org/projects/ghini/>`_
-project. Within this project we have components, which correspond to a
-branch of a repository on github. Each component accepts translations in
-several languages.
+project. Within this project we have components, each of which corresponds
+to a branch of a repository on github. Each component accepts translations
+in several languages.
 
 =============== =========================== ==================
 component       repository                  branch
@@ -103,6 +104,7 @@ desktop-1.1     ghini.desktop               ghini-1.1-dev
 docs-1.0        ghini.desktop-docs.i18n     ghini-1.0-dev
 docs-1.1        ghini.desktop-docs.i18n     ghini-1.1-dev
 web-1.2         ghini.web                   master
+=============== =========================== ==================
 
 To update the ``po`` files relative to the *software*, you set the working
 directory to the root of your checkout of *ghini.desktop*, and you run the
@@ -134,18 +136,22 @@ language. With the default configuration —which we did not alter—
 source document, and that they all reside in the directory
 ``local/$(LANG)/LC_MESSAGES/``.
 
-On the other hand, Weblate (and ourselves) prefer to have a single ``po``
-file per language, and to keep them all in the same ``/po`` directory, just
-as we do for the software project.
+On the other hand, Weblate (and ourselves) prefers a single ``po`` file per
+language, and keeps them all in the same ``/po`` directory, just as we do
+for the software project: ``/po/$(LANG).po``.
 
-We solve this by means of symbolic links (git honors them). When a file in
-the documentation is updated, the ``runme.sh`` script will:
+In order not to repeat information, and to let both systems work their
+natural way, we have two sets of symbolic links (git honors them).
+
+To summarise: when a file in the documentation is updated, the ``runme.sh``
+script will:
 
 1. copy the ``rst`` files from the software to the documentation;
 2. create a new ``pot`` file for each of the documentation files;
 3. merge all ``pot`` files into one ``doc.pot``;
 4. use the updated ``doc.pot`` to update all ``doc.po`` files (one per language);
 5. create all symbolic links:
+      
    a. those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``
    b. those used by weblate in ``/po/$(LANG).po``
 
