@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../administration.rst:2
 msgid "Database Administration"
-msgstr ""
+msgstr "Správa"
 
 #: ../../administration.rst:4
 msgid ""
@@ -1378,7 +1378,7 @@ msgstr ""
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "Poznámky"
 
 #: ../../editing.rst:27
 msgid ""
@@ -1401,7 +1401,7 @@ msgstr ""
 
 #: ../../editing.rst:39 ../../searching.rst:44
 msgid "Family"
-msgstr ""
+msgstr "Rodina"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
@@ -1453,7 +1453,7 @@ msgstr ""
 
 #: ../../editing.rst:69 ../../searching.rst:45
 msgid "Genus"
-msgstr ""
+msgstr "Rod"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
@@ -1583,7 +1583,7 @@ msgstr ""
 
 #: ../../editing.rst:154 ../../searching.rst:50
 msgid "Plant"
-msgstr ""
+msgstr "Rostlina"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
@@ -2287,7 +2287,7 @@ msgstr ""
 
 #: ../../index.rst:2
 msgid "Documentation for Ghini 1.0"
-msgstr ""
+msgstr "Dokumentace pro Ghini 1.0"
 
 #: ../../index.rst:8
 msgid ""
@@ -2308,7 +2308,7 @@ msgstr ""
 
 #: ../../index.rst:26
 msgid "Installing Ghini"
-msgstr ""
+msgstr "Instalace Ghini"
 
 #: ../../index.rst:35
 msgid "Using Ghini"
@@ -2320,17 +2320,17 @@ msgstr ""
 
 #: ../../index.rst:60
 msgid "Ghini Development"
-msgstr ""
+msgstr "Výboj Ghini"
 
 #: ../../index.rst:68
 msgid "Supporting Ghini"
-msgstr ""
+msgstr "Podpořte Ghini"
 
 #: ../../index.rst:72
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
-msgstr ""
+msgstr "Pokud pouřžíváte Ghini nebo chcete podpořit jeho vývoj, zvažte `finanční příspěvek <https://pledgie.com/campaigns/29188>`_"
 
 #: ../../installing.rst:2
 msgid "Installation"
@@ -3888,7 +3888,7 @@ msgstr ""
 
 #: ../../users.rst:2
 msgid "Managing Users"
-msgstr ""
+msgstr "Správa uživatelů"
 
 #: ../../users.rst:4
 msgid "The Ghini users plugin is only available on PostgreSQL based databases."
