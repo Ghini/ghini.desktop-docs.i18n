@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 09:41-0500\n"
+"POT-Creation-Date: 2017-06-29 11:31-0500\n"
 "PO-Revision-Date: 2017-06-23 20:47-0500\n"
 "Last-Translator: Mario Frasca <mario@anche.no>\n"
 "Language: it\n"
@@ -380,7 +380,7 @@ msgid "branch"
 msgstr "branch"
 
 #: ../../building.rst:102
-msgid "desktop-1.0"
+msgid "Desktop 1.0"
 msgstr ""
 
 #: ../../building.rst:102 ../../building.rst:103
@@ -392,7 +392,7 @@ msgid "ghini-1.0-dev"
 msgstr ""
 
 #: ../../building.rst:103
-msgid "desktop-1.1"
+msgid "Desktop 1.1"
 msgstr ""
 
 #: ../../building.rst:103 ../../building.rst:105
@@ -400,19 +400,21 @@ msgid "ghini-1.1-dev"
 msgstr ""
 
 #: ../../building.rst:104
-msgid "docs-1.0"
-msgstr ""
+#, fuzzy
+msgid "Documentation 1.0"
+msgstr "Documentazione di Ghini 1.0"
 
 #: ../../building.rst:104 ../../building.rst:105
 msgid "ghini.desktop-docs.i18n"
 msgstr ""
 
 #: ../../building.rst:105
-msgid "docs-1.1"
-msgstr ""
+#, fuzzy
+msgid "Documentation 1.1"
+msgstr "Documentazione di Ghini 1.0"
 
 #: ../../building.rst:106
-msgid "web-1.2"
+msgid "Web 1.2"
 msgstr ""
 
 #: ../../building.rst:106
@@ -2848,10 +2850,11 @@ msgid "Importing and Exporting Data"
 msgstr "Importare ed esportare dati"
 
 #: ../../imex.rst:4
+#, fuzzy
 msgid ""
 "Although Ghini can be extended through plugins to support alternate "
 "import and export formats, by default it can only import and export comma"
-" seperated values files or CSV."
+" separated values files or CSV."
 msgstr ""
 "Anche se Ghini può essere estesa tramite plugin di supporto alternativo "
 "importazione ed esportare formati, per impostazione predefinita può solo "
@@ -2901,9 +2904,10 @@ msgstr ""
 "CSV ma che è più avanzato che coprirà questo doc."
 
 #: ../../imex.rst:25
+#, fuzzy
 msgid ""
 "To import CSV files into Ghini select "
-":menuselection:`Tools-->Export-->Comma Seperated Values` from the menu."
+":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
 "Per importare i file CSV in Ghini selezionare: menuselection: "
 "'Strumenti--> esportazione--> valori separati da virgola' dal menu."
@@ -2924,9 +2928,10 @@ msgid "Exporting to CSV"
 msgstr "Esportazione in CSV"
 
 #: ../../imex.rst:37
+#, fuzzy
 msgid ""
 "To export the Ghini data to CSV select "
-":menuselection:`Tools-->Export-->Comma Seperated Values` from the menu."
+":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
 "Per esportare i dati di Ghini per selezionare CSV: menuselection: "
 "'Strumenti--> esportazione--> valori separati da virgola' dal menu."
@@ -3084,11 +3089,11 @@ msgid ""
 "appreciate as we go."
 msgstr ""
 "Il gruppo di sviluppo di Ghini è piccolo, preferiamo lavorare al "
-"migliorare il programma, o a documentarlo, piuttosto che perder tempo con "
-"pacchetti di installazione. Invece di tanto pacchetti differenti, uno per "
-"piattaforma, offriamo una stessa procedura di installazione per tutte le "
-"piattaforme. Questo non solo ci risparmia tempo, ci regala anche un po' "
-"di vantaggi, che apprezzeremo nel corso dell'uso del software."
+"migliorare il programma, o a documentarlo, piuttosto che perder tempo con"
+" pacchetti di installazione. Invece di tanto pacchetti differenti, uno "
+"per piattaforma, offriamo una stessa procedura di installazione per tutte"
+" le piattaforme. Questo non solo ci risparmia tempo, ci regala anche un "
+"po' di vantaggi, che apprezzeremo nel corso dell'uso del software."
 
 #: ../../installing.rst:12
 msgid "The installation is based on running a script."
@@ -3112,8 +3117,8 @@ msgid ""
 "default package manager, we install one and we use it before we start the"
 " script."
 msgstr ""
-"Su MacOSX utilizzeremo lo stesso script di GNU/Linux, però non avendo OSX "
-"un gestore di pacchetti ne istalleremo uno prima di eseguire lo script."
+"Su MacOSX utilizzeremo lo stesso script di GNU/Linux, però non avendo OSX"
+" un gestore di pacchetti ne istalleremo uno prima di eseguire lo script."
 
 #: ../../installing.rst:20
 msgid ""
@@ -3122,14 +3127,10 @@ msgid ""
 "locally, non conflicting with any other Python program you may have on "
 "your system."
 msgstr ""
-"Seguendo le seguenti istruzioni di "
-"installazione si ottiene ghini.desktop "
-"installato in un ambiente Python "
-"virtuale, tutte le dipendenze saranno "
-"installate localmente e non entreranno "
-"in conflitto con altri programmi Python"
-" che possono essere sullo stesso "
-"elaboratore."
+"Seguendo le seguenti istruzioni di installazione si ottiene ghini.desktop"
+" installato in un ambiente Python virtuale, tutte le dipendenze saranno "
+"installate localmente e non entreranno in conflitto con altri programmi "
+"Python che possono essere sullo stesso elaboratore."
 
 #: ../../installing.rst:24
 msgid ""
@@ -3967,12 +3968,13 @@ msgstr ""
 "chiunque con un po ' ma di esperienza di programmazione."
 
 #: ../../report.rst:26
+#, fuzzy
 msgid ""
 "The template generator will use the same file extension as the template "
 "which should indicate the type of output the template with create.  For "
 "example, to generate an HTML page from your template you should name the "
 "template something like `report.html`.  If the template will generate a "
-"comma seperated value file you should name the template `report.csv`."
+"comma separated value file you should name the template `report.csv`."
 msgstr ""
 "Il generatore modello utilizzerà la stessa estensione di file come il "
 "modello che dovrebbe indicare il tipo di output del modello con create.  "
@@ -5195,45 +5197,3 @@ msgstr "produzione di report"
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
-
-#~ msgid ""
-#~ "To install Ghini first requires that "
-#~ "you install its dependencies that cannot"
-#~ " be installed automatically.  These include"
-#~ " virtualenv, PyGTK and pip. Python "
-#~ "and GTK+, you probably already have. "
-#~ "As long as you have these packages"
-#~ " installed then Ghini should be able"
-#~ " to install the rest of its "
-#~ "dependencies by itself."
-#~ msgstr ""
-#~ "Per installare Ghini, c'è bisogno di "
-#~ "soddifare un paio di dipendenze che "
-#~ "non possono essere risolte automaticamente."
-#~ " Queste includono virtualenvwrapper, PyGTK "
-#~ "e pip. Python è presente su ogni"
-#~ " macchina unix, mentre GTK+ è nativo"
-#~ " di Linux ed altrimenti va "
-#~ "installato. Dopo aver soddisfatte queste "
-#~ "richieste, è possibile lasciare a Ghini"
-#~ " il compito di risolvere tutte le "
-#~ "altre."
-
-#~ msgid ""
-#~ "If you follow these installation steps,"
-#~ " you will end with Ghini running "
-#~ "within a Python virtual environment, all"
-#~ " Python dependencies installed locally, non"
-#~ " conflicting with any other Python "
-#~ "program you may have on your "
-#~ "system."
-#~ msgstr ""
-#~ "Seguendo le seguenti istruzioni di "
-#~ "installazione si ottiene un Ghini "
-#~ "installato in un ambiente Python "
-#~ "virtuale, tutte le dipendenze saranno "
-#~ "installate localmente e non entreranno "
-#~ "in conflitto con altri programmi Python"
-#~ " che possono essere sullo stesso "
-#~ "elaborator."
-

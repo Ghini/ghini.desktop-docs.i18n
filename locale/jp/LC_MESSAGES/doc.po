@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-06-29 09:41-0500\n"
+"POT-Creation-Date: 2017-06-29 11:31-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -284,7 +284,7 @@ msgid "branch"
 msgstr ""
 
 #: ../../building.rst:102
-msgid "desktop-1.0"
+msgid "Desktop 1.0"
 msgstr ""
 
 #: ../../building.rst:102 ../../building.rst:103
@@ -296,7 +296,7 @@ msgid "ghini-1.0-dev"
 msgstr ""
 
 #: ../../building.rst:103
-msgid "desktop-1.1"
+msgid "Desktop 1.1"
 msgstr ""
 
 #: ../../building.rst:103 ../../building.rst:105
@@ -304,7 +304,7 @@ msgid "ghini-1.1-dev"
 msgstr ""
 
 #: ../../building.rst:104
-msgid "docs-1.0"
+msgid "Documentation 1.0"
 msgstr ""
 
 #: ../../building.rst:104 ../../building.rst:105
@@ -312,11 +312,11 @@ msgid "ghini.desktop-docs.i18n"
 msgstr ""
 
 #: ../../building.rst:105
-msgid "docs-1.1"
+msgid "Documentation 1.1"
 msgstr ""
 
 #: ../../building.rst:106
-msgid "web-1.2"
+msgid "Web 1.2"
 msgstr ""
 
 #: ../../building.rst:106
@@ -2173,7 +2173,7 @@ msgstr ""
 msgid ""
 "Although Ghini can be extended through plugins to support alternate "
 "import and export formats, by default it can only import and export comma"
-" seperated values files or CSV."
+" separated values files or CSV."
 msgstr ""
 
 #: ../../imex.rst:8
@@ -2212,7 +2212,7 @@ msgstr ""
 #: ../../imex.rst:25
 msgid ""
 "To import CSV files into Ghini select "
-":menuselection:`Tools-->Export-->Comma Seperated Values` from the menu."
+":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
 
 #: ../../imex.rst:29
@@ -2229,7 +2229,7 @@ msgstr ""
 #: ../../imex.rst:37
 msgid ""
 "To export the Ghini data to CSV select "
-":menuselection:`Tools-->Export-->Comma Seperated Values` from the menu."
+":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
 
 #: ../../imex.rst:40
@@ -3015,7 +3015,7 @@ msgid ""
 "which should indicate the type of output the template with create.  For "
 "example, to generate an HTML page from your template you should name the "
 "template something like `report.html`.  If the template will generate a "
-"comma seperated value file you should name the template `report.csv`."
+"comma separated value file you should name the template `report.csv`."
 msgstr ""
 
 #: ../../report.rst:33
@@ -3955,115 +3955,3 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
-
-#~ msgid ""
-#~ "As of Ghini-1.0.62, Pictures are not "
-#~ "kept in the database. To ensure "
-#~ "pictures are available on all terminals"
-#~ " where you have installed and "
-#~ "configured Ghini, you can use a "
-#~ "file sharing service like Copy or "
-#~ "Dropbox. The personal choice of the "
-#~ "writer of this document is to use"
-#~ " Copy, because it offers much more"
-#~ " space and because of its \"Fair "
-#~ "Storage\" policy."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "We haven't yet defined a workflow "
-#~ "for publishing translated documentation on "
-#~ "readthedocs. If you have experience with"
-#~ " it please have a go at it. "
-#~ "Thank you in advance."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "desktop-1.0     ghini.desktop               ghini-1.0-dev"
-#~ " desktop-1.1     ghini.desktop               "
-#~ "ghini-1.1-dev docs-1.0        ghini.desktop-"
-#~ "docs.i18n     ghini-1.0-dev docs-1.1        ghini"
-#~ ".desktop-docs.i18n     ghini-1.1-dev web-1.2"
-#~ "         ghini.web                   master"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A ``po`` file is specific to a "
-#~ "language and contains pairs of text, "
-#~ "original and translation. When a "
-#~ "translator adds a translation on "
-#~ "weblate, this reaches our repository on"
-#~ " github. When a programmer adds a "
-#~ "string to the software, this reaches "
-#~ "weblate as \"to be translated\"."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Weblate hosts the `Ghini "
-#~ "<https://hosted.weblate.org/projects/ghini/>`_ project. "
-#~ "Within this project we have components,"
-#~ " which correspond to a branch of "
-#~ "a repository on github. Each component"
-#~ " accepts translations in several languages."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "On the other hand, Weblate (and "
-#~ "ourselves) prefer to have a single "
-#~ "``po`` file per language, and to "
-#~ "keep them all in the same ``/po``"
-#~ " directory, just as we do for "
-#~ "the software project."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "We solve this by means of symbolic"
-#~ " links (git honors them). When a "
-#~ "file in the documentation is updated,"
-#~ " the ``runme.sh`` script will:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "create all symbolic links: a. those "
-#~ "expected by ``sphinx-intl`` in "
-#~ "``/local/$(LANG)/LC_MESSAGES/`` b. those used "
-#~ "by weblate in ``/po/$(LANG).po``"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To install Ghini first requires that "
-#~ "you install its dependencies that cannot"
-#~ " be installed automatically.  These include"
-#~ " virtualenv, PyGTK and pip. Python "
-#~ "and GTK+, you probably already have. "
-#~ "As long as you have these packages"
-#~ " installed then Ghini should be able"
-#~ " to install the rest of its "
-#~ "dependencies by itself."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you follow these installation steps,"
-#~ " you will end with Ghini running "
-#~ "within a Python virtual environment, all"
-#~ " Python dependencies installed locally, non"
-#~ " conflicting with any other Python "
-#~ "program you may have on your "
-#~ "system."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "if you later choose to remove "
-#~ "Ghini, you simply remove the virtual "
-#~ "environment, which is a directory, with"
-#~ " all of its content."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Please note that the script will "
-#~ "not help you install any extra "
-#~ "database connector. This is not strictly"
-#~ " necessary and you can do it at"
-#~ " any later step."
-#~ msgstr ""
-
