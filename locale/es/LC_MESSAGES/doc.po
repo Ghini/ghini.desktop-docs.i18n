@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 11:31-0500\n"
+"POT-Creation-Date: 2017-06-29 11:48-0500\n"
 "PO-Revision-Date: 2017-06-23 20:31-0500\n"
 "Last-Translator: Mario Frasca <mario@anche.no>\n"
 "Language: es\n"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../administration.rst:20
 msgid ""
-"The fastest way to open it is with the file explorer: type ``%APPDATA%` "
+"The fastest way to open it is with the file explorer: type ``%APPDATA%`` "
 "and hit enter."
 msgstr ""
 "La manera más rápida para abrir esa carpeta en el explorador: escriba "
@@ -3450,10 +3450,6 @@ msgid ""
 "``vi``) from::"
 msgstr "baje e instale ``git`` desde::"
 
-#: ../../installing.rst:185
-msgid "https://git-scm.com/download/win"
-msgstr ""
-
 #: ../../installing.rst:187
 msgid "`Direct link to download git`_"
 msgstr "_ 'Enlace directo al descargar git'"
@@ -3469,10 +3465,6 @@ msgstr ""
 #: ../../installing.rst:194
 msgid "download and install Python 2.x (32bit) from::"
 msgstr "baje e instale Python 2.7 (32 bit) desde::"
-
-#: ../../installing.rst:196
-msgid "http://www.python.org"
-msgstr ""
 
 #: ../../installing.rst:198
 msgid "`Direct link to download Python`_"
@@ -3498,10 +3490,6 @@ msgid ""
 msgstr ""
 "baje e instale ``pygtk`` desde el repositorio siguiente (se requiere "
 "python 32bit). vamos a necesitar versión \"all in one\"::"
-
-#: ../../installing.rst:211
-msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
-msgstr ""
 
 #: ../../installing.rst:213
 msgid "`Direct link to download PyGTK`_"
@@ -5195,3 +5183,13 @@ msgstr "elaboración de informe"
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr "grabar etiquetas"
+
+#~ msgid "https://git-scm.com/download/win"
+#~ msgstr ""
+
+#~ msgid "http://www.python.org"
+#~ msgstr ""
+
+#~ msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
+#~ msgstr ""
+

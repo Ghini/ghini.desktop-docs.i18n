@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-06-29 11:31-0500\n"
+"POT-Creation-Date: 2017-06-29 11:48-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: ../../administration.rst:20
 msgid ""
-"The fastest way to open it is with the file explorer: type ``%APPDATA%` "
+"The fastest way to open it is with the file explorer: type ``%APPDATA%`` "
 "and hit enter."
 msgstr ""
 
@@ -2606,10 +2606,6 @@ msgid ""
 "``vi``) from::"
 msgstr ""
 
-#: ../../installing.rst:185
-msgid "https://git-scm.com/download/win"
-msgstr ""
-
 #: ../../installing.rst:187
 msgid "`Direct link to download git`_"
 msgstr ""
@@ -2622,10 +2618,6 @@ msgstr ""
 
 #: ../../installing.rst:194
 msgid "download and install Python 2.x (32bit) from::"
-msgstr ""
-
-#: ../../installing.rst:196
-msgid "http://www.python.org"
 msgstr ""
 
 #: ../../installing.rst:198
@@ -2647,10 +2639,6 @@ msgstr ""
 msgid ""
 "download ``pygtk`` from the following source. (this requires 32bit "
 "python). be sure you download the \"all in one\" version::"
-msgstr ""
-
-#: ../../installing.rst:211
-msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
 msgstr ""
 
 #: ../../installing.rst:213
@@ -3955,3 +3943,13 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
+
+#~ msgid "https://git-scm.com/download/win"
+#~ msgstr ""
+
+#~ msgid "http://www.python.org"
+#~ msgstr ""
+
+#~ msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
+#~ msgstr ""
+
