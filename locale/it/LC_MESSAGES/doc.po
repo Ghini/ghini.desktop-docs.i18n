@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Ghini package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-22 12:35-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-06-29 18:59+0000\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Italian "
+"<https://hosted.weblate.org/projects/ghini/documentation-11/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.15-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -1203,7 +1206,7 @@ msgstr ""
 
 #: ../../editing.rst:202
 msgid "Locations"
-msgstr ""
+msgstr "Ubicazioni"
 
 #: ../../editing.rst:203
 msgid "The Location editor"
@@ -2086,7 +2089,7 @@ msgstr ""
 
 #: ../../installing.rst:238
 msgid "**REBOOT**"
-msgstr ""
+msgstr "**RIAVVIA**"
 
 #: ../../installing.rst:240
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
@@ -2273,7 +2276,7 @@ msgstr ""
 
 #: ../../peptalk.rst:26
 msgid "synonyms"
-msgstr ""
+msgstr "sinonimi"
 
 #: ../../peptalk.rst:28
 msgid ""
@@ -3215,11 +3218,11 @@ msgstr ""
 
 #: ../../statements.rst:57
 msgid "community"
-msgstr ""
+msgstr "comunità"
 
 #: ../../statements.rst:58
 msgid "development"
-msgstr ""
+msgstr "sviluppo"
 
 #: ../../statements.rst:59
 msgid "integration with web portal"
@@ -3276,7 +3279,7 @@ msgstr ""
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Permessi"
 
 #: ../../users.rst:17
 msgid "Ghini allows read, write and execute permissions."
@@ -3347,4 +3350,3 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
-
