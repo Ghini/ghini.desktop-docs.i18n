@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-28 14:21-0500\n"
-"PO-Revision-Date: 2017-06-23 20:47-0500\n"
-"Last-Translator: Mario Frasca <mario@anche.no>\n"
+"PO-Revision-Date: 2017-06-29 18:59+0000\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Italian "
+"<https://hosted.weblate.org/projects/ghini/documentation-10/it/>\n"
 "Language: it\n"
-"Language-Team: it <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.15-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -451,6 +453,11 @@ msgid ""
 " when you perform a marginal correction to a string, like removing a "
 "typo."
 msgstr ""
+"Quando si esegue uno degli script di cui sopra, è probabile che si abbia "
+"bisogno di fare il commit di *tutti* i file `po` del progetto. Si potrebbero "
+"voler esaminare le modifiche prima di inserirle nel respository. Questo è "
+"più importante quando si esegue una  correzione marginale di una stringa, "
+"come la rimozione di un errore di battitura."
 
 #: ../../building.rst:126
 msgid ""
@@ -460,6 +467,11 @@ msgid ""
 "<http://docs.readthedocs.io/en/latest/localization.html>`_, there's "
 "nothing that we invented ourselves here."
 msgstr ""
+"`La nostra documentazione <https://readthedocs.org/projects/ghini/>`_ su "
+"readthedocs ha una versione originale in lingua inglese, e diverse "
+"traduzioni. Seguiamo semplicemente la `descrizione della localizzazione "
+"<http://docs.readthedocs.io/en/latest/localization.html>`_. Qui non c'è "
+"nulla che abbiamo inventato noi."
 
 #: ../../building.rst:132
 msgid ""
@@ -470,6 +482,12 @@ msgid ""
 " source document, and that they all reside in the directory "
 "``local/$(LANG)/LC_MESSAGES/``."
 msgstr ""
+"ReadTheDocs controlla l'impostazione \"Language\" del progetto ed invoca "
+"``sphinx-intl`` per produrre la documentazione formattata nella lingua "
+"obiettivo. Con la configurazione predefinita — che non abbiamo alterato — "
+"``sphinx-intl`` prevede un file ``po`` per ogni documento di origine, che "
+"abbia lo stesso nome del documento di origine, e che risieda nella directory "
+"``locale/$(LANG)/LC_MESSAGES/``."
 
 #: ../../building.rst:139
 msgid ""
@@ -477,54 +495,65 @@ msgid ""
 "per language, and keeps them all in the same ``/po`` directory, just as "
 "we do for the software project: ``/po/$(LANG).po``."
 msgstr ""
+"D'altra parte, Weblate (e noi stessi) preferiamo un file ``po`` per ogni "
+"lingua, e tenerli tutti nella stessa cartella ``/po``, come facciamo per il "
+"progetto software: ``/po/$(LANG).po``."
 
 #: ../../building.rst:143
 msgid ""
 "In order not to repeat information, and to let both systems work their "
 "natural way, we have two sets of symbolic links (git honors them)."
 msgstr ""
+"Per non ripetere informazione e per lasciare lavorare entrambi i sistemi nel "
+"loro modo naturale, abbiamo due insiemi di link simbolici (git li rispetta)."
 
 #: ../../building.rst:146
 msgid ""
 "To summarise: when a file in the documentation is updated, the "
 "``runme.sh`` script will:"
 msgstr ""
+"Per riassumere: quando viene aggiornato un file nella documentazione, lo "
+"script``runme.sh`` si occupa di:"
 
 #: ../../building.rst:149
 msgid "copy the ``rst`` files from the software to the documentation;"
-msgstr ""
+msgstr "copiare i file ``rst`` dal software alla documentazione;"
 
 #: ../../building.rst:150
 msgid "create a new ``pot`` file for each of the documentation files;"
-msgstr ""
+msgstr "creare un nuovo file ``pot`` per ciascun elemento di documentazione;"
 
 #: ../../building.rst:151
 msgid "merge all ``pot`` files into one ``doc.pot``;"
-msgstr ""
+msgstr "unire tutti i file ``pot`` in un unico ``doc.pot``;"
 
 #: ../../building.rst:152
 msgid ""
 "use the updated ``doc.pot`` to update all ``doc.po`` files (one per "
 "language);"
 msgstr ""
+"aggiornare tutti i ``doc.po`` (uno per lingua) sulla base del nuovo "
+"``doc.pot``;"
 
 #: ../../building.rst:153
 msgid "create all symbolic links:"
-msgstr ""
+msgstr "creare tutti i collegamenti simbolici:"
 
 #: ../../building.rst:155
 msgid "those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``"
-msgstr ""
+msgstr "quelli utilizzati da ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``"
 
 #: ../../building.rst:156
 msgid "those used by weblate in ``/po/$(LANG).po``"
-msgstr ""
+msgstr "quelli utilizzati da noi e weblate in ``/po/$(LANG).po``"
 
 #: ../../building.rst:158
 msgid ""
 "We could definitely write the above in a Makefile, or even better include"
 " it in ``/doc/Makefile``. Who knows, maybe we will do that."
 msgstr ""
+"Sicuramente potremmo scrivere tutto ciò in un Makefile, o ancora meglio "
+"includerlo nel '/ doc/Makefile '. Chissà, forse lo faremo, un giorno."
 
 #: ../../building.rst:163 ../../devdl.rst:102
 msgid "Adding missing unit tests"
@@ -1150,7 +1179,7 @@ msgstr ""
 
 #: ../../building.rst:508
 msgid "Examples"
-msgstr ""
+msgstr "Esempi"
 
 #: ../../building.rst:510
 msgid ""
@@ -1462,6 +1491,8 @@ msgid ""
 "when you change strings, please make sure that old translations get re-"
 "used."
 msgstr ""
+"quando cambi qualche stringa, assicurati che le sue vecchie traduzioni "
+"vengano ancora utilizzate."
 
 #: ../../building.rst:624
 msgid "commit your changes."
@@ -2156,7 +2187,7 @@ msgstr ""
 
 #: ../../editing.rst:201
 msgid "Locations"
-msgstr ""
+msgstr "Ubicazioni"
 
 #: ../../editing.rst:202
 msgid "The Location editor"
@@ -2614,7 +2645,7 @@ msgstr ""
 
 #: ../../goal.rst:160 ../../peptalk.rst:26
 msgid "synonyms"
-msgstr ""
+msgstr "sinonimi"
 
 #: ../../goal.rst:162 ../../peptalk.rst:28
 msgid ""
@@ -3508,7 +3539,7 @@ msgstr "'Direct link per scaricare psycopg2' _"
 
 #: ../../installing.rst:238
 msgid "**REBOOT**"
-msgstr ""
+msgstr "**RIAVVIA**"
 
 #: ../../installing.rst:240
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
@@ -4995,11 +5026,11 @@ msgstr "segno di riferimento"
 
 #: ../../statements.rst:57
 msgid "community"
-msgstr ""
+msgstr "comunità"
 
 #: ../../statements.rst:58
 msgid "development"
-msgstr ""
+msgstr "sviluppo"
 
 #: ../../statements.rst:59
 msgid "integration with web portal"
@@ -5070,7 +5101,7 @@ msgstr "Crea nuovo utente"
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Permessi"
 
 #: ../../users.rst:17
 msgid "Ghini allows read, write and execute permissions."
