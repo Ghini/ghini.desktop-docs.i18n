@@ -11,26 +11,34 @@ ALLPODIR=$CHECKOUTDIR/po
 # "all remaining actions must be run from the doc dir"
 cd $CHECKOUTDIR/doc
 
+echo '=========================================================================='
 echo "copy/update files from the documentation"
-echo "press enter to start this."
-read
+echo '--------------------------------------------------------------------------'
 cp -pu $SOURCEDOCDIR/*.rst .
 rm api.rst
-
+echo "done copying/updating files from documentation"
+echo '--------------------------------------------------------------------------'
+echo
+echo '=========================================================================='
 echo "update the centralised doc.pot (two steps, first all pot, then merge them)"
-echo "press enter to start this"
-read
+echo '--------------------------------------------------------------------------'
 echo "update the centralised doc.pot --- step one"
+echo '--------------------------------------------------------------------------'
 make gettext
 echo "update the centralised doc.pot --- step two"
+echo '--------------------------------------------------------------------------'
 msgcat -o _build/locale-merged/doc.pot _build/locale/*.pot
-
+echo "done updating centralised doc.pot"
+echo '--------------------------------------------------------------------------'
+echo
+echo '=========================================================================='
 echo "update all LANGUAGE/doc.po files in CHECKOUTDIR/local/"
+echo '--------------------------------------------------------------------------'
 sphinx-intl update -p _build/locale-merged $(for i in $LANGUAGES; do printf -- '-l %s ' $i; done)
 
+echo '=========================================================================='
 echo "make sure we have all the symbolic links for po files"
-echo "press enter to start this."
-read
+echo '--------------------------------------------------------------------------'
 for l in $LANGUAGES
 do
     cd $CHECKOUTDIR/locale/$l/LC_MESSAGES/
@@ -42,9 +50,14 @@ do
     ln -s ../locale/$l/LC_MESSAGES/doc.po $l.po 2>/dev/null
 done
 
+echo "done updating po files and symbolic links"
+echo '--------------------------------------------------------------------------'
+echo
+echo '=========================================================================='
 echo "this is enough as far as weblate and readthedocs are concerned"
+echo '--------------------------------------------------------------------------'
 #################################################################
-echo press enter to continue
+echo press enter to continue with other stuff, or ^C to stop here
 read
 
 #################################################################
