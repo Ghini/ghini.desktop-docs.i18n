@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
-msgstr ""
+msgstr "Пожалуйста, ссылайтесь к официальной документации."
 
 #: ../../administration.rst:29
 msgid "PostgreSQL"
@@ -112,11 +112,11 @@ msgstr ""
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
-msgstr ""
+msgstr "Инструкция разработчика"
 
 #: ../../building.rst:5
 msgid "Helping Ghini development"
-msgstr ""
+msgstr "помогая развитию Ghini"
 
 #: ../../building.rst:7
 msgid ""
@@ -129,7 +129,7 @@ msgstr ""
 msgid ""
 "If you want to contribute to Ghini, you can do so in quite a few "
 "different ways:"
-msgstr ""
+msgstr "Если вы хотите сделать вклад в Ghini, вы можете это сделать несколькими способами:"
 
 #: ../../building.rst:13
 msgid ""
@@ -1344,14 +1344,14 @@ msgstr ""
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
-msgstr ""
+msgstr "Редактирование и введение данных"
 
 #: ../../editing.rst:6
 msgid ""
 "The main way that we add or change information in Ghini is by using the "
 "editors.  Each basic type of data has its own editor.  For example there "
 "is a Family editor, a Genus editor, an Accession editor, etc."
-msgstr ""
+msgstr "Мы добавляем или изменяем информацию в Bauble с помощью редакторов. Каждый вид данных имеет своего редактора. Например: редактор Семья, редактор Гений, редактор Доступа и т.д."
 
 #: ../../editing.rst:10
 msgid ""
@@ -1378,13 +1378,13 @@ msgstr ""
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "Примечания"
 
 #: ../../editing.rst:27
 msgid ""
 "Almost all of the editors in Ghini have a *Notes* tab which should work "
 "the same regardless of which editor you are using."
-msgstr ""
+msgstr "Почти все редакторы в Bauble имеют вкладку "Примечания", которые работают одинаково не зависимо от того, каким редактором вы пользуетесь."
 
 #: ../../editing.rst:30
 msgid ""
@@ -1401,7 +1401,7 @@ msgstr ""
 
 #: ../../editing.rst:39 ../../searching.rst:46
 msgid "Family"
-msgstr ""
+msgstr "Семейство"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
@@ -1411,7 +1411,7 @@ msgstr ""
 msgid ""
 "The *Family* field on the editor lets you change the epithet of the "
 "family. The Family field is required."
-msgstr ""
+msgstr "Поле *Семейство* в редакторе изменит название семейства. Поле *Семейство* необходимо заполнить."
 
 #: ../../editing.rst:45
 msgid ""
@@ -1432,7 +1432,7 @@ msgstr ""
 
 #: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
 msgid "To cancel your changes without saving then click on the *Cancel* button."
-msgstr ""
+msgstr "Отменить ваши изменения без их сохранения, нажмите на кнопку *Отменить*."
 
 #: ../../editing.rst:58
 msgid "To save the family you are working on then click *OK*."
@@ -1449,15 +1449,15 @@ msgid ""
 "To add another family when you are finished editing the current one click"
 " on the *Next* button on the bottom.  This saves the current family and "
 "opens a new blank family editor."
-msgstr ""
+msgstr "Для того, чтобы добавить другое семейство после завершения редактирования текущего семейства, нажмите на кнопку *Следующее* внизу экрана. Текущее семейство будет сохранено и откроется редактор для нового семейства."
 
 #: ../../editing.rst:69 ../../searching.rst:47
 msgid "Genus"
-msgstr ""
+msgstr "Род"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
-msgstr ""
+msgstr "Редактор Рода повзоляет добавлять или вносить изменения в ботанический род."
 
 #: ../../editing.rst:73
 msgid ""
@@ -1465,7 +1465,7 @@ msgid ""
 "for the genus.  When you begin type a family name it will show a list of "
 "families to choose from.  The family name must already exist in the "
 "database before you can set it as the family for the genus."
-msgstr ""
+msgstr "Поле *Семейство* в родовом редакторе позволяет выбирать семейство для рода. Когда вы начнете вводить название семейства, вы увидите список семейств для выбора. Название семейства уже должно существовать в базе данных для того чтобы его выбрать для рода."
 
 #: ../../editing.rst:78
 msgid "The *Genus* field allows you to set the genus for this entry."
@@ -1475,7 +1475,7 @@ msgstr ""
 msgid ""
 "The *Author* field allows you to set the name or abbreviation of the "
 "author(s) for the genus."
-msgstr ""
+msgstr "Поле *Автор* позволяет установить название или аббревиацию автора для рода."
 
 #: ../../editing.rst:83
 msgid ""
@@ -1583,7 +1583,7 @@ msgstr ""
 
 #: ../../editing.rst:154 ../../searching.rst:52
 msgid "Plant"
-msgstr ""
+msgstr "Растение"
 
 #: ../../editing.rst:155
 msgid "The Plant editor."
@@ -1980,7 +1980,7 @@ msgstr ""
 
 #: ../../goal.rst:152 ../../peptalk.rst:18
 msgid "importing data"
-msgstr ""
+msgstr "считывание данных"
 
 #: ../../goal.rst:154 ../../peptalk.rst:20
 msgid ""
@@ -1988,11 +1988,11 @@ msgid ""
 "format. What you import will complete what you already have in the "
 "database. If you need help, you can ask some Ghini professional to help "
 "you transform your data into Ghini's intermediate json format."
-msgstr ""
+msgstr "Ghini позволяет считывать любые данные, помещенные в промежуточный json формат. То что вы считываете завершит то, что у вас уже есть в базе данных. Если вам нужна помощь, вы можете попросить проффесионалов помочь вам перевести ваши данные в промежуточный json формат."
 
 #: ../../goal.rst:160 ../../peptalk.rst:26
 msgid "synonyms"
-msgstr ""
+msgstr "синонимы"
 
 #: ../../goal.rst:162 ../../peptalk.rst:28
 msgid ""
@@ -2054,11 +2054,11 @@ msgstr ""
 
 #: ../../goal.rst:200 ../../peptalk.rst:66
 msgid "Management of plant locations."
-msgstr ""
+msgstr "Управление расположением растений."
 
 #: ../../goal.rst:203 ../../peptalk.rst:69
 msgid "database history"
-msgstr ""
+msgstr "Хронология базы данных"
 
 #: ../../goal.rst:205 ../../peptalk.rst:71
 msgid ""
@@ -2066,11 +2066,11 @@ msgid ""
 "All changes are 'signed' and time-stamped.  Ghini makes it easy to "
 "retrieve the list of all changes in the last working day or week, or in "
 "any specific period in the past."
-msgstr ""
+msgstr "Все изменения в базе данных сохраняются как хронологическая запись. Все изменения подписаны и имеют временные метки.  Ghini позволяет с легкостью найти список всех изменений предыдющего дня или недели, или другой определенной даты в прошлом."
 
 #: ../../goal.rst:211 ../../peptalk.rst:77
 msgid "simple and powerful search"
-msgstr ""
+msgstr "простой и мощный поиск"
 
 #: ../../goal.rst:213 ../../peptalk.rst:79
 msgid ""
@@ -2078,11 +2078,11 @@ msgid ""
 "name of the location or a genus name, or you can write more complex "
 "queries, which do not reach the complexity of SQL but allow you a decent "
 "level of detail localizing your data."
-msgstr ""
+msgstr "Ghini повзоляет искать в базе данных , используя простые ключевые слова, например: название местоположения или рода. Можно вносить более сложные запросы, которые не достигают сложности SQL, но дают вам приличный уровень подробностей локализации ваших данных."
 
 #: ../../goal.rst:219 ../../peptalk.rst:85
 msgid "database agnostic"
-msgstr ""
+msgstr "независимая база данных"
 
 #: ../../goal.rst:221 ../../peptalk.rst:87
 msgid ""
@@ -2099,7 +2099,7 @@ msgstr ""
 
 #: ../../goal.rst:232 ../../peptalk.rst:98
 msgid "language agnostic"
-msgstr ""
+msgstr "независимый язык"
 
 #: ../../goal.rst:234 ../../peptalk.rst:100
 msgid ""
@@ -2108,11 +2108,11 @@ msgid ""
 "been translated and can be used in various other languages, including "
 "Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
 "American languages, as well as Swedish (100%) and Czech (100%)."
-msgstr ""
+msgstr "Эта программа была изобретена в Англии и вся ее техническая документация и документация пользователя существует на английском языке. Но сама программа была переведена на многие языки, включая испанский (86%), португальский (100%), французский (42%), некоторые южноамериканские языки, так же как и шведский (100%) и чешский (100%)."
 
 #: ../../goal.rst:241 ../../peptalk.rst:107
 msgid "platform agnostic"
-msgstr ""
+msgstr "независимая платформа"
 
 #: ../../goal.rst:243 ../../peptalk.rst:109
 msgid ""
@@ -2125,7 +2125,7 @@ msgstr ""
 
 #: ../../goal.rst:250 ../../peptalk.rst:116
 msgid "easily updated"
-msgstr ""
+msgstr "легко обновляется"
 
 #: ../../goal.rst:252 ../../peptalk.rst:118
 msgid ""
@@ -2316,7 +2316,7 @@ msgstr ""
 
 #: ../../index.rst:51
 msgid "Administration"
-msgstr ""
+msgstr "Администрация"
 
 #: ../../index.rst:60
 msgid "Ghini Development"
@@ -2958,7 +2958,7 @@ msgstr ""
 
 #: ../../report.rst:2
 msgid "Generating reports"
-msgstr ""
+msgstr "Создается отчет"
 
 #: ../../report.rst:4
 msgid ""
@@ -2974,20 +2974,20 @@ msgstr ""
 
 #: ../../report.rst:12
 msgid "Using the Mako Report Formatter"
-msgstr ""
+msgstr "Используется форматер отчета Mako"
 
 #: ../../report.rst:14
 msgid ""
 "The Mako report formatter uses the Mako template language for generating "
 "reports. More information about Mako and its language can be found at "
 "`makotemplates.org <http://www.makotemplates.org>`_."
-msgstr ""
+msgstr "Форматер отчета Mako применяет языковый шаблон для создания отчетов. Подробную инфомацию о Mako и его языках можно найти на сайте `makotemplates.org <http://www.makotemplates.org>`_."
 
 #: ../../report.rst:18
 msgid ""
 "The Mako templating system should already be installed on your computer "
 "if Ghini is installed."
-msgstr ""
+msgstr "Языковая система Mako уже должны быть загружена на вашем компьютере, если вы загрузили Ghini."
 
 #: ../../report.rst:21
 msgid ""
@@ -2995,7 +2995,7 @@ msgid ""
 "web page from a template.  It is much simpler than the XSL Formatter(see "
 "below) and should be relatively easy to create template for anyone with a"
 " little but of programming experience."
-msgstr ""
+msgstr "Создание отчета  Mako подоюно создани. веб страницы по шаблону. Он намного проще, чем форматер XSL, и любой человек хоть с небольшим опытом в програмировании сможет со сравнительной легкостью создать шаблон."
 
 #: ../../report.rst:26
 msgid ""
@@ -3888,33 +3888,33 @@ msgstr ""
 
 #: ../../users.rst:2
 msgid "Managing Users"
-msgstr ""
+msgstr "Управление пользователями"
 
 #: ../../users.rst:4
 msgid "The Ghini users plugin is only available on PostgreSQL based databases."
-msgstr ""
+msgstr "Использование плагина Ghini доступно только в базах данных основанных на технологии PostgreSQL."
 
 #: ../../users.rst:7
 msgid ""
 "The Ghini User's Plugin will allow you to create and manage the "
 "permissions of users for your Ghini database."
-msgstr ""
+msgstr "Плагин Ghini позволит Вам создавать и управлять полномочиями пользователей в базе данных Bauble."
 
 #: ../../users.rst:11
 msgid "Creating Users"
-msgstr ""
+msgstr "Создание пользователей"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
-msgstr ""
+msgstr "Чтобы создать нового пользователя..."
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Полномочия"
 
 #: ../../users.rst:17
 msgid "Ghini allows read, write and execute permissions."
-msgstr ""
+msgstr "Ghini позволяет читать, изменять и исполнять полномочия."
 
 #: ../../user_stories.rst:3
 msgid "representing the planned space"

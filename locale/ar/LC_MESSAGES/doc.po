@@ -1378,7 +1378,7 @@ msgstr ""
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "ملاحظات"
 
 #: ../../editing.rst:27
 msgid ""
