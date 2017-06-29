@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 11:48-0500\n"
+"POT-Creation-Date: 2017-06-29 13:03-0500\n"
 "PO-Revision-Date: 2017-06-23 20:47-0500\n"
 "Last-Translator: Mario Frasca <mario@anche.no>\n"
 "Language: it\n"
@@ -1806,7 +1806,7 @@ msgstr ""
 " casella note nella parte inferiore dello schermo.  La casella note è "
 "desensibilizzata se l'elemento selezionato non dispone di eventuali note."
 
-#: ../../editing.rst:39 ../../searching.rst:46
+#: ../../editing.rst:39 ../../searching.rst:44
 msgid "Family"
 msgstr "Famiglia"
 
@@ -1878,7 +1878,7 @@ msgstr ""
 " click su *Next*.  Questo salva la famiglia correntemente aperta ed "
 "inizia la modifica della prossima."
 
-#: ../../editing.rst:69 ../../searching.rst:47
+#: ../../editing.rst:69 ../../searching.rst:45
 msgid "Genus"
 msgstr "Genere"
 
@@ -2031,7 +2031,7 @@ msgstr ""
 "sulla provenienza di questa accessione.  Al momento il tipo dell'origine "
 "può essere un insieme o una donazione."
 
-#: ../../editing.rst:143 ../../searching.rst:55
+#: ../../editing.rst:143 ../../searching.rst:53
 msgid "Collection"
 msgstr ""
 
@@ -2047,7 +2047,7 @@ msgstr "Donazione"
 msgid "A Donation."
 msgstr "Una donazione"
 
-#: ../../editing.rst:154 ../../searching.rst:52
+#: ../../editing.rst:154 ../../searching.rst:50
 msgid "Plant"
 msgstr "Pianta"
 
@@ -2358,7 +2358,7 @@ msgstr ""
 "Dati e algoritmi all'interno Ghini sono stati progettati per "
 "rappresentare lo spazio fisico e la dinamica di un giardino botanico."
 
-#: ../../goal.rst:45 ../../searching.rst:160
+#: ../../goal.rst:45 ../../searching.rst:158
 msgid "**core structure of Ghini's database**"
 msgstr "**struttura di database** di Ghini"
 
@@ -4131,124 +4131,124 @@ msgstr ""
 "Nella tabella seguente consente di comprendere i risultati e vi guida nel"
 " formulare le ricerche."
 
-#: ../../searching.rst:42
+#: ../../searching.rst:40
 msgid "search domain overview"
 msgstr "Panoramica sui domini di ricerca"
 
-#: ../../searching.rst:44
+#: ../../searching.rst:42
 msgid "name and shorthands"
 msgstr "nome ed abbreviazioni"
 
-#: ../../searching.rst:44
+#: ../../searching.rst:42
 msgid "field"
 msgstr "campo"
 
-#: ../../searching.rst:44
+#: ../../searching.rst:42
 msgid "result type"
 msgstr "tipo di risultato"
 
-#: ../../searching.rst:46
+#: ../../searching.rst:44
 msgid "family, fam"
 msgstr ""
 
-#: ../../searching.rst:46
+#: ../../searching.rst:44
 msgid "epithet (family)"
 msgstr ""
 
-#: ../../searching.rst:47
+#: ../../searching.rst:45
 msgid "genus, gen"
 msgstr ""
 
-#: ../../searching.rst:47
+#: ../../searching.rst:45
 msgid "epithet (genus)"
 msgstr ""
 
-#: ../../searching.rst:48
+#: ../../searching.rst:46
 msgid "species, sp"
 msgstr ""
 
-#: ../../searching.rst:48
+#: ../../searching.rst:46
 msgid "epithet (sp) **×**"
 msgstr ""
 
-#: ../../searching.rst:48 ../../searching.rst:49
+#: ../../searching.rst:46 ../../searching.rst:47
 msgid "Species"
 msgstr ""
 
-#: ../../searching.rst:49
+#: ../../searching.rst:47
 msgid "vernacular, common, vern"
 msgstr ""
 
-#: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
-#: ../../searching.rst:56
+#: ../../searching.rst:47 ../../searching.rst:48 ../../searching.rst:52
+#: ../../searching.rst:54
 msgid "name"
 msgstr ""
 
-#: ../../searching.rst:50
+#: ../../searching.rst:48
 msgid "geography, geo"
 msgstr ""
 
-#: ../../searching.rst:50
+#: ../../searching.rst:48
 msgid "Geography"
 msgstr ""
 
-#: ../../searching.rst:51
+#: ../../searching.rst:49
 msgid "accession, acc"
 msgstr ""
 
-#: ../../searching.rst:51
+#: ../../searching.rst:49
 msgid "code"
 msgstr ""
 
-#: ../../searching.rst:51
+#: ../../searching.rst:49
 msgid "Accession"
 msgstr ""
 
-#: ../../searching.rst:52
+#: ../../searching.rst:50
 msgid "planting, plant"
 msgstr ""
 
-#: ../../searching.rst:52
+#: ../../searching.rst:50
 msgid "code **×**"
 msgstr ""
 
-#: ../../searching.rst:53
+#: ../../searching.rst:51
 msgid "location, loc"
 msgstr ""
 
-#: ../../searching.rst:53
+#: ../../searching.rst:51
 msgid "code, name"
 msgstr ""
 
-#: ../../searching.rst:53
+#: ../../searching.rst:51
 msgid "Location"
 msgstr ""
 
-#: ../../searching.rst:54
+#: ../../searching.rst:52
 msgid "contact, person, org, source"
 msgstr ""
 
-#: ../../searching.rst:54
+#: ../../searching.rst:52
 msgid "Contact"
 msgstr ""
 
-#: ../../searching.rst:55
+#: ../../searching.rst:53
 msgid "collection, col, coll"
 msgstr ""
 
-#: ../../searching.rst:55
+#: ../../searching.rst:53
 msgid "locale"
 msgstr ""
 
-#: ../../searching.rst:56
+#: ../../searching.rst:54
 msgid "tag, tags"
 msgstr ""
 
-#: ../../searching.rst:56
+#: ../../searching.rst:54
 msgid "Tag"
 msgstr ""
 
-#: ../../searching.rst:59
+#: ../../searching.rst:57
 msgid ""
 "Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
 "2003.2.1, indica."
@@ -4256,7 +4256,7 @@ msgstr ""
 "Esempi di ricerca per valore sarebbe: Maxillaria, Acanth, 2008.1234, "
 "2003.2.1, indica."
 
-#: ../../searching.rst:62
+#: ../../searching.rst:60
 msgid ""
 "Unless explicitly quoted, spaces separate search strings. For example if "
 "you search for ``Block 10`` then Ghini will search for the strings Block "
@@ -4271,11 +4271,11 @@ msgstr ""
 "come una stringa intera basterà usare le virgolette, così: ``\"Block "
 "10\"``."
 
-#: ../../searching.rst:68
+#: ../../searching.rst:66
 msgid "× Composite Primary Keys"
 msgstr "× Chiavi primarie composte"
 
-#: ../../searching.rst:71
+#: ../../searching.rst:69
 msgid ""
 "A **species** epithet means little without the corresponding genus, "
 "likewise a **planting** code is unique only within the accession to which"
@@ -4290,7 +4290,7 @@ msgstr ""
 "primaria** per rispettivamente specie e le planting. Questi domini "
 "necessitano di una **chiave primaria composta**."
 
-#: ../../searching.rst:78
+#: ../../searching.rst:76
 msgid ""
 "Search by value lets you look for **plantings** by their complete "
 "planting code, which includes the accession code. Taken together, "
@@ -4304,11 +4304,11 @@ msgstr ""
 "primaria composito** per gli planting.  Per **specie**, abbiamo "
 "introdotto la ricerca binomiale, descritta di seguito."
 
-#: ../../searching.rst:86
+#: ../../searching.rst:84
 msgid "Search by Expression"
 msgstr "Ricerca per espressione"
 
-#: ../../searching.rst:88
+#: ../../searching.rst:86
 msgid ""
 "Searching with expression gives you a little more control over what you "
 "are searching for. You narrow the search down to a specific domain, the "
@@ -4319,7 +4319,7 @@ msgstr ""
 "software definisce i campi per la ricerca all'interno del dominio "
 "indicato."
 
-#: ../../searching.rst:92
+#: ../../searching.rst:90
 msgid ""
 "An expression is built as ``<domain> <operator> <value>``. For example "
 "the search: ``gen=Maxillaria`` would return all the genera that match the"
@@ -4331,7 +4331,7 @@ msgstr ""
 "corrispondono al nome Maxillaria. In questo caso il dominio è ``gen``, "
 "l'operatore è ``=`` e il valore è ``Maxillaria``."
 
-#: ../../searching.rst:97
+#: ../../searching.rst:95
 msgid ""
 "The above search domain overview table tells you the names of the search "
 "domains, and, per search domain, which fields are searched."
@@ -4340,7 +4340,7 @@ msgstr ""
 " dei domini di ricerca, e, per ogni dominio di ricerca, quali campi "
 "vengono inclusi implicitamente nelle ricerche."
 
-#: ../../searching.rst:100
+#: ../../searching.rst:98
 #, python-format
 msgid ""
 "The search string ``loc like block%`` would return all the Locations for "
@@ -4355,11 +4355,11 @@ msgid ""
 "``10``."
 msgstr ""
 
-#: ../../searching.rst:110
+#: ../../searching.rst:108
 msgid "When a query takes ages to complete"
 msgstr "Quando una query richiede molto tempo per completare"
 
-#: ../../searching.rst:113
+#: ../../searching.rst:111
 msgid ""
 "You give a query, it takes time to compute, the result contains "
 "unreasonably many entries.  This happens when you intend to use a "
@@ -4377,11 +4377,11 @@ msgstr ""
 "maxillaria`` cercherà le stringhe ``gen``, ``lik`` e ``maxillaria``, "
 "restituendo tutto ciò che soddisfi almeno uno dei tre criteri."
 
-#: ../../searching.rst:122
+#: ../../searching.rst:120
 msgid "Binomial search"
 msgstr "Ricerca binomiale"
 
-#: ../../searching.rst:124
+#: ../../searching.rst:122
 msgid ""
 "You can also perform a search in the database if you know the species, "
 "just by placing a few initial letters of genus and species epithets in "
@@ -4394,15 +4394,15 @@ msgstr ""
 "vale a dire: **genere epiteto** con una lettere maiuscole iniziali, "
 "**specie epiteto** tutte le lettere minuscole."
 
-#: ../../searching.rst:129
+#: ../../searching.rst:127
 msgid "This way you can perform the search ``So ha``."
 msgstr "In questo modo è possibile eseguire la ricerca ``So ha``."
 
-#: ../../searching.rst:131
+#: ../../searching.rst:129
 msgid "These would be the initials for Solanum hayesii, or Solanum havanense."
 msgstr "Queste sarebbero le iniziali per il Solanum hayesii, o Solanum havanense."
 
-#: ../../searching.rst:133
+#: ../../searching.rst:131
 msgid ""
 "Binomial search comes to compensate the limited usefulness of the above "
 "search by expression when trying to look for a species."
@@ -4410,7 +4410,7 @@ msgstr ""
 "Ricerca nome binomiale viene a compensare la limitata utilità della "
 "succitata ricerca per espressione quando si tenta di cercare una specie."
 
-#: ../../searching.rst:136
+#: ../../searching.rst:134
 msgid ""
 "It is the correct capitalization **Xxxx xxxx** that informs the software "
 "of your intention to perform a binomial search.  The software's second "
@@ -4422,7 +4422,7 @@ msgstr ""
 "ipotesi del software sarà una ricerca per valore, che possibilmente si "
 "tradurrà in molti più risultati del previsto."
 
-#: ../../searching.rst:141
+#: ../../searching.rst:139
 msgid ""
 "The similar request ``so ha`` will return, in a fresh install, over 3000 "
 "objects, starting at Family \"Acalyp(**ha**)ceae\", ending at Geography "
@@ -4433,11 +4433,11 @@ msgstr ""
 "\"Acalyp(**ha**)ceae\", per finire con la geografia \"Western (**So**)uth"
 " America\"."
 
-#: ../../searching.rst:147
+#: ../../searching.rst:145
 msgid "Search by Query"
 msgstr "Ricerca per Query"
 
-#: ../../searching.rst:149
+#: ../../searching.rst:147
 msgid ""
 "Queries allow the most control over searching. With queries you can "
 "search across relations, specific columns, combine search criteria using "
@@ -4449,7 +4449,7 @@ msgstr ""
 "criteri di ricerca utilizzando gli operatori booleani come ``and``, "
 "``or``, ``not`` (e loro rispettiva abbreviazioni ``&&``, ``||``, ``!``)."
 
-#: ../../searching.rst:154
+#: ../../searching.rst:152
 msgid ""
 "Please contact the authors if you want more information, or if you "
 "volunteer to document this more thoroughly.  In the meanwhile you may "
@@ -4459,19 +4459,19 @@ msgstr ""
 "più a fondo, si prega di contattare gli autori.  Nel frattempo si può "
 "iniziare a familiarizzare con la struttura di base del database di Ghini."
 
-#: ../../searching.rst:162
+#: ../../searching.rst:160
 msgid "A few examples:"
 msgstr "Alcuni esempi:"
 
-#: ../../searching.rst:164
+#: ../../searching.rst:162
 msgid "plantings of family Fabaceae in location Block 10::"
 msgstr "piante della famiglia delle Fabaceae in posizione Blocco 10::"
 
-#: ../../searching.rst:168
+#: ../../searching.rst:166
 msgid "locations that contain no plants::"
 msgstr "posizioni che non contengono piante::"
 
-#: ../../searching.rst:172
+#: ../../searching.rst:170
 msgid ""
 "accessions associated to a species of known binomial name (e.g.: "
 "Mangifera indica)::"
@@ -4479,15 +4479,15 @@ msgstr ""
 "accessioni associate ad una specie dal nome binomiale noto (es.: "
 "Mangifera indica)::"
 
-#: ../../searching.rst:176
+#: ../../searching.rst:174
 msgid "accessions we propagated in the year 2016::"
 msgstr "accessioni propagate nell'anno 2016::"
 
-#: ../../searching.rst:180
+#: ../../searching.rst:178
 msgid "accessions we modified in the last three days::"
 msgstr "accessioni modificate negli ultimi tre giorni::"
 
-#: ../../searching.rst:184
+#: ../../searching.rst:182
 msgid ""
 "Searching with queries requires some knowledge of a little syntax and an "
 "idea of the extensive Ghini database table structure. Both you acquire "
@@ -4497,11 +4497,11 @@ msgstr ""
 "della estesa struttura del database Ghini. Entrambe si acquisiscono con "
 "la pratica e magari con l'aiuto del Generatore di Query."
 
-#: ../../searching.rst:190
+#: ../../searching.rst:188
 msgid "The Query Builder"
 msgstr "Generatore di Query"
 
-#: ../../searching.rst:192
+#: ../../searching.rst:190
 msgid ""
 "Ghini offers a Query Builder, that helps you build complex search queries"
 " through a point and click interface.  To open the Query Builder click "
@@ -4514,7 +4514,7 @@ msgstr ""
 "ricerca o selezionare :menuselection:`Strumenti-->Query Builder` dal "
 "menu."
 
-#: ../../searching.rst:201
+#: ../../searching.rst:199
 msgid ""
 "A window will show up, which will lead you through all steps necessary to"
 " construct a correct query that is understood by Ghini's Query Search "
@@ -4524,7 +4524,7 @@ msgstr ""
 "necessari per creare una query corretta che sarà compresa dalla strategia"
 " di Ricerca per Query di Ghini."
 
-#: ../../searching.rst:210
+#: ../../searching.rst:208
 msgid ""
 "First of all you indicate the search domain, this will allow the Query "
 "Builder complete its graphical user interface, then you add as many "
@@ -4536,7 +4536,7 @@ msgstr ""
 "aggiunge il numero di clausole logico necessario, collegandoli con "
 "operatore binario ``and`` o ``or``."
 
-#: ../../searching.rst:215
+#: ../../searching.rst:213
 msgid ""
 "Each clause is formed of three parts: a property that can be reached from"
 " the starting search domain, a comparison operator that you select from "
@@ -4548,7 +4548,7 @@ msgstr ""
 "si seleziona dall'elenco a discesa, un valore che è possibile digitare o "
 "selezionare dall'elenco di valori validi per il campo."
 
-#: ../../searching.rst:220
+#: ../../searching.rst:218
 msgid ""
 "Add as many search properties as you need, by clicking on the plus sign. "
 "Select and/or next to the property name to choose how the clauses will be"
@@ -4558,17 +4558,55 @@ msgstr ""
 "clic sul segno più. Selezionare ``and`` / ``or`` al lato dal nome della "
 "proprietà, per scegliere come combinare le clausole nella query."
 
-#: ../../searching.rst:224
+#: ../../searching.rst:222
 msgid "When you are done building your query click OK to perform the search."
 msgstr ""
 "Quando si è finito di costruire la query fare clic su OK per eseguire la "
 "ricerca."
 
-#: ../../searching.rst:228
+#: ../../searching.rst:224
+msgid ""
+"At this point the Query Builder writes the query in the search entry, and"
+" executes it. You may now edit the string as if you had typed it "
+"yourself. Notice how the left hand side values are interpreted by the "
+"query builder and enclosed in single quotes if recognized as strings, "
+"left alone if they look like numbers or the two reserved words ``None`` "
+"and ``Empty``. You may edit the query and insert quotes if you need them,"
+" eg if you need to literally look for the string ``Empty``."
+msgstr ""
+
+#: ../../searching.rst:232
+msgid ""
+"``None`` is the value of an empty field. It is not the same as the zero "
+"lenght string ``''`` nor the numeric ``0`` nor the boolean ``False`` nor "
+"the set ``Empty``, it indicates that the field has no value at all."
+msgstr ""
+
+#: ../../searching.rst:236
+msgid ""
+"``Empty`` is the empty set. Being it a set, it can be matched against "
+"sets (eg: plants of an accession, or accessions of a species), not "
+"against elements (eg: quantity of a plant or description of a location). "
+"However, the Query Builder does not let you choose a left hand side value"
+" stopping at a set, it expects you to select a field. Choose just any "
+"field: at the moment of producing the query, when the Query Builder meets"
+" a clause with right hand side value the literal string ``Empty``, it "
+"will drop the field name and let you compare the set on the left with "
+"``Empty`` on the right."
+msgstr ""
+
+#: ../../searching.rst:245
+msgid ""
+"We have no literals ``False`` and ``True``. These are typed values, and "
+"the Query Builder does not know how to produce them. Instead of ``False``"
+" type ``0``, and instead of ``True`` type ``1``."
+msgstr ""
+
+#: ../../searching.rst:251
 msgid "Query Grammar"
 msgstr "Grammatica delle Query"
 
-#: ../../searching.rst:230
+#: ../../searching.rst:253
 msgid ""
 "For those who don't fear a bit of formal precision, the following BNF "
 "code gives you a rather precise idea of the grammar implemented by the "
@@ -4585,7 +4623,7 @@ msgstr ""
 "singole; la grammatica non fa differenza tra maiuscole e minuscole, se "
 "non diversamente indicato::"
 
-#: ../../searching.rst:293
+#: ../../searching.rst:316
 msgid ""
 "Please be aware that Ghini's Query language is quite a bit more complex "
 "than what the Query Builder can produce: Queries you can build with the "
