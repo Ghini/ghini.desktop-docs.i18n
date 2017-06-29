@@ -12,9 +12,17 @@ import json
 import requests
 
 def translate(s):
-    r = requests.get('http://api.mymemory.translated.net/get?q=%s&langpair=en|%s' % (s, translation_to), timeout=6)
+    try:
+        r = requests.get('http://api.mymemory.translated.net/get?q=%s&langpair=en|%s' % (s, translation_to), timeout=6)
+    except requests.exceptions.ReadTimeout, e:
+        print >> sys.stderr, type(e), e
+        return ""
+        
     j = json.loads(r.text)
     reply = j['responseData']['translatedText']
+    if reply is None:
+        print >> sys.stderr, r.text
+        return ""
 
     for k in ['INVALID LANGUAGE PAIR SPECIFIED.', 'NO QUERY SPECIFIED', 'QUERY LENGTH LIMIT EXCEDEED', 'MYMEMORY WARNING:']:
         if reply.startswith(k):

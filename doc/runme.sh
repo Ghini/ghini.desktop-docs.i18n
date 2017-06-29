@@ -4,8 +4,8 @@
 LANGUAGES='ar cs da de es fr hi it pl pt_BR ru sv uk zh jp'
 
 # configure locations, don't incude the final slash
-SOURCEDOCDIR=~/Local/github/Ghini/ghini.desktop/doc
-CHECKOUTDIR=~/Local/github/Ghini/ghini.desktop-docs.i18n
+SOURCEDOCDIR=$HOME/Local/github/Ghini/ghini.desktop/doc
+CHECKOUTDIR=$HOME/Local/github/Ghini/ghini.desktop-docs.i18n
 ALLPODIR=$CHECKOUTDIR/po
 
 # "all remaining actions must be run from the doc dir"
@@ -46,7 +46,7 @@ do
     do
         ln -s doc.po $(basename $i .rst).po 2>/dev/null
     done
-    cd $PODIR
+    cd $ALLPODIR
     ln -s ../locale/$l/LC_MESSAGES/doc.po $l.po 2>/dev/null
 done
 
