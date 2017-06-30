@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 13:19-0500\n"
+"POT-Creation-Date: 2017-06-29 20:25-0500\n"
 "PO-Revision-Date: 2017-06-29 18:59+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language: it\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/it/>\n"
-"Language: it\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -36,10 +35,6 @@ msgstr ""
 "prendere in considerazione l'amministrazione di questo DBMS. Una "
 "descrizione del compito di amministrare una base dati è qui assolutamente"
 " fuori luogo, ma è importante che un utente sia consapevole del problema."
-
-#: ../../administration.rst:9
-msgid "SQLite"
-msgstr "SQLite"
 
 #: ../../administration.rst:11
 msgid ""
@@ -75,17 +70,9 @@ msgstr ""
 "Il modo più veloce per aprirlo è con *Esplora Risorse*: inserisci "
 "``%APPDATA%`` e premi INVIO."
 
-#: ../../administration.rst:24
-msgid "MySQL"
-msgstr ""
-
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
 msgstr "Prego riferirsi alla documentazione ufficiale."
-
-#: ../../administration.rst:29
-msgid "PostgreSQL"
-msgstr ""
 
 #: ../../administration.rst:31
 msgid ""
@@ -383,52 +370,6 @@ msgstr "repositorio"
 msgid "branch"
 msgstr "branch"
 
-#: ../../building.rst:102
-msgid "Desktop 1.0"
-msgstr ""
-
-#: ../../building.rst:102 ../../building.rst:103
-msgid "ghini.desktop"
-msgstr ""
-
-#: ../../building.rst:102 ../../building.rst:104
-msgid "ghini-1.0-dev"
-msgstr ""
-
-#: ../../building.rst:103
-msgid "Desktop 1.1"
-msgstr ""
-
-#: ../../building.rst:103 ../../building.rst:105
-msgid "ghini-1.1-dev"
-msgstr ""
-
-#: ../../building.rst:104
-#, fuzzy
-msgid "Documentation 1.0"
-msgstr "Documentazione di Ghini 1.0"
-
-#: ../../building.rst:104 ../../building.rst:105
-msgid "ghini.desktop-docs.i18n"
-msgstr ""
-
-#: ../../building.rst:105
-#, fuzzy
-msgid "Documentation 1.1"
-msgstr "Documentazione di Ghini 1.0"
-
-#: ../../building.rst:106
-msgid "Web 1.2"
-msgstr ""
-
-#: ../../building.rst:106
-msgid "ghini.web"
-msgstr ""
-
-#: ../../building.rst:106
-msgid "master"
-msgstr ""
-
 #: ../../building.rst:109
 msgid ""
 "To update the ``po`` files relative to the *software*, you set the "
@@ -458,10 +399,10 @@ msgid ""
 "typo."
 msgstr ""
 "Quando si esegue uno degli script di cui sopra, è probabile che si abbia "
-"bisogno di fare il commit di *tutti* i file `po` del progetto. Si potrebbero "
-"voler esaminare le modifiche prima di inserirle nel respository. Questo è "
-"più importante quando si esegue una  correzione marginale di una stringa, "
-"come la rimozione di un errore di battitura."
+"bisogno di fare il commit di *tutti* i file `po` del progetto. Si "
+"potrebbero voler esaminare le modifiche prima di inserirle nel "
+"respository. Questo è più importante quando si esegue una  correzione "
+"marginale di una stringa, come la rimozione di un errore di battitura."
 
 #: ../../building.rst:126
 msgid ""
@@ -488,10 +429,10 @@ msgid ""
 msgstr ""
 "ReadTheDocs controlla l'impostazione \"Language\" del progetto ed invoca "
 "``sphinx-intl`` per produrre la documentazione formattata nella lingua "
-"obiettivo. Con la configurazione predefinita — che non abbiamo alterato — "
-"``sphinx-intl`` prevede un file ``po`` per ogni documento di origine, che "
-"abbia lo stesso nome del documento di origine, e che risieda nella directory "
-"``locale/$(LANG)/LC_MESSAGES/``."
+"obiettivo. Con la configurazione predefinita — che non abbiamo alterato —"
+" ``sphinx-intl`` prevede un file ``po`` per ogni documento di origine, "
+"che abbia lo stesso nome del documento di origine, e che risieda nella "
+"directory ``locale/$(LANG)/LC_MESSAGES/``."
 
 #: ../../building.rst:139
 msgid ""
@@ -500,16 +441,17 @@ msgid ""
 "we do for the software project: ``/po/$(LANG).po``."
 msgstr ""
 "D'altra parte, Weblate (e noi stessi) preferiamo un file ``po`` per ogni "
-"lingua, e tenerli tutti nella stessa cartella ``/po``, come facciamo per il "
-"progetto software: ``/po/$(LANG).po``."
+"lingua, e tenerli tutti nella stessa cartella ``/po``, come facciamo per "
+"il progetto software: ``/po/$(LANG).po``."
 
 #: ../../building.rst:143
 msgid ""
 "In order not to repeat information, and to let both systems work their "
 "natural way, we have two sets of symbolic links (git honors them)."
 msgstr ""
-"Per non ripetere informazione e per lasciare lavorare entrambi i sistemi nel "
-"loro modo naturale, abbiamo due insiemi di link simbolici (git li rispetta)."
+"Per non ripetere informazione e per lasciare lavorare entrambi i sistemi "
+"nel loro modo naturale, abbiamo due insiemi di link simbolici (git li "
+"rispetta)."
 
 #: ../../building.rst:146
 msgid ""
@@ -732,11 +674,6 @@ msgid ""
 msgstr ""
 "Individuare lo script di test e scegliere la classe dove mettere i test "
 "di unità extra."
-
-#: ../../building.rst:231 ../../devdl.rst:170
-#, python-format
-msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
-msgstr ""
 
 #: ../../building.rst:233 ../../devdl.rst:172
 msgid ""
@@ -1024,22 +961,6 @@ msgstr ""
 "un valore valido ``response``.  Utilizza `valori validi GtkResponseType "
 "<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, ad "
 "esempio:"
-
-#: ../../building.rst:448
-msgid "GTK_RESPONSE_OK, -5"
-msgstr "GTK_RESPONSE_OK, -5"
-
-#: ../../building.rst:449
-msgid "GTK_RESPONSE_CANCEL, -6"
-msgstr "GTK_RESPONSE_CANCEL, -6"
-
-#: ../../building.rst:450
-msgid "GTK_RESPONSE_YES, -8"
-msgstr "GTK_RESPONSE_YES, -8"
-
-#: ../../building.rst:451
-msgid "GTK_RESPONSE_NO, -9"
-msgstr "GTK_RESPONSE_NO, -9"
 
 #: ../../building.rst:453
 msgid ""
@@ -3299,11 +3220,6 @@ msgstr ""
 msgid "Next..."
 msgstr ""
 
-#: ../../installing.rst:95 ../../installing.rst:148 ../../installing.rst:302
-#: ../../installing.rst:338
-msgid ":ref:`connecting`."
-msgstr ""
-
 #: ../../installing.rst:98
 msgid "Installing on MacOSX"
 msgstr "L'installazione su MacOSX"
@@ -3559,10 +3475,6 @@ msgstr ""
 " pip, così \"avoid il details\\ gory\" e utilizzare un foglio pre-"
 "compilato da:"
 
-#: ../../installing.rst:242
-msgid "http://initd.org/psycopg/docs/install.html"
-msgstr ""
-
 #: ../../installing.rst:244
 msgid "`Direct link to download psycopg2`_"
 msgstr "'Direct link per scaricare psycopg2' _"
@@ -3732,10 +3644,6 @@ msgstr ""
 msgid "For some reason, this is not the case on Windows 8.1."
 msgstr "Per qualche ragione, questo non è il caso su Windows 8.1."
 
-#: ../../installing.rst:321
-msgid "https://pypi.python.org/pypi/lxml/3.4.4"
-msgstr ""
-
 #: ../../installing.rst:323
 msgid "Please report any other trouble related to the installation of lxml."
 msgstr ""
@@ -3755,10 +3663,6 @@ msgstr ""
 "Per qualche ragione gdata pacchetto di Google stesso sono elencati "
 "nell'indice pacchetto Python ma non funziona correttamente con il comando"
 " easy_install.  È possibile scaricare l'ultimo pacchetto di gdata da:"
-
-#: ../../installing.rst:332
-msgid "http://code.google.com/p/gdata-python-client/downloads/list"
-msgstr ""
 
 #: ../../installing.rst:334
 msgid ""
@@ -4179,36 +4083,8 @@ msgstr "campo"
 msgid "result type"
 msgstr "tipo di risultato"
 
-#: ../../searching.rst:46
-msgid "family, fam"
-msgstr ""
-
-#: ../../searching.rst:46
-msgid "epithet (family)"
-msgstr ""
-
-#: ../../searching.rst:47
-msgid "genus, gen"
-msgstr ""
-
-#: ../../searching.rst:47
-msgid "epithet (genus)"
-msgstr ""
-
-#: ../../searching.rst:48
-msgid "species, sp"
-msgstr ""
-
-#: ../../searching.rst:48
-msgid "epithet (sp) **×**"
-msgstr ""
-
 #: ../../searching.rst:48 ../../searching.rst:49
 msgid "Species"
-msgstr ""
-
-#: ../../searching.rst:49
-msgid "vernacular, common, vern"
 msgstr ""
 
 #: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
@@ -4217,15 +4093,7 @@ msgid "name"
 msgstr ""
 
 #: ../../searching.rst:50
-msgid "geography, geo"
-msgstr ""
-
-#: ../../searching.rst:50
 msgid "Geography"
-msgstr ""
-
-#: ../../searching.rst:51
-msgid "accession, acc"
 msgstr ""
 
 #: ../../searching.rst:51
@@ -4237,19 +4105,7 @@ msgid "Accession"
 msgstr ""
 
 #: ../../searching.rst:52
-msgid "planting, plant"
-msgstr ""
-
-#: ../../searching.rst:52
 msgid "code **×**"
-msgstr ""
-
-#: ../../searching.rst:53
-msgid "location, loc"
-msgstr ""
-
-#: ../../searching.rst:53
-msgid "code, name"
 msgstr ""
 
 #: ../../searching.rst:53
@@ -4257,23 +4113,7 @@ msgid "Location"
 msgstr ""
 
 #: ../../searching.rst:54
-msgid "contact, person, org, source"
-msgstr ""
-
-#: ../../searching.rst:54
 msgid "Contact"
-msgstr ""
-
-#: ../../searching.rst:55
-msgid "collection, col, coll"
-msgstr ""
-
-#: ../../searching.rst:55
-msgid "locale"
-msgstr ""
-
-#: ../../searching.rst:56
-msgid "tag, tags"
 msgstr ""
 
 #: ../../searching.rst:56
@@ -5264,5 +5104,122 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
+#~ msgstr ""
+
+#~ msgid "SQLite"
+#~ msgstr "SQLite"
+
+#~ msgid "MySQL"
+#~ msgstr ""
+
+#~ msgid "PostgreSQL"
+#~ msgstr ""
+
+#~ msgid "Desktop 1.0"
+#~ msgstr ""
+
+#~ msgid "ghini.desktop"
+#~ msgstr ""
+
+#~ msgid "ghini-1.0-dev"
+#~ msgstr ""
+
+#~ msgid "Desktop 1.1"
+#~ msgstr ""
+
+#~ msgid "ghini-1.1-dev"
+#~ msgstr ""
+
+#~ msgid "Documentation 1.0"
+#~ msgstr "Documentazione di Ghini 1.0"
+
+#~ msgid "ghini.desktop-docs.i18n"
+#~ msgstr ""
+
+#~ msgid "Documentation 1.1"
+#~ msgstr "Documentazione di Ghini 1.0"
+
+#~ msgid "Web 1.2"
+#~ msgstr ""
+
+#~ msgid "ghini.web"
+#~ msgstr ""
+
+#~ msgid "master"
+#~ msgstr ""
+
+#~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
+#~ msgstr ""
+
+#~ msgid "GTK_RESPONSE_OK, -5"
+#~ msgstr "GTK_RESPONSE_OK, -5"
+
+#~ msgid "GTK_RESPONSE_CANCEL, -6"
+#~ msgstr "GTK_RESPONSE_CANCEL, -6"
+
+#~ msgid "GTK_RESPONSE_YES, -8"
+#~ msgstr "GTK_RESPONSE_YES, -8"
+
+#~ msgid "GTK_RESPONSE_NO, -9"
+#~ msgstr "GTK_RESPONSE_NO, -9"
+
+#~ msgid ":ref:`connecting`."
+#~ msgstr ""
+
+#~ msgid "http://initd.org/psycopg/docs/install.html"
+#~ msgstr ""
+
+#~ msgid "https://pypi.python.org/pypi/lxml/3.4.4"
+#~ msgstr ""
+
+#~ msgid "http://code.google.com/p/gdata-python-client/downloads/list"
+#~ msgstr ""
+
+#~ msgid "family, fam"
+#~ msgstr ""
+
+#~ msgid "epithet (family)"
+#~ msgstr ""
+
+#~ msgid "genus, gen"
+#~ msgstr ""
+
+#~ msgid "epithet (genus)"
+#~ msgstr ""
+
+#~ msgid "species, sp"
+#~ msgstr ""
+
+#~ msgid "epithet (sp) **×**"
+#~ msgstr ""
+
+#~ msgid "vernacular, common, vern"
+#~ msgstr ""
+
+#~ msgid "geography, geo"
+#~ msgstr ""
+
+#~ msgid "accession, acc"
+#~ msgstr ""
+
+#~ msgid "planting, plant"
+#~ msgstr ""
+
+#~ msgid "location, loc"
+#~ msgstr ""
+
+#~ msgid "code, name"
+#~ msgstr ""
+
+#~ msgid "contact, person, org, source"
+#~ msgstr ""
+
+#~ msgid "collection, col, coll"
+#~ msgstr ""
+
+#~ msgid "locale"
+#~ msgstr ""
+
+#~ msgid "tag, tags"
 #~ msgstr ""
 

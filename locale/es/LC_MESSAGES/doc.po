@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 13:19-0500\n"
+"POT-Creation-Date: 2017-06-29 20:25-0500\n"
 "PO-Revision-Date: 2017-06-23 20:31-0500\n"
 "Last-Translator: Mario Frasca <mario@anche.no>\n"
 "Language: es\n"
@@ -34,10 +34,6 @@ msgstr ""
 " una base de datos. Esto está muy fuera del alcance de la documentación "
 "de Ghini, sin embargo es importante que los usuarios sean conscientes de "
 "la necesidad."
-
-#: ../../administration.rst:9
-msgid "SQLite"
-msgstr "SQLite"
 
 #: ../../administration.rst:11
 msgid ""
@@ -70,17 +66,9 @@ msgstr ""
 "La manera más rápida para abrir esa carpeta en el explorador: escriba "
 "``%APPDATA%`` y oprima enter."
 
-#: ../../administration.rst:24
-msgid "MySQL"
-msgstr "MySQL"
-
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
 msgstr "Por favor utilice la documentación oficial."
-
-#: ../../administration.rst:29
-msgid "PostgreSQL"
-msgstr "PostgreSQL"
 
 #: ../../administration.rst:31
 msgid ""
@@ -377,52 +365,6 @@ msgstr "repositorio"
 msgid "branch"
 msgstr "rama"
 
-#: ../../building.rst:102
-msgid "Desktop 1.0"
-msgstr ""
-
-#: ../../building.rst:102 ../../building.rst:103
-msgid "ghini.desktop"
-msgstr ""
-
-#: ../../building.rst:102 ../../building.rst:104
-msgid "ghini-1.0-dev"
-msgstr ""
-
-#: ../../building.rst:103
-msgid "Desktop 1.1"
-msgstr ""
-
-#: ../../building.rst:103 ../../building.rst:105
-msgid "ghini-1.1-dev"
-msgstr ""
-
-#: ../../building.rst:104
-#, fuzzy
-msgid "Documentation 1.0"
-msgstr "Documentación de Ghini 1.0"
-
-#: ../../building.rst:104 ../../building.rst:105
-msgid "ghini.desktop-docs.i18n"
-msgstr ""
-
-#: ../../building.rst:105
-#, fuzzy
-msgid "Documentation 1.1"
-msgstr "Documentación de Ghini 1.0"
-
-#: ../../building.rst:106
-msgid "Web 1.2"
-msgstr ""
-
-#: ../../building.rst:106
-msgid "ghini.web"
-msgstr ""
-
-#: ../../building.rst:106
-msgid "master"
-msgstr ""
-
 #: ../../building.rst:109
 msgid ""
 "To update the ``po`` files relative to the *software*, you set the "
@@ -704,11 +646,6 @@ msgid ""
 msgstr ""
 "Localizar el script de prueba y elija la clase donde poner las pruebas de"
 " unidad extra."
-
-#: ../../building.rst:231 ../../devdl.rst:170
-#, python-format
-msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
-msgstr ""
 
 #: ../../building.rst:233 ../../devdl.rst:172
 msgid ""
@@ -992,22 +929,6 @@ msgstr ""
 " válidos de GtkResponseType <http: "
 "gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html=\"\">' _, por "
 "ejemplo:</http:>"
-
-#: ../../building.rst:448
-msgid "GTK_RESPONSE_OK, -5"
-msgstr "GTK_RESPONSE_OK, -5"
-
-#: ../../building.rst:449
-msgid "GTK_RESPONSE_CANCEL, -6"
-msgstr "GTK_RESPONSE_CANCEL, -6"
-
-#: ../../building.rst:450
-msgid "GTK_RESPONSE_YES, -8"
-msgstr "GTK_RESPONSE_YES, -8"
-
-#: ../../building.rst:451
-msgid "GTK_RESPONSE_NO, -9"
-msgstr "GTK_RESPONSE_NO, -9"
 
 #: ../../building.rst:453
 msgid ""
@@ -3285,11 +3206,6 @@ msgstr ""
 msgid "Next..."
 msgstr "Siguiente..."
 
-#: ../../installing.rst:95 ../../installing.rst:148 ../../installing.rst:302
-#: ../../installing.rst:338
-msgid ":ref:`connecting`."
-msgstr ""
-
 #: ../../installing.rst:98
 msgid "Installing on MacOSX"
 msgstr "Instalar en MacOSX"
@@ -3542,10 +3458,6 @@ msgstr ""
 "En Windows no es nada fácil instalar ``psycopg2`` desde las fuentes. Por "
 "favor evítese complicaciones y utilice un paquete precompilado:"
 
-#: ../../installing.rst:242
-msgid "http://initd.org/psycopg/docs/install.html"
-msgstr ""
-
 #: ../../installing.rst:244
 msgid "`Direct link to download psycopg2`_"
 msgstr "«Enlace para descargar psycopg2 directo» _"
@@ -3707,10 +3619,6 @@ msgstr ""
 msgid "For some reason, this is not the case on Windows 8.1."
 msgstr "Por alguna razón, no es el caso de Windows 8.1."
 
-#: ../../installing.rst:321
-msgid "https://pypi.python.org/pypi/lxml/3.4.4"
-msgstr ""
-
 #: ../../installing.rst:323
 msgid "Please report any other trouble related to the installation of lxml."
 msgstr ""
@@ -3730,10 +3638,6 @@ msgstr ""
 "Por alguna razón el paquete de gdata de Google se enumera en el índice de"
 " paquetes Python pero no funciona correctamente con el comando "
 "easy_install.  Puede descargar el último paquete de gdata de:"
-
-#: ../../installing.rst:332
-msgid "http://code.google.com/p/gdata-python-client/downloads/list"
-msgstr ""
 
 #: ../../installing.rst:334
 msgid ""
@@ -4148,36 +4052,8 @@ msgstr "campo"
 msgid "result type"
 msgstr "Tipo de resultado"
 
-#: ../../searching.rst:46
-msgid "family, fam"
-msgstr ""
-
-#: ../../searching.rst:46
-msgid "epithet (family)"
-msgstr ""
-
-#: ../../searching.rst:47
-msgid "genus, gen"
-msgstr ""
-
-#: ../../searching.rst:47
-msgid "epithet (genus)"
-msgstr ""
-
-#: ../../searching.rst:48
-msgid "species, sp"
-msgstr ""
-
-#: ../../searching.rst:48
-msgid "epithet (sp) **×**"
-msgstr ""
-
 #: ../../searching.rst:48 ../../searching.rst:49
 msgid "Species"
-msgstr ""
-
-#: ../../searching.rst:49
-msgid "vernacular, common, vern"
 msgstr ""
 
 #: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
@@ -4186,15 +4062,7 @@ msgid "name"
 msgstr ""
 
 #: ../../searching.rst:50
-msgid "geography, geo"
-msgstr ""
-
-#: ../../searching.rst:50
 msgid "Geography"
-msgstr ""
-
-#: ../../searching.rst:51
-msgid "accession, acc"
 msgstr ""
 
 #: ../../searching.rst:51
@@ -4206,19 +4074,7 @@ msgid "Accession"
 msgstr ""
 
 #: ../../searching.rst:52
-msgid "planting, plant"
-msgstr ""
-
-#: ../../searching.rst:52
 msgid "code **×**"
-msgstr ""
-
-#: ../../searching.rst:53
-msgid "location, loc"
-msgstr ""
-
-#: ../../searching.rst:53
-msgid "code, name"
 msgstr ""
 
 #: ../../searching.rst:53
@@ -4226,23 +4082,7 @@ msgid "Location"
 msgstr ""
 
 #: ../../searching.rst:54
-msgid "contact, person, org, source"
-msgstr ""
-
-#: ../../searching.rst:54
 msgid "Contact"
-msgstr ""
-
-#: ../../searching.rst:55
-msgid "collection, col, coll"
-msgstr ""
-
-#: ../../searching.rst:55
-msgid "locale"
-msgstr ""
-
-#: ../../searching.rst:56
-msgid "tag, tags"
 msgstr ""
 
 #: ../../searching.rst:56
@@ -5230,5 +5070,122 @@ msgstr "grabar etiquetas"
 #~ msgstr ""
 
 #~ msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
+#~ msgstr ""
+
+#~ msgid "SQLite"
+#~ msgstr "SQLite"
+
+#~ msgid "MySQL"
+#~ msgstr "MySQL"
+
+#~ msgid "PostgreSQL"
+#~ msgstr "PostgreSQL"
+
+#~ msgid "Desktop 1.0"
+#~ msgstr ""
+
+#~ msgid "ghini.desktop"
+#~ msgstr ""
+
+#~ msgid "ghini-1.0-dev"
+#~ msgstr ""
+
+#~ msgid "Desktop 1.1"
+#~ msgstr ""
+
+#~ msgid "ghini-1.1-dev"
+#~ msgstr ""
+
+#~ msgid "Documentation 1.0"
+#~ msgstr "Documentación de Ghini 1.0"
+
+#~ msgid "ghini.desktop-docs.i18n"
+#~ msgstr ""
+
+#~ msgid "Documentation 1.1"
+#~ msgstr "Documentación de Ghini 1.0"
+
+#~ msgid "Web 1.2"
+#~ msgstr ""
+
+#~ msgid "ghini.web"
+#~ msgstr ""
+
+#~ msgid "master"
+#~ msgstr ""
+
+#~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
+#~ msgstr ""
+
+#~ msgid "GTK_RESPONSE_OK, -5"
+#~ msgstr "GTK_RESPONSE_OK, -5"
+
+#~ msgid "GTK_RESPONSE_CANCEL, -6"
+#~ msgstr "GTK_RESPONSE_CANCEL, -6"
+
+#~ msgid "GTK_RESPONSE_YES, -8"
+#~ msgstr "GTK_RESPONSE_YES, -8"
+
+#~ msgid "GTK_RESPONSE_NO, -9"
+#~ msgstr "GTK_RESPONSE_NO, -9"
+
+#~ msgid ":ref:`connecting`."
+#~ msgstr ""
+
+#~ msgid "http://initd.org/psycopg/docs/install.html"
+#~ msgstr ""
+
+#~ msgid "https://pypi.python.org/pypi/lxml/3.4.4"
+#~ msgstr ""
+
+#~ msgid "http://code.google.com/p/gdata-python-client/downloads/list"
+#~ msgstr ""
+
+#~ msgid "family, fam"
+#~ msgstr ""
+
+#~ msgid "epithet (family)"
+#~ msgstr ""
+
+#~ msgid "genus, gen"
+#~ msgstr ""
+
+#~ msgid "epithet (genus)"
+#~ msgstr ""
+
+#~ msgid "species, sp"
+#~ msgstr ""
+
+#~ msgid "epithet (sp) **×**"
+#~ msgstr ""
+
+#~ msgid "vernacular, common, vern"
+#~ msgstr ""
+
+#~ msgid "geography, geo"
+#~ msgstr ""
+
+#~ msgid "accession, acc"
+#~ msgstr ""
+
+#~ msgid "planting, plant"
+#~ msgstr ""
+
+#~ msgid "location, loc"
+#~ msgstr ""
+
+#~ msgid "code, name"
+#~ msgstr ""
+
+#~ msgid "contact, person, org, source"
+#~ msgstr ""
+
+#~ msgid "collection, col, coll"
+#~ msgstr ""
+
+#~ msgid "locale"
+#~ msgstr ""
+
+#~ msgid "tag, tags"
 #~ msgstr ""
 
