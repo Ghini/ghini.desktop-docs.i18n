@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-29 20:46-0500\n"
-"PO-Revision-Date: 2017-06-29 18:59+0000\n"
+"PO-Revision-Date: 2017-06-30 01:58+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: it\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/it/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.15-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -24,17 +25,16 @@ msgid "Database Administration"
 msgstr "Amministrazione di basi di dati"
 
 #: ../../administration.rst:4
-#, fuzzy
 msgid ""
 "If you are using a real DBMS to hold your botanic data, then you need do "
 "something about database administration. While database administration is"
 " far beyond the scope of this document, we make our users aware of it."
 msgstr ""
-"Nel caso si stia utilizzando un vero e proprio DBMS (sistema di gestione "
-"di basi di dati) per contenere le collezioni di Ghini, è importante "
-"prendere in considerazione l'amministrazione di questo DBMS. Una "
-"descrizione del compito di amministrare una base dati è qui assolutamente"
-" fuori luogo, ma è importante che un utente sia consapevole del problema."
+"Nel caso si stia utilizzando un vero e proprio DBMS (sistema di gestione di "
+"basi di dati) per contenere le collezioni di Ghini, è importante prendere in "
+"considerazione l'amministrazione di questo DBMS. Una descrizione del compito "
+"di amministrare una base dati è qui assolutamente fuori luogo, ma è "
+"importante che l'utente sia consapevole del problema."
 
 #: ../../administration.rst:11
 msgid ""
@@ -203,18 +203,16 @@ msgstr ""
 " qui sotto."
 
 #: ../../building.rst:27
-#, fuzzy
 msgid ""
 "If you haven't yet installed Ghini, and want to have a look at its code "
 "history, you can open our `github project page "
 "<http://github.com/Ghini/ghini.desktop>`_ and see all that has been going"
 " on around Ghini since its inception as Bauble, back in the year 2004."
 msgstr ""
-"Se non hai ancora installato Ghini e desidera dare un'occhiata alla sua "
-"storia di codice, è possibile aprire nostri ' pagina progetto github "
-"<http: github.com/ghini/ghini.desktop=\"\">' _ e vedere tutto ciò che sta"
-" succedendo intorno a Ghini fin dalla sua nascita come Ghini, indietro "
-"durante l'anno 2004.</http:>"
+"Se non hai ancora installato Ghini e desideri dare un'occhiata alla storia "
+"del suo codice, è possibile aprire la nostra `pagina progetto github "
+"<http://github.com/ghini/ghini.desktop>`_ e vedere tutto ciò che s'è fatto "
+"intorno a Ghini fin dalla sua nascita nel 2004 come Bauble."
 
 #: ../../building.rst:33
 msgid "Software source, versions, branches"
@@ -341,7 +339,6 @@ msgstr ""
 "software, questa raggiunge weblate per venir tradotta"
 
 #: ../../building.rst:94
-#, fuzzy
 msgid ""
 "Weblate hosts the `Ghini <https://hosted.weblate.org/projects/ghini/>`_ "
 "project. Within this project we have components, each of which "
@@ -349,10 +346,9 @@ msgid ""
 " translations in several languages."
 msgstr ""
 "Weblate ospita `il progetto Ghini "
-"<https://hosted.weblate.org/projects/ghini/>`_. Il progetto è suddiviso "
-"in componenti, ciascuna corrispondente ad un branch di un nostro "
-"repositorio github.Ciascuna componente accetta traduzioni in diverse "
-"lingue."
+"<https://hosted.weblate.org/projects/ghini/>`_. Il progetto è suddiviso in "
+"componenti, ciascuna corrispondente ad un branch di un nostro repositorio "
+"github. Ciascuna componente accetta traduzioni in diverse lingue."
 
 #: ../../building.rst:100
 msgid "component"
@@ -5211,4 +5207,3 @@ msgstr ""
 
 #~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
 #~ msgstr ""
-
