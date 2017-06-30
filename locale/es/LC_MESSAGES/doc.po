@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 20:25-0500\n"
+"POT-Creation-Date: 2017-06-29 20:46-0500\n"
 "PO-Revision-Date: 2017-06-23 20:31-0500\n"
 "Last-Translator: Mario Frasca <mario@anche.no>\n"
 "Language: es\n"
@@ -278,10 +278,6 @@ msgstr ""
 " final de una línea de desarrollo principal (por ejemplo: "
 "``ghini-1.0-dev``) y seguir el flujo de trabajo descrito en"
 
-#: ../../building.rst:65 ../../devdl.rst:56
-msgid "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
-msgstr ""
-
 #: ../../building.rst:67 ../../devdl.rst:58
 msgid "in short::"
 msgstr "en breve::"
@@ -531,11 +527,6 @@ msgid ""
 msgstr ""
 "Para este ejemplo, en octubre de 2015, aterrizamos en '' "
 "bauble.plugins.plants.family'', en el 33%."
-
-#: ../../building.rst:188 ../../devdl.rst:127
-#, python-format
-msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
-msgstr ""
 
 #: ../../building.rst:190 ../../devdl.rst:129
 msgid ""
@@ -1741,7 +1732,7 @@ msgstr ""
 "cuadro de notas en la parte inferior de la pantalla.  Si el elemento "
 "seleccionado no tiene notas desensibilizar el cuadro notas."
 
-#: ../../editing.rst:39 ../../searching.rst:46
+#: ../../editing.rst:39
 msgid "Family"
 msgstr "Familia"
 
@@ -1812,7 +1803,7 @@ msgstr ""
 "la * siguiente * botón en la parte inferior.  Esto ahorra la familia y "
 "abre un nuevo editor de familia en blanco."
 
-#: ../../editing.rst:69 ../../searching.rst:47
+#: ../../editing.rst:69
 msgid "Genus"
 msgstr "Género"
 
@@ -1967,7 +1958,7 @@ msgstr ""
 "donde vino esta accesión.  En este momento el tipo de la fuente puede ser"
 " una colección o una donación."
 
-#: ../../editing.rst:143 ../../searching.rst:55
+#: ../../editing.rst:143
 msgid "Collection"
 msgstr "Colecta"
 
@@ -1983,7 +1974,7 @@ msgstr "Donoción"
 msgid "A Donation."
 msgstr "Una donación."
 
-#: ../../editing.rst:154 ../../searching.rst:52
+#: ../../editing.rst:154
 msgid "Plant"
 msgstr "Planta"
 
@@ -3474,10 +3465,6 @@ msgstr "así es Windows, cambió cosas en el sistema, tiene que reiniciar!"
 msgid "download and run (from ``\\system32\\cmd.exe``) the batch file:"
 msgstr "baje y ejecute (utilice ``\\system32\\cmd.exe``) el archivo batch::"
 
-#: ../../installing.rst:252
-msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/devinstall.bat"
-msgstr ""
-
 #: ../../installing.rst:254
 msgid ""
 "right before you hit the enter key to run the script, your screen might "
@@ -3550,12 +3537,6 @@ msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
 msgstr "descargue también el archivo para poner al día su instalación::"
-
-#: ../../installing.rst:285
-msgid ""
-"https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts"
-"/ghini-update.bat"
-msgstr ""
 
 #: ../../installing.rst:287
 msgid ""
@@ -4052,41 +4033,9 @@ msgstr "campo"
 msgid "result type"
 msgstr "Tipo de resultado"
 
-#: ../../searching.rst:48 ../../searching.rst:49
-msgid "Species"
-msgstr ""
-
 #: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
 #: ../../searching.rst:56
 msgid "name"
-msgstr ""
-
-#: ../../searching.rst:50
-msgid "Geography"
-msgstr ""
-
-#: ../../searching.rst:51
-msgid "code"
-msgstr ""
-
-#: ../../searching.rst:51
-msgid "Accession"
-msgstr ""
-
-#: ../../searching.rst:52
-msgid "code **×**"
-msgstr ""
-
-#: ../../searching.rst:53
-msgid "Location"
-msgstr ""
-
-#: ../../searching.rst:54
-msgid "Contact"
-msgstr ""
-
-#: ../../searching.rst:56
-msgid "Tag"
 msgstr ""
 
 #: ../../searching.rst:59
@@ -5187,5 +5136,45 @@ msgstr "grabar etiquetas"
 #~ msgstr ""
 
 #~ msgid "tag, tags"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "https://git-scm.com/book/en/v2/Git-Branching-"
+#~ "Basic-Branching-and-Merging"
+#~ msgstr ""
+
+#~ msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/devinstall.bat"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts"
+#~ "/ghini-update.bat"
+#~ msgstr ""
+
+#~ msgid "Species"
+#~ msgstr ""
+
+#~ msgid "Geography"
+#~ msgstr ""
+
+#~ msgid "Accession"
+#~ msgstr ""
+
+#~ msgid "code **×**"
+#~ msgstr ""
+
+#~ msgid "Location"
+#~ msgstr ""
+
+#~ msgid "Contact"
+#~ msgstr ""
+
+#~ msgid "Tag"
+#~ msgstr ""
+
+#~ msgid "code"
+#~ msgstr ""
+
+#~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
 #~ msgstr ""
 

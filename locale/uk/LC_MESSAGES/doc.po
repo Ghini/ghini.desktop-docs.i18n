@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 20:25-0500\n"
+"POT-Creation-Date: 2017-06-29 20:46-0500\n"
 "PO-Revision-Date: 2017-04-17 10:48+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -235,10 +235,6 @@ msgid ""
 "described at"
 msgstr ""
 
-#: ../../building.rst:65 ../../devdl.rst:56
-msgid "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
-msgstr ""
-
 #: ../../building.rst:67 ../../devdl.rst:58
 msgid "in short::"
 msgstr ""
@@ -439,11 +435,6 @@ msgstr ""
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
-msgstr ""
-
-#: ../../building.rst:188 ../../devdl.rst:127
-#, python-format
-msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
 msgstr ""
 
 #: ../../building.rst:190 ../../devdl.rst:129
@@ -1430,7 +1421,7 @@ msgstr ""
 "вікна Нотатки в нижній частині екрана. Вікно Нотатки буде нечутливим, "
 "якщо обраний елемент не має записів."
 
-#: ../../editing.rst:39 ../../searching.rst:46
+#: ../../editing.rst:39
 msgid "Family"
 msgstr "Сім'я"
 
@@ -1499,7 +1490,7 @@ msgstr ""
 "поточної натисніть на кнопку *Далі* внизу. Це дозволить зберегти поточну "
 "сім'ю і відкрити новий порожній редактор сім'ї."
 
-#: ../../editing.rst:69 ../../searching.rst:47
+#: ../../editing.rst:69
 msgid "Genus"
 msgstr "Рід"
 
@@ -1649,7 +1640,7 @@ msgstr ""
 "приєднання взялося. На даний момент тип джерела може бути або з колекції "
 "або з пожертвування."
 
-#: ../../editing.rst:143 ../../searching.rst:55
+#: ../../editing.rst:143
 msgid "Collection"
 msgstr "Колекція"
 
@@ -1665,7 +1656,7 @@ msgstr "Пожертвування"
 msgid "A Donation."
 msgstr "Пожертвування."
 
-#: ../../editing.rst:154 ../../searching.rst:52
+#: ../../editing.rst:154
 msgid "Plant"
 msgstr "Рослина"
 
@@ -3015,10 +3006,6 @@ msgstr "Гей, це Windows, вам необхідно перезавантаж
 msgid "download and run (from ``\\system32\\cmd.exe``) the batch file:"
 msgstr "завантажте та запустіть пакетний файл::"
 
-#: ../../installing.rst:252
-msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/devinstall.bat"
-msgstr ""
-
 #: ../../installing.rst:254
 msgid ""
 "right before you hit the enter key to run the script, your screen might "
@@ -3081,12 +3068,6 @@ msgid ""
 msgstr ""
 "завантажити пакетний файл, який буде використовуватися up-to-date "
 "виробничої лінії якій ви вирішили слідувати::"
-
-#: ../../installing.rst:285
-msgid ""
-"https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts"
-"/ghini-update.bat"
-msgstr ""
 
 #: ../../installing.rst:287
 #, fuzzy
@@ -3521,41 +3502,9 @@ msgstr ""
 msgid "result type"
 msgstr ""
 
-#: ../../searching.rst:48 ../../searching.rst:49
-msgid "Species"
-msgstr ""
-
 #: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
 #: ../../searching.rst:56
 msgid "name"
-msgstr ""
-
-#: ../../searching.rst:50
-msgid "Geography"
-msgstr ""
-
-#: ../../searching.rst:51
-msgid "code"
-msgstr ""
-
-#: ../../searching.rst:51
-msgid "Accession"
-msgstr ""
-
-#: ../../searching.rst:52
-msgid "code **×**"
-msgstr ""
-
-#: ../../searching.rst:53
-msgid "Location"
-msgstr ""
-
-#: ../../searching.rst:54
-msgid "Contact"
-msgstr ""
-
-#: ../../searching.rst:56
-msgid "Tag"
 msgstr ""
 
 #: ../../searching.rst:59
@@ -5428,5 +5377,45 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "tag, tags"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "https://git-scm.com/book/en/v2/Git-Branching-"
+#~ "Basic-Branching-and-Merging"
+#~ msgstr ""
+
+#~ msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/devinstall.bat"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts"
+#~ "/ghini-update.bat"
+#~ msgstr ""
+
+#~ msgid "Species"
+#~ msgstr ""
+
+#~ msgid "Geography"
+#~ msgstr ""
+
+#~ msgid "Accession"
+#~ msgstr ""
+
+#~ msgid "code **×**"
+#~ msgstr ""
+
+#~ msgid "Location"
+#~ msgstr ""
+
+#~ msgid "Contact"
+#~ msgstr ""
+
+#~ msgid "Tag"
+#~ msgstr ""
+
+#~ msgid "code"
+#~ msgstr ""
+
+#~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
 #~ msgstr ""
 
