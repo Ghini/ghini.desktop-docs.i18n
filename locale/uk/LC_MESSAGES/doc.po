@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 20:46-0500\n"
+"POT-Creation-Date: 2017-07-01 13:40-0500\n"
 "PO-Revision-Date: 2017-04-17 10:48+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -1613,24 +1613,18 @@ msgid "Accessions"
 msgstr "Приєднань"
 
 #: ../../editing.rst:129
-#, fuzzy
 msgid ""
 "The Accession editor allows us to add an accession to a species.  In "
-"Ghini an accession represents a group of plants or clones.  The accession"
-" would refer maybe a group of seed or cuttings from a species.  A plant "
-"would be an individual from that accesssion, i.e. a specific plant in a "
-"specific location."
+"Ghini an accession represents a group of plants or clones that are of the"
+" same taxon, are of the same propagule type (or treatment), were received"
+" from the same source, were received at the same time."
 msgstr ""
-"Редактор Приєднання дозволяє додати приєднання до виду. У Ghini "
-"приєднання є групою рослин або клонів. Приєднання може відноситися до "
-"групи насіння або черешків від виду. Рослина буде індивідуальна у цьому "
-"приєднанні, тобто конкретна рослина в певному місці."
 
-#: ../../editing.rst:136
+#: ../../editing.rst:135
 msgid "Accession Source"
 msgstr "Джерело приєднання"
 
-#: ../../editing.rst:137
+#: ../../editing.rst:136
 msgid ""
 "The source of the accessions lets you add more information about where "
 "this accession came from.  At the moment the type of the source can be "
@@ -1640,35 +1634,34 @@ msgstr ""
 "приєднання взялося. На даний момент тип джерела може бути або з колекції "
 "або з пожертвування."
 
-#: ../../editing.rst:143
+#: ../../editing.rst:141
 msgid "Collection"
 msgstr "Колекція"
 
-#: ../../editing.rst:144
+#: ../../editing.rst:142
 msgid "A Collection."
 msgstr "Колекція."
 
-#: ../../editing.rst:148
+#: ../../editing.rst:145
 msgid "Donation"
 msgstr "Пожертвування"
 
-#: ../../editing.rst:149
+#: ../../editing.rst:146
 msgid "A Donation."
 msgstr "Пожертвування."
 
-#: ../../editing.rst:154
+#: ../../editing.rst:152
 msgid "Plant"
 msgstr "Рослина"
 
-#: ../../editing.rst:155
-msgid "The Plant editor."
-msgstr "Редактор рослин."
+#: ../../editing.rst:154
+msgid ""
+"A ``Plant`` in the Ghini database describes an individual plant in your "
+"collection. A plant belongs to an accession, and it has a specific "
+"location."
+msgstr ""
 
-#: ../../editing.rst:158
-msgid "Creating multiple plants"
-msgstr "Створення декількох рослин"
-
-#: ../../editing.rst:159
+#: ../../editing.rst:160
 msgid ""
 "You can create multiple Plants by using ranges in the code entry. This is"
 " only allowed when creating new plants and it is not possible when "
@@ -1678,7 +1671,7 @@ msgstr ""
 "коду. Це дозволено тільки при створенні нових рослин, і це не можливо при"
 " редагуванні існуючих рослин в базі даних."
 
-#: ../../editing.rst:163
+#: ../../editing.rst:164
 msgid ""
 "For example the range, 3-5 will create plant with code 3,4,5.  The range "
 "1,4-7,25 will create plants with codes 1,4,5,6,7,25."
@@ -1686,7 +1679,7 @@ msgstr ""
 "Наприклад, діапазон, 3-5 створить рослину з кодом 3,4,5. Діапазон "
 "1,4-7,25 створюватиме рослини з кодами 1,4,5,6,7,25."
 
-#: ../../editing.rst:166
+#: ../../editing.rst:167
 msgid ""
 "When you enter the range in the plant code entry the entry will turn blue"
 " to indicate that you are now creating multiple plants.  Any fields that "
@@ -1697,11 +1690,7 @@ msgstr ""
 "що ви зараз створюєте кілька рослин. Будь-які поля, які встановлені в "
 "цьому режимі будуть скопійовані для всіх рослин які створюються."
 
-#: ../../editing.rst:174
-msgid "Pictures"
-msgstr "Зображення"
-
-#: ../../editing.rst:176
+#: ../../editing.rst:177
 #, fuzzy
 msgid ""
 "Just as almost all objects in the Ghini database can have *Notes* "
@@ -1715,7 +1704,7 @@ msgstr ""
 "«Зображення». Ви можете пов'язати стільки зображень, скільки може "
 "знадобитися для рослини."
 
-#: ../../editing.rst:181
+#: ../../editing.rst:182
 msgid ""
 "When you associate a picture to a plant, the file is copied in the "
 "*pictures* folder, and a miniature (500x500) is generated and copied in "
@@ -1725,7 +1714,7 @@ msgstr ""
 "*зображення*, і мініатюра (500x500) генерується і копіюється в папку "
 "`thumbnails` всередині папки зображень."
 
-#: ../../editing.rst:185
+#: ../../editing.rst:186
 #, fuzzy
 msgid ""
 "As of Ghini-1.0.62, Pictures are not kept in the database. To ensure "
@@ -1740,7 +1729,7 @@ msgstr ""
 " Копіювання, тому що він пропонує набагато більше місця, через свою "
 "політику «Fair Storage»."
 
-#: ../../editing.rst:190
+#: ../../editing.rst:191
 msgid ""
 "Remember that you have configured the pictures root folder when you "
 "specified the details of your database connection. Again, you should make"
@@ -1752,7 +1741,7 @@ msgstr ""
 "переконатися, що коренева папка зображень доступна для спільного "
 "використання файлів сервіс вибору."
 
-#: ../../editing.rst:195
+#: ../../editing.rst:196
 msgid ""
 "When a Plant in the current selection is highlighted, its pictures are "
 "displayed in the pictures pane, the pane left of the information pane. "
@@ -1765,19 +1754,15 @@ msgstr ""
 " При приєднанні вибір підсвічуються, будь-яке зображення пов'язане з "
 "рослинами в підсвічених приєднаннях відображається в панелі зображеннях."
 
-#: ../../editing.rst:201
+#: ../../editing.rst:202
 msgid "Locations"
 msgstr "Розташування"
 
-#: ../../editing.rst:202
+#: ../../editing.rst:203
 msgid "The Location editor"
 msgstr "Редактор Розташування"
 
-#: ../../editing.rst:205
-msgid "danger zone"
-msgstr "небезпечна зона"
-
-#: ../../editing.rst:207
+#: ../../editing.rst:208
 msgid ""
 "The location editor contains an initially hidden section named *danger "
 "zone*. The widgets contained in this section allow the user to merge the "
@@ -4585,12 +4570,6 @@ msgstr ""
 #~ msgid "The following packages are required by Bauble"
 #~ msgstr "Наступні пакети потрібні Bauble"
 
-#~ msgid "SQLAlchemy"
-#~ msgstr "SQLAlchemy"
-
-#~ msgid "lxml"
-#~ msgstr "lxml"
-
 #~ msgid "The following packages are optional:"
 #~ msgstr "Наступні пакети не є обов'язковими:"
 
@@ -4920,27 +4899,6 @@ msgstr ""
 #~ " стовпів, вони здійснюють пошук за "
 #~ "замовчуванням."
 
-#~ msgid "family, fam: Search :class:`bauble.plugins.plants.Family`"
-#~ msgstr "family, fam: Search :class:`bauble.plugins.plants.Family`"
-
-#~ msgid "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
-#~ msgstr "genus, gen: Search :class:`bauble.plugins.plants.Genus`"
-
-#~ msgid "species, sp: Search :class:`bauble.plugins.plants.Species`"
-#~ msgstr "species, sp: Search :class:`bauble.plugins.plants.Species`"
-
-#~ msgid "geography: Search :class:`bauble.plugins.plants.Geography`"
-#~ msgstr "geography: Search :class:`bauble.plugins.plants.Geography`"
-
-#~ msgid "acc: Search :class:`bauble.plugins.garden.Accession`"
-#~ msgstr "acc: Search :class:`bauble.plugins.garden.Accession`"
-
-#~ msgid "plant: Search :class:`bauble.plugins.garden.Plant`"
-#~ msgstr "plant: Search :class:`bauble.plugins.garden.Plant`"
-
-#~ msgid "location, loc: Search :class:`bauble.plugins.garden.Location`"
-#~ msgstr "location, loc: Search :class:`bauble.plugins.garden.Location`"
-
 #~ msgid ""
 #~ "The Query Builder composes a query "
 #~ "that will be understood by the "
@@ -5083,69 +5041,6 @@ msgstr ""
 #~ msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
 #~ msgstr "Примірник :class:`sqlalchemy.schema.MetaData`"
 
-#~ msgid ":mod:`bauble.connmgr`"
-#~ msgstr ":mod:`bauble.connmgr`"
-
-#~ msgid ":mod:`bauble.editor`"
-#~ msgstr ":mod:`bauble.editor`"
-
-#~ msgid ":mod:`bauble.i18n`"
-#~ msgstr ":mod:`bauble.i18n`"
-
-#~ msgid ":mod:`bauble.ui`"
-#~ msgstr ":mod:`bauble.ui`"
-
-#~ msgid ":mod:`bauble.meta`"
-#~ msgstr ":mod:`bauble.meta`"
-
-#~ msgid ":mod:`bauble.paths`"
-#~ msgstr ":mod:`bauble.paths`"
-
-#~ msgid ":mod:`bauble.pluginmgr`"
-#~ msgstr ":mod:`bauble.pluginmgr`"
-
-#~ msgid ":mod:`bauble.prefs`"
-#~ msgstr ":mod:`bauble.prefs`"
-
-#~ msgid ":mod:`bauble.task`"
-#~ msgstr ":mod:`bauble.task`"
-
-#~ msgid ":mod:`bauble.types`"
-#~ msgstr ":mod:`bauble.types`"
-
-#~ msgid ":mod:`bauble.utils`"
-#~ msgstr ":mod:`bauble.utils`"
-
-#~ msgid ":mod:`bauble.view`"
-#~ msgstr ":mod:`bauble.view`"
-
-#~ msgid ":mod:`bauble.search`"
-#~ msgstr ":mod:`bauble.search`"
-
-#~ msgid ":mod:`bauble.plugins.plants`"
-#~ msgstr ":mod:`bauble.plugins.plants`"
-
-#~ msgid ":mod:`bauble.plugins.garden`"
-#~ msgstr ":mod:`bauble.plugins.garden`"
-
-#~ msgid ":mod:`bauble.plugins.abcd`"
-#~ msgstr ":mod:`bauble.plugins.abcd`"
-
-#~ msgid ":mod:`bauble.plugins.imex`"
-#~ msgstr ":mod:`bauble.plugins.imex`"
-
-#~ msgid ":mod:`bauble.plugins.report`"
-#~ msgstr ":mod:`bauble.plugins.report`"
-
-#~ msgid ":mod:`bauble.plugins.report.xsl`"
-#~ msgstr ":mod:`bauble.plugins.report.xsl`"
-
-#~ msgid ":mod:`bauble.plugins.report.mako`"
-#~ msgstr ":mod:`bauble.plugins.report.mako`"
-
-#~ msgid ":mod:`bauble.plugins.tag`"
-#~ msgstr ":mod:`bauble.plugins.tag`"
-
 #~ msgid ""
 #~ "We haven't yet defined a workflow "
 #~ "for publishing translated documentation on "
@@ -5253,169 +5148,38 @@ msgstr ""
 #~ "іншою програмою Python що ви можете "
 #~ "мати у вашій системі."
 
-#~ msgid "https://git-scm.com/download/win"
-#~ msgstr "https://git-scm.com/download/win"
-
-#~ msgid "http://www.python.org"
-#~ msgstr "http://www.python.org"
-
-#~ msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
-#~ msgstr ""
-
-#~ msgid "SQLite"
-#~ msgstr "SQLite"
-
-#~ msgid "MySQL"
-#~ msgstr "MySQL"
-
-#~ msgid "PostgreSQL"
-#~ msgstr "PostgreSQL"
-
-#~ msgid "Desktop 1.0"
-#~ msgstr ""
-
-#~ msgid "ghini.desktop"
-#~ msgstr ""
-
-#~ msgid "ghini-1.0-dev"
-#~ msgstr ""
-
-#~ msgid "Desktop 1.1"
-#~ msgstr ""
-
-#~ msgid "ghini-1.1-dev"
-#~ msgstr ""
-
 #~ msgid "Documentation 1.0"
 #~ msgstr "Документація для  Ghini 1.0"
 
-#~ msgid "ghini.desktop-docs.i18n"
-#~ msgstr ""
-
-#~ msgid "Documentation 1.1"
-#~ msgstr "API документація"
-
-#~ msgid "Web 1.2"
-#~ msgstr ""
-
-#~ msgid "ghini.web"
-#~ msgstr ""
-
-#~ msgid "master"
-#~ msgstr ""
-
-#~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
-#~ msgstr ""
-
-#~ msgid "GTK_RESPONSE_OK, -5"
-#~ msgstr ""
-
-#~ msgid "GTK_RESPONSE_CANCEL, -6"
-#~ msgstr ""
-
-#~ msgid "GTK_RESPONSE_YES, -8"
-#~ msgstr ""
-
-#~ msgid "GTK_RESPONSE_NO, -9"
-#~ msgstr ""
-
-#~ msgid ":ref:`connecting`."
-#~ msgstr ":ref:`connecting`."
-
-#~ msgid "http://initd.org/psycopg/docs/install.html"
-#~ msgstr "http://initd.org/psycopg/docs/install.html"
-
-#~ msgid "https://pypi.python.org/pypi/lxml/3.4.4"
-#~ msgstr "http://www.python.org"
-
-#~ msgid "http://code.google.com/p/gdata-python-client/downloads/list"
-#~ msgstr "http://code.google.com/p/gdata-python-client/downloads/list"
-
-#~ msgid "family, fam"
-#~ msgstr ""
-
-#~ msgid "epithet (family)"
-#~ msgstr ""
-
-#~ msgid "genus, gen"
-#~ msgstr ""
-
-#~ msgid "epithet (genus)"
-#~ msgstr ""
-
-#~ msgid "species, sp"
-#~ msgstr ""
-
-#~ msgid "epithet (sp) **×**"
-#~ msgstr ""
-
-#~ msgid "vernacular, common, vern"
-#~ msgstr ""
-
-#~ msgid "geography, geo"
-#~ msgstr ""
-
-#~ msgid "accession, acc"
-#~ msgstr ""
-
-#~ msgid "planting, plant"
-#~ msgstr ""
-
-#~ msgid "location, loc"
-#~ msgstr ""
-
-#~ msgid "code, name"
-#~ msgstr ""
-
-#~ msgid "contact, person, org, source"
-#~ msgstr ""
-
-#~ msgid "collection, col, coll"
-#~ msgstr ""
-
-#~ msgid "locale"
-#~ msgstr ""
-
-#~ msgid "tag, tags"
-#~ msgstr ""
-
 #~ msgid ""
-#~ "https://git-scm.com/book/en/v2/Git-Branching-"
-#~ "Basic-Branching-and-Merging"
+#~ "The Accession editor allows us to "
+#~ "add an accession to a species.  In"
+#~ " Ghini an accession represents a "
+#~ "group of plants or clones.  The "
+#~ "accession would refer maybe a group "
+#~ "of seed or cuttings from a "
+#~ "species.  A plant would be an "
+#~ "individual from that accesssion, i.e. a"
+#~ " specific plant in a specific "
+#~ "location."
 #~ msgstr ""
+#~ "Редактор Приєднання дозволяє додати приєднання"
+#~ " до виду. У Ghini приєднання є "
+#~ "групою рослин або клонів. Приєднання "
+#~ "може відноситися до групи насіння або"
+#~ " черешків від виду. Рослина буде "
+#~ "індивідуальна у цьому приєднанні, тобто "
+#~ "конкретна рослина в певному місці."
 
-#~ msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/devinstall.bat"
-#~ msgstr ""
+#~ msgid "The Plant editor."
+#~ msgstr "Редактор рослин."
 
-#~ msgid ""
-#~ "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts"
-#~ "/ghini-update.bat"
-#~ msgstr ""
+#~ msgid "Creating multiple plants"
+#~ msgstr "Створення декількох рослин"
 
-#~ msgid "Species"
-#~ msgstr ""
+#~ msgid "Pictures"
+#~ msgstr "Зображення"
 
-#~ msgid "Geography"
-#~ msgstr ""
-
-#~ msgid "Accession"
-#~ msgstr ""
-
-#~ msgid "code **×**"
-#~ msgstr ""
-
-#~ msgid "Location"
-#~ msgstr ""
-
-#~ msgid "Contact"
-#~ msgstr ""
-
-#~ msgid "Tag"
-#~ msgstr ""
-
-#~ msgid "code"
-#~ msgstr ""
-
-#~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
-#~ msgstr ""
+#~ msgid "danger zone"
+#~ msgstr "небезпечна зона"
 

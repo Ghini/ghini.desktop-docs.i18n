@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 20:46-0500\n"
+"POT-Creation-Date: 2017-07-01 13:40-0500\n"
 "PO-Revision-Date: 2017-06-23 20:31-0500\n"
 "Last-Translator: Mario Frasca <mario@anche.no>\n"
 "Language: es\n"
@@ -1933,22 +1933,16 @@ msgstr "Accesiones"
 #: ../../editing.rst:129
 msgid ""
 "The Accession editor allows us to add an accession to a species.  In "
-"Ghini an accession represents a group of plants or clones.  The accession"
-" would refer maybe a group of seed or cuttings from a species.  A plant "
-"would be an individual from that accesssion, i.e. a specific plant in a "
-"specific location."
-msgstr ""
-"El editor de accesión nos permite añadir una accesión a una especie.  En "
-"Ghini una accesión representa un grupo de plantas o clones.  La accesión "
-"referiría quizás un grupo de semillas o esquejes de una especie.  Una "
-"planta sería un individuo de esa accesión, es decir, una planta "
-"específica en una ubicación específica."
+"Ghini an accession represents a group of plants or clones that are of the"
+" same taxon, are of the same propagule type (or treatment), were received"
+" from the same source, were received at the same time."
+msgstr "El editor de accesión nos permite añadir accesiones a una especie, y la puesta al día de la información correspondiente. En Ghini una accesión representa un grupo de plantas o clones que son todas del mismo taxón, fueron propagadas en la misma manera y el mismo tratamiento, fueron recibidas de la misma fuente, y al mismo tiempo."
 
-#: ../../editing.rst:136
+#: ../../editing.rst:135
 msgid "Accession Source"
 msgstr "Fuente de la accesión"
 
-#: ../../editing.rst:137
+#: ../../editing.rst:136
 msgid ""
 "The source of the accessions lets you add more information about where "
 "this accession came from.  At the moment the type of the source can be "
@@ -1958,35 +1952,34 @@ msgstr ""
 "donde vino esta accesión.  En este momento el tipo de la fuente puede ser"
 " una colección o una donación."
 
-#: ../../editing.rst:143
+#: ../../editing.rst:141
 msgid "Collection"
 msgstr "Colecta"
 
-#: ../../editing.rst:144
+#: ../../editing.rst:142
 msgid "A Collection."
 msgstr "Una colecta."
 
-#: ../../editing.rst:148
+#: ../../editing.rst:145
 msgid "Donation"
 msgstr "Donoción"
 
-#: ../../editing.rst:149
+#: ../../editing.rst:146
 msgid "A Donation."
 msgstr "Una donación."
 
-#: ../../editing.rst:154
+#: ../../editing.rst:152
 msgid "Plant"
 msgstr "Planta"
 
-#: ../../editing.rst:155
-msgid "The Plant editor."
-msgstr "Editor de Plantas."
+#: ../../editing.rst:154
+msgid ""
+"A ``Plant`` in the Ghini database describes an individual plant in your "
+"collection. A plant belongs to an accession, and it has a specific "
+"location."
+msgstr "El la base de datos Ghini una ``Plant`` describe una planta individual en la colección. Una planta pertenece a una accesión, y se encuentra en una ubicación específica."
 
-#: ../../editing.rst:158
-msgid "Creating multiple plants"
-msgstr "Crear más que una planta"
-
-#: ../../editing.rst:159
+#: ../../editing.rst:160
 msgid ""
 "You can create multiple Plants by using ranges in the code entry. This is"
 " only allowed when creating new plants and it is not possible when "
@@ -1996,7 +1989,7 @@ msgstr ""
 "código. Esto sólo es permitido al crear nuevas plantas y no es posible "
 "editar las plantas existentes en la base de datos."
 
-#: ../../editing.rst:163
+#: ../../editing.rst:164
 msgid ""
 "For example the range, 3-5 will create plant with code 3,4,5.  The range "
 "1,4-7,25 will create plants with codes 1,4,5,6,7,25."
@@ -2004,7 +1997,7 @@ msgstr ""
 "Por ejemplo la gama, 3-5 se formará planta código 3,4,5.  La gama "
 "1.4-7.25 creará plantas con códigos 1,4,5,6,7,25."
 
-#: ../../editing.rst:166
+#: ../../editing.rst:167
 msgid ""
 "When you enter the range in the plant code entry the entry will turn blue"
 " to indicate that you are now creating multiple plants.  Any fields that "
@@ -2016,11 +2009,7 @@ msgstr ""
 "Los campos que se establecen en este modo se copiará en todas las plantas"
 " que se crean."
 
-#: ../../editing.rst:174
-msgid "Pictures"
-msgstr "Fotos"
-
-#: ../../editing.rst:176
+#: ../../editing.rst:177
 msgid ""
 "Just as almost all objects in the Ghini database can have *Notes* "
 "associated to them, Plants can have *Pictures*: next to the tab for "
@@ -2032,7 +2021,7 @@ msgstr ""
 "ficha de notas, el editor de plantas contiene una ficha adicional llamada"
 " \"Pictures\". Puede asociar tantos cuadros como necesitará una planta."
 
-#: ../../editing.rst:181
+#: ../../editing.rst:182
 msgid ""
 "When you associate a picture to a plant, the file is copied in the "
 "*pictures* folder, and a miniature (500x500) is generated and copied in "
@@ -2042,7 +2031,7 @@ msgstr ""
 "fotos * carpeta, una miniatura (500 x 500) es generado y copiado en la "
 "carpeta 'miniaturas' dentro de la carpeta de fotos."
 
-#: ../../editing.rst:185
+#: ../../editing.rst:186
 msgid ""
 "As of Ghini-1.0.62, Pictures are not kept in the database. To ensure "
 "pictures are available on all terminals where you have installed and "
@@ -2054,7 +2043,7 @@ msgstr ""
 " instalado y configurado Ghini, puede utilizar una unidad de red o un "
 "servicio como Tresorit o Dropbox para compartir archivos."
 
-#: ../../editing.rst:190
+#: ../../editing.rst:191
 msgid ""
 "Remember that you have configured the pictures root folder when you "
 "specified the details of your database connection. Again, you should make"
@@ -2066,7 +2055,7 @@ msgstr ""
 "más, debe asegurarse de que la carpeta raíz de cuadros es compartida con "
 "el archivo de servicio de la opción de uso compartido."
 
-#: ../../editing.rst:195
+#: ../../editing.rst:196
 msgid ""
 "When a Plant in the current selection is highlighted, its pictures are "
 "displayed in the pictures pane, the pane left of the information pane. "
@@ -2080,19 +2069,15 @@ msgstr ""
 "imagen asociada a las plantas en la accesión destacada se muestran en el "
 "panel de fotos."
 
-#: ../../editing.rst:201
+#: ../../editing.rst:202
 msgid "Locations"
 msgstr ""
 
-#: ../../editing.rst:202
+#: ../../editing.rst:203
 msgid "The Location editor"
 msgstr "Editor de escenarios"
 
-#: ../../editing.rst:205
-msgid "danger zone"
-msgstr "zona de peligro"
-
-#: ../../editing.rst:207
+#: ../../editing.rst:208
 msgid ""
 "The location editor contains an initially hidden section named *danger "
 "zone*. The widgets contained in this section allow the user to merge the "
@@ -4076,8 +4061,8 @@ msgstr ""
 "asimismo un código de **planta** es único solamente dentro de la accesión"
 " a la que pertenece.  En la terminología de la teoría de la base de "
 "datos, epíteto y código no son suficientes para formar una **clave "
-"primaria** respectivamente para especies y planta. Estos dominios necesitan "
-"una **clave primaria compuesta**."
+"primaria** respectivamente para especies y planta. Estos dominios "
+"necesitan una **clave primaria compuesta**."
 
 #: ../../searching.rst:78
 msgid ""
@@ -4087,11 +4072,11 @@ msgid ""
 "for plantings.  For **species**, we have introduced the binomial search, "
 "described below."
 msgstr ""
-"Búsqueda por valor le permite buscar **plantas** por su código de planta completo"
-", que incluye el código de la accesión. Tomados en conjunto, "
+"Búsqueda por valor le permite buscar **plantas** por su código de planta "
+"completo, que incluye el código de la accesión. Tomados en conjunto, "
 "código de accesión y código de planta forman una **clave primaria "
-"compuesta** para plantas.  Para **especies**, hemos introducido "
-"la búsqueda binomial, que se describe a continuación."
+"compuesta** para plantas.  Para **especies**, hemos introducido la "
+"búsqueda binomial, que se describe a continuación."
 
 #: ../../searching.rst:86
 msgid "Search by Expression"
@@ -4104,8 +4089,8 @@ msgid ""
 "software defines which fields to search within the domain you specified."
 msgstr ""
 "Búsqueda con expresión le da un poco más control sobre lo que está "
-"buscando. Usted restringe la búsqueda a un dominio específico, el software "
-"define los campos de búsqueda dentro del dominio especificado."
+"buscando. Usted restringe la búsqueda a un dominio específico, el "
+"software define los campos de búsqueda dentro del dominio especificado."
 
 #: ../../searching.rst:92
 msgid ""
@@ -5012,169 +4997,12 @@ msgstr "elaboración de informe"
 msgid "engraving labels"
 msgstr "grabar etiquetas"
 
-#~ msgid "https://git-scm.com/download/win"
-#~ msgstr ""
+#~ msgid "Creating multiple plants"
+#~ msgstr "Crear más que una planta"
 
-#~ msgid "http://www.python.org"
-#~ msgstr ""
+#~ msgid "Pictures"
+#~ msgstr "Fotos"
 
-#~ msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
-#~ msgstr ""
-
-#~ msgid "SQLite"
-#~ msgstr "SQLite"
-
-#~ msgid "MySQL"
-#~ msgstr "MySQL"
-
-#~ msgid "PostgreSQL"
-#~ msgstr "PostgreSQL"
-
-#~ msgid "Desktop 1.0"
-#~ msgstr ""
-
-#~ msgid "ghini.desktop"
-#~ msgstr ""
-
-#~ msgid "ghini-1.0-dev"
-#~ msgstr ""
-
-#~ msgid "Desktop 1.1"
-#~ msgstr ""
-
-#~ msgid "ghini-1.1-dev"
-#~ msgstr ""
-
-#~ msgid "Documentation 1.0"
-#~ msgstr "Documentación de Ghini 1.0"
-
-#~ msgid "ghini.desktop-docs.i18n"
-#~ msgstr ""
-
-#~ msgid "Documentation 1.1"
-#~ msgstr "Documentación de Ghini 1.0"
-
-#~ msgid "Web 1.2"
-#~ msgstr ""
-
-#~ msgid "ghini.web"
-#~ msgstr ""
-
-#~ msgid "master"
-#~ msgstr ""
-
-#~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273"
-#~ msgstr ""
-
-#~ msgid "GTK_RESPONSE_OK, -5"
-#~ msgstr "GTK_RESPONSE_OK, -5"
-
-#~ msgid "GTK_RESPONSE_CANCEL, -6"
-#~ msgstr "GTK_RESPONSE_CANCEL, -6"
-
-#~ msgid "GTK_RESPONSE_YES, -8"
-#~ msgstr "GTK_RESPONSE_YES, -8"
-
-#~ msgid "GTK_RESPONSE_NO, -9"
-#~ msgstr "GTK_RESPONSE_NO, -9"
-
-#~ msgid ":ref:`connecting`."
-#~ msgstr ""
-
-#~ msgid "http://initd.org/psycopg/docs/install.html"
-#~ msgstr ""
-
-#~ msgid "https://pypi.python.org/pypi/lxml/3.4.4"
-#~ msgstr ""
-
-#~ msgid "http://code.google.com/p/gdata-python-client/downloads/list"
-#~ msgstr ""
-
-#~ msgid "family, fam"
-#~ msgstr ""
-
-#~ msgid "epithet (family)"
-#~ msgstr ""
-
-#~ msgid "genus, gen"
-#~ msgstr ""
-
-#~ msgid "epithet (genus)"
-#~ msgstr ""
-
-#~ msgid "species, sp"
-#~ msgstr ""
-
-#~ msgid "epithet (sp) **×**"
-#~ msgstr ""
-
-#~ msgid "vernacular, common, vern"
-#~ msgstr ""
-
-#~ msgid "geography, geo"
-#~ msgstr ""
-
-#~ msgid "accession, acc"
-#~ msgstr ""
-
-#~ msgid "planting, plant"
-#~ msgstr ""
-
-#~ msgid "location, loc"
-#~ msgstr ""
-
-#~ msgid "code, name"
-#~ msgstr ""
-
-#~ msgid "contact, person, org, source"
-#~ msgstr ""
-
-#~ msgid "collection, col, coll"
-#~ msgstr ""
-
-#~ msgid "locale"
-#~ msgstr ""
-
-#~ msgid "tag, tags"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "https://git-scm.com/book/en/v2/Git-Branching-"
-#~ "Basic-Branching-and-Merging"
-#~ msgstr ""
-
-#~ msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/devinstall.bat"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts"
-#~ "/ghini-update.bat"
-#~ msgstr ""
-
-#~ msgid "Species"
-#~ msgstr ""
-
-#~ msgid "Geography"
-#~ msgstr ""
-
-#~ msgid "Accession"
-#~ msgstr ""
-
-#~ msgid "code **×**"
-#~ msgstr ""
-
-#~ msgid "Location"
-#~ msgstr ""
-
-#~ msgid "Contact"
-#~ msgstr ""
-
-#~ msgid "Tag"
-#~ msgstr ""
-
-#~ msgid "code"
-#~ msgstr ""
-
-#~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
-#~ msgstr ""
+#~ msgid "danger zone"
+#~ msgstr "zona de peligro"
 
