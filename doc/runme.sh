@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # configure languages
-LANGUAGES='ar cs da de es fr hi it pl pt_BR ru sv uk zh jp'
+LANGUAGES='ar cs da de es fr hi it pl pt ru sv uk zh jp'
 
 # configure locations, don't incude the final slash
-SOURCEDOCDIR=~/Local/github/Ghini/ghini.desktop/doc
-CHECKOUTDIR=~/Local/github/Ghini/ghini.desktop-docs.i18n
+SOURCEDOCDIR=$HOME/Local/github/Ghini/ghini.desktop/doc
+CHECKOUTDIR=$HOME/Local/github/Ghini/ghini.desktop-docs.i18n
 ALLPODIR=$CHECKOUTDIR/po
 
 # "all remaining actions must be run from the doc dir"
@@ -20,14 +20,14 @@ echo "done copying/updating files from documentation"
 echo '--------------------------------------------------------------------------'
 echo
 echo '=========================================================================='
-echo "update the centralised doc.pot (two steps, first all pot, then merge them)"
+echo "update the centralised doc.pot (prepare all pot, merge them, filter)"
 echo '--------------------------------------------------------------------------'
 echo "update the centralised doc.pot --- step one"
 echo '--------------------------------------------------------------------------'
 make gettext
-echo "update the centralised doc.pot --- step two"
+echo "update the centralised doc.pot --- step two and three"
 echo '--------------------------------------------------------------------------'
-msgcat -o _build/locale-merged/doc.pot _build/locale/*.pot
+msgcat _build/locale/*.pot | msggrep --msgid --file not_to_be_translated.txt --invert-match -o _build/locale-merged/doc.pot
 echo "done updating centralised doc.pot"
 echo '--------------------------------------------------------------------------'
 echo
@@ -46,7 +46,7 @@ do
     do
         ln -s doc.po $(basename $i .rst).po 2>/dev/null
     done
-    cd $PODIR
+    cd $ALLPODIR
     ln -s ../locale/$l/LC_MESSAGES/doc.po $l.po 2>/dev/null
 done
 

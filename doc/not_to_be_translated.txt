@@ -1,0 +1,47 @@
+^``Family``$
+^``Genus``$
+^``Species``$
+^``Geography``$
+^``Accession``$
+^``Plant``$
+^``Location``$
+^``Contact``$
+^``Collection``$
+^``Tag``$
+^:ref:`[a-z]*`.$
+^accession, acc$
+^planting, plant$
+^geography, geo$
+^location, loc$
+^code, name$
+^code$
+^code \*\*×\*\*$
+^contact, person, org, source$
+^collection, col, coll$
+^locale$
+^tag, tags$
+^vernacular, common, vern$
+^epithet ([a-z]*).*$
+^species, sp$
+^genus, gen$
+^family, fam$
+^Mako$
+^SQLite$
+^MySQL$
+^PostgreSQL$
+^Desktop 1.[01]$
+^Documentation 1.[01]$
+^ghini.desktop$
+^ghini.desktop-docs.i18n$
+^ghini-1.[01]-dev$
+^Web 1.2$
+^ghini.web$
+^master$
+^https://coveralls.io/builds/[0-9]*/source[^ ]*$
+^GTK_RESPONSE_[A-Z]*, -[0-9]$
+^http://initd.org/psycopg/docs/install.html$
+^https://pypi.python.org/pypi/lxml/3.4.4$
+^http://code.google.com/p/gdata-python-client/downloads/list$
+^https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging$
+^https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/devinstall.bat$
+^https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/ghini-update.bat$
