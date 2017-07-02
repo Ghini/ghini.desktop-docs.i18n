@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-07-02 14:04-0500\n"
-"PO-Revision-Date: 2017-07-02 18:18+0000\n"
+"POT-Creation-Date: 2017-07-02 16:28-0500\n"
+"PO-Revision-Date: 2017-07-02 21:01+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: pt\n"
 "Language-Team: Portuguese "
@@ -2342,7 +2342,7 @@ msgstr ""
 
 #: ../../goal.rst:45 ../../searching.rst:160
 msgid "**core structure of Ghini's database**"
-msgstr "* * estrutura de banco de dados * * do Ghini"
+msgstr "**estrutura de banco de dados** do Ghini"
 
 #: ../../goal.rst:47
 msgid ""
@@ -3054,7 +3054,7 @@ msgstr ""
 
 #: ../../installing.rst:7
 msgid "one-liner for hurried Linux users."
-msgstr "Linux e com pressa."
+msgstr ""
 
 #: ../../installing.rst:10
 msgid ""
@@ -3062,9 +3062,6 @@ msgid ""
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
 " You may read the documentation later."
 msgstr ""
-"Faça o download e execute `o script de instalação. "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
-" Você pode ler a documentação mais tarde."
 
 #: ../../installing.rst:13
 msgid ""
@@ -4005,7 +4002,7 @@ msgstr ""
 
 #: ../../searching.rst:4
 msgid "Searching in Ghini"
-msgstr ""
+msgstr "A pesquisa em Ghini"
 
 #: ../../searching.rst:6
 msgid ""
@@ -4014,40 +4011,47 @@ msgid ""
 "search entry or by using the Query Builder to create the queries for you."
 " The results of Ghini searches are listed in the main window."
 msgstr ""
+"Pesquisa permite-lhe visualizar, navegar e criar relatórios a partir de "
+"seus dados. Você pode executar pesquisas digitando as consultas na "
+"entrada principal da busca ou usando o construtor de consultas para criar"
+" as consultas para você. Os resultados de pesquisas Ghini estão listados "
+"na janela principal."
 
 #: ../../searching.rst:13
 msgid "Search Strategies"
-msgstr ""
+msgstr "Estratégias de Pesquisa"
 
 #: ../../searching.rst:15
 msgid "Ghini offers four distinct search strategies:"
-msgstr ""
+msgstr "Ghini oferece quatro estratégias de busca distintas:"
 
 #: ../../searching.rst:17
 msgid "by value — in all domains;"
-msgstr ""
+msgstr "por valor — em todos os domínios;"
 
 #: ../../searching.rst:18
 msgid "by expression — in a few implicit fields in one explicit domain;"
-msgstr ""
+msgstr "por expressão — em alguns campos implícitos em um domínio explícito;"
 
 #: ../../searching.rst:19
 msgid "by query — in one domain;"
-msgstr ""
+msgstr "por consulta — em um domínio;"
 
 #: ../../searching.rst:20
 msgid "by binomial name — only searches the Species domain."
-msgstr ""
+msgstr "por nome binomial — pesquisa somente o domínio de espécies."
 
 #: ../../searching.rst:22
 msgid ""
 "All search strategies —with the notable exception of the binomial name "
 "search— are case insensitive."
 msgstr ""
+"Todas as estratégias de pesquisa — com a notável excepção da pesquisa "
+"nome binomial — não diferenciam maiusculas de minúsculas."
 
 #: ../../searching.rst:27
 msgid "Search by Value"
-msgstr ""
+msgstr "Pesquisa por Valor"
 
 #: ../../searching.rst:29
 msgid ""
@@ -4056,6 +4060,10 @@ msgid ""
 "(domain) where one or more of its fields contain one or more of the "
 "search strings."
 msgstr ""
+"Pesquisar por valor é a maneira mais simples para pesquisar. Você entra "
+"uma ou mais sequências de caracteres e ver o que corresponde. O resultado"
+" inclui objetos de qualquer tipo (domínio) onde um ou mais dos seus "
+"campos contêm uma ou mais das sequências de pesquisa."
 
 #: ../../searching.rst:33
 msgid ""
@@ -4063,39 +4071,46 @@ msgid ""
 "indicate which fields you want to match, this is implicit in the search "
 "domain."
 msgstr ""
+"Você não especifica o domínio de pesquisa, todos estão incluídos, nem "
+"você indica quais dos campos você deseja corresponder, isso está "
+"implícito no domínio de pesquisa."
 
 #: ../../searching.rst:36
 msgid ""
 "The following table helps you understand the results and guides you in "
 "formulating your searches."
 msgstr ""
+"A tabela a seguir ajuda a entender os resultados e orienta a formulação "
+"de suas pesquisas."
 
 #: ../../searching.rst:42
 msgid "search domain overview"
-msgstr ""
+msgstr "Visão geral dos domínios de pesquisa"
 
 #: ../../searching.rst:44
 msgid "name and shorthands"
-msgstr ""
+msgstr "nome e atalhos"
 
 #: ../../searching.rst:44
 msgid "field"
-msgstr ""
+msgstr "campo"
 
 #: ../../searching.rst:44
 msgid "result type"
-msgstr ""
+msgstr "tipo de resultado"
 
 #: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
 #: ../../searching.rst:56
 msgid "name"
-msgstr ""
+msgstr "nome"
 
 #: ../../searching.rst:59
 msgid ""
 "Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
 "2003.2.1, indica."
 msgstr ""
+"Exemplos de busca pelo valor seria: Maxillaria, Acanth, 2008.1234, "
+"2003.2.1, Índica."
 
 #: ../../searching.rst:62
 msgid ""
@@ -4105,10 +4120,17 @@ msgid ""
 "you want to search for Block 10 as one whole string then you should quote"
 " the string like ``\"Block 10\"``."
 msgstr ""
+"A menos que use explicitamente aspas, os espaços separam pesquisar "
+"sequências de caracteres. Por exemplo, se você pesquisar por ``bloco "
+"10``, então Ghini irá procurar as secuências ``bloco`` e ``10`` e "
+"retornar todos os resultados que correspondam a qualquer destas "
+"secuências. Se você deseja pesquisar para ``bloco 10`` como uma sequência"
+" inteira, em seguida, você deve citar a sequência de caracteres como "
+"``'bloco 10'``."
 
 #: ../../searching.rst:68
 msgid "× Composite Primary Keys"
-msgstr ""
+msgstr "× Chaves primárias compostas"
 
 #: ../../searching.rst:71
 msgid ""
@@ -4118,6 +4140,12 @@ msgid ""
 "sufficient to form a **primary key** for respectively species and "
 "planting. These domains need a **composite** primary key."
 msgstr ""
+"Um epíteto de **espécies** significa pouco, sem o correspondente gênero, "
+"da mesma forma, um código **planta** é exclusivo apenas dentro da accesão"
+" ao qual ele pertence. Na terminologia de teoria de banco de dados, "
+"epíteto e o código não são suficientes para formar uma **chave primária**"
+" pela, respectivamente, espécie e planta. Nestes domínios, precisamos de "
+"uma **chave primária composta**."
 
 #: ../../searching.rst:78
 msgid ""
@@ -4127,17 +4155,27 @@ msgid ""
 "for plantings.  For **species**, we have introduced the binomial search, "
 "described below."
 msgstr ""
+"Pesquisar por valor permite que você procure por **plantas** pelo seu "
+"código de plantação completo, que inclui o código de accesão. Tomados em "
+"conjunto, o código de accesão e código de plantio fornecem uma **chave "
+"primária composta** para plantas.  Para **espécies**, nós introduzimos a "
+"busca binomial, descrita abaixo."
 
 #: ../../searching.rst:86
 msgid "Search by Expression"
-msgstr ""
+msgstr "Pesquisa por Expressão"
 
 #: ../../searching.rst:88
+#, fuzzy
 msgid ""
 "Searching with expression gives you a little more control over what you "
 "are searching for. You narrow the search down to a specific domain, the "
 "software defines which fields to search within the domain you specified."
 msgstr ""
+"Pesquisa com expressão dá-lhe mais controle sobre o que você está "
+"procurando. Você restringir a pesquisa para um domínio específico, o "
+"software define quais campos para pesquisar dentro do domínio que você "
+"especificou."
 
 #: ../../searching.rst:92
 msgid ""
@@ -4146,12 +4184,19 @@ msgid ""
 " name Maxillaria. In this case the domain is ``gen``, the operator is "
 "``=`` and the value is ``Maxillaria``."
 msgstr ""
+"Uma expressão é construído como ``<domain> <operador> <valor>``. Por "
+"exemplo, a pesquisa: ``gen=Maxillaria`` vai retornar todos os gêneros que"
+" correspondem ao nome Maxillaria. Neste caso, o domínio é ``gen``, o "
+"operador ``=`` e o valor é ``Maxillaria``."
 
 #: ../../searching.rst:97
 msgid ""
 "The above search domain overview table tells you the names of the search "
 "domains, and, per search domain, which fields are searched."
 msgstr ""
+"A tabela acima, de visão geral de domínio de pesquisa, diz os nomes dos "
+"domínios de pesquisa, e, por domínio de busca, quais campos são "
+"pesquisados."
 
 #: ../../searching.rst:100
 #, python-format
@@ -4162,15 +4207,15 @@ msgid ""
 "comes from SQL and allows for \"fuzzy\" searching), the value is "
 "``block%``, the implicitly matched fields are ``name`` and ``code``.  The"
 " percent sign is used as a wild card so if you search for ``block%`` then"
-" it searches for all values that start with max.  If you search for "
-"``%10`` it searches for all values that end in ``10``.  The string "
+" it searches for all values that start with ``block``.  If you search for"
+" ``%10`` it searches for all values that end in ``10``.  The string "
 "``%ck%10`` would search for all value that contain ``ck`` and end in "
 "``10``."
 msgstr ""
 
 #: ../../searching.rst:110
 msgid "When a query takes ages to complete"
-msgstr ""
+msgstr "Quando uma consulta leva uma eternidade para completar"
 
 #: ../../searching.rst:113
 msgid ""
@@ -4182,40 +4227,60 @@ msgid ""
 "``maxillaria``, returning all that match at least one of the three "
 "criteria."
 msgstr ""
+"Você dá uma consulta, isso demora algum tempo para calcular, e o "
+"resultado contém exageradamente muitas entradas.  Isso acontece quando "
+"você pretende usar uma estratégia, mas suas cordas não formam uma "
+"expressão válida.  Neste caso, Ghini reverterá para *busca por valor*. "
+"Por exemplo, a sequência ``gen lik maxillaria`` irá procurar a cadeia de "
+"caracteres ``gen``, ``lik`` e ``maxillaria``, retornando tudo o que "
+"corresponde a pelo menos um dos três critérios."
 
 #: ../../searching.rst:122
 msgid "Binomial search"
-msgstr ""
+msgstr "Pesquisar binomial"
 
 #: ../../searching.rst:124
+#, fuzzy
 msgid ""
 "You can also perform a search in the database if you know the species, "
 "just by placing a few initial letters of genus and species epithets in "
 "the search engine, correctly capitalized, i.e.: **Genus epithet** with "
 "one leading capital letter, **Species epithet** all lowercase."
 msgstr ""
+"Você também pode executar uma pesquisa no banco de dados se você sabe as "
+"espécies, colocando apenas algumas letras iniciais de epítetos do género "
+"e da espécie no motor de busca, corretamente capitalizado, ou seja,: "
+"**epíteto do gênero** com a letra líder maiuscula **epíteto da espécie** "
+"tudo em minúsculas."
 
 #: ../../searching.rst:129
 msgid "This way you can perform the search ``So ha``."
-msgstr ""
+msgstr "Desta forma você pode realizar a pesquisa ``So ha``."
 
 #: ../../searching.rst:131
 msgid "These would be the initials for Solanum hayesii, or Solanum havanense."
-msgstr ""
+msgstr "Estas seriam as iniciais de *Solanum hayesii*, ou do *Solanum havanense*."
 
 #: ../../searching.rst:133
 msgid ""
 "Binomial search comes to compensate the limited usefulness of the above "
 "search by expression when trying to look for a species."
 msgstr ""
+"Pesquisar binomial vem para compensar a utilidade limitada da pesquisa "
+"acima pela expressão ao tentar procurar uma espécie."
 
 #: ../../searching.rst:136
+#, fuzzy
 msgid ""
 "It is the correct capitalization **Xxxx xxxx** that informs the software "
 "of your intention to perform a binomial search.  The software's second "
 "guess will be a search by value, which will possibly result in far more "
 "matches than you had expected."
 msgstr ""
+"É a capitalização correta **Xxxx xxxx** que informa o software da sua "
+"intenção de realizar uma pesquisa binomial.  Segundo palpite do software "
+"será uma busca pelo valor, que possivelmente resultará em muito mais "
+"objetos do que você esperava."
 
 #: ../../searching.rst:141
 msgid ""
@@ -4223,10 +4288,13 @@ msgid ""
 "objects, starting at Family \"Acalyp(**ha**)ceae\", ending at Geography "
 "\"Western (**So**)uth America\"."
 msgstr ""
+"O pedido semelhante ``so ha`` retornará, em uma instalação nova, mais de "
+"3000 objetos, começando na Família \"Acalyp(**ha**)ceae\", terminando em "
+"a Geografia \"Western (**So**)uth América\"."
 
 #: ../../searching.rst:147
 msgid "Search by Query"
-msgstr ""
+msgstr "Procura por Consulta"
 
 #: ../../searching.rst:149
 msgid ""
@@ -4872,4 +4940,26 @@ msgstr ""
 #~ " essa accesão.  No momento, o tipo"
 #~ " de fonte pode ser uma coleção "
 #~ "ou uma doação."
+
+#~ msgid ""
+#~ "The search string ``loc like block%``"
+#~ " would return all the Locations for"
+#~ " which name or code start with "
+#~ "\"block\".  In this case the domain "
+#~ "is ``loc`` (a shorthand for "
+#~ "``location``), the operator is ``like`` "
+#~ "(this comes from SQL and allows "
+#~ "for \"fuzzy\" searching), the value is"
+#~ " ``block%``, the implicitly matched fields"
+#~ " are ``name`` and ``code``.  The "
+#~ "percent sign is used as a wild "
+#~ "card so if you search for "
+#~ "``block%`` then it searches for all "
+#~ "values that start with max.  If "
+#~ "you search for ``%10`` it searches "
+#~ "for all values that end in ``10``."
+#~ "  The string ``%ck%10`` would search "
+#~ "for all value that contain ``ck`` "
+#~ "and end in ``10``."
+#~ msgstr ""
 
