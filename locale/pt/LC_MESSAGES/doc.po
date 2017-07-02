@@ -3,18 +3,21 @@
 # This file is distributed under the same license as the Ghini package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-07-02 10:19-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-07-02 18:18+0000\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Portuguese "
+"<https://hosted.weblate.org/projects/ghini/documentation-10/pt/>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -1703,9 +1706,9 @@ msgid ""
 "menubar and then select the type of record your would like to create.  "
 "This opens a new blank editor for the type."
 msgstr ""
-"Para criar um novo registro clique na: menuselection: ``Insert`` menu na "
-"barra de menu e selecione o tipo de registro seu gostaria de criar.  Isso"
-" abre um novo editor em branco para o tipo."
+"Para criar um novo registro clique na :menuselection:`Insert` menu na barra "
+"de menu e selecione o tipo de registro seu gostaria de criar.  Isso abre um "
+"novo editor em branco para o tipo."
 
 #: ../../editing.rst:14
 msgid ""
@@ -1868,8 +1871,8 @@ msgid ""
 "The *Author* field allows you to set the name or abbreviation of the "
 "author(s) for the genus."
 msgstr ""
-"O * autor * campo permite que você defina o nome ou a abreviatura do "
-"autor para o gênero."
+"O campo  *autor* permite que você defina o nome ou a abreviatura do autor "
+"para o gênero."
 
 #: ../../editing.rst:83
 msgid ""
@@ -1881,18 +1884,18 @@ msgid ""
 "selected synonym to the list.  To remove a synonym select the synonym "
 "from the list and click on the Remove button."
 msgstr ""
-"* Sinônimos * permitem que você adicione outros gêneros que são sinônimos"
-" com o gênero que você está editando no momento.  Para adicionar um novo "
-"tipo de sinônimos em um nome de gênero na entrada.  Você deve selecionar "
-"um nome do género da lista de conclusões.  Assim que tiver um nome de "
-"gênero que você deseja adicionar como um sinônimo, clique no botão "
-"Adicionar ao lado da lista de sinônimo e adicionará o sinônimo "
-"selecionado à lista para selcted.  Para remover um sinônimo selecione o "
-"sinônimo da lista e clique no botão remover."
+"*Sinônimos* permite que você adicione outros gêneros que são sinônimos com o "
+"gênero que você está editando no momento.  Para adicionar um novo tipo de "
+"sinônimos em um nome de gênero na entrada.  Você deve selecionar um nome do "
+"género da lista de conclusões.  Assim que tiver um nome de gênero que você "
+"deseja adicionar como um sinônimo, clique no botão Adicionar ao lado da "
+"lista de sinônimo e adicionará o sinônimo selecionado à lista para selcted.  "
+"Para remover um sinônimo selecione o sinônimo da lista e clique no botão "
+"remover."
 
 #: ../../editing.rst:93
 msgid "To save the genus you are working on then click *OK*."
-msgstr "Para salvar o gênero que está trabalhando, em seguida, clique * * Okey."
+msgstr "Para salvar o gênero que está trabalhando, em seguida, clique *Okey*."
 
 #: ../../editing.rst:95
 msgid ""
@@ -2204,7 +2207,7 @@ msgstr ""
 
 #: ../../extending.rst:20
 msgid "The subclassed **presenter** defines and implements:"
-msgstr "O que foi feito subclassing * * apresentador * * define e implementa:"
+msgstr "O que foi feito subclassing *apresentador* define e implementa:"
 
 #: ../../extending.rst:22
 msgid ""
@@ -3022,6 +3025,7 @@ msgid "Administration"
 msgstr "Administração"
 
 #: ../../index.rst:60
+#, fuzzy
 msgid "Ghini Development"
 msgstr "Ghini desenvolvimento"
 
@@ -3157,7 +3161,7 @@ msgstr "Se o script termina sem erro, agora você pode começar ghini::"
 
 #: ../../installing.rst:52
 msgid "or update ghini to the latest released production patch::"
-msgstr "ou atualizar ghini para o último patch lançado produção::"
+msgstr "ou atualizar ghini para o último patch lançado em produção::"
 
 #: ../../installing.rst:56
 msgid ""
@@ -3602,8 +3606,8 @@ msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
 msgstr ""
-"Baixe o arquivo em lotes que você usará para manter-se actualizado com a "
-"linha de produção, que você escolheu a seguir:"
+"Baixe o arquivo batch que você usará para manter-se actualizado com a linha "
+"de produção, que você escolheu a seguir:"
 
 #: ../../installing.rst:296
 msgid ""
@@ -4578,17 +4582,19 @@ msgstr ""
 
 #: ../../statements.rst:2
 msgid "Mission & Vision"
-msgstr ""
+msgstr "Missão e visão"
 
 #: ../../statements.rst:4
 msgid ""
 "Here we state who we are, what we think of our work, what you can expect "
 "of this project."
 msgstr ""
+"Aqui afirmamos quem somos, o que nós pensamos do nosso trabalho, que você "
+"pode esperar deste projeto."
 
 #: ../../statements.rst:8
 msgid "Who is behind Ghini"
-msgstr ""
+msgstr "Quem está por trás de Ghini"
 
 #: ../../statements.rst:10
 msgid ""
@@ -4597,8 +4603,13 @@ msgid ""
 "adapted it to the needs of a couple of other users who asked him. Brett "
 "made Bauble a commons, by releasing it under a GPL license."
 msgstr ""
+"Ghini começou como um projeto de um homem, por Brett Adams. Ele começou este "
+"software como Bauble, a Belize Jardim Botânico, e, posteriormente, adaptau-"
+"lo às necessidades de um par de outros usuários que perguntou a ele. Brett "
+"fez Bauble uma commons, por liberá-lo sob uma licença GPL."
 
 #: ../../statements.rst:15
+#, fuzzy
 msgid ""
 "After some years of stagnation Mario Frasca took responsibility of "
 "updating Bauble, rebranded it to Ghini, in honour of Luca Ghini, started "
@@ -4606,19 +4617,31 @@ msgid ""
 "is now Mario Frasca writing this, enhancing the software, looking for "
 "users, requesting feedback..."
 msgstr ""
+"Depois de alguns anos de estagnação Mario Frasca assumiu a responsabilidade "
+"de atualizar Bauble, rebatizada para Ghini, em honra de Luca Ghini, começou "
+"adocating, a viajar, a distribuição, o desenvolvimento, a documentação, e é "
+"agora Mario Frasca escrevendo isso, melhorar o software, procurando por "
+"usuários, solicitando comentários..."
 
 #: ../../statements.rst:21
 msgid ""
 "So currently behind Ghini there's not only one developer, but much more "
 "importantly, a small but growing global users community."
 msgstr ""
+"Assim, atualmente, atrás de Ghini não há apenas um programador, mas muito "
+"mais importante, uma pequena comunidade, pequena mas crescente de usuários "
+"globais."
 
 #: ../../statements.rst:24
+#, fuzzy
 msgid ""
 "Translations are provided by volunteers who mostly stay behind the "
 "scenes, translating a couple of missing terms or sentences, and "
 "disappearing again."
 msgstr ""
+"As traduções são fornecidas por voluntários que ficam principalmente do por "
+"trás das cenas, traduzindo algumos termos ou frases faltando e desaparecer "
+"novamente."
 
 #: ../../statements.rst:27
 msgid ""
@@ -4626,12 +4649,16 @@ msgid ""
 "document we will—indicate whether it's Ghini(the software), or Ghini(the "
 "people), unless obviously we mean both things."
 msgstr ""
+"Para tornar as coisas mais claras quando falamos de Ghini, mas deve—e, neste "
+"documento, vamos—indicar se é Ghini(software), ou Ghini(o povo), a menos "
+"que, obviamente, queremos dizer ambas as coisas."
 
 #: ../../statements.rst:32
 msgid "Mission"
-msgstr ""
+msgstr "Missão"
 
 #: ../../statements.rst:34
+#, fuzzy
 msgid ""
 "The Mission Statement is a purpose, it defines the rationale of an entity"
 " and is specific and true. For Ghini, the Mission Statement sets out the "
@@ -4639,26 +4666,31 @@ msgid ""
 "with Ghini(the software) and with the services of Ghini(the people), the "
 "market in which Ghini develops and its intended public image."
 msgstr ""
+"A Declaração de Missão é uma finalidade, ele define a razão de uma entidade "
+"e é específico e verdadeiro. Para Ghini, a Declaração de Missão define a "
+"ordem social a que Ghini está comprometido, as necessidades que são "
+"satisfeitas com Ghini(o software) e com os serviços de Ghini(o povo), o "
+"mercado em que Ghini desenvolve e o seu propósito de imagem pública."
 
 #: ../../statements.rst:40
 msgid "access to software"
-msgstr ""
+msgstr "acesso ao software"
 
 #: ../../statements.rst:41
 msgid "access to development"
-msgstr ""
+msgstr "acesso ao desenvolvimento"
 
 #: ../../statements.rst:42
 msgid "bundling resources"
-msgstr ""
+msgstr "agregação de recursos"
 
 #: ../../statements.rst:43
 msgid "open source"
-msgstr ""
+msgstr "código-fonte aberto"
 
 #: ../../statements.rst:44
 msgid "open data"
-msgstr ""
+msgstr "dados abertos"
 
 #: ../../statements.rst:45
 msgid "community forming"
@@ -4666,7 +4698,7 @@ msgstr ""
 
 #: ../../statements.rst:48
 msgid "Vision"
-msgstr ""
+msgstr "Visão"
 
 #: ../../statements.rst:50
 msgid ""
@@ -4675,30 +4707,34 @@ msgid ""
 "way.  It serves as motivation because it visualizes the challenge and "
 "direction of necessary changes in order to grow and prosper."
 msgstr ""
+"A visão serve para indicar o caminho a seguir e projeta uma imagem futura do "
+"que nós queremos a nossa organização seja, de forma realista e atraente.  "
+"Serve como motivação porque ele visualiza o desafio e a direção das mudanças "
+"necessárias a fim de crescer e prosperar."
 
 #: ../../statements.rst:55
 msgid "by the year 2020"
-msgstr ""
+msgstr "até o ano 2020"
 
 #: ../../statements.rst:56
 msgid "reference point"
-msgstr ""
+msgstr "ponto de referência"
 
 #: ../../statements.rst:57
 msgid "community"
-msgstr ""
+msgstr "comunidade"
 
 #: ../../statements.rst:58
 msgid "development"
-msgstr ""
+msgstr "desenvolvimento"
 
 #: ../../statements.rst:59
 msgid "integration with web portal"
-msgstr ""
+msgstr "integração com o portal da web"
 
 #: ../../statements.rst:60
 msgid "geographic information"
-msgstr ""
+msgstr "informação geográfica"
 
 #: ../../tagging.rst:2
 msgid "Tagging"
@@ -4736,6 +4772,8 @@ msgid ""
 "The Ghini User's Plugin will allow you to create and manage the "
 "permissions of users for your Ghini database."
 msgstr ""
+"O plugin de usuário Ghini permitirá que você crie e gerencie as permissões "
+"de usuários para seu banco de dados Ghini."
 
 #: ../../users.rst:11
 msgid "Creating Users"
@@ -4747,7 +4785,7 @@ msgstr ""
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Permissões"
 
 #: ../../users.rst:17
 msgid "Ghini allows read, write and execute permissions."
