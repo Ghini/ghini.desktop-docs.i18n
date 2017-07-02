@@ -3050,14 +3050,16 @@ msgstr ""
 
 #: ../../installing.rst:7
 msgid "one-liner for hurried Linux users."
-msgstr ""
+msgstr "uso Linux proprio perché ho fretta"
 
 #: ../../installing.rst:10
 msgid ""
 "Download and run `the installation script "
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
 " You may read the documentation later."
-msgstr ""
+msgstr "Scarica ed esegui `lo script di installazione "
+"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
+" La documentazione può attendere."
 
 #: ../../installing.rst:13
 msgid ""
