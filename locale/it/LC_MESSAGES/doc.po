@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-02 10:16-0500\n"
-"PO-Revision-Date: 2017-07-02 17:33+0000\n"
+"POT-Creation-Date: 2017-06-22 12:35-0500\n"
+"PO-Revision-Date: 2017-06-30 01:37+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Italian "
-"<https://hosted.weblate.org/projects/ghini/documentation-10/it/>\n"
+"<https://hosted.weblate.org/projects/ghini/documentation-11/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -3265,7 +3265,7 @@ msgstr ""
 #: ../../installing.rst:102 ../../installing.rst:156 ../../installing.rst:310
 #: ../../installing.rst:346
 msgid "Next..."
-msgstr ""
+msgstr "Prossimo..."
 
 #: ../../installing.rst:106
 msgid "Installing on MacOSX"
@@ -3496,6 +3496,10 @@ msgid "If you skip this step and can confirm you get the error, please inform us
 msgstr ""
 "Se si ignora questo passaggio e può confermare che si ottiene l'errore, "
 "vi preghiamo di informarci."
+
+#: ../../peptalk.rst:26
+msgid "synonyms"
+msgstr "sinonimi"
 
 #: ../../installing.rst:237
 msgid "You can download lxml from::"
@@ -5127,69 +5131,3 @@ msgstr "produzione di report"
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr "incisione etichette"
-
-#~ msgid ""
-#~ "The Accession editor allows us to "
-#~ "add an accession to a species.  In"
-#~ " Ghini an accession represents a "
-#~ "group of plants or clones.  The "
-#~ "accession would refer maybe a group "
-#~ "of seed or cuttings from a "
-#~ "species.  A plant would be an "
-#~ "individual from that accesssion, i.e. a"
-#~ " specific plant in a specific "
-#~ "location."
-#~ msgstr ""
-#~ "L'editor di accessione ci permette di"
-#~ " aggiungere un'accessione ad una specie."
-#~ "  In Ghini un'accessione rappresenta un "
-#~ "gruppo di piante o cloni.  L'accessione"
-#~ " si riferirebbe forse un gruppo di"
-#~ " semi o talee da una specie.  "
-#~ "Un planting sarebbe un individuo da "
-#~ "quella accesssion, cioè un planting "
-#~ "specifico in una posizione specifica."
-
-#~ msgid "The Plant editor."
-#~ msgstr "L'editore di piante"
-
-#~ msgid "Creating multiple plants"
-#~ msgstr "Creare più di una pianta"
-
-#~ msgid "Pictures"
-#~ msgstr "Fotografie"
-
-#~ msgid "danger zone"
-#~ msgstr "zona di sicurezza"
-
-#~ msgid ""
-#~ "The source of the accessions lets "
-#~ "you add more information about where "
-#~ "this accession came from.  At the "
-#~ "moment the type of the source can"
-#~ " be either a Collection or a "
-#~ "Donation."
-#~ msgstr ""
-#~ "L'origine delle accessioni consente di "
-#~ "aggiungere ulteriori informazioni sulla "
-#~ "provenienza di questa accessione.  Al "
-#~ "momento il tipo dell'origine può essere"
-#~ " un insieme o una donazione."
-
-#~ msgid "Collection"
-#~ msgstr ""
-
-#~ msgid "A Collection."
-#~ msgstr "una collezione"
-
-#~ msgid "Donation"
-#~ msgstr "Donazione"
-
-#~ msgid "A Donation."
-#~ msgstr "Una donazione"
-
-#~ msgid ""
-#~ "Download and run the script "
-#~ "`https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh`."
-#~ " Or read the documentation."
-#~ msgstr ""
