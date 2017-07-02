@@ -3001,8 +3001,8 @@ msgid ""
 "<http://www.fsf.org>`_ and is released under the `GNU Public License "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 msgstr ""
-"É `abrir <http://www.opensource.org>`_ e `gratuito <http://www.fsf.org>`_"
-" e foi lançado sob o `GNU Public License "
+"É `aberto <http://www.opensource.org>`_ e `gratuito <http://www.fsf.org>`_"
+" e está distribuído sob a `Licença Pública GNU "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_  "
 
 #: ../../index.rst:17
