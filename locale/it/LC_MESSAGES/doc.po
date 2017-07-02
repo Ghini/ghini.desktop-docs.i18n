@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 10:16-0500\n"
-"PO-Revision-Date: 2017-06-30 01:58+0000\n"
+"PO-Revision-Date: 2017-07-02 17:33+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: it\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/it/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -61,7 +62,6 @@ msgstr ""
 "``AppData`` agli utenti normali."
 
 #: ../../administration.rst:20
-#, fuzzy
 msgid ""
 "The fastest way to open it is with the file explorer: type ``%APPDATA%`` "
 "and hit enter."
@@ -323,7 +323,6 @@ msgstr ""
 "contribuire, sotto forma di diversi file. ``po``."
 
 #: ../../building.rst:88
-#, fuzzy
 msgid ""
 "A ``po`` is mostly composed of pairs of text portions, original and "
 "translation, and is specific to a target language. When a translator adds"
@@ -331,11 +330,11 @@ msgid ""
 "programmer adds a string to the software, this reaches weblate as \"to be"
 " translated\"."
 msgstr ""
-"Un file ``po`` è specifico di una lingua ed è composto da coppie di "
-"testi, in lingua originale e la corrispondente traduzione. Quando un "
-"traduttore aggiunge una traduzione su weblate, questa raggiunge il nostro"
-" repositorio github. Quanto un programmatore aggiunge una stringa nel "
-"software, questa raggiunge weblate per venir tradotta"
+"Un file ``po`` è specifico di una lingua ed è composto da coppie di testi, "
+"in lingua originale e la corrispondente traduzione. Quando un traduttore "
+"aggiunge una traduzione su weblate, questa raggiunge il nostro repositorio "
+"github. Quanto un programmatore aggiunge una stringa nel software, questa "
+"raggiunge weblate per venir tradotta."
 
 #: ../../building.rst:94
 msgid ""
@@ -663,9 +662,8 @@ msgstr ""
 "di unità extra."
 
 #: ../../building.rst:233
-#, fuzzy
 msgid "what about skipped tests"
-msgstr "dove mettere i test"
+msgstr "che fare con i test disattivati"
 
 #: ../../building.rst:236 ../../devdl.rst:172
 msgid ""
@@ -721,7 +719,7 @@ msgstr "T₁ (test il risultato dell'azione data le condizioni iniziali)"
 
 #: ../../building.rst:272
 msgid "what's in a name — unit tests"
-msgstr ""
+msgstr "la ragione di un nome — test unitari"
 
 #: ../../building.rst:275 ../../devdl.rst:208
 msgid ""
@@ -1959,10 +1957,15 @@ msgid ""
 " same taxon, are of the same propagule type (or treatment), were received"
 " from the same source, were received at the same time."
 msgstr ""
+"L'editore di accessioni ci permette di aggiungere accessioni relative ad una "
+"specie. In Ghini una accessione rappresenta una pianta, un gruppo di piante, "
+"tutte della stessa specie, tutte propagate allo stesso modo e con lo stesso "
+"trattamento, tutte ricevute allo stesso momento dalla stessa fonte."
 
 #: ../../editing.rst:134
 msgid "Choose the Taxon name, add one if you forgot to do that in advance."
 msgstr ""
+"Scegli il nome della specie, o aggiungine una se manca quella che serve."
 
 #: ../../editing.rst:136
 msgid ""
@@ -1976,6 +1979,8 @@ msgstr ""
 #: ../../editing.rst:141
 msgid "Type the Accession ID, preferably also the Quantity received."
 msgstr ""
+"Scrivi l'identificativo dell'accessione, e preferibilmente anche la quantità "
+"ricevuta."
 
 #: ../../editing.rst:145
 msgid "Accession Source"
@@ -2021,10 +2026,13 @@ msgid ""
 "collection. A plant belongs to an accession, and it has a specific "
 "location."
 msgstr ""
+"Una ``Plant`` nella base dati Ghini rappresenta un individuo nella "
+"collezione fisica. Una pianta appartiene ad un'accessione, ed ha una sua "
+"collocazione."
 
 #: ../../editing.rst:176
 msgid "Creating multiple plants"
-msgstr ""
+msgstr "Creare più piante allo stesso tempo"
 
 #: ../../editing.rst:178
 msgid ""
@@ -2060,7 +2068,7 @@ msgstr ""
 
 #: ../../editing.rst:193
 msgid "Pictures"
-msgstr ""
+msgstr "Fotografie"
 
 #: ../../editing.rst:195
 msgid ""
@@ -2086,15 +2094,14 @@ msgstr ""
 "nella cartella ``thumbnails`` all'interno della cartella immagini."
 
 #: ../../editing.rst:204
-#, fuzzy
 msgid ""
 "As of Ghini-1.0.62, Pictures are not kept in the database. To ensure "
 "pictures are available on all terminals where you have installed and "
 "configured Ghini, you can use a network drive, or a file sharing service "
 "like Tresorit or Dropbox."
 msgstr ""
-"Con Ghini-1.0.62, le immagini non stanno nel database. Per garantire che "
-"le immagini siano disponibili su tutti i terminali dove s'è installato e "
+"Con Ghini-1.0.62, le immagini non restano nel database. Per garantire che le "
+"immagini siano disponibili su tutti i terminali dove s'è installato e "
 "configurato Ghini, è possibile utilizzare una cartella di rete, o un "
 "servizio di condivisione di file, come Tresorit o Dropbox."
 
@@ -2350,6 +2357,13 @@ msgid ""
 "one ``Accession``, each ``Species`` may have multiple ``Accessions`` "
 "relating to it."
 msgstr ""
+"Una ``Accession`` rappresenta l'aver ricevuto materiale botanico nel "
+"giardino. Per questo, una ``Accession`` è un concetto astratto, collega le "
+"``Plant`` vive —gruppi di piante collocate tutte nella stessa ``Location``— "
+"alla ``Species`` corrisondente. Ad una ``Accession`` si possono collegare "
+"zero o più ``Plant`` (0..n), e sarà sempre associata ad esattamente una "
+"``Specie``. Ciascuna ``Plant`` appartiene esattamente ad una ``Accession``, "
+"mentre ciascuna ``Species`` potrà avere zero o più ``Accession``."
 
 #: ../../goal.rst:59
 msgid ""
@@ -2818,15 +2832,15 @@ msgid "Importing and Exporting Data"
 msgstr "Importare ed esportare dati"
 
 #: ../../imex.rst:4
-#, fuzzy
 msgid ""
 "Although Ghini can be extended through plugins to support alternate "
 "import and export formats, by default it can only import and export comma"
 " separated values files or CSV."
 msgstr ""
-"Anche se Ghini può essere estesa tramite plugin di supporto alternativo "
-"importazione ed esportare formati, per impostazione predefinita può solo "
-"importare ed esportare file di valori separati da virgola o CSV."
+"Anche se Ghini può essere ampliato tramite plugin, così da poter supportare "
+"formati alternativi per importare ed esportare dati, per impostazione "
+"predefinita può solo importare ed esportare file di valori separati da "
+"virgola o CSV."
 
 #: ../../imex.rst:8
 msgid ""
@@ -2872,13 +2886,12 @@ msgstr ""
 "CSV ma che è più avanzato che coprirà questo doc."
 
 #: ../../imex.rst:25
-#, fuzzy
 msgid ""
 "To import CSV files into Ghini select "
 ":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
-"Per importare i file CSV in Ghini selezionare: menuselection: "
-"'Strumenti--> esportazione--> valori separati da virgola' dal menu."
+"Per importare file CSV in Ghini selezionare :menuselection:`Strumenti--> "
+"esportazione--> valori separati da virgola` dal menu."
 
 #: ../../imex.rst:29
 msgid ""
@@ -2896,13 +2909,13 @@ msgid "Exporting to CSV"
 msgstr "Esportazione in CSV"
 
 #: ../../imex.rst:37
-#, fuzzy
 msgid ""
 "To export the Ghini data to CSV select "
 ":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
-"Per esportare i dati di Ghini per selezionare CSV: menuselection: "
-"'Strumenti--> esportazione--> valori separati da virgola' dal menu."
+"Per esportare i dati di Ghini in formato CSV selezionare "
+":menuselection:`Strumenti--> esportazione--> valori separati da virgola` dal "
+"menu."
 
 #: ../../imex.rst:40
 msgid ""
@@ -3081,13 +3094,12 @@ msgid "The installation is based on running a script."
 msgstr "L'installazione è basata sull'esecuzione di uno script."
 
 #: ../../installing.rst:20
-#, fuzzy
 msgid ""
 "The GNU/Linux script takes care of everything, from dependecies to "
 "installation for users in the ``ghini`` group."
 msgstr ""
 "Lo script GNU/Linux si occupa di tutto, dalla soluzione delle dipendenze "
-"alla installazione per tutti gli utenti."
+"alla installazione per tutti gli utenti nel gruppo ``ghini``."
 
 #: ../../installing.rst:22
 msgid "The Windows script needs you to first install a couple things."
@@ -3144,15 +3156,14 @@ msgid "Download the `devinstall.sh` script and run it::"
 msgstr "Scaricare il programmino `devinstall.sh` ed eseguirlo::"
 
 #: ../../installing.rst:45
-#, fuzzy
 msgid ""
 "Please note that the script will not help you install any extra database "
 "connector. This is not strictly necessary and you can do it at any later "
 "moment."
 msgstr ""
-"Siete pregati di notare che lo script non vi aiuterà a installare "
-"qualsiasi connettore aggiuntivo di database. Questo non è strettamente "
-"necessario e si può fare in qualsiasi passo successivo."
+"Siete pregati di notare che lo script non vi aiuterà a installare alcun "
+"connettore aggiuntivo di database. Questo non è strettamente necessario e si "
+"può fare in qualsiasi passo successivo."
 
 #: ../../installing.rst:48
 msgid "If the script ends without error, you can now start ghini::"
@@ -3218,7 +3229,7 @@ msgstr ""
 
 #: ../../installing.rst:77
 msgid "beginner's note"
-msgstr ""
+msgstr "nota per il principiante"
 
 #: ../../installing.rst:80
 msgid ""
@@ -3235,7 +3246,7 @@ msgstr ""
 
 #: ../../installing.rst:86
 msgid "technical note"
-msgstr ""
+msgstr "nota tecnica"
 
 #: ../../installing.rst:89
 msgid ""
@@ -3932,11 +3943,11 @@ msgid ""
 "comma separated value file you should name the template `report.csv`."
 msgstr ""
 "Il generatore modello utilizzerà la stessa estensione di file come il "
-"modello che dovrebbe indicare il tipo di output del modello con create.  "
-"Ad esempio, per generare una pagina HTML dal tuo modello si dovrebbe nome"
-" del modello qualcosa come 'raportului'.  Se il modello verrà generato un"
-" file di valori separati da virgola è necessario denominare il modello "
-"'report. csv'."
+"modello che dovrebbe indicare il tipo di output del modello con create.  Ad "
+"esempio, per generare una pagina HTML dal tuo modello si dovrebbe nome del "
+"modello qualcosa come `report.html`.  Se il modello verrà generato un file "
+"di valori separati da virgola è necessario denominare il modello "
+"`report.csv`."
 
 #: ../../report.rst:33
 msgid ""
@@ -4224,6 +4235,16 @@ msgid ""
 "``%ck%10`` would search for all value that contain ``ck`` and end in "
 "``10``."
 msgstr ""
+"La stringa di ricerca `loc like blocco%` restituisce tutti le Location per "
+"cui nome o codice inizia con \"blocco\".  In questo caso il dominio è `loc` ("
+"un'abbreviazione per ``location``), l'operatore è ``like`` (questo viene "
+"dall'SQL ed aggiunge un fattore di approssimazione nella ricerca), il valore "
+"è ``blocco%``, i campi di ricerca sono implicitamente ``nome`` e ``codice``"
+".  Il segno di percentuale viene utilizzato come una wild card, pertanto se "
+"si cerca 'blocco % ' quindi ricercherà tutti i valori che iniziano con max.  "
+"Se si cerca ``%10`` ricerca per tutti i valori che terminano in ``10``.  La "
+"stringa ``%ck%10`` indica la ricerca di tutto ciò che contenga ``ck`` e "
+"termini in ``10``."
 
 #: ../../searching.rst:110
 msgid "When a query takes ages to complete"
@@ -4444,6 +4465,14 @@ msgid ""
 "and ``Empty``. You may edit the query and insert quotes if you need them,"
 " eg if you need to literally look for the string ``Empty``."
 msgstr ""
+"A questo punto il generatore di Query scrive la query nella voce Cerca e lo "
+"esegue. Adesso si può editare la stringa come fosse stata inserita "
+"manualmente. Si noti come i valori alla sinistra vengono interpretati dal "
+"generatore di query e racchiusi tra virgolette singole se riconosciuto come "
+"stringhe, o lasciati senza virgolette se sono numeri o i due riservati "
+"parole ``None`` e ``Empty``. Si può modificare la query e inserire "
+"virgolette se necessario, ad esempio se avete bisogno di cercare "
+"letteralmente la stringa ``Empty``."
 
 #: ../../searching.rst:234
 msgid ""
@@ -4451,6 +4480,10 @@ msgid ""
 "lenght string ``''`` nor the numeric ``0`` nor the boolean ``False`` nor "
 "the set ``Empty``, it indicates that the field has no value at all."
 msgstr ""
+"``None`` è il valore di un campo vuoto. Non è la stessa che la stringa di "
+"lunghezza zero ``''`` né il numero ``0`` né il booleano ``False`` né "
+"l'insieme ``Empty``: ``None`` indica che al campo non è associato alcun "
+"valore."
 
 #: ../../searching.rst:238
 msgid ""
@@ -5093,7 +5126,7 @@ msgstr "produzione di report"
 
 #: ../../user_stories.rst:44
 msgid "engraving labels"
-msgstr ""
+msgstr "incisione etichette"
 
 #~ msgid ""
 #~ "The Accession editor allows us to "
@@ -5160,4 +5193,3 @@ msgstr ""
 #~ "`https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh`."
 #~ " Or read the documentation."
 #~ msgstr ""
-
