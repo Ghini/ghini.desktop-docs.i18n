@@ -8,48 +8,46 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-29 20:46-0500\n"
-"PO-Revision-Date: 2017-04-17 10:48+0000\n"
+"PO-Revision-Date: 2017-07-02 11:50+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
+"Language-Team: Ukrainian "
+"<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
 "Language: uk\n"
-"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ghini"
-"/documentation-administration/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
-#, fuzzy
 msgid "Database Administration"
-msgstr "Адміністрація"
+msgstr "Адміністрування бази даних"
 
 #: ../../administration.rst:4
-#, fuzzy
 msgid ""
 "If you are using a real DBMS to hold your botanic data, then you need do "
 "something about database administration. While database administration is"
 " far beyond the scope of this document, we make our users aware of it."
 msgstr ""
-"Якщо ви використовуєте реальну СУБД для зберігання ваших ботанічних "
-"даних, то вам потрібно зробити адміністрування баз даних. Хоча "
-"адміністрування баз даних далеко виходить за рамки цього документа, ми "
-"виходимо з того, що наші користувачі знають про це."
+"Якщо ви використовуєте реальну СУБД для зберігання ваших ботанічних даних, "
+"то вам потрібно робити адміністрування бази даних. Хоча адміністрування баз "
+"даних далеко виходить за рамки цього документа, ми виходимо з того, що наші "
+"користувачі знають про це."
 
 #: ../../administration.rst:11
-#, fuzzy
 msgid ""
 "SQLite is not what one would consider a real DBMS: each SQLite database "
 "is just in one file. Make safety copies and you will be fine. If you "
 "don't know where to look for your database files, consider that, per "
 "default, bauble puts its data in the ``~/.bauble/`` directory."
 msgstr ""
-"SQLite не те, що можна було б розглянути реальну СУБД: кожна база даних "
-"SQLite тільки в одному файлі. Зробіть копії для безпеки, і ви будете в "
-"порядку. Якщо ви не знаєте, де шукати ваші файли бази даних, вважається, "
-"що, за замовчуванням, ghini поміщає свої дані в ``~/.bauble/`` каталог (В"
-" Windows, це у вашому ``AppData`` каталозі)."
+"SQLite - це не те, що можна розглянути як справжню СУБД: кожна база даних "
+"SQLite знаходиться тільки в одному файлі. Зробіть копії для безпеки, і ви "
+"будете в порядку. Якщо ви не знаєте, де шукати ваші файли бази даних, то "
+"вважається, що за замовчуванням, bauble поміщає свої дані в ``~/.bauble/`` "
+"каталог."
 
 #: ../../administration.rst:16
 msgid ""
@@ -57,12 +55,17 @@ msgid ""
 "``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best "
 "to hide the ``AppData`` directory structure to normal users."
 msgstr ""
+"У Windows це десь у каталозі `` AppData``, швидше за все, в ``AppData\\"
+"Roaming\\Bauble``. Майте на увазі, що Windows робить все можливе, щоб "
+"приховати ``AppData`` структуру каталогів для звичайних користувачів."
 
 #: ../../administration.rst:20
 msgid ""
 "The fastest way to open it is with the file explorer: type ``%APPDATA%`` "
 "and hit enter."
 msgstr ""
+"Найшвидший спосіб його відкрити за допомогою файлового провідника: тип "
+"``%APPDATA%`` і натиснути Enter."
 
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
@@ -79,7 +82,7 @@ msgstr ""
 
 #: ../../administration.rst:37
 msgid "Ghini Configuration"
-msgstr ""
+msgstr "Конфігурація Ghini"
 
 #: ../../administration.rst:39
 msgid ""
@@ -87,70 +90,84 @@ msgid ""
 "file is associated to a user account and every user will have their own "
 "configuration file."
 msgstr ""
+"Ghini використовує файл конфігурації для зберігання значень через виклики. "
+"Цей файл пов'язаний з обліковим записом користувача, і кожен користувач "
+"матиме власний файл конфігурації."
 
 #: ../../administration.rst:43
+#, fuzzy
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in"
 " the text entry area where you normally type your searches, then hit "
 "enter."
 msgstr ""
+"Щоб переглянути вміст конфігураційного файлу Ghini, введіть ``:prefs`` в "
+"області введення тексту, де ви зазвичай вводите пошук, а потім натисніть "
+"enter."
 
 #: ../../administration.rst:46
+#, fuzzy
 msgid ""
 "You normally do not need tweaking the configuration file, but you can do "
 "so with a normal text editor program. Ghini configuration file is at the "
 "default location for SQLite databases."
 msgstr ""
+"Вам зазвичай не потрібно налаштувати файл конфігурації, якщо потрібно це "
+"можна зробити за допомогою звичайної програми для текстового редактора. "
+"Конфігураційний файл Ghini знаходиться за замовчуванням для баз даних SQLite."
 
 #: ../../administration.rst:51
 msgid "Reporting Errors"
-msgstr ""
+msgstr "Повідомлення про помилки"
 
 #: ../../administration.rst:53
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
 msgstr ""
+"Якщо ви помітили що-небудь несподіване в поведінці Ghini, будь ласка, "
+"подайте проблеми на сайт розробки Ghini."
 
 #: ../../administration.rst:56
 msgid "Ghini development site can be accessed via the Help menu."
-msgstr ""
+msgstr "Сайт розробки Ghini можна отримати за допомогою меню Довідка."
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
-msgstr "Керівництво розробника"
+msgstr "Посібник розробника"
 
 #: ../../building.rst:5
-#, fuzzy
 msgid "Helping Ghini development"
-msgstr "допомагаючи розвитку Ghini"
+msgstr "Допомога в розвитку Ghini"
 
 #: ../../building.rst:7
-#, fuzzy
 msgid ""
 "Installing Ghini always includes downloading the sources, connected to "
 "the github repository. This is so because in our eyes, every user is "
 "always potentially also a developer."
 msgstr ""
-"Установка  Ghini завжди включає в себе завантаження джерел, підключених "
-"до сховища GitHub. Це так, тому що в наших очах, кожен користувач завжди "
+"Встановлення Ghini завжди включає в себе завантаження джерел, підключених до "
+"сховища GitHub. Це так, тому що в наших очах, кожен користувач завжди "
 "потенційно також є розробником."
 
 #: ../../building.rst:11
-#, fuzzy
 msgid ""
 "If you want to contribute to Ghini, you can do so in quite a few "
 "different ways:"
 msgstr ""
-"Якщо ви хочете внести свій внесок в  Ghini, ви можете зробити це в багато"
-" різних способів::"
+"Якщо ви хочете внести свій внесок у Ghini, ви можете зробити це кількома "
+"різними способами:"
 
 #: ../../building.rst:13
+#, fuzzy
 msgid ""
 "Use the software, note the things you don't like, `open an issue "
 "<http://github.com/Ghini/ghini.desktop/issues/new>`_ for each of them. A "
 "developer will react sooner than you can imagine."
 msgstr ""
+"Використовуйте програмне забезпечення, занотуйте речі, які вам не "
+"подобаються, `відкрийте проблему "
+"<http://github.com/Ghini/ghini.desktop/issues/new>`_для кожного з них."
 
 #: ../../building.rst:16
 msgid ""
@@ -160,6 +177,11 @@ msgid ""
 "quickly on Ghini. Do make sure the developer opens issues and publishes "
 "their contribution on github."
 msgstr ""
+"Якщо у вас є ідея про те, що пропущено в програмному забезпеченні, але не "
+"можете повністю формалізувати її в окремі питання, ви можете розглянути "
+"питання про наймання професіонала. Це найкращий спосіб переконатися, що щось "
+"відбувається швидко на Ghini. Переконайтеся, що розробник відкриває проблеми "
+"та публікує їхній внесок у github."
 
 #: ../../building.rst:21
 msgid ""
@@ -167,12 +189,18 @@ msgid ""
 "can do this without installing anything on your computer, just using the "
 "on-line translation service offered by http://hosted.weblate.org/"
 msgstr ""
+"Перекласти! Будь-яка допомога з перекладом буде прийнята, тому, будь ласка, "
+"будь ласка! Ви можете це зробити, не встановлюючи нічого на своєму "
+"комп'ютері, просто скористайтеся службою перекладів онлайн, яку пропонує "
+"http://hosted.weblate.org/"
 
 #: ../../building.rst:24
 msgid ""
 "fork the respository, choose an issue, solve it, open a pull request. See"
 " the `bug solving workflow`_ below."
 msgstr ""
+"виділіть репозиторій, виберіть проблему, вирішіть її, відкрийте запит зняти. "
+"Дивіться  `bug solving workflow`_ нижче."
 
 #: ../../building.rst:27
 msgid ""
@@ -181,10 +209,14 @@ msgid ""
 "<http://github.com/Ghini/ghini.desktop>`_ and see all that has been going"
 " on around Ghini since its inception as Bauble, back in the year 2004."
 msgstr ""
+"Якщо ви ще не встановили Ghini і хочете поглянути його історію кодів, ви "
+"можете відкрити нашу `github сторінку проекту "
+"<http://github.com/Ghini/ghini.desktop>`_і побачити все, що відбувалося "
+"навколо Ghini з моменту його створення, як в Bauble, ще в 2004 році."
 
 #: ../../building.rst:33
 msgid "Software source, versions, branches"
-msgstr ""
+msgstr "Джерело програмного забезпечення, версії, розширення"
 
 #: ../../building.rst:35
 msgid ""
@@ -192,10 +224,13 @@ msgid ""
 "versions as branches. You should ``git checkout`` the branch "
 "corresponding to the version of your choice."
 msgstr ""
+"Якщо ви хочете отримати певну версію Ghini, ми випускаємо та підтримуємо "
+"версії як розширення. Ви повинні `` git checkout`` розширення, яку "
+"відповідає вибраній вами версії."
 
 #: ../../building.rst:40 ../../devdl.rst:32
 msgid "production line"
-msgstr ""
+msgstr "виробнича лінія"
 
 #: ../../building.rst:42
 msgid ""
@@ -203,6 +238,10 @@ msgid ""
 "``ghini-x.y`` (eg: ghini-1.0); branch names where Ghini testing versions "
 "are published are of the form ``ghini-x.y-dev`` (eg: ghini-1.0-dev)."
 msgstr ""
+"Назва розширень для стабільних (виробничих) версій Ghini складається з форми "
+"``ghini-x.y`` (наприклад: ghini-1.0); імена розширень, у яких публікуються "
+"тестові версії Ghini, мають форму ``ghini-x.y-dev`` (наприклад, "
+"ghini-1.0-dev)."
 
 #: ../../building.rst:47 ../../devdl.rst:29
 #, fuzzy
@@ -216,6 +255,10 @@ msgid ""
 "of the pushed testing branches, finally, from time to time, to merge the "
 "testing branch into the corresponding release."
 msgstr ""
+"Наш робочий процес полягає в тому, щоб постійно займатися тестуванням "
+"розширень, часто поширювати їх на github, щоб дозволити travis-ci та "
+"coveralls.io перевірити якість тестовних розширень, нарешті, час від часу, "
+"об'єднати тестовані розширення у  відповідну версію."
 
 #: ../../building.rst:54
 msgid ""
@@ -223,10 +266,12 @@ msgid ""
 " days, I might open a branch associated to the issue. I don't do this "
 "very often."
 msgstr ""
+"Під час роботи над складними проблемами, які тривають більше двох днів, я "
+"можу відкрити філію, пов'язану з цією проблемою. Я не роблю це дуже часто."
 
 #: ../../building.rst:59 ../../devdl.rst:51
 msgid "larger issues"
-msgstr ""
+msgstr "більше питань"
 
 #: ../../building.rst:61
 msgid ""
@@ -234,10 +279,13 @@ msgid ""
 "main development line (e.g.: ``ghini-1.0-dev``), and follow the workflow "
 "described at"
 msgstr ""
+"Коли постали перед однією складною проблемою, створіть тег відгалуження на "
+"кінці основної лінії розробки (наприклад, ``ghini-1.0-dev``) і дотримуйтесь "
+"робочого процесу, описаного в"
 
 #: ../../building.rst:67 ../../devdl.rst:58
 msgid "in short::"
-msgstr ""
+msgstr "коротко::"
 
 #: ../../building.rst:73
 msgid ""
@@ -5418,4 +5466,3 @@ msgstr ""
 
 #~ msgid "https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py"
 #~ msgstr ""
-
