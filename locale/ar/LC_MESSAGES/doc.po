@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../administration.rst:2
 msgid "Database Administration"
-msgstr ""
+msgstr "إدارة قاعدة البيانات"
 
 #: ../../administration.rst:4
 msgid ""
