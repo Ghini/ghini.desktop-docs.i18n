@@ -1,0 +1,5328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2012, Brett Adams; 2012-2015, Mario Frasca
+# This file is distributed under the same license as the Ghini package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ghini 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-02 10:19-0500\n"
+"PO-Revision-Date: 2017-07-02 11:50+0000\n"
+"Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
+"Language-Team: Ukrainian "
+"<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.16-dev\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../administration.rst:2
+msgid "Database Administration"
+msgstr "Адміністрування бази даних"
+
+#: ../../administration.rst:4
+msgid ""
+"If you are using a real DBMS to hold your botanic data, then you need do "
+"something about database administration. While database administration is"
+" far beyond the scope of this document, we make our users aware of it."
+msgstr ""
+"Якщо ви використовуєте реальну СУБД для зберігання ваших ботанічних даних, "
+"то вам потрібно робити адміністрування бази даних. Хоча адміністрування баз "
+"даних далеко виходить за рамки цього документа, ми виходимо з того, що наші "
+"користувачі знають про це."
+
+#: ../../administration.rst:11
+msgid ""
+"SQLite is not what one would consider a real DBMS: each SQLite database "
+"is just in one file. Make safety copies and you will be fine. If you "
+"don't know where to look for your database files, consider that, per "
+"default, bauble puts its data in the ``~/.bauble/`` directory."
+msgstr ""
+"SQLite - це не те, що можна розглянути як справжню СУБД: кожна база даних "
+"SQLite знаходиться тільки в одному файлі. Зробіть копії для безпеки, і ви "
+"будете в порядку. Якщо ви не знаєте, де шукати ваші файли бази даних, то "
+"вважається, що за замовчуванням, bauble поміщає свої дані в ``~/.bauble/`` "
+"каталог."
+
+#: ../../administration.rst:16
+msgid ""
+"In Windows it is somewhere in your ``AppData`` directory, most likely in "
+"``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best "
+"to hide the ``AppData`` directory structure to normal users."
+msgstr ""
+"У Windows це десь у каталозі `` AppData``, швидше за все, в ``AppData\\"
+"Roaming\\Bauble``. Майте на увазі, що Windows робить все можливе, щоб "
+"приховати ``AppData`` структуру каталогів для звичайних користувачів."
+
+#: ../../administration.rst:20
+msgid ""
+"The fastest way to open it is with the file explorer: type ``%APPDATA%`` "
+"and hit enter."
+msgstr ""
+"Найшвидший спосіб його відкрити за допомогою файлового провідника: тип "
+"``%APPDATA%`` і натиснути Enter."
+
+#: ../../administration.rst:26
+msgid "Please refer to the official documentation."
+msgstr "Будь ласка, зверніться до офіційної документації."
+
+#: ../../administration.rst:31
+msgid ""
+"Please refer to the official documentation. A very thorough discussion of"
+" your backup options starts at `chapter_24`_."
+msgstr ""
+"Будь ласка, зверніться до офіційної документації. Дуже докладне "
+"обговорення налаштувань резервного копіювання починається на "
+"`chapter_24`_."
+
+#: ../../administration.rst:37
+msgid "Ghini Configuration"
+msgstr "Конфігурація Ghini"
+
+#: ../../administration.rst:39
+msgid ""
+"Ghini uses a configuration file to store values across invocations. This "
+"file is associated to a user account and every user will have their own "
+"configuration file."
+msgstr ""
+"Ghini використовує файл конфігурації для зберігання значень через виклики. "
+"Цей файл пов'язаний з обліковим записом користувача, і кожен користувач "
+"матиме власний файл конфігурації."
+
+#: ../../administration.rst:43
+#, fuzzy
+msgid ""
+"To review the content of the Ghini configuration file, type ``:prefs`` in"
+" the text entry area where you normally type your searches, then hit "
+"enter."
+msgstr ""
+"Щоб переглянути вміст конфігураційного файлу Ghini, введіть ``:prefs`` в "
+"області введення тексту, де ви зазвичай вводите пошук, а потім натисніть "
+"enter."
+
+#: ../../administration.rst:46
+#, fuzzy
+msgid ""
+"You normally do not need tweaking the configuration file, but you can do "
+"so with a normal text editor program. Ghini configuration file is at the "
+"default location for SQLite databases."
+msgstr ""
+"Вам зазвичай не потрібно налаштувати файл конфігурації, якщо потрібно це "
+"можна зробити за допомогою звичайної програми для текстового редактора. "
+"Конфігураційний файл Ghini знаходиться за замовчуванням для баз даних SQLite."
+
+#: ../../administration.rst:51
+msgid "Reporting Errors"
+msgstr "Повідомлення про помилки"
+
+#: ../../administration.rst:53
+msgid ""
+"Should you notice anything unexpected in Ghini's behaviour, please "
+"consider filing an issue on the Ghini development site."
+msgstr ""
+"Якщо ви помітили що-небудь несподіване в поведінці Ghini, будь ласка, "
+"подайте проблеми на сайт розробки Ghini."
+
+#: ../../administration.rst:56
+msgid "Ghini development site can be accessed via the Help menu."
+msgstr "Сайт розробки Ghini можна отримати за допомогою меню Довідка."
+
+#: ../../building.rst:2
+msgid "Developer's Manual"
+msgstr "Посібник розробника"
+
+#: ../../building.rst:5
+msgid "Helping Ghini development"
+msgstr "Допомога в розвитку Ghini"
+
+#: ../../building.rst:7
+msgid ""
+"Installing Ghini always includes downloading the sources, connected to "
+"the github repository. This is so because in our eyes, every user is "
+"always potentially also a developer."
+msgstr ""
+"Встановлення Ghini завжди включає в себе завантаження джерел, підключених до "
+"сховища GitHub. Це так, тому що в наших очах, кожен користувач завжди "
+"потенційно також є розробником."
+
+#: ../../building.rst:11
+msgid ""
+"If you want to contribute to Ghini, you can do so in quite a few "
+"different ways:"
+msgstr ""
+"Якщо ви хочете внести свій внесок у Ghini, ви можете зробити це кількома "
+"різними способами:"
+
+#: ../../building.rst:13
+#, fuzzy
+msgid ""
+"Use the software, note the things you don't like, `open an issue "
+"<http://github.com/Ghini/ghini.desktop/issues/new>`_ for each of them. A "
+"developer will react sooner than you can imagine."
+msgstr ""
+"Використовуйте програмне забезпечення, занотуйте речі, які вам не "
+"подобаються, `відкрийте проблему "
+"<http://github.com/Ghini/ghini.desktop/issues/new>`_для кожного з них."
+
+#: ../../building.rst:16
+msgid ""
+"If you have an idea of what you miss in the software but can't quite "
+"formalize it into separate issues, you could consider hiring a "
+"professional. This is the best way to make sure that something happens "
+"quickly on Ghini. Do make sure the developer opens issues and publishes "
+"their contribution on github."
+msgstr ""
+"Якщо у вас є ідея про те, що пропущено в програмному забезпеченні, але не "
+"можете повністю формалізувати її в окремі питання, ви можете розглянути "
+"питання про наймання професіонала. Це найкращий спосіб переконатися, що щось "
+"відбувається швидко на Ghini. Переконайтеся, що розробник відкриває проблеми "
+"та публікує їхній внесок у github."
+
+#: ../../building.rst:21
+msgid ""
+"Translate! Any help with translations will be welcome, so please do! you "
+"can do this without installing anything on your computer, just using the "
+"on-line translation service offered by http://hosted.weblate.org/"
+msgstr ""
+"Перекласти! Будь-яка допомога з перекладом буде прийнята, тому, будь ласка, "
+"будь ласка! Ви можете це зробити, не встановлюючи нічого на своєму "
+"комп'ютері, просто скористайтеся службою перекладів онлайн, яку пропонує "
+"http://hosted.weblate.org/"
+
+#: ../../building.rst:24
+msgid ""
+"fork the respository, choose an issue, solve it, open a pull request. See"
+" the `bug solving workflow`_ below."
+msgstr ""
+"виділіть репозиторій, виберіть проблему, вирішіть її, відкрийте запит зняти. "
+"Дивіться  `bug solving workflow`_ нижче."
+
+#: ../../building.rst:27
+msgid ""
+"If you haven't yet installed Ghini, and want to have a look at its code "
+"history, you can open our `github project page "
+"<http://github.com/Ghini/ghini.desktop>`_ and see all that has been going"
+" on around Ghini since its inception as Bauble, back in the year 2004."
+msgstr ""
+"Якщо ви ще не встановили Ghini і хочете поглянути його історію кодів, ви "
+"можете відкрити нашу `github сторінку проекту "
+"<http://github.com/Ghini/ghini.desktop>`_і побачити все, що відбувалося "
+"навколо Ghini з моменту його створення, як в Bauble, ще в 2004 році."
+
+#: ../../building.rst:33
+msgid "Software source, versions, branches"
+msgstr "Джерело програмного забезпечення, версії, розширення"
+
+#: ../../building.rst:35
+msgid ""
+"If you want a particular version of Ghini, we release and maintain "
+"versions as branches. You should ``git checkout`` the branch "
+"corresponding to the version of your choice."
+msgstr ""
+"Якщо ви хочете отримати певну версію Ghini, ми випускаємо та підтримуємо "
+"версії як розширення. Ви повинні `` git checkout`` розширення, яку "
+"відповідає вибраній вами версії."
+
+#: ../../building.rst:40 ../../devdl.rst:32
+msgid "production line"
+msgstr "виробнича лінія"
+
+#: ../../building.rst:42
+msgid ""
+"Branch names for Ghini stable (production) versions are of the form "
+"``ghini-x.y`` (eg: ghini-1.0); branch names where Ghini testing versions "
+"are published are of the form ``ghini-x.y-dev`` (eg: ghini-1.0-dev)."
+msgstr ""
+"Назва розширень для стабільних (виробничих) версій Ghini складається з форми "
+"``ghini-x.y`` (наприклад: ghini-1.0); імена розширень, у яких публікуються "
+"тестові версії Ghini, мають форму ``ghini-x.y-dev`` (наприклад, "
+"ghini-1.0-dev)."
+
+#: ../../building.rst:47 ../../devdl.rst:29
+#, fuzzy
+msgid "Development Workflow"
+msgstr "нормальний робочий процес розробки"
+
+#: ../../building.rst:49
+msgid ""
+"Our workflow is to continuously commit to the testing branch, to often "
+"push them to github, to let travis-ci and coveralls.io check the quality "
+"of the pushed testing branches, finally, from time to time, to merge the "
+"testing branch into the corresponding release."
+msgstr ""
+"Наш робочий процес полягає в тому, щоб постійно займатися тестуванням "
+"розширень, часто поширювати їх на github, щоб дозволити travis-ci та "
+"coveralls.io перевірити якість тестовних розширень, нарешті, час від часу, "
+"об'єднати тестовані розширення у  відповідну версію."
+
+#: ../../building.rst:54
+msgid ""
+"When working at larger issues, which seem to take longer than a couple of"
+" days, I might open a branch associated to the issue. I don't do this "
+"very often."
+msgstr ""
+"Під час роботи над складними проблемами, які тривають більше двох днів, я "
+"можу відкрити філію, пов'язану з цією проблемою. Я не роблю це дуже часто."
+
+#: ../../building.rst:59 ../../devdl.rst:51
+msgid "larger issues"
+msgstr "більше питань"
+
+#: ../../building.rst:61
+msgid ""
+"When facing a single larger issue, create a branch tag at the tip of a "
+"main development line (e.g.: ``ghini-1.0-dev``), and follow the workflow "
+"described at"
+msgstr ""
+"Коли постали перед однією складною проблемою, створіть тег відгалуження на "
+"кінці основної лінії розробки (наприклад, ``ghini-1.0-dev``) і дотримуйтесь "
+"робочого процесу, описаного в"
+
+#: ../../building.rst:67 ../../devdl.rst:58
+msgid "in short::"
+msgstr "коротко::"
+
+#: ../../building.rst:73
+msgid ""
+"Work on the new temporary branch. When ready, go to github, merge the "
+"branch with the main development line from which you branched, solve "
+"conflicts where necessary, delete the temporary branch."
+msgstr ""
+
+#: ../../building.rst:77
+msgid ""
+"When ready for publication, merge the development line into the "
+"corresponding production line."
+msgstr ""
+
+#: ../../building.rst:81 ../../devdl.rst:70
+msgid "Updating the set of translatable strings"
+msgstr ""
+
+#: ../../building.rst:83
+msgid ""
+"From time to time, during the process of updating the software, you will "
+"be adding or modifying strings in the python sources, in the "
+"documentation, in the glade sources. Most of our strings are "
+"translatable, and are offered to weblate for people to contribute, in the"
+" form of several ``.po`` files."
+msgstr ""
+
+#: ../../building.rst:88
+msgid ""
+"A ``po`` is mostly composed of pairs of text portions, original and "
+"translation, and is specific to a target language. When a translator adds"
+" a translation on weblate, this reaches our repository on github. When a "
+"programmer adds a string to the software, this reaches weblate as \"to be"
+" translated\"."
+msgstr ""
+
+#: ../../building.rst:94
+msgid ""
+"Weblate hosts the `Ghini <https://hosted.weblate.org/projects/ghini/>`_ "
+"project. Within this project we have components, each of which "
+"corresponds to a branch of a repository on github. Each component accepts"
+" translations in several languages."
+msgstr ""
+
+#: ../../building.rst:100
+msgid "component"
+msgstr ""
+
+#: ../../building.rst:100
+msgid "repository"
+msgstr ""
+
+#: ../../building.rst:100
+msgid "branch"
+msgstr ""
+
+#: ../../building.rst:109
+msgid ""
+"To update the ``po`` files relative to the *software*, you set the "
+"working directory to the root of your checkout of *ghini.desktop*, and "
+"you run the script::"
+msgstr ""
+
+#: ../../building.rst:115
+msgid ""
+"To update the ``po`` files relative to the *documentation*, you set the "
+"working directory to the root of your checkout of *ghini.desktop-"
+"docs.i18n*, and you run the script::"
+msgstr ""
+
+#: ../../building.rst:121
+msgid ""
+"When you run either of the above mentioned scripts, chances are you need "
+"to commit *all* ``po`` files in the project. You may want to review the "
+"changes before committing them to the respository. This is most important"
+" when you perform a marginal correction to a string, like removing a "
+"typo."
+msgstr ""
+
+#: ../../building.rst:126
+msgid ""
+"`Our documentation <https://readthedocs.org/projects/ghini/>`_ on "
+"readthedocs has an original English version, and several translations. We"
+" just follow the `description of localisation "
+"<http://docs.readthedocs.io/en/latest/localization.html>`_, there's "
+"nothing that we invented ourselves here."
+msgstr ""
+
+#: ../../building.rst:132
+msgid ""
+"Readthedocs checks the project's *Language* setting, and invokes "
+"``sphinx-intl`` to produce the formatted documentation in the target "
+"language. With the default configuration —which we did not alter— "
+"``sphinx-intl`` expects one ``po`` file per source document, named as the"
+" source document, and that they all reside in the directory "
+"``local/$(LANG)/LC_MESSAGES/``."
+msgstr ""
+
+#: ../../building.rst:139
+msgid ""
+"On the other hand, Weblate (and ourselves) prefers a single ``po`` file "
+"per language, and keeps them all in the same ``/po`` directory, just as "
+"we do for the software project: ``/po/$(LANG).po``."
+msgstr ""
+
+#: ../../building.rst:143
+msgid ""
+"In order not to repeat information, and to let both systems work their "
+"natural way, we have two sets of symbolic links (git honors them)."
+msgstr ""
+
+#: ../../building.rst:146
+msgid ""
+"To summarise: when a file in the documentation is updated, the "
+"``runme.sh`` script will:"
+msgstr ""
+
+#: ../../building.rst:149
+msgid "copy the ``rst`` files from the software to the documentation;"
+msgstr ""
+
+#: ../../building.rst:150
+msgid "create a new ``pot`` file for each of the documentation files;"
+msgstr ""
+
+#: ../../building.rst:151
+msgid "merge all ``pot`` files into one ``doc.pot``;"
+msgstr ""
+
+#: ../../building.rst:152
+msgid ""
+"use the updated ``doc.pot`` to update all ``doc.po`` files (one per "
+"language);"
+msgstr ""
+
+#: ../../building.rst:153
+msgid "create all symbolic links:"
+msgstr ""
+
+#: ../../building.rst:155
+msgid "those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``"
+msgstr ""
+
+#: ../../building.rst:156
+msgid "those used by weblate in ``/po/$(LANG).po``"
+msgstr ""
+
+#: ../../building.rst:158
+msgid ""
+"We could definitely write the above in a Makefile, or even better include"
+" it in ``/doc/Makefile``. Who knows, maybe we will do that."
+msgstr ""
+
+#: ../../building.rst:163 ../../devdl.rst:102
+msgid "Adding missing unit tests"
+msgstr ""
+
+#: ../../building.rst:165 ../../devdl.rst:104
+msgid ""
+"If you are interested contributing to development of Ghini, a good way to"
+" do so would be by helping us finding and writing the missing unit tests."
+msgstr ""
+
+#: ../../building.rst:168 ../../devdl.rst:107
+msgid ""
+"A well tested function is one whose behaviour you cannot change without "
+"breaking at least one unit test."
+msgstr ""
+
+#: ../../building.rst:171 ../../devdl.rst:110
+msgid ""
+"We all agree that in theory theory and practice match perfectly and that "
+"one first writes the tests, then implements the function. In practice, "
+"however, practice does not match theory and we have been writing tests "
+"after writing and even publishing the functions."
+msgstr ""
+
+#: ../../building.rst:176 ../../devdl.rst:115
+msgid ""
+"This section describes the process of adding unit tests for "
+"``bauble.plugins.plants.family.remove_callback``."
+msgstr ""
+
+#: ../../building.rst:180 ../../devdl.rst:119
+msgid "What to test"
+msgstr ""
+
+#: ../../building.rst:182 ../../devdl.rst:121
+msgid ""
+"First of all, open the coverage report index, and choose a file with low "
+"coverage."
+msgstr ""
+
+#: ../../building.rst:185 ../../devdl.rst:124
+msgid ""
+"For this example, run in October 2015, we landed on "
+"``bauble.plugins.plants.family``, at 33%."
+msgstr ""
+
+#: ../../building.rst:190 ../../devdl.rst:129
+msgid ""
+"The first two functions which need tests, ``edit_callback`` and "
+"``add_genera_callback``, include creation and activation of an object "
+"relying on a custom dialog box. We should really first write unit tests "
+"for that class, then come back here."
+msgstr ""
+
+#: ../../building.rst:195 ../../devdl.rst:134
+msgid ""
+"The next function, ``remove_callback``, also activates a couple of dialog"
+" and message boxes, but in the form of invoking a function requesting "
+"user input via yes-no-ok boxes. These functions we can easily replace "
+"with a function mocking the behaviour."
+msgstr ""
+
+#: ../../building.rst:201 ../../devdl.rst:140
+msgid "how to test"
+msgstr ""
+
+#: ../../building.rst:203 ../../devdl.rst:142
+msgid ""
+"So, having decided what to describe in unit test, we look at the code and"
+" we see it needs discriminate a couple of cases:"
+msgstr ""
+
+#: ../../building.rst:209 ../../devdl.rst:148
+msgid "**parameter correctness**"
+msgstr ""
+
+#: ../../building.rst:207 ../../devdl.rst:146
+msgid "the list of families has no elements."
+msgstr ""
+
+#: ../../building.rst:208 ../../devdl.rst:147
+msgid "the list of families has more than one element."
+msgstr ""
+
+#: ../../building.rst:209 ../../devdl.rst:148
+msgid "the list of families has exactly one element."
+msgstr ""
+
+#: ../../building.rst:213 ../../devdl.rst:152
+msgid "**cascade**"
+msgstr ""
+
+#: ../../building.rst:212 ../../devdl.rst:151
+msgid "the family has no genera"
+msgstr ""
+
+#: ../../building.rst:213 ../../devdl.rst:152
+msgid "the family has one or more genera"
+msgstr ""
+
+#: ../../building.rst:217 ../../devdl.rst:156
+msgid "**confirm**"
+msgstr ""
+
+#: ../../building.rst:216 ../../devdl.rst:155
+msgid "the user confirms deletion"
+msgstr ""
+
+#: ../../building.rst:217 ../../devdl.rst:156
+msgid "the user does not confirm deletion"
+msgstr ""
+
+#: ../../building.rst:221 ../../devdl.rst:160
+msgid "**deleting**"
+msgstr ""
+
+#: ../../building.rst:220 ../../devdl.rst:159
+msgid "all goes well when deleting the family"
+msgstr ""
+
+#: ../../building.rst:221 ../../devdl.rst:160
+msgid "there is some error while deleting the family"
+msgstr ""
+
+#: ../../building.rst:223 ../../devdl.rst:162
+msgid ""
+"I decide I will only focus on the **cascade** and the **confirm** "
+"aspects. Two binary questions: 4 cases."
+msgstr ""
+
+#: ../../building.rst:227 ../../devdl.rst:166
+msgid "where to put the tests"
+msgstr ""
+
+#: ../../building.rst:229 ../../devdl.rst:168
+msgid ""
+"Locate the test script and choose the class where to put the extra unit "
+"tests."
+msgstr ""
+
+#: ../../building.rst:233
+msgid "what about skipped tests"
+msgstr ""
+
+#: ../../building.rst:236 ../../devdl.rst:172
+msgid ""
+"The ``FamilyTests`` class contains a skipped test, implementing it will "
+"be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
+" separate it from the FamilyEditorView and reconsider what to do with the"
+" FamilyEditor class, which I think should be removed and replaced with a "
+"single function."
+msgstr ""
+
+#: ../../building.rst:243 ../../devdl.rst:179
+msgid "writing the tests"
+msgstr ""
+
+#: ../../building.rst:245 ../../devdl.rst:181
+msgid ""
+"After the last test in the FamilyTests class, I add the four cases I want"
+" to describe, and I make sure they fail, and since I'm lazy, I write the "
+"most compact code I know for generating an error::"
+msgstr ""
+
+#: ../../building.rst:262 ../../devdl.rst:198
+msgid "One test, step by step"
+msgstr ""
+
+#: ../../building.rst:264 ../../devdl.rst:200
+msgid "Let's start with the first test case."
+msgstr ""
+
+#: ../../building.rst:266 ../../devdl.rst:202
+msgid "When writing tests, I generally follow the pattern:"
+msgstr ""
+
+#: ../../building.rst:268 ../../devdl.rst:204
+msgid "T₀ (initial condition),"
+msgstr ""
+
+#: ../../building.rst:269 ../../devdl.rst:205
+msgid "action,"
+msgstr ""
+
+#: ../../building.rst:270 ../../devdl.rst:206
+msgid "T₁ (testing the result of the action given the initial conditions)"
+msgstr ""
+
+#: ../../building.rst:272
+msgid "what's in a name — unit tests"
+msgstr ""
+
+#: ../../building.rst:275 ../../devdl.rst:208
+msgid ""
+"There's a reason why unit tests are called unit tests. Please never test "
+"two actions in one test."
+msgstr ""
+
+#: ../../building.rst:278 ../../devdl.rst:211
+msgid ""
+"So let's describe T₀ for the first test, a database holding a family "
+"without genera::"
+msgstr ""
+
+#: ../../building.rst:286 ../../devdl.rst:219
+msgid ""
+"We do not want the function being tested to invoke the interactive "
+"``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
+" non-interactive replacement function. We achieve this simply by making "
+"``utils.yes_no_dialog`` point to a ``lambda`` expression which, like the "
+"original interactive function, accepts one parameter and returns a "
+"boolean. In this case: ``False``::"
+msgstr ""
+
+#: ../../building.rst:304 ../../devdl.rst:237
+msgid "Next we test the result."
+msgstr ""
+
+#: ../../building.rst:306 ../../devdl.rst:239
+msgid ""
+"Well, we don't just want to test whether or not the object Arecaceae was "
+"deleted, we also should test the value returned by ``remove_callback``, "
+"and whether ``yes_no_dialog`` and ``message_details_dialog`` were invoked"
+" or not."
+msgstr ""
+
+#: ../../building.rst:311 ../../devdl.rst:244
+msgid ""
+"A ``lambda`` expression is not enough for this. We do something "
+"apparently more complex, which will make life a lot easier."
+msgstr ""
+
+#: ../../building.rst:314 ../../devdl.rst:247
+msgid "Let's first define a rather generic function::"
+msgstr ""
+
+#: ../../building.rst:320 ../../devdl.rst:253
+msgid ""
+"and we grab ``partial`` from the ``functools`` standard module, to "
+"partially apply the above ``mockfunc``, leaving only ``msg`` unspecified,"
+" and use this partial application, which is a function accepting one "
+"parameter and returning a value, to replace the two functions in "
+"``utils``. The test function now looks like this::"
+msgstr ""
+
+#: ../../building.rst:342 ../../devdl.rst:275
+msgid ""
+"The test section checks that ``message_details_dialog`` was not invoked, "
+"that ``yes_no_dialog`` was invoked, with the correct message parameter, "
+"that Arecaceae is still there::"
+msgstr ""
+
+#: ../../building.rst:358 ../../devdl.rst:291
+msgid "And so on"
+msgstr ""
+
+#: ../../building.rst:360 ../../devdl.rst:293
+msgid ""
+"`there are two kinds of people, those who complete what they start, and "
+"so on`"
+msgstr ""
+
+#: ../../building.rst:363 ../../devdl.rst:296
+msgid ""
+"Next test is almost the same, with the difference that the "
+"``utils.yes_no_dialog`` should return ``True`` (this we achieve by "
+"specifying ``result=True`` in the partial application of the generic "
+"``mockfunc``)."
+msgstr ""
+
+#: ../../building.rst:368 ../../devdl.rst:301
+msgid ""
+"With this action, the value returned by ``remove_callback`` should be "
+"``True``, and there should be no Arecaceae Family in the database any "
+"more::"
+msgstr ""
+
+#: ../../building.rst:398 ../../devdl.rst:331
+msgid ""
+"have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
+"other two test functions."
+msgstr ""
+
+#: ../../building.rst:402
+msgid "Testing logging"
+msgstr ""
+
+#: ../../building.rst:404
+msgid ""
+"Our ``bauble.test.BaubleTestCase`` objects use handlers of the class "
+"``bauble.test.MockLoggingHandler``.  Every time an individual unit test "
+"is started, the ``setUp`` method will create a new ``handler`` and "
+"associate it to the root logger.  The ``tearDown`` method takes care of "
+"removing it."
+msgstr ""
+
+#: ../../building.rst:409
+#, python-format
+msgid ""
+"You can check for presence of specific logging messages in "
+"``self.handler.messages``. ``messages`` is a dictionary, initially empty,"
+" with two levels of indexation. First the name of the logger issuing the "
+"logging record, then the name of the level of the logging record. Keys "
+"are created when needed. Values hold lists of messages, formatted "
+"according to whatever formatter you associate to the handler, defaulting "
+"to ``logging.Formatter(\"%(message)s\")``."
+msgstr ""
+
+#: ../../building.rst:417
+msgid ""
+"You can explicitly empty the collected messages by invoking "
+"``self.handler.clear()``."
+msgstr ""
+
+#: ../../building.rst:422 ../../devdl.rst:335
+msgid "Putting all together"
+msgstr ""
+
+#: ../../building.rst:424 ../../devdl.rst:337
+msgid "From time to time you want to activate the test class you're working at::"
+msgstr ""
+
+#: ../../building.rst:428 ../../devdl.rst:341
+msgid "And at the end of the process you want to update the statistics::"
+msgstr ""
+
+#: ../../building.rst:434 ../../extending.rst:2
+msgid "Structure of user interface"
+msgstr ""
+
+#: ../../building.rst:436
+msgid ""
+"The user interface is built according to the **Model** — **View** — "
+"**Presenter** architectural pattern.  For much of the interface, "
+"**Model** is a SQLAlchemy database object, but we also have interface "
+"elements where there is no corresponding database model.  In general:"
+msgstr ""
+
+#: ../../building.rst:441
+msgid ""
+"The **View** is described as part of a **glade** file. This should "
+"include the signal-callback and ListStore-TreeView associations. Just "
+"reuse the base class ``GenericEditorView`` defined in ``bauble.editor``. "
+"When you create your instance of this generic class, pass it the "
+"**glade** file name and the root widget name, then hand this instance "
+"over to the **presenter** constructor."
+msgstr ""
+
+#: ../../building.rst:448
+msgid ""
+"In the glade file, in the ``action-widgets`` section closing your "
+"GtkDialog object description, make sure every ``action-widget`` element "
+"has a valid ``response`` value.  Use `valid GtkResponseType values "
+"<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, for"
+" example:"
+msgstr ""
+
+#: ../../building.rst:459
+msgid ""
+"There is no easy way to unit test a subclassed view, so please don't "
+"subclass views, there's really no need to."
+msgstr ""
+
+#: ../../building.rst:462
+msgid ""
+"In the glade file, every input widget should define which handler is "
+"activated on which signal.  The generic Presenter class offers generic "
+"callbacks which cover the most common cases."
+msgstr ""
+
+#: ../../building.rst:466
+msgid ""
+"GtkEntry (one-line text entry) will handle the ``changed`` signal, with "
+"either ``on_text_entry_changed`` or ``on_unique_text_entry_changed``."
+msgstr ""
+
+#: ../../building.rst:468
+msgid ""
+"GtkTextView: associate it to a GtkTextBuffer. To handle the ``changed`` "
+"signal on the GtkTextBuffer, we have to define a handler which invokes "
+"the generic ``on_textbuffer_changed``, the only role for this function is"
+" to pass our generic handler the name of the model attribute that "
+"receives the change. This is a workaroud for an `unresolved bug in GTK "
+"<http://stackoverflow.com/questions/32106765/>`_."
+msgstr ""
+
+#: ../../building.rst:474
+msgid ""
+"GtkComboBox with translated texts can't be easily handled from the glade "
+"file, so we don't even try.  Use the ``init_translatable_combo`` method "
+"of the generic ``GenericEditorView`` class, but please invoke it from the"
+" **presenter**."
+msgstr ""
+
+#: ../../building.rst:479
+msgid ""
+"The **Model** is just an object with known attributes. In this "
+"interaction, the **model** is just a passive data container, it does "
+"nothing more than to let the **presenter** modify it."
+msgstr ""
+
+#: ../../building.rst:483
+msgid "The subclassed **Presenter** defines and implements:"
+msgstr ""
+
+#: ../../building.rst:485
+msgid ""
+"``widget_to_field_map``, a dictionary associating widget names to name of"
+" model attributes,"
+msgstr ""
+
+#: ../../building.rst:487 ../../extending.rst:24
+msgid ""
+"``view_accept_buttons``, the list of widget names which, if activated by "
+"the user, mean that the view should be closed,"
+msgstr ""
+
+#: ../../building.rst:489 ../../extending.rst:26
+msgid "all needed callbacks,"
+msgstr ""
+
+#: ../../building.rst:490 ../../extending.rst:27
+msgid "optionally, it plays the **model** role, too."
+msgstr ""
+
+#: ../../building.rst:492
+msgid ""
+"The **presenter** continuously updates the **model** according to changes"
+" in the **view**. If the **model** corresponds to a database object, the "
+"**presenter** commits all **model** updates to the database when the "
+"**view** is closed successfully, or rolls them back if the **view** is "
+"canceled. (this behaviour is influenced by the parameter ``do_commit``)"
+msgstr ""
+
+#: ../../building.rst:498
+msgid ""
+"If the **model** is something else, then the **presenter** will do "
+"something else."
+msgstr ""
+
+#: ../../building.rst:503
+msgid ""
+"A well behaved **presenter** uses the **view** api to query the values "
+"inserted by the user or to forcibly set widget statuses. Please do not "
+"learn from the practice of our misbehaving presenters, some of which "
+"directly handle fields of ``view.widgets``. By doing so, these presenters"
+" prevents us from writing unit tests."
+msgstr ""
+
+#: ../../building.rst:509
+msgid ""
+"The base class for the presenter, ``GenericEditorPresenter`` defined in "
+"``bauble.editor``, implements many useful generic callbacks.  There is a "
+"``MockView`` class, that you can use when writing tests for your "
+"presenters."
+msgstr ""
+
+#: ../../building.rst:514
+msgid "Examples"
+msgstr ""
+
+#: ../../building.rst:516
+msgid ""
+"``Contact`` and ``ContactPresenter`` are implemented following the above "
+"lines.  The view is defined in the ``contact.glade`` file."
+msgstr ""
+
+#: ../../building.rst:519
+msgid ""
+"A good example of Presenter/View pattern (no model) is given by the "
+"connection manager."
+msgstr ""
+
+#: ../../building.rst:522 ../../extending.rst:39
+msgid ""
+"We use the same architectural pattern for non-database interaction, by "
+"setting the presenter also as model. We do this, for example, for the "
+"JSON export dialog box. The following command will give you a list of "
+"``GenericEditorView`` instantiations::"
+msgstr ""
+
+#: ../../building.rst:530 ../../extending.rst:50
+msgid "Extending Ghini with Plugins"
+msgstr ""
+
+#: ../../building.rst:532 ../../extending.rst:52
+msgid ""
+"Nearly everything about Ghini is extensible through plugins. Plugins can "
+"create tables, define custom searchs, add menu items, create custom "
+"commands and more."
+msgstr ""
+
+#: ../../building.rst:536 ../../extending.rst:56
+msgid ""
+"To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
+"class."
+msgstr ""
+"Щоб створити новий плагін вам необхідно розширити "
+"``bauble.pluginmgr.Plugin`` клас."
+
+#: ../../building.rst:539 ../../extending.rst:59
+msgid ""
+"The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
+"falls outside the Model-View-Presenter architectural pattern."
+msgstr ""
+
+#: ../../building.rst:543 ../../devdl.rst:347
+msgid "Plugins structure"
+msgstr ""
+
+#: ../../building.rst:545 ../../devdl.rst:349
+msgid ""
+"Ghini is a framework for handling collections, and is distributed along "
+"with a set of plugins making Ghini a botanical collection manager. But "
+"Ghini stays a framework and you could in theory remove all plugins we "
+"distribute and write your own, or write your own plugins that extend or "
+"complete the current Ghini behaviour."
+msgstr ""
+
+#: ../../building.rst:551 ../../devdl.rst:355
+msgid ""
+"Once you have selected and opened a database connection, you land in the "
+"Search window. The Search window is an interaction between two objects: "
+"SearchPresenter (SP) and SearchView (SV)."
+msgstr ""
+
+#: ../../building.rst:555 ../../devdl.rst:359
+msgid ""
+"SV is what you see, SP holds the program status and handles the requests "
+"you express through SV. Handling these requests affect the content of SV "
+"and the program status in SP."
+msgstr ""
+
+#: ../../building.rst:559 ../../devdl.rst:363
+msgid ""
+"The search results shown in the largest part of SV are rows, objects that"
+" are instances of classes registered in a plugin."
+msgstr ""
+
+#: ../../building.rst:562 ../../devdl.rst:366
+msgid ""
+"Each of these classes must implement an amount of functions in order to "
+"properly behave within the Ghini framework. The Ghini framework reserves "
+"space to pluggable classes."
+msgstr ""
+
+#: ../../building.rst:566 ../../devdl.rst:370
+msgid ""
+"SP knows of all registered (plugged in) classes, they are stored in a "
+"dictionary, associating a class to its plugin implementation.  SV has a "
+"slot (a gtk.Box) where you can add elements. At any time, at most only "
+"one element in the slot is visible."
+msgstr ""
+
+#: ../../building.rst:571 ../../devdl.rst:375
+msgid ""
+"A plugin defines one or more plugin classes. A plugin class plays the "
+"role of a partial presenter (pP - plugin presenter) as it implement the "
+"callbacks needed by the associated partial view fitting in the slot (pV -"
+" plugin view), and the MVP pattern is completed by the parent presenter "
+"(SP), again acting as model. To summarize and complete:"
+msgstr ""
+
+#: ../../building.rst:577 ../../devdl.rst:381
+msgid "SP acts as model,"
+msgstr ""
+
+#: ../../building.rst:578 ../../devdl.rst:382
+msgid "the pV partial view is defined in a glade file."
+msgstr ""
+
+#: ../../building.rst:579 ../../devdl.rst:383
+msgid "the callbacks implemented by pP are referenced by the glade file."
+msgstr ""
+
+#: ../../building.rst:580 ../../devdl.rst:384
+msgid "a context menu for the SP row,"
+msgstr ""
+
+#: ../../building.rst:581 ../../devdl.rst:385
+msgid "a children property."
+msgstr ""
+
+#: ../../building.rst:583 ../../devdl.rst:387
+msgid "when you register a plugin class, the SP:"
+msgstr ""
+
+#: ../../building.rst:585 ../../devdl.rst:389
+msgid "adds the pV in the slot and makes it non-visible."
+msgstr ""
+
+#: ../../building.rst:586 ../../devdl.rst:390
+msgid "adds an instance of pP in the registered plugin classes."
+msgstr ""
+
+#: ../../building.rst:587 ../../devdl.rst:391
+msgid "tells the pP that the SP is the model."
+msgstr ""
+
+#: ../../building.rst:588 ../../devdl.rst:392
+msgid "connects all callbacks from pV to pP."
+msgstr ""
+
+#: ../../building.rst:590 ../../devdl.rst:394
+msgid ""
+"when an element in pV triggers an action in pP, the pP can forward the "
+"action to SP and can request SP that it updates the model and refreshes "
+"the view."
+msgstr ""
+
+#: ../../building.rst:594 ../../devdl.rst:398
+msgid ""
+"When the user selects a row in SP, SP hides everything in the pluggable "
+"slot and shows only the single pV relative to the type of the selected "
+"row, and asks the pP to refresh the pV with whatever is relative to the "
+"selected row."
+msgstr ""
+
+#: ../../building.rst:598 ../../devdl.rst:402
+msgid ""
+"Apart from setting the visibility of the various pV, nothing needs be "
+"disabled nor removed: an invisible pV cannot trigger events!"
+msgstr ""
+
+#: ../../building.rst:602
+msgid "bug solving workflow"
+msgstr "робочий процес над помилками"
+
+#: ../../building.rst:605
+msgid "normal development workflow"
+msgstr "нормальний робочий процес розробки"
+
+#: ../../building.rst:607
+msgid ""
+"while using the software, you notice a problem, or you get an idea of "
+"something that could be better, you think about it good enough in order "
+"to have a very clear idea of what it really is, that you noticed. you "
+"open an issue and describe the problem. someone might react with hints."
+msgstr ""
+"під час користування програмним забезпеченням, ви помічаєте проблеми, або"
+" ви отримаєте уявлення про те, що може бути краще, ви думаєте про це, "
+"достатньо для того, щоб мати дуже чітке уявлення про це. Ви відкриваєте "
+"випуск і описуєте проблему. Хтось може реагувати на це."
+
+#: ../../building.rst:611
+msgid "you open the issues site and choose one you want to tackle."
+msgstr "ви відкриваєте сайт випусків і вибираєте один який ви хочете вирішувати."
+
+#: ../../building.rst:612
+msgid ""
+"assign the issue to yourself, this way you are informing the world that "
+"you have the intention to work at it. someone might react with hints."
+msgstr ""
+"призначити цей випуск для себе, таким чином, ви інформуєте спільноту, що "
+"у вас є намір працювати над ним."
+
+#: ../../building.rst:614
+msgid ""
+"optionally fork the repository in your account and preferably create a "
+"branch, clearly associated to the issue."
+msgstr ""
+"за потреби, розгалуження сховища у вашому обліковому записі бажано "
+"створити гілку, безспірно пов'язану до випуску."
+
+#: ../../building.rst:616
+#, fuzzy
+msgid ""
+"write unit tests and commit them to your branch (please do not push "
+"failing unit tests to github, run ``nosetests`` locally first)."
+msgstr ""
+"написати блок тестів і зафіксувати їх в вашій гілці (не фіксуйте невдалий"
+" блок тестів в гілку `` master``)."
+
+#: ../../building.rst:618
+msgid ""
+"write more unit tests (ideally, the tests form the complete description "
+"of the feature you are adding or correcting)."
+msgstr ""
+"написати додатковий блок тестів (в ідеалі, тести утворюють повний опис "
+"функції, ви це додаєте або коректуєте)."
+
+#: ../../building.rst:620
+msgid ""
+"make sure the feature you are adding or correcting is really completely "
+"described by the unit tests you wrote."
+msgstr ""
+"переконайтеся, що функція, яку ви додаєте або коректуєте дійсно повністю "
+"описує блок тестів, які ви написали."
+
+#: ../../building.rst:622
+msgid ""
+"make sure your unit tests are atomic, that is, that you test variations "
+"on changes along one single variable. do not give complex input to unit "
+"tests or tests that do not fit on one screen (25 lines of code)."
+msgstr ""
+"переконайтеся, що блок тестів є простим, тобто, що ви тестуєте варіації "
+"змін по одній змінній. не додають введення складних для блоку тестів або "
+"тестів які не поміщаються на одному екрані (25 рядків в коді)."
+
+#: ../../building.rst:625
+msgid "write the code that makes your tests succeed."
+msgstr "написати код, який робить тести успішними."
+
+#: ../../building.rst:626
+msgid "update the i18n files (run ``./scripts/i18n.sh``)."
+msgstr "оновити файли i18n (запустити ``./scripts/i18n.sh``)."
+
+#: ../../building.rst:627
+msgid ""
+"whenever possible, translate the new strings you put in code or glade "
+"files."
+msgstr ""
+"всякий раз, коли це можливо, переведіть нові рядки які ви вставляєте в "
+"код або glade файли."
+
+#: ../../building.rst:629
+msgid ""
+"when you change strings, please make sure that old translations get re-"
+"used."
+msgstr ""
+
+#: ../../building.rst:630
+msgid "commit your changes."
+msgstr "зафіксувати зміни."
+
+#: ../../building.rst:631
+msgid "push to github."
+msgstr "передати github."
+
+#: ../../building.rst:632
+msgid "open a pull request."
+msgstr "відкрити пул запиту."
+
+#: ../../building.rst:635
+msgid "publishing to production"
+msgstr "публікація продукту"
+
+#: ../../building.rst:637
+#, fuzzy
+msgid ""
+"open the pull request page using as base a production line ``ghini-x.y``,"
+" compared to ``ghini-x.y-dev``."
+msgstr ""
+"відкрити сторінку пулу запиту з використанням в якості основи виробничу "
+"лінію, прирівняну до ``master``."
+
+#: ../../building.rst:639
+msgid "make sure a ``bump`` commit is included in the differences."
+msgstr "переконайтеся що ``bump`` фіксація включена в розбіжностях."
+
+#: ../../building.rst:640
+msgid "it should be possible to automatically merge the branches."
+msgstr "повинна бути забезпечена можливість автоматичного злиття гілок."
+
+#: ../../building.rst:641
+msgid "create the new pull request, call it as “publish to the production line”."
+msgstr ""
+"створити новий пул запиту, викличте його як  “publish to the production "
+"line”."
+
+#: ../../building.rst:642
+msgid "you possibly need wait for travis-ci to perform the checks."
+msgstr "вам, можливо, буде потрібно почекати travis-ci для виконання перевірки."
+
+#: ../../building.rst:643
+msgid "merge the changes."
+msgstr "об'єднати зміни."
+
+#: ../../building.rst:644
+msgid "tell the world about it: on facebook, the google group, linkedin, ..."
+msgstr "розповісти світові про це: на Facebook, групі Google, linkedin, ..."
+
+#: ../../building.rst:647
+msgid "closing step"
+msgstr "крок закриття"
+
+#: ../../building.rst:649
+msgid ""
+"review this workflow. consider this as a guideline, to yourself and to "
+"your colleagues. please help make it better and matching the practice."
+msgstr ""
+"розглянути цей робочий процес. розглядати це в якості орієнтира, до себе "
+"і до своїх колег. будь ласка, допоможіть зробити його краще і відповідно "
+"практичним."
+
+#: ../../db-prepare.rst:2
+msgid "Preparing a Database"
+msgstr ""
+
+#: ../../db-prepare.rst:5
+msgid "SQLite - the easy choice"
+msgstr ""
+
+#: ../../db-prepare.rst:7
+msgid "there's nothing you need prepare if you are using SQLite."
+msgstr ""
+
+#: ../../db-prepare.rst:10
+msgid "PostgreSQL - scalable choice"
+msgstr ""
+
+#: ../../db-prepare.rst:12
+msgid "allow network connections"
+msgstr ""
+
+#: ../../db-prepare.rst:14
+msgid "create the bauble main user"
+msgstr ""
+
+#: ../../devdl.rst:2
+msgid "Downloading the source"
+msgstr "Завантаження джерела"
+
+#: ../../devdl.rst:4
+#, fuzzy
+msgid ""
+"The Ghini source can be downloaded from our source repository on `github "
+"<http://github.com/Ghini/ghini.desktop>`_."
+msgstr ""
+"Джерело Ghini можна завантажити з вихідного сховища на `github "
+"<http://github.com/Ghini/ghini.desktop>`_."
+
+#: ../../devdl.rst:7
+#, fuzzy
+msgid ""
+"If you want a particular version of Ghini, we release and maintain "
+"versions into branches. You should ``git checkout`` the branch "
+"corresponding to the version of your choice. Branch names for Ghini "
+"versions are of the form ``bauble-x.y``, where x.y can be 1.0, for "
+"example. Our workflow is to commit to the `master` development branch or "
+"to a `patch` branch and to include the commits into a `release` branch "
+"when ready."
+msgstr ""
+"Якщо ви хочете конкретну версію Ghini, ми випускаємо і підтримуємо версії"
+" в гілках. ви повинні ``git checkout`` відповідну гілку для версії вашого"
+" вибору. Назви гілки для версій Ghini мають вид ``ghini-x.y``, де  x.y "
+"маже бути 1.0, для прикладу. Наш робочий процес зафіксований в `master` "
+"гілки розробки або до `patch` гілки і включає фіксацію `release` гілки "
+"коли готова."
+
+#: ../../devdl.rst:14
+msgid ""
+"To check out the most recent code from the source repository you will "
+"need to install the `Git <http://www.git.org>`_ version control system. "
+"Git is incuded in all reasonable Linux distributions and can be installed"
+" on all current operating systems."
+msgstr ""
+"Для того, щоб перевірити найостанніший код зі сховищ, вам потрібно буде "
+"встановити `Git <http://www.git.org>`_ система управління версіями. Git "
+"включений у всіх доступних розподілах Linux і може бути встановлений на "
+"всі сучасні операційні системи."
+
+#: ../../devdl.rst:19
+#, fuzzy
+msgid ""
+"Once you have installed Git you can checkout the latest Ghini code with "
+"the following command::"
+msgstr ""
+"Після установки Git ви можете перевірити останній код Ghini за допомогою "
+"наступної команди ::"
+
+#: ../../devdl.rst:24
+#, fuzzy
+msgid ""
+"For more information about other available code branches go to "
+"`ghini.desktop on github <http://www.github.com/Ghini/ghini.desktop>`_."
+msgstr ""
+"Для отримання додаткової інформації про інші доступні коди гілок перейти "
+"до `bauble.classic on github "
+"<http://www.github.com/Bauble/bauble.classic>`_."
+
+#: ../../devdl.rst:34
+msgid ""
+"A bauble production line is a branch. Currently there is only one "
+"production line, that is bauble-1.0.  In perspective, we will have "
+"several one, each in use by one or more gardens."
+msgstr ""
+
+#: ../../devdl.rst:38
+msgid ""
+"As long as we have only one production line, I keep working on the master"
+" branch, unless I later realize the work is going to take longer than one"
+" or two days."
+msgstr ""
+
+#: ../../devdl.rst:43
+msgid "batches of simple issues"
+msgstr ""
+
+#: ../../devdl.rst:45
+msgid ""
+"For issues that can be managed in one or two commits, and as long as "
+"there's no other activity on the repository, work on the master branch, "
+"accumulate issue-solving commits, finally merge master into the "
+"production line bauble-1.0."
+msgstr ""
+
+#: ../../devdl.rst:53
+msgid ""
+"When facing a single larger issue, create a branch tag, and follow the "
+"workflow described at"
+msgstr ""
+
+#: ../../devdl.rst:64
+msgid ""
+"work on the new branch. When ready, go to github, merge the branch with "
+"master, solve conflicts where necessary, delete the temporary branch."
+msgstr ""
+
+#: ../../devdl.rst:67
+msgid "when ready for publication, merge master into the production line."
+msgstr ""
+
+#: ../../devdl.rst:72
+msgid ""
+"From time to time, during the process of updating the software, you will "
+"be adding or modifying strings in the python sources, in the "
+"documentation, in the glade sources. Most of our strings are "
+"translatable, and are offered to weblate for people to contribute, in the"
+" form of several ``.po`` files. These ``po`` files receive contributions "
+"from weblate, and offer lines without translation from new lines of code."
+msgstr ""
+
+#: ../../devdl.rst:79
+msgid ""
+"We have organized the translation of ghini as two separate repositories "
+"in github, each repository being associated to sections of the same "
+"project on weblate. Translation of the software is in ghini.desktop, the "
+"software project, while translation of the documentation —itself part of "
+"the software— is in a separate project, ghini.desktop-docs.i18n."
+msgstr ""
+
+#: ../../devdl.rst:85
+msgid ""
+"To update the ``po`` files relative to the software, you run a script "
+"from the project root dir::"
+msgstr ""
+
+#: ../../devdl.rst:90
+msgid ""
+"This will update your ``po`` files, something you need commit and push to"
+" github."
+msgstr ""
+
+#: ../../devdl.rst:93
+msgid ""
+"To update the ``po`` filese relative to the documentation, you need a up-"
+"to-date checkout of both projects. The root directory of the ghini"
+".desktop-docs.i18n project contains a script with an all telling name::"
+msgstr ""
+
+#: ../../editing.rst:4
+msgid "Editing and Inserting Data"
+msgstr "Редагування і вставка даних"
+
+#: ../../editing.rst:6
+#, fuzzy
+msgid ""
+"The main way that we add or change information in Ghini is by using the "
+"editors.  Each basic type of data has its own editor.  For example there "
+"is a Family editor, a Genus editor, an Accession editor, etc."
+msgstr ""
+"Основним способом, яким ми додаємо або змінюємо інформацію в Bauble є "
+"використання редакторів. Кожен базовий тип даних має свій власний "
+"редактор. Наприклад є редактор сім'ї, редактор роду, редактор приєднання "
+"і т.д."
+
+#: ../../editing.rst:10
+#, fuzzy
+msgid ""
+"To create a new record click on the :menuselection:`Insert` menu on the "
+"menubar and then select the type of record your would like to create.  "
+"This opens a new blank editor for the type."
+msgstr ""
+"Для того, щоб створити новий запис натисніть на :menuselection:`Insert`в "
+"меню, і виберіть тип запису який ви хотіли б створити. Це відкриє новий "
+"порожній редактор типу."
+
+#: ../../editing.rst:14
+#, fuzzy
+msgid ""
+"To edit an existing record in the database right click on an item in the "
+"search results and select :menuselection:`Edit` from the popup menu.  "
+"This opens an editor that allows you to change the values on the record "
+"that you selected."
+msgstr ""
+"Щоб змінити існуючий запис в базі даних натисніть правою кнопкою миші на "
+"елементі в результатах пошуку і виберіть :menuselection:`Edit` в "
+"спливаючому меню. Відкриється редактор, який дозволить вам змінити "
+"значення в записі, який ви вибрали."
+
+#: ../../editing.rst:19
+msgid ""
+"Most types also have children which you can add by right clicking on the "
+"parent and selecting \"Add ???...\" on the context menu.  For example, a "
+"Family has Genus children: you can add a Genus to a Family by right "
+"clicking on a Family and selecting \"Add genus\"."
+msgstr ""
+"Більшість видів є дочірніми, які можна додати, натиснувши правою кнопкою "
+"миші на батьківському виді і виберіть пункт «Додати ??? ...» в "
+"контекстному меню. Наприклад, сім'я Genus дочірня: ви можете додати Genus"
+" до Сім'ї натиснувши правою кнопкою миші на сім'ї і вибравши пункт "
+"«Додати genus»."
+
+#: ../../editing.rst:26
+msgid "Notes"
+msgstr "Нотатки"
+
+#: ../../editing.rst:27
+#, fuzzy
+msgid ""
+"Almost all of the editors in Ghini have a *Notes* tab which should work "
+"the same regardless of which editor you are using."
+msgstr ""
+"Майже у всіх редакторів Ghini є вкладка *Примітки* які працюють однаково,"
+" незалежно від того, який редактор ви використовуєте."
+
+#: ../../editing.rst:30
+#, fuzzy
+msgid ""
+"If you enter a web address in a note then the link shows up in the Links "
+"box when the item your are editing is selected in the search results."
+msgstr ""
+"Якщо ввести веб-адресу в примітці, то посилання буде відображатися у "
+"вікні Зв'язки коли елемент вашого редагування обраний в результатах "
+"пошуку."
+
+#: ../../editing.rst:33
+#, fuzzy
+msgid ""
+"You can browse the notes for an item in the database using the Notes box "
+"at the bottom of the screen.  The Notes box is desensitized if the "
+"selected item does not have any notes."
+msgstr ""
+"Ви можете переглянути нотатки для елемента в базі даних за допомогою "
+"вікна Нотатки в нижній частині екрана. Вікно Нотатки буде нечутливим, "
+"якщо обраний елемент не має записів."
+
+#: ../../editing.rst:39
+msgid "Family"
+msgstr "Сім'я"
+
+#: ../../editing.rst:40
+msgid "The Family editor allows you to add or change a botanical family."
+msgstr "Редактор сім'ї дозволяє додавати або змінювати ботанічну сім'ю."
+
+#: ../../editing.rst:42
+#, fuzzy
+msgid ""
+"The *Family* field on the editor lets you change the epithet of the "
+"family. The Family field is required."
+msgstr "Поле *Сім'я* в редакторі змінює ім'я сім'ї. Потрібно заповнити поле сім'ї."
+
+#: ../../editing.rst:45
+#, fuzzy
+msgid ""
+"The *Qualifier* field lets you change the family qualifier.  The value "
+"can either be *sensu lato*, *sensu stricto*, or nothing."
+msgstr ""
+"Поле * Класифікатор * змінює сімейний специфікатор. Значення може мати "
+"*широке тлумачення*, *вузьке тлумачення* або ніякого."
+
+#: ../../editing.rst:48
+#, fuzzy
+msgid ""
+"*Synonyms* allow you to add other families that are synonyms with the "
+"family you are currently editing.  To add a new synonyms type in a family"
+" name in the entry.  You must select a family name from the list of "
+"completions. Once you have selcted a family name that you want to add as "
+"a synonym click on the Add button next to the synonym list and the "
+"software adds the selected synonym to the list.  To remove a synonym, "
+"select the synonym from the list and click on the Remove button."
+msgstr ""
+"*Синоніми* дозволяють вам додавати інші сім'ї, як синоніми з редагованою "
+"сім'єю. Для додавання нового типу синонімів введіть його в ім'я сім'ї. Ви"
+" повинні вибрати сім'ю зі списку доробок. Після того, як ви виберете "
+"сім'ю, яку ви хочете, додати в якості синоніма натисніть на кнопку Додати"
+" в список синонімів, і це додасть обраний синонім до списку. Щоб видалити"
+" синонім виберіть синонім зі списку і натисніть на кнопку Видалити."
+
+#: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
+msgid "To cancel your changes without saving then click on the *Cancel* button."
+msgstr "Щоб відмітити зміни без збереження натисніть на кнопку *Скасувати*."
+
+#: ../../editing.rst:58
+msgid "To save the family you are working on then click *OK*."
+msgstr "Для того, щоб зберегти сім'ю з якою ви працюєте, натисніть *OK*."
+
+#: ../../editing.rst:60
+msgid ""
+"To save the family you are working on and add a genus to it then click on"
+" the *Add Genera* button."
+msgstr ""
+"Для того, щоб зберегти сім'ю з якою ви працюєте і додати рід натисніть на"
+" кнопку *Додати рід*."
+
+#: ../../editing.rst:63
+#, fuzzy
+msgid ""
+"To add another family when you are finished editing the current one click"
+" on the *Next* button on the bottom.  This saves the current family and "
+"opens a new blank family editor."
+msgstr ""
+"Для того, щоб додати ще одну сім'ю, коли ви закінчили редагування "
+"поточної натисніть на кнопку *Далі* внизу. Це дозволить зберегти поточну "
+"сім'ю і відкрити новий порожній редактор сім'ї."
+
+#: ../../editing.rst:69
+msgid "Genus"
+msgstr "Рід"
+
+#: ../../editing.rst:71
+msgid "The Genus editor allows you to add or change a botanical genus."
+msgstr "Редактор родів дозволяє додавати або змінювати ботанічний рід."
+
+#: ../../editing.rst:73
+msgid ""
+"The *Family* field on the genus editor allows you to choose the family "
+"for the genus.  When you begin type a family name it will show a list of "
+"families to choose from.  The family name must already exist in the "
+"database before you can set it as the family for the genus."
+msgstr ""
+"Поле *Сім'я* в редакторі роду дозволяє вибрати сім'ю для роду. Коли ви "
+"починаєте вводити ім'я сім'ї він буде показувати список сімей, щоб "
+"вибрати з нього. Сім'я вже повинна існувати в базі даних, перш ніж ви "
+"можете встановити її в якості імені сім'ї для роду."
+
+#: ../../editing.rst:78
+msgid "The *Genus* field allows you to set the genus for this entry."
+msgstr "Поле *Рід* поле дозволяє встановити рід для цього запису."
+
+#: ../../editing.rst:80
+msgid ""
+"The *Author* field allows you to set the name or abbreviation of the "
+"author(s) for the genus."
+msgstr "Поле *Автор* дозволяє задати ім'я або абревіатуру автора (ів) для роду."
+
+#: ../../editing.rst:83
+msgid ""
+"*Synonyms* allow you to add other genera that are synonyms with the genus"
+" you are currently editing.  To add a new synonyms type in a genus name "
+"in the entry.  You must select a genus name from the list of completions."
+"  Once you have selcted a genus name that you want to add as a synonym "
+"click on the Add button next to the synonym list and it will add the "
+"selected synonym to the list.  To remove a synonym select the synonym "
+"from the list and click on the Remove button."
+msgstr ""
+"*Синоніми* дозволяють вам додавати інший рід, як синоніми з редагованими "
+"родами. Для додавання нового типу синонімів введіть його в ім'я роду. Ви "
+"повинні вибрати рід зі списку доробок. Після того, як ви виберете рід, "
+"який ви хочете, додати в якості синоніма натисніть на кнопку Додати в "
+"список синонімів, і це додасть обраний синонім до списку. Щоб видалити "
+"синонім виберіть синонім зі списку і натисніть на кнопку Видалити."
+
+#: ../../editing.rst:93
+msgid "To save the genus you are working on then click *OK*."
+msgstr "Для того, щоб зберегти рід з яким ви працюєте, натисніть *OK*."
+
+#: ../../editing.rst:95
+msgid ""
+"To save the genus you are working on and add a species to it then click "
+"on the *Add Species* button."
+msgstr ""
+"Для того, щоб зберегти рід з яким ви працюєте і додати до нього вид "
+"натисніть на кнопку *Додати Вид*."
+
+#: ../../editing.rst:98
+msgid ""
+"To add another genus when you are finished editing the current one click "
+"on the *Next* button on the bottom.  This will save the current genus and"
+" open a new blank genus editor."
+msgstr ""
+"Для того, щоб додати ще один рід, коли ви закінчили редагування поточного"
+" натисніть на кнопку *Далі* в низу. Це дозволить зберегти поточний рід і "
+"відкрити новий порожній редактор роду."
+
+#: ../../editing.rst:104
+msgid "Species/Taxon"
+msgstr "Види/Таксон"
+
+#: ../../editing.rst:106
+#, fuzzy
+msgid ""
+"For historical reasons called a `species`, but by this we mean a `taxon` "
+"at rank `species` or lower.  It represents a unique name in the database."
+"  The species editor allows you to construct the name as well as "
+"associate metadata with the taxon such as its distribution, synonyms and "
+"other information."
+msgstr ""
+"З історичних причин називаються `види`, але ми маємо на увазі `таксон` в "
+"ранзі `видів` або нижче. Це являє собою унікальне ім'я в базі даних. "
+"Редактор видів дозволить вам створити ім'я, а також асоційовані метадані "
+"з таксоном, такі як розподіл, синоніми і інша інформація."
+
+#: ../../editing.rst:112
+#, fuzzy
+msgid ""
+"The *Infraspecific parts* in the species editor allows you to specify the"
+" `taxon` further than at `species` rank."
+msgstr ""
+"В *Внутрішньовидові частини* в редакторі видів дозволить вам вказати "
+"додатково `таксон`ніж при `види` рангу."
+
+#: ../../editing.rst:117
+msgid "To save the species you are working on then click *OK*."
+msgstr "Для збереження виду над яким ви працюєте натисніть *OK*."
+
+#: ../../editing.rst:119
+msgid ""
+"To save the species you are working on and add an accession to it then "
+"click on the *Add Accession* button."
+msgstr ""
+"Для збереження виду над яким ви працюєте і додаванням до нього приєднання"
+" натисніть на *Додати Приєднання*."
+
+#: ../../editing.rst:122
+msgid ""
+"To add another species when you are finished editing the current one "
+"click on the *Next* button on the bottom.  This will save the current "
+"species and open a new blank species editor."
+msgstr ""
+"Для того, щоб додати ще один вид, коли ви закінчите редагування поточного"
+" натисніть на кнопку *Далі* внизу. Це дозволить зберегти поточні види і "
+"відкрити новий порожній редактор видів."
+
+#: ../../editing.rst:127
+msgid "Accessions"
+msgstr "Приєднань"
+
+#: ../../editing.rst:129
+msgid ""
+"The Accession editor allows us to add an accession to a species.  In "
+"Ghini an accession represents a group of plants or clones that are of the"
+" same taxon, are of the same propagule type (or treatment), were received"
+" from the same source, were received at the same time."
+msgstr ""
+
+#: ../../editing.rst:134
+msgid "Choose the Taxon name, add one if you forgot to do that in advance."
+msgstr ""
+
+#: ../../editing.rst:136
+msgid ""
+"You may note uncertainty in identification by adding an identification "
+"qualifier, at the proper rank, so you can for example have a plant "
+"initially identified as *Iris* cf. *florentina* by choosing *Iris "
+"florentina* in the taxon name, identification qualifier 'cf.', qualified "
+"rank 'species'."
+msgstr ""
+
+#: ../../editing.rst:141
+msgid "Type the Accession ID, preferably also the Quantity received."
+msgstr ""
+
+#: ../../editing.rst:145
+msgid "Accession Source"
+msgstr "Джерело приєднання"
+
+#: ../../editing.rst:147
+msgid ""
+"The source of the accessions lets you add more information about where "
+"this accession came from.  Select a Contact from the drop-down list, or "
+"choose \"Garden Propagation\", which is placed as a default first item in"
+" the list of contacts."
+msgstr ""
+
+#: ../../editing.rst:152
+msgid "A Garden Propagation is the result of successful Propagation."
+msgstr ""
+
+#: ../../editing.rst:154
+msgid ""
+"When accessing material from a Garden Propagation, you would initially "
+"leave the first tab alone (General) and start from the second tab "
+"(Source). Select as Contact \"Garden Propagation\", indicate which plant "
+"is the parent plant and choose among the still not completely accessed "
+"propagations the one you intend to add as an accession in your database."
+msgstr ""
+
+#: ../../editing.rst:160
+msgid ""
+"Once you select a propagation, the software will set several fields in "
+"the General tab, which you can now review.  The Taxon (maybe you managed "
+"to obtain something slightly different than the parent plant). The "
+"Initial quantity (in case not all plants go in the same accession). The "
+"Type of Material, inferred from the propagation type."
+msgstr ""
+
+#: ../../editing.rst:170
+msgid "Plant"
+msgstr "Рослина"
+
+#: ../../editing.rst:172
+msgid ""
+"A ``Plant`` in the Ghini database describes an individual plant in your "
+"collection. A plant belongs to an accession, and it has a specific "
+"location."
+msgstr ""
+
+#: ../../editing.rst:176
+msgid "Creating multiple plants"
+msgstr ""
+
+#: ../../editing.rst:178
+msgid ""
+"You can create multiple Plants by using ranges in the code entry. This is"
+" only allowed when creating new plants and it is not possible when "
+"editing existing Plants in the database."
+msgstr ""
+"Ви можете створити кілька рослин з використанням діапазонів в запису "
+"коду. Це дозволено тільки при створенні нових рослин, і це не можливо при"
+" редагуванні існуючих рослин в базі даних."
+
+#: ../../editing.rst:182
+msgid ""
+"For example the range, 3-5 will create plant with code 3,4,5.  The range "
+"1,4-7,25 will create plants with codes 1,4,5,6,7,25."
+msgstr ""
+"Наприклад, діапазон, 3-5 створить рослину з кодом 3,4,5. Діапазон "
+"1,4-7,25 створюватиме рослини з кодами 1,4,5,6,7,25."
+
+#: ../../editing.rst:185
+msgid ""
+"When you enter the range in the plant code entry the entry will turn blue"
+" to indicate that you are now creating multiple plants.  Any fields that "
+"are set while in this mode will be copied to all the plants that are "
+"created."
+msgstr ""
+"При вході в діапазон в запису коду рослин запис буде синіти щоб вказати, "
+"що ви зараз створюєте кілька рослин. Будь-які поля, які встановлені в "
+"цьому режимі будуть скопійовані для всіх рослин які створюються."
+
+#: ../../editing.rst:193
+msgid "Pictures"
+msgstr ""
+
+#: ../../editing.rst:195
+#, fuzzy
+msgid ""
+"Just as almost all objects in the Ghini database can have *Notes* "
+"associated to them, Plants can have *Pictures*: next to the tab for "
+"Notes, the Plants editor contains an extra tab called \"Pictures\". You "
+"can associate as many pictures as you might need to a plant."
+msgstr ""
+"Так само, як майже всі об'єкти в базі даних Ghini можуть мати *Примітки*,"
+" пов'язані з ними, рослини можуть мати *Зображення*: поруч із закладкою "
+"для нотаток, редактор рослин містить додаткову вкладку під назвою "
+"«Зображення». Ви можете пов'язати стільки зображень, скільки може "
+"знадобитися для рослини."
+
+#: ../../editing.rst:200
+msgid ""
+"When you associate a picture to a plant, the file is copied in the "
+"*pictures* folder, and a miniature (500x500) is generated and copied in "
+"the `thumbnails` folder inside of the pictures folder."
+msgstr ""
+"Коли ви пов'язуєте зображення до рослини, файл копіюється в папку "
+"*зображення*, і мініатюра (500x500) генерується і копіюється в папку "
+"`thumbnails` всередині папки зображень."
+
+#: ../../editing.rst:204
+#, fuzzy
+msgid ""
+"As of Ghini-1.0.62, Pictures are not kept in the database. To ensure "
+"pictures are available on all terminals where you have installed and "
+"configured Ghini, you can use a network drive, or a file sharing service "
+"like Tresorit or Dropbox."
+msgstr ""
+"З Ghini-1.0.62, зображення не зберігаються в базі даних. Для забезпечення"
+" доступності зображень на всіх терміналах, де ви встановили і налаштували"
+" Ghini, ви можете скористатися послугою обміну файлами, як Копіювання або"
+" Dropbox. Особистий вибір учасника цього документа полягає в використанні"
+" Копіювання, тому що він пропонує набагато більше місця, через свою "
+"політику «Fair Storage»."
+
+#: ../../editing.rst:209
+msgid ""
+"Remember that you have configured the pictures root folder when you "
+"specified the details of your database connection. Again, you should make"
+" sure that the pictures root folder is shared with your file sharing "
+"service of choice."
+msgstr ""
+"Пам'ятайте, що ви налаштували кореневу папку зображень, коли вказали "
+"деталі налаштування підключення до бази даних. Знову ж таки, ви повинні "
+"переконатися, що коренева папка зображень доступна для спільного "
+"використання файлів сервіс вибору."
+
+#: ../../editing.rst:214
+msgid ""
+"When a Plant in the current selection is highlighted, its pictures are "
+"displayed in the pictures pane, the pane left of the information pane. "
+"When an accession in the selection is highlighted, any picture associated"
+" to the plants in the highlighted accession are displayed in the pictures"
+" pane."
+msgstr ""
+"Коли рослину в поточному відборі буде виділено, її зображення "
+"відображається в панелі зображень, панель зліва від інформаційної панелі."
+" При приєднанні вибір підсвічуються, будь-яке зображення пов'язане з "
+"рослинами в підсвічених приєднаннях відображається в панелі зображеннях."
+
+#: ../../editing.rst:220
+msgid "Locations"
+msgstr "Розташування"
+
+#: ../../editing.rst:222
+msgid "The Location editor"
+msgstr "Редактор Розташування"
+
+#: ../../editing.rst:225
+msgid "danger zone"
+msgstr ""
+
+#: ../../editing.rst:227
+msgid ""
+"The location editor contains an initially hidden section named *danger "
+"zone*. The widgets contained in this section allow the user to merge the "
+"current location into a different location, letting the user correct "
+"spelling mistakes or implement policy changes."
+msgstr ""
+"Редактор розташування містить спочатку прихований розділ під назвою "
+"*небезпечна зона*. Віджети, що містяться в даному розділі, дозволяють "
+"користувачеві переводити поточне місце розташування в інше місце, "
+"виправляти орфографічні помилки або здійснювати зміну політики."
+
+#: ../../extending.rst:4
+msgid ""
+"The user interface is built according to the Model-View-Presenter "
+"architectural pattern.  In theory, but also in the practice of all new "
+"parts of the software:"
+msgstr ""
+
+#: ../../extending.rst:8
+msgid ""
+"The **view** is described as part of a **glade** file. This includes the "
+"signal-callback associations. The base class is ``GenericEditorView`` "
+"defined in ``bauble.editor``. Create an instance of the base class, "
+"passing it the **glade** file name and the root widget name, then handle "
+"the instance to the **presenter** constructor."
+msgstr ""
+
+#: ../../extending.rst:14
+msgid ""
+"The **model** simply follows the sqlalchemy practices. The **presenter** "
+"continuously updates it according to changes in the **view**. The "
+"**presenter** commits all **model** updates to the database if the "
+"**view** is closed successfully, or rolls them back if the **view** is "
+"canceled."
+msgstr ""
+
+#: ../../extending.rst:20
+msgid "The subclassed **presenter** defines and implements:"
+msgstr ""
+
+#: ../../extending.rst:22
+msgid ""
+"``widget_to_field_map``, the association from widget name to name of "
+"model attribute,"
+msgstr ""
+
+#: ../../extending.rst:29
+msgid ""
+"A well behaved **presenter** uses the **view** api to query the values "
+"inserted by the user or to forcibly set widget statuses. Please do not "
+"learn from the practice in our older presenters, most of which directly "
+"handle widgets, something that prevents us from writing unit tests."
+msgstr ""
+
+#: ../../extending.rst:34
+msgid ""
+"There is no way to unit test a subclassed view, so please don't subclass "
+"views."
+msgstr ""
+
+#: ../../extending.rst:36
+msgid ""
+"The base class for the presenter, ``GenericEditorPresenter`` defined in "
+"``bauble.editor``, implements many useful generic callbacks."
+msgstr ""
+
+#: ../../extending.rst:46
+msgid ""
+"An other good example of Presenter/View pattern (no model) is given by "
+"the connection manager."
+msgstr ""
+
+#: ../../goal.rst:2
+msgid "Ghini's goals and highlights"
+msgstr ""
+
+#: ../../goal.rst:4
+msgid ""
+"Should you use this software? This question is for you to answer. We "
+"trust that if you manage a botanic collection, you will find Ghini overly"
+" useful and we hope that this page will convince you about it."
+msgstr ""
+
+#: ../../goal.rst:8
+msgid ""
+"This page shows how Ghini makes software meet the needs of a botanic "
+"garden."
+msgstr ""
+
+#: ../../goal.rst:11
+msgid "Botanic Garden"
+msgstr ""
+
+#: ../../goal.rst:13
+msgid ""
+"According to the Wikipedia, »A botanic(al) garden is a garden dedicated "
+"to the collection, cultivation and display of a wide range of plants "
+"labelled with their botanical names«, and still according to the "
+"Wikipedia, »a garden is a planned space, usually outdoors, set aside for "
+"the display, cultivation, and enjoyment of plants and other forms of "
+"nature.«"
+msgstr ""
+
+#: ../../goal.rst:19
+msgid ""
+"So we have in a botanic garden both the physical space, the garden, as "
+"its dynamic, the activities to which the garden is dedicated, activities "
+"which makes us call the garden a botanic garden."
+msgstr ""
+
+#: ../../goal.rst:25
+msgid "**the physical garden**"
+msgstr ""
+
+#: ../../goal.rst:29
+msgid "**collection related activities in the garden**"
+msgstr ""
+
+#: ../../goal.rst:32
+msgid "Botanic Garden Software"
+msgstr ""
+
+#: ../../goal.rst:34
+msgid ""
+"At the other end of our reasoning we have the application program Ghini, "
+"and again quoting the Wikipedia, »an application program is a computer "
+"program designed to perform a group of coordinated functions, tasks, or "
+"activities for the benefit of the user«, or, in short, »designed to help "
+"people perform an activity«."
+msgstr ""
+
+#: ../../goal.rst:40
+msgid ""
+"Data and algorithms within Ghini have been designed to represent the "
+"physical space and the dynamic of a botanic garden."
+msgstr ""
+
+#: ../../goal.rst:45 ../../searching.rst:160
+msgid "**core structure of Ghini's database**"
+msgstr ""
+
+#: ../../goal.rst:47
+msgid ""
+"The central element in Ghini's point of view is the ``Accession``. "
+"Following its links to other database objects lets us better understand "
+"the structure:"
+msgstr ""
+
+#: ../../goal.rst:50
+msgid ""
+"An ``Accession`` represents the action of receiving plant material in the"
+" garden. As such, ``Accession`` is an abstract concept, it links physical"
+" living ``Plantings`` —groups of plants placed each at a ``Location`` in "
+"the garden— to the corresponding ``Species``. An ``Accession`` has zero "
+"or more ``Plantings`` associated to it (0..n), and it is at all times "
+"connected to exactly 1 ``Species``. Each ``Planting`` belongs to exactly "
+"one ``Accession``, each ``Species`` may have multiple ``Accessions`` "
+"relating to it."
+msgstr ""
+
+#: ../../goal.rst:59
+msgid ""
+"An ``Accession`` stays in the database even if all of its ``Plantings`` "
+"have been removed, sold, or have died. Identifying the ``Species`` of an "
+"``Accession`` consistently connects all its ``Plantings`` to the "
+"``Species``."
+msgstr ""
+
+#: ../../goal.rst:64
+msgid ""
+"``Propagations`` and ``Contacts`` provide plant material for the garden; "
+"this information is optional and smaller collectors might prefer to leave"
+" this aside. A ``Propagation`` trial may be unsuccessful, most of the "
+"time it will result in exactly one accession, but it may also produce "
+"slightly different taxa, so the database allows for zero  or more "
+"``Accessions`` per ``Propagation`` (0..n). Also a ``Contact`` may provide"
+" zero or more ``Accessions`` (0..n)."
+msgstr ""
+
+#: ../../goal.rst:71
+msgid ""
+"Specialists may formulate their opinion about the ``Species`` to which an"
+" ``Accession`` belongs, by providing a ``Verification``, signing it, and "
+"stating the applicable level of confidence."
+msgstr ""
+
+#: ../../goal.rst:75
+msgid ""
+"If an ``Accession`` was obtained in the garden nursery from a successful "
+"``Propagation``, the ``Propagation`` links the ``Accession`` and all of "
+"its ``Plantings`` to a single parent ``Planting``, the seed or the "
+"vegetative parent."
+msgstr ""
+
+#: ../../goal.rst:80
+msgid ""
+"Even after the above explanation, new users generally still ask why they "
+"need pass through an ``Accession`` screen while all they want is to "
+"insert a ``Plant`` in the collection, and again: what is this "
+"\"accession\" thing anyway?  Most discussions on the net don't make the "
+"concept any clearer. One of our users gave an example which I'm glad to "
+"include in Ghini's documentation."
+msgstr ""
+
+#: ../../goal.rst
+msgid "use case"
+msgstr ""
+
+#: ../../goal.rst:87
+msgid ""
+"At the beginning of 2007 we got five seedlings of *Heliconia longa* (a "
+"plant ``Species``) from our neighbour (the ``Contact`` source). Since it "
+"was the first acquisition of the year, we named them 2007.0001 (we gave "
+"them a single unique ``Accession`` code, with quantity 5) and we planted "
+"them all together at one ``Location`` as a single ``Planting``, also with"
+" quantity 5."
+msgstr ""
+
+#: ../../goal.rst:95
+msgid ""
+"At the time of writing, nine years later, ``Accession`` 2007.0001 has 6 "
+"distinct ``Plantings``, each at a different ``Locations`` in our garden, "
+"obtained vegetatively (asexually) from the original 5 plants. Our only "
+"intervention was splitting, moving, and of course writing this "
+"information in the database. Total plant quantity is above 40."
+msgstr ""
+
+#: ../../goal.rst:102
+msgid ""
+"New ``Plantings`` obtained by (assisted) sexual ``Propagation`` come in "
+"our database under different ``Accession`` codes, where our garden is the"
+" ``Contact`` source and where we know which of our ``Plantings`` is the "
+"seed parent."
+msgstr ""
+
+#: ../../goal.rst:107
+msgid "the above three cases translate into several short usage stories:"
+msgstr ""
+
+#: ../../goal.rst:109
+msgid ""
+"activate the menu Insert → Accession, verify the existence and "
+"correctness of the ``Species`` *Heliconia longa*, specify the initial "
+"quantity of the ``Accession``; add its ``Planting`` at the desired "
+"``Location``."
+msgstr ""
+
+#: ../../goal.rst:113
+msgid ""
+"edit ``Planting`` to correct the amount of living plants — repeat this as"
+" often as necessary."
+msgstr ""
+
+#: ../../goal.rst:115
+msgid ""
+"edit ``Planting`` to split it at separate ``Locations`` — this produces a"
+" different ``Planting`` under the same ``Accession``."
+msgstr ""
+
+#: ../../goal.rst:117
+msgid "edit ``Planting`` to add a (seed) ``Propagation``."
+msgstr ""
+
+#: ../../goal.rst:118
+msgid "edit ``Planting`` to update the status of the ``Propagation``."
+msgstr ""
+
+#: ../../goal.rst:119
+msgid ""
+"activate the menu Insert → Accession to associate an accession to a "
+"successful ``Propagation`` trial; add the ``Planting`` at the desired "
+"``Location``."
+msgstr ""
+
+#: ../../goal.rst:123
+msgid ""
+"In particular the ability to split a ``Planting`` at several different "
+"``Locations`` and to keep all uniformly associated to one ``Species``, or"
+" the possibility to keep information about ``Plantings`` that have been "
+"removed from the collection, help justify the presence of the "
+"``Accession`` abstraction level."
+msgstr ""
+
+#: ../../goal.rst:131
+msgid "Our User Stories section contains details about the above, and more."
+msgstr ""
+
+#: ../../goal.rst:136 ../../peptalk.rst:2
+msgid "Highlights"
+msgstr ""
+
+#: ../../goal.rst:137 ../../peptalk.rst:3
+msgid "not-so-brief list of highlights, meant to whet your appetite."
+msgstr ""
+"не такий короткий перелік основних моментів, мав на увазі, щоб підігріти "
+"апетит."
+
+#: ../../goal.rst:140 ../../peptalk.rst:6
+msgid "taxonomic information"
+msgstr "класифікаційна інформації"
+
+#: ../../goal.rst:142 ../../peptalk.rst:8
+msgid ""
+"When you first start Ghini, and connect to a database, Ghini will "
+"initialize the database not only with all tables it needs to run, but it "
+"will also populate the taxon tables for ranks family and genus, using the"
+" data from the “RBG Kew's Family and Genera list from Vascular Plant "
+"Families and Genera compiled by R. K. Brummitt and published by the Royal"
+" Botanic Gardens, Kew in 1992”.  In 2015 we have reviewed the data "
+"regarding the Orchidaceae, using “Tropicos, botanical information system "
+"at the Missouri Botanical Garden - www.tropicos.org” as a source."
+msgstr ""
+
+#: ../../goal.rst:152 ../../peptalk.rst:18
+msgid "importing data"
+msgstr "імпорт даних"
+
+#: ../../goal.rst:154 ../../peptalk.rst:20
+msgid ""
+"Ghini will let you import any data you put in an intermediate json "
+"format. What you import will complete what you already have in the "
+"database. If you need help, you can ask some Ghini professional to help "
+"you transform your data into Ghini's intermediate json format."
+msgstr ""
+
+#: ../../goal.rst:160 ../../peptalk.rst:26
+msgid "synonyms"
+msgstr "синоніми"
+
+#: ../../goal.rst:162 ../../peptalk.rst:28
+#, fuzzy
+msgid ""
+"Ghini will allow you define synonyms for species, genera, families. Also "
+"this information can be represented in its intermediate json format and "
+"be imported in an existing Ghini database."
+msgstr ""
+"Ghini дозволить визначити синоніми для видів, родів, сімейств. Крім того,"
+" ця інформація може бути представлена в проміжному форматі json і "
+"імпортована в існуючу базу даних Ghini."
+
+#: ../../goal.rst:167 ../../peptalk.rst:33
+msgid "scientific responsible"
+msgstr "наукова відповідальність"
+
+#: ../../goal.rst:169 ../../peptalk.rst:35
+#, fuzzy
+msgid ""
+"Ghini implements the concept of 'accession', intermediate between "
+"physical plant (or a group thereof) and abstract taxon. Each accession "
+"can associate the same plants to different taxa, if two taxonomists do "
+"not agree on the identification: each taxonomist can have their say and "
+"do not need overwrite each other's work. All verifications can be found "
+"back in the database, with timestamp and signature."
+msgstr ""
+"Ghini реалізує концепцію «приєднань», як проміжну між фізичними рослинами"
+" (або їх групою) і абстрактною класифікацією. Кожне приєднання може "
+"пов'язати ті ж рослини з різною класифікацією, якщо два систематики не "
+"згодні з ідентифікації: кожен систематик може мати свою думку і не "
+"потрібно перезаписати роботу один одного. Всі перевірки можуть бути "
+"знайдені в базі даних, з відміткою часу і підписом."
+
+#: ../../goal.rst:177 ../../peptalk.rst:43
+msgid "helps off-line identification"
+msgstr "допомагає офф-лайн ідентифікації"
+
+#: ../../goal.rst:179 ../../peptalk.rst:45
+#, fuzzy
+msgid ""
+"Ghini allows you associate pictures to physical plants, this can help "
+"recognize the plant in case a sticker is lost, or help taxonomic "
+"identification if a taxonomist is not available at all times."
+msgstr ""
+"Ghini дозволяє асоціювати фотографії з фізичними рослинами, це може "
+"допомогти розпізнати рослину в разі втрати етикетки, або допомогти "
+"класифікаційній ідентифікації, якщо систематик не доступний весь час."
+
+#: ../../goal.rst:184 ../../peptalk.rst:50
+msgid "exports and reports"
+msgstr "експорт і звіти"
+
+#: ../../goal.rst:186 ../../peptalk.rst:52
+#, fuzzy
+msgid ""
+"Ghini will let you export a report in whatever textual format you need. "
+"It uses a powerful templating engine named 'mako', which will allow you "
+"export the data in a selection to whatever format you need. Once "
+"installed, a couple of examples are available in the mako subdirectory."
+msgstr ""
+"Ghini дозволить вам експортувати звіт в будь-якому текстовому форматі. "
+"Він використовує потужний шаблонний движок під назвою 'mako', який "
+"дозволить експортувати дані вибравши будь-який формат, що вам потрібний. "
+"Після установки, кілька прикладів можна знайти в підкаталозі mako ."
+
+#: ../../goal.rst:192 ../../peptalk.rst:58
+msgid "annotate your info"
+msgstr "анотувати ваші дані"
+
+#: ../../goal.rst:194 ../../peptalk.rst:60
+msgid ""
+"You can associate notes to plants, accessions, species, .... Notes can be"
+" categorized and used in searches or reports."
+msgstr ""
+"Ви можете додати примітки до рослин, приєднань, видів, .... Примітки "
+"можуть бути класифіковані і використані для пошуку або звітів."
+
+#: ../../goal.rst:198 ../../peptalk.rst:64
+msgid "garden or herbarium"
+msgstr "сад або гербарій"
+
+#: ../../goal.rst:200 ../../peptalk.rst:66
+msgid "Management of plant locations."
+msgstr "Управління розташуванням рослин."
+
+#: ../../goal.rst:203 ../../peptalk.rst:69
+msgid "database history"
+msgstr "історія бази даних"
+
+#: ../../goal.rst:205 ../../peptalk.rst:71
+#, fuzzy
+msgid ""
+"All changes in the database is stored in the database, as history log. "
+"All changes are 'signed' and time-stamped.  Ghini makes it easy to "
+"retrieve the list of all changes in the last working day or week, or in "
+"any specific period in the past."
+msgstr ""
+"Всі зміни в базі даних зберігаються в базі даних, як журнал історії. Всі "
+"зміни 'підписані' і з відміткою часу. Ghini дозволяє легко отримати "
+"список всіх змін в останній робочий день або тиждень, або в будь-який "
+"певний період в минулому."
+
+#: ../../goal.rst:211 ../../peptalk.rst:77
+msgid "simple and powerful search"
+msgstr "простий і потужний пошук"
+
+#: ../../goal.rst:213 ../../peptalk.rst:79
+#, fuzzy
+msgid ""
+"Ghini allows you search the database using simple keywords, e.g.: the "
+"name of the location or a genus name, or you can write more complex "
+"queries, which do not reach the complexity of SQL but allow you a decent "
+"level of detail localizing your data."
+msgstr ""
+"Ghini дозволяє шукати в базі даних, використовуючи прості ключові слова, "
+"наприклад: назва місця або ім'я роду, або ви можете написати більш "
+"складні запити, які не досягають складності SQL, але дозволять вам гідний"
+" рівень деталізації локалізованих даних."
+
+#: ../../goal.rst:219 ../../peptalk.rst:85
+msgid "database agnostic"
+msgstr "агностична база даних"
+
+#: ../../goal.rst:221 ../../peptalk.rst:87
+#, fuzzy
+msgid ""
+"Ghini is not a database management system, so it does not reinvent the "
+"wheel. It works storing its data in a SQL database, and it will connect "
+"to any database management system which accepts a SQLAlchemy connector. "
+"This means any reasonably modern database system and includes MySQL, "
+"PostgreSQL, Oracle. It can also work with sqlite, which, for single user "
+"purposes is quite sufficient and efficient. If you connect Ghini to a "
+"real database system, you can consider making the database part of a LAMP"
+" system (Linux-Apache-MySQL-Php) and include your live data on your "
+"institution web site."
+msgstr ""
+"Ghini не є системою управління базами даних, щоб не вигадувати знову "
+"колесо. Вона працює зберігаючи свої дані в базі даних SQL, і буде "
+"підключатися до будь-якої  системи управління базами даних, яка приймає "
+"роз'єм SQLAlchemy. Це означає будь-яку досить сучасну систему управління "
+"базами даних і включає в себе MySQL, PostgreSQL, Oracle. Вона також може "
+"працювати з sqlite, що для цілей окремих користувачів цілком достатньо і "
+"ефективно. Якщо підключити Ghini до реальної системі бази даних, ви "
+"можете розглянути можливість зробити базу даних частиною системи  LAMP "
+"(Linux-Apache-MySQL-Php) і включити ваші дані в реальному часі на вашому "
+"веб-сайті установи."
+
+#: ../../goal.rst:232 ../../peptalk.rst:98
+msgid "language agnostic"
+msgstr "агностична мова"
+
+#: ../../goal.rst:234 ../../peptalk.rst:100
+msgid ""
+"The program was born in English and all its technical and user "
+"documentation is still only in that language, but the program itself has "
+"been translated and can be used in various other languages, including "
+"Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
+"American languages, as well as Swedish (100%) and Czech (100%)."
+msgstr ""
+"Програма народилася в Англії і все технічне забезпечення і документація "
+"користувача залишається на англійській мові, але сама програма була "
+"переведена і може використовуватися в різних інших мовах, включаючи "
+"іспанську (86%), португальську  (100%), французьку (42%), деякі "
+"південно-американські мови, а також шведська (100%) і чеська (100%)."
+
+#: ../../goal.rst:241 ../../peptalk.rst:107
+msgid "platform agnostic"
+msgstr "агностична платформа"
+
+#: ../../goal.rst:243 ../../peptalk.rst:109
+msgid ""
+"Installing Ghini on Windows is an easy and linear process, it will not "
+"take longer than 10 minutes. Ghini was born on Linux and installing it on"
+" ubuntu, fedora or debian is consequently even easier. MacOSX being based"
+" on unix, it is possible to successfully run the Linux installation "
+"procedure on any recent Apple computer, after a few preparation steps."
+msgstr ""
+
+#: ../../goal.rst:250 ../../peptalk.rst:116
+msgid "easily updated"
+msgstr "легко оновлюється"
+
+#: ../../goal.rst:252 ../../peptalk.rst:118
+msgid ""
+"The installation process will produce an updatable installation, where "
+"updating it will take less than one minute. Depending on the amount of "
+"feedback we receive, we will produce updates every few days or once in a "
+"while."
+msgstr ""
+"Процес установки буде створювати оновлювану установку, де оновлення займе"
+" менше ніж одну хвилину. Залежно від величини зворотного зв'язку, яку ми "
+"отримуємо, ми будемо проводити оновлення через кожні кілька днів або один"
+" раз в певний час."
+
+#: ../../goal.rst:258 ../../peptalk.rst:124
+msgid "unit tested"
+msgstr "протестовані"
+
+#: ../../goal.rst:260 ../../peptalk.rst:126
+msgid ""
+"Ghini is continuously and extensively unit tested, something that makes "
+"regression of functionality close to impossible. Every update is "
+"automatically quality checked, on the Travis Continuous Integration "
+"service. Integration of TravisCI with the github platform will make it "
+"difficult for us to release anything which has a single failing unit "
+"test."
+msgstr ""
+
+#: ../../goal.rst:266 ../../peptalk.rst:132
+msgid ""
+"Most changes and additions we make, come with some extra unit test, which"
+" defines the behaviour and will make any undesired change easily visible."
+msgstr ""
+"Більшість змін і доповнень, які ми робимо, приходять з деяким додатковим "
+"модульним тестуванням, яке визначає поведінку і робить будь-які небажані "
+"зміни добре видимі."
+
+#: ../../goal.rst:270 ../../peptalk.rst:136
+msgid "customizable/extensible"
+msgstr "настроюємий/розширяємий"
+
+#: ../../goal.rst:272 ../../peptalk.rst:138
+#, fuzzy
+msgid ""
+"Ghini is extensible through plugins and can be customized to suit the "
+"needs of the institution."
+msgstr ""
+"Ghini розширюється за допомогою плагінів і може бути налаштований "
+"відповідно до потреб установи."
+
+#: ../../imex.rst:2
+msgid "Importing and Exporting Data"
+msgstr "Імпорт та експорт даних"
+
+#: ../../imex.rst:4
+#, fuzzy
+msgid ""
+"Although Ghini can be extended through plugins to support alternate "
+"import and export formats, by default it can only import and export comma"
+" separated values files or CSV."
+msgstr ""
+"Хоча Ghini може бути розширена за рахунок плагінів для підтримки "
+"альтернативних форматів імпорту та експорту, за замовчуванням він може "
+"тільки імпорт і експорт розділених комою значень файлів або CSV."
+
+#: ../../imex.rst:8
+msgid ""
+"There is some support for exporting to the Access for Biological "
+"Collections Data it is limited."
+msgstr ""
+"Існує деяка підтримка експорту в Access для біологічних колекцій даних "
+"але вона обмежена."
+
+#: ../../imex.rst:11
+msgid ""
+"There is also limited support for exporting to an XML format that more or"
+" less reflects exactly the tables and row of the database."
+msgstr ""
+"Існує також обмежена підтримка експорту в форматі XML, який більш-менш "
+"точно відображає таблиці та рядки бази даних."
+
+#: ../../imex.rst:14
+msgid "Exporting ABCD and XML will not be covered here."
+msgstr "Експорт ABCD і XML не будуть тут розглядатися."
+
+#: ../../imex.rst:16
+msgid ""
+"Importing files will most likely destroy any data you have in the "
+"database so make sure you have backed up your data."
+msgstr ""
+"Імпорт файлів, швидше за все, знищить будь-які дані у вашій базі даних, "
+"переконайтеся, що ви створили резервну копію даних."
+
+#: ../../imex.rst:20
+msgid "Importing from CSV"
+msgstr "Імпорт з CSV"
+
+#: ../../imex.rst:21
+#, fuzzy
+msgid ""
+"In general it is best to only import CSV files into Ghini that were "
+"previously exported from Ghini. It is possible to import any CSV file but"
+" that is more advanced that this doc will cover."
+msgstr ""
+"Загалом, краще імпортувати CSV файли в Ghini, які раніше були "
+"експортовані з Ghini. Можна імпортувати будь-який файл CSV, але це надає "
+"більше, чим цей документ буде охоплювати."
+
+#: ../../imex.rst:25
+#, fuzzy
+msgid ""
+"To import CSV files into Ghini select "
+":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
+msgstr ""
+"Щоб імпортувати CSV файли в Ghini виберіть: menuselection "
+":menuselection:`Tools-->Export-->Comma Seperated Values` з меню."
+
+#: ../../imex.rst:29
+msgid ""
+"After clicking OK on the dialog that ask if you are sure you know what "
+"you're doing a file chooser will open.  In the file chooser select the "
+"files you want to import."
+msgstr ""
+"Після натискання OK в діалоговому вікні запиту, якщо ви впевнені, що "
+"знаєте, що робите, вибрані файли будуть відкриті. У файловому браузері "
+"виберіть файли, які ви хочете імпортувати."
+
+#: ../../imex.rst:35
+msgid "Exporting to CSV"
+msgstr "Експорт в CSV"
+
+#: ../../imex.rst:37
+#, fuzzy
+msgid ""
+"To export the Ghini data to CSV select "
+":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
+msgstr ""
+"Щоб експортувати дані  Ghini в CSV виберіть "
+":menuselection:`Tools-->Export-->Comma Seperated Values` з меню."
+
+#: ../../imex.rst:40
+#, fuzzy
+msgid ""
+"This tool will ask you to select a directory to export the CSV data. All "
+"of the tables in Ghini will be exported to files in the format "
+"tablename.txt where tablename is the name of the table where the data was"
+" exported from."
+msgstr ""
+"Цей інструмент запропонує вам вибрати каталог для експорту даних в "
+"форматі CSV. Всі таблиці в Ghini буде експортовано в файли в форматі "
+"tablename.txt де ім'я_таблиці це ім'я таблиці куди дані будуть "
+"експортовані."
+
+#: ../../imex.rst:46
+msgid "Importing from JSON"
+msgstr "Імпорт з JSON"
+
+#: ../../imex.rst:48
+#, fuzzy
+msgid ""
+"This is *the* way to import data into an existing database, without "
+"destroying previous content. A typical example of this functionality "
+"would be importing your digital collection into a fresh, just initialized"
+" Ghini database. Converting a database into bauble json interchange "
+"format is beyond the scope of this manual, please contact one of the "
+"authors if you need any further help."
+msgstr ""
+"Цей *the * спосіб для імпорту даних в існуючу базу даних, не руйнуючи "
+"попередній вміст. Типовий приклад цієї функції буде імпорт вашої цифрової"
+" колекції в нові, тільки розмічені бази даних Ghini. Перетворення бази "
+"даних в  bauble json формат обміну виходить за рамки даного керівництва, "
+"будь ласка, зв'яжіться з одним з авторів, якщо вам потрібна додаткова "
+"допомога."
+
+#: ../../imex.rst:55
+#, fuzzy
+msgid ""
+"Using the Ghini json interchange format, you can import data which you "
+"have exported from a different Ghini installation."
+msgstr ""
+"За допомогою Ghini json формату обміну, ви можете імпортувати дані, які "
+"ви експортували з іншої Ghini установки."
+
+#: ../../imex.rst:59
+msgid "Exporting to JSON"
+msgstr "Експорт у JSON"
+
+#: ../../imex.rst:61
+msgid "This feature is still under development."
+msgstr "Ця функція знаходиться в стадії розробки."
+
+#: ../../imex.rst:65
+msgid ""
+"when you activate this export tool, you are given the choice to specify "
+"what to export. You can use the current selection to limit the span of "
+"the export, or you can start at the complete content of a domain, to be "
+"chosen among Species, Accession, Plant."
+msgstr ""
+"коли ви активуєте цей інструмент експорту, вам надається право вибору "
+"експорту. Ви можете використовувати поточний вибір щоб обмежити діапазон "
+"експорту, або ви можете почати з повним змістом домену, вибравши серед "
+"видів, приєднань, рослин."
+
+#: ../../imex.rst:70
+msgid ""
+"Exporting *Species* will only export the complete taxonomic information "
+"in your database. *Accession* will export all your accessions plus all "
+"the taxonomic information it refers to: unreferred to taxa will not be "
+"exported. *Plant* will export all living plants (some accession might not"
+" be included), all referred to locations and taxa."
+msgstr ""
+"Експорт *Вид*  буде експортувати тільки повну класифікаційну інформацію в"
+" вашу базу даних. \"Приєднання\" буде експортувати всі приєднання плюс "
+"всю класифікаційну інформацію яка відноситься: необроблена для "
+"класифікації інформація не буде експортуватися. *Рослини* буде "
+"експортувати всі існуючі рослини (деякі приєднання можуть бути "
+"невключені), всі зазначені місця і класифіковані."
+
+#: ../../index.rst:2
+#, fuzzy
+msgid "Documentation for Ghini 1.0"
+msgstr "Документація для  Ghini 1.0"
+
+#: ../../index.rst:8
+#, fuzzy
+msgid ""
+"Ghini is an application for managing botanical specimen collections. With"
+" it you can create a searchable database of plant records."
+msgstr ""
+"Ghini являє собою додаток для управління ботанічними колекціями зразків. "
+"З його допомогою ви можете створити базу даних для пошуку записів рослин."
+
+#: ../../index.rst:11
+msgid ""
+"It is `open <http://www.opensource.org>`_ and `free "
+"<http://www.fsf.org>`_ and is released under the `GNU Public License "
+"<http://www.fsf.org/licensing/licenses/gpl.html>`_"
+msgstr ""
+"Це `відкритий <http://www.opensource.org>`_ і `безкоштовний "
+"<http://www.fsf.org>`_ і випущений під `GNU Public License "
+"<http://www.fsf.org/licensing/licenses/gpl.html>`_"
+
+#: ../../index.rst:17
+msgid "Statements"
+msgstr ""
+
+#: ../../index.rst:26
+#, fuzzy
+msgid "Installing Ghini"
+msgstr "Установка Ghini"
+
+#: ../../index.rst:35
+msgid "Using Ghini"
+msgstr ""
+
+#: ../../index.rst:51
+msgid "Administration"
+msgstr "Адміністрація"
+
+#: ../../index.rst:60
+#, fuzzy
+msgid "Ghini Development"
+msgstr "Розвиток Ghini"
+
+#: ../../index.rst:68
+#, fuzzy
+msgid "Supporting Ghini"
+msgstr "Підтримка Ghini"
+
+#: ../../index.rst:72
+#, fuzzy
+msgid ""
+"If you're using Ghini, or if you feel like helping its development "
+"anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
+msgstr ""
+"Якщо ви використовуєте Ghini, або якщо ви хочете допомогти її розвитку, "
+"будь ласка, розгляньте питання `пожертвування "
+"<https://pledgie.com/campaigns/29188>`_"
+
+#: ../../installing.rst:2
+msgid "Installation"
+msgstr ""
+
+#: ../../installing.rst:4
+#, fuzzy
+msgid ""
+"ghini.desktop is a cross-platform program and it will run on unix "
+"machines like GNU/Linux and MacOSX, as well as on Windows."
+msgstr ""
+"ghini.desktop крос-платформна програма і вона буде працювати на Unix "
+"машинах, таких як Linux і MacOSX, а також на Windows."
+
+#: ../../installing.rst:7
+msgid "one-liner for hurried Linux users."
+msgstr ""
+
+#: ../../installing.rst:10
+msgid ""
+"Download and run `the installation script "
+"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
+" You may read the documentation later."
+msgstr ""
+
+#: ../../installing.rst:13
+msgid ""
+"Ghini is maintained by very few people, who focus on enhancing its "
+"functional parts, more than on writing fancy installers. Instead of "
+"several native installers we offer a single cross-platform installation "
+"procedure. This has a few big advantages which you will learn to "
+"appreciate as we go."
+msgstr ""
+
+#: ../../installing.rst:18
+#, fuzzy
+msgid "The installation is based on running a script."
+msgstr "кроки по установці на Windows:"
+
+#: ../../installing.rst:20
+msgid ""
+"The GNU/Linux script takes care of everything, from dependecies to "
+"installation for users in the ``ghini`` group."
+msgstr ""
+
+#: ../../installing.rst:22
+msgid "The Windows script needs you to first install a couple things."
+msgstr ""
+
+#: ../../installing.rst:23
+msgid ""
+"On MacOSX we use the same script as on GNU/Linux. Since OSX has no "
+"default package manager, we install one and we use it before we start the"
+" script."
+msgstr ""
+
+#: ../../installing.rst:26
+msgid ""
+"Following our installation procedure, you will end with Ghini running "
+"within a Python virtual environment, all Python dependencies installed "
+"locally, non conflicting with any other Python program you may have on "
+"your system."
+msgstr ""
+
+#: ../../installing.rst:30
+msgid ""
+"Dependencies that don't fit in a Python virtual environment are: Python, "
+"virtualenv, GTK+, and PyGTK. Their installation varies per platform."
+msgstr ""
+
+#: ../../installing.rst:33
+#, fuzzy
+msgid ""
+"If you later choose to remove Ghini, you simply remove the virtual "
+"environment, which is a directory, with all of its content."
+msgstr ""
+"якщо пізніше ви вирішите видалити Ghini, ви просто видалите віртуальне "
+"середовище, яке є каталогом, з усім його вмістом."
+
+#: ../../installing.rst:37
+#, fuzzy
+msgid "Installing on GNU/Linux"
+msgstr "Установка на Linux"
+
+#: ../../installing.rst:39
+msgid "Open a shell terminal window, and follow these instructions."
+msgstr ""
+
+#: ../../installing.rst:41
+msgid "Download the `devinstall.sh` script and run it::"
+msgstr "Завантажити `devinstall.sh` скрипт і запустити його::"
+
+#: ../../installing.rst:45
+#, fuzzy
+msgid ""
+"Please note that the script will not help you install any extra database "
+"connector. This is not strictly necessary and you can do it at any later "
+"moment."
+msgstr ""
+"Будь ласка, це не той скрипт що допоможе вам встановити додатковий роз'єм"
+" бази даних. Це ви будете робити на більш пізньому етапі."
+
+#: ../../installing.rst:48
+#, fuzzy
+msgid "If the script ends without error, you can now start ghini::"
+msgstr "Якщо сценарій завершується без помилок, ви можете запустити ghini::"
+
+#: ../../installing.rst:52
+#, fuzzy
+msgid "or update ghini to the latest released production patch::"
+msgstr "або оновити ghini до останнього випущеного виробничого патча::"
+
+#: ../../installing.rst:56
+#, fuzzy
+msgid ""
+"The same script you can use to switch to a different production line. At "
+"the moment it's just `ghini-1.0` and `ghini-1.1`."
+msgstr ""
+"Той же сценарій ви можете використовувати для перемикання на іншу "
+"виробничу лінію, але на даний момент є тільки `ghini-1.0` і `ghini-1.1`."
+
+#: ../../installing.rst:59
+#, fuzzy
+msgid ""
+"on Unity, open a terminal, start ghini, its icon will show up in the "
+"launcher, you can now `lock to launcher` it."
+msgstr ""
+"на Unity, відкрийте термінал, запустіть ghini, його значок буде "
+"відображатися в панелі запуску, тепер ви можете це `lock to launcher`."
+
+#: ../../installing.rst:62
+msgid ""
+"If you would like to use the default `SQLite <http://sqlite.org/>`_ "
+"database or you don't know what this means then you can skip this step. "
+"If you would like to use a database backend other than the default SQLite"
+" backend then you will also need to install a database connector."
+msgstr ""
+"Якщо ви хочете використовувати за замовчуванням `SQLite "
+"<http://sqlite.org/>`_базу даних або ви не знаєте, що це значить, то ви "
+"можете пропустити цей крок. Якщо ви хочете використовувати базу даних "
+"бекенд, крім SQLite бекенда за замовчуванням, то вам також необхідно "
+"встановити з'єднувач бази даних."
+
+#: ../../installing.rst:67
+msgid ""
+"If you would like to use a `PostgreSQL <http://www.postgresql.org>`_ "
+"database then activate the virtual environment and install psycopg2 with "
+"the following commands::"
+msgstr ""
+"Якщо ви хотіли б використовувати `PostgreSQL "
+"<http://www.postgresql.org>`_базу даних тоді активуйте віртуальне "
+"середовище і встановіть psycopg2 з наступними командами::"
+
+#: ../../installing.rst:74
+#, fuzzy
+msgid ""
+"You might need solve dependencies. How to do so, depends on which "
+"GNU/Linux flavour you are using. Check with your distribution "
+"documentation."
+msgstr ""
+"Вам, можливо, буде потрібно визначити залежності. Як зробити так, "
+"залежить від того, який Linux ви використовуєте. Зверніться до "
+"документації розподілу."
+
+#: ../../installing.rst:77
+msgid "beginner's note"
+msgstr ""
+
+#: ../../installing.rst:80
+msgid ""
+"To run a script, first make sure you note down the name of the directory "
+"to which you have downloaded the script, then you open a terminal window "
+"and in that window you type `bash` followed by a space and the complete "
+"name of the script including directory name, and hit on the enter key."
+msgstr ""
+
+#: ../../installing.rst:86
+msgid "technical note"
+msgstr ""
+
+#: ../../installing.rst:89
+msgid ""
+"You can study the script to see what steps if runs for you. In short it "
+"will install dependencies which can't be satisfied in a virtual "
+"environment, then it will create a virtual environment named ``ghide``, "
+"use git to download the sources to a directory named "
+"``~/Local/github/Ghini/ghini.desktop``, and connect this git checkout to "
+"the ``ghini-1.0`` branch (this you can consider a production line), it "
+"then builds ghini, downloading all remaining dependencies in the virtual "
+"environment, and finally it creates a startup script. If you have "
+"``sudo`` permissions, it will be placed in ``/usr/local/bin``, otherwise "
+"in your ``~/bin`` folder. Again if you"
+msgstr ""
+
+#: ../../installing.rst:102 ../../installing.rst:156 ../../installing.rst:310
+#: ../../installing.rst:346
+msgid "Next..."
+msgstr "Далі..."
+
+#: ../../installing.rst:106
+msgid "Installing on MacOSX"
+msgstr "Установка на MacOSX"
+
+#: ../../installing.rst:108
+#, fuzzy
+msgid ""
+"Being MacOSX a unix environment, most things will work the same as on "
+"GNU/Linux (sort of)."
+msgstr ""
+"MacOSX являється середовищем unix, більшість речей буде працювати так "
+"само, як і на Linux (різновид)."
+
+#: ../../installing.rst:111
+#, fuzzy
+msgid ""
+"Last time we tested, some of the dependencies could not be installed on "
+"MacOSX 10.5 and we assume similar problems would also show on older OSX "
+"versions.  Ghini has been successfully tested with 10.7, 10.9 and 10.12."
+msgstr ""
+"За останніми нашими тестуваннями, деякі з залежностей не можуть бути "
+"встановлені на MacOSX 10.5 і ми припускаємо, що подібні проблеми будуть і"
+" на більш старих версіях OSX. Ghini була успішно протестована з 10,7 і "
+"10,9."
+
+#: ../../installing.rst:115
+msgid ""
+"First of all, you need things which are an integral part of a unix "
+"environment, but which are missing in a off-the-shelf mac:"
+msgstr ""
+"Перш за все, вам потрібно речі, які є невід'ємною частиною unix "
+"середовища, але які відсутні в off-the-shelf mac:"
+
+#: ../../installing.rst:118
+msgid ""
+"developers tools: xcode. check the wikipedia page for the version "
+"supported on your mac."
+msgstr ""
+"інструменти розробника: xcode. перевірте сторінку Вікіпедії яка версія "
+"підтримується на mac."
+
+#: ../../installing.rst:120
+msgid "package manager: homebrew (tigerbrew for older OSX versions)."
+msgstr "менеджер пакетів:  homebrew (tigerbrew для старих версій OSX)."
+
+#: ../../installing.rst:122
+#, fuzzy
+msgid "with the above installed, open a terminal window and run::"
+msgstr "з вище встановлено, запустити::"
+
+#: ../../installing.rst:126
+msgid ""
+"make sure you understand the problems it reports, and correct them. pygtk"
+" will need xquartz and brew will not solve the dependency automatically. "
+"either install xquartz using brew or the way you prefer::"
+msgstr ""
+"переконайтеся, що ви розумієте виявлені проблеми, і виправте їх. pygtk "
+"знадобиться xquartz і brew не дозволить залежність автоматично. або "
+"встановіть xquartz, використовуючи brew або якщо ви вважаєте за краще::"
+
+#: ../../installing.rst:132
+msgid "then install the remaining dependencies::"
+msgstr "тоді встановіть решту залежностей::"
+
+#: ../../installing.rst:137
+msgid "follow all instructions on how to activate what you have installed."
+msgstr "дотримуватися всіх інструкцій про те, як активувати то, що ви встановили."
+
+#: ../../installing.rst:139
+msgid "Mac running OSX 10.12 —Sierra—"
+msgstr ""
+
+#: ../../installing.rst:142
+msgid ""
+"On OSX 10.12, ``brew`` reports that ``gettext`` is already installed, but"
+" then it won't let us find it. A solution is to run the following line::"
+msgstr ""
+
+#: ../../installing.rst:148
+msgid ""
+"Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
+"installing a couple of python packages, globally. Do this::"
+msgstr ""
+
+#: ../../installing.rst:153
+#, fuzzy
+msgid ""
+"The rest is just as on a normal unix machine. Read the above GNU/Linux "
+"instructions, follow them, enjoy."
+msgstr ""
+"інше так само, як на звичайній машині unix, і у нас є "
+"`devinstall.sh`скрипт для цього. Прочитайте вище інструкції Linux, "
+"слідуйте за ними, насолоджуйтесь."
+
+#: ../../installing.rst:160
+msgid "Installing on Windows"
+msgstr "Установка на Windows"
+
+#: ../../installing.rst:162
+msgid ""
+"The current maintainer of ghini.desktop has no interest in learning how "
+"to produce Windows installers, so the Windows installation is here "
+"reduced to the same installation procedure as on Unix (GNU/Linux and "
+"MacOSX)."
+msgstr ""
+
+#: ../../installing.rst:166
+#, fuzzy
+msgid ""
+"Please report any trouble. Help with packaging will be very welcome, in "
+"particular by other Windows users."
+msgstr "Повідомлення про виявлені проблеми і допомога з пакуванням дуже вітається."
+
+#: ../../installing.rst:169
+msgid ""
+"The steps described here instruct you on how to install Git, Gtk, Python,"
+" and the python database connectors. With this environment correctly set "
+"up, the Ghini installation procedure runs as on GNU/Linux. The concluding"
+" steps are again Windows specific."
+msgstr ""
+
+#: ../../installing.rst:174
+#, fuzzy
+msgid ""
+"Ghini has been tested with and is known to work on W-XP, W-7 and W-8. "
+"Although it should work fine on other versions Windows it has not been "
+"thoroughly tested."
+msgstr ""
+"Ghini була протестована і як відомо, працює на W-XP, W-7 і W-8. Хоча і "
+"працює нормально на інших версіях Windows, Ghini не була ретельно "
+"протестована на них."
+
+#: ../../installing.rst:178
+msgid ""
+"Direct download links are given for all needed components. They have been"
+" tested in September 2015, but things change with time. If any of the "
+"direct download links stops working, please ring the bell, so we can "
+"update the information here."
+msgstr ""
+"Наведені прямі посилання для завантаження для всіх необхідних "
+"компонентів. Вони були випробувані в вересні 2015 року, але все "
+"змінюється з часом. Якщо яка-небудь з ланок прямого завантаження перестає"
+" працювати, будь ласка, зателефонуйте, що б ми могли оновити інформацію."
+
+#: ../../installing.rst:189
+#, fuzzy
+msgid "The installation steps on Windows:"
+msgstr "кроки по установці на Windows:"
+
+#: ../../installing.rst:191
+#, fuzzy
+msgid ""
+"download and install ``git`` (comes with a unix-like ``sh`` and includes "
+"``vi``) from::"
+msgstr ""
+"загрузити і встановити ``git`` (поставляється з unix-like ``sh`` і "
+"включає в себе ``vi``) з:"
+
+#: ../../installing.rst:196
+msgid "`Direct link to download git`_"
+msgstr "`Пряме посилання на завантаження git`_"
+
+#: ../../installing.rst:198
+msgid ""
+"all default options are fine, except we need git to be executable from "
+"the command prompt:"
+msgstr ""
+"всі опції за замовчуванням в порядку, за винятком git повинен бути "
+"виконуваним з командного рядка:"
+
+#: ../../installing.rst:203
+#, fuzzy
+msgid "download and install Python 2.x (32bit) from::"
+msgstr "завантажити та встановити Python 2.x (32bit) з:"
+
+#: ../../installing.rst:207
+msgid "`Direct link to download Python`_"
+msgstr "`Пряме посилання на завантаження Python`_"
+
+#: ../../installing.rst:209
+#, fuzzy
+msgid ""
+"Ghini has been developed and tested using Python 2.x.  It will definitely"
+" **not** run on Python 3.x.  If you are interested in helping port to "
+"Python 3.x, please contact the Ghini maintainers."
+msgstr ""
+"Ghini була розроблена і апробована з використанням Python 2.x. Це, "
+"безумовно, **не ** працюватиме на Python 3.x, будь ласка, зв'яжіться з "
+"розробниками Ghini."
+
+#: ../../installing.rst:213
+msgid "when installing Python, do put Python in the PATH:"
+msgstr "при установці Python, помістити Python в PATH:"
+
+#: ../../installing.rst:217
+msgid ""
+"download ``pygtk`` from the following source. (this requires 32bit "
+"python). be sure you download the \"all in one\" version::"
+msgstr ""
+"завантажити ``pygtk`` з наступного джерела. (для цього потрібно 32-бітний"
+" python). переконайтеся, що ви завантажили \"все в одному\" версію::"
+
+#: ../../installing.rst:222
+msgid "`Direct link to download PyGTK`_"
+msgstr "`Пряме посилання на завантаження PyGTK`_"
+
+#: ../../installing.rst:224
+msgid "make a complete install, selecting everything:"
+msgstr "зробити повну установку, вибравши все:"
+
+#: ../../installing.rst:228
+msgid ""
+"(Windows 8.x) please consider this additional step. It is possibly "
+"necessary to avoid the following error on Windows 8.1 installations::"
+msgstr ""
+
+#: ../../installing.rst:235
+msgid "If you skip this step and can confirm you get the error, please inform us."
+msgstr ""
+
+#: ../../installing.rst:237
+msgid "You can download lxml from::"
+msgstr ""
+
+#: ../../installing.rst:241
+msgid "Remember you need the 32 bit version, for Python 2.7."
+msgstr ""
+
+#: ../../installing.rst:243
+#, fuzzy
+msgid "`Direct link to download lxml`_"
+msgstr "`Пряме посилання на завантаження git`_"
+
+#: ../../installing.rst:245
+msgid ""
+"(optional) download and install a database connector other than "
+"``sqlite3``."
+msgstr ""
+"(за бажанням), завантажити і встановити з'єднувач бази даних, окрім `` "
+"sqlite3``."
+
+#: ../../installing.rst:248
+msgid ""
+"On Windows, it is NOT easy to install ``psycopg2`` from sources, using "
+"pip, so \"avoid the gory details\" and use a pre-compiled pagkage from:"
+msgstr ""
+"У Windows не так легко встановити ``psycopg2`` з джерел, використайте "
+"pip, щоб \"avoid the gory details\" і скомпільованих пакет із:"
+
+#: ../../installing.rst:253
+msgid "`Direct link to download psycopg2`_"
+msgstr "`Пряме посилання на завантаження psycopg2`_"
+
+#: ../../installing.rst:255
+msgid "**REBOOT**"
+msgstr "**ПЕРЕЗАВАНТАЖЕННЯ**"
+
+#: ../../installing.rst:257
+msgid "hey, this is Windows, you need to reboot for changes to take effect!"
+msgstr "Гей, це Windows, вам необхідно перезавантажити, щоб зміни вступили в силу!"
+
+#: ../../installing.rst:259
+#, fuzzy
+msgid "download and run (from ``\\system32\\cmd.exe``) the batch file:"
+msgstr "завантажте та запустіть пакетний файл::"
+
+#: ../../installing.rst:263
+msgid ""
+"right before you hit the enter key to run the script, your screen might "
+"look like something like this:"
+msgstr ""
+
+#: ../../installing.rst:268
+#, fuzzy
+msgid ""
+"this will pull the ``ghini.desktop`` repository on github to your home "
+"directory, under ``Local\\github\\Ghini``, checkout the ``ghini-1.0`` "
+"production line, create a virtual environment and install ghini into it."
+msgstr ""
+"це буде тягнути ``ghini.desktop`` репозиторій на github в вашому "
+"домашньому каталозі, під ``Local\\github\\Ghini``, перевірте "
+"``ghini-1.0`` виробничу лінію, створіть віртуальне середовище і "
+"встановіть ghini в нього."
+
+#: ../../installing.rst:272
+msgid ""
+"you can also run ``devinstall.bat`` passing it as argument the numerical "
+"part of the production line you want to follow."
+msgstr ""
+"ви також можете запустити ``devinstall.bat`` передаючи в якості аргументу"
+" числову частину виробничої лінії якою ви хочете слідувати."
+
+#: ../../installing.rst:275
+msgid ""
+"this is the last installation step that depends, heavily, on a working "
+"internet connection."
+msgstr ""
+
+#: ../../installing.rst:278
+msgid ""
+"the operation can take several minutes to complete, depending on the "
+"speed of your internet connection."
+msgstr ""
+
+#: ../../installing.rst:281
+msgid ""
+"the last installation step creates the Ghini group and shortcuts in the "
+"Windows Start Menu, for all users. To do so, you need run a script with "
+"administrative rights. The script is called ``devinstall-finalize.bat``, "
+"it is right in your HOME folder, and has been created at the previous "
+"step."
+msgstr ""
+
+#: ../../installing.rst:287
+msgid ""
+"right-click on it, select run as administrator, confirm you want it to "
+"make changes to your computer. These changes are in the Start Menu only: "
+"create the Ghini group, place the Ghini shortcut."
+msgstr ""
+
+#: ../../installing.rst:291
+#, fuzzy
+msgid ""
+"download the batch file you will use to stay up-to-date with the "
+"production line you chose to follow:"
+msgstr ""
+"завантажити пакетний файл, який буде використовуватися up-to-date "
+"виробничої лінії якій ви вирішили слідувати::"
+
+#: ../../installing.rst:296
+#, fuzzy
+msgid ""
+"if you are on a recent Ghini installation, each time you start the "
+"program, Ghini will check on the development site and alert you of any "
+"newer ghini release within your chosen production line."
+msgstr ""
+"Якщо у вас встановлена сучасна Ghini, то коли ви запускаєте програму, "
+"Ghini перевірятиме сайт розробника і попередить вас про випуск нових "
+"версій  ghini в межах обраної виробничої лінії."
+
+#: ../../installing.rst:300
+#, fuzzy
+msgid ""
+"any time you want to update your installation, just start the command "
+"prompt and run ``ghini-update.bat``"
+msgstr ""
+"в будь-який час ви можете оновити свою установку, просто відкрийте "
+"командний рядок і запустіть ``ghini-update.bat``"
+
+#: ../../installing.rst:303
+#, fuzzy
+msgid ""
+"If you would like to generate and print PDF reports using Ghini's default"
+" report generator then you will need to download and install `Apache FOP "
+"<http://xmlgraphics.apache.org/fop/>`_. After extracting the FOP archive "
+"you will need to include the directory you extracted to in your PATH."
+msgstr ""
+"Якщо ви хочете створювати і друкувати звіти в форматі PDF з використанням"
+" генератора звітів  Ghini за замовчуванням, то вам необхідно буде "
+"завантажити і встановити `Apache FOP "
+"<http://xmlgraphics.apache.org/fop/>`_. Після розпакування архіву FOP вам"
+" потрібно буде включати каталог розпакування в свій PATH."
+
+#: ../../installing.rst:316
+#, fuzzy
+msgid "Troubleshooting"
+msgstr "Пошук і усунення несправностей установки"
+
+#: ../../installing.rst:318
+msgid "any error related to lxml."
+msgstr ""
+
+#: ../../installing.rst:320
+msgid ""
+"In order to be able to compile lxml, you have to install a C compiler (on"
+" GNU/Linux this would be the ``gcc`` package) and Cython (a Python "
+"specialization, that gets compiled into C code. Note: Cython is not "
+"CPython)."
+msgstr ""
+
+#: ../../installing.rst:325
+msgid ""
+"However, It should not be necessary to compile anything, and ``pip`` "
+"should be able to locate the binary modules in the online libraries."
+msgstr ""
+
+#: ../../installing.rst:328
+msgid "For some reason, this is not the case on Windows 8.1."
+msgstr ""
+
+#: ../../installing.rst:332
+msgid "Please report any other trouble related to the installation of lxml."
+msgstr ""
+
+#: ../../installing.rst:334
+msgid "Couldn't install gdata."
+msgstr "Не вдалося встановити gdata."
+
+#: ../../installing.rst:336
+msgid ""
+"For some reason the Google's gdata package lists itself in the Python "
+"Package Index but doesn't work properly with the easy_install command.  "
+"You can download the latest gdata package from:"
+msgstr ""
+"З якоїсь причини пакет gdata від Google перераховує себе в Python Package"
+" Index, але не працює належним чином з командою easy_install. Завантажте "
+"останній пакет gdata від:"
+
+#: ../../installing.rst:343
+msgid ""
+"Unzip it and run ``python setup.py installw`` in the folder you unzip it "
+"to."
+msgstr ""
+"Розпакуйте його і запустіть ``python setup.py installw`` в папці "
+"розпакування."
+
+#: ../../propagations.rst:4
+msgid "Dealing with Propagations"
+msgstr ""
+
+#: ../../propagations.rst:6
+msgid ""
+"Ghini offers the possibility to associate Propagations trials to Plants "
+"and to document their treatments and results. Treatments are integral "
+"parts of the description of a Propagation trial. If a Propagation trial "
+"is successful, Ghini lets you associate it to a new Accession. You can "
+"only associate one Accession to a Propagation Trial."
+msgstr ""
+
+#: ../../propagations.rst:12
+msgid "Here we describe how you use this part of the interface."
+msgstr ""
+
+#: ../../propagations.rst:15
+msgid "Creating a Propagation"
+msgstr ""
+
+#: ../../propagations.rst:17
+msgid ""
+"A Propagation (trial) is obtained from a Plant. Ghini reflects this in "
+"its interface: you select a plant, open the Plant Editor on it, activate "
+"the Propagation Tab, click on Add."
+msgstr ""
+
+#: ../../propagations.rst:21
+msgid ""
+"When you do the above, you get a Propagation Editor window. Ghini does "
+"not consider Propagation trials as independent entities. As a result, "
+"Ghini treats the Propagation Editor as a special editor window, which you"
+" can only reach from the Plant Editor."
+msgstr ""
+
+#: ../../propagations.rst:26
+msgid ""
+"For a new Propagation, you select the type of propagation (this becomes "
+"an immutable property of the propagation) then insert the data describing"
+" it."
+msgstr ""
+
+#: ../../propagations.rst:29
+msgid ""
+"You will be able to edit the propagation data via the same path: select a"
+" plant, open the Plant Editor, identify the propagation you want to edit,"
+" click on the corresponding Edit button. You will be able to edit all "
+"properties of an existing Propagation trial, except its type."
+msgstr ""
+
+#: ../../propagations.rst:34
+msgid ""
+"In the case of a seed propagation trial, you have a pollen parent, and a "
+"seed parent. You should always associate the Propagation trial to the "
+"seed parent."
+msgstr ""
+
+#: ../../propagations.rst:38
+msgid ""
+"In Ghini-1.0 you specify the pollen parent plant in the \"Notes\" field, "
+"while Ghini-1.1 has a (relation) field for it. According to ITF2, there "
+"might be cases in seed propagation trials where it is not known which "
+"Plant plays which role. Again, in Ghini-1.0 you should use a note to "
+"indicate whether this is the case, Ghini-1.1 has a (boolean) field "
+"indicating whether this is the case."
+msgstr ""
+
+#: ../../propagations.rst:47
+msgid "Using a Propagation"
+msgstr ""
+
+#: ../../propagations.rst:49
+msgid "A Propagation trial may be successful and result in a new Accession."
+msgstr ""
+
+#: ../../propagations.rst:51
+msgid ""
+"Ghini helps you reflect this in the database: create a new Accession, "
+"immediately switch to the Source tab and select \"Garden Propagation\" in"
+" the (admittedly somewhat misleading) Contact field."
+msgstr ""
+
+#: ../../propagations.rst:55
+msgid ""
+"Start typing the plant number and a list of matching plants with "
+"propagation trials will appear for you to select from."
+msgstr ""
+
+#: ../../propagations.rst:58
+msgid ""
+"Select the plant, and the list of accessed and unaccessed propagation "
+"trials will appear in the lower half of the window."
+msgstr ""
+
+#: ../../propagations.rst:61
+msgid ""
+"Select a still unaccessed propagation trial from the list and click on Ok"
+" to complete the operation."
+msgstr ""
+
+#: ../../propagations.rst:64
+msgid ""
+"Using the data from the Propagation trial, Ghini completes some of the "
+"fields in the General tab: Taxon name, Type of material, and possibly "
+"Provenance. You will be able to edit these fields, but please note that "
+"the software will not prevent introducing conceptual inconsistencies in "
+"your database."
+msgstr ""
+
+#: ../../propagations.rst:70
+msgid "You can associate a Propagation trial to only one Accession."
+msgstr ""
+
+#: ../../report.rst:2
+msgid "Generating reports"
+msgstr "Створення звітів"
+
+#: ../../report.rst:4
+msgid ""
+"A database without exporting facilities is of little use. Ghini lets you "
+"export your data in table format (open them in your spreadsheet editor of"
+" choice), as labels (to be printed or engraved), as html pages or pdf or "
+"postscript documents."
+msgstr ""
+
+#: ../../report.rst:9
+msgid "This page describes the two tools Ghini offers for these tasks."
+msgstr ""
+
+#: ../../report.rst:12
+msgid "Using the Mako Report Formatter"
+msgstr "Використання  форматера звіту Mako"
+
+#: ../../report.rst:14
+msgid ""
+"The Mako report formatter uses the Mako template language for generating "
+"reports. More information about Mako and its language can be found at "
+"`makotemplates.org <http://www.makotemplates.org>`_."
+msgstr ""
+"Форматер звіту Mako використовує мову шаблонів Mako для генерації звітів."
+" Більш детальну інформацію про Мако і його мову можна знайти на сайті "
+"`makotemplates.org <http://www.makotemplates.org>`_."
+
+#: ../../report.rst:18
+#, fuzzy
+msgid ""
+"The Mako templating system should already be installed on your computer "
+"if Ghini is installed."
+msgstr ""
+"Система шаблонів Mako вже повинна бути встановлена на вашому комп'ютері, "
+"якщо встановлено Ghini."
+
+#: ../../report.rst:21
+msgid ""
+"Creating reports with Mako is similar in the way that you would create a "
+"web page from a template.  It is much simpler than the XSL Formatter(see "
+"below) and should be relatively easy to create template for anyone with a"
+" little but of programming experience."
+msgstr ""
+"Створення звітів за допомогою Мако аналогічна тому, як ви можете створити"
+" веб-сторінку за допомогою шаблону. Це набагато простіше, ніж XSL "
+"Formatter (див нижче) і  відносно легко буде створити шаблон для тих, хто"
+" хоча б з невеликим досвідом програмування."
+
+#: ../../report.rst:26
+#, fuzzy
+msgid ""
+"The template generator will use the same file extension as the template "
+"which should indicate the type of output the template with create.  For "
+"example, to generate an HTML page from your template you should name the "
+"template something like `report.html`.  If the template will generate a "
+"comma separated value file you should name the template `report.csv`."
+msgstr ""
+"Генератор шаблонів буде використовувати таке ж розширення файлу як "
+"шаблон, який повинен вказати тип вихідного шаблону створення."
+
+#: ../../report.rst:33
+msgid ""
+"The template will receive a variable called `values` which will contain "
+"the list of values in the current search."
+msgstr ""
+"Шаблон буде отримувати змінну `values`, яка буде містити список значень в"
+" поточному пошуку."
+
+#: ../../report.rst:36
+msgid ""
+"The type of each value in `values` will be the same as the search domain "
+"used in the search query.  For more information on search domains see "
+":ref:`search-domains`."
+msgstr ""
+"Тип кожного значення в `values` буде таким же, як область пошуку, що "
+"використовується в пошуковому запиті. Для отримання додаткової інформації"
+" про пошукові домени дивитися: :ref:`search-domains`."
+
+#: ../../report.rst:40
+msgid ""
+"If the query does not have a search domain then the values could all be "
+"of a different type and the Mako template should prepared to handle them."
+msgstr ""
+"Якщо запит не має пошукового домену, то всі значення можуть бути різного "
+"типу і шаблон Мако повинен бути готовий впоратися з ними."
+
+#: ../../report.rst:46
+msgid "Using the XSL Report Formatter"
+msgstr "Використання XSL Report Formatter"
+
+#: ../../report.rst:48
+msgid ""
+"The XSL report formatter requires an XSL to PDF renderer to convert the "
+"data to a PDF file. Apache FOP is is a free and open-source XSL->PDF "
+"renderer and is recommended."
+msgstr ""
+"XSL форматер звітів  вимагає представляти XSL в PDF для перетворення "
+"даних в PDF файл. Apache FOP є безкоштовним і з відкритим вихідним кодом "
+"XSL->PDF визуализатор що рекомендується."
+
+#: ../../report.rst:52
+msgid ""
+"If using Linux, Apache FOP should be installable using your package "
+"manager.  On Debian/Ubuntu it is installable as ``fop`` in Synaptic or "
+"using the following command::"
+msgstr ""
+"При використанні Linux, Apache FOP повинен бути встановлений за допомогою"
+" менеджера пакетів. В Debian/Ubuntu це встановлювана як ``fop`` в "
+"Synaptic або за допомогою наступної команди ::"
+
+#: ../../report.rst:60
+msgid "Installing Apache FOP on Windows"
+msgstr "Установка Apache FOP на Windows"
+
+#: ../../report.rst:62
+msgid ""
+"You have two options for installing FOP on Windows. The easiest way is to"
+" download the prebuilt `ApacheFOP-0.95-1-setup.exe "
+"<http://code.google.com/p/apache-fop-"
+"installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#makechanges>`_"
+" installer."
+msgstr ""
+"У вас є два варіанти установки  FOP на Windows. Найпростіший спосіб це "
+"завантажити скомпільований `ApacheFOP-0.95-1-setup.exe "
+"<http://code.google.com/p/apache-fop-"
+"installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#makechanges>`_"
+" installer."
+
+#: ../../report.rst:65
+msgid ""
+"Alternatively you can download the `archive "
+"<http://www.apache.org/dist/xmlgraphics/fop/binaries/>`_.  After "
+"extracting the archive you must add the directory you extracted the "
+"archive to to your PATH environment variable."
+msgstr ""
+"В якості альтернативи ви можете скачати `archive "
+"<http://www.apache.org/dist/xmlgraphics/fop/binaries/>`_. Після вилучення"
+" архіву ви повинні додати каталог, розпакував архів в змінну PATH "
+"середовища."
+
+#: ../../searching.rst:4
+#, fuzzy
+msgid "Searching in Ghini"
+msgstr "Пошук в Ghini"
+
+#: ../../searching.rst:6
+#, fuzzy
+msgid ""
+"Searching allows you to view, browse and create reports from your data. "
+"You can perform searches by either entering the queries in the main "
+"search entry or by using the Query Builder to create the queries for you."
+" The results of Ghini searches are listed in the main window."
+msgstr ""
+"Пошук дозволяє представляти, перегляд і створювати звіти з ваших даних. "
+"Ви можете виконувати пошук ввівши запит в основному компоненті пошуку або"
+" використати Query Builder для створення запитів. Результати пошуку Ghini"
+" виводяться в головному вікні."
+
+#: ../../searching.rst:13
+msgid "Search Strategies"
+msgstr "Стратегії пошуку"
+
+#: ../../searching.rst:15
+msgid "Ghini offers four distinct search strategies:"
+msgstr ""
+
+#: ../../searching.rst:17
+msgid "by value — in all domains;"
+msgstr ""
+
+#: ../../searching.rst:18
+msgid "by expression — in a few implicit fields in one explicit domain;"
+msgstr ""
+
+#: ../../searching.rst:19
+msgid "by query — in one domain;"
+msgstr ""
+
+#: ../../searching.rst:20
+msgid "by binomial name — only searches the Species domain."
+msgstr ""
+
+#: ../../searching.rst:22
+msgid ""
+"All search strategies —with the notable exception of the binomial name "
+"search— are case insensitive."
+msgstr ""
+
+#: ../../searching.rst:27
+msgid "Search by Value"
+msgstr "Пошук за значенням"
+
+#: ../../searching.rst:29
+msgid ""
+"Search by value is the simplest way to search. You enter one or more "
+"strings and see what matches. The result includes objects of any type "
+"(domain) where one or more of its fields contain one or more of the "
+"search strings."
+msgstr ""
+
+#: ../../searching.rst:33
+msgid ""
+"You don't specify the search domain, all are included, nor do you "
+"indicate which fields you want to match, this is implicit in the search "
+"domain."
+msgstr ""
+
+#: ../../searching.rst:36
+msgid ""
+"The following table helps you understand the results and guides you in "
+"formulating your searches."
+msgstr ""
+
+#: ../../searching.rst:42
+msgid "search domain overview"
+msgstr ""
+
+#: ../../searching.rst:44
+msgid "name and shorthands"
+msgstr ""
+
+#: ../../searching.rst:44
+msgid "field"
+msgstr ""
+
+#: ../../searching.rst:44
+msgid "result type"
+msgstr ""
+
+#: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
+#: ../../searching.rst:56
+msgid "name"
+msgstr ""
+
+#: ../../searching.rst:59
+#, fuzzy
+msgid ""
+"Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
+"2003.2.1, indica."
+msgstr "Приклади пошуку за значенням: Maxillaria, Acanth, 2008.1234, 2003.2.1"
+
+#: ../../searching.rst:62
+#, fuzzy
+msgid ""
+"Unless explicitly quoted, spaces separate search strings. For example if "
+"you search for ``Block 10`` then Ghini will search for the strings Block "
+"and 10 and return all the results that match either of these strings. If "
+"you want to search for Block 10 as one whole string then you should quote"
+" the string like ``\"Block 10\"``."
+msgstr ""
+"Рядок пошуку розділений пробілами. Наприклад, якщо ввести в рядок пошуку "
+"``Block 10`` то Ghini буде шукати рядки Block і 10 та поверне всі "
+"результати, які відповідають цим рядкам. Якщо ви хочете знайти "
+"безроздільно Block 10 у рядку, то ви повинні ввести в рядок пошуку, як "
+"цитату ``\"Block 10\"``."
+
+#: ../../searching.rst:68
+msgid "× Composite Primary Keys"
+msgstr ""
+
+#: ../../searching.rst:71
+msgid ""
+"A **species** epithet means little without the corresponding genus, "
+"likewise a **planting** code is unique only within the accession to which"
+" it belongs.  In database theory terminology, epithet and code are not "
+"sufficient to form a **primary key** for respectively species and "
+"planting. These domains need a **composite** primary key."
+msgstr ""
+
+#: ../../searching.rst:78
+msgid ""
+"Search by value lets you look for **plantings** by their complete "
+"planting code, which includes the accession code. Taken together, "
+"Accession code and Planting code do provide a **composite primary key** "
+"for plantings.  For **species**, we have introduced the binomial search, "
+"described below."
+msgstr ""
+
+#: ../../searching.rst:86
+msgid "Search by Expression"
+msgstr "Пошук за виразом"
+
+#: ../../searching.rst:88
+msgid ""
+"Searching with expression gives you a little more control over what you "
+"are searching for. You narrow the search down to a specific domain, the "
+"software defines which fields to search within the domain you specified."
+msgstr ""
+
+#: ../../searching.rst:92
+msgid ""
+"An expression is built as ``<domain> <operator> <value>``. For example "
+"the search: ``gen=Maxillaria`` would return all the genera that match the"
+" name Maxillaria. In this case the domain is ``gen``, the operator is "
+"``=`` and the value is ``Maxillaria``."
+msgstr ""
+
+#: ../../searching.rst:97
+msgid ""
+"The above search domain overview table tells you the names of the search "
+"domains, and, per search domain, which fields are searched."
+msgstr ""
+
+#: ../../searching.rst:100
+#, fuzzy, python-format
+msgid ""
+"The search string ``loc like block%`` would return all the Locations for "
+"which name or code start with \"block\".  In this case the domain is "
+"``loc`` (a shorthand for ``location``), the operator is ``like`` (this "
+"comes from SQL and allows for \"fuzzy\" searching), the value is "
+"``block%``, the implicitly matched fields are ``name`` and ``code``.  The"
+" percent sign is used as a wild card so if you search for ``block%`` then"
+" it searches for all values that start with max.  If you search for "
+"``%10`` it searches for all values that end in ``10``.  The string "
+"``%ck%10`` would search for all value that contain ``ck`` and end in "
+"``10``."
+msgstr ""
+"Рядок пошуку ``gen like max%`` буде повертати всі роди, чиї імена "
+"починаються з \"Max\". В цьому випадку доменом знову є gen, оператором є "
+"like, що дозволяє  \"вибірковий\" пошук і значенням є max%. Знак відсотка"
+" використовується в якості джокера, так якщо ви шукаєте max% то шукаються"
+" всі значення, які починаються з max. Якщо ви шукаєте %max шукаються всі "
+"значення, які закінчуються на max. Рядок %max% шукатиме всі значення, які"
+" містять max і в кінці а."
+
+#: ../../searching.rst:110
+msgid "When a query takes ages to complete"
+msgstr ""
+
+#: ../../searching.rst:113
+msgid ""
+"You give a query, it takes time to compute, the result contains "
+"unreasonably many entries.  This happens when you intend to use a "
+"strategy, but your strings do not form a valid expression.  In this case "
+"Ghini falls back to *search by value*. For example the search string "
+"``gen lik maxillaria`` will search for the strings ``gen``, ``lik``, and "
+"``maxillaria``, returning all that match at least one of the three "
+"criteria."
+msgstr ""
+
+#: ../../searching.rst:122
+msgid "Binomial search"
+msgstr ""
+
+#: ../../searching.rst:124
+msgid ""
+"You can also perform a search in the database if you know the species, "
+"just by placing a few initial letters of genus and species epithets in "
+"the search engine, correctly capitalized, i.e.: **Genus epithet** with "
+"one leading capital letter, **Species epithet** all lowercase."
+msgstr ""
+
+#: ../../searching.rst:129
+msgid "This way you can perform the search ``So ha``."
+msgstr ""
+
+#: ../../searching.rst:131
+msgid "These would be the initials for Solanum hayesii, or Solanum havanense."
+msgstr ""
+
+#: ../../searching.rst:133
+msgid ""
+"Binomial search comes to compensate the limited usefulness of the above "
+"search by expression when trying to look for a species."
+msgstr ""
+
+#: ../../searching.rst:136
+msgid ""
+"It is the correct capitalization **Xxxx xxxx** that informs the software "
+"of your intention to perform a binomial search.  The software's second "
+"guess will be a search by value, which will possibly result in far more "
+"matches than you had expected."
+msgstr ""
+
+#: ../../searching.rst:141
+msgid ""
+"The similar request ``so ha`` will return, in a fresh install, over 3000 "
+"objects, starting at Family \"Acalyp(**ha**)ceae\", ending at Geography "
+"\"Western (**So**)uth America\"."
+msgstr ""
+
+#: ../../searching.rst:147
+msgid "Search by Query"
+msgstr "Пошук по запиту"
+
+#: ../../searching.rst:149
+#, fuzzy
+msgid ""
+"Queries allow the most control over searching. With queries you can "
+"search across relations, specific columns, combine search criteria using "
+"boolean operators like ``and``, ``or``, ``not`` (and their shorthands "
+"``&&``, ``||``, ``!``), enclose them in parentheses, and more."
+msgstr ""
+"Запити дозволяють найбільший контроль над пошуком. З запитами ви можете "
+"здійснювати пошук по відносинам, конкретним стовпцям і об'єднати пошук з "
+"використанням логічних операторів, таких як AND і OR."
+
+#: ../../searching.rst:154
+msgid ""
+"Please contact the authors if you want more information, or if you "
+"volunteer to document this more thoroughly.  In the meanwhile you may "
+"start familiarizing yourself with the core structure of Ghini's database."
+msgstr ""
+
+#: ../../searching.rst:162
+msgid "A few examples:"
+msgstr ""
+
+#: ../../searching.rst:164
+msgid "plantings of family Fabaceae in location Block 10::"
+msgstr ""
+
+#: ../../searching.rst:168
+msgid "locations that contain no plants::"
+msgstr ""
+
+#: ../../searching.rst:172
+msgid ""
+"accessions associated to a species of known binomial name (e.g.: "
+"Mangifera indica)::"
+msgstr ""
+
+#: ../../searching.rst:176
+msgid "accessions we propagated in the year 2016::"
+msgstr ""
+
+#: ../../searching.rst:180
+msgid "accessions we modified in the last three days::"
+msgstr ""
+
+#: ../../searching.rst:184
+msgid ""
+"Searching with queries requires some knowledge of a little syntax and an "
+"idea of the extensive Ghini database table structure. Both you acquire "
+"with practice, and with the help of the Query Builder."
+msgstr ""
+
+#: ../../searching.rst:190
+msgid "The Query Builder"
+msgstr "Query Builder"
+
+#: ../../searching.rst:192
+#, fuzzy
+msgid ""
+"Ghini offers a Query Builder, that helps you build complex search queries"
+" through a point and click interface.  To open the Query Builder click "
+"the |querybuilder| icon to the left of the search entry or select "
+":menuselection:`Tools-->Query Builder` from the menu."
+msgstr ""
+"Query Builder дозволяє будувати складні пошукові запити через вказування "
+"і натискання в інтерфейсі. Для того, щоб відкрити Query Builder натисніть"
+" зліва від входу пошуку або виберіть :menuselection:`Tools-->Query "
+"Builder` в меню."
+
+#: ../../searching.rst:201
+msgid ""
+"A window will show up, which will lead you through all steps necessary to"
+" construct a correct query that is understood by Ghini's Query Search "
+"Strategy."
+msgstr ""
+
+#: ../../searching.rst:210
+msgid ""
+"First of all you indicate the search domain, this will allow the Query "
+"Builder complete its graphical user interface, then you add as many "
+"logical clauses as you need, connecting them with a ``and`` or ``or`` "
+"binary operator."
+msgstr ""
+
+#: ../../searching.rst:215
+msgid ""
+"Each clause is formed of three parts: a property that can be reached from"
+" the starting search domain, a comparison operator that you select from "
+"the drop-down list, a value that you can either type or select from the "
+"list of valid values for the field."
+msgstr ""
+
+#: ../../searching.rst:220
+#, fuzzy
+msgid ""
+"Add as many search properties as you need, by clicking on the plus sign. "
+"Select and/or next to the property name to choose how the clauses will be"
+" combined in the search query."
+msgstr ""
+"Якщо  необхідно кілька властивостей пошуку, натисніть на знак плюс що "
+"додасть більше властивостей пошуку. Виберіть And/Or поруч з ім'ям "
+"вибраних властивостей, для визначення, як властивості будуть об'єднані в "
+"пошуковому запиті."
+
+#: ../../searching.rst:224
+msgid "When you are done building your query click OK to perform the search."
+msgstr ""
+"Коли ви закінчите створення свого запиту натисніть кнопку OK, щоб "
+"виконати пошук."
+
+#: ../../searching.rst:226
+msgid ""
+"At this point the Query Builder writes the query in the search entry, and"
+" executes it. You may now edit the string as if you had typed it "
+"yourself. Notice how the left hand side values are interpreted by the "
+"query builder and enclosed in single quotes if recognized as strings, "
+"left alone if they look like numbers or the two reserved words ``None`` "
+"and ``Empty``. You may edit the query and insert quotes if you need them,"
+" eg if you need to literally look for the string ``Empty``."
+msgstr ""
+
+#: ../../searching.rst:234
+msgid ""
+"``None`` is the value of an empty field. It is not the same as the zero "
+"lenght string ``''`` nor the numeric ``0`` nor the boolean ``False`` nor "
+"the set ``Empty``, it indicates that the field has no value at all."
+msgstr ""
+
+#: ../../searching.rst:238
+msgid ""
+"``Empty`` is the empty set. Being it a set, it can be matched against "
+"sets (eg: plants of an accession, or accessions of a species), not "
+"against elements (eg: quantity of a plant or description of a location). "
+"However, the Query Builder does not let you choose a left hand side value"
+" stopping at a set, it expects you to select a field. Choose just any "
+"field: at the moment of producing the query, when the Query Builder meets"
+" a clause with right hand side value the literal string ``Empty``, it "
+"will drop the field name and let you compare the set on the left with "
+"``Empty`` on the right."
+msgstr ""
+
+#: ../../searching.rst:247
+msgid ""
+"We have no literals ``False`` and ``True``. These are typed values, and "
+"the Query Builder does not know how to produce them. Instead of ``False``"
+" type ``0``, and instead of ``True`` type ``1``."
+msgstr ""
+
+#: ../../searching.rst:253
+msgid "Query Grammar"
+msgstr ""
+
+#: ../../searching.rst:255
+msgid ""
+"For those who don't fear a bit of formal precision, the following BNF "
+"code gives you a rather precise idea of the grammar implemented by the "
+"Query Search Strategy.  Some grammatical categories are informally "
+"defined; any missing ones are left to your fertile imagination; literals "
+"are included in single quotes; the grammar is mostly case insensitive, "
+"unless otherwise stated::"
+msgstr ""
+
+#: ../../searching.rst:318
+msgid ""
+"Please be aware that Ghini's Query language is quite a bit more complex "
+"than what the Query Builder can produce: Queries you can build with the "
+"Query Builder form a proper subset of the queries recognized by the "
+"software::"
+msgstr ""
+
+#: ../../started.rst:2
+msgid "Initial Configuration"
+msgstr ""
+
+#: ../../started.rst:4
+msgid ""
+"After a successful installation, more complex organizations will need "
+"configure their database, and configure Ghini according to their database"
+" configuration. This page focuses on this task. If you don't know what "
+"this is about, please do read the part relative to SQLite."
+msgstr ""
+
+#: ../../started.rst:12
+msgid "Should you SQLite?"
+msgstr "У вас SQLite?"
+
+#: ../../started.rst:14
+msgid ""
+"Is this the first time you use Ghini, are you going to work in a stand-"
+"alone setting, you have not the faintest idea how to manage a database "
+"management system? If you answered yes to any of the previous, you "
+"probably better stick with SQLite, the easy, fast, zero-administration "
+"file-based database."
+msgstr ""
+
+#: ../../started.rst:20
+msgid ""
+"With SQLite, you do not need any preparation and you can continue with "
+"`connecting`_."
+msgstr ""
+"З SQLite, вам не потрібно ніякої підготовки, і ви можете продовжити "
+"`connecting`_."
+
+#: ../../started.rst:23
+#, fuzzy
+msgid ""
+"On the other hand, if you want to connect more than one bauble "
+"workstation to the same database, or if you want to make your data "
+"available for other clients, as could be a web server in a LAMP setting, "
+"you should consider keeping your database in a database management system"
+" like `PostgreSQL <http://www.postgresql.org>`_ or `MySQL/MariaDB "
+"<https://mariadb.org/>`_, both supported by Ghini."
+msgstr ""
+"З іншого боку, якщо ви хочете підключити більше однієї ghini робочої "
+"станції в одній і тій же базі даних, або якщо ви хочете, щоб ваші дані "
+"були доступними для інших клієнтів, як в налаштуванні LAMP веб сервера, "
+"ви повинні забезпечити зберігання бази даних в системі управління базами "
+"даних, як `PostgreSQL <http://www.postgresql.org>`_ або `MySQL/MariaDB "
+"<https://mariadb.org/>`_, обидва варіанти підтримуються Ghini."
+
+#: ../../started.rst:30
+#, fuzzy
+msgid ""
+"When connecting to a database server as one of the above, you have to "
+"manually create: at least one bauble user, the database you want bauble "
+"to use, and to give at lest one bauble user full permissions on its "
+"database. When this is done, Ghini will be able to proceed, creating the "
+"tables and importing the default data set.  The process is database-"
+"dependent and it falls beyond the scope of this manual."
+msgstr ""
+"При підключенні до сервера бази даних в якості одного з вище вказаного, "
+"ви повинні створити вручну: щонайменше одного користувача ghini, базу "
+"даних яку ви хочете використовувати, і надати повні права користувачеві "
+"ghini на цю базу даних. Коли це буде зроблено, Ghini матиме можливість "
+"продовжити, створення таблиць та імпорт набору даних за замовчуванням. "
+"Процес бази даних - залежить і виходить за рамки даного керівництва."
+
+#: ../../started.rst:37
+msgid ""
+"If you already got the chills or sick at your stomach, no need to worry, "
+"just stick with SQLite, you do not miss on features nor performance."
+msgstr ""
+"Якщо у вас вже є озноб або біль в животі, немає необхідності турбуватися,"
+" просто тримайтеся SQLite, ви не зазнаєте невдачі на особливостях, ні в "
+"продуктивності."
+
+#: ../../started.rst:43
+msgid "Connecting to a database"
+msgstr "Підключення до бази даних"
+
+#: ../../started.rst:45
+#, fuzzy
+msgid ""
+"When you start Ghini the first thing that comes up is the connection "
+"dialog."
+msgstr "При запуску Ghini вперше спливає діалогове вікно підключення."
+
+#: ../../started.rst:48
+#, fuzzy
+msgid ""
+"Quite obviously, if this is the first time you start Ghini, you have no "
+"connections yet and Ghini will alert you about it."
+msgstr ""
+"Цілком очевидно, що, якщо це перший раз, коли ви запускаєте Ghini, у вас "
+"немає ще підключення і Ghini попередить вас про це."
+
+#: ../../started.rst:53
+msgid ""
+"This alert will show at first activation and also in the future if your "
+"connections list becomes empty. As it says: click on **Add** to create "
+"your first connection."
+msgstr ""
+
+#: ../../started.rst:59
+msgid ""
+"Just insert a name for your connection, something meaningful you "
+"associate with the collection to be represented in the database (for "
+"example: “my home garden”), and click on **OK**. You will be back to the "
+"previous screen, but your connection name will be selected and the "
+"Connection Details will have expanded."
+msgstr ""
+"Просто вставте ім'я для підключення, щось значуще що ви асоціюєте з "
+"колекцією для представлення в базі даних (наприклад: «мій домашній сад») "
+"і натисніть **OK**. Ви повернетеся до попереднього екрана, але ваше ім'я "
+"з'єднання буде обрано і Деталі Підключення будуть розширені."
+
+#: ../../started.rst:67
+msgid "**specify the connection details**"
+msgstr "**вказати параметри з'єднання**"
+
+#: ../../started.rst:69
+#, fuzzy
+msgid ""
+"If you do not know what to do here, Ghini will help you stay safe. "
+"Activate the **Use default locations** check box and create your first "
+"connection by clicking on **Connect**."
+msgstr ""
+"Якщо ви не знаєте, що робити тут, Ghini допоможе вам залишатися в "
+"безпеці. Активуйте **Використання розташування за замовчуванням** шляхом "
+"встановлення прапорця і створіть перше з'єднання, натиснувши на "
+"**Підключення**."
+
+#: ../../started.rst:72
+msgid ""
+"You may safely skip the remainder of this section for the time being and "
+"continue reading to the following section."
+msgstr ""
+"На даний момент ви можете сміливо пропустити решту цього розділу і "
+"продовжити читати наступний розділ."
+
+#: ../../started.rst:75
+msgid "**fine-tune the connection details**"
+msgstr "**точно налаштувати  деталі з'єднання**"
+
+#: ../../started.rst:77
+#, fuzzy
+msgid ""
+"By default Ghini uses the file-based SQLite database.  During the "
+"installation process you had the choice (and you still have after "
+"installation), to add database connectors other than the default SQLite."
+msgstr ""
+"За замовчуванням Ghini  використовує файл бази даних на основі SQLite. В "
+"процесі установки у вас був вибір (і він у вас залишається і після "
+"установки), додати інші, ніж SQLite за замовчуванням з'єднувачі бази "
+"даних."
+
+#: ../../started.rst:81
+#, fuzzy
+msgid ""
+"In this example, Ghini can connect to SQLite, PostgreSQL and MySQL, but "
+"no connector is available for Oracle or MS SQL Server."
+msgstr ""
+"У цьому прикладі, Ghini може підключитися до SQLite,  PostgreSQL і MySQL,"
+" але немає з'єднувачів доступних для Oracle або MS SQL Server."
+
+#: ../../started.rst:86
+#, fuzzy
+msgid ""
+"If you use SQLite, all you really need specify is the connection name. If"
+" you let Ghini use the default filename then Ghini creates a database "
+"file with the same name as the connection and ``.db`` extension, and a "
+"pictures folder with the same name and no extension, both in "
+"``~/.bauble`` on Linux/MacOSX or in ``AppData\\Roaming\\Bauble`` on "
+"Windows."
+msgstr ""
+"Якщо ви використовуєте SQLite, все, що вам дійсно потрібно це вказати "
+"ім'я з'єднання. Якщо ви дозволите Ghini  використовувати ім'я файлу за "
+"замовчуванням, то Ghini  створює файл бази даних з тим же ім'ям, що і "
+"з'єднання і ``.db`` розширення, і папку зображень з таким же ім'ям і без "
+"розширення, як в ``~/.bauble``в Linux/MacOSX або в "
+"``AppData\\Roaming\\Bauble`` в Windows."
+
+#: ../../started.rst:92
+#, fuzzy
+msgid ""
+"Still with SQLite, you might have received or downloaded a bauble "
+"database, and you want to connect to it. In this case you do not let "
+"Ghini use the default filename, but you browse in your computer to the "
+"location where you saved the Ghini SQLite database file."
+msgstr ""
+"Проте з SQLite, ви, можливо, отримали або завантажили bauble базу даних, "
+"і ви хочете підключитися до неї. В цьому випадку ви не дозволяєте Ghini "
+"використовувати ім'я файлу за замовчуванням, лише перегляньте на "
+"комп'ютері в тому місці, де ви зберегли Ghini SQLite файл бази даних."
+
+#: ../../started.rst:97
+msgid ""
+"If you use a different database connector, the dialog box will look "
+"different and it will offer you the option to fine tune all parameters "
+"needed to connect to the database of your choice."
+msgstr ""
+"Якщо ви використовуєте інше з'єднання бази даних, діалогове вікно буде "
+"виглядати по-іншому і вам запропонують варіант для точної настройки всіх "
+"параметрів необхідних для підключення до бази даних за вашим вибором."
+
+#: ../../started.rst:101
+#, fuzzy
+msgid ""
+"If you are connecting to an existing database you can continue to :ref"
+":`editing-and-inserting-data` and subsequently :ref:`searching-in-"
+"bauble`, otherwise read on to the following section on initializing a "
+"database for Ghini."
+msgstr ""
+"При підключенні до існуючої бази даних ви можете продовжувати :ref"
+":`editing-and-inserting-data` і згодом :ref:`searching-in-bauble`, в "
+"іншому випадку читайте далі в наступному розділі про ініціалізацію бази "
+"даних для Ghini."
+
+#: ../../started.rst:106
+msgid ""
+"If you plan to associate pictures to plants, specify also the *pictures "
+"root* folder. The meaning of this is explained in further detail at :ref"
+":`plant-pictures` in :ref:`editing-and-inserting-data`."
+msgstr ""
+"Якщо ви плануєте пов'язати фотографії з установкою, вкажіть *pictures "
+"root* папку. Сенс цього пояснено більш детально в :ref:`editing-and-"
+"inserting-data`."
+
+#: ../../started.rst:113
+msgid "Initialize a database"
+msgstr "Ініціалізувати базу даних"
+
+#: ../../started.rst:115
+#, fuzzy
+msgid ""
+"First time you open a connection to a database which had never been seen "
+"by Ghini before, Ghini will first display an alert:"
+msgstr ""
+"Коли ви відкриваєте з'єднання з базою даних, яка не відмічена в Ghini "
+"перший раз, Ghini спочатку відобразить оповіщення:"
+
+#: ../../started.rst:120
+msgid "immediately followed by a question:"
+msgstr "відразу слідує запитання:"
+
+#: ../../started.rst:124
+#, fuzzy
+msgid ""
+"Be careful when manually specifying the connection parameters: the values"
+" you have entered may refer to an existing database, not intended for use"
+" with Ghini. By letting Ghini initialize a database, the database will be"
+" emptied and all of its content be lost."
+msgstr ""
+"Будьте обережні, коли вручну, вказуєте параметри з'єднання: значення, які"
+" ви ввели і відсилатися до існуючої бази даних, можуть бути не призначені"
+" для використання в Ghini."
+
+#: ../../started.rst:129
+#, fuzzy
+msgid ""
+"If you are sure you want to create a database at this connection then "
+"select \"Yes\". Ghini will then start creating the database tables and "
+"importing the default data. This can take a minute or two so while all of"
+" the default data is imported into the database so be patient."
+msgstr ""
+"Якщо ви впевнені, що хочете створити базу даних з цим підключенням "
+"виберіть \"Так\". Ghini приступить до створення таблиць бази даних та "
+"імпорту даних за замовчуванням."
+
+#: ../../started.rst:134
+msgid ""
+"Once your database has been created, configured, initialized, you are "
+"ready to start :ref:`editing-and-inserting-data` and subsequently :ref"
+":`searching-in-bauble`."
+msgstr ""
+"Після того, як база даних була створена, налаштована,ініціалізована, ви "
+"готові до запуску :ref:`editing-and-inserting-data` і згодом :ref"
+":`searching-in-bauble`."
+
+#: ../../statements.rst:2
+msgid "Mission & Vision"
+msgstr ""
+
+#: ../../statements.rst:4
+msgid ""
+"Here we state who we are, what we think of our work, what you can expect "
+"of this project."
+msgstr ""
+
+#: ../../statements.rst:8
+msgid "Who is behind Ghini"
+msgstr ""
+
+#: ../../statements.rst:10
+msgid ""
+"Ghini started as a one-man project, by Brett Adams. He started this "
+"software as Bauble, for and at the Belize Botanical Garden, and later on "
+"adapted it to the needs of a couple of other users who asked him. Brett "
+"made Bauble a commons, by releasing it under a GPL license."
+msgstr ""
+
+#: ../../statements.rst:15
+msgid ""
+"After some years of stagnation Mario Frasca took responsibility of "
+"updating Bauble, rebranded it to Ghini, in honour of Luca Ghini, started "
+"adocating, travelling, distributing, developing, documenting it, and it "
+"is now Mario Frasca writing this, enhancing the software, looking for "
+"users, requesting feedback..."
+msgstr ""
+
+#: ../../statements.rst:21
+msgid ""
+"So currently behind Ghini there's not only one developer, but much more "
+"importantly, a small but growing global users community."
+msgstr ""
+
+#: ../../statements.rst:24
+msgid ""
+"Translations are provided by volunteers who mostly stay behind the "
+"scenes, translating a couple of missing terms or sentences, and "
+"disappearing again."
+msgstr ""
+
+#: ../../statements.rst:27
+msgid ""
+"To make things clearer when we speak of Ghini, but should—and in this "
+"document we will—indicate whether it's Ghini(the software), or Ghini(the "
+"people), unless obviously we mean both things."
+msgstr ""
+
+#: ../../statements.rst:32
+msgid "Mission"
+msgstr ""
+
+#: ../../statements.rst:34
+msgid ""
+"The Mission Statement is a purpose, it defines the rationale of an entity"
+" and is specific and true. For Ghini, the Mission Statement sets out the "
+"social order to which Ghini is committed, the needs that are satisfied "
+"with Ghini(the software) and with the services of Ghini(the people), the "
+"market in which Ghini develops and its intended public image."
+msgstr ""
+
+#: ../../statements.rst:40
+msgid "access to software"
+msgstr ""
+
+#: ../../statements.rst:41
+msgid "access to development"
+msgstr ""
+
+#: ../../statements.rst:42
+msgid "bundling resources"
+msgstr ""
+
+#: ../../statements.rst:43
+msgid "open source"
+msgstr ""
+
+#: ../../statements.rst:44
+msgid "open data"
+msgstr ""
+
+#: ../../statements.rst:45
+msgid "community forming"
+msgstr ""
+
+#: ../../statements.rst:48
+msgid "Vision"
+msgstr ""
+
+#: ../../statements.rst:50
+msgid ""
+"The Vision serves to indicate the way ahead and projects a future image "
+"of what we want our organization to be, in a realistic and attractive "
+"way.  It serves as motivation because it visualizes the challenge and "
+"direction of necessary changes in order to grow and prosper."
+msgstr ""
+
+#: ../../statements.rst:55
+msgid "by the year 2020"
+msgstr ""
+
+#: ../../statements.rst:56
+msgid "reference point"
+msgstr ""
+
+#: ../../statements.rst:57
+msgid "community"
+msgstr ""
+
+#: ../../statements.rst:58
+msgid "development"
+msgstr ""
+
+#: ../../statements.rst:59
+msgid "integration with web portal"
+msgstr ""
+
+#: ../../statements.rst:60
+msgid "geographic information"
+msgstr ""
+
+#: ../../tagging.rst:2
+msgid "Tagging"
+msgstr "Тегування"
+
+#: ../../tagging.rst:4
+msgid ""
+"Tagging is an easy way to give context to an object or create a "
+"collection of object that you want to recall later. For example if you "
+"want to collect a bunch of plants that you later want to create a report "
+"from you can tag them with the string \"for that report i was thinking "
+"about\". You can then select \"for that report i was thinking about\" "
+"from the tags menu to show you all the objects you tagged."
+msgstr ""
+"Тегування найпростіший спосіб додати контекст для об'єкта або створити "
+"колекцію об'єктів, до яких ви хочете вернутися пізніше. Наприклад, якщо "
+"ви хочете зібрати групу рослин, з яких пізніше хочете створити звіт, ви "
+"можете позначати їх рядком \"для цього звіту я подумаю пізніше\". Ви "
+"можете вибрати \"для цього звіту я подумаю пізніше\" з меню тег, щоб "
+"показати вам всі об'єкти тегу."
+
+#: ../../tagging.rst:11
+msgid ""
+"Tagging can be done two ways. By selecting one or more items in the "
+"search results and pressing Ctrl-T or by selecting "
+":menuselection:`Tag-->Tag Selection` from the menu. If you have selected "
+"multiple items then only that tags that are common to all the selected "
+"items will have a check next to it."
+msgstr ""
+"Тегування може бути зроблено двома способами. Вибравши один або більше "
+"даних в результатах пошуку і натиснувши Ctrl-T або вибравши "
+":menuselection:`Tag-->Tag Selection`в меню. Якщо ви вибрали декілька "
+"елементів то тільки ті теги, що загальні для всіх вибрані елементи будуть"
+" мати мітку поруч з ними."
+
+#: ../../users.rst:2
+msgid "Managing Users"
+msgstr "Управління користувачами"
+
+#: ../../users.rst:4
+#, fuzzy
+msgid "The Ghini users plugin is only available on PostgreSQL based databases."
+msgstr "Використання плагіна The Ghini доступне тільки в базах даних PostgreSQL."
+
+#: ../../users.rst:7
+#, fuzzy
+msgid ""
+"The Ghini User's Plugin will allow you to create and manage the "
+"permissions of users for your Ghini database."
+msgstr ""
+"Плагін Ghini User дозволить вам створювати і управляти дозволами "
+"користувачів в вашій базі даних Ghini."
+
+#: ../../users.rst:11
+msgid "Creating Users"
+msgstr "Створення користувачів"
+
+#: ../../users.rst:12
+msgid "To create a new user..."
+msgstr "Для створення нового користувача ..."
+
+#: ../../users.rst:16
+msgid "Permissions"
+msgstr "Дозволи"
+
+#: ../../users.rst:17
+#, fuzzy
+msgid "Ghini allows read, write and execute permissions."
+msgstr "Ghini дозволяє читати, писати і виконувати дозволи."
+
+#: ../../user_stories.rst:3
+msgid "representing the planned space"
+msgstr ""
+
+#: ../../user_stories.rst:5
+msgid ""
+"Botanic gardens are mostly organized in beds and greenhouses, and larger "
+"beds are probably organized in smaller sections, while greenhouses might "
+"be organized in tables, shelves, walls."
+msgstr ""
+
+#: ../../user_stories.rst:9
+msgid ""
+"In the above software view on garden data, the numeric indications at "
+"either end of the line connecting ``Location`` and ``Planting`` tells us "
+"that every ``Planting`` can only belong to exactly one (1) ``Location``, "
+"while every ``Location`` may contain zero or more (0..n) ``Plantings``."
+msgstr ""
+
+#: ../../user_stories.rst:14
+msgid ""
+"A consequence of this constraint in the database is that your database "
+"needs ``Locations`` in order to place ``Plants`` in the garden, so a good"
+" practice is to start by entering a database ``Location`` for every "
+"physical bed section, greenhouse table, or whatever might be the basic "
+"location unit in your garden."
+msgstr ""
+
+#: ../../user_stories.rst:21
+msgid "accepting a plant in the collection"
+msgstr ""
+
+#: ../../user_stories.rst:23
+msgid ""
+"When a plant (or a group of genetically identical plants) enters the "
+"collection,"
+msgstr ""
+
+#: ../../user_stories.rst:26
+msgid "building the history of a living plant"
+msgstr ""
+
+#: ../../user_stories.rst:29
+msgid "managing contacts"
+msgstr ""
+
+#: ../../user_stories.rst:32
+msgid "adding a taxonomist's opinion"
+msgstr ""
+
+#: ../../user_stories.rst:35
+msgid "reproducing plants"
+msgstr ""
+
+#: ../../user_stories.rst:38
+msgid "updating taxonomy tree"
+msgstr ""
+
+#: ../../user_stories.rst:41
+msgid "producing report"
+msgstr ""
+
+#: ../../user_stories.rst:44
+msgid "engraving labels"
+msgstr ""
+
+#~ msgid "structure of user interface"
+#~ msgstr "структура інтерфейсу користувача"
+
+#~ msgid ""
+#~ "the user interface is built according"
+#~ " to the Model-View-Presenter "
+#~ "architectural pattern.  The **view** is "
+#~ "described in a glade file and is"
+#~ " totally dumb, you do not subclass"
+#~ " it because it implements no "
+#~ "behaviour and because its appearance is,"
+#~ " as said, described elsewhere, including"
+#~ " the association signal-callbacks. The "
+#~ "**model** simply follows the sqlalchemy "
+#~ "practices."
+#~ msgstr ""
+#~ "Інтерфейс користувача побудований відповідно з"
+#~ " архітектурним зразком Model-View-"
+#~ "Presenter. **view** описується в glade "
+#~ "файлі і повністю в dumb, ви не "
+#~ "зробити підкласи з цього тому що "
+#~ "він не реалізує поводження і тому, "
+#~ "що його зовнішній вигляд, як було "
+#~ "сказано, описано в іншому місці, в "
+#~ "тому числі асоціації сигналів зворотних "
+#~ "викликів. **model** просто слідує SQLAlchemy"
+#~ " методу."
+
+#~ msgid "You will subclass the **presenter** in order to:"
+#~ msgstr "Ваші підкласи **presenter** для того, щоб:"
+
+#~ msgid ""
+#~ "define ``widget_to_field_map``, the association "
+#~ "from name of view object to name"
+#~ " of model attribute,"
+#~ msgstr ""
+#~ "визначити ``widget_to_field_map``, асоціація з "
+#~ "ім'ям виду об'єкта для імені атрибута"
+#~ " моделі,"
+
+#~ msgid ""
+#~ "override ``view_accept_buttons``, the list of"
+#~ " widget names which, if activated by"
+#~ " the user, mean that the view "
+#~ "should be closed,"
+#~ msgstr ""
+#~ "анулювати ``view_accept_buttons``, список віджет "
+#~ "імен які активовані користувачем, означає, "
+#~ "що представлення повинно бути закрите,"
+
+#~ msgid "define all needed callbacks,"
+#~ msgstr "визначити всі необхідні функції зворотного виклику,"
+
+#~ msgid ""
+#~ "The presenter should not know of "
+#~ "the internal structure of the view, "
+#~ "instead, it should use the view "
+#~ "api to set and query the values"
+#~ " inserted by the user. The base "
+#~ "class for the presenter, "
+#~ "``GenericEditorPresenter`` defined in "
+#~ "``bauble.editor``, implements many generic "
+#~ "callbacks."
+#~ msgstr ""
+#~ "Презентатор не повинен знати про "
+#~ "внутрішню структуру представлення, замість "
+#~ "цього, він повинен використовувати "
+#~ "представлення api для установки і запиту"
+#~ " значень, вставлених користувачем. Базовий "
+#~ "клас для презентатора, ``GenericEditorPresenter``"
+#~ " визначений в ``bauble.editor``, реалізує "
+#~ "багато загальних функцій зворотного виклику."
+
+#~ msgid "Model and Presenter can be unit tested, not the View."
+#~ msgstr "Модель і Презентатор можуть бути протестовані, а не подання."
+
+#~ msgid ""
+#~ "The ``Tag`` plugin is a good "
+#~ "minimal example, even if the "
+#~ "``TagItemGUI`` falls outside this description."
+#~ " Other plugins do not respect the "
+#~ "description."
+#~ msgstr ""
+#~ "``Tag`` плагін хороший мінімальний приклад,"
+#~ " навіть якщо ``TagItemGUI`` виходить за "
+#~ "межі цього опису. Інші плагіни не "
+#~ "відносяться до опису."
+
+#~ msgid ""
+#~ "We use the same architectural pattern"
+#~ " for non-database interaction, by "
+#~ "setting the presenter also as model. "
+#~ "We do this, for example, for the"
+#~ " JSON export dialog box."
+#~ msgstr ""
+#~ "Ми використовуємо той же архітектурний "
+#~ "зразок для взаємодії без бази даних, "
+#~ "встановивши презентатор також в якості "
+#~ "моделі. Ми робимо це, наприклад, для "
+#~ "вікна діалогу експорту JSON."
+
+#~ msgid "building (on Windows)"
+#~ msgstr "будування (в Windows)"
+
+#~ msgid ""
+#~ "Building a python program is a bit"
+#~ " of a contraddiction.  You don't "
+#~ "normally *build* nor *compile* a python"
+#~ " program, you run it in its "
+#~ "(virtual) environment, and python will "
+#~ "process the modules loaded and produce"
+#~ " faster-loading *compiled* python files."
+#~ "  You can, however, produce a "
+#~ "*Windows executable* from a python "
+#~ "script, executable containing the whole "
+#~ "python environment and dependencies."
+#~ msgstr ""
+#~ "Побудова програм python є трохи "
+#~ "contraddiction. Ви зазвичай не *build* "
+#~ "ні *compile* програму python, ви "
+#~ "запустите його в (віртуальному) середовищі,"
+#~ " і python буде обробляти завантажені "
+#~ "модулі і виробляє більш швидку загрузку"
+#~ " *compiled* python файлів. Можна, однак,"
+#~ " зробити *Windows executable* з python "
+#~ "скрипт, виконуваний файл, який містить "
+#~ "все python середовище і залежності."
+
+#~ msgid ""
+#~ "Follow all steps needed to set up"
+#~ " a working Bauble environment from "
+#~ ":doc:`installing`, but skip the final "
+#~ "``install`` step."
+#~ msgstr ""
+#~ "Виконайте всі кроки, необхідні для "
+#~ "налаштування середовища робочої Bauble з "
+#~ ":doc:`installing`, але пропустіть фінальний "
+#~ "крок ``install``."
+
+#~ msgid ""
+#~ "instead of *installing* Bauble, you "
+#~ "produce a Windows executable.  This is"
+#~ " achieved with the ``py2exe`` target, "
+#~ "which is only available on Windows "
+#~ "systems::"
+#~ msgstr ""
+#~ "Замість *installing* Bauble, ви створюєте "
+#~ "виконуваний файл Windows. Це досягається "
+#~ "за допомогою ``py2exe``, що доступно "
+#~ "тільки в системах Windows::"
+
+#~ msgid "At this point you can run Bauble.  To run the compiled executable run::"
+#~ msgstr ""
+#~ "На цьому етапі ви можете запустити "
+#~ "Bauble. Для запуску скомпільованого "
+#~ "виконуваного файлу запустити::"
+
+#~ msgid "or copy the executable to wherever you think appropriate."
+#~ msgstr "або скопіювати виконуваний файл туди, куди ви вважаєте доречними."
+
+#~ msgid ""
+#~ "To optionally build an NSIS installer"
+#~ " package you must install NSIS from"
+#~ " `nsis.sourceforge.net "
+#~ "<http://nsis.sourceforge.net/Download>`_.  After "
+#~ "installing NSIS right click on "
+#~ "``.\\scripts\\build.nsi`` in Explorer and "
+#~ "select *Compile NSIS Script*."
+#~ msgstr ""
+#~ "Щоб додатково створити інсталяційний пакет "
+#~ "NSIS, ви повинні встановити NSIS з "
+#~ "`nsis.sourceforge.net <http://nsis.sourceforge.net/Download>`_."
+#~ " Після установки NSIS правою кнопкою "
+#~ "миші натисніть ``.\\scripts\\build.nsi`` в "
+#~ "Провіднику і виберіть *Compile NSIS "
+#~ "Script*."
+
+#~ msgid "Using Bauble"
+#~ msgstr "Використання Bauble"
+
+#~ msgid ""
+#~ "The Windows installer used to be a"
+#~ " \"batteries-included\" installer, installing "
+#~ "everything needed to run Bauble.  The"
+#~ " current maintainer of bauble.classic "
+#~ "cannot run Windows applications. If you"
+#~ " want to run the latest version "
+#~ "of bauble on Windows: download and "
+#~ "install the dependencies and then "
+#~ "install Bauble from the source package."
+#~ msgstr ""
+#~ "Інсталятор Windows використовується для "
+#~ "\"batteries-included\" установки, встановлює все"
+#~ " необхідне для запуску Bauble. Поточний "
+#~ "супроводжуючий bauble.classic не може "
+#~ "запускати додатки Windows. Якщо ви "
+#~ "хочете, щоб запустити останню версію "
+#~ "bauble на Windows: завантажте і "
+#~ "встановіть залежність, а потім встановіть "
+#~ "Bauble з вихідного пакета."
+
+#~ msgid ""
+#~ "you can now start bauble using the"
+#~ " ``bauble.lnk`` shortcut that the "
+#~ "installation procedure copies to the "
+#~ "``Scripts`` directory of the virtual "
+#~ "environment::"
+#~ msgstr ""
+#~ "Тепер ви можете запустити bauble за "
+#~ "допомогою ``bauble.lnk`` ярлика, що процедура"
+#~ " установки копіює в каталог ``Scripts`` "
+#~ "віртуального середовища::"
+
+#~ msgid "What are the packages that are installed by Bauble:"
+#~ msgstr "Пакети встановлені Bauble:"
+
+#~ msgid "The following packages are required by Bauble"
+#~ msgstr "Наступні пакети потрібні Bauble"
+
+#~ msgid "The following packages are optional:"
+#~ msgstr "Наступні пакети не є обов'язковими:"
+
+#~ msgid "Mako - required by the template based report generator"
+#~ msgstr "Mako - потрібно генератор звітів на основі шаблону"
+
+#~ msgid "gdata - required by the Picasa photos InfoBox"
+#~ msgstr "gdata - потрібно Picasa фотографії InfoBox"
+
+#~ msgid "Couldn't install lxml."
+#~ msgstr "Не вдалося встановити lxml."
+
+#~ msgid ""
+#~ "The lxml packages have to be "
+#~ "compile with a C compiler. If you"
+#~ " don't have a Make sure the "
+#~ "libxml and libxsl packages are "
+#~ "installed.  Installing the Cython packages."
+#~ "  On Linux you will have to "
+#~ "install the gcc package.  On Windows "
+#~ "there should be a precompiled version"
+#~ " available at http://pypi.python.org/pypi/lxml/2.1.1"
+#~ msgstr ""
+#~ "Пакети lxml повинні компілюватись з С"
+#~ " компілятором. Якщо у вас немає "
+#~ "переконайтеся, що встановлені  libxml і "
+#~ "libxsl пакети. Установіть пакети Cython. "
+#~ "У Linux вам доведеться встановити gcc"
+#~ " пакет. У Windows повинна бути "
+#~ "прекомпілірована версія доступна на "
+#~ "http://pypi.python.org/pypi/lxml/2.1.1"
+
+#~ msgid ""
+#~ "You can study the script to see"
+#~ " what steps if runs for you. In"
+#~ " short it will install dependencies "
+#~ "which can't be satisfied in a "
+#~ "virtual environment, then it will create"
+#~ " a virtual environment named `bacl`, "
+#~ "download the sources and connect your"
+#~ " git checkout to the `bauble-1.0` "
+#~ "branch (this you can consider a "
+#~ "production line), it then builds bauble,"
+#~ " downloading all remaining dependencies, "
+#~ "and finally it creates a startup "
+#~ "script in your `~/bin` folder."
+#~ msgstr ""
+#~ "Ви можете вивчити сценарій щоб побачити,"
+#~ " які кроки виконуються для вас. "
+#~ "Коротше кажучи буде встановлювати залежності,"
+#~ " які не можуть бути задоволені в "
+#~ "віртуальному середовищі, що створить "
+#~ "віртуальне середовище з ім'ям `bacl`, "
+#~ "загрузити джерела і підключити git "
+#~ "перевірку для `bauble-1.0` відділення (це "
+#~ "можна розглядати як виробничу лінію), "
+#~ "яка будує bauble, завантаження всіх "
+#~ "інших залежностей, і, нарешті, він "
+#~ "створює скрипт запуску в `~ / bin`"
+#~ " папці."
+
+#~ msgid ""
+#~ "One difficulty is that there are "
+#~ "many more versions of MacOSX out "
+#~ "there than one would want to "
+#~ "support, and only the current and "
+#~ "its immediately preceding release are "
+#~ "kept up-to-date by Apple-the-"
+#~ "firm."
+#~ msgstr ""
+#~ "Трудність полягає в тому, що існує "
+#~ "не одна а безліч версій MacOSX, що"
+#~ " б всіх їх підтримати, і тільки "
+#~ "поточний і попередній випуск up-to-"
+#~ "date Apple-the-firm."
+
+#~ msgid ""
+#~ "When you first start Bauble, and "
+#~ "connect to a database, Bauble will "
+#~ "initialize the database not only with"
+#~ " all tables it needs to run, "
+#~ "but it will also populate the "
+#~ "taxon tables for ranks family and "
+#~ "genus, using the data from the "
+#~ "“RBG Kew's Family and Genera list "
+#~ "from Vascular Plant Families and Genera"
+#~ " compiled by R. K. Brummitt and "
+#~ "published by the Royal Botanic Gardens,"
+#~ " Kew in 1992”.  In 2015 we have"
+#~ " reviewed the data regarding the "
+#~ "Orchidaceae, using “Tropicos, botanical "
+#~ "information system at the Missouri "
+#~ "Botanical Garden - www.tropicos.org” as "
+#~ "a source."
+#~ msgstr ""
+#~ "При першому запуску Bauble, і підключені"
+#~ " до бази даних, Bauble буде "
+#~ "форматувати базу даних не тільки з "
+#~ "усіма таблицями, необхідними для роботи, "
+#~ "але вона також заповнить класифікаційні "
+#~ "таблиці для рангів сім'ї і роду, "
+#~ "використовуючи дані з “RBG Kew's Family"
+#~ " and Genera list from Vascular Plant"
+#~ " Families and Genera compiled by R."
+#~ " K. Brummitt and published by the "
+#~ "Royal Botanic Gardens, Kew in 1992”. "
+#~ "У 2015 році ми розглянули дані, що"
+#~ " стосуються Orchidaceae використовуючи  "
+#~ "“Tropicos, botanical information system at "
+#~ "the Missouri Botanical Garden - "
+#~ "www.tropicos.org” як джерело."
+
+#~ msgid ""
+#~ "Bauble will let you import any "
+#~ "data you put in an intermediate "
+#~ "json format. What you import will "
+#~ "complete what you already have in "
+#~ "the database. If you need help, "
+#~ "you can ask some Bauble professional "
+#~ "to help you transform your data "
+#~ "into Bauble's intermediate json format."
+#~ msgstr ""
+#~ "дозволить вам імпортувати будь-які дані, "
+#~ "які ви встановите в проміжному форматі"
+#~ " json. Те, що ви імпортуєте завершить"
+#~ " те що ви уже маєте в базі "
+#~ "даних. Якщо вам потрібна допомога, ви"
+#~ " можете звернутися до професіоналів  "
+#~ "Bauble, щоб допомогли вам перетворити "
+#~ "ваші дані в Bauble's проміжний json "
+#~ "формат."
+
+#~ msgid ""
+#~ "Installing Bauble on Windows is an "
+#~ "easy and linear process, it will "
+#~ "not take longer than 10 minutes. "
+#~ "Bauble was born on Linux and "
+#~ "installing it on ubuntu, fedora or "
+#~ "debian is also rather simple. It "
+#~ "has been recently successfully tested on"
+#~ " MacOSX 10.9."
+#~ msgstr ""
+#~ "Установка Bauble на Windows, являє собою"
+#~ " простий і лінійний процес, це займе"
+#~ " не більше 10 хвилин. Bauble був "
+#~ "створений під Linux і встановити його"
+#~ " в ubuntu, fedora або debian, також"
+#~ " є досить простим. Вана була недавно"
+#~ " успішно протестована на MacOSX 10.9."
+
+#~ msgid ""
+#~ "Bauble is continuously and extensively "
+#~ "unit tested, something that makes "
+#~ "regression of functionality close to "
+#~ "impossible. Every update is automatically "
+#~ "quality checked, on the Travis "
+#~ "Continuous Integration service. Integration of"
+#~ " TravisCI with the github platform "
+#~ "will make it difficult for us to"
+#~ " release anything which has a single"
+#~ " failing unit test."
+#~ msgstr ""
+#~ "Bauble безперервно і ретельно протестована,"
+#~ " що робить регресію функціональності майже"
+#~ " неможливою. Кожне оновлення автоматично "
+#~ "перевіряється на якість, службою Travis "
+#~ "Continuous Integration. Інтеграція TravisCI з"
+#~ " github платформою ускладнить для нас "
+#~ "випустити що-не-будь для одного вдалого "
+#~ "модульного тестування."
+
+#~ msgid ""
+#~ "Three are three types of search "
+#~ "strategies available in Bauble. Considering"
+#~ " the search stragety types available "
+#~ "in Bauble, sorted in increasing "
+#~ "complexity: you can search by value, "
+#~ "expression or query."
+#~ msgstr ""
+#~ "Три з трьох стратегій пошуку доступні"
+#~ " в Bauble. Взагалі типи стратегій "
+#~ "пошуку доступних в Bauble, сортуються за"
+#~ " зростанням складності: ви можете "
+#~ "здійснювати пошук за значенням, виразом "
+#~ "або запитом."
+
+#~ msgid ""
+#~ "Searching by query, the most complex "
+#~ "and powerful, is assisted by the "
+#~ "Query Builder, described below."
+#~ msgstr ""
+#~ "Пошук за запитом, найскладніший і "
+#~ "потужний, за допомогою Query Builder, як"
+#~ " описано нижче."
+
+#~ msgid ""
+#~ "All searches are case insensitive so "
+#~ "searching for Maxillaria and maxillaria "
+#~ "will return the same results."
+#~ msgstr ""
+#~ "Всі пошуки нечутливі до реєстру, тому"
+#~ " пошук Maxillaria і maxillaria поверне "
+#~ "однакові результати."
+
+#~ msgid ""
+#~ "Search by value is the simplest "
+#~ "way to search. You just type in"
+#~ " a string and see what matches. "
+#~ "Which fields/columns are search for your"
+#~ " string depends on how the different"
+#~ " plugins are configured. For example, "
+#~ "by default the PlantPlugin search the"
+#~ " family name, the genus name, the "
+#~ "species and infraspecific species names, "
+#~ "vernacular names and geography. So if"
+#~ " you want to search in the "
+#~ "notes field of any of these types"
+#~ " then searching by value is not "
+#~ "the search you're looking for."
+#~ msgstr ""
+#~ "Пошук за значенням є найпростішим "
+#~ "способом пошуку. Просто наберіть в рядку"
+#~ " і подивіться відповідь. Які поля/стовпці"
+#~ " пошуку для вашого рядка залежить від"
+#~ " налаштувань плагінів. Наприклад, за "
+#~ "замовчуванням PlantPlugin шукає прізвища, "
+#~ "родові назви, види і внутрішньовидові "
+#~ "назви видів, просторічні назви і "
+#~ "географію. Так що якщо ви хочете "
+#~ "шукати в полі примітки любий з цих"
+#~ " типів то пошук за значенням це "
+#~ "не пошук, що вам потрібний."
+
+#~ msgid ""
+#~ "Searching with expression gives you a"
+#~ " little more control over what you"
+#~ " are searching for. It can narrow "
+#~ "the search down to a specific "
+#~ "domain. Expression consist of a domain,"
+#~ " an operator and a value. For "
+#~ "example the search: ``gen=Maxillaria`` would"
+#~ " return all the genera that match "
+#~ "the name Maxillaria. In this case "
+#~ "the domain is gen, the operator is"
+#~ " = and the value is Maxillaria."
+#~ msgstr ""
+#~ "Пошук за виразом дає вам трохи "
+#~ "більше контролю над тим, що ви "
+#~ "шукаєте. Це може звузити область пошуку"
+#~ " до певного домену. Вираз складається "
+#~ "з домену, оператора і значення. "
+#~ "Наприклад, пошук: ``gen=Maxillaria`` буде "
+#~ "повертати всі роди, які відповідають "
+#~ "імені Maxillaria. В цьому випадку домен"
+#~ " є gen, оператор є = і значення"
+#~ " є Maxillaria."
+
+#~ msgid ""
+#~ "For more information about the different"
+#~ " search domain and their short-hand"
+#~ " aliases, see search-domains_ ."
+#~ msgstr ""
+#~ "Для отримання додаткової інформації про "
+#~ "інші домени пошуку і їх стенографічні"
+#~ " псевдонімами, дивіться search-domains_ ."
+
+#~ msgid ""
+#~ "If expression are invalid they are "
+#~ "usually used as search by value "
+#~ "searchs. For example the search string"
+#~ " ``gen=`` will execute a search by"
+#~ " value for the string gen and "
+#~ "the search string ``gen like`` will "
+#~ "search for the string gen and the"
+#~ " string like."
+#~ msgstr ""
+#~ "Якщо вираз недійсний він, як правило,"
+#~ " використовується в якості пошуку значень"
+#~ " пошуку. Наприклад, пошук рядка ``gen=``"
+#~ " буде виконувати пошук за значенням "
+#~ "для рядка gen а рядок пошуку ``gen"
+#~ " like`` буде шукати рядок gen і "
+#~ "рядок like."
+
+#~ msgid "An example of a query would be::"
+#~ msgstr "Приклад запиту буде::"
+
+#~ msgid ""
+#~ "This query would return all the "
+#~ "plants whose family are Fabaceae and "
+#~ "are located in Block 10."
+#~ msgstr ""
+#~ "Цей запит буде повертати всі рослини,"
+#~ " чия сім'я Fabaceae і розташованих в"
+#~ " Block 10."
+
+#~ msgid ""
+#~ "Searching with queries usually requires "
+#~ "some knowledge of the Bauble internals"
+#~ " and database table layouts."
+#~ msgstr ""
+#~ "Пошук за допомогою запитів, як правило,"
+#~ " вимагає знання організації Bauble і "
+#~ "макетів таблиць бази даних."
+
+#~ msgid "A couple of useful examples:"
+#~ msgstr "Кілька корисних прикладів:"
+
+#~ msgid "Which locations are in use::"
+#~ msgstr "Які місця в використанні::"
+
+#~ msgid "Which genera are associated to at least one accession::"
+#~ msgstr "Які роди пов'язані для щонайменше, одного приєднання::"
+
+#~ msgid "Domains"
+#~ msgstr "Домени"
+
+#~ msgid ""
+#~ "The following are the common search "
+#~ "domain and the columns they search "
+#~ "by default. The default columns are "
+#~ "used when searching by value and "
+#~ "expression. The queries do not use "
+#~ "the default columns."
+#~ msgstr ""
+#~ "Нижче наведено загальний домен пошуку і"
+#~ " стовпів, вони здійснюють пошук за "
+#~ "замовчуванням."
+
+#~ msgid ""
+#~ "The Query Builder composes a query "
+#~ "that will be understood by the "
+#~ "Query Search Strategy described above. "
+#~ "You can use the Query Builder to"
+#~ " get a feeling of correct queries "
+#~ "before you start typing them by "
+#~ "hand, something that you might prefer"
+#~ " if you are a fast typer."
+#~ msgstr ""
+#~ "Query Builder компонує запит, який буде"
+#~ " зрозумілий стратегії пошукового запиту, "
+#~ "описаної вище. Ви можете використовувати "
+#~ "Query Builder щоб отримати відчуття "
+#~ "правильних запитів, перш ніж почати "
+#~ "вводити їх вручну, щось чому ви "
+#~ "напевно-що надаєте перевагу, якщо ви "
+#~ "скоро друкуєте."
+
+#~ msgid ""
+#~ "After opening the Query Builder you "
+#~ "must select a search domain.  The "
+#~ "search domain will determine the type"
+#~ " of data that is returned and "
+#~ "the properties that you can search."
+#~ msgstr ""
+#~ "Після відкриття Query Builder необхідно "
+#~ "вибрати домен пошуку. Домен пошуку буде"
+#~ " визначити тип даних, що повертаються "
+#~ "і властивості, які ви можете шукати."
+
+#~ msgid ""
+#~ "The search domain is similar to a"
+#~ " table in the database and the "
+#~ "properties would be the columns on "
+#~ "the table.  Often the table/domain and"
+#~ " properties/columns are the same but "
+#~ "not always."
+#~ msgstr ""
+#~ "Домен пошуку схожий на таблицю в "
+#~ "базі даних і властивості стовпців в "
+#~ "таблиці. Часто таблиця/домен і "
+#~ "властивості/стовпці однакові, але не завжди."
+
+#~ msgid ""
+#~ "Once a search domain is selected "
+#~ "you can then select a property of"
+#~ " the domain to compare values to."
+#~ "  The search operator can then be "
+#~ "changed for how you want to make"
+#~ " the search comparison.  Finally you "
+#~ "must enter a value to compare to"
+#~ " the search property."
+#~ msgstr ""
+#~ "Після обрання домену пошуку ви можете"
+#~ " вибрати властивість домену для порівняння"
+#~ " значень. Оператор пошуку може бути "
+#~ "змінений, як ви хочете, щоб зробити "
+#~ "порівняння пошуку. Нарешті, ви повинні "
+#~ "ввести значення для порівняння з "
+#~ "властивостями пошуку."
+
+#~ msgid ""
+#~ "If the search property you have "
+#~ "selected can only have specific values"
+#~ " then a list of possible values "
+#~ "will be provided for you to choose"
+#~ " from."
+#~ msgstr ""
+#~ "Якщо ви вибрали властивість пошуку то"
+#~ " це може мати тільки певні значення,"
+#~ " список можливих значень буде надано "
+#~ "для вас для вибору."
+
+#~ msgid ""
+#~ "As it says: close the message box,"
+#~ " you will return to the connection"
+#~ " dialog, where you click on **Add**"
+#~ " to create your first connection."
+#~ msgstr ""
+#~ "Як повідомлялося: закрийте вікно повідомлення"
+#~ " і ви повернетеся в діалогове вікно"
+#~ " підключення, де натисніть на **Додати**"
+#~ " щоб створити перше з'єднання."
+
+#~ msgid "Getting Started"
+#~ msgstr "Починаємо"
+
+#~ msgid ""
+#~ "Is this the first time you use "
+#~ "Bauble, are you going to work in"
+#~ " a stand-alone setting, you have "
+#~ "not the faintest idea how to "
+#~ "manage a database management system? If"
+#~ " you answered yes to any of the"
+#~ " previous, you probably better stick "
+#~ "with SQLite, the easy, fast, zero-"
+#~ "administration file-based database."
+#~ msgstr ""
+#~ "Це перший раз, коли ви використовуєте"
+#~ " Bauble, ви збираєтеся працювати в "
+#~ "автономному режимі, ви не маєте жодного"
+#~ " уявлення про те, як управляти "
+#~ "системою управління базами даних? Якщо "
+#~ "ви відповіли ствердно на будь-який з "
+#~ "перелічених запитань, вам напевно краще "
+#~ "триматися з SQLite, легкої, швидкої, "
+#~ "нульової адміністрації на основі файлу "
+#~ "бази даних."
+
+#~ msgid ""
+#~ "The fastest way to open it is "
+#~ "with the file explorer: type "
+#~ "``%APPDATA%` and hit enter."
+#~ msgstr ""
+
+#~ msgid ":mod:`bauble`"
+#~ msgstr ":mod:`bauble`"
+
+#~ msgid ":mod:`bauble.db`"
+#~ msgstr ":mod:`bauble.db`"
+
+#~ msgid ""
+#~ "All tables/mappers in Ghini which use"
+#~ " the SQLAlchemy declarative plugin for "
+#~ "declaring tables and mappers should "
+#~ "derive from this class."
+#~ msgstr ""
+#~ "Всі таблиці/картограми в Ghini які "
+#~ "використовують декларативний плагін SQLAlchemy "
+#~ "для об'явлення таблиць і картограм слід"
+#~ " отримати з цього класу."
+
+#~ msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
+#~ msgstr "Примірник :class:`sqlalchemy.ext.declarative.Base`"
+
+#~ msgid "The default metadata for all Ghini tables."
+#~ msgstr "Метадані за замовчуванням для всіх Ghini таблиць."
+
+#~ msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
+#~ msgstr "Примірник :class:`sqlalchemy.schema.MetaData`"
+
+#~ msgid ""
+#~ "We haven't yet defined a workflow "
+#~ "for publishing translated documentation on "
+#~ "readthedocs. If you have experience with"
+#~ " it please have a go at it. "
+#~ "Thank you in advance."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are interested contributing to"
+#~ " development of Bauble, a good way"
+#~ " to do so would be by helping"
+#~ " us finding and writing the missing"
+#~ " unit tests."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Bauble is a framework for handling "
+#~ "collections, and is distributed along "
+#~ "with a set of plugins making "
+#~ "Bauble a botanical collection manager. "
+#~ "But Bauble stays a framework and "
+#~ "you could in theory remove all "
+#~ "plugins we distribute and write your "
+#~ "own, or write your own plugins "
+#~ "that extend or complete the current "
+#~ "Bauble behaviour."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each of these classes must implement "
+#~ "an amount of functions in order to"
+#~ " properly behave within the Bauble "
+#~ "framework. The Bauble framework reserves "
+#~ "space to pluggable classes."
+#~ msgstr ""
+
+#~ msgid "Extending Bauble with Plugins"
+#~ msgstr "Розширення Bauble плагінами"
+
+#~ msgid ""
+#~ "Nearly everything about Bauble is "
+#~ "extensible through plugins. Plugins can "
+#~ "create tables, define custom searchs, "
+#~ "add menu items, create custom commands"
+#~ " and more."
+#~ msgstr ""
+#~ "Майже все, що стосується Bauble "
+#~ "розширюється за допомогою плагінів. Плагіни"
+#~ " можуть створювати таблиці, визначати "
+#~ "призначені для користувача пошукові запити,"
+#~ " додавати пункти меню, створювати "
+#~ "призначені для користувача команди і "
+#~ "багато іншого."
+
+#~ msgid ""
+#~ "the user interface is built according"
+#~ " to the Model-View-Presenter "
+#~ "architectural pattern.  The **view** is "
+#~ "described in a **glade** file and "
+#~ "is totally dumb, you do not "
+#~ "subclass it because it implements no "
+#~ "behaviour and because its appearance is,"
+#~ " as said, described elsewhere (the "
+#~ "**glade** file), including the association "
+#~ "signal-callbacks. The **model** simply "
+#~ "follows the sqlalchemy practices."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To install Ghini first requires that "
+#~ "you install its dependencies that cannot"
+#~ " be installed automatically.  These include"
+#~ " virtualenv, PyGTK and pip. Python "
+#~ "and GTK+, you probably already have. "
+#~ "As long as you have these packages"
+#~ " installed then Ghini should be able"
+#~ " to install the rest of its "
+#~ "dependencies by itself."
+#~ msgstr ""
+#~ "Для установки Ghini спочатку потрібно "
+#~ "установити його пакети, які не можуть"
+#~ " бути встановлені автоматично. До них "
+#~ "відносяться virtualenvwrapper, PyGTK і pip."
+#~ " Python і GTK +, ви, ймовірно, "
+#~ "вже маєте. Як тільки у вас є "
+#~ "ці пакети встановлені, то Ghini буде "
+#~ "в змозі встановити решту пакетів "
+#~ "самостійно."
+
+#~ msgid ""
+#~ "If you follow these installation steps,"
+#~ " you will end with Ghini running "
+#~ "within a Python virtual environment, all"
+#~ " Python dependencies installed locally, non"
+#~ " conflicting with any other Python "
+#~ "program you may have on your "
+#~ "system."
+#~ msgstr ""
+#~ "Якщо ви будете слідувати цим крокам "
+#~ "установки, ви будете працювати з Ghini"
+#~ " у віртуальному середовищі Python, всі "
+#~ "залежності Python, встановлені локально, не"
+#~ " суперечать один одному з будь-якою "
+#~ "іншою програмою Python що ви можете "
+#~ "мати у вашій системі."
+
+#~ msgid "Documentation 1.0"
+#~ msgstr "Документація для  Ghini 1.0"
+
+#~ msgid ""
+#~ "The Accession editor allows us to "
+#~ "add an accession to a species.  In"
+#~ " Ghini an accession represents a "
+#~ "group of plants or clones.  The "
+#~ "accession would refer maybe a group "
+#~ "of seed or cuttings from a "
+#~ "species.  A plant would be an "
+#~ "individual from that accesssion, i.e. a"
+#~ " specific plant in a specific "
+#~ "location."
+#~ msgstr ""
+#~ "Редактор Приєднання дозволяє додати приєднання"
+#~ " до виду. У Ghini приєднання є "
+#~ "групою рослин або клонів. Приєднання "
+#~ "може відноситися до групи насіння або"
+#~ " черешків від виду. Рослина буде "
+#~ "індивідуальна у цьому приєднанні, тобто "
+#~ "конкретна рослина в певному місці."
+
+#~ msgid "The Plant editor."
+#~ msgstr "Редактор рослин."
+
+#~ msgid "Creating multiple plants"
+#~ msgstr "Створення декількох рослин"
+
+#~ msgid "Pictures"
+#~ msgstr "Зображення"
+
+#~ msgid "danger zone"
+#~ msgstr "небезпечна зона"
+
+#~ msgid ""
+#~ "The source of the accessions lets "
+#~ "you add more information about where "
+#~ "this accession came from.  At the "
+#~ "moment the type of the source can"
+#~ " be either a Collection or a "
+#~ "Donation."
+#~ msgstr ""
+#~ "Джерело приєднань дозволяє додати додаткову"
+#~ " інформацію про те, де це приєднання"
+#~ " взялося. На даний момент тип джерела"
+#~ " може бути або з колекції або з"
+#~ " пожертвування."
+
+#~ msgid "Collection"
+#~ msgstr "Колекція"
+
+#~ msgid "A Collection."
+#~ msgstr "Колекція."
+
+#~ msgid "Donation"
+#~ msgstr "Пожертвування"
+
+#~ msgid "A Donation."
+#~ msgstr "Пожертвування."
+
+#~ msgid ""
+#~ "The GNU/Linux script takes care of "
+#~ "everything, from dependecies to installation"
+#~ " for all users."
+#~ msgstr ""
