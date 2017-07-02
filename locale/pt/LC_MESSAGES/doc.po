@@ -2263,7 +2263,7 @@ msgid ""
 " useful and we hope that this page will convince you about it."
 msgstr ""
 "Você deve usar este software? Esta pergunta é para você responder. "
-"Confiamos em que se você gerenciar uma coleção botânica, você irá "
+"Confiamos em que se você gerencia uma coleção botânica, você irá "
 "encontrar Ghini excessivamente útil e esperamos que esta página irá "
 "convencê-lo sobre isso."
 
@@ -2272,7 +2272,7 @@ msgid ""
 "This page shows how Ghini makes software meet the needs of a botanic "
 "garden."
 msgstr ""
-"Esta página mostra como Ghini faz software atender às necessidacces de um"
+"Esta página mostra como o software Ghini atende às necessidades de um"
 " jardim botânico."
 
 #: ../../goal.rst:11
