@@ -4,54 +4,46 @@ Installation
 ghini.desktop is a cross-platform program and it will run on unix machines
 like GNU/Linux and MacOSX, as well as on Windows.
 
-To install Ghini first requires that you install its dependencies that
-cannot be installed automatically.  These include virtualenv, PyGTK
-and pip. Python and GTK+, you probably already have. As long as you have
-these packages installed then Ghini should be able to install the rest of
-its dependencies by itself.
+.. admonition:: one-liner for hurried Linux users.
+   :class: note
 
-.. note:: If you follow these installation steps, you will end with Ghini
-          running within a Python virtual environment, all Python
-          dependencies installed locally, non conflicting with any other
-          Python program you may have on your system.
+           Download and run `the installation script <https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_.
+           You may read the documentation later.
 
-          if you later choose to remove Ghini, you simply remove the
-          virtual environment, which is a directory, with all of its
-          content.
+Ghini is maintained by very few people, who focus on enhancing its
+functional parts, more than on writing fancy installers. Instead of several
+native installers we offer a single cross-platform installation procedure.
+This has a few big advantages which you will learn to appreciate as we go.
+
+The installation is based on running a script.
+
+* The GNU/Linux script takes care of everything, from dependecies to
+  installation for users in the ``ghini`` group.
+* The Windows script needs you to first install a couple things.
+* On MacOSX we use the same script as on GNU/Linux. Since OSX has no default
+  package manager, we install one and we use it before we start the script.
+
+Following our installation procedure, you will end with Ghini running within
+a Python virtual environment, all Python dependencies installed locally, non
+conflicting with any other Python program you may have on your system.
+
+Dependencies that don't fit in a Python virtual environment are: Python,
+virtualenv, GTK+, and PyGTK. Their installation varies per platform.
+
+If you later choose to remove Ghini, you simply remove the virtual
+environment, which is a directory, with all of its content.
 
 Installing on GNU/Linux
 --------------------------
 
 Open a shell terminal window, and follow these instructions.
 
-.. topic:: technical note
-
-           You can study the script to see what steps if runs for you. In
-           short it will install dependencies which can't be satisfied in a
-           virtual environment, then it will create a virtual environment
-           named ``ghide``, use git to download the sources to a directory
-           named ``~/Local/github/Ghini/ghini.desktop``, and connect this
-           git checkout to the ``ghini-1.0`` branch (this you can consider a
-           production line), it then builds ghini, downloading all remaining
-           dependencies in the virtual environment, and finally it creates a
-           startup script. If you have ``sudo`` permissions, it will be
-           placed in ``/usr/local/bin``, otherwise in your ``~/bin``
-           folder. Again if you
-
-.. topic:: beginner's note
-           
-           To run a script, first make sure you note down the name of the
-           directory to which you have downloaded the script, then you open
-           a terminal window and in that window you type `bash` followed by
-           a space and the complete name of the script including directory
-           name, and hit on the enter key.
-
 #. Download the `devinstall.sh` script and run it::
 
-     https://raw.githubusercontent.com/Ghini/ghini.desktop/master/scripts/devinstall.sh
+     https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh
 
    Please note that the script will not help you install any extra database
-   connector. This is not strictly necessary and you can do it at any later step.
+   connector. This is not strictly necessary and you can do it at any later moment.
 
    If the script ends without error, you can now start ghini::
 
@@ -61,8 +53,8 @@ Open a shell terminal window, and follow these instructions.
 
      ~/bin/ghini -u
 
-   The same script you can use to switch to a different production line, but
-   at the moment there's only `ghini-1.0`.
+   The same script you can use to switch to a different production line.
+   At the moment it's just `ghini-1.0` and `ghini-1.1`.
 
 #. on Unity, open a terminal, start ghini, its icon will show up in the
    launcher, you can now `lock to launcher` it.
@@ -81,6 +73,30 @@ Open a shell terminal window, and follow these instructions.
 
    You might need solve dependencies. How to do so, depends on which GNU/Linux
    flavour you are using. Check with your distribution documentation.
+
+.. admonition:: beginner's note
+   :class: note
+           
+           To run a script, first make sure you note down the name of the
+           directory to which you have downloaded the script, then you open
+           a terminal window and in that window you type `bash` followed by
+           a space and the complete name of the script including directory
+           name, and hit on the enter key.
+
+.. admonition:: technical note
+   :class: note
+
+           You can study the script to see what steps if runs for you. In
+           short it will install dependencies which can't be satisfied in a
+           virtual environment, then it will create a virtual environment
+           named ``ghide``, use git to download the sources to a directory
+           named ``~/Local/github/Ghini/ghini.desktop``, and connect this
+           git checkout to the ``ghini-1.0`` branch (this you can consider a
+           production line), it then builds ghini, downloading all remaining
+           dependencies in the virtual environment, and finally it creates a
+           startup script. If you have ``sudo`` permissions, it will be
+           placed in ``/usr/local/bin``, otherwise in your ``~/bin``
+           folder. Again if you
 
 .. rubric:: Next...
 
@@ -120,7 +136,8 @@ then install the remaining dependencies::
 
 follow all instructions on how to activate what you have installed.
 
-.. topic:: Mac running OSX 10.12 —Sierra—
+.. admonition:: Mac running OSX 10.12 —Sierra—
+   :class: note
 
            On OSX 10.12, ``brew`` reports that ``gettext`` is already
            installed, but then it won't let us find it. A solution is to run
@@ -174,7 +191,7 @@ The installation steps on Windows:
 #. download and install ``git`` (comes with a unix-like ``sh`` and includes
    ``vi``) from::
 
-   https://git-scm.com/download/win
+     https://git-scm.com/download/win
    
    `Direct link to download git`_
 
@@ -185,7 +202,7 @@ The installation steps on Windows:
 
 #. download and install Python 2.x (32bit) from::
 
-   http://www.python.org
+     http://www.python.org
 
    `Direct link to download Python`_
 
@@ -200,7 +217,7 @@ The installation steps on Windows:
 #. download ``pygtk`` from the following source. (this requires 32bit
    python). be sure you download the "all in one" version::
 
-   http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/
+     http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/
 
    `Direct link to download PyGTK`_
 
