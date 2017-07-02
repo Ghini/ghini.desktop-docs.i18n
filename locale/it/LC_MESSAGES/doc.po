@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-22 12:35-0500\n"
-"PO-Revision-Date: 2017-06-30 01:37+0000\n"
+"PO-Revision-Date: 2017-07-02 17:18+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.15-dev\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -1135,7 +1135,7 @@ msgstr ""
 
 #: ../../editing.rst:158
 msgid "Creating multiple plants"
-msgstr ""
+msgstr "Creare più piante allo stesso tempo"
 
 #: ../../editing.rst:159
 msgid ""
@@ -1160,7 +1160,7 @@ msgstr ""
 
 #: ../../editing.rst:174
 msgid "Pictures"
-msgstr ""
+msgstr "Fotografie"
 
 #: ../../editing.rst:176
 msgid ""
@@ -1421,6 +1421,13 @@ msgid ""
 "one ``Accession``, each ``Species`` may have multiple ``Accessions`` "
 "relating to it."
 msgstr ""
+"Una ``Accession`` rappresenta l'aver ricevuto materiale botanico nel "
+"giardino. Per questo, una ``Accession`` è un concetto astratto, collega le "
+"``Plant`` vive —gruppi di piante collocate tutte nella stessa ``Location``— "
+"alla ``Species`` corrisondente. Ad una ``Accession`` si possono collegare "
+"zero o più ``Plant`` (0..n), e sarà sempre associata ad esattamente una "
+"``Specie``. Ciascuna ``Plant`` appartiene esattamente ad una ``Accession``, "
+"mentre ciascuna ``Species`` potrà avere zero o più ``Accession``."
 
 #: ../../goal.rst:59
 msgid ""
@@ -3349,4 +3356,4 @@ msgstr ""
 
 #: ../../user_stories.rst:44
 msgid "engraving labels"
-msgstr ""
+msgstr "incisione etichette"
