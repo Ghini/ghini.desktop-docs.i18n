@@ -16,6 +16,7 @@ echo "copy/update files from the documentation"
 echo '--------------------------------------------------------------------------'
 cp -pu $SOURCEDOCDIR/*.rst .
 rm api.rst
+
 echo "done copying/updating files from documentation"
 echo '--------------------------------------------------------------------------'
 echo
@@ -24,10 +25,14 @@ echo "update the centralised doc.pot (prepare all pot, merge them, filter)"
 echo '--------------------------------------------------------------------------'
 echo "update the centralised doc.pot --- step one"
 echo '--------------------------------------------------------------------------'
+mkdir -p _build/locale _build/locale-merged
+rm _build/locale/*.pot
 make gettext
+
 echo "update the centralised doc.pot --- step two and three"
 echo '--------------------------------------------------------------------------'
 msgcat _build/locale/*.pot | msggrep --msgid --file not_to_be_translated.txt --invert-match -o _build/locale-merged/doc.pot
+
 echo "done updating centralised doc.pot"
 echo '--------------------------------------------------------------------------'
 echo
