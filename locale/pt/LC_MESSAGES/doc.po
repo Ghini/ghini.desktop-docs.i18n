@@ -3141,7 +3141,7 @@ msgstr ""
 
 #: ../../searching.rst:68
 msgid "× Composite Primary Keys"
-msgstr ""
+msgstr "× Chaves primarias compostas"
 
 #: ../../searching.rst:71
 msgid ""
