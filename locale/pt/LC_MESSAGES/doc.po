@@ -125,11 +125,11 @@ msgid ""
 "consider filing an issue on the Ghini development site."
 msgstr ""
 "Você deve observar algo inesperado no comportamento do Ghini, por favor, "
-"considere a apresentação de um problema no site desenvolvimento Ghini."
+"considere a apresentação de um problema no sitio do desenvolvimento do Ghini."
 
 #: ../../administration.rst:56
 msgid "Ghini development site can be accessed via the Help menu."
-msgstr "Ghini desenvolvimento site pode ser acessado através do menu ajuda."
+msgstr "O sitio pelo desenvolvimento do Ghini pode ser acessado através do menu ajuda."
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
