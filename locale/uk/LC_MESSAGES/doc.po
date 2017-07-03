@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-02 15:15-0500\n"
+"POT-Creation-Date: 2017-07-02 19:42-0500\n"
 "PO-Revision-Date: 2017-07-02 11:50+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -229,7 +229,7 @@ msgstr ""
 "версії як розширення. Ви повинні `` git checkout`` розширення, яку "
 "відповідає вибраній вами версії."
 
-#: ../../building.rst:40 ../../devdl.rst:32
+#: ../../building.rst:40
 msgid "production line"
 msgstr "виробнича лінія"
 
@@ -244,7 +244,7 @@ msgstr ""
 "публікуються тестові версії Ghini, мають форму ``ghini-x.y-dev`` "
 "(наприклад, ghini-1.0-dev)."
 
-#: ../../building.rst:47 ../../devdl.rst:29
+#: ../../building.rst:47
 #, fuzzy
 msgid "Development Workflow"
 msgstr "нормальний робочий процес розробки"
@@ -271,7 +271,7 @@ msgstr ""
 " можу відкрити філію, пов'язану з цією проблемою. Я не роблю це дуже "
 "часто."
 
-#: ../../building.rst:59 ../../devdl.rst:51
+#: ../../building.rst:59
 msgid "larger issues"
 msgstr "більше питань"
 
@@ -285,7 +285,7 @@ msgstr ""
 "на кінці основної лінії розробки (наприклад, ``ghini-1.0-dev``) і "
 "дотримуйтесь робочого процесу, описаного в"
 
-#: ../../building.rst:67 ../../devdl.rst:58
+#: ../../building.rst:67
 msgid "in short::"
 msgstr "коротко::"
 
@@ -302,7 +302,7 @@ msgid ""
 "corresponding production line."
 msgstr ""
 
-#: ../../building.rst:81 ../../devdl.rst:70
+#: ../../building.rst:81
 msgid "Updating the set of translatable strings"
 msgstr ""
 
@@ -441,23 +441,23 @@ msgid ""
 " it in ``/doc/Makefile``. Who knows, maybe we will do that."
 msgstr ""
 
-#: ../../building.rst:163 ../../devdl.rst:102
+#: ../../building.rst:163
 msgid "Adding missing unit tests"
 msgstr ""
 
-#: ../../building.rst:165 ../../devdl.rst:104
+#: ../../building.rst:165
 msgid ""
 "If you are interested contributing to development of Ghini, a good way to"
 " do so would be by helping us finding and writing the missing unit tests."
 msgstr ""
 
-#: ../../building.rst:168 ../../devdl.rst:107
+#: ../../building.rst:168
 msgid ""
 "A well tested function is one whose behaviour you cannot change without "
 "breaking at least one unit test."
 msgstr ""
 
-#: ../../building.rst:171 ../../devdl.rst:110
+#: ../../building.rst:171
 msgid ""
 "We all agree that in theory theory and practice match perfectly and that "
 "one first writes the tests, then implements the function. In practice, "
@@ -465,29 +465,29 @@ msgid ""
 "after writing and even publishing the functions."
 msgstr ""
 
-#: ../../building.rst:176 ../../devdl.rst:115
+#: ../../building.rst:176
 msgid ""
 "This section describes the process of adding unit tests for "
 "``bauble.plugins.plants.family.remove_callback``."
 msgstr ""
 
-#: ../../building.rst:180 ../../devdl.rst:119
+#: ../../building.rst:180
 msgid "What to test"
 msgstr ""
 
-#: ../../building.rst:182 ../../devdl.rst:121
+#: ../../building.rst:182
 msgid ""
 "First of all, open the coverage report index, and choose a file with low "
 "coverage."
 msgstr ""
 
-#: ../../building.rst:185 ../../devdl.rst:124
+#: ../../building.rst:185
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
 msgstr ""
 
-#: ../../building.rst:190 ../../devdl.rst:129
+#: ../../building.rst:190
 msgid ""
 "The first two functions which need tests, ``edit_callback`` and "
 "``add_genera_callback``, include creation and activation of an object "
@@ -495,7 +495,7 @@ msgid ""
 "for that class, then come back here."
 msgstr ""
 
-#: ../../building.rst:195 ../../devdl.rst:134
+#: ../../building.rst:195
 msgid ""
 "The next function, ``remove_callback``, also activates a couple of dialog"
 " and message boxes, but in the form of invoking a function requesting "
@@ -503,79 +503,79 @@ msgid ""
 "with a function mocking the behaviour."
 msgstr ""
 
-#: ../../building.rst:201 ../../devdl.rst:140
+#: ../../building.rst:201
 msgid "how to test"
 msgstr ""
 
-#: ../../building.rst:203 ../../devdl.rst:142
+#: ../../building.rst:203
 msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
 msgstr ""
 
-#: ../../building.rst:209 ../../devdl.rst:148
+#: ../../building.rst:209
 msgid "**parameter correctness**"
 msgstr ""
 
-#: ../../building.rst:207 ../../devdl.rst:146
+#: ../../building.rst:207
 msgid "the list of families has no elements."
 msgstr ""
 
-#: ../../building.rst:208 ../../devdl.rst:147
+#: ../../building.rst:208
 msgid "the list of families has more than one element."
 msgstr ""
 
-#: ../../building.rst:209 ../../devdl.rst:148
+#: ../../building.rst:209
 msgid "the list of families has exactly one element."
 msgstr ""
 
-#: ../../building.rst:213 ../../devdl.rst:152
+#: ../../building.rst:213
 msgid "**cascade**"
 msgstr ""
 
-#: ../../building.rst:212 ../../devdl.rst:151
+#: ../../building.rst:212
 msgid "the family has no genera"
 msgstr ""
 
-#: ../../building.rst:213 ../../devdl.rst:152
+#: ../../building.rst:213
 msgid "the family has one or more genera"
 msgstr ""
 
-#: ../../building.rst:217 ../../devdl.rst:156
+#: ../../building.rst:217
 msgid "**confirm**"
 msgstr ""
 
-#: ../../building.rst:216 ../../devdl.rst:155
+#: ../../building.rst:216
 msgid "the user confirms deletion"
 msgstr ""
 
-#: ../../building.rst:217 ../../devdl.rst:156
+#: ../../building.rst:217
 msgid "the user does not confirm deletion"
 msgstr ""
 
-#: ../../building.rst:221 ../../devdl.rst:160
+#: ../../building.rst:221
 msgid "**deleting**"
 msgstr ""
 
-#: ../../building.rst:220 ../../devdl.rst:159
+#: ../../building.rst:220
 msgid "all goes well when deleting the family"
 msgstr ""
 
-#: ../../building.rst:221 ../../devdl.rst:160
+#: ../../building.rst:221
 msgid "there is some error while deleting the family"
 msgstr ""
 
-#: ../../building.rst:223 ../../devdl.rst:162
+#: ../../building.rst:223
 msgid ""
 "I decide I will only focus on the **cascade** and the **confirm** "
 "aspects. Two binary questions: 4 cases."
 msgstr ""
 
-#: ../../building.rst:227 ../../devdl.rst:166
+#: ../../building.rst:227
 msgid "where to put the tests"
 msgstr ""
 
-#: ../../building.rst:229 ../../devdl.rst:168
+#: ../../building.rst:229
 msgid ""
 "Locate the test script and choose the class where to put the extra unit "
 "tests."
@@ -585,7 +585,7 @@ msgstr ""
 msgid "what about skipped tests"
 msgstr ""
 
-#: ../../building.rst:236 ../../devdl.rst:172
+#: ../../building.rst:236
 msgid ""
 "The ``FamilyTests`` class contains a skipped test, implementing it will "
 "be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
@@ -594,38 +594,38 @@ msgid ""
 "single function."
 msgstr ""
 
-#: ../../building.rst:243 ../../devdl.rst:179
+#: ../../building.rst:243
 msgid "writing the tests"
 msgstr ""
 
-#: ../../building.rst:245 ../../devdl.rst:181
+#: ../../building.rst:245
 msgid ""
 "After the last test in the FamilyTests class, I add the four cases I want"
 " to describe, and I make sure they fail, and since I'm lazy, I write the "
 "most compact code I know for generating an error::"
 msgstr ""
 
-#: ../../building.rst:262 ../../devdl.rst:198
+#: ../../building.rst:262
 msgid "One test, step by step"
 msgstr ""
 
-#: ../../building.rst:264 ../../devdl.rst:200
+#: ../../building.rst:264
 msgid "Let's start with the first test case."
 msgstr ""
 
-#: ../../building.rst:266 ../../devdl.rst:202
+#: ../../building.rst:266
 msgid "When writing tests, I generally follow the pattern:"
 msgstr ""
 
-#: ../../building.rst:268 ../../devdl.rst:204
+#: ../../building.rst:268
 msgid "T₀ (initial condition),"
 msgstr ""
 
-#: ../../building.rst:269 ../../devdl.rst:205
+#: ../../building.rst:269
 msgid "action,"
 msgstr ""
 
-#: ../../building.rst:270 ../../devdl.rst:206
+#: ../../building.rst:270
 msgid "T₁ (testing the result of the action given the initial conditions)"
 msgstr ""
 
@@ -633,19 +633,19 @@ msgstr ""
 msgid "what's in a name — unit tests"
 msgstr ""
 
-#: ../../building.rst:275 ../../devdl.rst:208
+#: ../../building.rst:275
 msgid ""
 "There's a reason why unit tests are called unit tests. Please never test "
 "two actions in one test."
 msgstr ""
 
-#: ../../building.rst:278 ../../devdl.rst:211
+#: ../../building.rst:278
 msgid ""
 "So let's describe T₀ for the first test, a database holding a family "
 "without genera::"
 msgstr ""
 
-#: ../../building.rst:286 ../../devdl.rst:219
+#: ../../building.rst:286
 msgid ""
 "We do not want the function being tested to invoke the interactive "
 "``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
@@ -655,11 +655,11 @@ msgid ""
 "boolean. In this case: ``False``::"
 msgstr ""
 
-#: ../../building.rst:304 ../../devdl.rst:237
+#: ../../building.rst:304
 msgid "Next we test the result."
 msgstr ""
 
-#: ../../building.rst:306 ../../devdl.rst:239
+#: ../../building.rst:306
 msgid ""
 "Well, we don't just want to test whether or not the object Arecaceae was "
 "deleted, we also should test the value returned by ``remove_callback``, "
@@ -667,17 +667,17 @@ msgid ""
 " or not."
 msgstr ""
 
-#: ../../building.rst:311 ../../devdl.rst:244
+#: ../../building.rst:311
 msgid ""
 "A ``lambda`` expression is not enough for this. We do something "
 "apparently more complex, which will make life a lot easier."
 msgstr ""
 
-#: ../../building.rst:314 ../../devdl.rst:247
+#: ../../building.rst:314
 msgid "Let's first define a rather generic function::"
 msgstr ""
 
-#: ../../building.rst:320 ../../devdl.rst:253
+#: ../../building.rst:320
 msgid ""
 "and we grab ``partial`` from the ``functools`` standard module, to "
 "partially apply the above ``mockfunc``, leaving only ``msg`` unspecified,"
@@ -686,24 +686,24 @@ msgid ""
 "``utils``. The test function now looks like this::"
 msgstr ""
 
-#: ../../building.rst:342 ../../devdl.rst:275
+#: ../../building.rst:342
 msgid ""
 "The test section checks that ``message_details_dialog`` was not invoked, "
 "that ``yes_no_dialog`` was invoked, with the correct message parameter, "
 "that Arecaceae is still there::"
 msgstr ""
 
-#: ../../building.rst:358 ../../devdl.rst:291
+#: ../../building.rst:358
 msgid "And so on"
 msgstr ""
 
-#: ../../building.rst:360 ../../devdl.rst:293
+#: ../../building.rst:360
 msgid ""
 "`there are two kinds of people, those who complete what they start, and "
 "so on`"
 msgstr ""
 
-#: ../../building.rst:363 ../../devdl.rst:296
+#: ../../building.rst:363
 msgid ""
 "Next test is almost the same, with the difference that the "
 "``utils.yes_no_dialog`` should return ``True`` (this we achieve by "
@@ -711,14 +711,14 @@ msgid ""
 "``mockfunc``)."
 msgstr ""
 
-#: ../../building.rst:368 ../../devdl.rst:301
+#: ../../building.rst:368
 msgid ""
 "With this action, the value returned by ``remove_callback`` should be "
 "``True``, and there should be no Arecaceae Family in the database any "
 "more::"
 msgstr ""
 
-#: ../../building.rst:398 ../../devdl.rst:331
+#: ../../building.rst:398
 msgid ""
 "have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
 "other two test functions."
@@ -755,19 +755,19 @@ msgid ""
 "``self.handler.clear()``."
 msgstr ""
 
-#: ../../building.rst:422 ../../devdl.rst:335
+#: ../../building.rst:422
 msgid "Putting all together"
 msgstr ""
 
-#: ../../building.rst:424 ../../devdl.rst:337
+#: ../../building.rst:424
 msgid "From time to time you want to activate the test class you're working at::"
 msgstr ""
 
-#: ../../building.rst:428 ../../devdl.rst:341
+#: ../../building.rst:428
 msgid "And at the end of the process you want to update the statistics::"
 msgstr ""
 
-#: ../../building.rst:434 ../../extending.rst:2
+#: ../../building.rst:434
 msgid "Structure of user interface"
 msgstr ""
 
@@ -852,17 +852,17 @@ msgid ""
 " model attributes,"
 msgstr ""
 
-#: ../../building.rst:487 ../../extending.rst:24
+#: ../../building.rst:487
 msgid ""
 "``view_accept_buttons``, the list of widget names which, if activated by "
 "the user, mean that the view should be closed,"
 msgstr ""
 
-#: ../../building.rst:489 ../../extending.rst:26
+#: ../../building.rst:489
 msgid "all needed callbacks,"
 msgstr ""
 
-#: ../../building.rst:490 ../../extending.rst:27
+#: ../../building.rst:490
 msgid "optionally, it plays the **model** role, too."
 msgstr ""
 
@@ -914,7 +914,7 @@ msgid ""
 "connection manager."
 msgstr ""
 
-#: ../../building.rst:522 ../../extending.rst:39
+#: ../../building.rst:522
 msgid ""
 "We use the same architectural pattern for non-database interaction, by "
 "setting the presenter also as model. We do this, for example, for the "
@@ -922,18 +922,18 @@ msgid ""
 "``GenericEditorView`` instantiations::"
 msgstr ""
 
-#: ../../building.rst:530 ../../extending.rst:50
+#: ../../building.rst:530
 msgid "Extending Ghini with Plugins"
 msgstr ""
 
-#: ../../building.rst:532 ../../extending.rst:52
+#: ../../building.rst:532
 msgid ""
 "Nearly everything about Ghini is extensible through plugins. Plugins can "
 "create tables, define custom searchs, add menu items, create custom "
 "commands and more."
 msgstr ""
 
-#: ../../building.rst:536 ../../extending.rst:56
+#: ../../building.rst:536
 msgid ""
 "To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
 "class."
@@ -941,17 +941,17 @@ msgstr ""
 "Щоб створити новий плагін вам необхідно розширити "
 "``bauble.pluginmgr.Plugin`` клас."
 
-#: ../../building.rst:539 ../../extending.rst:59
+#: ../../building.rst:539
 msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
 msgstr ""
 
-#: ../../building.rst:543 ../../devdl.rst:347
+#: ../../building.rst:543
 msgid "Plugins structure"
 msgstr ""
 
-#: ../../building.rst:545 ../../devdl.rst:349
+#: ../../building.rst:545
 msgid ""
 "Ghini is a framework for handling collections, and is distributed along "
 "with a set of plugins making Ghini a botanical collection manager. But "
@@ -960,34 +960,34 @@ msgid ""
 "complete the current Ghini behaviour."
 msgstr ""
 
-#: ../../building.rst:551 ../../devdl.rst:355
+#: ../../building.rst:551
 msgid ""
 "Once you have selected and opened a database connection, you land in the "
 "Search window. The Search window is an interaction between two objects: "
 "SearchPresenter (SP) and SearchView (SV)."
 msgstr ""
 
-#: ../../building.rst:555 ../../devdl.rst:359
+#: ../../building.rst:555
 msgid ""
 "SV is what you see, SP holds the program status and handles the requests "
 "you express through SV. Handling these requests affect the content of SV "
 "and the program status in SP."
 msgstr ""
 
-#: ../../building.rst:559 ../../devdl.rst:363
+#: ../../building.rst:559
 msgid ""
 "The search results shown in the largest part of SV are rows, objects that"
 " are instances of classes registered in a plugin."
 msgstr ""
 
-#: ../../building.rst:562 ../../devdl.rst:366
+#: ../../building.rst:562
 msgid ""
 "Each of these classes must implement an amount of functions in order to "
 "properly behave within the Ghini framework. The Ghini framework reserves "
 "space to pluggable classes."
 msgstr ""
 
-#: ../../building.rst:566 ../../devdl.rst:370
+#: ../../building.rst:566
 msgid ""
 "SP knows of all registered (plugged in) classes, they are stored in a "
 "dictionary, associating a class to its plugin implementation.  SV has a "
@@ -995,7 +995,7 @@ msgid ""
 "one element in the slot is visible."
 msgstr ""
 
-#: ../../building.rst:571 ../../devdl.rst:375
+#: ../../building.rst:571
 msgid ""
 "A plugin defines one or more plugin classes. A plugin class plays the "
 "role of a partial presenter (pP - plugin presenter) as it implement the "
@@ -1004,54 +1004,54 @@ msgid ""
 "(SP), again acting as model. To summarize and complete:"
 msgstr ""
 
-#: ../../building.rst:577 ../../devdl.rst:381
+#: ../../building.rst:577
 msgid "SP acts as model,"
 msgstr ""
 
-#: ../../building.rst:578 ../../devdl.rst:382
+#: ../../building.rst:578
 msgid "the pV partial view is defined in a glade file."
 msgstr ""
 
-#: ../../building.rst:579 ../../devdl.rst:383
+#: ../../building.rst:579
 msgid "the callbacks implemented by pP are referenced by the glade file."
 msgstr ""
 
-#: ../../building.rst:580 ../../devdl.rst:384
+#: ../../building.rst:580
 msgid "a context menu for the SP row,"
 msgstr ""
 
-#: ../../building.rst:581 ../../devdl.rst:385
+#: ../../building.rst:581
 msgid "a children property."
 msgstr ""
 
-#: ../../building.rst:583 ../../devdl.rst:387
+#: ../../building.rst:583
 msgid "when you register a plugin class, the SP:"
 msgstr ""
 
-#: ../../building.rst:585 ../../devdl.rst:389
+#: ../../building.rst:585
 msgid "adds the pV in the slot and makes it non-visible."
 msgstr ""
 
-#: ../../building.rst:586 ../../devdl.rst:390
+#: ../../building.rst:586
 msgid "adds an instance of pP in the registered plugin classes."
 msgstr ""
 
-#: ../../building.rst:587 ../../devdl.rst:391
+#: ../../building.rst:587
 msgid "tells the pP that the SP is the model."
 msgstr ""
 
-#: ../../building.rst:588 ../../devdl.rst:392
+#: ../../building.rst:588
 msgid "connects all callbacks from pV to pP."
 msgstr ""
 
-#: ../../building.rst:590 ../../devdl.rst:394
+#: ../../building.rst:590
 msgid ""
 "when an element in pV triggers an action in pP, the pP can forward the "
 "action to SP and can request SP that it updates the model and refreshes "
 "the view."
 msgstr ""
 
-#: ../../building.rst:594 ../../devdl.rst:398
+#: ../../building.rst:594
 msgid ""
 "When the user selects a row in SP, SP hides everything in the pluggable "
 "slot and shows only the single pV relative to the type of the selected "
@@ -1059,7 +1059,7 @@ msgid ""
 "selected row."
 msgstr ""
 
-#: ../../building.rst:598 ../../devdl.rst:402
+#: ../../building.rst:598
 msgid ""
 "Apart from setting the visibility of the various pV, nothing needs be "
 "disabled nor removed: an invisible pV cannot trigger events!"
@@ -1225,172 +1225,6 @@ msgstr ""
 "розглянути цей робочий процес. розглядати це в якості орієнтира, до себе "
 "і до своїх колег. будь ласка, допоможіть зробити його краще і відповідно "
 "практичним."
-
-#: ../../db-prepare.rst:2
-msgid "Preparing a Database"
-msgstr ""
-
-#: ../../db-prepare.rst:5
-msgid "SQLite - the easy choice"
-msgstr ""
-
-#: ../../db-prepare.rst:7
-msgid "there's nothing you need prepare if you are using SQLite."
-msgstr ""
-
-#: ../../db-prepare.rst:10
-msgid "PostgreSQL - scalable choice"
-msgstr ""
-
-#: ../../db-prepare.rst:12
-msgid "allow network connections"
-msgstr ""
-
-#: ../../db-prepare.rst:14
-msgid "create the bauble main user"
-msgstr ""
-
-#: ../../devdl.rst:2
-msgid "Downloading the source"
-msgstr "Завантаження джерела"
-
-#: ../../devdl.rst:4
-#, fuzzy
-msgid ""
-"The Ghini source can be downloaded from our source repository on `github "
-"<http://github.com/Ghini/ghini.desktop>`_."
-msgstr ""
-"Джерело Ghini можна завантажити з вихідного сховища на `github "
-"<http://github.com/Ghini/ghini.desktop>`_."
-
-#: ../../devdl.rst:7
-#, fuzzy
-msgid ""
-"If you want a particular version of Ghini, we release and maintain "
-"versions into branches. You should ``git checkout`` the branch "
-"corresponding to the version of your choice. Branch names for Ghini "
-"versions are of the form ``bauble-x.y``, where x.y can be 1.0, for "
-"example. Our workflow is to commit to the `master` development branch or "
-"to a `patch` branch and to include the commits into a `release` branch "
-"when ready."
-msgstr ""
-"Якщо ви хочете конкретну версію Ghini, ми випускаємо і підтримуємо версії"
-" в гілках. ви повинні ``git checkout`` відповідну гілку для версії вашого"
-" вибору. Назви гілки для версій Ghini мають вид ``ghini-x.y``, де  x.y "
-"маже бути 1.0, для прикладу. Наш робочий процес зафіксований в `master` "
-"гілки розробки або до `patch` гілки і включає фіксацію `release` гілки "
-"коли готова."
-
-#: ../../devdl.rst:14
-msgid ""
-"To check out the most recent code from the source repository you will "
-"need to install the `Git <http://www.git.org>`_ version control system. "
-"Git is incuded in all reasonable Linux distributions and can be installed"
-" on all current operating systems."
-msgstr ""
-"Для того, щоб перевірити найостанніший код зі сховищ, вам потрібно буде "
-"встановити `Git <http://www.git.org>`_ система управління версіями. Git "
-"включений у всіх доступних розподілах Linux і може бути встановлений на "
-"всі сучасні операційні системи."
-
-#: ../../devdl.rst:19
-#, fuzzy
-msgid ""
-"Once you have installed Git you can checkout the latest Ghini code with "
-"the following command::"
-msgstr ""
-"Після установки Git ви можете перевірити останній код Ghini за допомогою "
-"наступної команди ::"
-
-#: ../../devdl.rst:24
-#, fuzzy
-msgid ""
-"For more information about other available code branches go to "
-"`ghini.desktop on github <http://www.github.com/Ghini/ghini.desktop>`_."
-msgstr ""
-"Для отримання додаткової інформації про інші доступні коди гілок перейти "
-"до `bauble.classic on github "
-"<http://www.github.com/Bauble/bauble.classic>`_."
-
-#: ../../devdl.rst:34
-msgid ""
-"A bauble production line is a branch. Currently there is only one "
-"production line, that is bauble-1.0.  In perspective, we will have "
-"several one, each in use by one or more gardens."
-msgstr ""
-
-#: ../../devdl.rst:38
-msgid ""
-"As long as we have only one production line, I keep working on the master"
-" branch, unless I later realize the work is going to take longer than one"
-" or two days."
-msgstr ""
-
-#: ../../devdl.rst:43
-msgid "batches of simple issues"
-msgstr ""
-
-#: ../../devdl.rst:45
-msgid ""
-"For issues that can be managed in one or two commits, and as long as "
-"there's no other activity on the repository, work on the master branch, "
-"accumulate issue-solving commits, finally merge master into the "
-"production line bauble-1.0."
-msgstr ""
-
-#: ../../devdl.rst:53
-msgid ""
-"When facing a single larger issue, create a branch tag, and follow the "
-"workflow described at"
-msgstr ""
-
-#: ../../devdl.rst:64
-msgid ""
-"work on the new branch. When ready, go to github, merge the branch with "
-"master, solve conflicts where necessary, delete the temporary branch."
-msgstr ""
-
-#: ../../devdl.rst:67
-msgid "when ready for publication, merge master into the production line."
-msgstr ""
-
-#: ../../devdl.rst:72
-msgid ""
-"From time to time, during the process of updating the software, you will "
-"be adding or modifying strings in the python sources, in the "
-"documentation, in the glade sources. Most of our strings are "
-"translatable, and are offered to weblate for people to contribute, in the"
-" form of several ``.po`` files. These ``po`` files receive contributions "
-"from weblate, and offer lines without translation from new lines of code."
-msgstr ""
-
-#: ../../devdl.rst:79
-msgid ""
-"We have organized the translation of ghini as two separate repositories "
-"in github, each repository being associated to sections of the same "
-"project on weblate. Translation of the software is in ghini.desktop, the "
-"software project, while translation of the documentation —itself part of "
-"the software— is in a separate project, ghini.desktop-docs.i18n."
-msgstr ""
-
-#: ../../devdl.rst:85
-msgid ""
-"To update the ``po`` files relative to the software, you run a script "
-"from the project root dir::"
-msgstr ""
-
-#: ../../devdl.rst:90
-msgid ""
-"This will update your ``po`` files, something you need commit and push to"
-" github."
-msgstr ""
-
-#: ../../devdl.rst:93
-msgid ""
-"To update the ``po`` filese relative to the documentation, you need a up-"
-"to-date checkout of both projects. The root directory of the ghini"
-".desktop-docs.i18n project contains a script with an all telling name::"
-msgstr ""
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
@@ -1865,67 +1699,6 @@ msgstr ""
 "користувачеві переводити поточне місце розташування в інше місце, "
 "виправляти орфографічні помилки або здійснювати зміну політики."
 
-#: ../../extending.rst:4
-msgid ""
-"The user interface is built according to the Model-View-Presenter "
-"architectural pattern.  In theory, but also in the practice of all new "
-"parts of the software:"
-msgstr ""
-
-#: ../../extending.rst:8
-msgid ""
-"The **view** is described as part of a **glade** file. This includes the "
-"signal-callback associations. The base class is ``GenericEditorView`` "
-"defined in ``bauble.editor``. Create an instance of the base class, "
-"passing it the **glade** file name and the root widget name, then handle "
-"the instance to the **presenter** constructor."
-msgstr ""
-
-#: ../../extending.rst:14
-msgid ""
-"The **model** simply follows the sqlalchemy practices. The **presenter** "
-"continuously updates it according to changes in the **view**. The "
-"**presenter** commits all **model** updates to the database if the "
-"**view** is closed successfully, or rolls them back if the **view** is "
-"canceled."
-msgstr ""
-
-#: ../../extending.rst:20
-msgid "The subclassed **presenter** defines and implements:"
-msgstr ""
-
-#: ../../extending.rst:22
-msgid ""
-"``widget_to_field_map``, the association from widget name to name of "
-"model attribute,"
-msgstr ""
-
-#: ../../extending.rst:29
-msgid ""
-"A well behaved **presenter** uses the **view** api to query the values "
-"inserted by the user or to forcibly set widget statuses. Please do not "
-"learn from the practice in our older presenters, most of which directly "
-"handle widgets, something that prevents us from writing unit tests."
-msgstr ""
-
-#: ../../extending.rst:34
-msgid ""
-"There is no way to unit test a subclassed view, so please don't subclass "
-"views."
-msgstr ""
-
-#: ../../extending.rst:36
-msgid ""
-"The base class for the presenter, ``GenericEditorPresenter`` defined in "
-"``bauble.editor``, implements many useful generic callbacks."
-msgstr ""
-
-#: ../../extending.rst:46
-msgid ""
-"An other good example of Presenter/View pattern (no model) is given by "
-"the connection manager."
-msgstr ""
-
 #: ../../goal.rst:2
 msgid "Ghini's goals and highlights"
 msgstr ""
@@ -2141,21 +1914,21 @@ msgstr ""
 msgid "Our User Stories section contains details about the above, and more."
 msgstr ""
 
-#: ../../goal.rst:136 ../../peptalk.rst:2
+#: ../../goal.rst:136
 msgid "Highlights"
 msgstr ""
 
-#: ../../goal.rst:137 ../../peptalk.rst:3
+#: ../../goal.rst:137
 msgid "not-so-brief list of highlights, meant to whet your appetite."
 msgstr ""
 "не такий короткий перелік основних моментів, мав на увазі, щоб підігріти "
 "апетит."
 
-#: ../../goal.rst:140 ../../peptalk.rst:6
+#: ../../goal.rst:140
 msgid "taxonomic information"
 msgstr "класифікаційна інформації"
 
-#: ../../goal.rst:142 ../../peptalk.rst:8
+#: ../../goal.rst:142
 msgid ""
 "When you first start Ghini, and connect to a database, Ghini will "
 "initialize the database not only with all tables it needs to run, but it "
@@ -2167,11 +1940,11 @@ msgid ""
 "at the Missouri Botanical Garden - www.tropicos.org” as a source."
 msgstr ""
 
-#: ../../goal.rst:152 ../../peptalk.rst:18
+#: ../../goal.rst:152
 msgid "importing data"
 msgstr "імпорт даних"
 
-#: ../../goal.rst:154 ../../peptalk.rst:20
+#: ../../goal.rst:154
 msgid ""
 "Ghini will let you import any data you put in an intermediate json "
 "format. What you import will complete what you already have in the "
@@ -2179,11 +1952,11 @@ msgid ""
 "you transform your data into Ghini's intermediate json format."
 msgstr ""
 
-#: ../../goal.rst:160 ../../peptalk.rst:26
+#: ../../goal.rst:160
 msgid "synonyms"
 msgstr "синоніми"
 
-#: ../../goal.rst:162 ../../peptalk.rst:28
+#: ../../goal.rst:162
 #, fuzzy
 msgid ""
 "Ghini will allow you define synonyms for species, genera, families. Also "
@@ -2194,11 +1967,11 @@ msgstr ""
 " ця інформація може бути представлена в проміжному форматі json і "
 "імпортована в існуючу базу даних Ghini."
 
-#: ../../goal.rst:167 ../../peptalk.rst:33
+#: ../../goal.rst:167
 msgid "scientific responsible"
 msgstr "наукова відповідальність"
 
-#: ../../goal.rst:169 ../../peptalk.rst:35
+#: ../../goal.rst:169
 #, fuzzy
 msgid ""
 "Ghini implements the concept of 'accession', intermediate between "
@@ -2215,11 +1988,11 @@ msgstr ""
 "потрібно перезаписати роботу один одного. Всі перевірки можуть бути "
 "знайдені в базі даних, з відміткою часу і підписом."
 
-#: ../../goal.rst:177 ../../peptalk.rst:43
+#: ../../goal.rst:177
 msgid "helps off-line identification"
 msgstr "допомагає офф-лайн ідентифікації"
 
-#: ../../goal.rst:179 ../../peptalk.rst:45
+#: ../../goal.rst:179
 #, fuzzy
 msgid ""
 "Ghini allows you associate pictures to physical plants, this can help "
@@ -2230,11 +2003,11 @@ msgstr ""
 "допомогти розпізнати рослину в разі втрати етикетки, або допомогти "
 "класифікаційній ідентифікації, якщо систематик не доступний весь час."
 
-#: ../../goal.rst:184 ../../peptalk.rst:50
+#: ../../goal.rst:184
 msgid "exports and reports"
 msgstr "експорт і звіти"
 
-#: ../../goal.rst:186 ../../peptalk.rst:52
+#: ../../goal.rst:186
 #, fuzzy
 msgid ""
 "Ghini will let you export a report in whatever textual format you need. "
@@ -2247,11 +2020,11 @@ msgstr ""
 "дозволить експортувати дані вибравши будь-який формат, що вам потрібний. "
 "Після установки, кілька прикладів можна знайти в підкаталозі mako ."
 
-#: ../../goal.rst:192 ../../peptalk.rst:58
+#: ../../goal.rst:192
 msgid "annotate your info"
 msgstr "анотувати ваші дані"
 
-#: ../../goal.rst:194 ../../peptalk.rst:60
+#: ../../goal.rst:194
 msgid ""
 "You can associate notes to plants, accessions, species, .... Notes can be"
 " categorized and used in searches or reports."
@@ -2259,19 +2032,19 @@ msgstr ""
 "Ви можете додати примітки до рослин, приєднань, видів, .... Примітки "
 "можуть бути класифіковані і використані для пошуку або звітів."
 
-#: ../../goal.rst:198 ../../peptalk.rst:64
+#: ../../goal.rst:198
 msgid "garden or herbarium"
 msgstr "сад або гербарій"
 
-#: ../../goal.rst:200 ../../peptalk.rst:66
+#: ../../goal.rst:200
 msgid "Management of plant locations."
 msgstr "Управління розташуванням рослин."
 
-#: ../../goal.rst:203 ../../peptalk.rst:69
+#: ../../goal.rst:203
 msgid "database history"
 msgstr "історія бази даних"
 
-#: ../../goal.rst:205 ../../peptalk.rst:71
+#: ../../goal.rst:205
 #, fuzzy
 msgid ""
 "All changes in the database is stored in the database, as history log. "
@@ -2284,11 +2057,11 @@ msgstr ""
 "список всіх змін в останній робочий день або тиждень, або в будь-який "
 "певний період в минулому."
 
-#: ../../goal.rst:211 ../../peptalk.rst:77
+#: ../../goal.rst:211
 msgid "simple and powerful search"
 msgstr "простий і потужний пошук"
 
-#: ../../goal.rst:213 ../../peptalk.rst:79
+#: ../../goal.rst:213
 #, fuzzy
 msgid ""
 "Ghini allows you search the database using simple keywords, e.g.: the "
@@ -2301,11 +2074,11 @@ msgstr ""
 "складні запити, які не досягають складності SQL, але дозволять вам гідний"
 " рівень деталізації локалізованих даних."
 
-#: ../../goal.rst:219 ../../peptalk.rst:85
+#: ../../goal.rst:219
 msgid "database agnostic"
 msgstr "агностична база даних"
 
-#: ../../goal.rst:221 ../../peptalk.rst:87
+#: ../../goal.rst:221
 #, fuzzy
 msgid ""
 "Ghini is not a database management system, so it does not reinvent the "
@@ -2329,11 +2102,11 @@ msgstr ""
 "(Linux-Apache-MySQL-Php) і включити ваші дані в реальному часі на вашому "
 "веб-сайті установи."
 
-#: ../../goal.rst:232 ../../peptalk.rst:98
+#: ../../goal.rst:232
 msgid "language agnostic"
 msgstr "агностична мова"
 
-#: ../../goal.rst:234 ../../peptalk.rst:100
+#: ../../goal.rst:234
 msgid ""
 "The program was born in English and all its technical and user "
 "documentation is still only in that language, but the program itself has "
@@ -2347,11 +2120,11 @@ msgstr ""
 "іспанську (86%), португальську  (100%), французьку (42%), деякі "
 "південно-американські мови, а також шведська (100%) і чеська (100%)."
 
-#: ../../goal.rst:241 ../../peptalk.rst:107
+#: ../../goal.rst:241
 msgid "platform agnostic"
 msgstr "агностична платформа"
 
-#: ../../goal.rst:243 ../../peptalk.rst:109
+#: ../../goal.rst:243
 msgid ""
 "Installing Ghini on Windows is an easy and linear process, it will not "
 "take longer than 10 minutes. Ghini was born on Linux and installing it on"
@@ -2360,11 +2133,11 @@ msgid ""
 "procedure on any recent Apple computer, after a few preparation steps."
 msgstr ""
 
-#: ../../goal.rst:250 ../../peptalk.rst:116
+#: ../../goal.rst:250
 msgid "easily updated"
 msgstr "легко оновлюється"
 
-#: ../../goal.rst:252 ../../peptalk.rst:118
+#: ../../goal.rst:252
 msgid ""
 "The installation process will produce an updatable installation, where "
 "updating it will take less than one minute. Depending on the amount of "
@@ -2376,11 +2149,11 @@ msgstr ""
 "отримуємо, ми будемо проводити оновлення через кожні кілька днів або один"
 " раз в певний час."
 
-#: ../../goal.rst:258 ../../peptalk.rst:124
+#: ../../goal.rst:258
 msgid "unit tested"
 msgstr "протестовані"
 
-#: ../../goal.rst:260 ../../peptalk.rst:126
+#: ../../goal.rst:260
 msgid ""
 "Ghini is continuously and extensively unit tested, something that makes "
 "regression of functionality close to impossible. Every update is "
@@ -2390,7 +2163,7 @@ msgid ""
 "test."
 msgstr ""
 
-#: ../../goal.rst:266 ../../peptalk.rst:132
+#: ../../goal.rst:266
 msgid ""
 "Most changes and additions we make, come with some extra unit test, which"
 " defines the behaviour and will make any undesired change easily visible."
@@ -2399,11 +2172,11 @@ msgstr ""
 "модульним тестуванням, яке визначає поведінку і робить будь-які небажані "
 "зміни добре видимі."
 
-#: ../../goal.rst:270 ../../peptalk.rst:136
+#: ../../goal.rst:270
 msgid "customizable/extensible"
 msgstr "настроюємий/розширяємий"
 
-#: ../../goal.rst:272 ../../peptalk.rst:138
+#: ../../goal.rst:272
 #, fuzzy
 msgid ""
 "Ghini is extensible through plugins and can be customized to suit the "
@@ -4464,880 +4237,3 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
-
-#~ msgid "structure of user interface"
-#~ msgstr "структура інтерфейсу користувача"
-
-#~ msgid ""
-#~ "the user interface is built according"
-#~ " to the Model-View-Presenter "
-#~ "architectural pattern.  The **view** is "
-#~ "described in a glade file and is"
-#~ " totally dumb, you do not subclass"
-#~ " it because it implements no "
-#~ "behaviour and because its appearance is,"
-#~ " as said, described elsewhere, including"
-#~ " the association signal-callbacks. The "
-#~ "**model** simply follows the sqlalchemy "
-#~ "practices."
-#~ msgstr ""
-#~ "Інтерфейс користувача побудований відповідно з"
-#~ " архітектурним зразком Model-View-"
-#~ "Presenter. **view** описується в glade "
-#~ "файлі і повністю в dumb, ви не "
-#~ "зробити підкласи з цього тому що "
-#~ "він не реалізує поводження і тому, "
-#~ "що його зовнішній вигляд, як було "
-#~ "сказано, описано в іншому місці, в "
-#~ "тому числі асоціації сигналів зворотних "
-#~ "викликів. **model** просто слідує SQLAlchemy"
-#~ " методу."
-
-#~ msgid "You will subclass the **presenter** in order to:"
-#~ msgstr "Ваші підкласи **presenter** для того, щоб:"
-
-#~ msgid ""
-#~ "define ``widget_to_field_map``, the association "
-#~ "from name of view object to name"
-#~ " of model attribute,"
-#~ msgstr ""
-#~ "визначити ``widget_to_field_map``, асоціація з "
-#~ "ім'ям виду об'єкта для імені атрибута"
-#~ " моделі,"
-
-#~ msgid ""
-#~ "override ``view_accept_buttons``, the list of"
-#~ " widget names which, if activated by"
-#~ " the user, mean that the view "
-#~ "should be closed,"
-#~ msgstr ""
-#~ "анулювати ``view_accept_buttons``, список віджет "
-#~ "імен які активовані користувачем, означає, "
-#~ "що представлення повинно бути закрите,"
-
-#~ msgid "define all needed callbacks,"
-#~ msgstr "визначити всі необхідні функції зворотного виклику,"
-
-#~ msgid ""
-#~ "The presenter should not know of "
-#~ "the internal structure of the view, "
-#~ "instead, it should use the view "
-#~ "api to set and query the values"
-#~ " inserted by the user. The base "
-#~ "class for the presenter, "
-#~ "``GenericEditorPresenter`` defined in "
-#~ "``bauble.editor``, implements many generic "
-#~ "callbacks."
-#~ msgstr ""
-#~ "Презентатор не повинен знати про "
-#~ "внутрішню структуру представлення, замість "
-#~ "цього, він повинен використовувати "
-#~ "представлення api для установки і запиту"
-#~ " значень, вставлених користувачем. Базовий "
-#~ "клас для презентатора, ``GenericEditorPresenter``"
-#~ " визначений в ``bauble.editor``, реалізує "
-#~ "багато загальних функцій зворотного виклику."
-
-#~ msgid "Model and Presenter can be unit tested, not the View."
-#~ msgstr "Модель і Презентатор можуть бути протестовані, а не подання."
-
-#~ msgid ""
-#~ "The ``Tag`` plugin is a good "
-#~ "minimal example, even if the "
-#~ "``TagItemGUI`` falls outside this description."
-#~ " Other plugins do not respect the "
-#~ "description."
-#~ msgstr ""
-#~ "``Tag`` плагін хороший мінімальний приклад,"
-#~ " навіть якщо ``TagItemGUI`` виходить за "
-#~ "межі цього опису. Інші плагіни не "
-#~ "відносяться до опису."
-
-#~ msgid ""
-#~ "We use the same architectural pattern"
-#~ " for non-database interaction, by "
-#~ "setting the presenter also as model. "
-#~ "We do this, for example, for the"
-#~ " JSON export dialog box."
-#~ msgstr ""
-#~ "Ми використовуємо той же архітектурний "
-#~ "зразок для взаємодії без бази даних, "
-#~ "встановивши презентатор також в якості "
-#~ "моделі. Ми робимо це, наприклад, для "
-#~ "вікна діалогу експорту JSON."
-
-#~ msgid "building (on Windows)"
-#~ msgstr "будування (в Windows)"
-
-#~ msgid ""
-#~ "Building a python program is a bit"
-#~ " of a contraddiction.  You don't "
-#~ "normally *build* nor *compile* a python"
-#~ " program, you run it in its "
-#~ "(virtual) environment, and python will "
-#~ "process the modules loaded and produce"
-#~ " faster-loading *compiled* python files."
-#~ "  You can, however, produce a "
-#~ "*Windows executable* from a python "
-#~ "script, executable containing the whole "
-#~ "python environment and dependencies."
-#~ msgstr ""
-#~ "Побудова програм python є трохи "
-#~ "contraddiction. Ви зазвичай не *build* "
-#~ "ні *compile* програму python, ви "
-#~ "запустите його в (віртуальному) середовищі,"
-#~ " і python буде обробляти завантажені "
-#~ "модулі і виробляє більш швидку загрузку"
-#~ " *compiled* python файлів. Можна, однак,"
-#~ " зробити *Windows executable* з python "
-#~ "скрипт, виконуваний файл, який містить "
-#~ "все python середовище і залежності."
-
-#~ msgid ""
-#~ "Follow all steps needed to set up"
-#~ " a working Bauble environment from "
-#~ ":doc:`installing`, but skip the final "
-#~ "``install`` step."
-#~ msgstr ""
-#~ "Виконайте всі кроки, необхідні для "
-#~ "налаштування середовища робочої Bauble з "
-#~ ":doc:`installing`, але пропустіть фінальний "
-#~ "крок ``install``."
-
-#~ msgid ""
-#~ "instead of *installing* Bauble, you "
-#~ "produce a Windows executable.  This is"
-#~ " achieved with the ``py2exe`` target, "
-#~ "which is only available on Windows "
-#~ "systems::"
-#~ msgstr ""
-#~ "Замість *installing* Bauble, ви створюєте "
-#~ "виконуваний файл Windows. Це досягається "
-#~ "за допомогою ``py2exe``, що доступно "
-#~ "тільки в системах Windows::"
-
-#~ msgid "At this point you can run Bauble.  To run the compiled executable run::"
-#~ msgstr ""
-#~ "На цьому етапі ви можете запустити "
-#~ "Bauble. Для запуску скомпільованого "
-#~ "виконуваного файлу запустити::"
-
-#~ msgid "or copy the executable to wherever you think appropriate."
-#~ msgstr "або скопіювати виконуваний файл туди, куди ви вважаєте доречними."
-
-#~ msgid ""
-#~ "To optionally build an NSIS installer"
-#~ " package you must install NSIS from"
-#~ " `nsis.sourceforge.net "
-#~ "<http://nsis.sourceforge.net/Download>`_.  After "
-#~ "installing NSIS right click on "
-#~ "``.\\scripts\\build.nsi`` in Explorer and "
-#~ "select *Compile NSIS Script*."
-#~ msgstr ""
-#~ "Щоб додатково створити інсталяційний пакет "
-#~ "NSIS, ви повинні встановити NSIS з "
-#~ "`nsis.sourceforge.net <http://nsis.sourceforge.net/Download>`_."
-#~ " Після установки NSIS правою кнопкою "
-#~ "миші натисніть ``.\\scripts\\build.nsi`` в "
-#~ "Провіднику і виберіть *Compile NSIS "
-#~ "Script*."
-
-#~ msgid "Using Bauble"
-#~ msgstr "Використання Bauble"
-
-#~ msgid ""
-#~ "The Windows installer used to be a"
-#~ " \"batteries-included\" installer, installing "
-#~ "everything needed to run Bauble.  The"
-#~ " current maintainer of bauble.classic "
-#~ "cannot run Windows applications. If you"
-#~ " want to run the latest version "
-#~ "of bauble on Windows: download and "
-#~ "install the dependencies and then "
-#~ "install Bauble from the source package."
-#~ msgstr ""
-#~ "Інсталятор Windows використовується для "
-#~ "\"batteries-included\" установки, встановлює все"
-#~ " необхідне для запуску Bauble. Поточний "
-#~ "супроводжуючий bauble.classic не може "
-#~ "запускати додатки Windows. Якщо ви "
-#~ "хочете, щоб запустити останню версію "
-#~ "bauble на Windows: завантажте і "
-#~ "встановіть залежність, а потім встановіть "
-#~ "Bauble з вихідного пакета."
-
-#~ msgid ""
-#~ "you can now start bauble using the"
-#~ " ``bauble.lnk`` shortcut that the "
-#~ "installation procedure copies to the "
-#~ "``Scripts`` directory of the virtual "
-#~ "environment::"
-#~ msgstr ""
-#~ "Тепер ви можете запустити bauble за "
-#~ "допомогою ``bauble.lnk`` ярлика, що процедура"
-#~ " установки копіює в каталог ``Scripts`` "
-#~ "віртуального середовища::"
-
-#~ msgid "What are the packages that are installed by Bauble:"
-#~ msgstr "Пакети встановлені Bauble:"
-
-#~ msgid "The following packages are required by Bauble"
-#~ msgstr "Наступні пакети потрібні Bauble"
-
-#~ msgid "The following packages are optional:"
-#~ msgstr "Наступні пакети не є обов'язковими:"
-
-#~ msgid "Mako - required by the template based report generator"
-#~ msgstr "Mako - потрібно генератор звітів на основі шаблону"
-
-#~ msgid "gdata - required by the Picasa photos InfoBox"
-#~ msgstr "gdata - потрібно Picasa фотографії InfoBox"
-
-#~ msgid "Couldn't install lxml."
-#~ msgstr "Не вдалося встановити lxml."
-
-#~ msgid ""
-#~ "The lxml packages have to be "
-#~ "compile with a C compiler. If you"
-#~ " don't have a Make sure the "
-#~ "libxml and libxsl packages are "
-#~ "installed.  Installing the Cython packages."
-#~ "  On Linux you will have to "
-#~ "install the gcc package.  On Windows "
-#~ "there should be a precompiled version"
-#~ " available at http://pypi.python.org/pypi/lxml/2.1.1"
-#~ msgstr ""
-#~ "Пакети lxml повинні компілюватись з С"
-#~ " компілятором. Якщо у вас немає "
-#~ "переконайтеся, що встановлені  libxml і "
-#~ "libxsl пакети. Установіть пакети Cython. "
-#~ "У Linux вам доведеться встановити gcc"
-#~ " пакет. У Windows повинна бути "
-#~ "прекомпілірована версія доступна на "
-#~ "http://pypi.python.org/pypi/lxml/2.1.1"
-
-#~ msgid ""
-#~ "You can study the script to see"
-#~ " what steps if runs for you. In"
-#~ " short it will install dependencies "
-#~ "which can't be satisfied in a "
-#~ "virtual environment, then it will create"
-#~ " a virtual environment named `bacl`, "
-#~ "download the sources and connect your"
-#~ " git checkout to the `bauble-1.0` "
-#~ "branch (this you can consider a "
-#~ "production line), it then builds bauble,"
-#~ " downloading all remaining dependencies, "
-#~ "and finally it creates a startup "
-#~ "script in your `~/bin` folder."
-#~ msgstr ""
-#~ "Ви можете вивчити сценарій щоб побачити,"
-#~ " які кроки виконуються для вас. "
-#~ "Коротше кажучи буде встановлювати залежності,"
-#~ " які не можуть бути задоволені в "
-#~ "віртуальному середовищі, що створить "
-#~ "віртуальне середовище з ім'ям `bacl`, "
-#~ "загрузити джерела і підключити git "
-#~ "перевірку для `bauble-1.0` відділення (це "
-#~ "можна розглядати як виробничу лінію), "
-#~ "яка будує bauble, завантаження всіх "
-#~ "інших залежностей, і, нарешті, він "
-#~ "створює скрипт запуску в `~ / bin`"
-#~ " папці."
-
-#~ msgid ""
-#~ "One difficulty is that there are "
-#~ "many more versions of MacOSX out "
-#~ "there than one would want to "
-#~ "support, and only the current and "
-#~ "its immediately preceding release are "
-#~ "kept up-to-date by Apple-the-"
-#~ "firm."
-#~ msgstr ""
-#~ "Трудність полягає в тому, що існує "
-#~ "не одна а безліч версій MacOSX, що"
-#~ " б всіх їх підтримати, і тільки "
-#~ "поточний і попередній випуск up-to-"
-#~ "date Apple-the-firm."
-
-#~ msgid ""
-#~ "When you first start Bauble, and "
-#~ "connect to a database, Bauble will "
-#~ "initialize the database not only with"
-#~ " all tables it needs to run, "
-#~ "but it will also populate the "
-#~ "taxon tables for ranks family and "
-#~ "genus, using the data from the "
-#~ "“RBG Kew's Family and Genera list "
-#~ "from Vascular Plant Families and Genera"
-#~ " compiled by R. K. Brummitt and "
-#~ "published by the Royal Botanic Gardens,"
-#~ " Kew in 1992”.  In 2015 we have"
-#~ " reviewed the data regarding the "
-#~ "Orchidaceae, using “Tropicos, botanical "
-#~ "information system at the Missouri "
-#~ "Botanical Garden - www.tropicos.org” as "
-#~ "a source."
-#~ msgstr ""
-#~ "При першому запуску Bauble, і підключені"
-#~ " до бази даних, Bauble буде "
-#~ "форматувати базу даних не тільки з "
-#~ "усіма таблицями, необхідними для роботи, "
-#~ "але вона також заповнить класифікаційні "
-#~ "таблиці для рангів сім'ї і роду, "
-#~ "використовуючи дані з “RBG Kew's Family"
-#~ " and Genera list from Vascular Plant"
-#~ " Families and Genera compiled by R."
-#~ " K. Brummitt and published by the "
-#~ "Royal Botanic Gardens, Kew in 1992”. "
-#~ "У 2015 році ми розглянули дані, що"
-#~ " стосуються Orchidaceae використовуючи  "
-#~ "“Tropicos, botanical information system at "
-#~ "the Missouri Botanical Garden - "
-#~ "www.tropicos.org” як джерело."
-
-#~ msgid ""
-#~ "Bauble will let you import any "
-#~ "data you put in an intermediate "
-#~ "json format. What you import will "
-#~ "complete what you already have in "
-#~ "the database. If you need help, "
-#~ "you can ask some Bauble professional "
-#~ "to help you transform your data "
-#~ "into Bauble's intermediate json format."
-#~ msgstr ""
-#~ "дозволить вам імпортувати будь-які дані, "
-#~ "які ви встановите в проміжному форматі"
-#~ " json. Те, що ви імпортуєте завершить"
-#~ " те що ви уже маєте в базі "
-#~ "даних. Якщо вам потрібна допомога, ви"
-#~ " можете звернутися до професіоналів  "
-#~ "Bauble, щоб допомогли вам перетворити "
-#~ "ваші дані в Bauble's проміжний json "
-#~ "формат."
-
-#~ msgid ""
-#~ "Installing Bauble on Windows is an "
-#~ "easy and linear process, it will "
-#~ "not take longer than 10 minutes. "
-#~ "Bauble was born on Linux and "
-#~ "installing it on ubuntu, fedora or "
-#~ "debian is also rather simple. It "
-#~ "has been recently successfully tested on"
-#~ " MacOSX 10.9."
-#~ msgstr ""
-#~ "Установка Bauble на Windows, являє собою"
-#~ " простий і лінійний процес, це займе"
-#~ " не більше 10 хвилин. Bauble був "
-#~ "створений під Linux і встановити його"
-#~ " в ubuntu, fedora або debian, також"
-#~ " є досить простим. Вана була недавно"
-#~ " успішно протестована на MacOSX 10.9."
-
-#~ msgid ""
-#~ "Bauble is continuously and extensively "
-#~ "unit tested, something that makes "
-#~ "regression of functionality close to "
-#~ "impossible. Every update is automatically "
-#~ "quality checked, on the Travis "
-#~ "Continuous Integration service. Integration of"
-#~ " TravisCI with the github platform "
-#~ "will make it difficult for us to"
-#~ " release anything which has a single"
-#~ " failing unit test."
-#~ msgstr ""
-#~ "Bauble безперервно і ретельно протестована,"
-#~ " що робить регресію функціональності майже"
-#~ " неможливою. Кожне оновлення автоматично "
-#~ "перевіряється на якість, службою Travis "
-#~ "Continuous Integration. Інтеграція TravisCI з"
-#~ " github платформою ускладнить для нас "
-#~ "випустити що-не-будь для одного вдалого "
-#~ "модульного тестування."
-
-#~ msgid ""
-#~ "Three are three types of search "
-#~ "strategies available in Bauble. Considering"
-#~ " the search stragety types available "
-#~ "in Bauble, sorted in increasing "
-#~ "complexity: you can search by value, "
-#~ "expression or query."
-#~ msgstr ""
-#~ "Три з трьох стратегій пошуку доступні"
-#~ " в Bauble. Взагалі типи стратегій "
-#~ "пошуку доступних в Bauble, сортуються за"
-#~ " зростанням складності: ви можете "
-#~ "здійснювати пошук за значенням, виразом "
-#~ "або запитом."
-
-#~ msgid ""
-#~ "Searching by query, the most complex "
-#~ "and powerful, is assisted by the "
-#~ "Query Builder, described below."
-#~ msgstr ""
-#~ "Пошук за запитом, найскладніший і "
-#~ "потужний, за допомогою Query Builder, як"
-#~ " описано нижче."
-
-#~ msgid ""
-#~ "All searches are case insensitive so "
-#~ "searching for Maxillaria and maxillaria "
-#~ "will return the same results."
-#~ msgstr ""
-#~ "Всі пошуки нечутливі до реєстру, тому"
-#~ " пошук Maxillaria і maxillaria поверне "
-#~ "однакові результати."
-
-#~ msgid ""
-#~ "Search by value is the simplest "
-#~ "way to search. You just type in"
-#~ " a string and see what matches. "
-#~ "Which fields/columns are search for your"
-#~ " string depends on how the different"
-#~ " plugins are configured. For example, "
-#~ "by default the PlantPlugin search the"
-#~ " family name, the genus name, the "
-#~ "species and infraspecific species names, "
-#~ "vernacular names and geography. So if"
-#~ " you want to search in the "
-#~ "notes field of any of these types"
-#~ " then searching by value is not "
-#~ "the search you're looking for."
-#~ msgstr ""
-#~ "Пошук за значенням є найпростішим "
-#~ "способом пошуку. Просто наберіть в рядку"
-#~ " і подивіться відповідь. Які поля/стовпці"
-#~ " пошуку для вашого рядка залежить від"
-#~ " налаштувань плагінів. Наприклад, за "
-#~ "замовчуванням PlantPlugin шукає прізвища, "
-#~ "родові назви, види і внутрішньовидові "
-#~ "назви видів, просторічні назви і "
-#~ "географію. Так що якщо ви хочете "
-#~ "шукати в полі примітки любий з цих"
-#~ " типів то пошук за значенням це "
-#~ "не пошук, що вам потрібний."
-
-#~ msgid ""
-#~ "Searching with expression gives you a"
-#~ " little more control over what you"
-#~ " are searching for. It can narrow "
-#~ "the search down to a specific "
-#~ "domain. Expression consist of a domain,"
-#~ " an operator and a value. For "
-#~ "example the search: ``gen=Maxillaria`` would"
-#~ " return all the genera that match "
-#~ "the name Maxillaria. In this case "
-#~ "the domain is gen, the operator is"
-#~ " = and the value is Maxillaria."
-#~ msgstr ""
-#~ "Пошук за виразом дає вам трохи "
-#~ "більше контролю над тим, що ви "
-#~ "шукаєте. Це може звузити область пошуку"
-#~ " до певного домену. Вираз складається "
-#~ "з домену, оператора і значення. "
-#~ "Наприклад, пошук: ``gen=Maxillaria`` буде "
-#~ "повертати всі роди, які відповідають "
-#~ "імені Maxillaria. В цьому випадку домен"
-#~ " є gen, оператор є = і значення"
-#~ " є Maxillaria."
-
-#~ msgid ""
-#~ "For more information about the different"
-#~ " search domain and their short-hand"
-#~ " aliases, see search-domains_ ."
-#~ msgstr ""
-#~ "Для отримання додаткової інформації про "
-#~ "інші домени пошуку і їх стенографічні"
-#~ " псевдонімами, дивіться search-domains_ ."
-
-#~ msgid ""
-#~ "If expression are invalid they are "
-#~ "usually used as search by value "
-#~ "searchs. For example the search string"
-#~ " ``gen=`` will execute a search by"
-#~ " value for the string gen and "
-#~ "the search string ``gen like`` will "
-#~ "search for the string gen and the"
-#~ " string like."
-#~ msgstr ""
-#~ "Якщо вираз недійсний він, як правило,"
-#~ " використовується в якості пошуку значень"
-#~ " пошуку. Наприклад, пошук рядка ``gen=``"
-#~ " буде виконувати пошук за значенням "
-#~ "для рядка gen а рядок пошуку ``gen"
-#~ " like`` буде шукати рядок gen і "
-#~ "рядок like."
-
-#~ msgid "An example of a query would be::"
-#~ msgstr "Приклад запиту буде::"
-
-#~ msgid ""
-#~ "This query would return all the "
-#~ "plants whose family are Fabaceae and "
-#~ "are located in Block 10."
-#~ msgstr ""
-#~ "Цей запит буде повертати всі рослини,"
-#~ " чия сім'я Fabaceae і розташованих в"
-#~ " Block 10."
-
-#~ msgid ""
-#~ "Searching with queries usually requires "
-#~ "some knowledge of the Bauble internals"
-#~ " and database table layouts."
-#~ msgstr ""
-#~ "Пошук за допомогою запитів, як правило,"
-#~ " вимагає знання організації Bauble і "
-#~ "макетів таблиць бази даних."
-
-#~ msgid "A couple of useful examples:"
-#~ msgstr "Кілька корисних прикладів:"
-
-#~ msgid "Which locations are in use::"
-#~ msgstr "Які місця в використанні::"
-
-#~ msgid "Which genera are associated to at least one accession::"
-#~ msgstr "Які роди пов'язані для щонайменше, одного приєднання::"
-
-#~ msgid "Domains"
-#~ msgstr "Домени"
-
-#~ msgid ""
-#~ "The following are the common search "
-#~ "domain and the columns they search "
-#~ "by default. The default columns are "
-#~ "used when searching by value and "
-#~ "expression. The queries do not use "
-#~ "the default columns."
-#~ msgstr ""
-#~ "Нижче наведено загальний домен пошуку і"
-#~ " стовпів, вони здійснюють пошук за "
-#~ "замовчуванням."
-
-#~ msgid ""
-#~ "The Query Builder composes a query "
-#~ "that will be understood by the "
-#~ "Query Search Strategy described above. "
-#~ "You can use the Query Builder to"
-#~ " get a feeling of correct queries "
-#~ "before you start typing them by "
-#~ "hand, something that you might prefer"
-#~ " if you are a fast typer."
-#~ msgstr ""
-#~ "Query Builder компонує запит, який буде"
-#~ " зрозумілий стратегії пошукового запиту, "
-#~ "описаної вище. Ви можете використовувати "
-#~ "Query Builder щоб отримати відчуття "
-#~ "правильних запитів, перш ніж почати "
-#~ "вводити їх вручну, щось чому ви "
-#~ "напевно-що надаєте перевагу, якщо ви "
-#~ "скоро друкуєте."
-
-#~ msgid ""
-#~ "After opening the Query Builder you "
-#~ "must select a search domain.  The "
-#~ "search domain will determine the type"
-#~ " of data that is returned and "
-#~ "the properties that you can search."
-#~ msgstr ""
-#~ "Після відкриття Query Builder необхідно "
-#~ "вибрати домен пошуку. Домен пошуку буде"
-#~ " визначити тип даних, що повертаються "
-#~ "і властивості, які ви можете шукати."
-
-#~ msgid ""
-#~ "The search domain is similar to a"
-#~ " table in the database and the "
-#~ "properties would be the columns on "
-#~ "the table.  Often the table/domain and"
-#~ " properties/columns are the same but "
-#~ "not always."
-#~ msgstr ""
-#~ "Домен пошуку схожий на таблицю в "
-#~ "базі даних і властивості стовпців в "
-#~ "таблиці. Часто таблиця/домен і "
-#~ "властивості/стовпці однакові, але не завжди."
-
-#~ msgid ""
-#~ "Once a search domain is selected "
-#~ "you can then select a property of"
-#~ " the domain to compare values to."
-#~ "  The search operator can then be "
-#~ "changed for how you want to make"
-#~ " the search comparison.  Finally you "
-#~ "must enter a value to compare to"
-#~ " the search property."
-#~ msgstr ""
-#~ "Після обрання домену пошуку ви можете"
-#~ " вибрати властивість домену для порівняння"
-#~ " значень. Оператор пошуку може бути "
-#~ "змінений, як ви хочете, щоб зробити "
-#~ "порівняння пошуку. Нарешті, ви повинні "
-#~ "ввести значення для порівняння з "
-#~ "властивостями пошуку."
-
-#~ msgid ""
-#~ "If the search property you have "
-#~ "selected can only have specific values"
-#~ " then a list of possible values "
-#~ "will be provided for you to choose"
-#~ " from."
-#~ msgstr ""
-#~ "Якщо ви вибрали властивість пошуку то"
-#~ " це може мати тільки певні значення,"
-#~ " список можливих значень буде надано "
-#~ "для вас для вибору."
-
-#~ msgid ""
-#~ "As it says: close the message box,"
-#~ " you will return to the connection"
-#~ " dialog, where you click on **Add**"
-#~ " to create your first connection."
-#~ msgstr ""
-#~ "Як повідомлялося: закрийте вікно повідомлення"
-#~ " і ви повернетеся в діалогове вікно"
-#~ " підключення, де натисніть на **Додати**"
-#~ " щоб створити перше з'єднання."
-
-#~ msgid "Getting Started"
-#~ msgstr "Починаємо"
-
-#~ msgid ""
-#~ "Is this the first time you use "
-#~ "Bauble, are you going to work in"
-#~ " a stand-alone setting, you have "
-#~ "not the faintest idea how to "
-#~ "manage a database management system? If"
-#~ " you answered yes to any of the"
-#~ " previous, you probably better stick "
-#~ "with SQLite, the easy, fast, zero-"
-#~ "administration file-based database."
-#~ msgstr ""
-#~ "Це перший раз, коли ви використовуєте"
-#~ " Bauble, ви збираєтеся працювати в "
-#~ "автономному режимі, ви не маєте жодного"
-#~ " уявлення про те, як управляти "
-#~ "системою управління базами даних? Якщо "
-#~ "ви відповіли ствердно на будь-який з "
-#~ "перелічених запитань, вам напевно краще "
-#~ "триматися з SQLite, легкої, швидкої, "
-#~ "нульової адміністрації на основі файлу "
-#~ "бази даних."
-
-#~ msgid ""
-#~ "The fastest way to open it is "
-#~ "with the file explorer: type "
-#~ "``%APPDATA%` and hit enter."
-#~ msgstr ""
-
-#~ msgid ":mod:`bauble`"
-#~ msgstr ":mod:`bauble`"
-
-#~ msgid ":mod:`bauble.db`"
-#~ msgstr ":mod:`bauble.db`"
-
-#~ msgid ""
-#~ "All tables/mappers in Ghini which use"
-#~ " the SQLAlchemy declarative plugin for "
-#~ "declaring tables and mappers should "
-#~ "derive from this class."
-#~ msgstr ""
-#~ "Всі таблиці/картограми в Ghini які "
-#~ "використовують декларативний плагін SQLAlchemy "
-#~ "для об'явлення таблиць і картограм слід"
-#~ " отримати з цього класу."
-
-#~ msgid "An instance of :class:`sqlalchemy.ext.declarative.Base`"
-#~ msgstr "Примірник :class:`sqlalchemy.ext.declarative.Base`"
-
-#~ msgid "The default metadata for all Ghini tables."
-#~ msgstr "Метадані за замовчуванням для всіх Ghini таблиць."
-
-#~ msgid "An instance of :class:`sqlalchemy.schema.MetaData`"
-#~ msgstr "Примірник :class:`sqlalchemy.schema.MetaData`"
-
-#~ msgid ""
-#~ "We haven't yet defined a workflow "
-#~ "for publishing translated documentation on "
-#~ "readthedocs. If you have experience with"
-#~ " it please have a go at it. "
-#~ "Thank you in advance."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you are interested contributing to"
-#~ " development of Bauble, a good way"
-#~ " to do so would be by helping"
-#~ " us finding and writing the missing"
-#~ " unit tests."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Bauble is a framework for handling "
-#~ "collections, and is distributed along "
-#~ "with a set of plugins making "
-#~ "Bauble a botanical collection manager. "
-#~ "But Bauble stays a framework and "
-#~ "you could in theory remove all "
-#~ "plugins we distribute and write your "
-#~ "own, or write your own plugins "
-#~ "that extend or complete the current "
-#~ "Bauble behaviour."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Each of these classes must implement "
-#~ "an amount of functions in order to"
-#~ " properly behave within the Bauble "
-#~ "framework. The Bauble framework reserves "
-#~ "space to pluggable classes."
-#~ msgstr ""
-
-#~ msgid "Extending Bauble with Plugins"
-#~ msgstr "Розширення Bauble плагінами"
-
-#~ msgid ""
-#~ "Nearly everything about Bauble is "
-#~ "extensible through plugins. Plugins can "
-#~ "create tables, define custom searchs, "
-#~ "add menu items, create custom commands"
-#~ " and more."
-#~ msgstr ""
-#~ "Майже все, що стосується Bauble "
-#~ "розширюється за допомогою плагінів. Плагіни"
-#~ " можуть створювати таблиці, визначати "
-#~ "призначені для користувача пошукові запити,"
-#~ " додавати пункти меню, створювати "
-#~ "призначені для користувача команди і "
-#~ "багато іншого."
-
-#~ msgid ""
-#~ "the user interface is built according"
-#~ " to the Model-View-Presenter "
-#~ "architectural pattern.  The **view** is "
-#~ "described in a **glade** file and "
-#~ "is totally dumb, you do not "
-#~ "subclass it because it implements no "
-#~ "behaviour and because its appearance is,"
-#~ " as said, described elsewhere (the "
-#~ "**glade** file), including the association "
-#~ "signal-callbacks. The **model** simply "
-#~ "follows the sqlalchemy practices."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To install Ghini first requires that "
-#~ "you install its dependencies that cannot"
-#~ " be installed automatically.  These include"
-#~ " virtualenv, PyGTK and pip. Python "
-#~ "and GTK+, you probably already have. "
-#~ "As long as you have these packages"
-#~ " installed then Ghini should be able"
-#~ " to install the rest of its "
-#~ "dependencies by itself."
-#~ msgstr ""
-#~ "Для установки Ghini спочатку потрібно "
-#~ "установити його пакети, які не можуть"
-#~ " бути встановлені автоматично. До них "
-#~ "відносяться virtualenvwrapper, PyGTK і pip."
-#~ " Python і GTK +, ви, ймовірно, "
-#~ "вже маєте. Як тільки у вас є "
-#~ "ці пакети встановлені, то Ghini буде "
-#~ "в змозі встановити решту пакетів "
-#~ "самостійно."
-
-#~ msgid ""
-#~ "If you follow these installation steps,"
-#~ " you will end with Ghini running "
-#~ "within a Python virtual environment, all"
-#~ " Python dependencies installed locally, non"
-#~ " conflicting with any other Python "
-#~ "program you may have on your "
-#~ "system."
-#~ msgstr ""
-#~ "Якщо ви будете слідувати цим крокам "
-#~ "установки, ви будете працювати з Ghini"
-#~ " у віртуальному середовищі Python, всі "
-#~ "залежності Python, встановлені локально, не"
-#~ " суперечать один одному з будь-якою "
-#~ "іншою програмою Python що ви можете "
-#~ "мати у вашій системі."
-
-#~ msgid "Documentation 1.0"
-#~ msgstr "Документація для  Ghini 1.0"
-
-#~ msgid ""
-#~ "The Accession editor allows us to "
-#~ "add an accession to a species.  In"
-#~ " Ghini an accession represents a "
-#~ "group of plants or clones.  The "
-#~ "accession would refer maybe a group "
-#~ "of seed or cuttings from a "
-#~ "species.  A plant would be an "
-#~ "individual from that accesssion, i.e. a"
-#~ " specific plant in a specific "
-#~ "location."
-#~ msgstr ""
-#~ "Редактор Приєднання дозволяє додати приєднання"
-#~ " до виду. У Ghini приєднання є "
-#~ "групою рослин або клонів. Приєднання "
-#~ "може відноситися до групи насіння або"
-#~ " черешків від виду. Рослина буде "
-#~ "індивідуальна у цьому приєднанні, тобто "
-#~ "конкретна рослина в певному місці."
-
-#~ msgid "The Plant editor."
-#~ msgstr "Редактор рослин."
-
-#~ msgid "Creating multiple plants"
-#~ msgstr "Створення декількох рослин"
-
-#~ msgid "Pictures"
-#~ msgstr "Зображення"
-
-#~ msgid "danger zone"
-#~ msgstr "небезпечна зона"
-
-#~ msgid ""
-#~ "The source of the accessions lets "
-#~ "you add more information about where "
-#~ "this accession came from.  At the "
-#~ "moment the type of the source can"
-#~ " be either a Collection or a "
-#~ "Donation."
-#~ msgstr ""
-#~ "Джерело приєднань дозволяє додати додаткову"
-#~ " інформацію про те, де це приєднання"
-#~ " взялося. На даний момент тип джерела"
-#~ " може бути або з колекції або з"
-#~ " пожертвування."
-
-#~ msgid "Collection"
-#~ msgstr "Колекція"
-
-#~ msgid "A Collection."
-#~ msgstr "Колекція."
-
-#~ msgid "Donation"
-#~ msgstr "Пожертвування"
-
-#~ msgid "A Donation."
-#~ msgstr "Пожертвування."
-
-#~ msgid ""
-#~ "The GNU/Linux script takes care of "
-#~ "everything, from dependecies to installation"
-#~ " for all users."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "After some years of stagnation Mario "
-#~ "Frasca took responsibility of updating "
-#~ "Bauble, rebranded it to Ghini, in "
-#~ "honour of Luca Ghini, started adocating,"
-#~ " travelling, distributing, developing, "
-#~ "documenting it, and it is now "
-#~ "Mario Frasca writing this, enhancing the"
-#~ " software, looking for users, requesting"
-#~ " feedback..."
-#~ msgstr ""
-
