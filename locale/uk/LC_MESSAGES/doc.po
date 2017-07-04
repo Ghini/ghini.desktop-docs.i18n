@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-02 19:42-0500\n"
+"POT-Creation-Date: 2017-07-04 10:49-0500\n"
 "PO-Revision-Date: 2017-07-02 11:50+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -2498,90 +2498,97 @@ msgid "Installing on GNU/Linux"
 msgstr "Установка на Linux"
 
 #: ../../installing.rst:39
-msgid "Open a shell terminal window, and follow these instructions."
+msgid "Open a shell terminal window, and follow the following instructions."
 msgstr ""
 
 #: ../../installing.rst:41
-msgid "Download the `devinstall.sh` script and run it::"
+#, fuzzy
+msgid "Download the `devinstall.sh` script:"
 msgstr "Завантажити `devinstall.sh` скрипт і запустити його::"
 
-#: ../../installing.rst:45
-#, fuzzy
-msgid ""
-"Please note that the script will not help you install any extra database "
-"connector. This is not strictly necessary and you can do it at any later "
-"moment."
+#: ../../installing.rst:43
+msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh"
 msgstr ""
-"Будь ласка, це не той скрипт що допоможе вам встановити додатковий роз'єм"
-" бази даних. Це ви будете робити на більш пізньому етапі."
 
-#: ../../installing.rst:48
-#, fuzzy
-msgid "If the script ends without error, you can now start ghini::"
-msgstr "Якщо сценарій завершується без помилок, ви можете запустити ghini::"
+#: ../../installing.rst:45
+msgid ""
+"Invoke the script from a terminal window, starting at the directory where"
+" you downloaded it, like this::"
+msgstr ""
+
+#: ../../installing.rst:50
+msgid "The script will produce quite some output, which you can safely ignore."
+msgstr ""
 
 #: ../../installing.rst:52
-#, fuzzy
-msgid "or update ghini to the latest released production patch::"
-msgstr "або оновити ghini до останнього випущеного виробничого патча::"
-
-#: ../../installing.rst:56
-#, fuzzy
-msgid ""
-"The same script you can use to switch to a different production line. At "
-"the moment it's just `ghini-1.0` and `ghini-1.1`."
+msgid "global installation"
 msgstr ""
-"Той же сценарій ви можете використовувати для перемикання на іншу "
-"виробничу лінію, але на даний момент є тільки `ghini-1.0` і `ghini-1.1`."
 
-#: ../../installing.rst:59
-#, fuzzy
+#: ../../installing.rst:55
 msgid ""
-"on Unity, open a terminal, start ghini, its icon will show up in the "
-"launcher, you can now `lock to launcher` it."
+"When almost ready, the installation script will ask you for your "
+"password.  This lets it create a ``ghini`` user group, initialise it to "
+"just yourself, make the just created ``ghini`` script available to the "
+"whole ``ghini`` user group."
 msgstr ""
-"на Unity, відкрийте термінал, запустіть ghini, його значок буде "
-"відображатися в панелі запуску, тепер ви можете це `lock to launcher`."
 
-#: ../../installing.rst:62
+#: ../../installing.rst:60
 msgid ""
-"If you would like to use the default `SQLite <http://sqlite.org/>`_ "
-"database or you don't know what this means then you can skip this step. "
-"If you would like to use a database backend other than the default SQLite"
-" backend then you will also need to install a database connector."
+"If feeling paranoid, you can safely not give your password and interrupt "
+"the script there."
 msgstr ""
-"Якщо ви хочете використовувати за замовчуванням `SQLite "
-"<http://sqlite.org/>`_базу даних або ви не знаєте, що це значить, то ви "
-"можете пропустити цей крок. Якщо ви хочете використовувати базу даних "
-"бекенд, крім SQLite бекенда за замовчуванням, то вам також необхідно "
-"встановити з'єднувач бази даних."
+
+#: ../../installing.rst:63
+msgid ""
+"Possibly the main advantage of a global installation is being able to "
+"find Ghini in the application menus of your graphic environment."
+msgstr ""
 
 #: ../../installing.rst:67
-msgid ""
-"If you would like to use a `PostgreSQL <http://www.postgresql.org>`_ "
-"database then activate the virtual environment and install psycopg2 with "
-"the following commands::"
+msgid "You can now start ghini by invoking the ``ghini`` script::"
 msgstr ""
-"Якщо ви хотіли б використовувати `PostgreSQL "
-"<http://www.postgresql.org>`_базу даних тоді активуйте віртуальне "
-"середовище і встановіть psycopg2 з наступними командами::"
 
-#: ../../installing.rst:74
+#: ../../installing.rst:71
 #, fuzzy
 msgid ""
-"You might need solve dependencies. How to do so, depends on which "
-"GNU/Linux flavour you are using. Check with your distribution "
+"You use the same ``ghini`` script to update ghini to the latest released "
+"production patch::"
+msgstr "або оновити ghini до останнього випущеного виробничого патча::"
+
+#: ../../installing.rst:76
+msgid "This is what you would do when ghini shows you something like this:"
+msgstr ""
+
+#: ../../installing.rst:80
+msgid ""
+"Again the same ``ghini`` script lets you install the optional database "
+"connectors: option ``-p`` is for PostgreSQL, option ``-m`` is for "
+"MySQL/MariaDB, but you can also install both at the same time::"
+msgstr ""
+
+#: ../../installing.rst:86
+#, fuzzy
+msgid ""
+"Please beware: you might need solve dependencies. How to do so, depends "
+"on which GNU/Linux flavour you are using. Check with your distribution "
 "documentation."
 msgstr ""
 "Вам, можливо, буде потрібно визначити залежності. Як зробити так, "
 "залежить від того, який Linux ви використовуєте. Зверніться до "
 "документації розподілу."
 
-#: ../../installing.rst:77
+#: ../../installing.rst:90
+msgid ""
+"You can also use the ``ghini`` script to switch to a different production"
+" line.  At the moment ``1.0`` is the stable one, but you can select "
+"``1.1`` if you want to help us with its development::"
+msgstr ""
+
+#: ../../installing.rst:96
 msgid "beginner's note"
 msgstr ""
 
-#: ../../installing.rst:80
+#: ../../installing.rst:99
 msgid ""
 "To run a script, first make sure you note down the name of the directory "
 "to which you have downloaded the script, then you open a terminal window "
@@ -2589,34 +2596,41 @@ msgid ""
 "name of the script including directory name, and hit on the enter key."
 msgstr ""
 
-#: ../../installing.rst:86
+#: ../../installing.rst:105
 msgid "technical note"
 msgstr ""
 
-#: ../../installing.rst:89
+#: ../../installing.rst:108
+msgid "You can study the script to see what steps if runs for you."
+msgstr ""
+
+#: ../../installing.rst:110
 msgid ""
-"You can study the script to see what steps if runs for you. In short it "
-"will install dependencies which can't be satisfied in a virtual "
-"environment, then it will create a virtual environment named ``ghide``, "
-"use git to download the sources to a directory named "
+"In short it will install dependencies which can't be satisfied in a "
+"virtual environment, then it will create a virtual environment named "
+"``ghide``, use git to download the sources to a directory named "
 "``~/Local/github/Ghini/ghini.desktop``, and connect this git checkout to "
 "the ``ghini-1.0`` branch (this you can consider a production line), it "
 "then builds ghini, downloading all remaining dependencies in the virtual "
-"environment, and finally it creates a startup script. If you have "
-"``sudo`` permissions, it will be placed in ``/usr/local/bin``, otherwise "
-"in your ``~/bin`` folder. Again if you"
+"environment, and finally it creates the ``ghini`` startup script."
 msgstr ""
 
-#: ../../installing.rst:102 ../../installing.rst:156 ../../installing.rst:310
-#: ../../installing.rst:346
+#: ../../installing.rst:118
+msgid ""
+"If you have ``sudo`` permissions, it will be placed in "
+"``/usr/local/bin``, otherwise in your ``~/bin`` folder."
+msgstr ""
+
+#: ../../installing.rst:122 ../../installing.rst:176 ../../installing.rst:329
+#: ../../installing.rst:365
 msgid "Next..."
 msgstr "Далі..."
 
-#: ../../installing.rst:106
+#: ../../installing.rst:126
 msgid "Installing on MacOSX"
 msgstr "Установка на MacOSX"
 
-#: ../../installing.rst:108
+#: ../../installing.rst:128
 #, fuzzy
 msgid ""
 "Being MacOSX a unix environment, most things will work the same as on "
@@ -2625,7 +2639,7 @@ msgstr ""
 "MacOSX являється середовищем unix, більшість речей буде працювати так "
 "само, як і на Linux (різновид)."
 
-#: ../../installing.rst:111
+#: ../../installing.rst:131
 #, fuzzy
 msgid ""
 "Last time we tested, some of the dependencies could not be installed on "
@@ -2637,7 +2651,7 @@ msgstr ""
 " на більш старих версіях OSX. Ghini була успішно протестована з 10,7 і "
 "10,9."
 
-#: ../../installing.rst:115
+#: ../../installing.rst:135
 msgid ""
 "First of all, you need things which are an integral part of a unix "
 "environment, but which are missing in a off-the-shelf mac:"
@@ -2645,7 +2659,7 @@ msgstr ""
 "Перш за все, вам потрібно речі, які є невід'ємною частиною unix "
 "середовища, але які відсутні в off-the-shelf mac:"
 
-#: ../../installing.rst:118
+#: ../../installing.rst:138
 msgid ""
 "developers tools: xcode. check the wikipedia page for the version "
 "supported on your mac."
@@ -2653,16 +2667,16 @@ msgstr ""
 "інструменти розробника: xcode. перевірте сторінку Вікіпедії яка версія "
 "підтримується на mac."
 
-#: ../../installing.rst:120
+#: ../../installing.rst:140
 msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr "менеджер пакетів:  homebrew (tigerbrew для старих версій OSX)."
 
-#: ../../installing.rst:122
+#: ../../installing.rst:142
 #, fuzzy
 msgid "with the above installed, open a terminal window and run::"
 msgstr "з вище встановлено, запустити::"
 
-#: ../../installing.rst:126
+#: ../../installing.rst:146
 msgid ""
 "make sure you understand the problems it reports, and correct them. pygtk"
 " will need xquartz and brew will not solve the dependency automatically. "
@@ -2672,31 +2686,31 @@ msgstr ""
 "знадобиться xquartz і brew не дозволить залежність автоматично. або "
 "встановіть xquartz, використовуючи brew або якщо ви вважаєте за краще::"
 
-#: ../../installing.rst:132
+#: ../../installing.rst:152
 msgid "then install the remaining dependencies::"
 msgstr "тоді встановіть решту залежностей::"
 
-#: ../../installing.rst:137
+#: ../../installing.rst:157
 msgid "follow all instructions on how to activate what you have installed."
 msgstr "дотримуватися всіх інструкцій про те, як активувати то, що ви встановили."
 
-#: ../../installing.rst:139
+#: ../../installing.rst:159
 msgid "Mac running OSX 10.12 —Sierra—"
 msgstr ""
 
-#: ../../installing.rst:142
+#: ../../installing.rst:162
 msgid ""
 "On OSX 10.12, ``brew`` reports that ``gettext`` is already installed, but"
 " then it won't let us find it. A solution is to run the following line::"
 msgstr ""
 
-#: ../../installing.rst:148
+#: ../../installing.rst:168
 msgid ""
 "Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
 "installing a couple of python packages, globally. Do this::"
 msgstr ""
 
-#: ../../installing.rst:153
+#: ../../installing.rst:173
 #, fuzzy
 msgid ""
 "The rest is just as on a normal unix machine. Read the above GNU/Linux "
@@ -2706,11 +2720,11 @@ msgstr ""
 "`devinstall.sh`скрипт для цього. Прочитайте вище інструкції Linux, "
 "слідуйте за ними, насолоджуйтесь."
 
-#: ../../installing.rst:160
+#: ../../installing.rst:180
 msgid "Installing on Windows"
 msgstr "Установка на Windows"
 
-#: ../../installing.rst:162
+#: ../../installing.rst:182
 msgid ""
 "The current maintainer of ghini.desktop has no interest in learning how "
 "to produce Windows installers, so the Windows installation is here "
@@ -2718,14 +2732,14 @@ msgid ""
 "MacOSX)."
 msgstr ""
 
-#: ../../installing.rst:166
+#: ../../installing.rst:186
 #, fuzzy
 msgid ""
 "Please report any trouble. Help with packaging will be very welcome, in "
 "particular by other Windows users."
 msgstr "Повідомлення про виявлені проблеми і допомога з пакуванням дуже вітається."
 
-#: ../../installing.rst:169
+#: ../../installing.rst:189
 msgid ""
 "The steps described here instruct you on how to install Git, Gtk, Python,"
 " and the python database connectors. With this environment correctly set "
@@ -2733,7 +2747,7 @@ msgid ""
 " steps are again Windows specific."
 msgstr ""
 
-#: ../../installing.rst:174
+#: ../../installing.rst:194
 #, fuzzy
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 and W-8. "
@@ -2744,7 +2758,7 @@ msgstr ""
 "працює нормально на інших версіях Windows, Ghini не була ретельно "
 "протестована на них."
 
-#: ../../installing.rst:178
+#: ../../installing.rst:198
 msgid ""
 "Direct download links are given for all needed components. They have been"
 " tested in September 2015, but things change with time. If any of the "
@@ -2756,25 +2770,29 @@ msgstr ""
 "змінюється з часом. Якщо яка-небудь з ланок прямого завантаження перестає"
 " працювати, будь ласка, зателефонуйте, що б ми могли оновити інформацію."
 
-#: ../../installing.rst:189
+#: ../../installing.rst:209
 #, fuzzy
 msgid "The installation steps on Windows:"
 msgstr "кроки по установці на Windows:"
 
-#: ../../installing.rst:191
+#: ../../installing.rst:211
 #, fuzzy
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
-"``vi``) from::"
+"``vi``) from:"
 msgstr ""
 "загрузити і встановити ``git`` (поставляється з unix-like ``sh`` і "
 "включає в себе ``vi``) з:"
 
-#: ../../installing.rst:196
+#: ../../installing.rst:214
+msgid "https://git-scm.com/download/win"
+msgstr ""
+
+#: ../../installing.rst:216
 msgid "`Direct link to download git`_"
 msgstr "`Пряме посилання на завантаження git`_"
 
-#: ../../installing.rst:198
+#: ../../installing.rst:218
 msgid ""
 "all default options are fine, except we need git to be executable from "
 "the command prompt:"
@@ -2782,16 +2800,20 @@ msgstr ""
 "всі опції за замовчуванням в порядку, за винятком git повинен бути "
 "виконуваним з командного рядка:"
 
-#: ../../installing.rst:203
+#: ../../installing.rst:223
 #, fuzzy
-msgid "download and install Python 2.x (32bit) from::"
+msgid "download and install Python 2.x (32bit) from:"
 msgstr "завантажити та встановити Python 2.x (32bit) з:"
 
-#: ../../installing.rst:207
+#: ../../installing.rst:225
+msgid "http://www.python.org"
+msgstr ""
+
+#: ../../installing.rst:227
 msgid "`Direct link to download Python`_"
 msgstr "`Пряме посилання на завантаження Python`_"
 
-#: ../../installing.rst:209
+#: ../../installing.rst:229
 #, fuzzy
 msgid ""
 "Ghini has been developed and tested using Python 2.x.  It will definitely"
@@ -2802,50 +2824,55 @@ msgstr ""
 "безумовно, **не ** працюватиме на Python 3.x, будь ласка, зв'яжіться з "
 "розробниками Ghini."
 
-#: ../../installing.rst:213
+#: ../../installing.rst:233
 msgid "when installing Python, do put Python in the PATH:"
 msgstr "при установці Python, помістити Python в PATH:"
 
-#: ../../installing.rst:217
+#: ../../installing.rst:237
+#, fuzzy
 msgid ""
 "download ``pygtk`` from the following source. (this requires 32bit "
-"python). be sure you download the \"all in one\" version::"
+"python). be sure you download the \"all in one\" version:"
 msgstr ""
 "завантажити ``pygtk`` з наступного джерела. (для цього потрібно 32-бітний"
 " python). переконайтеся, що ви завантажили \"все в одному\" версію::"
 
-#: ../../installing.rst:222
+#: ../../installing.rst:240
+msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
+msgstr ""
+
+#: ../../installing.rst:242
 msgid "`Direct link to download PyGTK`_"
 msgstr "`Пряме посилання на завантаження PyGTK`_"
 
-#: ../../installing.rst:224
+#: ../../installing.rst:244
 msgid "make a complete install, selecting everything:"
 msgstr "зробити повну установку, вибравши все:"
 
-#: ../../installing.rst:228
+#: ../../installing.rst:248
 msgid ""
-"(Windows 8.x) please consider this additional step. It is possibly "
-"necessary to avoid the following error on Windows 8.1 installations::"
+"(Possibly necessary, maybe superfluous) install lxml, you can grab this "
+"from:"
 msgstr ""
 
-#: ../../installing.rst:235
-msgid "If you skip this step and can confirm you get the error, please inform us."
-msgstr ""
-
-#: ../../installing.rst:237
-msgid "You can download lxml from::"
-msgstr ""
-
-#: ../../installing.rst:241
+#: ../../installing.rst:252
 msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr ""
 
-#: ../../installing.rst:243
+#: ../../installing.rst:254
 #, fuzzy
 msgid "`Direct link to download lxml`_"
 msgstr "`Пряме посилання на завантаження git`_"
 
-#: ../../installing.rst:245
+#: ../../installing.rst:256
+msgid "On some systems, lxml was necessary to avoid the following error::"
+msgstr ""
+
+#: ../../installing.rst:262
+msgid "If you skip this step and can confirm you get the error, please inform us."
+msgstr ""
+
+#: ../../installing.rst:264
 msgid ""
 "(optional) download and install a database connector other than "
 "``sqlite3``."
@@ -2853,7 +2880,7 @@ msgstr ""
 "(за бажанням), завантажити і встановити з'єднувач бази даних, окрім `` "
 "sqlite3``."
 
-#: ../../installing.rst:248
+#: ../../installing.rst:267
 msgid ""
 "On Windows, it is NOT easy to install ``psycopg2`` from sources, using "
 "pip, so \"avoid the gory details\" and use a pre-compiled pagkage from:"
@@ -2861,30 +2888,30 @@ msgstr ""
 "У Windows не так легко встановити ``psycopg2`` з джерел, використайте "
 "pip, щоб \"avoid the gory details\" і скомпільованих пакет із:"
 
-#: ../../installing.rst:253
+#: ../../installing.rst:272
 msgid "`Direct link to download psycopg2`_"
 msgstr "`Пряме посилання на завантаження psycopg2`_"
 
-#: ../../installing.rst:255
+#: ../../installing.rst:274
 msgid "**REBOOT**"
 msgstr "**ПЕРЕЗАВАНТАЖЕННЯ**"
 
-#: ../../installing.rst:257
+#: ../../installing.rst:276
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr "Гей, це Windows, вам необхідно перезавантажити, щоб зміни вступили в силу!"
 
-#: ../../installing.rst:259
+#: ../../installing.rst:278
 #, fuzzy
 msgid "download and run (from ``\\system32\\cmd.exe``) the batch file:"
 msgstr "завантажте та запустіть пакетний файл::"
 
-#: ../../installing.rst:263
+#: ../../installing.rst:282
 msgid ""
 "right before you hit the enter key to run the script, your screen might "
 "look like something like this:"
 msgstr ""
 
-#: ../../installing.rst:268
+#: ../../installing.rst:287
 #, fuzzy
 msgid ""
 "this will pull the ``ghini.desktop`` repository on github to your home "
@@ -2896,7 +2923,7 @@ msgstr ""
 "``ghini-1.0`` виробничу лінію, створіть віртуальне середовище і "
 "встановіть ghini в нього."
 
-#: ../../installing.rst:272
+#: ../../installing.rst:291
 msgid ""
 "you can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
@@ -2904,19 +2931,19 @@ msgstr ""
 "ви також можете запустити ``devinstall.bat`` передаючи в якості аргументу"
 " числову частину виробничої лінії якою ви хочете слідувати."
 
-#: ../../installing.rst:275
+#: ../../installing.rst:294
 msgid ""
 "this is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
 
-#: ../../installing.rst:278
+#: ../../installing.rst:297
 msgid ""
 "the operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
 
-#: ../../installing.rst:281
+#: ../../installing.rst:300
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -2925,14 +2952,14 @@ msgid ""
 "step."
 msgstr ""
 
-#: ../../installing.rst:287
+#: ../../installing.rst:306
 msgid ""
 "right-click on it, select run as administrator, confirm you want it to "
 "make changes to your computer. These changes are in the Start Menu only: "
 "create the Ghini group, place the Ghini shortcut."
 msgstr ""
 
-#: ../../installing.rst:291
+#: ../../installing.rst:310
 #, fuzzy
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
@@ -2941,7 +2968,7 @@ msgstr ""
 "завантажити пакетний файл, який буде використовуватися up-to-date "
 "виробничої лінії якій ви вирішили слідувати::"
 
-#: ../../installing.rst:296
+#: ../../installing.rst:315
 #, fuzzy
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
@@ -2952,7 +2979,7 @@ msgstr ""
 "Ghini перевірятиме сайт розробника і попередить вас про випуск нових "
 "версій  ghini в межах обраної виробничої лінії."
 
-#: ../../installing.rst:300
+#: ../../installing.rst:319
 #, fuzzy
 msgid ""
 "any time you want to update your installation, just start the command "
@@ -2961,7 +2988,7 @@ msgstr ""
 "в будь-який час ви можете оновити свою установку, просто відкрийте "
 "командний рядок і запустіть ``ghini-update.bat``"
 
-#: ../../installing.rst:303
+#: ../../installing.rst:322
 #, fuzzy
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
@@ -2975,16 +3002,16 @@ msgstr ""
 "<http://xmlgraphics.apache.org/fop/>`_. Після розпакування архіву FOP вам"
 " потрібно буде включати каталог розпакування в свій PATH."
 
-#: ../../installing.rst:316
+#: ../../installing.rst:335
 #, fuzzy
 msgid "Troubleshooting"
 msgstr "Пошук і усунення несправностей установки"
 
-#: ../../installing.rst:318
+#: ../../installing.rst:337
 msgid "any error related to lxml."
 msgstr ""
 
-#: ../../installing.rst:320
+#: ../../installing.rst:339
 msgid ""
 "In order to be able to compile lxml, you have to install a C compiler (on"
 " GNU/Linux this would be the ``gcc`` package) and Cython (a Python "
@@ -2992,25 +3019,25 @@ msgid ""
 "CPython)."
 msgstr ""
 
-#: ../../installing.rst:325
+#: ../../installing.rst:344
 msgid ""
 "However, It should not be necessary to compile anything, and ``pip`` "
 "should be able to locate the binary modules in the online libraries."
 msgstr ""
 
-#: ../../installing.rst:328
+#: ../../installing.rst:347
 msgid "For some reason, this is not the case on Windows 8.1."
 msgstr ""
 
-#: ../../installing.rst:332
+#: ../../installing.rst:351
 msgid "Please report any other trouble related to the installation of lxml."
 msgstr ""
 
-#: ../../installing.rst:334
+#: ../../installing.rst:353
 msgid "Couldn't install gdata."
 msgstr "Не вдалося встановити gdata."
 
-#: ../../installing.rst:336
+#: ../../installing.rst:355
 msgid ""
 "For some reason the Google's gdata package lists itself in the Python "
 "Package Index but doesn't work properly with the easy_install command.  "
@@ -3020,7 +3047,7 @@ msgstr ""
 " Index, але не працює належним чином з командою easy_install. Завантажте "
 "останній пакет gdata від:"
 
-#: ../../installing.rst:343
+#: ../../installing.rst:362
 msgid ""
 "Unzip it and run ``python setup.py installw`` in the folder you unzip it "
 "to."
@@ -5107,4 +5134,108 @@ msgstr ""
 #~ "інші доступні коди гілок перейти до "
 #~ "`bauble.classic on github "
 #~ "<http://www.github.com/Bauble/bauble.classic>`_."
+
+#~ msgid "Open a shell terminal window, and follow these instructions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please note that the script will "
+#~ "not help you install any extra "
+#~ "database connector. This is not strictly"
+#~ " necessary and you can do it at"
+#~ " any later moment."
+#~ msgstr ""
+#~ "Будь ласка, це не той скрипт що"
+#~ " допоможе вам встановити додатковий роз'єм"
+#~ " бази даних. Це ви будете робити "
+#~ "на більш пізньому етапі."
+
+#~ msgid "If the script ends without error, you can now start ghini::"
+#~ msgstr "Якщо сценарій завершується без помилок, ви можете запустити ghini::"
+
+#~ msgid ""
+#~ "The same script you can use to "
+#~ "switch to a different production line."
+#~ " At the moment it's just `ghini-1.0`"
+#~ " and `ghini-1.1`."
+#~ msgstr ""
+#~ "Той же сценарій ви можете "
+#~ "використовувати для перемикання на іншу "
+#~ "виробничу лінію, але на даний момент "
+#~ "є тільки `ghini-1.0` і `ghini-1.1`."
+
+#~ msgid ""
+#~ "on Unity, open a terminal, start "
+#~ "ghini, its icon will show up in"
+#~ " the launcher, you can now `lock "
+#~ "to launcher` it."
+#~ msgstr ""
+#~ "на Unity, відкрийте термінал, запустіть "
+#~ "ghini, його значок буде відображатися в"
+#~ " панелі запуску, тепер ви можете це"
+#~ " `lock to launcher`."
+
+#~ msgid ""
+#~ "If you would like to use the "
+#~ "default `SQLite <http://sqlite.org/>`_ database "
+#~ "or you don't know what this means"
+#~ " then you can skip this step. "
+#~ "If you would like to use a "
+#~ "database backend other than the default"
+#~ " SQLite backend then you will also"
+#~ " need to install a database "
+#~ "connector."
+#~ msgstr ""
+#~ "Якщо ви хочете використовувати за "
+#~ "замовчуванням `SQLite <http://sqlite.org/>`_базу "
+#~ "даних або ви не знаєте, що це "
+#~ "значить, то ви можете пропустити цей "
+#~ "крок. Якщо ви хочете використовувати "
+#~ "базу даних бекенд, крім SQLite бекенда"
+#~ " за замовчуванням, то вам також "
+#~ "необхідно встановити з'єднувач бази даних."
+
+#~ msgid ""
+#~ "If you would like to use a "
+#~ "`PostgreSQL <http://www.postgresql.org>`_ database "
+#~ "then activate the virtual environment "
+#~ "and install psycopg2 with the following"
+#~ " commands::"
+#~ msgstr ""
+#~ "Якщо ви хотіли б використовувати "
+#~ "`PostgreSQL <http://www.postgresql.org>`_базу даних "
+#~ "тоді активуйте віртуальне середовище і "
+#~ "встановіть psycopg2 з наступними командами::"
+
+#~ msgid ""
+#~ "You can study the script to see"
+#~ " what steps if runs for you. In"
+#~ " short it will install dependencies "
+#~ "which can't be satisfied in a "
+#~ "virtual environment, then it will create"
+#~ " a virtual environment named ``ghide``, "
+#~ "use git to download the sources to"
+#~ " a directory named "
+#~ "``~/Local/github/Ghini/ghini.desktop``, and connect "
+#~ "this git checkout to the ``ghini-1.0``"
+#~ " branch (this you can consider a "
+#~ "production line), it then builds ghini,"
+#~ " downloading all remaining dependencies in"
+#~ " the virtual environment, and finally "
+#~ "it creates a startup script. If "
+#~ "you have ``sudo`` permissions, it will"
+#~ " be placed in ``/usr/local/bin``, otherwise"
+#~ " in your ``~/bin`` folder. Again if"
+#~ " you"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(Windows 8.x) please consider this "
+#~ "additional step. It is possibly "
+#~ "necessary to avoid the following error"
+#~ " on Windows 8.1 installations::"
+#~ msgstr ""
+
+#~ msgid "You can download lxml from::"
+#~ msgstr ""
 

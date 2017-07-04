@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-07-02 19:42-0500\n"
+"POT-Creation-Date: 2017-07-04 10:49-0500\n"
 "PO-Revision-Date: 2017-07-02 20:20+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: ar\n"
@@ -18,9 +18,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -2156,67 +2153,91 @@ msgid "Installing on GNU/Linux"
 msgstr ""
 
 #: ../../installing.rst:39
-msgid "Open a shell terminal window, and follow these instructions."
+msgid "Open a shell terminal window, and follow the following instructions."
 msgstr ""
 
 #: ../../installing.rst:41
-msgid "Download the `devinstall.sh` script and run it::"
+msgid "Download the `devinstall.sh` script:"
+msgstr ""
+
+#: ../../installing.rst:43
+msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh"
 msgstr ""
 
 #: ../../installing.rst:45
 msgid ""
-"Please note that the script will not help you install any extra database "
-"connector. This is not strictly necessary and you can do it at any later "
-"moment."
+"Invoke the script from a terminal window, starting at the directory where"
+" you downloaded it, like this::"
 msgstr ""
 
-#: ../../installing.rst:48
-msgid "If the script ends without error, you can now start ghini::"
+#: ../../installing.rst:50
+msgid "The script will produce quite some output, which you can safely ignore."
 msgstr ""
 
 #: ../../installing.rst:52
-msgid "or update ghini to the latest released production patch::"
+msgid "global installation"
 msgstr ""
 
-#: ../../installing.rst:56
+#: ../../installing.rst:55
 msgid ""
-"The same script you can use to switch to a different production line. At "
-"the moment it's just `ghini-1.0` and `ghini-1.1`."
+"When almost ready, the installation script will ask you for your "
+"password.  This lets it create a ``ghini`` user group, initialise it to "
+"just yourself, make the just created ``ghini`` script available to the "
+"whole ``ghini`` user group."
 msgstr ""
 
-#: ../../installing.rst:59
+#: ../../installing.rst:60
 msgid ""
-"on Unity, open a terminal, start ghini, its icon will show up in the "
-"launcher, you can now `lock to launcher` it."
+"If feeling paranoid, you can safely not give your password and interrupt "
+"the script there."
 msgstr ""
 
-#: ../../installing.rst:62
+#: ../../installing.rst:63
 msgid ""
-"If you would like to use the default `SQLite <http://sqlite.org/>`_ "
-"database or you don't know what this means then you can skip this step. "
-"If you would like to use a database backend other than the default SQLite"
-" backend then you will also need to install a database connector."
+"Possibly the main advantage of a global installation is being able to "
+"find Ghini in the application menus of your graphic environment."
 msgstr ""
 
 #: ../../installing.rst:67
-msgid ""
-"If you would like to use a `PostgreSQL <http://www.postgresql.org>`_ "
-"database then activate the virtual environment and install psycopg2 with "
-"the following commands::"
+msgid "You can now start ghini by invoking the ``ghini`` script::"
 msgstr ""
 
-#: ../../installing.rst:74
+#: ../../installing.rst:71
 msgid ""
-"You might need solve dependencies. How to do so, depends on which "
-"GNU/Linux flavour you are using. Check with your distribution "
-"documentation."
+"You use the same ``ghini`` script to update ghini to the latest released "
+"production patch::"
 msgstr ""
 
-#: ../../installing.rst:77
-msgid "beginner's note"
+#: ../../installing.rst:76
+msgid "This is what you would do when ghini shows you something like this:"
 msgstr ""
 
 #: ../../installing.rst:80
+msgid ""
+"Again the same ``ghini`` script lets you install the optional database "
+"connectors: option ``-p`` is for PostgreSQL, option ``-m`` is for "
+"MySQL/MariaDB, but you can also install both at the same time::"
+msgstr ""
+
+#: ../../installing.rst:86
+msgid ""
+"Please beware: you might need solve dependencies. How to do so, depends "
+"on which GNU/Linux flavour you are using. Check with your distribution "
+"documentation."
+msgstr ""
+
+#: ../../installing.rst:90
+msgid ""
+"You can also use the ``ghini`` script to switch to a different production"
+" line.  At the moment ``1.0`` is the stable one, but you can select "
+"``1.1`` if you want to help us with its development::"
+msgstr ""
+
+#: ../../installing.rst:96
+msgid "beginner's note"
+msgstr ""
+
+#: ../../installing.rst:99
 msgid ""
 "To run a script, first make sure you note down the name of the directory "
 "to which you have downloaded the script, then you open a terminal window "
@@ -2224,108 +2245,115 @@ msgid ""
 "name of the script including directory name, and hit on the enter key."
 msgstr ""
 
-#: ../../installing.rst:86
+#: ../../installing.rst:105
 msgid "technical note"
 msgstr ""
 
-#: ../../installing.rst:89
+#: ../../installing.rst:108
+msgid "You can study the script to see what steps if runs for you."
+msgstr ""
+
+#: ../../installing.rst:110
 msgid ""
-"You can study the script to see what steps if runs for you. In short it "
-"will install dependencies which can't be satisfied in a virtual "
-"environment, then it will create a virtual environment named ``ghide``, "
-"use git to download the sources to a directory named "
+"In short it will install dependencies which can't be satisfied in a "
+"virtual environment, then it will create a virtual environment named "
+"``ghide``, use git to download the sources to a directory named "
 "``~/Local/github/Ghini/ghini.desktop``, and connect this git checkout to "
 "the ``ghini-1.0`` branch (this you can consider a production line), it "
 "then builds ghini, downloading all remaining dependencies in the virtual "
-"environment, and finally it creates a startup script. If you have "
-"``sudo`` permissions, it will be placed in ``/usr/local/bin``, otherwise "
-"in your ``~/bin`` folder. Again if you"
+"environment, and finally it creates the ``ghini`` startup script."
 msgstr ""
 
-#: ../../installing.rst:102 ../../installing.rst:156 ../../installing.rst:310
-#: ../../installing.rst:346
+#: ../../installing.rst:118
+msgid ""
+"If you have ``sudo`` permissions, it will be placed in "
+"``/usr/local/bin``, otherwise in your ``~/bin`` folder."
+msgstr ""
+
+#: ../../installing.rst:122 ../../installing.rst:176 ../../installing.rst:329
+#: ../../installing.rst:365
 msgid "Next..."
 msgstr ""
 
-#: ../../installing.rst:106
+#: ../../installing.rst:126
 msgid "Installing on MacOSX"
 msgstr ""
 
-#: ../../installing.rst:108
+#: ../../installing.rst:128
 msgid ""
 "Being MacOSX a unix environment, most things will work the same as on "
 "GNU/Linux (sort of)."
 msgstr ""
 
-#: ../../installing.rst:111
+#: ../../installing.rst:131
 msgid ""
 "Last time we tested, some of the dependencies could not be installed on "
 "MacOSX 10.5 and we assume similar problems would also show on older OSX "
 "versions.  Ghini has been successfully tested with 10.7, 10.9 and 10.12."
 msgstr ""
 
-#: ../../installing.rst:115
+#: ../../installing.rst:135
 msgid ""
 "First of all, you need things which are an integral part of a unix "
 "environment, but which are missing in a off-the-shelf mac:"
 msgstr ""
 
-#: ../../installing.rst:118
+#: ../../installing.rst:138
 msgid ""
 "developers tools: xcode. check the wikipedia page for the version "
 "supported on your mac."
 msgstr ""
 
-#: ../../installing.rst:120
+#: ../../installing.rst:140
 msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr ""
 
-#: ../../installing.rst:122
+#: ../../installing.rst:142
 msgid "with the above installed, open a terminal window and run::"
 msgstr ""
 
-#: ../../installing.rst:126
+#: ../../installing.rst:146
 msgid ""
 "make sure you understand the problems it reports, and correct them. pygtk"
 " will need xquartz and brew will not solve the dependency automatically. "
 "either install xquartz using brew or the way you prefer::"
 msgstr ""
 
-#: ../../installing.rst:132
+#: ../../installing.rst:152
 msgid "then install the remaining dependencies::"
 msgstr ""
 
-#: ../../installing.rst:137
+#: ../../installing.rst:157
 msgid "follow all instructions on how to activate what you have installed."
 msgstr ""
 
-#: ../../installing.rst:139
+#: ../../installing.rst:159
 msgid "Mac running OSX 10.12 —Sierra—"
 msgstr ""
 
-#: ../../installing.rst:142
+#: ../../installing.rst:162
 msgid ""
 "On OSX 10.12, ``brew`` reports that ``gettext`` is already installed, but"
 " then it won't let us find it. A solution is to run the following line::"
 msgstr ""
 
-#: ../../installing.rst:148
+#: ../../installing.rst:168
 msgid ""
 "Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
 "installing a couple of python packages, globally. Do this::"
 msgstr ""
 
-#: ../../installing.rst:153
+#: ../../installing.rst:173
 msgid ""
 "The rest is just as on a normal unix machine. Read the above GNU/Linux "
 "instructions, follow them, enjoy."
 msgstr ""
 
-#: ../../installing.rst:160
+#: ../../installing.rst:180
 msgid "Installing on Windows"
 msgstr ""
 
-#: ../../installing.rst:162
+#: ../../installing.rst:182
 msgid ""
 "The current maintainer of ghini.desktop has no interest in learning how "
 "to produce Windows installers, so the Windows installation is here "
@@ -2333,13 +2361,13 @@ msgid ""
 "MacOSX)."
 msgstr ""
 
-#: ../../installing.rst:166
+#: ../../installing.rst:186
 msgid ""
 "Please report any trouble. Help with packaging will be very welcome, in "
 "particular by other Windows users."
 msgstr ""
 
-#: ../../installing.rst:169
+#: ../../installing.rst:189
 msgid ""
 "The steps described here instruct you on how to install Git, Gtk, Python,"
 " and the python database connectors. With this environment correctly set "
@@ -2347,14 +2375,14 @@ msgid ""
 " steps are again Windows specific."
 msgstr ""
 
-#: ../../installing.rst:174
+#: ../../installing.rst:194
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 and W-8. "
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
 
-#: ../../installing.rst:178
+#: ../../installing.rst:198
 msgid ""
 "Direct download links are given for all needed components. They have been"
 " tested in September 2015, but things change with time. If any of the "
@@ -2362,141 +2390,153 @@ msgid ""
 "update the information here."
 msgstr ""
 
-#: ../../installing.rst:189
+#: ../../installing.rst:209
 msgid "The installation steps on Windows:"
 msgstr ""
 
-#: ../../installing.rst:191
+#: ../../installing.rst:211
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
-"``vi``) from::"
+"``vi``) from:"
 msgstr ""
 
-#: ../../installing.rst:196
+#: ../../installing.rst:214
+msgid "https://git-scm.com/download/win"
+msgstr ""
+
+#: ../../installing.rst:216
 msgid "`Direct link to download git`_"
 msgstr ""
 
-#: ../../installing.rst:198
+#: ../../installing.rst:218
 msgid ""
 "all default options are fine, except we need git to be executable from "
 "the command prompt:"
 msgstr ""
 
-#: ../../installing.rst:203
-msgid "download and install Python 2.x (32bit) from::"
+#: ../../installing.rst:223
+msgid "download and install Python 2.x (32bit) from:"
 msgstr ""
 
-#: ../../installing.rst:207
+#: ../../installing.rst:225
+msgid "http://www.python.org"
+msgstr ""
+
+#: ../../installing.rst:227
 msgid "`Direct link to download Python`_"
 msgstr ""
 
-#: ../../installing.rst:209
+#: ../../installing.rst:229
 msgid ""
 "Ghini has been developed and tested using Python 2.x.  It will definitely"
 " **not** run on Python 3.x.  If you are interested in helping port to "
 "Python 3.x, please contact the Ghini maintainers."
 msgstr ""
 
-#: ../../installing.rst:213
+#: ../../installing.rst:233
 msgid "when installing Python, do put Python in the PATH:"
 msgstr ""
 
-#: ../../installing.rst:217
+#: ../../installing.rst:237
 msgid ""
 "download ``pygtk`` from the following source. (this requires 32bit "
-"python). be sure you download the \"all in one\" version::"
+"python). be sure you download the \"all in one\" version:"
 msgstr ""
 
-#: ../../installing.rst:222
+#: ../../installing.rst:240
+msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
+msgstr ""
+
+#: ../../installing.rst:242
 msgid "`Direct link to download PyGTK`_"
 msgstr ""
 
-#: ../../installing.rst:224
+#: ../../installing.rst:244
 msgid "make a complete install, selecting everything:"
 msgstr ""
 
-#: ../../installing.rst:228
+#: ../../installing.rst:248
 msgid ""
-"(Windows 8.x) please consider this additional step. It is possibly "
-"necessary to avoid the following error on Windows 8.1 installations::"
+"(Possibly necessary, maybe superfluous) install lxml, you can grab this "
+"from:"
 msgstr ""
 
-#: ../../installing.rst:235
-msgid "If you skip this step and can confirm you get the error, please inform us."
-msgstr ""
-
-#: ../../installing.rst:237
-msgid "You can download lxml from::"
-msgstr ""
-
-#: ../../installing.rst:241
+#: ../../installing.rst:252
 msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr ""
 
-#: ../../installing.rst:243
+#: ../../installing.rst:254
 msgid "`Direct link to download lxml`_"
 msgstr ""
 
-#: ../../installing.rst:245
+#: ../../installing.rst:256
+msgid "On some systems, lxml was necessary to avoid the following error::"
+msgstr ""
+
+#: ../../installing.rst:262
+msgid "If you skip this step and can confirm you get the error, please inform us."
+msgstr ""
+
+#: ../../installing.rst:264
 msgid ""
 "(optional) download and install a database connector other than "
 "``sqlite3``."
 msgstr ""
 
-#: ../../installing.rst:248
+#: ../../installing.rst:267
 msgid ""
 "On Windows, it is NOT easy to install ``psycopg2`` from sources, using "
 "pip, so \"avoid the gory details\" and use a pre-compiled pagkage from:"
 msgstr ""
 
-#: ../../installing.rst:253
+#: ../../installing.rst:272
 msgid "`Direct link to download psycopg2`_"
 msgstr ""
 
-#: ../../installing.rst:255
+#: ../../installing.rst:274
 msgid "**REBOOT**"
 msgstr ""
 
-#: ../../installing.rst:257
+#: ../../installing.rst:276
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
 
-#: ../../installing.rst:259
+#: ../../installing.rst:278
 msgid "download and run (from ``\\system32\\cmd.exe``) the batch file:"
 msgstr ""
 
-#: ../../installing.rst:263
+#: ../../installing.rst:282
 msgid ""
 "right before you hit the enter key to run the script, your screen might "
 "look like something like this:"
 msgstr ""
 
-#: ../../installing.rst:268
+#: ../../installing.rst:287
 msgid ""
 "this will pull the ``ghini.desktop`` repository on github to your home "
 "directory, under ``Local\\github\\Ghini``, checkout the ``ghini-1.0`` "
 "production line, create a virtual environment and install ghini into it."
 msgstr ""
 
-#: ../../installing.rst:272
+#: ../../installing.rst:291
 msgid ""
 "you can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
 
-#: ../../installing.rst:275
+#: ../../installing.rst:294
 msgid ""
 "this is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
 
-#: ../../installing.rst:278
+#: ../../installing.rst:297
 msgid ""
 "the operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
 
-#: ../../installing.rst:281
+#: ../../installing.rst:300
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -2505,33 +2545,33 @@ msgid ""
 "step."
 msgstr ""
 
-#: ../../installing.rst:287
+#: ../../installing.rst:306
 msgid ""
 "right-click on it, select run as administrator, confirm you want it to "
 "make changes to your computer. These changes are in the Start Menu only: "
 "create the Ghini group, place the Ghini shortcut."
 msgstr ""
 
-#: ../../installing.rst:291
+#: ../../installing.rst:310
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
 msgstr ""
 
-#: ../../installing.rst:296
+#: ../../installing.rst:315
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
 "newer ghini release within your chosen production line."
 msgstr ""
 
-#: ../../installing.rst:300
+#: ../../installing.rst:319
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``"
 msgstr ""
 
-#: ../../installing.rst:303
+#: ../../installing.rst:322
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
@@ -2539,15 +2579,15 @@ msgid ""
 "you will need to include the directory you extracted to in your PATH."
 msgstr ""
 
-#: ../../installing.rst:316
+#: ../../installing.rst:335
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../installing.rst:318
+#: ../../installing.rst:337
 msgid "any error related to lxml."
 msgstr ""
 
-#: ../../installing.rst:320
+#: ../../installing.rst:339
 msgid ""
 "In order to be able to compile lxml, you have to install a C compiler (on"
 " GNU/Linux this would be the ``gcc`` package) and Cython (a Python "
@@ -2555,32 +2595,32 @@ msgid ""
 "CPython)."
 msgstr ""
 
-#: ../../installing.rst:325
+#: ../../installing.rst:344
 msgid ""
 "However, It should not be necessary to compile anything, and ``pip`` "
 "should be able to locate the binary modules in the online libraries."
 msgstr ""
 
-#: ../../installing.rst:328
+#: ../../installing.rst:347
 msgid "For some reason, this is not the case on Windows 8.1."
 msgstr ""
 
-#: ../../installing.rst:332
+#: ../../installing.rst:351
 msgid "Please report any other trouble related to the installation of lxml."
 msgstr ""
 
-#: ../../installing.rst:334
+#: ../../installing.rst:353
 msgid "Couldn't install gdata."
 msgstr ""
 
-#: ../../installing.rst:336
+#: ../../installing.rst:355
 msgid ""
 "For some reason the Google's gdata package lists itself in the Python "
 "Package Index but doesn't work properly with the easy_install command.  "
 "You can download the latest gdata package from:"
 msgstr ""
 
-#: ../../installing.rst:343
+#: ../../installing.rst:362
 msgid ""
 "Unzip it and run ``python setup.py installw`` in the folder you unzip it "
 "to."
@@ -3629,3 +3669,116 @@ msgstr ""
 #: ../../user_stories.rst:44
 msgid "engraving labels"
 msgstr ""
+
+#~ msgid "Open a shell terminal window, and follow these instructions."
+#~ msgstr ""
+
+#~ msgid "Download the `devinstall.sh` script and run it::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please note that the script will "
+#~ "not help you install any extra "
+#~ "database connector. This is not strictly"
+#~ " necessary and you can do it at"
+#~ " any later moment."
+#~ msgstr ""
+
+#~ msgid "If the script ends without error, you can now start ghini::"
+#~ msgstr ""
+
+#~ msgid "or update ghini to the latest released production patch::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The same script you can use to "
+#~ "switch to a different production line."
+#~ " At the moment it's just `ghini-1.0`"
+#~ " and `ghini-1.1`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "on Unity, open a terminal, start "
+#~ "ghini, its icon will show up in"
+#~ " the launcher, you can now `lock "
+#~ "to launcher` it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you would like to use the "
+#~ "default `SQLite <http://sqlite.org/>`_ database "
+#~ "or you don't know what this means"
+#~ " then you can skip this step. "
+#~ "If you would like to use a "
+#~ "database backend other than the default"
+#~ " SQLite backend then you will also"
+#~ " need to install a database "
+#~ "connector."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you would like to use a "
+#~ "`PostgreSQL <http://www.postgresql.org>`_ database "
+#~ "then activate the virtual environment "
+#~ "and install psycopg2 with the following"
+#~ " commands::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You might need solve dependencies. How"
+#~ " to do so, depends on which "
+#~ "GNU/Linux flavour you are using. Check"
+#~ " with your distribution documentation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can study the script to see"
+#~ " what steps if runs for you. In"
+#~ " short it will install dependencies "
+#~ "which can't be satisfied in a "
+#~ "virtual environment, then it will create"
+#~ " a virtual environment named ``ghide``, "
+#~ "use git to download the sources to"
+#~ " a directory named "
+#~ "``~/Local/github/Ghini/ghini.desktop``, and connect "
+#~ "this git checkout to the ``ghini-1.0``"
+#~ " branch (this you can consider a "
+#~ "production line), it then builds ghini,"
+#~ " downloading all remaining dependencies in"
+#~ " the virtual environment, and finally "
+#~ "it creates a startup script. If "
+#~ "you have ``sudo`` permissions, it will"
+#~ " be placed in ``/usr/local/bin``, otherwise"
+#~ " in your ``~/bin`` folder. Again if"
+#~ " you"
+#~ msgstr ""
+
+#~ msgid "Download the `devinstall.sh` script::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "download and install ``git`` (comes with"
+#~ " a unix-like ``sh`` and includes "
+#~ "``vi``) from::"
+#~ msgstr ""
+
+#~ msgid "download and install Python 2.x (32bit) from::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "download ``pygtk`` from the following "
+#~ "source. (this requires 32bit python). be"
+#~ " sure you download the \"all in "
+#~ "one\" version::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(Windows 8.x) please consider this "
+#~ "additional step. It is possibly "
+#~ "necessary to avoid the following error"
+#~ " on Windows 8.1 installations::"
+#~ msgstr ""
+
+#~ msgid "You can download lxml from::"
+#~ msgstr ""
+
