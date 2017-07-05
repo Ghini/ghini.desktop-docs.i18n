@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-04 10:49-0500\n"
-"PO-Revision-Date: 2017-07-02 22:17+0000\n"
+"PO-Revision-Date: 2017-07-05 01:37+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: es\n"
 "Language-Team: Spanish "
-"<https://hosted.weblate.org/projects/ghini/documentation-11/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -2874,10 +2875,12 @@ msgid ""
 "Invoke the script from a terminal window, starting at the directory where"
 " you downloaded it, like this::"
 msgstr ""
+"Invoque el script desde una ventana de terminal, comenzando en el directorio "
+"donde lo descargó, así::"
 
 #: ../../installing.rst:50
 msgid "The script will produce quite some output, which you can safely ignore."
-msgstr ""
+msgstr "El script producirá bastante salida, que puede ignorar."
 
 #: ../../installing.rst:52
 #, fuzzy
@@ -2891,22 +2894,31 @@ msgid ""
 "just yourself, make the just created ``ghini`` script available to the "
 "whole ``ghini`` user group."
 msgstr ""
+"Cuando casi esté listo, el script de instalación le pedirá su contraseña.  "
+"Esto le permite crear un grupo de usuarios ``ghini``, que inicialmente "
+"tendrá como usuario usted sólo. El producto central de la procedura de "
+"instalacion es el script ``ghini``, disponibles para todos usuarios del "
+"grupo ``ghini``, e instalado centralmente."
 
 #: ../../installing.rst:60
 msgid ""
 "If feeling paranoid, you can safely not give your password and interrupt "
 "the script there."
 msgstr ""
+"Si siente paranoico, no hay lío, no inserte la contraseña e interrumpa la "
+"instalación aquí."
 
 #: ../../installing.rst:63
 msgid ""
 "Possibly the main advantage of a global installation is being able to "
 "find Ghini in the application menus of your graphic environment."
 msgstr ""
+"Posiblemente la principal ventaja de una instalación global es poder "
+"encontrar Ghini en los menús de las aplicaciones de su entorno gráfico."
 
 #: ../../installing.rst:67
 msgid "You can now start ghini by invoking the ``ghini`` script::"
-msgstr ""
+msgstr "Ahora puede empezar ghini invocando el script ``ghini``::"
 
 #: ../../installing.rst:71
 #, fuzzy
@@ -2917,7 +2929,7 @@ msgstr "Si usted desea ponerse al día con la última versión publicada::"
 
 #: ../../installing.rst:76
 msgid "This is what you would do when ghini shows you something like this:"
-msgstr ""
+msgstr "Esto es lo que usted haría cuando ghini le muestre algo como esto:"
 
 #: ../../installing.rst:80
 msgid ""
@@ -2925,6 +2937,9 @@ msgid ""
 "connectors: option ``-p`` is for PostgreSQL, option ``-m`` is for "
 "MySQL/MariaDB, but you can also install both at the same time::"
 msgstr ""
+"Otra vez el mismo script ``ghini`` le permite instalar los conectores de "
+"base de datos opcionales: opción ``-p`` es para PostgreSQL, opción ``-m`` es "
+"para MySQL/MariaDB, pero también los puede instalar ambos a la vez::"
 
 #: ../../installing.rst:86
 #, fuzzy
@@ -2943,10 +2958,13 @@ msgid ""
 " line.  At the moment ``1.0`` is the stable one, but you can select "
 "``1.1`` if you want to help us with its development::"
 msgstr ""
+"También puede utilizar el script ``ghini`` para cambiar a una diferente "
+"línea de producción.  Por el momento ``1.0`` es la estable, pero puede "
+"seleccionar ``1.1`` si nos quiere ayudarnos en el desarrollo::"
 
 #: ../../installing.rst:96
 msgid "beginner's note"
-msgstr ""
+msgstr "Nota para principiantes"
 
 #: ../../installing.rst:99
 msgid ""
@@ -2963,11 +2981,12 @@ msgstr ""
 
 #: ../../installing.rst:105
 msgid "technical note"
-msgstr ""
+msgstr "nota técnica"
 
 #: ../../installing.rst:108
 msgid "You can study the script to see what steps if runs for you."
 msgstr ""
+"Usted puede estudiar el script para ver qué pasos ese ejecuta para usted."
 
 #: ../../installing.rst:110
 msgid ""
@@ -2985,6 +3004,8 @@ msgid ""
 "If you have ``sudo`` permissions, it will be placed in "
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
+"Si tiene permisos ``sudo``, se colocará en ``/ usr/local/bin``, de lo "
+"contrario en la carpeta ``~/bin``."
 
 #: ../../installing.rst:122 ../../installing.rst:176 ../../installing.rst:329
 #: ../../installing.rst:365
@@ -3225,6 +3246,8 @@ msgid ""
 "(Possibly necessary, maybe superfluous) install lxml, you can grab this "
 "from:"
 msgstr ""
+"(Posiblemente necesario, tal vez superfluo) instalar lxml, usted puede "
+"agarrar esto de:"
 
 #: ../../installing.rst:252
 msgid "Remember you need the 32 bit version, for Python 2.7."
@@ -3237,6 +3260,7 @@ msgstr "«Enlace para descargar lxml directo» _"
 #: ../../installing.rst:256
 msgid "On some systems, lxml was necessary to avoid the following error::"
 msgstr ""
+"En algunos sistemas, lxml era necesaria para evitar el error siguiente::"
 
 #: ../../installing.rst:262
 msgid "If you skip this step and can confirm you get the error, please inform us."
@@ -3382,7 +3406,7 @@ msgstr ""
 
 #: ../../installing.rst:335
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Solución de problemas"
 
 #: ../../installing.rst:337
 msgid "any error related to lxml."
@@ -5373,4 +5397,3 @@ msgstr "grabar etiquetas"
 
 #~ msgid "You can download lxml from::"
 #~ msgstr "Usted puede descargar lxml de::"
-
