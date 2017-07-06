@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-07-02 11:50+0000\n"
+"PO-Revision-Date: 2017-07-06 17:17+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
-"<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -102,8 +103,8 @@ msgid ""
 "enter."
 msgstr ""
 "Щоб переглянути вміст конфігураційного файлу Ghini, введіть ``:prefs`` в "
-"області введення тексту, де ви зазвичай вводите пошук, а потім натисніть "
-"enter."
+"області введення тексту, де ви зазвичай вводите пошукові запити, а потім "
+"натисніть enter."
 
 #: ../../administration.rst:46
 #, fuzzy
@@ -113,9 +114,8 @@ msgid ""
 "default location for SQLite databases."
 msgstr ""
 "Вам зазвичай не потрібно налаштувати файл конфігурації, якщо потрібно це "
-"можна зробити за допомогою звичайної програми для текстового редактора. "
-"Конфігураційний файл Ghini знаходиться за замовчуванням для баз даних "
-"SQLite."
+"можна зробити за допомогою звичайного текстового редактора. Конфігураційний "
+"файл Ghini знаходиться за замовчуванням папці бази даних SQLite."
 
 #: ../../administration.rst:51
 msgid "Reporting Errors"
@@ -168,7 +168,8 @@ msgid ""
 msgstr ""
 "Використовуйте програмне забезпечення, занотуйте речі, які вам не "
 "подобаються, `відкрийте проблему "
-"<http://github.com/Ghini/ghini.desktop/issues/new>`_для кожного з них."
+"<http://github.com/Ghini/ghini.desktop/issues/new>`_для кожного з них. "
+"Розробник буде реагувати швидше, ніж ви можете собі уявити."
 
 #: ../../building.rst:16
 msgid ""
@@ -245,9 +246,8 @@ msgstr ""
 "(наприклад, ghini-1.0-dev)."
 
 #: ../../building.rst:47
-#, fuzzy
 msgid "Development Workflow"
-msgstr "нормальний робочий процес розробки"
+msgstr "Процес розробки"
 
 #: ../../building.rst:49
 msgid ""
@@ -1111,8 +1111,8 @@ msgid ""
 "write unit tests and commit them to your branch (please do not push "
 "failing unit tests to github, run ``nosetests`` locally first)."
 msgstr ""
-"написати блок тестів і зафіксувати їх в вашій гілці (не фіксуйте невдалий"
-" блок тестів в гілку `` master``)."
+"написати одиничні тести і передати їх у свою гілку (не надавайте несправні "
+"тести на github, спочатку запустіть ``nosetests``)."
 
 #: ../../building.rst:618
 msgid ""
@@ -1184,8 +1184,8 @@ msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``,"
 " compared to ``ghini-x.y-dev``."
 msgstr ""
-"відкрити сторінку пулу запиту з використанням в якості основи виробничу "
-"лінію, прирівняну до ``master``."
+"відкрийте сторінку запиту, використовуючи як основу виробничу лінію "
+"``ghini-x.y`` у порівнянні з ``ghini-x.y-dev``."
 
 #: ../../building.rst:639
 msgid "make sure a ``bump`` commit is included in the differences."
@@ -5107,4 +5107,3 @@ msgstr ""
 #~ "інші доступні коди гілок перейти до "
 #~ "`bauble.classic on github "
 #~ "<http://www.github.com/Bauble/bauble.classic>`_."
-
