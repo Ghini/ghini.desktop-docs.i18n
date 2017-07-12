@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-04 10:49-0500\n"
-"PO-Revision-Date: 2017-07-06 17:17+0000\n"
+"PO-Revision-Date: 2017-07-12 14:17+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
@@ -96,7 +96,6 @@ msgstr ""
 "користувач матиме власний файл конфігурації."
 
 #: ../../administration.rst:43
-#, fuzzy
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in"
 " the text entry area where you normally type your searches, then hit "
@@ -107,7 +106,6 @@ msgstr ""
 "натисніть enter."
 
 #: ../../administration.rst:46
-#, fuzzy
 msgid ""
 "You normally do not need tweaking the configuration file, but you can do "
 "so with a normal text editor program. Ghini configuration file is at the "
@@ -160,16 +158,14 @@ msgstr ""
 "різними способами:"
 
 #: ../../building.rst:13
-#, fuzzy
 msgid ""
 "Use the software, note the things you don't like, `open an issue "
 "<http://github.com/Ghini/ghini.desktop/issues/new>`_ for each of them. A "
 "developer will react sooner than you can imagine."
 msgstr ""
-"Використовуйте програмне забезпечення, занотуйте речі, які вам не "
-"подобаються, `відкрийте проблему "
-"<http://github.com/Ghini/ghini.desktop/issues/new>`_для кожного з них. "
-"Розробник буде реагувати швидше, ніж ви можете собі уявити."
+"Використовуйте програмне забезпечення, відзначте те, що вам не подобається, `"
+"відкрийте проблему <http://github.com/Ghini/ghini.desktop/issues/new>` _ для "
+"кожної з них. Розробник буде реагувати швидше, ніж ви можете собі уявити."
 
 #: ../../building.rst:16
 msgid ""
@@ -1106,7 +1102,6 @@ msgstr ""
 "створити гілку, безспірно пов'язану до випуску."
 
 #: ../../building.rst:616
-#, fuzzy
 msgid ""
 "write unit tests and commit them to your branch (please do not push "
 "failing unit tests to github, run ``nosetests`` locally first)."
@@ -1179,7 +1174,6 @@ msgid "publishing to production"
 msgstr "публікація продукту"
 
 #: ../../building.rst:637
-#, fuzzy
 msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``,"
 " compared to ``ghini-x.y-dev``."
@@ -1231,19 +1225,16 @@ msgid "Editing and Inserting Data"
 msgstr "Редагування і вставка даних"
 
 #: ../../editing.rst:6
-#, fuzzy
 msgid ""
 "The main way that we add or change information in Ghini is by using the "
 "editors.  Each basic type of data has its own editor.  For example there "
 "is a Family editor, a Genus editor, an Accession editor, etc."
 msgstr ""
-"Основним способом, яким ми додаємо або змінюємо інформацію в Bauble є "
-"використання редакторів. Кожен базовий тип даних має свій власний "
-"редактор. Наприклад є редактор сім'ї, редактор роду, редактор приєднання "
-"і т.д."
+"Основний спосіб, яким ми додамо або змінюємо інформацію в Ghini, - це "
+"використання редакторів. Кожен основний тип даних має свій власний редактор. "
+"Наприклад, є редактор сімейства, редактор роду, редактор приєднання тощо."
 
 #: ../../editing.rst:10
-#, fuzzy
 msgid ""
 "To create a new record click on the :menuselection:`Insert` menu on the "
 "menubar and then select the type of record your would like to create.  "
@@ -1254,7 +1245,6 @@ msgstr ""
 "порожній редактор типу."
 
 #: ../../editing.rst:14
-#, fuzzy
 msgid ""
 "To edit an existing record in the database right click on an item in the "
 "search results and select :menuselection:`Edit` from the popup menu.  "
@@ -1262,9 +1252,9 @@ msgid ""
 "that you selected."
 msgstr ""
 "Щоб змінити існуючий запис в базі даних натисніть правою кнопкою миші на "
-"елементі в результатах пошуку і виберіть :menuselection:`Edit` в "
-"спливаючому меню. Відкриється редактор, який дозволить вам змінити "
-"значення в записі, який ви вибрали."
+"елементі в результатах пошуку і виберіть :menuselection:`Edit` в спливаючому "
+"меню. Відкриється редактор, який дозволить вам змінити значення в записі, "
+"який ви вибрали."
 
 #: ../../editing.rst:19
 msgid ""
@@ -1284,23 +1274,20 @@ msgid "Notes"
 msgstr "Нотатки"
 
 #: ../../editing.rst:27
-#, fuzzy
 msgid ""
 "Almost all of the editors in Ghini have a *Notes* tab which should work "
 "the same regardless of which editor you are using."
 msgstr ""
-"Майже у всіх редакторів Ghini є вкладка *Примітки* які працюють однаково,"
-" незалежно від того, який редактор ви використовуєте."
+"Майже у всіх редакторів Ghini є вкладка *Примітки* яка працюють однаково, "
+"незалежно від того, який редактор ви використовуєте."
 
 #: ../../editing.rst:30
-#, fuzzy
 msgid ""
 "If you enter a web address in a note then the link shows up in the Links "
 "box when the item your are editing is selected in the search results."
 msgstr ""
-"Якщо ввести веб-адресу в примітці, то посилання буде відображатися у "
-"вікні Зв'язки коли елемент вашого редагування обраний в результатах "
-"пошуку."
+"Якщо ввести веб-адресу в примітці, то посилання буде відображатися у вікні "
+"Посилання, коли елемент вашого редагування обраний в результатах пошуку."
 
 #: ../../editing.rst:33
 #, fuzzy
