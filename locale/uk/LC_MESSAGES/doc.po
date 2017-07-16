@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-07-12 14:17+0000\n"
+"PO-Revision-Date: 2017-07-16 12:01+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
@@ -286,23 +286,31 @@ msgid "in short::"
 msgstr "коротко::"
 
 #: ../../building.rst:73
+#, fuzzy
 msgid ""
 "Work on the new temporary branch. When ready, go to github, merge the "
 "branch with the main development line from which you branched, solve "
 "conflicts where necessary, delete the temporary branch."
 msgstr ""
+"Робота над новою тимчасовою гілкою. Коли готово, перейдіть на github, "
+"з'єднайте гілку з основною лінією розвитку, з якої ви розгалужені, "
+"вирішувати конфлікти, де це необхідно, видалити тимчасову гілку."
 
 #: ../../building.rst:77
 msgid ""
 "When ready for publication, merge the development line into the "
 "corresponding production line."
 msgstr ""
+"Коли ви готові до публікації, об'єднайте лінію розвитку в відповідну "
+"виробничу лінію."
 
 #: ../../building.rst:81
+#, fuzzy
 msgid "Updating the set of translatable strings"
-msgstr ""
+msgstr "Оновлення набору перекладних рядків"
 
 #: ../../building.rst:83
+#, fuzzy
 msgid ""
 "From time to time, during the process of updating the software, you will "
 "be adding or modifying strings in the python sources, in the "
@@ -310,6 +318,10 @@ msgid ""
 "translatable, and are offered to weblate for people to contribute, in the"
 " form of several ``.po`` files."
 msgstr ""
+"Час від часу під час оновлення програмного забезпечення ви будете додавати "
+"або змінювати рядки в джерелах python, в документації, в джерелах поля. "
+"Більшість наших рядків є перекладами, і вони пропонуються weblate для людей "
+"для участі у вигляді декількох `` .po`` файлів."
 
 #: ../../building.rst:88
 msgid ""
@@ -330,15 +342,15 @@ msgstr ""
 
 #: ../../building.rst:100
 msgid "component"
-msgstr ""
+msgstr "компонент"
 
 #: ../../building.rst:100
 msgid "repository"
-msgstr ""
+msgstr "сховище"
 
 #: ../../building.rst:100
 msgid "branch"
-msgstr ""
+msgstr "гілка"
 
 #: ../../building.rst:109
 msgid ""
