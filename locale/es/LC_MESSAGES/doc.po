@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 10:42-0500\n"
-"PO-Revision-Date: 2017-07-05 01:37+0000\n"
+"PO-Revision-Date: 2017-07-20 16:46+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -4841,7 +4842,7 @@ msgstr "información taxonómica"
 
 #: ../../use_cases-jbq.rst:34
 msgid "Garden"
-msgstr ""
+msgstr "Jardín"
 
 #: ../../use_cases-jbq.rst:39
 msgid ""
@@ -4920,7 +4921,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:81
 msgid "Starting a program in Linux"
-msgstr ""
+msgstr "Como arrancar un programa en Linux"
 
 #: ../../use_cases-jbq.rst:83
 msgid ""
@@ -4933,7 +4934,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:90
 msgid "When to update the program"
-msgstr ""
+msgstr "Cuando poner al día el programa"
 
 #: ../../use_cases-jbq.rst:92
 msgid ""
@@ -6654,4 +6655,3 @@ msgstr "grabar etiquetas"
 
 #~ msgid "http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/"
 #~ msgstr ""
-
