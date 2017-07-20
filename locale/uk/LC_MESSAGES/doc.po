@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-07-16 12:01+0000\n"
+"PO-Revision-Date: 2017-07-20 17:06+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
@@ -324,6 +324,7 @@ msgstr ""
 "для участі у вигляді декількох `` .po`` файлів."
 
 #: ../../building.rst:88
+#, fuzzy
 msgid ""
 "A ``po`` is mostly composed of pairs of text portions, original and "
 "translation, and is specific to a target language. When a translator adds"
@@ -331,6 +332,10 @@ msgid ""
 "programmer adds a string to the software, this reaches weblate as \"to be"
 " translated\"."
 msgstr ""
+"``po`` в основному складається з пар текстових частин, оригінал і переклад і "
+"є специфічним для цільової мови. Коли перекладач додає переклад на weblate, "
+"це потрапляє до нашого сховища на github. Коли програміст додає рядок до "
+"програмного забезпечення, це досягає weblate \"для перекладу\"."
 
 #: ../../building.rst:94
 msgid ""
