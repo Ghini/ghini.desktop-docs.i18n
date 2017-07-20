@@ -31,7 +31,7 @@ Installing Ghini
    installing
 
 
-Using Ghini
+Using Guide
 ============
 
 .. toctree::
@@ -46,6 +46,13 @@ Using Ghini
    imex
    users
 
+Cookbook
+==============
+.. toctree::
+   :maxdepth: 2
+
+   use_cases
+   
 
 Administration
 ==============
