@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-20 10:42-0500\n"
-"PO-Revision-Date: 2017-07-20 16:46+0000\n"
+"PO-Revision-Date: 2017-07-20 17:40+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -5970,7 +5970,7 @@ msgstr ""
 
 #: ../../use_cases.rst:12
 msgid "The authors of the software wish to thank all dearly."
-msgstr ""
+msgstr "Los autores del software le agradecen de corazón."
 
 #: ../../users.rst:2
 msgid "Managing Users"
