@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-07-20 17:06+0000\n"
+"PO-Revision-Date: 2017-07-23 11:11+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
@@ -1613,7 +1613,7 @@ msgstr ""
 
 #: ../../editing.rst:193
 msgid "Pictures"
-msgstr ""
+msgstr "Зображення"
 
 #: ../../editing.rst:195
 #, fuzzy
@@ -3381,7 +3381,7 @@ msgstr ""
 #: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
 #: ../../searching.rst:56
 msgid "name"
-msgstr ""
+msgstr "ім'я"
 
 #: ../../searching.rst:59
 #, fuzzy
