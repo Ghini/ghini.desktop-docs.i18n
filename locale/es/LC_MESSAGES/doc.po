@@ -4763,7 +4763,7 @@ msgid ""
 "in April 2015. Since that time, we have accumulated experience with the "
 "program, and we are ourselves in need to document it, in order to secure "
 "the knowledge to the institution. We are happy to share it."
-msgstr ""
+msgstr "En el JBQ, Jardín Botánico de Quito, hemos adoptado el software de Ghini en abril de 2015. Desde entonces, hemos ido acumulando experiencia con el programa, y somos nosotros mismos en la necesitad de documentarla, para asegurar el conocimiento a la institución. Estamos encantados de compartirlo."
 
 #: ../../use_cases-jbq.rst:10
 msgid "technical"
@@ -4774,7 +4774,7 @@ msgid ""
 "We work on GNU/Linux, a platform that many users don't master, and our "
 "database is inside of a remote database management system. This implies "
 "steps that are not obvious to the casual end user."
-msgstr ""
+msgstr "Trabajamos en GNU/Linux, una plataforma que no muchos usuarios dominan, y nuestra base de datos está dentro de un sistema de gestión de base de datos remota. Esto implica medidas que no son evidentes para la mayoría."
 
 #: ../../use_cases-jbq.rst:16
 msgid "how to start a program"
@@ -4800,7 +4800,7 @@ msgid ""
 "protected from concurrent conflicting changes, and all changes are "
 "simultaneously available on all ghini clients.  We did need to outsource "
 "database server management."
-msgstr ""
+msgstr "Elegimos para un servidor de bases de datos centralizado PostgreSQL. Así estamos protegidos de conflictos entre cambios concurrentes, y todos los cambios están disponibles simultáneamente en todos los clientes de ghini. Tenemos, porsupuesto, que externalizar la gestión del servidore de bases de datos."
 
 #: ../../use_cases-jbq.rst:33
 msgid "Understanding when to update"
@@ -4816,7 +4816,7 @@ msgid ""
 "The first window presented by Ghini looks like this. Normally, you don't "
 "need do anything in this window, just press enter and get into the main "
 "program screen."
-msgstr ""
+msgstr "La primera ventana presentada por Ghini se ve así. Normalmente, usted no necesita hacer nada en esta ventana, sólo tiene que pulsar Conectar y seguir a la pantalla principal del programa."
 
 #: ../../use_cases-jbq.rst:42
 msgid ""

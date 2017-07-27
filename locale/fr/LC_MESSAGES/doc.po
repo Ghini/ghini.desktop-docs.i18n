@@ -4331,7 +4331,7 @@ msgid ""
 "in April 2015. Since that time, we have accumulated experience with the "
 "program, and we are ourselves in need to document it, in order to secure "
 "the knowledge to the institution. We are happy to share it."
-msgstr ""
+msgstr "À le JBQ, Jardín Botánico de Quito, nous avons adopté le logiciel Ghini en avril 2015. Depuis ce temps, nous avons accumulé une expérience avec le programme, et nous sommes nous-mêmes dans le besoin de documenter, afin de garantir la connaissance nécessaire pour l’établissement. Nous sommes heureux de le partager."
 
 #: ../../use_cases-jbq.rst:10
 msgid "technical"
