@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-27 16:47-0500\n"
-"PO-Revision-Date: 2017-07-23 11:11+0000\n"
+"POT-Creation-Date: 2017-07-20 10:42-0500\n"
+"PO-Revision-Date: 2017-07-26 18:09+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
 "Language-Team: Ukrainian "
@@ -287,15 +287,14 @@ msgid "in short::"
 msgstr "коротко::"
 
 #: ../../building.rst:73
-#, fuzzy
 msgid ""
 "Work on the new temporary branch. When ready, go to github, merge the "
 "branch with the main development line from which you branched, solve "
 "conflicts where necessary, delete the temporary branch."
 msgstr ""
-"Робота над новою тимчасовою гілкою. Коли готово, перейдіть на github, "
-"з'єднайте гілку з основною лінією розвитку, з якої ви розгалужені, "
-"вирішувати конфлікти, де це необхідно, видалити тимчасову гілку."
+"Працюйте в новій тимчасовій гілці. По готовності, перейдіть на github, "
+"з'єднайте гілку з основною лінією розвитку, з якої ви розгалужені, вирішіть "
+"конфлікти у разі потреби, видаліть тимчасову гілку."
 
 #: ../../building.rst:77
 msgid ""
@@ -306,12 +305,10 @@ msgstr ""
 "виробничу лінію."
 
 #: ../../building.rst:81
-#, fuzzy
 msgid "Updating the set of translatable strings"
-msgstr "Оновлення набору перекладних рядків"
+msgstr "Оновлення установки перекладних рядків"
 
 #: ../../building.rst:83
-#, fuzzy
 msgid ""
 "From time to time, during the process of updating the software, you will "
 "be adding or modifying strings in the python sources, in the "
@@ -319,13 +316,12 @@ msgid ""
 "translatable, and are offered to weblate for people to contribute, in the"
 " form of several ``.po`` files."
 msgstr ""
-"Час від часу під час оновлення програмного забезпечення ви будете "
-"додавати або змінювати рядки в джерелах python, в документації, в "
-"джерелах поля. Більшість наших рядків є перекладами, і вони пропонуються "
-"weblate для людей для участі у вигляді декількох `` .po`` файлів."
+"Час від часу під час оновлення програмного забезпечення ви будете додавати "
+"або змінювати рядки в джерелах python, в документації, в glade джерелах. "
+"Більшість наших рядків є перекладами, і пропонуються weblate для людей, щоб "
+"зробити внесок у формі декількох ``.po`` файлів."
 
 #: ../../building.rst:88
-#, fuzzy
 msgid ""
 "A ``po`` is mostly composed of pairs of text portions, original and "
 "translation, and is specific to a target language. When a translator adds"
@@ -333,11 +329,10 @@ msgid ""
 "programmer adds a string to the software, this reaches weblate as \"to be"
 " translated\"."
 msgstr ""
-"``po`` в основному складається з пар текстових частин, оригінал і "
-"переклад і є специфічним для цільової мови. Коли перекладач додає "
-"переклад на weblate, це потрапляє до нашого сховища на github. Коли "
-"програміст додає рядок до програмного забезпечення, це досягає weblate "
-"\"для перекладу\"."
+"В основному ``po`` складається з пар текстових частин, оригінал і переклад і "
+"є специфічним для цільової мови. Коли перекладач додає переклад на weblate, "
+"це потрапляє до нашого сховища на github. Коли програміст додає рядок до "
+"програмного забезпечення, це досягає weblate \"для перекладу\"."
 
 #: ../../building.rst:94
 msgid ""
@@ -1311,15 +1306,14 @@ msgstr ""
 "пошуку."
 
 #: ../../editing.rst:33
-#, fuzzy
 msgid ""
 "You can browse the notes for an item in the database using the Notes box "
 "at the bottom of the screen.  The Notes box is desensitized if the "
 "selected item does not have any notes."
 msgstr ""
-"Ви можете переглянути нотатки для елемента в базі даних за допомогою "
-"вікна Нотатки в нижній частині екрана. Вікно Нотатки буде нечутливим, "
-"якщо обраний елемент не має записів."
+"Ви можете переглянути нотатки для елемента в базі даних за допомогою вікна "
+"Нотатки в нижній частині екрана. Вікно Нотатки буде нечутливим, якщо обраний "
+"елемент не має записів."
 
 #: ../../editing.rst:39
 msgid "Family"
@@ -1330,23 +1324,22 @@ msgid "The Family editor allows you to add or change a botanical family."
 msgstr "Редактор сім'ї дозволяє додавати або змінювати ботанічну сім'ю."
 
 #: ../../editing.rst:42
-#, fuzzy
 msgid ""
 "The *Family* field on the editor lets you change the epithet of the "
 "family. The Family field is required."
-msgstr "Поле *Сім'я* в редакторі змінює ім'я сім'ї. Потрібно заповнити поле сім'ї."
+msgstr ""
+"Поле *Сім'я* у редакторі дозволяє змінити епітет сім'ї. Поле Сім'я "
+"обов'язкове."
 
 #: ../../editing.rst:45
-#, fuzzy
 msgid ""
 "The *Qualifier* field lets you change the family qualifier.  The value "
 "can either be *sensu lato*, *sensu stricto*, or nothing."
 msgstr ""
-"Поле * Класифікатор * змінює сімейний специфікатор. Значення може мати "
-"*широке тлумачення*, *вузьке тлумачення* або ніякого."
+"Поле *Класифікатор* дозволяє вам змінити класифікатор сім'ї. Значення може "
+"мати *широке тлумачення*, *вузьке тлумачення* або ніякого."
 
 #: ../../editing.rst:48
-#, fuzzy
 msgid ""
 "*Synonyms* allow you to add other families that are synonyms with the "
 "family you are currently editing.  To add a new synonyms type in a family"
@@ -1356,12 +1349,12 @@ msgid ""
 "software adds the selected synonym to the list.  To remove a synonym, "
 "select the synonym from the list and click on the Remove button."
 msgstr ""
-"*Синоніми* дозволяють вам додавати інші сім'ї, як синоніми з редагованою "
-"сім'єю. Для додавання нового типу синонімів введіть його в ім'я сім'ї. Ви"
-" повинні вибрати сім'ю зі списку доробок. Після того, як ви виберете "
-"сім'ю, яку ви хочете, додати в якості синоніма натисніть на кнопку Додати"
-" в список синонімів, і це додасть обраний синонім до списку. Щоб видалити"
-" синонім виберіть синонім зі списку і натисніть на кнопку Видалити."
+"*Синоніми* дозволяють вам додавати інші сім'ї, як синоніми сім'ї, яку ви "
+"зараз редагуєте. Щоб додати новий тип синонімів введіть його в ім'я сім'ї. "
+"Ви повинні вибрати сім'ю зі списку доробок. Після того, як ви виберете "
+"сім'ю, яку ви хочете, додати в якості синоніма натисніть на кнопку Додати в "
+"список синонімів, і це додасть обраний синонім до списку. Щоб видалити "
+"синонім виберіть синонім зі списку і натисніть на кнопку Видалити."
 
 #: ../../editing.rst:56 ../../editing.rst:91 ../../editing.rst:115
 msgid "To cancel your changes without saving then click on the *Cancel* button."
@@ -1380,15 +1373,14 @@ msgstr ""
 " кнопку *Додати рід*."
 
 #: ../../editing.rst:63
-#, fuzzy
 msgid ""
 "To add another family when you are finished editing the current one click"
 " on the *Next* button on the bottom.  This saves the current family and "
 "opens a new blank family editor."
 msgstr ""
-"Для того, щоб додати ще одну сім'ю, коли ви закінчили редагування "
-"поточної натисніть на кнопку *Далі* внизу. Це дозволить зберегти поточну "
-"сім'ю і відкрити новий порожній редактор сім'ї."
+"Для того, щоб додати ще одну сім'ю, коли ви закінчили редагування поточної "
+"натисніть на кнопку *Далі* внизу. Це дозволить зберегти поточну сім'ю і "
+"відкрити новий порожній редактор сім'ї."
 
 #: ../../editing.rst:69
 msgid "Genus"
@@ -1464,7 +1456,6 @@ msgid "Species/Taxon"
 msgstr "Види/Таксон"
 
 #: ../../editing.rst:106
-#, fuzzy
 msgid ""
 "For historical reasons called a `species`, but by this we mean a `taxon` "
 "at rank `species` or lower.  It represents a unique name in the database."
@@ -1474,8 +1465,8 @@ msgid ""
 msgstr ""
 "З історичних причин називаються `види`, але ми маємо на увазі `таксон` в "
 "ранзі `видів` або нижче. Це являє собою унікальне ім'я в базі даних. "
-"Редактор видів дозволить вам створити ім'я, а також асоційовані метадані "
-"з таксоном, такі як розподіл, синоніми і інша інформація."
+"Редактор видів дозволить вам створити ім'я, а також асоційовані метадані з "
+"таксоном, такі як розподіл, синоніми і інша інформація."
 
 #: ../../editing.rst:112
 #, fuzzy
