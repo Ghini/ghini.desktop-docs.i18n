@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-27 16:47-0500\n"
-"PO-Revision-Date: 2017-07-20 17:40+0000\n"
+"PO-Revision-Date: 2017-07-28 13:45+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -4800,6 +4801,12 @@ msgid ""
 "program symbol |100000000000003100000031BB54CBDFA885EBAC_png|, appearing "
 "near the left margin of your display."
 msgstr ""
+"para iniciar un programa dado su nombre, active la tecla |loose_png|, al "
+"lado de Alt, o haga clic en |10000000000000300000002F89E0224Adf9ec09e_png|, "
+"a continuación, comience a escribir el nombre del programa, en nuestro caso "
+"\"Ghini\", o simplemente haga clic en el símbolo del programa "
+"|100000000000003100000031BB54CBDFa885ebac_png|, que aparece cerca de la "
+"margen izquierda de la pantalla."
 
 #: ../../use_cases-jbq.rst:25
 #, fuzzy
@@ -4821,14 +4828,14 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:33
 msgid "Understanding when to update"
-msgstr ""
+msgstr "Entender cuándo se debe actualizar"
 
 #: ../../use_cases-jbq.rst:35 ../../use_cases-jbq.rst:57
 #: ../../use_cases-jbq.rst:93 ../../use_cases-jbq.rst:264
 #: ../../use_cases-jbq.rst:392 ../../use_cases-jbq.rst:409
 #: ../../use_cases-jbq.rst:633
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 #: ../../use_cases-jbq.rst:38
 msgid ""
@@ -4845,26 +4852,33 @@ msgid ""
 "Occasionally, at the top of the screen an information text will appear, "
 "telling you that a newer version is available on-line."
 msgstr ""
+"Ocasionalmente, en la parte superior de la pantalla aparece un texto de "
+"información, diciéndole que una versión más reciente está disponible en "
+"línea."
 
 #: ../../use_cases-jbq.rst:49
 msgid ""
 "The update procedure is simple, and it depends on the operating system "
 "you use, we're not explaining here again."
 msgstr ""
+"El procedimiento de actualización es sencillo, y depende del sistema "
+"operativo que utilice, no estamos explicando aquí de nuevo."
 
 #: ../../use_cases-jbq.rst:52
 msgid ""
 "It is generally a good idea updating the software.  If in doubt, contact "
 "the author, or write to the group."
 msgstr ""
+"Es generalmente una buena idea actualizar el software. En caso de duda, "
+"póngase en contacto con el autor, o escribir al grupo."
 
 #: ../../use_cases-jbq.rst:55
 msgid "understanding ghini initial screen"
-msgstr ""
+msgstr "Entender la pantalla inicial de ghini"
 
 #: ../../use_cases-jbq.rst:60
 msgid "At the moment of writing, our initial screen looked like this:"
-msgstr ""
+msgstr "En el momento de la escritura, nuestra pantalla inicial se veía así:"
 
 #: ../../use_cases-jbq.rst:64
 msgid ""
@@ -4879,6 +4893,10 @@ msgid ""
 " accessions that have not been identified at rank species.  And one for "
 "the database history."
 msgstr ""
+"La mitad inferior del lado derecho contiene un conjunto de consultas "
+"almacenadas.  Usted las puede editar a su gusto, sin embargo nuestras "
+"sugerencias incluyen seleccionar aquellas accesiones que no han sido "
+"identificados en rango especie.  Y una para la historia de la base de datos."
 
 #: ../../use_cases-jbq.rst:75
 msgid ""
@@ -7636,4 +7654,3 @@ msgstr "grabar etiquetas"
 #~ " the accession, category “label”, text "
 #~ "“relabeled”."
 #~ msgstr ""
-
