@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2017-07-28 11:34-0500\n"
+"POT-Creation-Date: 2017-07-28 14:27-0500\n"
 "PO-Revision-Date: 2017-07-05 11:52+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: pt\n"
@@ -5419,7 +5419,7 @@ msgid "The plant is now part of the database:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:502
-msgid "new plant"
+msgid "new plant entering the garden"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:505
@@ -7580,5 +7580,8 @@ msgstr ""
 #~ "in the other 6 families represented "
 #~ "in our digital collection, we follow "
 #~ "this suggested practice."
+#~ msgstr ""
+
+#~ msgid "new plant"
 #~ msgstr ""
 
