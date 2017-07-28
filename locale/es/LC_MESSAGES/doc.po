@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-27 16:47-0500\n"
-"PO-Revision-Date: 2017-07-28 16:33+0000\n"
+"PO-Revision-Date: 2017-07-28 16:45+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -2831,15 +2831,14 @@ msgid "one-liner for hurried users."
 msgstr "voy de prisa"
 
 #: ../../installing.rst:10
-#, fuzzy
 msgid ""
 "Linux users just download and run `the installation script "
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
 " You may read the documentation later."
 msgstr ""
-"Usuarios Linux bajen y corran `el script de instalación "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
-" Habrá tiempo para leer la documentación."
+"Usuarios Linux bajen y corran `el script de instalación <https://raw.githubus"
+"ercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_. Habrá "
+"tiempo para leer la documentación."
 
 #: ../../installing.rst:14
 msgid ""
@@ -3017,15 +3016,13 @@ msgstr ""
 " es para MySQL/MariaDB, pero también los puede instalar ambos a la vez::"
 
 #: ../../installing.rst:96
-#, fuzzy
 msgid ""
 "Please beware: you might need solve dependencies. How to do so, depends "
 "on which GNU/Linux flavour you are using. Check with your distribution "
 "documentation."
 msgstr ""
-"Podría ser necesario resolver dependencias. Cómo hacerlo, depende de cual"
-" distribución GNU/Linux utiliza, y en que versión. Averigüe su "
-"documentación."
+"Podría ser necesario resolver dependencias. Cómo hacerlo, depende de cual "
+"distribución GNU/Linux utiliza, y en que versión. Averigüe su documentación."
 
 #: ../../installing.rst:100
 msgid ""
@@ -3200,13 +3197,12 @@ msgstr ""
 " Windows."
 
 #: ../../installing.rst:197
-#, fuzzy
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 up to W-10. "
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
-"Ghini ha sido comprobado con W-XP, W7 y W8. Muy probablemente funciona "
+"Ghini ha sido comprobado con W-XP, W7 hasta W10. Muy probablemente funciona "
 "también con otras versiones de Windows."
 
 #: ../../installing.rst:207
@@ -3214,12 +3210,13 @@ msgid "The installation steps on Windows:"
 msgstr "Los pasos de instalación en Windows:"
 
 #: ../../installing.rst:209
-#, fuzzy
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``). Grab it from `the Git download area <https://git-"
 "scm.com/download/win>`_."
-msgstr "baje e instale ``git`` desde::"
+msgstr ""
+"descargue e instale ``git`. Agarrerlo del `área de descargas <https://git-"
+"scm.com/download/win>`_."
 
 #: ../../installing.rst:212
 msgid ""
@@ -3236,24 +3233,22 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:220
-#, fuzzy
 msgid "When installing Python, do put Python in the PATH:"
 msgstr "Cuando instala Python, ponga sus programas en el PATH:"
 
 #: ../../installing.rst:224
-#, fuzzy
 msgid ""
 "download ``pygtk`` from `the official source "
 "<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/>`_. (this requires "
 "32bit python). be sure you download the \"all in one\" version."
 msgstr ""
-"baje e instale ``pygtk`` desde el repositorio siguiente (se requiere "
-"python 32bit). vamos a necesitar versión \"all in one\"::"
+"descargar ``pygtk`` de `la fuente oficial "
+"<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/>`_. (esto requiere "
+"Python de 32 bits). Asegúrese descargar la versión \"todo en uno\"."
 
 #: ../../installing.rst:228
-#, fuzzy
 msgid "Make a complete install, selecting everything:"
-msgstr "hágase una instalación completa, incluyéndolo absolutamente todo:"
+msgstr "Hágase una instalación completa, incluyéndolo absolutamente todo:"
 
 #: ../../installing.rst:232
 #, fuzzy
@@ -4774,18 +4769,16 @@ msgid "Quito Botanical Garden"
 msgstr "Jardín Botánico"
 
 #: ../../use_cases-jbq.rst:4
-#, fuzzy
 msgid ""
 "At the JBQ, Quito Botanical Garden, we have adopted the Ghini software in"
 " April 2015. Since that time, we have accumulated experience with the "
 "program, and we are ourselves in need to document it, in order to secure "
 "the knowledge to the institution. We are happy to share it."
 msgstr ""
-"En el JBQ, Jardín Botánico de Quito, hemos adoptado el software de Ghini "
-"en abril de 2015. Desde entonces, hemos ido acumulando experiencia con el"
-" programa, y somos nosotros mismos en la necesitad de documentarla, para "
-"asegurar el conocimiento a la institución. Estamos encantados de "
-"compartirlo."
+"En el JBQ, Jardín Botánico de Quito, hemos adoptado el software de Ghini en "
+"abril de 2015. Desde entonces, hemos ido acumulando experiencia con el "
+"programa, y somos nosotros mismos en la necesitad de documentarla, para "
+"asegurar el conocimiento a la institución. Estamos encantados de compartirlo."
 
 #: ../../use_cases-jbq.rst:10
 msgid "technical"
@@ -4821,7 +4814,6 @@ msgstr ""
 "margen izquierda de la pantalla."
 
 #: ../../use_cases-jbq.rst:25
-#, fuzzy
 msgid "database server"
 msgstr "servidor de bases de datos"
 
