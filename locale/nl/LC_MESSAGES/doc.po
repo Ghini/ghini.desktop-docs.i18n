@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-07-28 14:27-0500\n"
+"POT-Creation-Date: 2017-07-28 18:12-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3836,10 +3836,6 @@ msgid "Texto para la búsqueda"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:149
-msgid "16489"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:149
 msgid "“016489”"
 msgstr ""
 
@@ -4247,10 +4243,6 @@ msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:422
-msgid "CRV:"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:422
 msgid "Nepenthaceae exibition"
 msgstr ""
 
@@ -4265,17 +4257,9 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:427
-msgid "IF-xx:"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:427
 msgid ""
 "orquidearios de frío en el jardín (1A a 5I son lugares específicos dentro"
 " del orquideario)"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:430
-msgid "INV1:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:430
@@ -4283,15 +4267,7 @@ msgid "invernadero 1 (calor)"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:432
-msgid "INV2:"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:432
 msgid "invernadero 2 (frío)"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:434
-msgid "INV3:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:434
@@ -4346,10 +4322,6 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:469 ../../use_cases-jbq.rst:485
-msgid "008440"
-msgstr ""
-
 #: ../../use_cases-jbq.rst:469
 msgid "*Dendrobium* ×'Emma White'"
 msgstr ""
@@ -4386,10 +4358,6 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:483
 msgid "Provenance"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:485 ../../use_cases-jbq.rst:520
-msgid "1"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:485
@@ -4446,10 +4414,6 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:518
 msgid "Source"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:520
-msgid "033724"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:520
@@ -4739,10 +4703,6 @@ msgstr ""
 msgid ""
 "|1000000000000293000001C3EC6A9DC0A1D0CA68_png| "
 "|1000000000000293000001C423766E7D365A1489_png|"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:711
-msgid ">"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:713
@@ -6209,5 +6169,35 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "new plant"
+#~ msgstr ""
+
+#~ msgid "16489"
+#~ msgstr ""
+
+#~ msgid "CRV:"
+#~ msgstr ""
+
+#~ msgid "IF-xx:"
+#~ msgstr ""
+
+#~ msgid "INV1:"
+#~ msgstr ""
+
+#~ msgid "INV2:"
+#~ msgstr ""
+
+#~ msgid "INV3:"
+#~ msgstr ""
+
+#~ msgid "008440"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "033724"
+#~ msgstr ""
+
+#~ msgid ">"
 #~ msgstr ""
 
