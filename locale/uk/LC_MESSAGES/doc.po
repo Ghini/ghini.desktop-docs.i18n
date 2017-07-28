@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-28 09:22-0500\n"
-"PO-Revision-Date: 2017-07-26 18:09+0000\n"
+"PO-Revision-Date: 2017-07-28 16:19+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -1614,18 +1615,17 @@ msgid "Pictures"
 msgstr "Зображення"
 
 #: ../../editing.rst:195
-#, fuzzy
 msgid ""
 "Just as almost all objects in the Ghini database can have *Notes* "
 "associated to them, Plants can have *Pictures*: next to the tab for "
 "Notes, the Plants editor contains an extra tab called \"Pictures\". You "
 "can associate as many pictures as you might need to a plant."
 msgstr ""
-"Так само, як майже всі об'єкти в базі даних Ghini можуть мати *Примітки*,"
-" пов'язані з ними, рослини можуть мати *Зображення*: поруч із закладкою "
-"для нотаток, редактор рослин містить додаткову вкладку під назвою "
-"«Зображення». Ви можете пов'язати стільки зображень, скільки може "
-"знадобитися для рослини."
+"Так само, як майже всі об'єкти в базі даних Ghini можуть мати пов'язані з "
+"ними *Примітки*, рослини можуть мати *Зображення*: поруч із закладкою "
+"Примітки, редактор рослин містить додаткову вкладку під назвою \"Зображення\""
+". Ви можете пов'язати стільки зображень, скільки може знадобитися для "
+"рослини."
 
 #: ../../editing.rst:200
 msgid ""
@@ -1638,19 +1638,16 @@ msgstr ""
 "`thumbnails` всередині папки зображень."
 
 #: ../../editing.rst:204
-#, fuzzy
 msgid ""
 "As of Ghini-1.0.62, Pictures are not kept in the database. To ensure "
 "pictures are available on all terminals where you have installed and "
 "configured Ghini, you can use a network drive, or a file sharing service "
 "like Tresorit or Dropbox."
 msgstr ""
-"З Ghini-1.0.62, зображення не зберігаються в базі даних. Для забезпечення"
-" доступності зображень на всіх терміналах, де ви встановили і налаштували"
-" Ghini, ви можете скористатися послугою обміну файлами, як Копіювання або"
-" Dropbox. Особистий вибір учасника цього документа полягає в використанні"
-" Копіювання, тому що він пропонує набагато більше місця, через свою "
-"політику «Fair Storage»."
+"З Ghini-1.0.62, зображення не зберігаються в базі даних. Для забезпечення "
+"доступності зображень на всіх терміналах, де ви встановили і налаштували "
+"Ghini, ви можете використовувати мережний диск або службу спільного "
+"використання файлів Tresorit або Dropbox."
 
 #: ../../editing.rst:209
 msgid ""
@@ -2023,22 +2020,20 @@ msgid "synonyms"
 msgstr "синоніми"
 
 #: ../../goal.rst:203
-#, fuzzy
 msgid ""
 "Ghini will allow you define synonyms for species, genera, families. Also "
 "this information can be represented in its intermediate json format and "
 "be imported in an existing Ghini database."
 msgstr ""
-"Ghini дозволить визначити синоніми для видів, родів, сімейств. Крім того,"
-" ця інформація може бути представлена в проміжному форматі json і "
-"імпортована в існуючу базу даних Ghini."
+"Ghini дозволить визначити синоніми для видів, родів, сімейств. Крім того, ця "
+"інформація може бути представлена в проміжному форматі json і імпортована в "
+"існуючу базу даних Ghini."
 
 #: ../../goal.rst:208
 msgid "scientific responsible"
 msgstr "наукова відповідальність"
 
 #: ../../goal.rst:210
-#, fuzzy
 msgid ""
 "Ghini implements the concept of 'accession', intermediate between "
 "physical plant (or a group thereof) and abstract taxon. Each accession "
@@ -2047,19 +2042,18 @@ msgid ""
 "do not need overwrite each other's work. All verifications can be found "
 "back in the database, with timestamp and signature."
 msgstr ""
-"Ghini реалізує концепцію «приєднань», як проміжну між фізичними рослинами"
-" (або їх групою) і абстрактною класифікацією. Кожне приєднання може "
-"пов'язати ті ж рослини з різною класифікацією, якщо два систематики не "
-"згодні з ідентифікації: кожен систематик може мати свою думку і не "
-"потрібно перезаписати роботу один одного. Всі перевірки можуть бути "
-"знайдені в базі даних, з відміткою часу і підписом."
+"Ghini реалізує концепцію 'приєднань', як проміжну між фізичною рослиною (або "
+"їх групою) і абстрактним таксоном. Кожне приєднання може пов'язати ті ж "
+"рослини з різними таксонами, якщо два систематики не згодні з ідентифікації: "
+"кожен систематик може мати свою думку і не потрібно перезаписати роботу один "
+"одного. Всі перевірки можуть бути знайдені в базі даних, з відміткою часу і "
+"підписом."
 
 #: ../../goal.rst:218
 msgid "helps off-line identification"
 msgstr "допомагає офф-лайн ідентифікації"
 
 #: ../../goal.rst:220
-#, fuzzy
 msgid ""
 "Ghini allows you associate pictures to physical plants, this can help "
 "recognize the plant in case a sticker is lost, or help taxonomic "
@@ -2067,24 +2061,23 @@ msgid ""
 msgstr ""
 "Ghini дозволяє асоціювати фотографії з фізичними рослинами, це може "
 "допомогти розпізнати рослину в разі втрати етикетки, або допомогти "
-"класифікаційній ідентифікації, якщо систематик не доступний весь час."
+"таксономічній ідентифікації, якщо систематик не доступний весь час."
 
 #: ../../goal.rst:225
 msgid "exports and reports"
 msgstr "експорт і звіти"
 
 #: ../../goal.rst:227
-#, fuzzy
 msgid ""
 "Ghini will let you export a report in whatever textual format you need. "
 "It uses a powerful templating engine named 'mako', which will allow you "
 "export the data in a selection to whatever format you need. Once "
 "installed, a couple of examples are available in the mako subdirectory."
 msgstr ""
-"Ghini дозволить вам експортувати звіт в будь-якому текстовому форматі. "
-"Він використовує потужний шаблонний движок під назвою 'mako', який "
-"дозволить експортувати дані вибравши будь-який формат, що вам потрібний. "
-"Після установки, кілька прикладів можна знайти в підкаталозі mako ."
+"Ghini дозволить вам експортувати звіт в будь-якому текстовому форматі. Він "
+"використовує потужний шаблонний движок під назвою 'mako', який дозволить "
+"експортувати дані вибравши будь-який формат, що вам потрібний. Після "
+"установки, кілька прикладів можна знайти в підкаталозі mako ."
 
 #: ../../goal.rst:233
 msgid "annotate your info"
@@ -2111,7 +2104,6 @@ msgid "database history"
 msgstr "історія бази даних"
 
 #: ../../goal.rst:246
-#, fuzzy
 msgid ""
 "All changes in the database is stored in the database, as history log. "
 "All changes are 'signed' and time-stamped.  Ghini makes it easy to "
@@ -2119,9 +2111,9 @@ msgid ""
 "any specific period in the past."
 msgstr ""
 "Всі зміни в базі даних зберігаються в базі даних, як журнал історії. Всі "
-"зміни 'підписані' і з відміткою часу. Ghini дозволяє легко отримати "
-"список всіх змін в останній робочий день або тиждень, або в будь-який "
-"певний період в минулому."
+"зміни 'підписані' і з відміткою часу. Ghini дозволяє легко отримати список "
+"всіх змін в останній робочий день або тиждень, або в будь-який певний період "
+"в минулому."
 
 #: ../../goal.rst:252
 msgid "simple and powerful search"
@@ -4263,7 +4255,7 @@ msgstr ""
 #: ../../use_cases-jbq.rst:396 ../../use_cases-jbq.rst:413
 #: ../../use_cases-jbq.rst:637
 msgid "Details"
-msgstr ""
+msgstr "Подробиці"
 
 #: ../../use_cases-jbq.rst:38
 msgid ""
@@ -4823,7 +4815,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:417
 msgid "description"
-msgstr ""
+msgstr "опис"
 
 #: ../../use_cases-jbq.rst:419
 msgid "CAC-B *x*"
@@ -4963,29 +4955,28 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:483 ../../use_cases-jbq.rst:518
-#, fuzzy
 msgid "Accession ID"
-msgstr "Приєднань"
+msgstr "ID приєднання"
 
 #: ../../use_cases-jbq.rst:483 ../../use_cases-jbq.rst:518
 msgid "Type of Material"
-msgstr ""
+msgstr "Тип матеріалу"
 
 #: ../../use_cases-jbq.rst:483 ../../use_cases-jbq.rst:518
 msgid "Quantity"
-msgstr ""
+msgstr "Кількість"
 
 #: ../../use_cases-jbq.rst:483
 msgid "Provenance"
-msgstr ""
+msgstr "Походження"
 
 #: ../../use_cases-jbq.rst:485 ../../use_cases-jbq.rst:520
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../use_cases-jbq.rst:485
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомо"
 
 #: ../../use_cases-jbq.rst:488 ../../use_cases-jbq.rst:523
 msgid ""
@@ -5037,7 +5028,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:518
 msgid "Source"
-msgstr ""
+msgstr "Джерело"
 
 #: ../../use_cases-jbq.rst:520
 msgid "033724"
@@ -7602,4 +7593,3 @@ msgstr ""
 #~ " entregar, siempre recuerde de usar "
 #~ "comillas!"
 #~ msgstr ""
-
