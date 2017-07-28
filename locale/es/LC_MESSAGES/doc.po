@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-28 11:34-0500\n"
-"PO-Revision-Date: 2017-07-28 16:20+0000\n"
+"POT-Creation-Date: 2017-07-27 16:47-0500\n"
+"PO-Revision-Date: 2017-07-28 16:33+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Spanish "
@@ -6253,7 +6253,7 @@ msgstr ""
 
 #: ../../use_cases.rst:2
 msgid "Contributed recipes collection"
-msgstr ""
+msgstr "Colección de recetas aportadas"
 
 #: ../../use_cases.rst:4
 msgid ""
@@ -6263,12 +6263,18 @@ msgid ""
 "section `software for botanical gardens <goal.html#botanic-garden-"
 "software>`_"
 msgstr ""
+"Esta página presenta listas de casos de uso. Si busca información práctica y "
+"directa, estás en el lugar correcto. Si prefiere una presentación exhaustiva "
+"de la estructura de la base de datos y led software, consulte la sección `"
+"software para jardines botánicos <goal.html#botanic-garden-software>`_"
 
 #: ../../use_cases.rst:9
 msgid ""
 "All material here has been contributed by gardens using the software and "
 "sharing their experiences back to the user community."
 msgstr ""
+"Todo el material ha sido aportado por jardines usuarios del software y "
+"compartiendo sus experiencias con la comunidad de usuarios."
 
 #: ../../use_cases.rst:12
 msgid "The authors of the software wish to thank all dearly."
