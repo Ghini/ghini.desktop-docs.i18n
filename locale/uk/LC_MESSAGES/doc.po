@@ -7,17 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-28 14:27-0500\n"
-"PO-Revision-Date: 2017-07-28 16:19+0000\n"
+"POT-Creation-Date: 2017-07-28 11:34-0500\n"
+"PO-Revision-Date: 2017-07-28 20:10+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -342,6 +343,9 @@ msgid ""
 "corresponds to a branch of a repository on github. Each component accepts"
 " translations in several languages."
 msgstr ""
+"Weblate хост `Ghini <https://hosted.weblate.org/projects/ghini/>`_ проект. У "
+"рамках цього проекту ми маємо компоненти, кожен з яких відповідає гілці "
+"сховища на github. Кожен компонент приймає переклад на декількох мовах."
 
 #: ../../building.rst:100
 msgid "component"
@@ -361,6 +365,8 @@ msgid ""
 "working directory to the root of your checkout of *ghini.desktop*, and "
 "you run the script::"
 msgstr ""
+"Щоб оновити файли ``po`` відносно *програмного забезпечення*, встановіть "
+"робочий каталог у корінь вашої копії *ghini.desktop* і запустіть скрипт::"
 
 #: ../../building.rst:115
 msgid ""
@@ -368,6 +374,8 @@ msgid ""
 "working directory to the root of your checkout of *ghini.desktop-"
 "docs.i18n*, and you run the script::"
 msgstr ""
+"Щоб оновити ``po`` файли *документації*, встановіть робочий каталог у корінь "
+"вашої копії *ghini.desktop-docs.i18n*, і запустіть скрипт::"
 
 #: ../../building.rst:121
 msgid ""
@@ -377,6 +385,10 @@ msgid ""
 " when you perform a marginal correction to a string, like removing a "
 "typo."
 msgstr ""
+"Коли ви запускаєте будь-який з вищезазначених сценаріїв, швидше за все, вам "
+"потрібно фіксувати *all* ``po``файли в проекті. Ви можете переглянути зміни, "
+"перш ніж застосувати їх до репозиторію. Це найголовніше коли ви виконуєте "
+"критичну корекцію до рядка, наприклад видалення помилки."
 
 #: ../../building.rst:126
 msgid ""
@@ -386,6 +398,11 @@ msgid ""
 "<http://docs.readthedocs.io/en/latest/localization.html>`_, there's "
 "nothing that we invented ourselves here."
 msgstr ""
+"`Our documentation <https://readthedocs.org/projects/ghini/>`_ на readtodocs "
+"є оригінальна англійська версія, і кілька перекладів. Ми просто дотримуємося "
+"`description of localisation "
+"<http://docs.readthedocs.io/en/latest/localization.html>`_, немає нічого, що "
+"ми винайшли собі тут."
 
 #: ../../building.rst:132
 msgid ""
@@ -396,6 +413,11 @@ msgid ""
 " source document, and that they all reside in the directory "
 "``local/$(LANG)/LC_MESSAGES/``."
 msgstr ""
+"Readthedocs перевіряє налаштування проекту *Language*, і викликає ``sphinx-"
+"intl``для отримання відформатованої документації на цільовій мові. З "
+"конфігурацією за замовчуванням —що ми не змінювали— ``sphinx-intl`` очікує "
+"один ``po`` файл на один вихідний документ, названий як вихідний документ і "
+"що всі вони перебувають у каталозі ``local/$(LANG)/LC_MESSAGES/``."
 
 #: ../../building.rst:139
 msgid ""
@@ -403,64 +425,77 @@ msgid ""
 "per language, and keeps them all in the same ``/po`` directory, just as "
 "we do for the software project: ``/po/$(LANG).po``."
 msgstr ""
+"З іншого боку, Weblate (і ми самі) віддає перевагу одному ``po`` файлу на "
+"кожну мову, і зберігаємо їх всіх у однакових директоріях ``/ po``, подібно "
+"тому, як ми робимо для програмного проекту: ``/po/$(LANG).po``."
 
 #: ../../building.rst:143
 msgid ""
 "In order not to repeat information, and to let both systems work their "
 "natural way, we have two sets of symbolic links (git honors them)."
 msgstr ""
+"Щоб не повторювати інформацію, і дозволити обом системам працювати природним "
+"способом, у нас є два набори символічних посилань (git визначає їх)."
 
 #: ../../building.rst:146
 msgid ""
 "To summarise: when a file in the documentation is updated, the "
 "``runme.sh`` script will:"
 msgstr ""
+"Підбиваючи підсумок: коли файл у документації оновлюється, ``runme.sh`` "
+"скрипт буде:"
 
 #: ../../building.rst:149
 msgid "copy the ``rst`` files from the software to the documentation;"
-msgstr ""
+msgstr "скопіюйте ``rst`` файли з програмного забезпечення в документацію;"
 
 #: ../../building.rst:150
 msgid "create a new ``pot`` file for each of the documentation files;"
-msgstr ""
+msgstr "Створіть новий ``pot`` файл для кожного з файлів документації;"
 
 #: ../../building.rst:151
 msgid "merge all ``pot`` files into one ``doc.pot``;"
-msgstr ""
+msgstr "об'єднайте всі ``pot`` файли в один ``doc.pot``;"
 
 #: ../../building.rst:152
 msgid ""
 "use the updated ``doc.pot`` to update all ``doc.po`` files (one per "
 "language);"
 msgstr ""
+"використовуйте оновлений ``doc.pot`` для оновлення всіх файлів ``doc.po`` ("
+"по одному на кожну мову);"
 
 #: ../../building.rst:153
 msgid "create all symbolic links:"
-msgstr ""
+msgstr "створити всі символічні посилання:"
 
 #: ../../building.rst:155
 msgid "those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``"
-msgstr ""
+msgstr "ті, що очікуються ``sphinx-intl`` в ``/local/$(LANG)/LC_MESSAGES/``"
 
 #: ../../building.rst:156
 msgid "those used by weblate in ``/po/$(LANG).po``"
-msgstr ""
+msgstr "ті, що використовуються weblate в ``/po/$(LANG).po``"
 
 #: ../../building.rst:158
 msgid ""
 "We could definitely write the above in a Makefile, or even better include"
 " it in ``/doc/Makefile``. Who knows, maybe we will do that."
 msgstr ""
+"Ми могли б напевно записати вищевказане в Makefile, або навіть краще "
+"включити його в ``/doc/Makefile``. Хто знає, може, ми це зробимо."
 
 #: ../../building.rst:163
 msgid "Adding missing unit tests"
-msgstr ""
+msgstr "Додавання відсутніх одиничних тестів"
 
 #: ../../building.rst:165
 msgid ""
 "If you are interested contributing to development of Ghini, a good way to"
 " do so would be by helping us finding and writing the missing unit tests."
 msgstr ""
+"Якщо ви зацікавлені в сприянні розвитку Ghini, хороший спосіб зробити це "
+"буде, допомагаючи нам знаходити та писати пропущені тестові блоки."
 
 #: ../../building.rst:168
 msgid ""
@@ -475,22 +510,30 @@ msgid ""
 "however, practice does not match theory and we have been writing tests "
 "after writing and even publishing the functions."
 msgstr ""
+"Ми всі погоджуємося, що в теорії теорія та практика ідеально узгоджуються, і "
+"що спочатку пишуть тести, потім реалізують функцію. На практиці, однак, "
+"практика не збігається з теорією, і ми писали тести після написання та "
+"навіть публікації функцій."
 
 #: ../../building.rst:176
 msgid ""
 "This section describes the process of adding unit tests for "
 "``bauble.plugins.plants.family.remove_callback``."
 msgstr ""
+"Цей розділ описує процес додавання одиночних тестів для "
+"``bauble.plugins.plants.family.remove_callback``."
 
 #: ../../building.rst:180
 msgid "What to test"
-msgstr ""
+msgstr "Що для тесту"
 
 #: ../../building.rst:182
 msgid ""
 "First of all, open the coverage report index, and choose a file with low "
 "coverage."
 msgstr ""
+"Перш за все, відкрийте індекс звіту про охоплення та виберіть файл з низьким "
+"рівнем охоплення."
 
 #: ../../building.rst:185
 msgid ""
@@ -505,6 +548,10 @@ msgid ""
 "relying on a custom dialog box. We should really first write unit tests "
 "for that class, then come back here."
 msgstr ""
+"Перші дві функції, які потребують тестів, ``edit_callback`` і "
+"``add_genera_callback``, включають створення та активацію об'єкта, що "
+"спирається на спеціальне діалогове вікно. Ми повинні спочатку написати "
+"одиничні тести для цього класу, а потім повернутися сюди."
 
 #: ../../building.rst:195
 msgid ""
@@ -7608,7 +7655,3 @@ msgstr ""
 #~ "in our digital collection, we follow "
 #~ "this suggested practice."
 #~ msgstr ""
-
-#~ msgid "new plant"
-#~ msgstr ""
-
