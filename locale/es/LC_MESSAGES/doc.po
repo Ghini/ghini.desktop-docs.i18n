@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-28 14:27-0500\n"
+"POT-Creation-Date: 2017-07-28 18:12-0500\n"
 "PO-Revision-Date: 2017-07-28 21:43+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Language: es\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -5048,10 +5047,6 @@ msgid "Texto para la búsqueda"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:149
-msgid "16489"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:149
 msgid "“016489”"
 msgstr ""
 
@@ -5597,10 +5592,6 @@ msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:422
-msgid "CRV:"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:422
 msgid "Nepenthaceae exibition"
 msgstr "Exposición de Nepenthaceae"
 
@@ -5615,17 +5606,9 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:427
-msgid "IF-xx:"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:427
 msgid ""
 "orquidearios de frío en el jardín (1A a 5I son lugares específicos dentro"
 " del orquideario)"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:430
-msgid "INV1:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:430
@@ -5633,15 +5616,7 @@ msgid "invernadero 1 (calor)"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:432
-msgid "INV2:"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:432
 msgid "invernadero 2 (frío)"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:434
-msgid "INV3:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:434
@@ -5708,10 +5683,6 @@ msgstr "Especie"
 msgid "Location"
 msgstr "Ubicación"
 
-#: ../../use_cases-jbq.rst:469 ../../use_cases-jbq.rst:485
-msgid "008440"
-msgstr ""
-
 #: ../../use_cases-jbq.rst:469
 msgid "*Dendrobium* ×'Emma White'"
 msgstr ""
@@ -5737,8 +5708,8 @@ msgid ""
 "We select the correct species, and we fill in a couple more fields, "
 "leaving the rest to the default values:"
 msgstr ""
-"Seleccionamos las especies correctas y llenamos unos campos más, dejando el "
-"resto a los valores por defecto:"
+"Seleccionamos las especies correctas y llenamos unos campos más, dejando "
+"el resto a los valores por defecto:"
 
 #: ../../use_cases-jbq.rst:483 ../../use_cases-jbq.rst:518
 msgid "Accession ID"
@@ -5756,10 +5727,6 @@ msgstr "Cantidad"
 msgid "Provenance"
 msgstr "Procedencia"
 
-#: ../../use_cases-jbq.rst:485 ../../use_cases-jbq.rst:520
-msgid "1"
-msgstr ""
-
 #: ../../use_cases-jbq.rst:485
 msgid "Unknown"
 msgstr "Desconocido"
@@ -5769,8 +5736,8 @@ msgid ""
 "After this, we continue to the Plant editor, by clicking on **Add "
 "Plants**."
 msgstr ""
-"Después de esto, seguimos en el editor de planta, haciendo clic en **Añadir "
-"plantas**."
+"Después de esto, seguimos en el editor de planta, haciendo clic en "
+"**Añadir plantas**."
 
 #: ../../use_cases-jbq.rst:491
 msgid ""
@@ -5778,17 +5745,17 @@ msgid ""
 "don't know what was the original intention when the plant was first "
 "acquired."
 msgstr ""
-"No llenamos en la accesión los \"**lugares previsto**\", porque no sabemos "
-"cuál fue la intención original cuando la planta fue adquirida en primer "
-"lugar."
+"No llenamos en la accesión los \"**lugares previsto**\", porque no "
+"sabemos cuál fue la intención original cuando la planta fue adquirida en "
+"primer lugar."
 
 #: ../../use_cases-jbq.rst:495
 msgid ""
 "In the Plant Editor, we insert the Quantity and the Location.  And we're "
 "done."
 msgstr ""
-"En la Planta Editor, podemos insertar la Cantidad y la Ubicación. Y hemos "
-"terminado."
+"En la Planta Editor, podemos insertar la Cantidad y la Ubicación. Y hemos"
+" terminado."
 
 #: ../../use_cases-jbq.rst:498
 msgid "The plant is now part of the database:"
@@ -5811,10 +5778,10 @@ msgid ""
 "(2) acquiring this plant was a planned action, and we intend to place it "
 "at a specific location in the garden."
 msgstr ""
-"Aquí hacemos más o menos lo mismo que para el caso de una planta que ya se "
-"encuentra en el jardín, hay dos diferencias: (1) conocemos la fuente de la "
-"planta; (2) adquirir esta planta fue una acción planificada, y tenemos la "
-"intención de colocarlo en un lugar específico en el jardín."
+"Aquí hacemos más o menos lo mismo que para el caso de una planta que ya "
+"se encuentra en el jardín, hay dos diferencias: (1) conocemos la fuente "
+"de la planta; (2) adquirir esta planta fue una acción planificada, y "
+"tenemos la intención de colocarlo en un lugar específico en el jardín."
 
 #: ../../use_cases-jbq.rst:513
 msgid ""
@@ -5829,10 +5796,6 @@ msgstr ""
 #: ../../use_cases-jbq.rst:518
 msgid "Source"
 msgstr "Fuente"
-
-#: ../../use_cases-jbq.rst:520
-msgid "033724"
-msgstr ""
 
 #: ../../use_cases-jbq.rst:520
 msgid "specified"
@@ -5860,9 +5823,9 @@ msgid ""
 "collection, so we act as if we were re-labeling the plant. This is "
 "described in the next section."
 msgstr ""
-"Cuando esto sucede, no podemos estar seguros de que la planta nunca había "
-"estado en la colección, para actuar como si nos estábamos re-etiquetado la "
-"planta. Esto se describe en la siguiente sección."
+"Cuando esto sucede, no podemos estar seguros de que la planta nunca había"
+" estado en la colección, para actuar como si nos estábamos re-etiquetado "
+"la planta. Esto se describe en la siguiente sección."
 
 #: ../../use_cases-jbq.rst:538
 msgid ""
@@ -5887,9 +5850,9 @@ msgid ""
 "next to the main data insertion terminal, the box is marked “dead "
 "plants”."
 msgstr ""
-"Cuando una planta es encontrada muerta, recogemos su etiqueta y la ponemos "
-"en una caja junto al terminal de inserción de datos, la caja está marcada \""
-"plantas muertas\"."
+"Cuando una planta es encontrada muerta, recogemos su etiqueta y la "
+"ponemos en una caja junto al terminal de inserción de datos, la caja está"
+" marcada \"plantas muertas\"."
 
 #: ../../use_cases-jbq.rst:549
 msgid ""
@@ -5915,9 +5878,9 @@ msgid ""
 "please remember we do not remove objects from the database, we just add "
 "to their history."
 msgstr ""
-"Una vez más recuerde que una **planta** no es una **accesión** y por favor, "
-"recuerde que no quitar los objetos de la base de datos, sólo tiene que "
-"añadir a su historia."
+"Una vez más recuerde que una **planta** no es una **accesión** y por "
+"favor, recuerde que no quitar los objetos de la base de datos, sólo tiene"
+" que añadir a su historia."
 
 #: ../../use_cases-jbq.rst:560
 msgid ""
@@ -5926,10 +5889,10 @@ msgid ""
 "click on the corresponding row, and click on **edit**. change the "
 "quantity to 0, fill in the reason and preferably also the date of change."
 msgstr ""
-"Introduzca el código de la planta completo (algo así como ``012345.1``, o "
-"``2017.0001.3`` y no necesita ceros iniciales ni comillas), haga clic en la "
-"fila correspondiente y haga clic en **edit**. cambie la cantidad a 0, "
-"especifique la razón y de preferencia también la fecha del cambio."
+"Introduzca el código de la planta completo (algo así como ``012345.1``, o"
+" ``2017.0001.3`` y no necesita ceros iniciales ni comillas), haga clic en"
+" la fila correspondiente y haga clic en **edit**. cambie la cantidad a 0,"
+" especifique la razón y de preferencia también la fecha del cambio."
 
 #: ../../use_cases-jbq.rst:565
 msgid "we find a plant without a label"
@@ -5940,8 +5903,8 @@ msgid ""
 "we can't be sure the plant had been in the collection or not.  We assume "
 "it was, and that its label was lost."
 msgstr ""
-"No podemos saber si la planta haya anteriormente estado en la colección o "
-"no.  Asumimos que lo era, y que se perdió su etiqueta."
+"No podemos saber si la planta haya anteriormente estado en la colección o"
+" no.  Asumimos que lo era, y que se perdió su etiqueta."
 
 #: ../../use_cases-jbq.rst:571
 msgid ""
@@ -5951,27 +5914,27 @@ msgid ""
 " it was a new accession, plus we add a note to the accession, category "
 "“label”, text “relabeled”."
 msgstr ""
-"Perder una etiqueta de planta es lamentable, pero es algo que sucede. Lo que "
-"hacemos es poner una nueva etiqueta a la planta e indicamos claramente que "
-"la etiqueta es un reemplazo de un original.  Luego manejamos el caso como si "
-"era una nueva accesión, además le ponemos una nota a la accesión, categoría "
-"\"etiqueta\", texto \"ret\"."
+"Perder una etiqueta de planta es lamentable, pero es algo que sucede. Lo "
+"que hacemos es poner una nueva etiqueta a la planta e indicamos "
+"claramente que la etiqueta es un reemplazo de un original.  Luego "
+"manejamos el caso como si era una nueva accesión, además le ponemos una "
+"nota a la accesión, categoría \"etiqueta\", texto \"ret\"."
 
 #: ../../use_cases-jbq.rst:577
 msgid ""
 "We work with plastified paper labels, prepare them in batches of 72 (what"
 " fits on a A4 sheet), and keep them in a dedicated box."
 msgstr ""
-"Trabajar con etiquetas de papel plastificado, los preparamos en lotes de 72 ("
-"lo que cabe en una hoja A4) y están guardadas en una caja dedicada."
+"Trabajar con etiquetas de papel plastificado, los preparamos en lotes de "
+"72 (lo que cabe en una hoja A4) y están guardadas en una caja dedicada."
 
 #: ../../use_cases-jbq.rst:580
 msgid ""
 "Just tie the new label to the plant, and proceed as one of the above "
 "cases."
 msgstr ""
-"Justo ate de la nueva etiqueta a la planta, y proceda como uno de los casos "
-"anteriores."
+"Justo ate de la nueva etiqueta a la planta, y proceda como uno de los "
+"casos anteriores."
 
 #: ../../use_cases-jbq.rst:583
 #, fuzzy
@@ -5989,9 +5952,9 @@ msgid ""
 " or maybe just a set of plants because their labels risk becoming "
 "unreadable."
 msgstr ""
-"A veces hay que renovar las etiquetas, por ejemplo todo lo que está en un "
-"invernadero, o tal vez sólo un conjunto de plantas debido al riesgo que sus "
-"etiquetas se vuelvan ilegibles."
+"A veces hay que renovar las etiquetas, por ejemplo todo lo que está en un"
+" invernadero, o tal vez sólo un conjunto de plantas debido al riesgo que "
+"sus etiquetas se vuelvan ilegibles."
 
 #: ../../use_cases-jbq.rst:592
 msgid ""
@@ -6000,8 +5963,8 @@ msgid ""
 "name>``."
 msgstr ""
 "En el primer caso es fácil seleccionar todas las plantas en el lugar, "
-"simplemente escriba el nombre de ubicación, o utilice la búsqueda ``location "
-"like <location name>``."
+"simplemente escriba el nombre de ubicación, o utilice la búsqueda "
+"``location like <location name>``."
 
 #: ../../use_cases-jbq.rst:596
 msgid ""
@@ -6009,9 +5972,9 @@ msgid ""
 " **Tag**, and use it to tag all plants that were found in need for a new "
 "label."
 msgstr ""
-"El segundo caso es un poco más delicado.  Lo que hacemos es crear un **Tag** "
-"temporal que usamos para juntar todas las plantas que se encuentren en "
-"necesidad de una nueva etiqueta."
+"El segundo caso es un poco más delicado.  Lo que hacemos es crear un "
+"**Tag** temporal que usamos para juntar todas las plantas que se "
+"encuentren en necesidad de una nueva etiqueta."
 
 #: ../../use_cases-jbq.rst:600
 msgid ""
@@ -6020,10 +5983,10 @@ msgid ""
 "values, and since we're using a simple printer, we set the colour to "
 "``black`` instead of ``blue``, which is meant for engraving."
 msgstr ""
-"Dada la selección, inicie la herramienta de informe, utilizando la plantilla "
-"mako 'accession-label.svg''.  Restaure los valores por defecto, y ya que las "
-"etiquetas son para imprimir y no grabar, utilizamos el color ``black`` en "
-"lugar que ``blue``."
+"Dada la selección, inicie la herramienta de informe, utilizando la "
+"plantilla mako 'accession-label.svg''.  Restaure los valores por defecto,"
+" y ya que las etiquetas son para imprimir y no grabar, utilizamos el "
+"color ``black`` en lugar que ``blue``."
 
 #: ../../use_cases-jbq.rst:605
 msgid "preparing labels for non-database plants"
@@ -6036,8 +5999,8 @@ msgid ""
 "example that would produce labels from 025801 all the way to 025872."
 msgstr ""
 "Para preparar un lote de 72 etiquetas, utilizamos una plantilla de mako, "
-"denominada ``accesión-label.svg``.  Esta plantilla acepta parámetros, este "
-"es un ejemplo que produce las etiquetas de 025801 hasta 025872."
+"denominada ``accesión-label.svg``.  Esta plantilla acepta parámetros, "
+"este es un ejemplo que produce las etiquetas de 025801 hasta 025872."
 
 #: ../../use_cases-jbq.rst:615
 msgid ""
@@ -6046,19 +6009,19 @@ msgid ""
 "label. We disinguish the two cases by adding a 'ret' extra text for "
 "relabeled plants."
 msgstr ""
-"Las etiquetas vienen para nosotros en dos sabores: (1) plantas que el jardín "
-"acaba de adquirir; (2) o plantas en el jardín, sin una etiqueta. "
-"Distinguimos los dos casos añadiendo el texto extra 'ret' para las plantas "
-"re-etiquetadas."
+"Las etiquetas vienen para nosotros en dos sabores: (1) plantas que el "
+"jardín acaba de adquirir; (2) o plantas en el jardín, sin una etiqueta. "
+"Distinguimos los dos casos añadiendo el texto extra 'ret' para las "
+"plantas re-etiquetadas."
 
 #: ../../use_cases-jbq.rst:620
 msgid ""
 "Our workflow includes moving plants around in the garden, keep track of "
 "current locations and history of movements."
 msgstr ""
-"Nuestro flujo de trabajo incluye mover las plantas entre ubicaciones en el "
-"jardín, hacerle seguimiento de las ubicaciones actuales y de la historia de "
-"los movimientos."
+"Nuestro flujo de trabajo incluye mover las plantas entre ubicaciones en "
+"el jardín, hacerle seguimiento de las ubicaciones actuales y de la "
+"historia de los movimientos."
 
 #: ../../use_cases-jbq.rst:626
 msgid ""
@@ -6067,9 +6030,9 @@ msgid ""
 "visiting specialist could help completing the identification."
 msgstr ""
 "Como las plantas entrarán a la etapa de floración, podemos revisar su "
-"identificación directamente, o podemos tomar fotografías de los detalles de "
-"la flor, con la esperanza que más luego un especialista visitante pueda "
-"completar la identificación."
+"identificación directamente, o podemos tomar fotografías de los detalles "
+"de la flor, con la esperanza que más luego un especialista visitante "
+"pueda completar la identificación."
 
 #: ../../use_cases-jbq.rst:633
 msgid ""
@@ -6077,9 +6040,9 @@ msgid ""
 "Ecuadorian Environment Ministery (MAE) requires and that justify the very"
 " existence of the garden."
 msgstr ""
-"Regularmente, es necesario elaborar informes acerca de nuestra colección, "
-"informes que el Ministerio ecuatoriano de medio ambiente (MAE) exigen y que "
-"justifican la existencia misma del jardín."
+"Regularmente, es necesario elaborar informes acerca de nuestra colección,"
+" informes que el Ministerio ecuatoriano de medio ambiente (MAE) exigen y "
+"que justifican la existencia misma del jardín."
 
 #: ../../use_cases-jbq.rst:640
 msgid ""
@@ -6087,25 +6050,25 @@ msgid ""
 "management and maintenance of orchids collection) complying to the "
 "requirements of the Ecuadorian Ministry of the Environment."
 msgstr ""
-"Cada año el jardín botánico tiene que presentar un informe (informe anual de "
-"gestión) y el mantenimiento de la colección de orquídeas que cumpla con los "
-"requisitos del Ministerio ecuatoriano de medio ambiente."
+"Cada año el jardín botánico tiene que presentar un informe (informe anual"
+" de gestión) y el mantenimiento de la colección de orquídeas que cumpla "
+"con los requisitos del Ministerio ecuatoriano de medio ambiente."
 
 #: ../../use_cases-jbq.rst:644
 msgid ""
 "To this end, we start selecting the plants we have to include in the "
 "report. It might be all acquisition in the past year::"
 msgstr ""
-"Para ello, partimos de seleccionar las plantas que tenemos que incluir en el "
-"informe. Podría ser toda accuisición en el año pasado::"
+"Para ello, partimos de seleccionar las plantas que tenemos que incluir en"
+" el informe. Podría ser toda accuisición en el año pasado::"
 
 #: ../../use_cases-jbq.rst:648
 msgid ""
 "or all plants within a location, or all plants belonging to a species, or"
 " just everything (but this will take time)::"
 msgstr ""
-"O todas las plantas dentro de una ubicación, o todas planta que pertenecen a "
-"una especie, o simplemente todo (pero esto tomará tiempo)::"
+"O todas las plantas dentro de una ubicación, o todas planta que "
+"pertenecen a una especie, o simplemente todo (pero esto tomará tiempo)::"
 
 #: ../../use_cases-jbq.rst:655
 msgid ""
@@ -6198,10 +6161,6 @@ msgstr ""
 msgid ""
 "|1000000000000293000001C3EC6A9DC0A1D0CA68_png| "
 "|1000000000000293000001C423766E7D365A1489_png|"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:711
-msgid ">"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:713
@@ -7900,3 +7859,34 @@ msgstr "grabar etiquetas"
 
 #~ msgid "this is described in the next section."
 #~ msgstr ""
+
+#~ msgid "16489"
+#~ msgstr ""
+
+#~ msgid "CRV:"
+#~ msgstr ""
+
+#~ msgid "IF-xx:"
+#~ msgstr ""
+
+#~ msgid "INV1:"
+#~ msgstr ""
+
+#~ msgid "INV2:"
+#~ msgstr ""
+
+#~ msgid "INV3:"
+#~ msgstr ""
+
+#~ msgid "008440"
+#~ msgstr ""
+
+#~ msgid "1"
+#~ msgstr ""
+
+#~ msgid "033724"
+#~ msgstr ""
+
+#~ msgid ">"
+#~ msgstr ""
+
