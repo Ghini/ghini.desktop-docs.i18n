@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-27 16:47-0500\n"
-"PO-Revision-Date: 2017-07-28 16:45+0000\n"
+"PO-Revision-Date: 2017-07-28 16:57+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -2277,7 +2278,7 @@ msgstr ""
 
 #: ../../goal.rst:153
 msgid "Hypersimplified view"
-msgstr ""
+msgstr "vista hipersimplificada"
 
 #: ../../goal.rst:155
 msgid ""
@@ -4763,9 +4764,8 @@ msgstr ""
 "todos los elementos seleccionados tendrán un cheque a su lado."
 
 #: ../../use_cases-jbq.rst:2
-#, fuzzy
 msgid "Quito Botanical Garden"
-msgstr "Jardín Botánico"
+msgstr "Jardín Botánico de Quito"
 
 #: ../../use_cases-jbq.rst:4
 msgid ""
@@ -5253,9 +5253,8 @@ msgid "taxonomy"
 msgstr "taxonomía"
 
 #: ../../use_cases-jbq.rst:248
-#, fuzzy
 msgid "introduction"
-msgstr "editorial a la producción"
+msgstr "introducción"
 
 #: ../../use_cases-jbq.rst:250
 msgid "Orchidaceae taxonomic complexity"
@@ -5342,7 +5341,6 @@ msgstr ""
 "familia, como este:"
 
 #: ../../use_cases-jbq.rst:295
-#, fuzzy
 msgid ""
 "The current maintainer suggests to use the prefix **Zzz-** and behind the"
 " prefix to write the family name, possibly removing the trailing **e**.  "
@@ -5353,12 +5351,12 @@ msgid ""
 "suggested practice."
 msgstr ""
 "El responsable actual sugiere utilizar el prefijo **Zzz-** y detrás del "
-"prefijo escribir el nombre de la familia, posiblemente eliminando la "
-"**e** final. Eliminación de la **e** final es útil para no obtener "
-"resultados que incluyen nombres de género cuando busca cosas que terminen"
-" en **aceae**. En práctica, tenemos un género **Zzz** en la familia "
-"Orchidaceae y todas familias representadas en nuestra colección digital, "
-"seguimos esta práctica sugerida."
+"prefijo escribir el nombre de la familia, posiblemente eliminando la **e** "
+"final. La eliminación de la **e** final es útil para no obtener resultados "
+"que incluyan nombres de género cuando busca cosas que terminen en **aceae**. "
+"En práctica, tenemos un género **Zzz** en la familia Orchidaceae y todas "
+"familias representadas en nuestra colección digital, seguimos esta práctica "
+"sugerida."
 
 #: ../../use_cases-jbq.rst:303
 msgid ""
@@ -5697,18 +5695,16 @@ msgstr ""
 "información en la base de datos."
 
 #: ../../use_cases-jbq.rst:467
-#, fuzzy
 msgid "Accession"
-msgstr "Accesiones"
+msgstr "Accesión"
 
 #: ../../use_cases-jbq.rst:467
 msgid "Species"
 msgstr "Especie"
 
 #: ../../use_cases-jbq.rst:467
-#, fuzzy
 msgid "Location"
-msgstr "Instalación"
+msgstr "Ubicación"
 
 #: ../../use_cases-jbq.rst:469 ../../use_cases-jbq.rst:485
 msgid "008440"
@@ -5814,9 +5810,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:518
-#, fuzzy
 msgid "Source"
-msgstr "fuente abierta"
+msgstr "Fuente"
 
 #: ../../use_cases-jbq.rst:520
 msgid "033724"
@@ -5854,6 +5849,10 @@ msgid ""
 "label (it may become unreadable), or to the association (they may be "
 "separated). We have software-aided protocols for these events."
 msgstr ""
+"Cuando asociamos físicamente una etiqueta a una planta, siempre hay la "
+"posibilidad de que algo ocurra a la planta (puede morirse) o la etiqueta ("
+"puede llegar a ser ilegible) o a la asociación entre las dos (pueden quedar "
+"separadas). Tenemos protocolos asistidos por software para estos eventos."
 
 #: ../../use_cases-jbq.rst:543
 msgid "we find a dead plant"
@@ -7841,4 +7840,3 @@ msgstr "grabar etiquetas"
 #~ " the accession, category “label”, text "
 #~ "“relabeled”."
 #~ msgstr ""
-
