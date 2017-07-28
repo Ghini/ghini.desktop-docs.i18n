@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-28 14:27-0500\n"
-"PO-Revision-Date: 2017-07-28 21:43+0000\n"
+"PO-Revision-Date: 2017-07-28 22:59+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -5974,14 +5974,12 @@ msgstr ""
 "anteriores."
 
 #: ../../use_cases-jbq.rst:583
-#, fuzzy
 msgid "producing or reproducing labels"
-msgstr "reproducción de plantas"
+msgstr "producción o reproducción de etiquetas"
 
 #: ../../use_cases-jbq.rst:585
-#, fuzzy
 msgid "refreshing plant labels"
-msgstr "reproducción de plantas"
+msgstr "renovar etiquetas de plantas"
 
 #: ../../use_cases-jbq.rst:588
 msgid ""
