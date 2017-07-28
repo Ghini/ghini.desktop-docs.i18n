@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-28 09:22-0500\n"
-"PO-Revision-Date: 2017-07-20 17:40+0000\n"
+"POT-Creation-Date: 2017-07-27 16:47-0500\n"
+"PO-Revision-Date: 2017-07-28 13:45+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -4812,6 +4813,12 @@ msgid ""
 "program symbol |100000000000003100000031BB54CBDFA885EBAC_png|, appearing "
 "near the left margin of your display."
 msgstr ""
+"para iniciar un programa dado su nombre, active la tecla |loose_png|, al "
+"lado de Alt, o haga clic en |10000000000000300000002F89E0224Adf9ec09e_png|, "
+"a continuación, comience a escribir el nombre del programa, en nuestro caso "
+"\"Ghini\", o simplemente haga clic en el símbolo del programa "
+"|100000000000003100000031BB54CBDFa885ebac_png|, que aparece cerca de la "
+"margen izquierda de la pantalla."
 
 #: ../../use_cases-jbq.rst:25
 #, fuzzy
@@ -4833,14 +4840,14 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:33
 msgid "Understanding when to update"
-msgstr ""
+msgstr "Entender cuándo se debe actualizar"
 
 #: ../../use_cases-jbq.rst:35 ../../use_cases-jbq.rst:57
 #: ../../use_cases-jbq.rst:96 ../../use_cases-jbq.rst:268
 #: ../../use_cases-jbq.rst:396 ../../use_cases-jbq.rst:413
 #: ../../use_cases-jbq.rst:637
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 #: ../../use_cases-jbq.rst:38
 msgid ""
@@ -4857,26 +4864,33 @@ msgid ""
 "Occasionally, at the top of the screen an information text will appear, "
 "telling you that a newer version is available on-line."
 msgstr ""
+"Ocasionalmente, en la parte superior de la pantalla aparece un texto de "
+"información, diciéndole que una versión más reciente está disponible en "
+"línea."
 
 #: ../../use_cases-jbq.rst:49
 msgid ""
 "The update procedure is simple, and it depends on the operating system "
 "you use, we're not explaining here again."
 msgstr ""
+"El procedimiento de actualización es sencillo, y depende del sistema "
+"operativo que utilice, no estamos explicando aquí de nuevo."
 
 #: ../../use_cases-jbq.rst:52
 msgid ""
 "It is generally a good idea updating the software.  If in doubt, contact "
 "the author, or write to the group."
 msgstr ""
+"Es generalmente una buena idea actualizar el software. En caso de duda, "
+"póngase en contacto con el autor, o escribir al grupo."
 
 #: ../../use_cases-jbq.rst:55
 msgid "understanding ghini initial screen"
-msgstr ""
+msgstr "Entender la pantalla inicial de ghini"
 
 #: ../../use_cases-jbq.rst:60
 msgid "At the moment of writing, our initial screen looked like this:"
-msgstr ""
+msgstr "En el momento de la escritura, nuestra pantalla inicial se veía así:"
 
 #: ../../use_cases-jbq.rst:64
 msgid ""
@@ -4892,6 +4906,10 @@ msgid ""
 " accessions that have not been identified at rank species.  And one for "
 "the database history."
 msgstr ""
+"La mitad inferior del lado derecho contiene un conjunto de consultas "
+"almacenadas.  Usted las puede editar a su gusto, sin embargo nuestras "
+"sugerencias incluyen seleccionar aquellas accesiones que no han sido "
+"identificados en rango especie.  Y una para la historia de la base de datos."
 
 #: ../../use_cases-jbq.rst:77
 msgid ""
@@ -7635,114 +7653,3 @@ msgstr "grabar etiquetas"
 #~ " the accession, category “label”, text "
 #~ "“relabeled”."
 #~ msgstr ""
-
-#~ msgid ""
-#~ "Now start |windows-cmd| to run the"
-#~ " script.  Right before you hit the"
-#~ " enter key to run the script, "
-#~ "your screen might look like something"
-#~ " like this:"
-#~ msgstr ""
-#~ "justo antes de que pulse la tecla"
-#~ " enter para ejecutar la secuencia de"
-#~ " comandos, la pantalla puede parecer "
-#~ "algo como esto:"
-
-#~ msgid "Jardín Botánico de Quito"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "En la parte del lado se puede "
-#~ "observar un resumen de todas las "
-#~ "plantas registradas."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "En la parte superior de esta "
-#~ "pantalla se puede encontrar el campo "
-#~ "para ingresar nombres que desea buscar."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Con el botón "
-#~ "|100000000000001C00000020F4C7873186014F2F_png|, en forma"
-#~ " de casa, puede regresar de sus "
-#~ "busquedas a la pantalla principal."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Con el botón "
-#~ "|100000000000001B000000207EC6F9075C9D3669_png|, en forma"
-#~ " de flecha, puede regresar a su "
-#~ "ultima búsqueda."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Con el botón "
-#~ "|100000000000001C0000001FB8A1F75F7A5EF877_png|, en forma"
-#~ " de engranaje, puede usar el “Query"
-#~ " Builder”, con que se puede "
-#~ "desarollar una búsqueda más compleja en"
-#~ " una manera más simple."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Algunas veces sin causa aparente, cuando"
-#~ " se hace una búsqueda no se "
-#~ "ejecuta por completo y puede mostrarse"
-#~ " una ventana con un mensaje. En "
-#~ "este caso solo se tiene que "
-#~ "intentar realizar la misma búsqueda "
-#~ "nuevamente."
-#~ msgstr ""
-
-#~ msgid "Un ejemplo de una ventana de un mensaje error:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Si quieres averiguar los detalles de "
-#~ "la conexión, haz clic en el "
-#~ "símbolo ▶ al lado de 'Connection "
-#~ "Details', ese cambiará en ▼, y la"
-#~ " ventana de conexión se mostrará como"
-#~ " una de las siguientes:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Como puedes ver, estamos conectándonos "
-#~ "al mismo servidor de bases de "
-#~ "datos, cada conexión se apoya a la"
-#~ " misma base de datos, pero con "
-#~ "usuario diferente."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Cada año el jardín botánico tiene "
-#~ "que entregar un informe (informe anual"
-#~ " de manejo y mantenimiento de "
-#~ "colección de orquideas) que tiene la "
-#~ "información del banco de datos y "
-#~ "sobre eso las plantas registradas."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Para realizar eso, solo se pone "
-#~ "esto en el campo de entregar en"
-#~ " el banco de datos::"
-#~ msgstr ""
-
-#~ msgid "or::"
-#~ msgstr ""
-
-#~ msgid "(tienes que adaptarse el año)"
-#~ msgstr ""
-
-#~ msgid "Información del banco de datos"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Para buscar algo en el campo de"
-#~ " entregar, siempre recuerde de usar "
-#~ "comillas!"
-#~ msgstr ""
-
