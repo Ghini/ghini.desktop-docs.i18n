@@ -19,6 +19,7 @@ echo "copy/update files from the documentation"
 echo '--------------------------------------------------------------------------'
 cp -pu $SOURCEDOCDIR/*.rst .
 rm api.rst
+rsync -r $SOURCEDOCDIR/images images
 
 echo "done copying/updating files from documentation"
 echo '--------------------------------------------------------------------------'
