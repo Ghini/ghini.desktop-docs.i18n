@@ -10,13 +10,14 @@ msgstr ""
 "POT-Creation-Date: 2017-07-29 09:31-0500\n"
 "PO-Revision-Date: 2017-07-28 21:43+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -203,11 +204,11 @@ msgid ""
 "<http://github.com/Ghini/ghini.desktop>`_ and see all that has been going"
 " on around Ghini since its inception as Bauble, back in the year 2004."
 msgstr ""
-"Si todavía no has instalado Ghini y quiere echar un vistazo a su historia"
-" de código, puede abrir nuestra `página de github "
-"<http:github.com/ghini/ghini.desktop>`_ y ver todo lo que ha estado "
-"sucediendo por Ghini desde sus inicios en el año 2004 bajo el nombre de "
-"Bauble.</http:>"
+"Si todavía no has instalado Ghini y quiere echar un vistazo a la historia de "
+"su código y documentación, puede abrir nuestra `página de github "
+"<http://github.com/ghini/ghini.desktop>`_ y ver todo lo que ha estado "
+"sucediendo con Ghini desde sus inicios en el año 2004 bajo el nombre de "
+"Bauble."
 
 #: ../../building.rst:33
 msgid "Software source, versions, branches"
@@ -314,11 +315,10 @@ msgid ""
 " form of several ``.po`` files."
 msgstr ""
 "De vez en cuando, durante el proceso de actualización del software, el "
-"programador añade o modifica cadenas de texto en las fuentes python, o en"
-" la documentación, o en las fuentes glade. La mayoría de nuestras cadenas"
-" son traducibles y son automáticamente ofrecidas a weblate para la "
-"contribuición de traducciones por voluntarios, en forma de archivos "
-"``po``."
+"programador añade o modifica cadenas de texto en las fuentes python, o en la "
+"documentación, o en las fuentes glade. La mayoría de nuestras cadenas son "
+"traducibles y son automáticamente ofrecidas a weblate para la contribución "
+"de traducciones por voluntarios, en forma de archivos ``po``."
 
 #: ../../building.rst:88
 msgid ""
@@ -387,6 +387,11 @@ msgid ""
 " when you perform a marginal correction to a string, like removing a "
 "typo."
 msgstr ""
+"Cuando se ejecuta uno de los scripts mencionados, lo más probable es que "
+"usted necesite alterar *todos* archivos ``po`` del proyecto. Puedes querer "
+"revisar los cambios antes de enviarlos el repositorio. Esto es muy "
+"importante cuando se realiza una corrección marginal en una cadena, como "
+"quitar un error de tipeo."
 
 #: ../../building.rst:126
 msgid ""
@@ -396,6 +401,11 @@ msgid ""
 "<http://docs.readthedocs.io/en/latest/localization.html>`_, there's "
 "nothing that we invented ourselves here."
 msgstr ""
+"'Nuestra documentación <https://readthedocs.org/projects/ghini/ >`_ en "
+"readthedocs tiene una versión original en inglés y varias traducciones. "
+"Seguimos la `descripción de localización "
+"<http://docs.readthedocs.io/en/latest/localization.html >`_, no hay nada que "
+"nosotros mismos inventamos aquí."
 
 #: ../../building.rst:132
 msgid ""
@@ -406,6 +416,12 @@ msgid ""
 " source document, and that they all reside in the directory "
 "``local/$(LANG)/LC_MESSAGES/``."
 msgstr ""
+"Readthedocs comprueba la configuración de idioma del proyecto e invoca "
+"``sphinx-intl`` para formatear la documentación en el idioma de objetivo. "
+"Con la configuración predeterminada, que no alteramos, ``sphinx-intl`` "
+"espera un archivo ``po`` por cada documento fuente, llamado como el "
+"documento de origen, y que resida en el directorio "
+"``local/$(LANG)/LC_MESSAGES/``."
 
 #: ../../building.rst:139
 msgid ""
@@ -413,18 +429,26 @@ msgid ""
 "per language, and keeps them all in the same ``/po`` directory, just as "
 "we do for the software project: ``/po/$(LANG).po``."
 msgstr ""
+"Por otro lado, Weblate (y nosotros) preferimos un único fichero ``po`` por "
+"lenguaje, y los mantenemos todos en el mismo fichero ``/po``, tal como lo "
+"hacemos para el proyecto de software: ``/po/$(LANG).po``."
 
 #: ../../building.rst:143
 msgid ""
 "In order not to repeat information, and to let both systems work their "
 "natural way, we have two sets of symbolic links (git honors them)."
 msgstr ""
+"Con el fin de no repetir la información, y para permitir que ambos sistemas "
+"trabajen en su forma natural, tenemos dos conjuntos de enlaces simbólicos ("
+"git los honra)."
 
 #: ../../building.rst:146
 msgid ""
 "To summarise: when a file in the documentation is updated, the "
 "``runme.sh`` script will:"
 msgstr ""
+"Para resumir: cuando se actualiza un archivo de la documentación, el script "
+"``runme.sh`` se ocupa de:"
 
 #: ../../building.rst:149
 msgid "copy the ``rst`` files from the software to the documentation;"
@@ -463,6 +487,8 @@ msgid ""
 "We could definitely write the above in a Makefile, or even better include"
 " it in ``/doc/Makefile``. Who knows, maybe we will do that."
 msgstr ""
+"Definitivamente podríamos escribir lo anterior en un Makefile, o incluso "
+"mejor incluirlo en \"doc/Makefile ''. Quién sabe, tal vez lo haremos."
 
 #: ../../building.rst:163
 msgid "Adding missing unit tests"
@@ -553,7 +579,7 @@ msgstr ""
 
 #: ../../building.rst:201
 msgid "how to test"
-msgstr "Cómo se hace:"
+msgstr "Cómo se hace"
 
 #: ../../building.rst:203
 msgid ""
@@ -594,7 +620,7 @@ msgstr "la familia tiene uno o más géneros"
 
 #: ../../building.rst:217
 msgid "**confirm**"
-msgstr ""
+msgstr "**confirmar**"
 
 #: ../../building.rst:216
 msgid "the user confirms deletion"
@@ -686,7 +712,7 @@ msgstr "T₀ (condición inicial),"
 
 #: ../../building.rst:269
 msgid "action,"
-msgstr ""
+msgstr "acción,"
 
 #: ../../building.rst:270
 msgid "T₁ (testing the result of the action given the initial conditions)"
@@ -694,7 +720,7 @@ msgstr "T₁ (prueba el resultado de la acción dada las condiciones iniciales)"
 
 #: ../../building.rst:272
 msgid "what's in a name — unit tests"
-msgstr ""
+msgstr "¿qué hay en un nombre — las pruebas unitarias"
 
 #: ../../building.rst:275
 msgid ""
@@ -920,12 +946,12 @@ msgid ""
 "<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, for"
 " example:"
 msgstr ""
-"En el archivo de glade, en la sección de '' acción-widgets'' cerrar la "
-"descripción de objeto GtkDialog, asegúrese de que cada elemento de '' "
-"acción-widget'' tiene un valor válido '' respuesta ''.  Uso ' los valores"
-" válidos de GtkResponseType <http: "
-"gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html=\"\">' _, por "
-"ejemplo:</http:>"
+"En el archivo glade, en la sección de ``action-widgets`` que cierra la "
+"descripción del objeto GtkDialog, asegúrese de que cada elemento ``action-"
+"widget`` tenga un valor ``response`` válido  Use `los valores válidos de "
+"GtkResponseType "
+"<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, por "
+"ejemplo:"
 
 #: ../../building.rst:459
 msgid ""
@@ -964,13 +990,12 @@ msgid ""
 "receives the change. This is a workaroud for an `unresolved bug in GTK "
 "<http://stackoverflow.com/questions/32106765/>`_."
 msgstr ""
-"GtkTextView: asociarlo a un GtkTextBuffer. Para manejar la señal de '' "
-"cambiada '' en la GtkTextBuffer, tenemos que definir un manejador que "
-"invoca el genérico '' on_textbuffer_changed'', el único papel para esta "
-"función debe pasar a nuestro controlador genérico el nombre del atributo "
-"modelo que recibe el cambio. Este es un workaroud para un ' bug sin "
-"resolver en GTK <http: stackoverflow.com/questions/32106765/=\"\">' "
-"_.</http:>"
+"GtkTextView: asociarlo a un GtkTextBuffer. Para manejar la señal ``changed`` "
+"en la GtkTextBuffer, tenemos que definir un manejador que invoca el genérico "
+"``on_textbuffer_changed``, el único papel para esta función consiste en "
+"pasar a nuestro controlador genérico el nombre del atributo modelo que "
+"recibe el cambio. Este es un workaroud para un `bug sin resolver en GTK "
+"<http: stackoverflow.com/questions/32106765/>`_."
 
 #: ../../building.rst:474
 msgid ""
@@ -1074,7 +1099,7 @@ msgstr ""
 
 #: ../../building.rst:514
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: ../../building.rst:516
 msgid ""
@@ -1389,6 +1414,8 @@ msgid ""
 "when you change strings, please make sure that old translations get re-"
 "used."
 msgstr ""
+"cuando modifique cadenas, por favor, asegúrese de que las traducciones "
+"antiguas siguen aplicandose."
 
 #: ../../building.rst:630
 msgid "commit your changes."
@@ -1682,7 +1709,7 @@ msgstr ""
 
 #: ../../editing.rst:104
 msgid "Species/Taxon"
-msgstr ""
+msgstr "Especie O Taxón"
 
 #: ../../editing.rst:106
 msgid ""
@@ -1750,6 +1777,8 @@ msgstr ""
 #: ../../editing.rst:134
 msgid "Choose the Taxon name, add one if you forgot to do that in advance."
 msgstr ""
+"Elegir el nombre taxonómico, agregar uno si usted se olvidó de hacerlo por "
+"adelantado."
 
 #: ../../editing.rst:136
 msgid ""
@@ -1763,6 +1792,7 @@ msgstr ""
 #: ../../editing.rst:141
 msgid "Type the Accession ID, preferably also the Quantity received."
 msgstr ""
+"Escriba la ID de la accesión, preferiblemente también la cantidad recibida."
 
 #: ../../editing.rst:145
 msgid "Accession Source"
@@ -1775,10 +1805,16 @@ msgid ""
 "choose \"Garden Propagation\", which is placed as a default first item in"
 " the list of contacts."
 msgstr ""
+"La fuente de las accesiones te permite añadir más información sobre de donde "
+"vino esta accesión.  Seleccione un contacto de la lista desplegable y elija "
+"\"Propagación de jardín\", que se coloca como primer elemento predeterminado "
+"en la lista de contactos."
 
 #: ../../editing.rst:152
 msgid "A Garden Propagation is the result of successful Propagation."
 msgstr ""
+"Una propagación de jardín es el resultado de un intento de propagación "
+"exitoso."
 
 #: ../../editing.rst:154
 msgid ""
@@ -1788,6 +1824,11 @@ msgid ""
 "is the parent plant and choose among the still not completely accessed "
 "propagations the one you intend to add as an accession in your database."
 msgstr ""
+"Al acceder a material de una propagación de jardín, inicialmente se deja la "
+"primera pestaña (General) y se empieza de la segunda pestaña (Fuente). "
+"Seleccione como contacto \"Propagación de jardín\", indique cual planta es "
+"la planta madre y escoja entre las propagaciones todavía no completamente "
+"accesadas, la que usted desea agregar como una accesión en la base de datos."
 
 #: ../../editing.rst:160
 msgid ""
@@ -5979,15 +6020,13 @@ msgstr ""
 "Justo ate de la nueva etiqueta a la planta, y proceda como uno de los "
 "casos anteriores."
 
-#: ../../use_cases-jbq.rst:615
-#, fuzzy
+#: ../../use_cases-jbq.rst:583
 msgid "producing or reproducing labels"
-msgstr "reproducción de plantas"
+msgstr "producción o reproducción de etiquetas"
 
 #: ../../use_cases-jbq.rst:617
-#, fuzzy
 msgid "refreshing plant labels"
-msgstr "reproducción de plantas"
+msgstr "renovar etiquetas de plantas"
 
 #: ../../use_cases-jbq.rst:620
 msgid ""
@@ -7967,46 +8006,3 @@ msgstr "grabar etiquetas"
 
 #~ msgid ">"
 #~ msgstr ""
-
-#~ msgid "Número en la etiqueta"
-#~ msgstr ""
-
-#~ msgid "Texto para la búsqueda"
-#~ msgstr ""
-
-#~ msgid "“016489”"
-#~ msgstr ""
-
-#~ msgid "5. Buscar plantas en la base de datos"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Para revisar si una planta con un"
-#~ " número (accesión) existe dentro del "
-#~ "banco de datos, se necesita el "
-#~ "código con 6 números e ingresarlo "
-#~ "en el campo de entregar. Para que"
-#~ " el sistema reconozca la búsqueda, el"
-#~ " número tiene que estar en comillas"
-#~ " “ ”. Para confirmar la búsqueda "
-#~ "oprime “Enter” o haga clic a el"
-#~ " botón de búsqueda."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Si la planta se encuentra en el"
-#~ " banco de datos, se mostrara una "
-#~ "ventana en la parte inferior con "
-#~ "los datos de la planta."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Si la planta no se encuentra en"
-#~ " el banco de datos, se mostrara "
-#~ "en la parte inferior una ventana "
-#~ "con el siguiente mensaje"
-#~ msgstr ""
-
-#~ msgid "“Couldn’t find anything for search.”"
-#~ msgstr ""
-
