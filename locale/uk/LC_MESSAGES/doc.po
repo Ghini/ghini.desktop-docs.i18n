@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-07-26 18:09+0000\n"
+"PO-Revision-Date: 2017-07-29 18:03+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
@@ -340,6 +340,9 @@ msgid ""
 "corresponds to a branch of a repository on github. Each component accepts"
 " translations in several languages."
 msgstr ""
+"Weblate хост `Ghini <https://hosted.weblate.org/projects/ghini/>`_ проект. У "
+"рамках цього проекту ми маємо компоненти, кожен з яких відповідає гілці "
+"сховища на github. Кожен компонент приймає переклад на декількох мовах."
 
 #: ../../building.rst:100
 msgid "component"
@@ -359,6 +362,8 @@ msgid ""
 "working directory to the root of your checkout of *ghini.desktop*, and "
 "you run the script::"
 msgstr ""
+"Щоб оновити файли ``po`` відносно *програмного забезпечення*, встановіть "
+"робочий каталог у корінь вашої копії *ghini.desktop* і запустіть скрипт::"
 
 #: ../../building.rst:115
 msgid ""
@@ -366,6 +371,8 @@ msgid ""
 "working directory to the root of your checkout of *ghini.desktop-"
 "docs.i18n*, and you run the script::"
 msgstr ""
+"Щоб оновити ``po`` файли *документації*, встановіть робочий каталог у корінь "
+"вашої копії *ghini.desktop-docs.i18n*, і запустіть скрипт::"
 
 #: ../../building.rst:121
 msgid ""
@@ -375,6 +382,10 @@ msgid ""
 " when you perform a marginal correction to a string, like removing a "
 "typo."
 msgstr ""
+"Коли ви запускаєте будь-який з вищезазначених сценаріїв, швидше за все, вам "
+"потрібно фіксувати *all* ``po``файли в проекті. Ви можете переглянути зміни, "
+"перш ніж застосувати їх до репозиторію. Це найголовніше коли ви виконуєте "
+"критичну корекцію до рядка, наприклад видалення помилки."
 
 #: ../../building.rst:126
 msgid ""
@@ -384,6 +395,11 @@ msgid ""
 "<http://docs.readthedocs.io/en/latest/localization.html>`_, there's "
 "nothing that we invented ourselves here."
 msgstr ""
+"`Our documentation <https://readthedocs.org/projects/ghini/>`_ на readtodocs "
+"є оригінальна англійська версія, і кілька перекладів. Ми просто дотримуємося "
+"`description of localisation "
+"<http://docs.readthedocs.io/en/latest/localization.html>`_, немає нічого, що "
+"ми винайшли собі тут."
 
 #: ../../building.rst:132
 msgid ""
@@ -394,6 +410,11 @@ msgid ""
 " source document, and that they all reside in the directory "
 "``local/$(LANG)/LC_MESSAGES/``."
 msgstr ""
+"Readthedocs перевіряє налаштування проекту *Language*, і викликає ``sphinx-"
+"intl``для отримання відформатованої документації на цільовій мові. З "
+"конфігурацією за замовчуванням —що ми не змінювали— ``sphinx-intl`` очікує "
+"один ``po`` файл на один вихідний документ, названий як вихідний документ і "
+"що всі вони перебувають у каталозі ``local/$(LANG)/LC_MESSAGES/``."
 
 #: ../../building.rst:139
 msgid ""
@@ -401,70 +422,86 @@ msgid ""
 "per language, and keeps them all in the same ``/po`` directory, just as "
 "we do for the software project: ``/po/$(LANG).po``."
 msgstr ""
+"З іншого боку, Weblate (і ми самі) віддає перевагу одному ``po`` файлу на "
+"кожну мову, і зберігаємо їх всіх у однакових директоріях ``/ po``, подібно "
+"тому, як ми робимо для програмного проекту: ``/po/$(LANG).po``."
 
 #: ../../building.rst:143
 msgid ""
 "In order not to repeat information, and to let both systems work their "
 "natural way, we have two sets of symbolic links (git honors them)."
 msgstr ""
+"Щоб не повторювати інформацію, і дозволити обом системам працювати природним "
+"способом, у нас є два набори символічних посилань (git визначає їх)."
 
 #: ../../building.rst:146
 msgid ""
 "To summarise: when a file in the documentation is updated, the "
 "``runme.sh`` script will:"
 msgstr ""
+"Підбиваючи підсумок: коли файл у документації оновлюється, ``runme.sh`` "
+"скрипт буде:"
 
 #: ../../building.rst:149
 msgid "copy the ``rst`` files from the software to the documentation;"
-msgstr ""
+msgstr "скопіюйте ``rst`` файли з програмного забезпечення в документацію;"
 
 #: ../../building.rst:150
 msgid "create a new ``pot`` file for each of the documentation files;"
-msgstr ""
+msgstr "Створіть новий ``pot`` файл для кожного з файлів документації;"
 
 #: ../../building.rst:151
 msgid "merge all ``pot`` files into one ``doc.pot``;"
-msgstr ""
+msgstr "об'єднайте всі ``pot`` файли в один ``doc.pot``;"
 
 #: ../../building.rst:152
 msgid ""
 "use the updated ``doc.pot`` to update all ``doc.po`` files (one per "
 "language);"
 msgstr ""
+"використовуйте оновлений ``doc.pot`` для оновлення всіх файлів ``doc.po`` ("
+"по одному на кожну мову);"
 
 #: ../../building.rst:153
 msgid "create all symbolic links:"
-msgstr ""
+msgstr "створити всі символічні посилання:"
 
 #: ../../building.rst:155
 msgid "those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``"
-msgstr ""
+msgstr "ті, що очікуються ``sphinx-intl`` в ``/local/$(LANG)/LC_MESSAGES/``"
 
 #: ../../building.rst:156
 msgid "those used by weblate in ``/po/$(LANG).po``"
-msgstr ""
+msgstr "ті, що використовуються weblate в ``/po/$(LANG).po``"
 
 #: ../../building.rst:158
 msgid ""
 "We could definitely write the above in a Makefile, or even better include"
 " it in ``/doc/Makefile``. Who knows, maybe we will do that."
 msgstr ""
+"Ми могли б напевно записати вищевказане в Makefile, або навіть краще "
+"включити його в ``/doc/Makefile``. Хто знає, може, ми це зробимо."
 
 #: ../../building.rst:163
 msgid "Adding missing unit tests"
-msgstr ""
+msgstr "Додавання відсутніх одиничних тестів"
 
 #: ../../building.rst:165
 msgid ""
 "If you are interested contributing to development of Ghini, a good way to"
 " do so would be by helping us finding and writing the missing unit tests."
 msgstr ""
+"Якщо ви зацікавлені в сприянні розвитку Ghini, хороший спосіб зробити це "
+"буде, допомагаючи нам знаходити та писати пропущені тестові блоки."
 
 #: ../../building.rst:168
+#, fuzzy
 msgid ""
 "A well tested function is one whose behaviour you cannot change without "
 "breaking at least one unit test."
 msgstr ""
+"Добре перевіреною функцією є та, чия поведінка не може змінюватися, не "
+"порушуючи принаймні одне тестування."
 
 #: ../../building.rst:171
 msgid ""
@@ -473,28 +510,39 @@ msgid ""
 "however, practice does not match theory and we have been writing tests "
 "after writing and even publishing the functions."
 msgstr ""
+"Ми всі погоджуємося, що в теорії теорія та практика ідеально узгоджуються, і "
+"що спочатку пишуть тести, потім реалізують функцію. На практиці, однак, "
+"практика не збігається з теорією, і ми писали тести після написання та "
+"навіть публікації функцій."
 
 #: ../../building.rst:176
 msgid ""
 "This section describes the process of adding unit tests for "
 "``bauble.plugins.plants.family.remove_callback``."
 msgstr ""
+"Цей розділ описує процес додавання одиночних тестів для "
+"``bauble.plugins.plants.family.remove_callback``."
 
 #: ../../building.rst:180
 msgid "What to test"
-msgstr ""
+msgstr "Що для тесту"
 
 #: ../../building.rst:182
 msgid ""
 "First of all, open the coverage report index, and choose a file with low "
 "coverage."
 msgstr ""
+"Перш за все, відкрийте індекс звіту про охоплення та виберіть файл з низьким "
+"рівнем охоплення."
 
 #: ../../building.rst:185
+#, fuzzy
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
 msgstr ""
+"Для цього прикладу, починаючи у жовтні 2015 року, ми приземлилися на "
+"``bauble.plugins.plants.family``, на 33%."
 
 #: ../../building.rst:190
 msgid ""
@@ -503,98 +551,115 @@ msgid ""
 "relying on a custom dialog box. We should really first write unit tests "
 "for that class, then come back here."
 msgstr ""
+"Перші дві функції, які потребують тестів, ``edit_callback`` і "
+"``add_genera_callback``, включають створення та активацію об'єкта, що "
+"спирається на спеціальне діалогове вікно. Ми повинні спочатку написати "
+"одиничні тести для цього класу, а потім повернутися сюди."
 
 #: ../../building.rst:195
+#, fuzzy
 msgid ""
 "The next function, ``remove_callback``, also activates a couple of dialog"
 " and message boxes, but in the form of invoking a function requesting "
 "user input via yes-no-ok boxes. These functions we can easily replace "
 "with a function mocking the behaviour."
 msgstr ""
+"Наступна функція `` remove_callback`` також активує пару діалогових вікон і "
+"повідомлень, але у формі виклику функції, що запитує вхід користувача через "
+"поля yes-no-ok. Ці функції ми можемо легко замінити функцією, що висміює "
+"поведінку."
 
 #: ../../building.rst:201
 msgid "how to test"
-msgstr ""
+msgstr "як протестувати"
 
 #: ../../building.rst:203
+#, fuzzy
 msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
 msgstr ""
+"Отже, вирішивши, що описувати в одиничному тесті, ми розглянемо код, і ми "
+"бачимо, що це потребує дискримінації пари випадків:"
 
 #: ../../building.rst:209
 msgid "**parameter correctness**"
-msgstr ""
+msgstr "** коректність параметра **"
 
 #: ../../building.rst:207
 msgid "the list of families has no elements."
-msgstr ""
+msgstr "у списку сімей немає елементів."
 
 #: ../../building.rst:208
 msgid "the list of families has more than one element."
-msgstr ""
+msgstr "список сімей містить більше одного елемента."
 
 #: ../../building.rst:209
 msgid "the list of families has exactly one element."
-msgstr ""
+msgstr "список сімей має рівно один елемент."
 
 #: ../../building.rst:213
 msgid "**cascade**"
-msgstr ""
+msgstr "**каскад**"
 
 #: ../../building.rst:212
 msgid "the family has no genera"
-msgstr ""
+msgstr "у сім'ї немає родів"
 
 #: ../../building.rst:213
 msgid "the family has one or more genera"
-msgstr ""
+msgstr "у сім'ї один чи більше родів"
 
 #: ../../building.rst:217
 msgid "**confirm**"
-msgstr ""
+msgstr "**підтвердити**"
 
 #: ../../building.rst:216
 msgid "the user confirms deletion"
-msgstr ""
+msgstr "користувач підтверджує видалення"
 
 #: ../../building.rst:217
 msgid "the user does not confirm deletion"
-msgstr ""
+msgstr "користувач не підтверджує видалення"
 
 #: ../../building.rst:221
 msgid "**deleting**"
-msgstr ""
+msgstr "**видалення**"
 
 #: ../../building.rst:220
 msgid "all goes well when deleting the family"
-msgstr ""
+msgstr "при видаленні сім'ї все пройшло добре"
 
 #: ../../building.rst:221
 msgid "there is some error while deleting the family"
-msgstr ""
+msgstr "під час видалення сім'ї виникає помилка"
 
 #: ../../building.rst:223
 msgid ""
 "I decide I will only focus on the **cascade** and the **confirm** "
 "aspects. Two binary questions: 4 cases."
 msgstr ""
+"Я вирішу зосередитись лише на аспектах **каскад** і **підтвердити**. Два "
+"бінарних питання: 4 випадки."
 
 #: ../../building.rst:227
 msgid "where to put the tests"
-msgstr ""
+msgstr "де поставити тести"
 
 #: ../../building.rst:229
 msgid ""
 "Locate the test script and choose the class where to put the extra unit "
 "tests."
 msgstr ""
+"Знайдіть тестовий скрипт і виберіть клас, де слід поставити додаткові "
+"одиничні тести."
 
 #: ../../building.rst:233
 msgid "what about skipped tests"
-msgstr ""
+msgstr "що про пропущені тести"
 
 #: ../../building.rst:236
+#, fuzzy
 msgid ""
 "The ``FamilyTests`` class contains a skipped test, implementing it will "
 "be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
@@ -602,10 +667,15 @@ msgid ""
 " FamilyEditor class, which I think should be removed and replaced with a "
 "single function."
 msgstr ""
+"Клас `` FamilyTests`` містить пропущене тестування, і його реалізація буде "
+"дещо роботою, тому що нам потрібно переписати FamilyEditorPresenter, "
+"відокремити його від FamilyEditorView і переглянути, що робити з класом "
+"FamilyEditor, який, на мою думку, повинен бути вилучений і Замінено однією "
+"функцією."
 
 #: ../../building.rst:243
 msgid "writing the tests"
-msgstr ""
+msgstr "написання тестів"
 
 #: ../../building.rst:245
 msgid ""
@@ -613,48 +683,56 @@ msgid ""
 " to describe, and I make sure they fail, and since I'm lazy, I write the "
 "most compact code I know for generating an error::"
 msgstr ""
+"Після останнього тесту в класі FamilyTests я додаю чотири випадки, які я "
+"хочу описати, і я переконаний, що вони завершаться невдачею, і оскільки я "
+"ледачий, я пишу найбільш компактний код, який я знаю, для генерації помилки::"
 
 #: ../../building.rst:262
 msgid "One test, step by step"
-msgstr ""
+msgstr "Один тест, крок за кроком"
 
 #: ../../building.rst:264
 msgid "Let's start with the first test case."
-msgstr ""
+msgstr "Почнемо з першого тесту."
 
 #: ../../building.rst:266
 msgid "When writing tests, I generally follow the pattern:"
-msgstr ""
+msgstr "Під час написання тестів я зазвичай дотримуюсь зразка:"
 
 #: ../../building.rst:268
 msgid "T₀ (initial condition),"
-msgstr ""
+msgstr "T₀ (початковий стан),"
 
 #: ../../building.rst:269
 msgid "action,"
-msgstr ""
+msgstr "дія,"
 
 #: ../../building.rst:270
 msgid "T₁ (testing the result of the action given the initial conditions)"
-msgstr ""
+msgstr "T₁ (тестування результату дії з урахуванням початкових умов)"
 
 #: ../../building.rst:272
 msgid "what's in a name — unit tests"
-msgstr ""
+msgstr "що в імені - одиничні тести"
 
 #: ../../building.rst:275
 msgid ""
 "There's a reason why unit tests are called unit tests. Please never test "
 "two actions in one test."
 msgstr ""
+"Є причина, чому одиничні тести називаються одиничними тестами. Будь-ласка, "
+"ніколи не перевіряйте дві дії в одному тесті."
 
 #: ../../building.rst:278
 msgid ""
 "So let's describe T₀ for the first test, a database holding a family "
 "without genera::"
 msgstr ""
+"Тож давайте опишемо T₀ для першого тесту, бази даних, що містить родину без "
+"родів::"
 
 #: ../../building.rst:286
+#, fuzzy
 msgid ""
 "We do not want the function being tested to invoke the interactive "
 "``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
@@ -663,10 +741,16 @@ msgid ""
 "original interactive function, accepts one parameter and returns a "
 "boolean. In this case: ``False``::"
 msgstr ""
+"Ми не хочемо, щоб тестована функція викликала інтерактивну функцію `` "
+"utils.yes_no_dialog``, ми хочемо `` remove_callback`` викликати "
+"неінтерактивну функцію заміни. Ми досягаємо цього просто, зробивши `` "
+"utils.yes_no_dialog`` виразом вираз `` lambda``, який, як і початкова "
+"інтерактивна функція, приймає один параметр і повертає логічний. У цьому "
+"випадку: `` False`` ::"
 
 #: ../../building.rst:304
 msgid "Next we test the result."
-msgstr ""
+msgstr "Далі ми перевіряємо результат."
 
 #: ../../building.rst:306
 msgid ""
@@ -675,16 +759,21 @@ msgid ""
 "and whether ``yes_no_dialog`` and ``message_details_dialog`` were invoked"
 " or not."
 msgstr ""
+"Що ж, ми не хочемо просто перевірити, чи був об'єкт Arecaceae видалений, чи "
+"ні, ми також повинні перевірити значення, яке повертає ``remove_callback``, "
+"і чи ``yes_no_dialog`` і `` message_details_dialog`` були викликані чи ні ."
 
 #: ../../building.rst:311
 msgid ""
 "A ``lambda`` expression is not enough for this. We do something "
 "apparently more complex, which will make life a lot easier."
 msgstr ""
+"Для цього не вистачає виразу ``lambda``. Ми робимо щось набагато складніше, "
+"що зробить життя набагато простіше."
 
 #: ../../building.rst:314
 msgid "Let's first define a rather generic function::"
-msgstr ""
+msgstr "Давайте спочатку визначимо досить загальну функцію::"
 
 #: ../../building.rst:320
 msgid ""
@@ -1608,18 +1697,17 @@ msgid "Pictures"
 msgstr "Зображення"
 
 #: ../../editing.rst:195
-#, fuzzy
 msgid ""
 "Just as almost all objects in the Ghini database can have *Notes* "
 "associated to them, Plants can have *Pictures*: next to the tab for "
 "Notes, the Plants editor contains an extra tab called \"Pictures\". You "
 "can associate as many pictures as you might need to a plant."
 msgstr ""
-"Так само, як майже всі об'єкти в базі даних Ghini можуть мати *Примітки*,"
-" пов'язані з ними, рослини можуть мати *Зображення*: поруч із закладкою "
-"для нотаток, редактор рослин містить додаткову вкладку під назвою "
-"«Зображення». Ви можете пов'язати стільки зображень, скільки може "
-"знадобитися для рослини."
+"Так само, як майже всі об'єкти в базі даних Ghini можуть мати пов'язані з "
+"ними *Примітки*, рослини можуть мати *Зображення*: поруч із закладкою "
+"Примітки, редактор рослин містить додаткову вкладку під назвою \"Зображення\""
+". Ви можете пов'язати стільки зображень, скільки може знадобитися для "
+"рослини."
 
 #: ../../editing.rst:200
 msgid ""
@@ -1632,19 +1720,16 @@ msgstr ""
 "`thumbnails` всередині папки зображень."
 
 #: ../../editing.rst:204
-#, fuzzy
 msgid ""
 "As of Ghini-1.0.62, Pictures are not kept in the database. To ensure "
 "pictures are available on all terminals where you have installed and "
 "configured Ghini, you can use a network drive, or a file sharing service "
 "like Tresorit or Dropbox."
 msgstr ""
-"З Ghini-1.0.62, зображення не зберігаються в базі даних. Для забезпечення"
-" доступності зображень на всіх терміналах, де ви встановили і налаштували"
-" Ghini, ви можете скористатися послугою обміну файлами, як Копіювання або"
-" Dropbox. Особистий вибір учасника цього документа полягає в використанні"
-" Копіювання, тому що він пропонує набагато більше місця, через свою "
-"політику «Fair Storage»."
+"З Ghini-1.0.62, зображення не зберігаються в базі даних. Для забезпечення "
+"доступності зображень на всіх терміналах, де ви встановили і налаштували "
+"Ghini, ви можете використовувати мережний диск або службу спільного "
+"використання файлів Tresorit або Dropbox."
 
 #: ../../editing.rst:209
 msgid ""
@@ -1953,22 +2038,20 @@ msgid "synonyms"
 msgstr "синоніми"
 
 #: ../../goal.rst:162
-#, fuzzy
 msgid ""
 "Ghini will allow you define synonyms for species, genera, families. Also "
 "this information can be represented in its intermediate json format and "
 "be imported in an existing Ghini database."
 msgstr ""
-"Ghini дозволить визначити синоніми для видів, родів, сімейств. Крім того,"
-" ця інформація може бути представлена в проміжному форматі json і "
-"імпортована в існуючу базу даних Ghini."
+"Ghini дозволить визначити синоніми для видів, родів, сімейств. Крім того, ця "
+"інформація може бути представлена в проміжному форматі json і імпортована в "
+"існуючу базу даних Ghini."
 
 #: ../../goal.rst:167
 msgid "scientific responsible"
 msgstr "наукова відповідальність"
 
 #: ../../goal.rst:169
-#, fuzzy
 msgid ""
 "Ghini implements the concept of 'accession', intermediate between "
 "physical plant (or a group thereof) and abstract taxon. Each accession "
@@ -1977,19 +2060,18 @@ msgid ""
 "do not need overwrite each other's work. All verifications can be found "
 "back in the database, with timestamp and signature."
 msgstr ""
-"Ghini реалізує концепцію «приєднань», як проміжну між фізичними рослинами"
-" (або їх групою) і абстрактною класифікацією. Кожне приєднання може "
-"пов'язати ті ж рослини з різною класифікацією, якщо два систематики не "
-"згодні з ідентифікації: кожен систематик може мати свою думку і не "
-"потрібно перезаписати роботу один одного. Всі перевірки можуть бути "
-"знайдені в базі даних, з відміткою часу і підписом."
+"Ghini реалізує концепцію 'приєднань', як проміжну між фізичною рослиною (або "
+"їх групою) і абстрактним таксоном. Кожне приєднання може пов'язати ті ж "
+"рослини з різними таксонами, якщо два систематики не згодні з ідентифікації: "
+"кожен систематик може мати свою думку і не потрібно перезаписати роботу один "
+"одного. Всі перевірки можуть бути знайдені в базі даних, з відміткою часу і "
+"підписом."
 
 #: ../../goal.rst:177
 msgid "helps off-line identification"
 msgstr "допомагає офф-лайн ідентифікації"
 
 #: ../../goal.rst:179
-#, fuzzy
 msgid ""
 "Ghini allows you associate pictures to physical plants, this can help "
 "recognize the plant in case a sticker is lost, or help taxonomic "
@@ -1997,24 +2079,23 @@ msgid ""
 msgstr ""
 "Ghini дозволяє асоціювати фотографії з фізичними рослинами, це може "
 "допомогти розпізнати рослину в разі втрати етикетки, або допомогти "
-"класифікаційній ідентифікації, якщо систематик не доступний весь час."
+"таксономічній ідентифікації, якщо систематик не доступний весь час."
 
 #: ../../goal.rst:184
 msgid "exports and reports"
 msgstr "експорт і звіти"
 
 #: ../../goal.rst:186
-#, fuzzy
 msgid ""
 "Ghini will let you export a report in whatever textual format you need. "
 "It uses a powerful templating engine named 'mako', which will allow you "
 "export the data in a selection to whatever format you need. Once "
 "installed, a couple of examples are available in the mako subdirectory."
 msgstr ""
-"Ghini дозволить вам експортувати звіт в будь-якому текстовому форматі. "
-"Він використовує потужний шаблонний движок під назвою 'mako', який "
-"дозволить експортувати дані вибравши будь-який формат, що вам потрібний. "
-"Після установки, кілька прикладів можна знайти в підкаталозі mako ."
+"Ghini дозволить вам експортувати звіт в будь-якому текстовому форматі. Він "
+"використовує потужний шаблонний движок під назвою 'mako', який дозволить "
+"експортувати дані вибравши будь-який формат, що вам потрібний. Після "
+"установки, кілька прикладів можна знайти в підкаталозі mako ."
 
 #: ../../goal.rst:192
 msgid "annotate your info"
@@ -2041,7 +2122,6 @@ msgid "database history"
 msgstr "історія бази даних"
 
 #: ../../goal.rst:205
-#, fuzzy
 msgid ""
 "All changes in the database is stored in the database, as history log. "
 "All changes are 'signed' and time-stamped.  Ghini makes it easy to "
@@ -2049,9 +2129,9 @@ msgid ""
 "any specific period in the past."
 msgstr ""
 "Всі зміни в базі даних зберігаються в базі даних, як журнал історії. Всі "
-"зміни 'підписані' і з відміткою часу. Ghini дозволяє легко отримати "
-"список всіх змін в останній робочий день або тиждень, або в будь-який "
-"певний період в минулому."
+"зміни 'підписані' і з відміткою часу. Ghini дозволяє легко отримати список "
+"всіх змін в останній робочий день або тиждень, або в будь-який певний період "
+"в минулому."
 
 #: ../../goal.rst:211
 msgid "simple and powerful search"
