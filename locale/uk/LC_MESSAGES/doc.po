@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-28 18:12-0500\n"
-"PO-Revision-Date: 2017-07-28 20:10+0000\n"
+"PO-Revision-Date: 2017-07-29 18:03+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -500,10 +501,13 @@ msgstr ""
 "буде, допомагаючи нам знаходити та писати пропущені тестові блоки."
 
 #: ../../building.rst:168
+#, fuzzy
 msgid ""
 "A well tested function is one whose behaviour you cannot change without "
 "breaking at least one unit test."
 msgstr ""
+"Добре перевіреною функцією є та, чия поведінка не може змінюватися, не "
+"порушуючи принаймні одне тестування."
 
 #: ../../building.rst:171
 msgid ""
@@ -538,10 +542,13 @@ msgstr ""
 "низьким рівнем охоплення."
 
 #: ../../building.rst:185
+#, fuzzy
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
 msgstr ""
+"Для цього прикладу, починаючи у жовтні 2015 року, ми приземлилися на "
+"``bauble.plugins.plants.family``, на 33%."
 
 #: ../../building.rst:190
 msgid ""
@@ -556,96 +563,109 @@ msgstr ""
 "одиничні тести для цього класу, а потім повернутися сюди."
 
 #: ../../building.rst:195
+#, fuzzy
 msgid ""
 "The next function, ``remove_callback``, also activates a couple of dialog"
 " and message boxes, but in the form of invoking a function requesting "
 "user input via yes-no-ok boxes. These functions we can easily replace "
 "with a function mocking the behaviour."
 msgstr ""
+"Наступна функція `` remove_callback`` також активує пару діалогових вікон і "
+"повідомлень, але у формі виклику функції, що запитує вхід користувача через "
+"поля yes-no-ok. Ці функції ми можемо легко замінити функцією, що висміює "
+"поведінку."
 
 #: ../../building.rst:201
 msgid "how to test"
-msgstr ""
+msgstr "як протестувати"
 
 #: ../../building.rst:203
+#, fuzzy
 msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
 msgstr ""
+"Отже, вирішивши, що описувати в одиничному тесті, ми розглянемо код, і ми "
+"бачимо, що це потребує дискримінації пари випадків:"
 
 #: ../../building.rst:209
 msgid "**parameter correctness**"
-msgstr ""
+msgstr "** коректність параметра **"
 
 #: ../../building.rst:207
 msgid "the list of families has no elements."
-msgstr ""
+msgstr "у списку сімей немає елементів."
 
 #: ../../building.rst:208
 msgid "the list of families has more than one element."
-msgstr ""
+msgstr "список сімей містить більше одного елемента."
 
 #: ../../building.rst:209
 msgid "the list of families has exactly one element."
-msgstr ""
+msgstr "список сімей має рівно один елемент."
 
 #: ../../building.rst:213
 msgid "**cascade**"
-msgstr ""
+msgstr "**каскад**"
 
 #: ../../building.rst:212
 msgid "the family has no genera"
-msgstr ""
+msgstr "у сім'ї немає родів"
 
 #: ../../building.rst:213
 msgid "the family has one or more genera"
-msgstr ""
+msgstr "у сім'ї один чи більше родів"
 
 #: ../../building.rst:217
 msgid "**confirm**"
-msgstr ""
+msgstr "**підтвердити**"
 
 #: ../../building.rst:216
 msgid "the user confirms deletion"
-msgstr ""
+msgstr "користувач підтверджує видалення"
 
 #: ../../building.rst:217
 msgid "the user does not confirm deletion"
-msgstr ""
+msgstr "користувач не підтверджує видалення"
 
 #: ../../building.rst:221
 msgid "**deleting**"
-msgstr ""
+msgstr "**видалення**"
 
 #: ../../building.rst:220
 msgid "all goes well when deleting the family"
-msgstr ""
+msgstr "при видаленні сім'ї все пройшло добре"
 
 #: ../../building.rst:221
 msgid "there is some error while deleting the family"
-msgstr ""
+msgstr "під час видалення сім'ї виникає помилка"
 
 #: ../../building.rst:223
 msgid ""
 "I decide I will only focus on the **cascade** and the **confirm** "
 "aspects. Two binary questions: 4 cases."
 msgstr ""
+"Я вирішу зосередитись лише на аспектах **каскад** і **підтвердити**. Два "
+"бінарних питання: 4 випадки."
 
 #: ../../building.rst:227
 msgid "where to put the tests"
-msgstr ""
+msgstr "де поставити тести"
 
 #: ../../building.rst:229
 msgid ""
 "Locate the test script and choose the class where to put the extra unit "
 "tests."
 msgstr ""
+"Знайдіть тестовий скрипт і виберіть клас, де слід поставити додаткові "
+"одиничні тести."
 
 #: ../../building.rst:233
 msgid "what about skipped tests"
-msgstr ""
+msgstr "що про пропущені тести"
 
 #: ../../building.rst:236
+#, fuzzy
 msgid ""
 "The ``FamilyTests`` class contains a skipped test, implementing it will "
 "be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
@@ -653,10 +673,15 @@ msgid ""
 " FamilyEditor class, which I think should be removed and replaced with a "
 "single function."
 msgstr ""
+"Клас `` FamilyTests`` містить пропущене тестування, і його реалізація буде "
+"дещо роботою, тому що нам потрібно переписати FamilyEditorPresenter, "
+"відокремити його від FamilyEditorView і переглянути, що робити з класом "
+"FamilyEditor, який, на мою думку, повинен бути вилучений і Замінено однією "
+"функцією."
 
 #: ../../building.rst:243
 msgid "writing the tests"
-msgstr ""
+msgstr "написання тестів"
 
 #: ../../building.rst:245
 msgid ""
@@ -664,48 +689,56 @@ msgid ""
 " to describe, and I make sure they fail, and since I'm lazy, I write the "
 "most compact code I know for generating an error::"
 msgstr ""
+"Після останнього тесту в класі FamilyTests я додаю чотири випадки, які я "
+"хочу описати, і я переконаний, що вони завершаться невдачею, і оскільки я "
+"ледачий, я пишу найбільш компактний код, який я знаю, для генерації помилки::"
 
 #: ../../building.rst:262
 msgid "One test, step by step"
-msgstr ""
+msgstr "Один тест, крок за кроком"
 
 #: ../../building.rst:264
 msgid "Let's start with the first test case."
-msgstr ""
+msgstr "Почнемо з першого тесту."
 
 #: ../../building.rst:266
 msgid "When writing tests, I generally follow the pattern:"
-msgstr ""
+msgstr "Під час написання тестів я зазвичай дотримуюсь зразка:"
 
 #: ../../building.rst:268
 msgid "T₀ (initial condition),"
-msgstr ""
+msgstr "T₀ (початковий стан),"
 
 #: ../../building.rst:269
 msgid "action,"
-msgstr ""
+msgstr "дія,"
 
 #: ../../building.rst:270
 msgid "T₁ (testing the result of the action given the initial conditions)"
-msgstr ""
+msgstr "T₁ (тестування результату дії з урахуванням початкових умов)"
 
 #: ../../building.rst:272
 msgid "what's in a name — unit tests"
-msgstr ""
+msgstr "що в імені - одиничні тести"
 
 #: ../../building.rst:275
 msgid ""
 "There's a reason why unit tests are called unit tests. Please never test "
 "two actions in one test."
 msgstr ""
+"Є причина, чому одиничні тести називаються одиничними тестами. Будь-ласка, "
+"ніколи не перевіряйте дві дії в одному тесті."
 
 #: ../../building.rst:278
 msgid ""
 "So let's describe T₀ for the first test, a database holding a family "
 "without genera::"
 msgstr ""
+"Тож давайте опишемо T₀ для першого тесту, бази даних, що містить родину без "
+"родів::"
 
 #: ../../building.rst:286
+#, fuzzy
 msgid ""
 "We do not want the function being tested to invoke the interactive "
 "``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
@@ -714,10 +747,16 @@ msgid ""
 "original interactive function, accepts one parameter and returns a "
 "boolean. In this case: ``False``::"
 msgstr ""
+"Ми не хочемо, щоб тестована функція викликала інтерактивну функцію `` "
+"utils.yes_no_dialog``, ми хочемо `` remove_callback`` викликати "
+"неінтерактивну функцію заміни. Ми досягаємо цього просто, зробивши `` "
+"utils.yes_no_dialog`` виразом вираз `` lambda``, який, як і початкова "
+"інтерактивна функція, приймає один параметр і повертає логічний. У цьому "
+"випадку: `` False`` ::"
 
 #: ../../building.rst:304
 msgid "Next we test the result."
-msgstr ""
+msgstr "Далі ми перевіряємо результат."
 
 #: ../../building.rst:306
 msgid ""
@@ -726,16 +765,21 @@ msgid ""
 "and whether ``yes_no_dialog`` and ``message_details_dialog`` were invoked"
 " or not."
 msgstr ""
+"Що ж, ми не хочемо просто перевірити, чи був об'єкт Arecaceae видалений, чи "
+"ні, ми також повинні перевірити значення, яке повертає ``remove_callback``, "
+"і чи ``yes_no_dialog`` і `` message_details_dialog`` були викликані чи ні ."
 
 #: ../../building.rst:311
 msgid ""
 "A ``lambda`` expression is not enough for this. We do something "
 "apparently more complex, which will make life a lot easier."
 msgstr ""
+"Для цього не вистачає виразу ``lambda``. Ми робимо щось набагато складніше, "
+"що зробить життя набагато простіше."
 
 #: ../../building.rst:314
 msgid "Let's first define a rather generic function::"
-msgstr ""
+msgstr "Давайте спочатку визначимо досить загальну функцію::"
 
 #: ../../building.rst:320
 msgid ""
@@ -7647,4 +7691,3 @@ msgstr ""
 
 #~ msgid ">"
 #~ msgstr ""
-
