@@ -652,8 +652,45 @@ Let the database fit the garden
 - Our workflow includes moving plants around in the garden, keep track of
   current locations and history of movements.
 
-  ..  admonition:: Details
+  ..  admonition:: ex-post correction
       :class: toggle
+
+         While revising the garden, we find a plant at a location that is not what
+         the database says.  We update the database information.
+
+         For example, the plant belonging to accession “012142”, species “*Acineta*
+         sp”, was found in “Invernadero 1”, while the database says it is in “ICAlm3”.
+
+         All we do is find the Plant in the database and update its information.  We
+         do not chang anything in the initial Accession information, just the current
+         Plant information.
+
+         We type the accession code in the search entry field, with quotes, hit
+         enter. The search results now shows the accession, and it tells us how many
+         plants belong to it.  Click on the squared **+** in the results row, so we
+         now also see a row for the plant belonging to the accession.
+
+         Right click on the Plant row, the three options will show: “Edit, Split,
+         Delete”, select Edit, you land in the Plant Editor.
+
+         Just correct the Location field, and click on OK.
+
+         Tambien se puede ver en “Properties” cuando esta accesión fue cambiada la
+         ultima vez.
+
+         |1000000000000608000002D2BA2D181475D5AD7B_png|
+
+  ..  admonition:: planned action
+      :class: toggle
+
+         The action starts by moving the plants around, and collecting the
+         plant code either on paper, or in our mobile app, if we had one.
+
+         We then go to the desktop terminal and revise all plants one by one
+         changing their location in the database.
+
+         If we had a mobile app, we would just upload the info to the server
+         and we would be done.
 
 - As plants enter the flowering stage, we can review their identification
   directly, or we take pictures of details of the flower, hoping that a
@@ -846,34 +883,6 @@ clic
 en
 “Aceptar”.
 
-10. Cambiar el lugar de una planta en el banco de datos
-----------------------------------------------------------------------------
-
-While revising the garden, we find a plant at a location that is not what
-the database says.  We update the database information.
-
-For example, the plant belonging to accession “012142”, species “*Acineta*
-sp”, was found in “Invernadero 1”, while the database says it is in “ICAlm3”.
-
-All we do is find the Plant in the database and update its information.  We
-do not chang anything in the initial Accession information, just the current
-Plant information.
-
-We type the accession code in the search entry field, with quotes, hit
-enter. The search results now shows the accession, and it tells us how many
-plants belong to it.  Click on the squared **+** in the results row, so we
-now also see a row for the plant belonging to the accession.
-
-Right click on the Plant row, the three options will show: “Edit, Split,
-Delete”, select Edit, you land in the Plant Editor.
-
-Just correct the Location field, and click on OK.
-
-Tambien se puede ver en “Properties” cuando esta accesión fue cambiada la
-ultima vez.
-
-|1000000000000608000002D2BA2D181475D5AD7B_png|
-
 .. |10000000000006090000001FA253BB9470AD4994_png| image:: images/10000000000006090000001FA253BB9470AD4994.png
     :width: 470px
     :height: 31px
@@ -888,17 +897,9 @@ ultima vez.
     :width: 38px
     :height: 38px
 
-.. |10000000000006060000019593F061B072210692_png| image:: images/10000000000006060000019593F061B072210692.png
-    :width: 16.274cm
-    :height: 4.274cm
-
 .. |10000000000001FC00000188EA514D5068AE7449_png| image:: images/10000000000001FC00000188EA514D5068AE7449.png
     :width: 7.521cm
     :height: 5.805cm
-
-.. |10000000000002F800000244F5DF43FE222813B5_png| image:: images/10000000000002F800000244F5DF43FE222813B5.png
-    :width: 7.063cm
-    :height: 5.39cm
 
 .. |10000000000001290000011FEE16D735EB3DBF66_png| image:: images/10000000000001290000011FEE16D735EB3DBF66.png
     :width: 6.832cm
@@ -923,42 +924,6 @@ ultima vez.
     :width: 7.489cm
     :height: 5.126cm
 
-.. |10000000000002D600000063D9253419CBC84114_png| image:: images/10000000000002D600000063D9253419CBC84114.png
-    :width: 9.841cm
-    :height: 1.342cm
-
-.. |10000000000001FE0000018B06FC9E8A824B1FF3_png| image:: images/10000000000001FE0000018B06FC9E8A824B1FF3.png
-    :width: 8.474cm
-    :height: 6.563cm
-
-.. |100000000000001C000000223E57C07B2AA8A9E0_png| image:: images/100000000000001C000000223E57C07B2AA8A9E0.png
-    :width: 0.741cm
-    :height: 0.9cm
-
-.. |10000000000002F8000002441BD2C4C420A3E971_png| image:: images/10000000000002F8000002441BD2C4C420A3E971.png
-    :width: 7.893cm
-    :height: 6.024cm
-
-.. |100000000000025700000050925C1488E03E0617_png| image:: images/100000000000025700000050925C1488E03E0617.png
-    :width: 12.157cm
-    :height: 1.625cm
-
-.. |10000000000000AA0000001F983BAA81B6054550_png| image:: images/10000000000000AA0000001F983BAA81B6054550.png
-    :width: 4.045cm
-    :height: 0.737cm
-
-.. |10000000000000200000001FDDE6CEA3E00D1E69_png| image:: images/10000000000000200000001FDDE6CEA3E00D1E69.png
-    :width: 0.847cm
-    :height: 0.82cm
-
-.. |100000000000016400000045749C9F8ECA72440A_png| image:: images/100000000000016400000045749C9F8ECA72440A.png
-    :width: 9.419cm
-    :height: 1.826cm
-
-.. |10000000000002F40000023FAB6C820BDCD352F2_png| image:: images/10000000000002F40000023FAB6C820BDCD352F2.png
-    :width: 7.108cm
-    :height: 5.406cm
-
 .. |10000000000000FE00000065C64D791B5CA0099D_png| image:: images/10000000000000FE00000065C64D791B5CA0099D.png
     :width: 6.72cm
     :height: 2.672cm
@@ -967,29 +932,9 @@ ultima vez.
     :width: 492px
     :height: 373px
 
-.. |10000000000001FC0000018808F152DBEDDAA04B_png| image:: images/10000000000001FC0000018808F152DBEDDAA04B.png
-    :width: 6.966cm
-    :height: 5.375cm
-
-.. |10000000000002D800000060D6575EB671D3EE00_png| image:: images/10000000000002D800000060D6575EB671D3EE00.png
-    :width: 9.777cm
-    :height: 1.289cm
-
-.. |10000000000002F4000002409EE0B06C300048EF_png| image:: images/10000000000002F4000002409EE0B06C300048EF.png
-    :width: 12.933cm
-    :height: 9.853cm
-
 .. |10000000000002140000014D050A059AC7EE948A_png| image:: images/10000000000002140000014D050A059AC7EE948A.png
     :width: 14.076cm
     :height: 8.811cm
-
-.. |10000000000001FA0000004653A7D7D565338235_png| image:: images/10000000000001FA0000004653A7D7D565338235.png
-    :width: 12.324cm
-    :height: 1.706cm
-
-.. |10000000000002210000006F5DB278661D3E4122_png| image:: images/10000000000002210000006F5DB278661D3E4122.png
-    :width: 11.028cm
-    :height: 2.247cm
 
 .. |100000000000012F000001A611615FB62F2D003B_png| image:: images/100000000000012F000001A611615FB62F2D003B.png
     :width: 5.741cm
@@ -1004,14 +949,6 @@ ultima vez.
     :width: 7.258cm
     :height: 4.979cm
 
-.. |10000000000001FC0000018990A54A65E0BC26C2_png| image:: images/10000000000001FC0000018990A54A65E0BC26C2.png
-    :width: 7.142cm
-    :height: 5.525cm
-
-.. |10000000000002F900000241C5DB1B4F082036B6_png| image:: images/10000000000002F900000241C5DB1B4F082036B6.png
-    :width: 15.907cm
-    :height: 12.06cm
-
 .. |1000000000000608000002D2BA2D181475D5AD7B_png| image:: images/1000000000000608000002D2BA2D181475D5AD7B.png
 
 .. |100000000000018700000173222371085C3C68FE_png| image:: images/100000000000018700000173222371085C3C68FE.png
@@ -1020,65 +957,21 @@ ultima vez.
 .. |100000000000018700000173222371085C3C68FF_png| image:: images/100000000000018700000173222371085C3C68FF.png
     :width: 8.26cm
 
-.. |10000000000001FF0000018ADAD9076709514282_png| image:: images/10000000000001FF0000018ADAD9076709514282.png
-    :width: 8.181cm
-    :height: 6.308cm
-
-.. |10000000000000E7000000DE22288666D5A0BB1B_png| image:: images/10000000000000E7000000DE22288666D5A0BB1B.png
-    :width: 6.112cm
-    :height: 5.874cm
-
 .. |10000000000000300000002F89E0224ADF9EC09E_png| image:: images/10000000000000300000002F89E0224ADF9EC09E.png
     :width: 38px
     :height: 38px
-
-.. |10000000000001CF000000487F16C7F2613D9F58_png| image:: images/10000000000001CF000000487F16C7F2613D9F58.png
-    :width: 9.857cm
-    :height: 1.533cm
 
 .. |100000000000001B000000207EC6F9075C9D3669_png| image:: images/100000000000001B000000207EC6F9075C9D3669.png
     :width: 20px
     :height: 20px
 
-.. |10000000000002F6000002418FFC04A01AA401D9_png| image:: images/10000000000002F6000002418FFC04A01AA401D9.png
-    :width: 8.105cm
-    :height: 6.17cm
-
-.. |1000000000000174000000C0752C792970DEFAA2_png| image:: images/1000000000000174000000C0752C792970DEFAA2.png
-    :width: 9.843cm
-    :height: 5.08cm
-
-.. |100000000000020000000189AEBD77174C6E5272_png| image:: images/100000000000020000000189AEBD77174C6E5272.png
-    :width: 8.056cm
-    :height: 6.184cm
-
 .. |100000000000001C00000020F4C7873186014F2F_png| image:: images/100000000000001C00000020F4C7873186014F2F.png
     :width: 20px
     :height: 20px
 
-.. |100000000000022A000000458A066B65AA124983_png| image:: images/100000000000022A000000458A066B65AA124983.png
-    :width: 14.658cm
-    :height: 1.826cm
-
-.. |1000000000000181000000477149EC5BD0AE7C2D_png| image:: images/1000000000000181000000477149EC5BD0AE7C2D.png
-    :width: 10.186cm
-    :height: 1.879cm
-
-.. |10000000000001FC0000018F4B27179B9456E1CF_png| image:: images/10000000000001FC0000018F4B27179B9456E1CF.png
-    :width: 7.308cm
-    :height: 5.74cm
-
 .. |1000000000000152000001B12C2FDE60BD2B710B_png| image:: images/1000000000000152000001B12C2FDE60BD2B710B.png
     :width: 6.646cm
     :height: 8.514cm
-
-.. |100000000000028900000046F4A2086237E713D3_png| image:: images/100000000000028900000046F4A2086237E713D3.png
-    :width: 15.383cm
-    :height: 1.658cm
-
-.. |10000000000001FE0000006F90B0DF98BB2933D6_png| image:: images/10000000000001FE0000006F90B0DF98BB2933D6.png
-    :width: 11.642cm
-    :height: 2.533cm
 
 .. |dontpanic_png| image:: images/dontpanic.png
 

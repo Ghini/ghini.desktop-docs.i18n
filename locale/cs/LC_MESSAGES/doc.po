@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-07-29 15:20-0500\n"
+"POT-Creation-Date: 2017-07-29 16:06-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3691,7 +3691,7 @@ msgstr ""
 #: ../../use_cases-jbq.rst:35 ../../use_cases-jbq.rst:57
 #: ../../use_cases-jbq.rst:96 ../../use_cases-jbq.rst:266
 #: ../../use_cases-jbq.rst:428 ../../use_cases-jbq.rst:445
-#: ../../use_cases-jbq.rst:669
+#: ../../use_cases-jbq.rst:706
 msgid "Details"
 msgstr ""
 
@@ -4639,326 +4639,31 @@ msgid ""
 "current locations and history of movements."
 msgstr ""
 
+#: ../../use_cases-jbq.rst:655
+msgid "ex-post correction"
+msgstr ""
+
 #: ../../use_cases-jbq.rst:658
-msgid ""
-"As plants enter the flowering stage, we can review their identification "
-"directly, or we take pictures of details of the flower, hoping that a "
-"visiting specialist could help completing the identification."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:665
-msgid ""
-"Regularly, we need producing reports about our collection that the "
-"Ecuadorian Environment Ministery (MAE) requires and that justify the very"
-" existence of the garden."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:672
-msgid ""
-"Each year the botanic garden has to submit a report (annual report of "
-"management and maintenance of orchids collection) complying to the "
-"requirements of the Ecuadorian Ministry of the Environment."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:676
-msgid ""
-"To this end, we start selecting the plants we have to include in the "
-"report. It might be all acquisition in the past year::"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:680
-msgid ""
-"or all plants within a location, or all plants belonging to a species, or"
-" just everything (but this will take time)::"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:687
-msgid ""
-"Having selected the database objects which we want in the report, we "
-"start the report tool, which acts on the selection."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:691
-msgid "Searching the database"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:693
-msgid ""
-"You search the database in order to edit the data further, or because you"
-" want to produce a report. Anyway you start with typing something in the "
-"search field"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:699
-msgid "and you hope to see your result in the search result view."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:701
-msgid "search in order to edit (plant or accession)"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:704
-msgid ""
-"When searching in order to edit, you want to be very specific, and select"
-" as few objects as possible. The most fine-tuned search is the one based "
-"on plant number: you know the code, you get one object."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:708
-msgid "If your plant is not there, the screen would look like this:"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:712
-msgid "Other example, plant ``007701.1`` is in the database:"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:716
-msgid ""
-"All fields with a darker background in the infobox on the right hand side"
-" are hyperlinks to other objects in the database. Clicking on them will "
-"either replace the text in the search field and execute the query, or "
-"will simply add the object to the results."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:721
-msgid "Clicking on the accession does the latter."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:725
-msgid ""
-"We now have both Plant or Accession in the search result view and we can "
-"now edit either or both."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:728
-msgid "search in order to report"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:731
-msgid ""
-"When searching in order to create a report, you want to be both specific "
-"(you don't want to report about irrelevant objects) and broad (you don't "
-"want to report about a single object)."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:735
-msgid ""
-"Sometimes the report itself suggests the query, as for example: all "
-"plants in greenhouse 3; or: all plants belonging to endangered species "
-"(we store this information in a note associated to the species); or: all "
-"plants added to the collection this year; ::"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:744
-msgid "Otherwise a flexible way to achieve this is to work with **Tags**."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:746
-msgid "using **Tags** as enhanced searching"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:749
-msgid ""
-"Sometimes we have to take the same action on objects of the same type, "
-"but we don't manage to quickly think of a search query that would group "
-"all that we need and exclude all we do not need."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:753
-msgid ""
-"This is one possible use of **Tags**.  We start with a selection, we tag "
-"all objects in the selection under a new temporary tag. Let's say we call"
-" it \"temporary\"."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:757
-msgid ""
-"We continue searching and adding objects to the temporary tag until the "
-"tag identifies all that we need."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:760
-msgid ""
-"Finally from the Tags menu we select the one we just created (in our "
-"example this corresponds to the search ``tag=\"temporary\"``) and we can "
-"invoke the report."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:764
-msgid ""
-"When we're done with a temporary tag, there's no point in leaving it "
-"around, so we just delete it."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:769
-msgid "be aware of the available search strategies"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:772
-msgid ""
-"This is nicely documented, \"più non dimandare\" and `read the docs "
-"<searching.html>`_."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:776
-msgid ""
-"9. Añadir un nuevo nombre de una especie al banco de datos y añadir un "
-"nuevo número"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:778
-msgid ""
-"Si se encuentra una planta y se identifica la especie pero no es parte "
-"del banco de datos y tampo posee un código."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:781
-msgid ""
-"En el siguiente ejemplo, la planta encontrada fue identificada como "
-"Lepanthes alopex."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:783
-msgid "Si no se sabe la especie, se puede ingresar con la especie “Zzz sp”"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:785
-msgid "Se puede asignar a la nueva planta un código o una accesión (6 números)"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:789
-msgid ""
-"Se encontro que la planta de ejemplo es de especie *Lepanthes alopex*, si"
-" se busca en el banco de datos el género lepanhtes y se nota que dentro "
-"de este género no está registrada esta especie. Se tendra que añadir como"
-" una nueva especie."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:792
-msgid ""
-"Para añadir una nueva especie, dar clic derecho sobre el género Lepanthes"
-" (sombreado de rojo) y se mostraran las siguientes opciones:"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:794
-msgid "Edit, Add species, Delete"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:796
-msgid ""
-"Nunca selecionar “Delete”!!! ya que si selecciona delete se borraran "
-"todos los datos pertenecientes a todas especies en el género."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:799
-msgid ""
-"|1000000000000293000001C3EC6A9DC0A1D0CA68_png| "
-"|1000000000000293000001C423766E7D365A1489_png|"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:804
-msgid ""
-"Al añadir el nombre de una especie nueva siempre escribir todo con "
-"minusculas, además asegurarse de que el nombre cientifico esté bien "
-"escrito."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:806
-msgid ""
-"Es obligatorio añadir también el nombre del autor, y para eso se necesita"
-" buscar la nueva especie en el banco de datos online llamado Tropicos "
-"(http://tropicos.org/)"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:808
-msgid ""
-"Si no se puede añadir la especie, porque la especie todavía existe, el "
-"fondo del campo de “Species” va a estar rojo."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:811
-msgid ""
-"Hacer clic en “Add accession”.  Se va a abrir la ventana llamada "
-"“Accession Editor”."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:816
-msgid "El nombre de la especie nueva está en el campo “Name” todavía."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:818
-msgid "Cambiar el número del “Accession ID \\*” a tu accesión."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:820
-msgid "Cambiar el “Type of material” a “Plant” (Siempre!!)."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:822
-msgid "Cambiar el “Quantity” a “1” (Siempre!!)."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:824
-msgid ""
-"Cambiar el lugar de la planta a “Intended Locations” a “Location 1” al "
-"nombre del lugar."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:826
-msgid "Hace clic a “Add plants”."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:828
-msgid "Va a abrir el “Plant Editor”."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:832
-msgid "Entrar en el “Plant Editor”."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:835
-msgid "El número (accesión) y nombre todavía está guardado."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:837
-msgid "Cambiar en “Quantity” a “1” (Siempre!!)."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:840
-msgid ""
-"Cambiar en “Location” al nombre del lugar (Siempre el mismo que entregado"
-" en el Accession editor antes!)."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:844
-msgid "Hacer clic en “Aceptar”."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:850
-msgid "10. Cambiar el lugar de una planta en el banco de datos"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:852
 msgid ""
 "While revising the garden, we find a plant at a location that is not what"
 " the database says.  We update the database information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:855
+#: ../../use_cases-jbq.rst:661
 msgid ""
 "For example, the plant belonging to accession “012142”, species "
 "“*Acineta* sp”, was found in “Invernadero 1”, while the database says it "
 "is in “ICAlm3”."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:858
+#: ../../use_cases-jbq.rst:664
 msgid ""
 "All we do is find the Plant in the database and update its information.  "
 "We do not chang anything in the initial Accession information, just the "
 "current Plant information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:862
+#: ../../use_cases-jbq.rst:668
 msgid ""
 "We type the accession code in the search entry field, with quotes, hit "
 "enter. The search results now shows the accession, and it tells us how "
@@ -4966,20 +4671,337 @@ msgid ""
 " so we now also see a row for the plant belonging to the accession."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:867
+#: ../../use_cases-jbq.rst:673
 msgid ""
 "Right click on the Plant row, the three options will show: “Edit, Split, "
 "Delete”, select Edit, you land in the Plant Editor."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:870
+#: ../../use_cases-jbq.rst:676
 msgid "Just correct the Location field, and click on OK."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:872
+#: ../../use_cases-jbq.rst:678
 msgid ""
 "Tambien se puede ver en “Properties” cuando esta accesión fue cambiada la"
 " ultima vez."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:683
+msgid "planned action"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:686
+msgid ""
+"The action starts by moving the plants around, and collecting the plant "
+"code either on paper, or in our mobile app, if we had one."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:689
+msgid ""
+"We then go to the desktop terminal and revise all plants one by one "
+"changing their location in the database."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:692
+msgid ""
+"If we had a mobile app, we would just upload the info to the server and "
+"we would be done."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:695
+msgid ""
+"As plants enter the flowering stage, we can review their identification "
+"directly, or we take pictures of details of the flower, hoping that a "
+"visiting specialist could help completing the identification."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:702
+msgid ""
+"Regularly, we need producing reports about our collection that the "
+"Ecuadorian Environment Ministery (MAE) requires and that justify the very"
+" existence of the garden."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:709
+msgid ""
+"Each year the botanic garden has to submit a report (annual report of "
+"management and maintenance of orchids collection) complying to the "
+"requirements of the Ecuadorian Ministry of the Environment."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:713
+msgid ""
+"To this end, we start selecting the plants we have to include in the "
+"report. It might be all acquisition in the past year::"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:717
+msgid ""
+"or all plants within a location, or all plants belonging to a species, or"
+" just everything (but this will take time)::"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:724
+msgid ""
+"Having selected the database objects which we want in the report, we "
+"start the report tool, which acts on the selection."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:728
+msgid "Searching the database"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:730
+msgid ""
+"You search the database in order to edit the data further, or because you"
+" want to produce a report. Anyway you start with typing something in the "
+"search field"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:736
+msgid "and you hope to see your result in the search result view."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:738
+msgid "search in order to edit (plant or accession)"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:741
+msgid ""
+"When searching in order to edit, you want to be very specific, and select"
+" as few objects as possible. The most fine-tuned search is the one based "
+"on plant number: you know the code, you get one object."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:745
+msgid "If your plant is not there, the screen would look like this:"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:749
+msgid "Other example, plant ``007701.1`` is in the database:"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:753
+msgid ""
+"All fields with a darker background in the infobox on the right hand side"
+" are hyperlinks to other objects in the database. Clicking on them will "
+"either replace the text in the search field and execute the query, or "
+"will simply add the object to the results."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:758
+msgid "Clicking on the accession does the latter."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:762
+msgid ""
+"We now have both Plant or Accession in the search result view and we can "
+"now edit either or both."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:765
+msgid "search in order to report"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:768
+msgid ""
+"When searching in order to create a report, you want to be both specific "
+"(you don't want to report about irrelevant objects) and broad (you don't "
+"want to report about a single object)."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:772
+msgid ""
+"Sometimes the report itself suggests the query, as for example: all "
+"plants in greenhouse 3; or: all plants belonging to endangered species "
+"(we store this information in a note associated to the species); or: all "
+"plants added to the collection this year; ::"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:781
+msgid "Otherwise a flexible way to achieve this is to work with **Tags**."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:783
+msgid "using **Tags** as enhanced searching"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:786
+msgid ""
+"Sometimes we have to take the same action on objects of the same type, "
+"but we don't manage to quickly think of a search query that would group "
+"all that we need and exclude all we do not need."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:790
+msgid ""
+"This is one possible use of **Tags**.  We start with a selection, we tag "
+"all objects in the selection under a new temporary tag. Let's say we call"
+" it \"temporary\"."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:794
+msgid ""
+"We continue searching and adding objects to the temporary tag until the "
+"tag identifies all that we need."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:797
+msgid ""
+"Finally from the Tags menu we select the one we just created (in our "
+"example this corresponds to the search ``tag=\"temporary\"``) and we can "
+"invoke the report."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:801
+msgid ""
+"When we're done with a temporary tag, there's no point in leaving it "
+"around, so we just delete it."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:806
+msgid "be aware of the available search strategies"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:809
+msgid ""
+"This is nicely documented, \"più non dimandare\" and `read the docs "
+"<searching.html>`_."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:813
+msgid ""
+"9. Añadir un nuevo nombre de una especie al banco de datos y añadir un "
+"nuevo número"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:815
+msgid ""
+"Si se encuentra una planta y se identifica la especie pero no es parte "
+"del banco de datos y tampo posee un código."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:818
+msgid ""
+"En el siguiente ejemplo, la planta encontrada fue identificada como "
+"Lepanthes alopex."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:820
+msgid "Si no se sabe la especie, se puede ingresar con la especie “Zzz sp”"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:822
+msgid "Se puede asignar a la nueva planta un código o una accesión (6 números)"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:826
+msgid ""
+"Se encontro que la planta de ejemplo es de especie *Lepanthes alopex*, si"
+" se busca en el banco de datos el género lepanhtes y se nota que dentro "
+"de este género no está registrada esta especie. Se tendra que añadir como"
+" una nueva especie."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:829
+msgid ""
+"Para añadir una nueva especie, dar clic derecho sobre el género Lepanthes"
+" (sombreado de rojo) y se mostraran las siguientes opciones:"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:831
+msgid "Edit, Add species, Delete"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:833
+msgid ""
+"Nunca selecionar “Delete”!!! ya que si selecciona delete se borraran "
+"todos los datos pertenecientes a todas especies en el género."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:836
+msgid ""
+"|1000000000000293000001C3EC6A9DC0A1D0CA68_png| "
+"|1000000000000293000001C423766E7D365A1489_png|"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:841
+msgid ""
+"Al añadir el nombre de una especie nueva siempre escribir todo con "
+"minusculas, además asegurarse de que el nombre cientifico esté bien "
+"escrito."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:843
+msgid ""
+"Es obligatorio añadir también el nombre del autor, y para eso se necesita"
+" buscar la nueva especie en el banco de datos online llamado Tropicos "
+"(http://tropicos.org/)"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:845
+msgid ""
+"Si no se puede añadir la especie, porque la especie todavía existe, el "
+"fondo del campo de “Species” va a estar rojo."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:848
+msgid ""
+"Hacer clic en “Add accession”.  Se va a abrir la ventana llamada "
+"“Accession Editor”."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:853
+msgid "El nombre de la especie nueva está en el campo “Name” todavía."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:855
+msgid "Cambiar el número del “Accession ID \\*” a tu accesión."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:857
+msgid "Cambiar el “Type of material” a “Plant” (Siempre!!)."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:859
+msgid "Cambiar el “Quantity” a “1” (Siempre!!)."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:861
+msgid ""
+"Cambiar el lugar de la planta a “Intended Locations” a “Location 1” al "
+"nombre del lugar."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:863
+msgid "Hace clic a “Add plants”."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:865
+msgid "Va a abrir el “Plant Editor”."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:869
+msgid "Entrar en el “Plant Editor”."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:872
+msgid "El número (accesión) y nombre todavía está guardado."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:874
+msgid "Cambiar en “Quantity” a “1” (Siempre!!)."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:877
+msgid ""
+"Cambiar en “Location” al nombre del lugar (Siempre el mismo que entregado"
+" en el Accession editor antes!)."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:881
+msgid "Hacer clic en “Aceptar”."
 msgstr ""
 
 #: ../../use_cases.rst:2
@@ -6411,5 +6433,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "The best way to achieve this is to work with **Tags**."
+#~ msgstr ""
+
+#~ msgid "10. Cambiar el lugar de una planta en el banco de datos"
 #~ msgstr ""
 
