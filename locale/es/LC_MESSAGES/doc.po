@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-29 16:35-0500\n"
-"PO-Revision-Date: 2017-07-30 00:27+0000\n"
+"PO-Revision-Date: 2017-07-30 00:47+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -895,14 +895,13 @@ msgid ""
 "according to whatever formatter you associate to the handler, defaulting "
 "to ``logging.Formatter(\"%(message)s\")``."
 msgstr ""
-"Usted puede comprobar presencia de mensajes de registro específica en '' "
-"self.handler.messages''. mensajes de '''' es un diccionario, inicialmente"
-" vacío, con dos niveles de indexación. El nombre del registrador de "
-"expedir el registro registrar primero, luego el nombre del nivel del "
-"expediente de registro. Se crean claves cuando sea necesario. Valores de "
-"mantener listas de mensajes, con formato según cualquier formateador "
-"asocias al controlador, estableciendo '' registro. "
-"Formatter(\"%(Message)s\")''."
+"Se puede comprobar la presencia de mensajes de registro específicos en "
+"``self.handler.messages``. ``mensajes`` es un diccionario, inicialmente "
+"vacío, con dos niveles de indexación. Primero el nombre del registrador "
+"añadiendo al registro, luego el nombre del nivel del mensaje de registro. "
+"Las claves son producidas al necesitarse. Los valores en el diccionario son "
+"listas de mensajes, con formato según el formateador asociado al "
+"controlador, por defecto ``logging.Formatter(\"%(message)s\")``."
 
 #: ../../building.rst:429
 msgid ""
@@ -914,7 +913,7 @@ msgstr ""
 
 #: ../../building.rst:434
 msgid "Putting all together"
-msgstr "Al ponerlo todo junto:"
+msgstr "Al ponerlo todo junto"
 
 #: ../../building.rst:436
 msgid "From time to time you want to activate the test class you're working at::"
@@ -2918,7 +2917,7 @@ msgstr ""
 
 #: ../../installing.rst:7
 msgid "one-liner for hurried users."
-msgstr "voy de prisa"
+msgstr "voy de prisa."
 
 #: ../../installing.rst:10
 msgid ""
@@ -2966,7 +2965,7 @@ msgstr ""
 
 #: ../../installing.rst:28
 msgid "The installation is based on running a script."
-msgstr "La instalación está basada en ejecutar un script:"
+msgstr "La instalación está basada en ejecutar un script."
 
 #: ../../installing.rst:30
 msgid ""
@@ -3782,10 +3781,9 @@ msgid ""
 "reports. More information about Mako and its language can be found at "
 "`makotemplates.org <http://www.makotemplates.org>`_."
 msgstr ""
-"El formateador de informe Mako utiliza el idioma de la plantilla de Mako "
-"para generar informes. Puede encontrar más información sobre el Mako y su"
-" lenguaje en ' makotemplates.org <http: www.makotemplates.org=\"\">' "
-"_.</http:>"
+"El formateador de informes Mako utiliza su propio idioma de plantilla para "
+"generar informes. Puede encontrar más información sobre el Mako y su "
+"lenguaje en `makotemplates.org <http://www.makotemplates.org>`_"
 
 #: ../../report.rst:18
 msgid ""
@@ -3884,7 +3882,12 @@ msgid ""
 "<http://code.google.com/p/apache-fop-"
 "installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#makechanges>`_"
 " installer."
-msgstr "NO QUERY SPECIFIED. EXAMPLE REQUEST: GET?Q=HELLO&LANGPAIR=EN|IT"
+msgstr ""
+"Tienes dos opciones para la instalación de FOP en Windows. La forma más "
+"sencilla es descargar su instalador `ApacheFOP-0.95-1-setup.exe "
+"<http://code.google.com/p/apache-fop-"
+"installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#"
+"makechanges >`_."
 
 #: ../../report.rst:65
 msgid ""
@@ -4077,11 +4080,10 @@ msgid ""
 " name Maxillaria. In this case the domain is ``gen``, the operator is "
 "``=`` and the value is ``Maxillaria``."
 msgstr ""
-"Una expresión se construye como ''<domain> <operator> <value>''. Por "
-"ejemplo la búsqueda: '' gen = Maxillaria'' volvería todos los géneros que"
-" coinciden con el nombre de Maxillaria. En este caso el dominio es '' "
-"gen'', es '' ='' y el valor es '' Maxillaria''.</value> </operator> "
-"</domain>"
+"Una expresión se construye como ``<domain> <operator> <value>``. Por ejemplo "
+"la búsqueda: ``gen = Maxillaria`` devuelve todos los géneros que coinciden "
+"con el nombre Maxillaria. En este caso el dominio es ``gen``, el operador es "
+"``=`` y el valor es ``Maxillaria``."
 
 #: ../../searching.rst:97
 msgid ""
@@ -4195,10 +4197,11 @@ msgid ""
 "boolean operators like ``and``, ``or``, ``not`` (and their shorthands "
 "``&&``, ``||``, ``!``), enclose them in parentheses, and more."
 msgstr ""
-"Consultas permiten el mayoría control de búsqueda. Con consultas usted "
-"puede buscar a través de las relaciones, columnas específicas, combinar "
-"criterios de búsqueda utilizando operadores booleanos como '' y '', '' o "
-"'', '' no '' (y sus abreviaturas ''"
+"Las consultas \"Query\" permiten el máximo control de búsqueda. Con "
+"consultas usted puede buscar a través de las relaciones, columnas "
+"específicas, combinar criterios de búsqueda utilizando operadores booleanos "
+"como ``and``, ``or``, ``not``, y sus abreviaciones ``&&``, ``||``, ``!``, "
+"encerrar en paréntesis, y más."
 
 #: ../../searching.rst:154
 msgid ""
@@ -4439,13 +4442,12 @@ msgid ""
 " like `PostgreSQL <http://www.postgresql.org>`_ or `MySQL/MariaDB "
 "<https://mariadb.org/>`_, both supported by Ghini."
 msgstr ""
-"Por otro lado, si desea conectar más de una estación de trabajo de adorno"
-" a la misma base de datos, o si desea que sus datos disponibles para "
-"otros clientes, como podría ser un servidor web en un entorno de lámpara,"
-" debe tener en cuenta mantener su base de datos en un sistema de gestión "
-"de base de datos como ' PostgreSQL <http: www.postgresql.org=\"\">' _ o '"
-" MySQL/MariaDB <https: mariadb.org/=\"\">' _, ambos apoyados por "
-"Ghini.</https:> </http:>"
+"Por otro lado, si desea conectar más de una estación de trabajo a la misma "
+"base de datos, o si desea ponerlos a disposición de otros clientes, como "
+"podría ser un servidor web en ambiente LAMP, debe considerar mantener su "
+"base de datos en un sistema de gestión de base de datos como `PostgreSQL "
+"<http://www.postgresql.org>`_ o `MySQL/MariaDB <https://mariadb.org/>`_, "
+"ambos apoyados por Ghini."
 
 #: ../../started.rst:30
 msgid ""
@@ -4814,7 +4816,7 @@ msgstr "punto de referencia"
 
 #: ../../statements.rst:57
 msgid "community"
-msgstr "comunidad "
+msgstr "comunidad"
 
 #: ../../statements.rst:58
 msgid "development"
@@ -6545,7 +6547,7 @@ msgstr "Creación de usuarios"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
-msgstr "Para crear un nuevo"
+msgstr "Para crear un usuario nuevo..."
 
 #: ../../users.rst:16
 msgid "Permissions"
