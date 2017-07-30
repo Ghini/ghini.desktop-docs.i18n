@@ -901,8 +901,8 @@ msgid ""
 "You can explicitly empty the collected messages by invoking "
 "``self.handler.clear()``."
 msgstr ""
-"Explícitamente pueden vaciar los mensajes recogidos mediante la "
-"invocación de '' self.handler.clear()''."
+"Al necesitarlo, puede borrar los mensajes colectados mediante la "
+"invocación de ``self.handler.clear()``."
 
 #: ../../building.rst:434
 msgid "Putting all together"
@@ -969,8 +969,8 @@ msgid ""
 "There is no easy way to unit test a subclassed view, so please don't "
 "subclass views, there's really no need to."
 msgstr ""
-"No hay ninguna manera fácil de prueba unitaria una vista se crean "
-"subclases, así que por favor no vistas de la subclase, no hay realmente "
+"No hay manera fácil de escribir pruebas unitarias para una subclase de "
+"una vista, así que por favor no subclasen vistas, no hay realmente "
 "ninguna necesidad."
 
 #: ../../building.rst:474
@@ -988,9 +988,9 @@ msgid ""
 "GtkEntry (one-line text entry) will handle the ``changed`` signal, with "
 "either ``on_text_entry_changed`` or ``on_unique_text_entry_changed``."
 msgstr ""
-"GtkEntry (entrada de texto de una línea) encargará de la señal de '' "
-"cambiada '', con '' on_text_entry_changed'' o '' "
-"on_unique_text_entry_changed''."
+"GtkEntry (entrada de texto de línea singola) encargará de la señal de ``"
+"changed``, con ``on_text_entry_changed`` o ``"
+"on_unique_text_entry_changed``."
 
 #: ../../building.rst:480
 msgid ""
@@ -1026,20 +1026,20 @@ msgid ""
 "interaction, the **model** is just a passive data container, it does "
 "nothing more than to let the **presenter** modify it."
 msgstr ""
-"El ** modelo ** es solo un objeto con atributos conocidos. En esta "
-"interacción, el ** modelo ** es solo un contenedor de datos pasiva, no "
-"hace nada más que para que el ** presentador ** modificarlo."
+"El **modelo** es solo un objeto con atributos conocidos. En esta "
+"interacción, el **modelo** es solo un contenedor de datos pasiva, no "
+"hace nada más que para que el **presentador** modificarlo."
 
 #: ../../building.rst:495
 msgid "The subclassed **Presenter** defines and implements:"
-msgstr "El que se crean subclases ** presentador ** define e implementa:"
+msgstr "El que se crean subclases **presentador** define e implementa:"
 
 #: ../../building.rst:497
 msgid ""
 "``widget_to_field_map``, a dictionary associating widget names to name of"
 " model attributes,"
 msgstr ""
-"'' widget_to_field_map'', un diccionario de asociar nombres de widget a "
+"``widget_to_field_map``, un diccionario de asociar nombres de widget a "
 "nombre de los atributos del modelo,"
 
 #: ../../building.rst:499
@@ -1047,7 +1047,7 @@ msgid ""
 "``view_accept_buttons``, the list of widget names which, if activated by "
 "the user, mean that the view should be closed,"
 msgstr ""
-"'' view_accept_buttons'', la lista de nombres de widget que, activado por"
+"``view_accept_buttons``, la lista de nombres de widget que, activado por"
 " el usuario, significa que el punto de vista debe ser cerrado,"
 
 #: ../../building.rst:501
@@ -1071,7 +1071,7 @@ msgstr ""
 "base de datos, el ** presentador ** comete todos ** modelo ** "
 "actualizaciones a la base de datos cuando el ** ver ** se cierra con "
 "éxito, o les deshace si el ** ver ** se cancela. (este comportamiento es "
-"influenciado por el parámetro '' do_commit'')"
+"influenciado por el parámetro ``do_commit``)"
 
 #: ../../building.rst:510
 msgid ""
@@ -1093,7 +1093,7 @@ msgstr ""
 "consultar los valores insertados por el usuario o por la fuerza a "
 "establecer Estados de widget. Por favor, no se aprende de la práctica de "
 "nuestros presentadores portando mal, algunos que manejar directamente "
-"campos de '' view.widgets''. Al hacerlo, estos presentadores nos impide "
+"campos de ``view.widgets``. Al hacerlo, estos presentadores nos impide "
 "escribir pruebas unitarias."
 
 #: ../../building.rst:521
@@ -1103,9 +1103,9 @@ msgid ""
 "``MockView`` class, that you can use when writing tests for your "
 "presenters."
 msgstr ""
-"La clase base para el presentador, '' GenericEditorPresenter'' en '' "
-"bauble.editor'', implementa muchas devoluciones de llamada genéricos "
-"útiles.  Hay una clase de '' MockView'', que se puede utilizar al "
+"La clase base para el presentador, ``GenericEditorPresenter`` en ``"
+"bauble.editor``, implementa muchas devoluciones de llamada genéricos "
+"útiles.  Hay una clase de ``MockView``, que se puede utilizar al "
 "escribir pruebas para sus presentadores."
 
 #: ../../building.rst:526
@@ -1117,8 +1117,8 @@ msgid ""
 "``Contact`` and ``ContactPresenter`` are implemented following the above "
 "lines.  The view is defined in the ``contact.glade`` file."
 msgstr ""
-"'' Contacto '' y '' ContactPresenter'' se implementan siguiendo las "
-"líneas de arriba.  La vista se define en el archivo '' contact.glade''."
+"``Contacto`` y ``ContactPresenter`` se implementan siguiendo las "
+"líneas de arriba.  La vista se define en el archivo ``contact.glade``."
 
 #: ../../building.rst:531
 msgid ""
@@ -1138,7 +1138,7 @@ msgstr ""
 "Se utiliza el mismo patrón arquitectónico de interacción no-base de "
 "datos, estableciendo el presentador también como modelo. Para ello, por "
 "ejemplo, el cuadro de diálogo de exportación JSON. El siguiente comando "
-"le dará una lista de instancias de '' GenericEditorView''::"
+"le dará una lista de instancias de ``GenericEditorView``::"
 
 #: ../../building.rst:542
 msgid "Extending Ghini with Plugins"
@@ -1159,15 +1159,15 @@ msgid ""
 "To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
 "class."
 msgstr ""
-"Para crear un nuevo plugin debe extender la clase de '' "
-"bauble.pluginmgr.Plugin''."
+"Para crear un nuevo plugin debe extender la clase de ``"
+"bauble.pluginmgr.Plugin``."
 
 #: ../../building.rst:551
 msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
 msgstr ""
-"La '' etiqueta '' es un ejemplo mínimo, incluso si el '' TagItemGUI'' cae"
+"La ``etiqueta`` es un ejemplo mínimo, incluso si el ``TagItemGUI`` cae"
 " fuera el patrón de arquitectura Model-View-Presenter."
 
 #: ../../building.rst:555
