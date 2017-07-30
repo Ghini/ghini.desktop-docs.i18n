@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-30 06:14-0500\n"
-"PO-Revision-Date: 2017-07-30 00:47+0000\n"
+"PO-Revision-Date: 2017-07-30 23:52+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -2411,6 +2412,14 @@ msgid ""
 "regarding the Orchidaceae, using “Tropicos, botanical information system "
 "at the Missouri Botanical Garden - www.tropicos.org” as a source."
 msgstr ""
+"Cuando primero arrancas Ghini y conectas a una base de datos, Ghini "
+"inicializa la base de datos no sólo con todas las tablas que necesita para "
+"funcionar, sino también importa en las tablas de taxonomía los datos de la \""
+"RBG Kew's Family and Genera list from Vascular Plant Families and Genera "
+"compiled by R. K. Brummitt and published by the Royal Botanic Gardens, Kew "
+"in 1992\".  En 2015 se han revisado los datos sobre Orchidaceae, utilizando "
+"\"Tropicos, sistema de información botánica en el jardín botánico de "
+"Missouri - www.tropicos.org\" como fuente."
 
 #: ../../goal.rst:193
 msgid "importing data"
@@ -2868,7 +2877,7 @@ msgstr "Instalar Ghini"
 
 #: ../../index.rst:35
 msgid "User's Guide"
-msgstr ""
+msgstr "Manual del usuario"
 
 #: ../../index.rst:50
 msgid "Cookbook"
@@ -3147,6 +3156,13 @@ msgid ""
 "then builds ghini, downloading all remaining dependencies in the virtual "
 "environment, and finally it creates the ``ghini`` startup script."
 msgstr ""
+"En breve primero instala las dependencias que no caben en un entorno "
+"virtual, pues crea el entorno virtual ``ghide``, usa git para clonar el "
+"entero repositorio en el directorio ``~/Local/github/Ghini/ghini.desktop`` y "
+"selecciona el ese repositorio la rama '' ghini-1.0'' (considérelo una línea "
+"de calidad garantizada), luego construye ghini, descargando todas las "
+"dependencias restantes en el entorno virtual , y finalmente crea el script "
+"de inicio ``ghini``."
 
 #: ../../installing.rst:128
 msgid ""
@@ -3228,7 +3244,7 @@ msgstr "siga las instrucciones relativas a como activar lo que acaba de instalar
 
 #: ../../installing.rst:169
 msgid "Mac running OSX 10.12 —Sierra—"
-msgstr ""
+msgstr "Mac ejecutando OS X 10.12 — Sierra —"
 
 #: ../../installing.rst:172
 msgid ""
@@ -3309,6 +3325,8 @@ msgid ""
 "download and install Python 2.x (32bit). Grab it from the `Python "
 "official site <http://www.python.org>`_."
 msgstr ""
+"descargue e instale Python 2.x (32 bits). Cópielo del `Sitio oficial de "
+"Python <http://www.python.org>`_."
 
 #: ../../installing.rst:220
 msgid "When installing Python, do put Python in the PATH:"
@@ -3342,13 +3360,12 @@ msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr "Recuerde que usted necesita la versión de 32 bits, para Python 2.7."
 
 #: ../../installing.rst:246
-#, fuzzy
 msgid ""
 "(definitely optional) download and install a database connector other "
 "than ``sqlite3``."
 msgstr ""
-"(opcional) descargar e instalar un conector de base de datos además que "
-"``sqlite3``."
+"(decididamente opcional) descargar e instalar un conector de base de datos "
+"que no sea ``sqlite3``."
 
 #: ../../installing.rst:249
 msgid ""
@@ -3356,6 +3373,9 @@ msgid ""
 "is `psycopg and is Made in Italy "
 "<http://initd.org/psycopg/docs/install.html>`_."
 msgstr ""
+"Si usted planea utilizar PostgreSQL, la mejor biblioteca binaria Windows "
+"para Python es `psycopg y es Hecho en Italia "
+"<http://initd.org/psycopg/docs/install.html>`_."
 
 #: ../../installing.rst:253
 msgid "**REBOOT**"
@@ -3374,14 +3394,10 @@ msgstr ""
 "el archivo batch:"
 
 #: ../../installing.rst:259
-#, fuzzy
 msgid ""
 "`devinstall.bat "
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.bat>`_"
 msgstr ""
-"Baja y corre `el script de instalación "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
-" Habrá tiempo para leer la documentación."
 
 #: ../../installing.rst:261
 msgid ""
@@ -3407,6 +3423,11 @@ msgid ""
 " run the script.  Opening the text document will show you the code of the"
 " batch file, which isn't going to lead us anywhere."
 msgstr ""
+"Ahora **Abre** el script para ejecutarlo.  Nota: en la siguiente imagen "
+"hemos guardado el archivo dos veces, una vez permitiendole a Windows "
+"convertirlo a documento de texto y otra vez como un archivo batch Windows.  "
+"Abrir el archivo batch ejecutará el script.  Abrir el documento de texto "
+"mostrará el código del archivo batch, que no va a llevarnos en ningún lugar."
 
 #: ../../installing.rst:277
 msgid ""
@@ -3420,16 +3441,16 @@ msgstr ""
 "ocupada durante un par de minutos, mostrando lo que está haciendo."
 
 #: ../../installing.rst:284
-#, fuzzy
 msgid ""
 "Running ``devinstall.bat`` will pull the ``ghini.desktop`` repository "
 "from github to your home directory, under ``Local\\github\\Ghini``, "
 "checkout the ``ghini-1.0`` production line, create a virtual environment "
 "and install ghini into it."
 msgstr ""
-"esto pone una copia del repositorio ``ghini.desktop`` en su equipo, en la"
-" carpeta ``Local\\github\\Ghini``, conectada con la linea de producción "
-"1.0, en seguida crea un entorno virtual en que finalmente instala ghini."
+"La ejecución de ``devinstall.bat`` baja el repositorio ``ghini.desktop`` de "
+"github a su directorio home, en ``Local\\github\\Ghini``, lo conecta con la "
+"línea de producción ``ghini-1.0``, crea un entorno virtual y ahí instala "
+"ghini."
 
 #: ../../installing.rst:289
 msgid ""
@@ -3497,13 +3518,13 @@ msgstr ""
 "central."
 
 #: ../../installing.rst:317
-#, fuzzy
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``, it will hardly take one minute."
 msgstr ""
-"cuando quiera poner al día su instalación, abra una ventana de terminal y"
-" ejecute ``ghini-update.bat``"
+"en cualquier momento usted desea actualizar su instalación, sólo tiene que "
+"iniciar el CMD del sistema y ejecutar ``ghini-actualización.bat``, apenas te "
+"llevará un minuto."
 
 #: ../../installing.rst:320
 #, fuzzy
@@ -4095,6 +4116,15 @@ msgid ""
 "``%ck%10`` would search for all value that contain ``ck`` and end in "
 "``10``."
 msgstr ""
+"La cadena de búsqueda ``loc like block%`` devolverá todas las ubicaciones "
+"cuyo nombre o código comience en \"block\".  En este caso el dominio es "
+"``loc`` (una abreviatura para ``location``), el operador es ``like`` (esto "
+"viene del SQL y permite buscar \"fuzzy\"), el valor es ``block%``, los "
+"campos implícitamente examinados son ``name`` y ``code``.  El signo de "
+"porcentaje es utilizado como comodín por lo que si se busca ``block%`` se "
+"encontrarán todos los valores que comienzan con ``block``.  Si usted busca "
+"``%10``, busca todos los valores que terminan en ``10``.  La cadena ``%ck%"
+"10'' busca todos los valores que contienen ``ck`` y acaban en ``10``."
 
 #: ../../searching.rst:110
 msgid "When a query takes ages to complete"
@@ -4318,6 +4348,14 @@ msgid ""
 "and ``Empty``. You may edit the query and insert quotes if you need them,"
 " eg if you need to literally look for the string ``Empty``."
 msgstr ""
+"En este momento el generador de consultas escribe la consulta en el campo de "
+"búsqueda y la ejecuta. Ahora puedes editar la secuencia como si hubiera "
+"escrito usted mismo. Observe cómo los valores de lado de mano derecha son "
+"interpretados por el generador de consultas y encerrados en comillas simples "
+"si los reconoce como cadenas, dejados como están si se ven como números ó "
+"son uno de los dos textos reservados ``None`` o ``Empty``. Usted puede "
+"editar la consulta e insertar comillas si necesita, por ejemplo, si usted "
+"necesita buscar literalmente la cadena ``Empty``."
 
 #: ../../searching.rst:234
 msgid ""
@@ -4325,6 +4363,9 @@ msgid ""
 "lenght string ``''`` nor the numeric ``0`` nor the boolean ``False`` nor "
 "the set ``Empty``, it indicates that the field has no value at all."
 msgstr ""
+"``None`` es el valor de un campo vacío. No es lo mismo que la cadena larga "
+"cero ``''`` ni el numérico ``0`` ni el boolean ``False`` ni el set ``Empty``:"
+" ``None`` indica que el campo no tiene valor en absoluto."
 
 #: ../../searching.rst:238
 msgid ""
@@ -6226,13 +6267,15 @@ msgstr "Sólo corregir el campo Ubicación y haga clic en Aceptar."
 
 #: ../../use_cases-jbq.rst:689
 msgid "The InfoBox contains information about the last change to the object:"
-msgstr ""
+msgstr "El InfoBox contiene información sobre el último cambio en el objeto:"
 
 #: ../../use_cases-jbq.rst:694
 msgid ""
 "For plants, even more interesting, it builds a history of changes, list "
 "that includes Location changes, or Quantity changes."
 msgstr ""
+"Para las plantas, aún más interesante, se construye una historia de los "
+"cambios, una lista que incluye cambios de ubicación, o cambios de cantidad."
 
 #: ../../use_cases-jbq.rst:699
 msgid "planned action"
@@ -6402,6 +6445,11 @@ msgid ""
 "(we store this information in a note associated to the species); or: all "
 "plants added to the collection this year; ::"
 msgstr ""
+"A veces el informe mismo sugiere la consulta correspondiente, como por "
+"ejemplo: todas las plantas en invernadero 3. o: todas las plantas "
+"pertenecientes a especies en peligro (almacenamos esta información en una "
+"nota asociada a la especie); o: todas las plantas que agregamos a la "
+"colección durante este año; ::"
 
 #: ../../use_cases-jbq.rst:797
 msgid "Otherwise a flexible way to achieve this is to work with **Tags**."
