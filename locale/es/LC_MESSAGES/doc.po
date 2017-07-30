@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-29 16:35-0500\n"
+"POT-Creation-Date: 2017-07-29 20:12-0500\n"
 "PO-Revision-Date: 2017-07-30 00:47+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: es\n"
@@ -897,9 +897,9 @@ msgstr ""
 "Se puede comprobar la presencia de mensajes de registro específicos en "
 "``self.handler.messages``. ``mensajes`` es un diccionario, inicialmente "
 "vacío, con dos niveles de indexación. Primero el nombre del registrador "
-"añadiendo al registro, luego el nombre del nivel del mensaje de registro. "
-"Las claves son producidas al necesitarse. Los valores en el diccionario son "
-"listas de mensajes, con formato según el formateador asociado al "
+"añadiendo al registro, luego el nombre del nivel del mensaje de registro."
+" Las claves son producidas al necesitarse. Los valores en el diccionario "
+"son listas de mensajes, con formato según el formateador asociado al "
 "controlador, por defecto ``logging.Formatter(\"%(message)s\")``."
 
 #: ../../building.rst:429
@@ -3776,9 +3776,9 @@ msgid ""
 "reports. More information about Mako and its language can be found at "
 "`makotemplates.org <http://www.makotemplates.org>`_."
 msgstr ""
-"El formateador de informes Mako utiliza su propio idioma de plantilla para "
-"generar informes. Puede encontrar más información sobre el Mako y su "
-"lenguaje en `makotemplates.org <http://www.makotemplates.org>`_"
+"El formateador de informes Mako utiliza su propio idioma de plantilla "
+"para generar informes. Puede encontrar más información sobre el Mako y su"
+" lenguaje en `makotemplates.org <http://www.makotemplates.org>`_"
 
 #: ../../report.rst:18
 msgid ""
@@ -3881,8 +3881,8 @@ msgstr ""
 "Tienes dos opciones para la instalación de FOP en Windows. La forma más "
 "sencilla es descargar su instalador `ApacheFOP-0.95-1-setup.exe "
 "<http://code.google.com/p/apache-fop-"
-"installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#"
-"makechanges >`_."
+"installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#makechanges"
+" >`_."
 
 #: ../../report.rst:65
 msgid ""
@@ -4075,10 +4075,10 @@ msgid ""
 " name Maxillaria. In this case the domain is ``gen``, the operator is "
 "``=`` and the value is ``Maxillaria``."
 msgstr ""
-"Una expresión se construye como ``<domain> <operator> <value>``. Por ejemplo "
-"la búsqueda: ``gen = Maxillaria`` devuelve todos los géneros que coinciden "
-"con el nombre Maxillaria. En este caso el dominio es ``gen``, el operador es "
-"``=`` y el valor es ``Maxillaria``."
+"Una expresión se construye como ``<domain> <operator> <value>``. Por "
+"ejemplo la búsqueda: ``gen = Maxillaria`` devuelve todos los géneros que "
+"coinciden con el nombre Maxillaria. En este caso el dominio es ``gen``, "
+"el operador es ``=`` y el valor es ``Maxillaria``."
 
 #: ../../searching.rst:97
 msgid ""
@@ -4194,9 +4194,9 @@ msgid ""
 msgstr ""
 "Las consultas \"Query\" permiten el máximo control de búsqueda. Con "
 "consultas usted puede buscar a través de las relaciones, columnas "
-"específicas, combinar criterios de búsqueda utilizando operadores booleanos "
-"como ``and``, ``or``, ``not``, y sus abreviaciones ``&&``, ``||``, ``!``, "
-"encerrar en paréntesis, y más."
+"específicas, combinar criterios de búsqueda utilizando operadores "
+"booleanos como ``and``, ``or``, ``not``, y sus abreviaciones ``&&``, "
+"``||``, ``!``, encerrar en paréntesis, y más."
 
 #: ../../searching.rst:154
 msgid ""
@@ -4437,12 +4437,12 @@ msgid ""
 " like `PostgreSQL <http://www.postgresql.org>`_ or `MySQL/MariaDB "
 "<https://mariadb.org/>`_, both supported by Ghini."
 msgstr ""
-"Por otro lado, si desea conectar más de una estación de trabajo a la misma "
-"base de datos, o si desea ponerlos a disposición de otros clientes, como "
-"podría ser un servidor web en ambiente LAMP, debe considerar mantener su "
-"base de datos en un sistema de gestión de base de datos como `PostgreSQL "
-"<http://www.postgresql.org>`_ o `MySQL/MariaDB <https://mariadb.org/>`_, "
-"ambos apoyados por Ghini."
+"Por otro lado, si desea conectar más de una estación de trabajo a la "
+"misma base de datos, o si desea ponerlos a disposición de otros clientes,"
+" como podría ser un servidor web en ambiente LAMP, debe considerar "
+"mantener su base de datos en un sistema de gestión de base de datos como "
+"`PostgreSQL <http://www.postgresql.org>`_ o `MySQL/MariaDB "
+"<https://mariadb.org/>`_, ambos apoyados por Ghini."
 
 #: ../../started.rst:30
 msgid ""
@@ -4933,7 +4933,7 @@ msgstr "Entender cuándo se debe actualizar"
 
 #: ../../use_cases-jbq.rst:35 ../../use_cases-jbq.rst:109
 #: ../../use_cases-jbq.rst:279 ../../use_cases-jbq.rst:441
-#: ../../use_cases-jbq.rst:458 ../../use_cases-jbq.rst:717
+#: ../../use_cases-jbq.rst:458 ../../use_cases-jbq.rst:722
 msgid "Details"
 msgstr "Detalles"
 
@@ -6232,22 +6232,26 @@ msgid "Just correct the Location field, and click on OK."
 msgstr "Sólo corregir el campo Ubicación y haga clic en Aceptar."
 
 #: ../../use_cases-jbq.rst:689
-msgid ""
-"Tambien se puede ver en “Properties” cuando esta accesión fue cambiada la"
-" ultima vez."
+msgid "The InfoBox contains information about the last change to the object:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:694
+msgid ""
+"For plants, even more interesting, it builds a history of changes, list "
+"that includes Location changes, or Quantity changes."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:699
 msgid "planned action"
 msgstr "acción planificada"
 
-#: ../../use_cases-jbq.rst:697
+#: ../../use_cases-jbq.rst:702
 msgid ""
 "The action starts by moving the plants around, and collecting the plant "
 "code either on paper, or in our mobile app, if we had one."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:700
+#: ../../use_cases-jbq.rst:705
 msgid ""
 "We then go to the desktop terminal and revise all plants one by one "
 "changing their location in the database."
@@ -6255,7 +6259,7 @@ msgstr ""
 "Luego ir al terminal de escritorio y revisar las plantas una por una, "
 "actualizando su ubicación en la base de datos."
 
-#: ../../use_cases-jbq.rst:703
+#: ../../use_cases-jbq.rst:708
 msgid ""
 "If we had a mobile app, we would just upload the info to the server and "
 "we would be done."
@@ -6263,7 +6267,7 @@ msgstr ""
 "Teniendo esa aplicación móvil, sólo sería cargar la información en el "
 "servidor y ya estaríamos."
 
-#: ../../use_cases-jbq.rst:706
+#: ../../use_cases-jbq.rst:711
 msgid ""
 "As plants enter the flowering stage, we can review their identification "
 "directly, or we take pictures of details of the flower, hoping that a "
@@ -6274,7 +6278,7 @@ msgstr ""
 "de la flor, con la esperanza que más luego un especialista visitante "
 "pueda completar la identificación."
 
-#: ../../use_cases-jbq.rst:713
+#: ../../use_cases-jbq.rst:718
 msgid ""
 "Regularly, we need producing reports about our collection that the "
 "Ecuadorian Environment Ministery (MAE) requires and that justify the very"
@@ -6284,7 +6288,7 @@ msgstr ""
 " informes que el Ministerio ecuatoriano de medio ambiente (MAE) exigen y "
 "que justifican la existencia misma del jardín."
 
-#: ../../use_cases-jbq.rst:720
+#: ../../use_cases-jbq.rst:725
 msgid ""
 "Each year the botanic garden has to submit a report (annual report of "
 "management and maintenance of orchids collection) complying to the "
@@ -6294,7 +6298,7 @@ msgstr ""
 " de gestión) y el mantenimiento de la colección de orquídeas que cumpla "
 "con los requisitos del Ministerio ecuatoriano de medio ambiente."
 
-#: ../../use_cases-jbq.rst:724
+#: ../../use_cases-jbq.rst:729
 msgid ""
 "To this end, we start selecting the plants we have to include in the "
 "report. It might be all acquisition in the past year::"
@@ -6302,7 +6306,7 @@ msgstr ""
 "Para ello, partimos de seleccionar las plantas que tenemos que incluir en"
 " el informe. Podría ser toda accuisición en el año pasado::"
 
-#: ../../use_cases-jbq.rst:728
+#: ../../use_cases-jbq.rst:733
 msgid ""
 "or all plants within a location, or all plants belonging to a species, or"
 " just everything (but this will take time)::"
@@ -6310,7 +6314,7 @@ msgstr ""
 "O todas las plantas dentro de una ubicación, o todas planta que "
 "pertenecen a una especie, o simplemente todo (pero esto tomará tiempo)::"
 
-#: ../../use_cases-jbq.rst:735
+#: ../../use_cases-jbq.rst:740
 msgid ""
 "Having selected the database objects which we want in the report, we "
 "start the report tool, which acts on the selection."
@@ -6318,11 +6322,11 @@ msgstr ""
 "Habiendo seleccionado los objetos de base de datos que queremos en el "
 "informe, inicie la herramienta de informe, que actúa en la selección."
 
-#: ../../use_cases-jbq.rst:739
+#: ../../use_cases-jbq.rst:744
 msgid "Searching the database"
 msgstr "Buscar en la base de datos"
 
-#: ../../use_cases-jbq.rst:741
+#: ../../use_cases-jbq.rst:746
 msgid ""
 "You search the database in order to edit the data further, or because you"
 " want to produce a report. Anyway you start with typing something in the "
@@ -6332,15 +6336,15 @@ msgstr ""
 "porque se quiere producir un informe. De todos modos se empieza "
 "escribiendo algo en el campo de búsqueda"
 
-#: ../../use_cases-jbq.rst:747
+#: ../../use_cases-jbq.rst:752
 msgid "and you hope to see your result in the search result view."
 msgstr "y ojalá sus resultados aparezcan en el resultado de búsqueda."
 
-#: ../../use_cases-jbq.rst:749
+#: ../../use_cases-jbq.rst:754
 msgid "search in order to edit (plant or accession)"
 msgstr "búsqueda para editar (planta o accesión)"
 
-#: ../../use_cases-jbq.rst:752
+#: ../../use_cases-jbq.rst:757
 msgid ""
 "When searching in order to edit, you want to be very specific, and select"
 " as few objects as possible. The most fine-tuned search is the one based "
@@ -6351,15 +6355,15 @@ msgstr ""
 "es la basada en el número de la planta: se conoce el código, se obtiene "
 "un objeto."
 
-#: ../../use_cases-jbq.rst:756
+#: ../../use_cases-jbq.rst:761
 msgid "If your plant is not there, the screen would look like this:"
 msgstr "Si la planta no está allí, la pantalla tendrá este aspecto:"
 
-#: ../../use_cases-jbq.rst:760
+#: ../../use_cases-jbq.rst:765
 msgid "Other example, plant ``007701.1`` is in the database:"
 msgstr "Otro ejemplo, la planta ``007701.1`` está en la base de datos:"
 
-#: ../../use_cases-jbq.rst:764
+#: ../../use_cases-jbq.rst:769
 msgid ""
 "All fields with a darker background in the infobox on the right hand side"
 " are hyperlinks to other objects in the database. Clicking on them will "
@@ -6372,11 +6376,11 @@ msgstr ""
 "búsqueda y ejecutar la nueva consulta ó simplemente agregar el objeto a "
 "los resultados."
 
-#: ../../use_cases-jbq.rst:769
+#: ../../use_cases-jbq.rst:774
 msgid "Clicking on the accession does the latter."
 msgstr "Hacer clic en la accesión hace el último."
 
-#: ../../use_cases-jbq.rst:773
+#: ../../use_cases-jbq.rst:778
 msgid ""
 "We now have both Plant or Accession in the search result view and we can "
 "now edit either or both."
@@ -6384,11 +6388,11 @@ msgstr ""
 "Disponemos ahora de planta y accesión en la vista del resultado de "
 "búsqueda y podremos editar ambas."
 
-#: ../../use_cases-jbq.rst:776
+#: ../../use_cases-jbq.rst:781
 msgid "search in order to report"
 msgstr "búsqueda para informes"
 
-#: ../../use_cases-jbq.rst:779
+#: ../../use_cases-jbq.rst:784
 msgid ""
 "When searching in order to create a report, you want to be both specific "
 "(you don't want to report about irrelevant objects) and broad (you don't "
@@ -6398,7 +6402,7 @@ msgstr ""
 "específica (no quiere Informar sobre objetos irrelevantes) y amplia (que "
 "no quere informar sobre un solo objeto)."
 
-#: ../../use_cases-jbq.rst:783
+#: ../../use_cases-jbq.rst:788
 msgid ""
 "Sometimes the report itself suggests the query, as for example: all "
 "plants in greenhouse 3; or: all plants belonging to endangered species "
@@ -6406,17 +6410,17 @@ msgid ""
 "plants added to the collection this year; ::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:792
+#: ../../use_cases-jbq.rst:797
 msgid "Otherwise a flexible way to achieve this is to work with **Tags**."
 msgstr ""
 "De lo contrario una manera flexible para lograr esto es trabajar con "
 "**etiquetas**."
 
-#: ../../use_cases-jbq.rst:794
+#: ../../use_cases-jbq.rst:799
 msgid "using **Tags** as enhanced searching"
 msgstr "el uso de **Tags** como búsqueda mejorada"
 
-#: ../../use_cases-jbq.rst:797
+#: ../../use_cases-jbq.rst:802
 msgid ""
 "Sometimes we have to take the same action on objects of the same type, "
 "but we don't manage to quickly think of a search query that would group "
@@ -6426,7 +6430,7 @@ msgstr ""
 "pero no podemos pensar rápidamente en una consulta que agrupe todo lo que"
 " necesitamos y deje por fuera lo que no necesitamos."
 
-#: ../../use_cases-jbq.rst:801
+#: ../../use_cases-jbq.rst:806
 msgid ""
 "This is one possible use of **Tags**.  We start with a selection, we tag "
 "all objects in the selection under a new temporary tag. Let's say we call"
@@ -6436,7 +6440,7 @@ msgstr ""
 " y ponemos en un Tag temporal todos los objetos en la selección. "
 "Supongamos llamarlo \"temporal\"."
 
-#: ../../use_cases-jbq.rst:805
+#: ../../use_cases-jbq.rst:810
 msgid ""
 "We continue searching and adding objects to the temporary tag until the "
 "tag identifies all that we need."
@@ -6444,14 +6448,14 @@ msgstr ""
 "Seguimos buscando y añadiendo objetos a la etiqueta temporal hasta que la"
 " etiqueta identifique todo lo que necesitamos."
 
-#: ../../use_cases-jbq.rst:808
+#: ../../use_cases-jbq.rst:813
 msgid ""
 "Finally from the Tags menu we select the one we just created (in our "
 "example this corresponds to the search ``tag=\"temporary\"``) and we can "
 "invoke the report."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:812
+#: ../../use_cases-jbq.rst:817
 msgid ""
 "When we're done with a temporary tag, there's no point in leaving it "
 "around, so we just delete it."
@@ -6459,11 +6463,11 @@ msgstr ""
 "Terminado el trabajo con una etiqueta temporal, no hace falta quedarse "
 "con ella, así que simplemente la borramos."
 
-#: ../../use_cases-jbq.rst:817
+#: ../../use_cases-jbq.rst:822
 msgid "be aware of the available search strategies"
 msgstr "conozca las estrategias de búsqueda"
 
-#: ../../use_cases-jbq.rst:820
+#: ../../use_cases-jbq.rst:825
 msgid ""
 "This is nicely documented, \"più non dimandare\" and `read the docs "
 "<searching.html>`_."
@@ -8246,5 +8250,11 @@ msgstr "grabar etiquetas"
 #~ msgstr ""
 
 #~ msgid "*Dendrobium* ×'Emma White'"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tambien se puede ver en “Properties” "
+#~ "cuando esta accesión fue cambiada la "
+#~ "ultima vez."
 #~ msgstr ""
 
