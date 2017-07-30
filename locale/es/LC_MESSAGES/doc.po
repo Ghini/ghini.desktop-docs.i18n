@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-29 16:35-0500\n"
-"PO-Revision-Date: 2017-07-29 22:31+0000\n"
+"PO-Revision-Date: 2017-07-30 00:27+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -1807,6 +1807,11 @@ msgid ""
 "florentina* in the taxon name, identification qualifier 'cf.', qualified "
 "rank 'species'."
 msgstr ""
+"Puede exprimir incertidumbre en la identificación mediante la adición de un "
+"calificador de identificación, al rango adecuado, para que puedas tener por "
+"ejemplo una planta inicialmente identificada como *Iris* cf. *florentina* "
+"eligiendo *Iris florentina* en el nombre del taxón, calificador de la "
+"identificación 'cf.', aplicándose al rango especie."
 
 #: ../../editing.rst:141
 msgid "Type the Accession ID, preferably also the Quantity received."
@@ -1859,6 +1864,11 @@ msgid ""
 "Initial quantity (in case not all plants go in the same accession). The "
 "Type of Material, inferred from the propagation type."
 msgstr ""
+"Cuando seleccione una propagación, el software llena varios campos en la "
+"ficha General, que ahora puede revisar.  La taxonomía (tal vez se pudo "
+"obtener algo ligeramente distinto a la planta madre). La cantidad inicial ("
+"en caso que no todas las plantas van en la misma accesión). El Tipo de "
+"Material, deducido del tipo de propagación."
 
 #: ../../editing.rst:170 ../../use_cases-jbq.rst:530
 #: ../../use_cases-jbq.rst:565
@@ -1877,7 +1887,7 @@ msgstr ""
 
 #: ../../editing.rst:176
 msgid "Creating multiple plants"
-msgstr ""
+msgstr "Creación de múltiples plantas"
 
 #: ../../editing.rst:178
 msgid ""
@@ -1911,7 +1921,7 @@ msgstr ""
 
 #: ../../editing.rst:193
 msgid "Pictures"
-msgstr ""
+msgstr "Fotos"
 
 #: ../../editing.rst:195
 msgid ""
@@ -1975,7 +1985,7 @@ msgstr ""
 
 #: ../../editing.rst:220
 msgid "Locations"
-msgstr ""
+msgstr "Ubicaciones"
 
 #: ../../editing.rst:222
 msgid "The Location editor"
@@ -1983,7 +1993,7 @@ msgstr "Editor de escenarios"
 
 #: ../../editing.rst:225
 msgid "danger zone"
-msgstr ""
+msgstr "zona de peligro"
 
 #: ../../editing.rst:227
 msgid ""
@@ -2102,6 +2112,9 @@ msgid ""
 "blocks are those relative to objects you definitely need insert in the "
 "database."
 msgstr ""
+"En la figura anterior, una vista simplificada de la base de datos, los "
+"bloques resaltados son los relativos a los objetos que definitivamente "
+"necesitará insertar en la base de datos."
 
 #: ../../goal.rst:55
 msgid ""
@@ -2110,6 +2123,10 @@ msgid ""
 "information, then step to administering your **Collection**, and finally "
 "consider the physical **Garden**."
 msgstr ""
+"Podemos distinguir tres secciones principales en la base de datos. Empiece a "
+"leer el gráfico de la derecha, con la información de **Taxonomía**, a "
+"continuación, pase a la administración de su **Colección**, y, finalmente, "
+"considerar el **Jardín** físico."
 
 #: ../../goal.rst:60
 msgid ""
@@ -2123,7 +2140,7 @@ msgstr ""
 
 #: ../../goal.rst:63
 msgid "**Accession links Planting to Species**"
-msgstr ""
+msgstr "**La Accesión enlaza Planta a Especie**"
 
 #: ../../goal.rst:65
 msgid ""
@@ -2159,7 +2176,7 @@ msgstr ""
 
 #: ../../goal.rst:79
 msgid "**Accession at the base of the history of your plants**"
-msgstr ""
+msgstr "**Accesión forma la base de la historia de sus plantas**"
 
 #: ../../goal.rst:81
 msgid ""
@@ -2182,7 +2199,7 @@ msgstr ""
 
 #: ../../goal.rst:88
 msgid "**Accession and Verification opinions**"
-msgstr ""
+msgstr "**Accesión y opiniones de Verificación**"
 
 #: ../../goal.rst:90
 msgid ""
@@ -2347,12 +2364,18 @@ msgid ""
 "structure and look at it as two nested sequences of objects, each element"
 " of the sequence being necessary to add element at the next level."
 msgstr ""
+"Las personas que utilizan Ghini sólo de forma esporádica, quizás prefieran "
+"ignorar la estructura de base de datos y mirar a los datos como organizados "
+"en dos secuencias anidadas de objetos, cada elemento de la secuencia siendo "
+"necesario para añadir elementos en el siguiente nivel."
 
 #: ../../goal.rst:159
 msgid ""
 "In order to get down to an Accession, you will need four levels, as in "
 "this example:"
 msgstr ""
+"Para bajar hasta una Accesión, necesitarás cuatro niveles, como en este "
+"ejemplo:"
 
 #: ../../goal.rst:164
 msgid ""
@@ -2360,6 +2383,9 @@ msgid ""
 " at the moment Ghini initializes it. So all you need is adding Species "
 "and Accessions, in this order."
 msgstr ""
+"Un conjunto bastante completo de familias y géneros se inserta en la base de "
+"datos al momento de su inicialización. Así que todo lo que necesitas es "
+"añadir especies y accesiones, en este orden."
 
 #: ../../goal.rst:168
 msgid ""
@@ -2367,10 +2393,13 @@ msgid ""
 " garden, you need to describe this \"somewhere\" digitally, as a Location"
 " in the garden."
 msgstr ""
+"Al colocar una planta física (perteneciente a una accesión) en algún lugar "
+"en el jardín, necesita describir digitalmente este \"algún lugar\", como una "
+"ubicación en el jardín."
 
 #: ../../goal.rst:177
 msgid "Highlights"
-msgstr ""
+msgstr "Puntos destacados"
 
 #: ../../goal.rst:178
 msgid "not-so-brief list of highlights, meant to whet your appetite."
@@ -2840,7 +2869,7 @@ msgstr ""
 
 #: ../../index.rst:17
 msgid "Statements"
-msgstr ""
+msgstr "Declaraciones"
 
 #: ../../index.rst:26
 msgid "Installing Ghini"
@@ -2852,7 +2881,7 @@ msgstr ""
 
 #: ../../index.rst:50
 msgid "Cookbook"
-msgstr ""
+msgstr "Recetario"
 
 #: ../../index.rst:58
 msgid "Administration"
@@ -3354,6 +3383,8 @@ msgid ""
 "We're done with the dependecies, now we can download and run the batch "
 "file:"
 msgstr ""
+"Hemos terminado con las dependencias, ahora podemos descargar y ejecutar el "
+"archivo batch:"
 
 #: ../../installing.rst:259
 #, fuzzy
@@ -3370,12 +3401,16 @@ msgid ""
 "Please don't just follow the above link.  Instead: right click, save link"
 " as..."
 msgstr ""
+"Por favor, no siga el enlace anterior.  En su lugar: clic derecho, guardar "
+"enlace como..."
 
 #: ../../installing.rst:265
 msgid ""
 "Also make sure you don't let Windows convert the script to a text "
 "document."
 msgstr ""
+"También asegúrese no dejar que Windows convierta el script en un documento "
+"de texto."
 
 #: ../../installing.rst:269
 msgid ""
@@ -3393,6 +3428,9 @@ msgid ""
 "your computer will be busy during a couple of minutes, showing you what "
 "it is doing."
 msgstr ""
+"Si instaló todo como se describe aquí, lo primero que verá al iniciar el "
+"script de instalación es una ventana como esta y la computadora estará "
+"ocupada durante un par de minutos, mostrando lo que está haciendo."
 
 #: ../../installing.rst:284
 #, fuzzy
@@ -3407,31 +3445,28 @@ msgstr ""
 "1.0, en seguida crea un entorno virtual en que finalmente instala ghini."
 
 #: ../../installing.rst:289
-#, fuzzy
 msgid ""
 "You can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
-"también puede ejecutar '' devinstall.bat'' pasando como argumento la "
-"parte numérica de la línea de producción que desea seguir."
+"también puede ejecutar ``devinstall.bat`` pasando como argumento la parte "
+"numérica de la línea de producción que desea seguir."
 
 #: ../../installing.rst:292
-#, fuzzy
 msgid ""
 "This is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
-"Este es el último paso de la instalación que depende, en gran medida, en "
-"un trabajo conexión a internet."
+"Este es el último paso de la instalación que depende, fuertemente, en una "
+"conexión a internet."
 
 #: ../../installing.rst:295
-#, fuzzy
 msgid ""
 "The operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
-"la operación puede tardar varios minutos en completarse, dependiendo de "
-"la velocidad de tu conexión a internet."
+"La operación puede tardar hasta unos minutos, dependiendo de la velocidad de "
+"la conexión a internet."
 
 #: ../../installing.rst:298
 msgid ""
@@ -3964,7 +3999,7 @@ msgstr "Tipo de resultado"
 #: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
 #: ../../searching.rst:56
 msgid "name"
-msgstr ""
+msgstr "nombre"
 
 #: ../../searching.rst:59
 msgid ""
@@ -4319,6 +4354,9 @@ msgid ""
 "the Query Builder does not know how to produce them. Instead of ``False``"
 " type ``0``, and instead of ``True`` type ``1``."
 msgstr ""
+"No tenemos literales ``False`` y ``True``. Estos son valores con tipo, y el "
+"generador de consultas no sabe cómo producirlos. En lugar de ``False`` "
+"escriba ``0`` y en lugar de ``True`` escriba ``1``."
 
 #: ../../searching.rst:253
 msgid "Query Grammar"
@@ -4665,7 +4703,6 @@ msgstr ""
 "pidió. Brett hizo adorno de una idea, liberando bajo la licencia GPL."
 
 #: ../../statements.rst:15
-#, fuzzy
 msgid ""
 "After some years of stagnation Mario Frasca took responsibility of "
 "updating Bauble, rebranded it to Ghini, in honour of Luca Ghini, started "
@@ -4673,11 +4710,11 @@ msgid ""
 "is now Mario Frasca writing this, enhancing the software, looking for "
 "users, requesting feedback..."
 msgstr ""
-"Después de algunos años de estancamiento que Frasca Mario asumió la "
-"responsabilidad de actualización de chuchería, rebautizado a Ghini, en "
-"honor a Luca Ghini, comenzó adocating, viajar, distribuir, desarrollar, "
-"documentar, y ahora es Mario Frasca escribiendo esto, mejorar el "
-"software, buscando usuarios, solicitando retroalimentación..."
+"Después de algunos años de estancamiento Frasca Mario asumió la "
+"responsabilidad de actualización de Bauble, rebautizado a Ghini, en honor a "
+"Luca Ghini, comenzó promoverlo, viajar, distribuir, desarrollar, documentar, "
+"y ahora es Mario Frasca escribiendo esto, mejorando el software, buscando "
+"usuarios, solicitando retroalimentación..."
 
 #: ../../statements.rst:21
 msgid ""
@@ -4960,9 +4997,8 @@ msgstr ""
 "de datos."
 
 #: ../../use_cases-jbq.rst:68
-#, fuzzy
 msgid "numeric overview"
-msgstr "Resumen numérico"
+msgstr "resumen numérico"
 
 #: ../../use_cases-jbq.rst:71
 msgid ""
@@ -5678,7 +5714,7 @@ msgstr "Esto se describe en el manual, es muy útil, no se olvide de él."
 
 #: ../../use_cases-jbq.rst:436
 msgid "Let the database fit the garden"
-msgstr ""
+msgstr "Que la base de datos refleje lo que es el jardín"
 
 #: ../../use_cases-jbq.rst:438
 msgid ""
@@ -6244,6 +6280,8 @@ msgid ""
 "If we had a mobile app, we would just upload the info to the server and "
 "we would be done."
 msgstr ""
+"Teniendo esa aplicación móvil, sólo sería cargar la información en el "
+"servidor y ya estaríamos."
 
 #: ../../use_cases-jbq.rst:706
 msgid ""
@@ -6328,6 +6366,10 @@ msgid ""
 " as few objects as possible. The most fine-tuned search is the one based "
 "on plant number: you know the code, you get one object."
 msgstr ""
+"Al buscar con el fin de editar, usted quiere ser muy específico, y "
+"seleccionar el número menor posible de objetos. La búsqueda más afinada es "
+"la basada en el número de la planta: se conoce el código, se obtiene un "
+"objeto."
 
 #: ../../use_cases-jbq.rst:756
 msgid "If your plant is not there, the screen would look like this:"
@@ -6400,6 +6442,9 @@ msgid ""
 "but we don't manage to quickly think of a search query that would group "
 "all that we need and exclude all we do not need."
 msgstr ""
+"A veces queremos ejecutar la misma acción sobre objetos del mismo tipo, pero "
+"no podemos pensar rápidamente en una consulta que agrupe todo lo que "
+"necesitamos y deje por fuera lo que no necesitamos."
 
 #: ../../use_cases-jbq.rst:801
 msgid ""
@@ -6407,6 +6452,9 @@ msgid ""
 "all objects in the selection under a new temporary tag. Let's say we call"
 " it \"temporary\"."
 msgstr ""
+"Se trata de un posible uso de los **Tag**.  Comenzamos con una selección, y "
+"ponemos en un Tag temporal todos los objetos en la selección. Supongamos "
+"llamarlo \"temporal\"."
 
 #: ../../use_cases-jbq.rst:805
 msgid ""
@@ -6501,7 +6549,7 @@ msgstr "Para crear un nuevo"
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Permisos"
 
 #: ../../users.rst:17
 msgid "Ghini allows read, write and execute permissions."
