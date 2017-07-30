@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-29 19:57-0500\n"
-"PO-Revision-Date: 2017-07-30 09:08+0000\n"
+"PO-Revision-Date: 2017-07-30 19:09+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
@@ -1749,10 +1749,15 @@ msgid ""
 " same taxon, are of the same propagule type (or treatment), were received"
 " from the same source, were received at the same time."
 msgstr ""
+"Редактор приєднання дозволяє додавати приєднання до певного виду. У Ghini "
+"приєднання представляє собою групу рослин або клонів, що мають один і той же "
+"таксон, мають один і той же тип ростка (або обробки), отримані з одного "
+"джерела, отримані одночасно."
 
 #: ../../editing.rst:134
 msgid "Choose the Taxon name, add one if you forgot to do that in advance."
 msgstr ""
+"Виберіть назву Таксона, додайте одну, якщо забули це зробити заздалегідь."
 
 #: ../../editing.rst:136
 msgid ""
@@ -1762,10 +1767,15 @@ msgid ""
 "florentina* in the taxon name, identification qualifier 'cf.', qualified "
 "rank 'species'."
 msgstr ""
+"Ви можете відзначати невизначеність у ідентифікації, додавши класифікатор "
+"ідентифікації у відповідному ранзі, так що ви можете, наприклад, мати "
+"рослину, яка спочатку ідентифікувалась, як * Iris * cf. *florentina* "
+"вибравши *Iris florentina* в імені таксона, класифікатор ідентифікації "
+"'cf.', кваліфікований ранг 'species'."
 
 #: ../../editing.rst:141
 msgid "Type the Accession ID, preferably also the Quantity received."
-msgstr ""
+msgstr "Тип ID приєднання, бажано також Кількість отриманих."
 
 #: ../../editing.rst:145
 msgid "Accession Source"
@@ -1778,10 +1788,14 @@ msgid ""
 "choose \"Garden Propagation\", which is placed as a default first item in"
 " the list of contacts."
 msgstr ""
+"Джерело приєднань дає змогу додавати додаткову інформацію про те, звідки "
+"взяли приєднання. Виберіть контакт у розкривному списку або виберіть  \""
+"Garden Propagation\", який розміщений як перший пункт за замовчуванням в "
+"списку контактів."
 
 #: ../../editing.rst:152
 msgid "A Garden Propagation is the result of successful Propagation."
-msgstr ""
+msgstr "Garden Propagation є результатом успішного розповсюдження."
 
 #: ../../editing.rst:154
 msgid ""
@@ -1791,6 +1805,11 @@ msgid ""
 "is the parent plant and choose among the still not completely accessed "
 "propagations the one you intend to add as an accession in your database."
 msgstr ""
+"При доступі до матеріалу з Garden Propagation, ви спочатку залиште першу "
+"вкладку (Загальні) і почніть з другої вкладки (Джерело). Виберіть в якості "
+"контакту \"Garden Propagation\", вкажіть, яка рослина є материнською "
+"рослиною і виберіть серед ще не повністю доступних розповсюджень ту, яку ви "
+"плануєте додати як приєднання до вашої бази даних."
 
 #: ../../editing.rst:160
 msgid ""
@@ -1800,6 +1819,11 @@ msgid ""
 "Initial quantity (in case not all plants go in the same accession). The "
 "Type of Material, inferred from the propagation type."
 msgstr ""
+"Після вибору розповсюдження програмне забезпечення встановить декілька полів "
+"на вкладці Загальні, які ви можете переглянути. Таксон (можливо, вам вдалося "
+"отримати щось дещо інше, ніж материнську рослину). Початкова кількість (у "
+"випадку, якщо не всі рослини переходять до одного приєднання). Тип "
+"матеріалу, що випливає з типу розповсюдження."
 
 #: ../../editing.rst:170 ../../use_cases-jbq.rst:530
 #: ../../use_cases-jbq.rst:565
@@ -1812,10 +1836,12 @@ msgid ""
 "collection. A plant belongs to an accession, and it has a specific "
 "location."
 msgstr ""
+"``Plant`` в базі даних Ghini описує окрему рослину у вашій колекції. Рослина "
+"належить до приєднання, і вона має своє місце розташування."
 
 #: ../../editing.rst:176
 msgid "Creating multiple plants"
-msgstr ""
+msgstr "Створення декількох рослин"
 
 #: ../../editing.rst:178
 msgid ""
@@ -1920,7 +1946,7 @@ msgstr "Редактор Розташування"
 
 #: ../../editing.rst:225
 msgid "danger zone"
-msgstr ""
+msgstr "небезпечна зона"
 
 #: ../../editing.rst:227
 msgid ""
@@ -1936,7 +1962,7 @@ msgstr ""
 
 #: ../../goal.rst:2
 msgid "Ghini's goals and highlights"
-msgstr ""
+msgstr "Цілі Ghini та основні моменти"
 
 #: ../../goal.rst:4
 msgid ""
@@ -1944,22 +1970,30 @@ msgid ""
 "trust that if you manage a botanic collection, you will find Ghini overly"
 " useful and we hope that this page will convince you about it."
 msgstr ""
+"Повинні ви використовувати це програмне забезпечення? Це питання для вас, "
+"щоб відповісти. Ми віримо, що якщо ви керуєте ботанічною колекцією, ви "
+"знайдете Ghini досить корисним, і ми сподіваємось, що ця сторінка переконає "
+"вас у цьому."
 
 #: ../../goal.rst:8
 msgid ""
 "This page shows how Ghini makes software meet the needs of a botanic "
 "garden."
 msgstr ""
+"Ця сторінка показує, як Ghini робить програмне забезпечення задовольняє "
+"потреби ботанічного саду."
 
 #: ../../goal.rst:10
 msgid ""
 "If you already know, and all you want is to do something practical, check"
 " our `user-contributed recipes <use_cases.html>`_."
 msgstr ""
+"Якщо ви вже знаєте, і все, що вам потрібно, це робити щось практичне, "
+"ознайомтесь з нашими `user-contributed recipes <use_cases.html>`_."
 
 #: ../../goal.rst:13
 msgid "Botanic Garden"
-msgstr ""
+msgstr "Ботанічний сад"
 
 #: ../../goal.rst:15
 msgid ""
@@ -1970,6 +2004,11 @@ msgid ""
 "the display, cultivation, and enjoyment of plants and other forms of "
 "nature.«"
 msgstr ""
+"Згідно з Вікіпедією, »Ботанічний сад - це сад, присвячений збиранню, "
+"вирощуванню та виведенню широкого спектру рослин, позначених їхніми "
+"ботанічними іменами«, і, як вважає Вікіпедія, »сад є запланованим місцем , "
+"як правило, на відкритому повітрі, відведеному для відображення, вирощування "
+"та насолоди рослинами та іншими формами природи.«"
 
 #: ../../goal.rst:21
 msgid ""
@@ -1977,18 +2016,21 @@ msgid ""
 "its dynamic, the activities to which the garden is dedicated, activities "
 "which makes us call the garden a botanic garden."
 msgstr ""
+"Таким чином, ми маємо в ботанічному саду як фізичний простір, сад, так і "
+"його динаміку, діяльність, до якої присвячений сад, діяльність, яка змушує "
+"нас називати сад ботанічним садом."
 
 #: ../../goal.rst:27
 msgid "**the physical garden**"
-msgstr ""
+msgstr "**фізичний сад**"
 
 #: ../../goal.rst:31
 msgid "**collection related activities in the garden**"
-msgstr ""
+msgstr "**пов'язані з колекцією роботи в саду**"
 
 #: ../../goal.rst:36
 msgid "Botanic Garden Software"
-msgstr ""
+msgstr "Ботанічний сад програмне забезпечення"
 
 #: ../../goal.rst:38
 msgid ""
@@ -1998,16 +2040,23 @@ msgid ""
 "activities for the benefit of the user«, or, in short, »designed to help "
 "people perform an activity«."
 msgstr ""
+"З протилежного боку нашого міркування ми маємо прикладну програму Ghini, і "
+"знову цитуючи Вікіпедію »прикладна програма є комп'ютерною програмою, "
+"призначена для виконання групи узгоджених функцій, завдань або діяльності в "
+"інтересах користувача« або , коротше кажучи, »призначена, щоб допомогти "
+"людям виконувати свою діяльність«."
 
 #: ../../goal.rst:44
 msgid ""
 "Data and algorithms within Ghini have been designed to represent the "
 "physical space and the dynamic of a botanic garden."
 msgstr ""
+"Дані та алгоритми в межах Ghini були розроблені, щоб відобразити фізичний "
+"простір та динаміку ботанічного саду."
 
 #: ../../goal.rst:49 ../../searching.rst:160
 msgid "**core structure of Ghini's database**"
-msgstr ""
+msgstr "**основна структура бази даних Ghini**"
 
 #: ../../goal.rst:51
 msgid ""
@@ -2015,6 +2064,9 @@ msgid ""
 "blocks are those relative to objects you definitely need insert in the "
 "database."
 msgstr ""
+"На наведеному вище малюнку, спрощений погляд на базу даних, виділені блоки є "
+"тими, що відносяться до об'єктів, які вам обов'язково потрібно вставити в "
+"базу даних."
 
 #: ../../goal.rst:55
 msgid ""
@@ -2023,6 +2075,9 @@ msgid ""
 "information, then step to administering your **Collection**, and finally "
 "consider the physical **Garden**."
 msgstr ""
+"Ми виділяємо три основні розділи в базі даних. Почніть читання графіки з "
+"правої сторони, з відповідною інформацією **Таксономія**, тоді крок до "
+"адміністрування **Колекція**, і нарешті, розглянемо фізичний **Сад**."
 
 #: ../../goal.rst:60
 msgid ""
@@ -2030,10 +2085,13 @@ msgid ""
 "Following its links to other database objects lets us better understand "
 "the structure:"
 msgstr ""
+"Центральним елементом з точки зору Ghini є ``Приєднання``. Після посилання "
+"на інші об'єкти бази даних ми зможемо краще зрозуміти структуру:"
 
 #: ../../goal.rst:63
+#, fuzzy
 msgid "**Accession links Planting to Species**"
-msgstr ""
+msgstr "**Посилання приєднання Посадка до видів**"
 
 #: ../../goal.rst:65
 msgid ""
@@ -2046,6 +2104,13 @@ msgid ""
 "one ``Accession``, each ``Species`` may have multiple ``Accessions`` "
 "relating to it."
 msgstr ""
+"``Приєднання`` являє собою дію одержання рослинного матеріалу в саду. Таким "
+"чином, ``Приєднання`` є абстрактним поняттям, воно пов'язує фізичне життя з "
+"``Насадженнями`` —групи рослин поміщаються кожна у ``місце`` в саду— до "
+"відповідного ``Виду``. ``Приєднання`` має нуль або більше ``Насаджень``, "
+"пов'язаних з ним (0..n), і це завжди дорівнює 1 ``Виду``. Кожне "
+"``Насадження`` належить рівно одному ``Приєднанню``, кожен ``Вид`` може мати "
+"декілька ``Приєднань``, пов'язаних з ним."
 
 #: ../../goal.rst:74
 msgid ""
@@ -2054,12 +2119,16 @@ msgid ""
 "``Accession`` consistently connects all its ``Plantings`` to the "
 "``Species``."
 msgstr ""
+"``Приєднання`` залишається в базі даних, навіть якщо всі його ``Насадження`` "
+"були вилучені, продані або загинули. Визначення ``Видів`` з  `` Приєднання`` "
+"послідовно пов'язує всі його ``Насадження`` до `` Видів``."
 
 #: ../../goal.rst:79
 msgid "**Accession at the base of the history of your plants**"
-msgstr ""
+msgstr "**Приєднання на основі історії ваших рослин**"
 
 #: ../../goal.rst:81
+#, fuzzy
 msgid ""
 "``Propagations`` and ``Contacts`` provide plant material for the garden; "
 "this information is optional and smaller collectors might prefer to leave"
@@ -2069,10 +2138,17 @@ msgid ""
 "``Accessions`` per ``Propagation`` (0..n). Also a ``Contact`` may provide"
 " zero or more ``Accessions`` (0..n)."
 msgstr ""
+"``Розмноження`` та ``Контакти`` забезпечують рослинний матеріал для саду; ця "
+"інформація є необов'язковою, і менші колекціонери можуть віддати перевагу "
+"залишити це в стороні. Процес ``Розповсюдження`` може виявитися невдалим, у "
+"більшості випадків це призведе точно до одного приєднання, але це також може "
+"призвести дещо інший таксонів, тому база даних дозволяє нуль або більше "
+"``Приєднань`` за ``Розповсюдження`` (0..n). Також ``Контакт`` може надавати "
+"нуль або більше ``Приєднання`` (0..n)."
 
 #: ../../goal.rst:88
 msgid "**Accession and Verification opinions**"
-msgstr ""
+msgstr "**Приєднання і верифікація думки**"
 
 #: ../../goal.rst:90
 msgid ""
@@ -2080,10 +2156,13 @@ msgid ""
 " ``Accession`` belongs, by providing a ``Verification``, signing it, and "
 "stating the applicable level of confidence."
 msgstr ""
+"Спеціалісти можуть сформулювати свою думку щодо ``Видів``, до яких належить "
+"``Приєднання``, шляхом надання ``Верифікації``, підписання та встановлення "
+"відповідного рівня довіри."
 
 #: ../../goal.rst:94
 msgid "**Accessing your own Propagations**"
-msgstr ""
+msgstr "**Приєднання власних Розповсюджень**"
 
 #: ../../goal.rst:96
 msgid ""
