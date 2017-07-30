@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-29 19:57-0500\n"
-"PO-Revision-Date: 2017-07-29 18:03+0000\n"
+"PO-Revision-Date: 2017-07-30 09:08+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -396,12 +397,16 @@ msgid ""
 " difficult once you know how to do that. First of all, add weblate as "
 "remote::"
 msgstr ""
+"Те, що відбувається: вступ у конфлікт. Вирішити конфлікти не складно, коли "
+"ви знаєте, як це зробити. Перш за все, додати веб-сайт як віддалений::"
 
 #: ../../building.rst:131
 msgid ""
 "Then make sure we are in the correct repository, on the correct branch, "
 "update the remote, merge with it::"
 msgstr ""
+"Потім переконайтеся, що ми знаходимося в правильному сховищі, на правильній "
+"гілці, оновіть дистанційне керування, злийте з ним::"
 
 #: ../../building.rst:138
 msgid ""
@@ -797,6 +802,11 @@ msgid ""
 "parameter and returning a value, to replace the two functions in "
 "``utils``. The test function now looks like this::"
 msgstr ""
+"і ми захоплюємо ``partial`` з стандартного модуля ``functools``, частково "
+"застосувати вищенаведене `` mockfunc``, залишивши тільки ``msg`` "
+"невизначеним, і використовуйте цю часткову програму, яка є функцією, що "
+"приймає один параметр і повертає значення, замінити дві функції в ``utils``. "
+"Тестова функція тепер виглядає так:"
 
 #: ../../building.rst:354
 msgid ""
@@ -804,16 +814,19 @@ msgid ""
 "that ``yes_no_dialog`` was invoked, with the correct message parameter, "
 "that Arecaceae is still there::"
 msgstr ""
+"Тестовий розділ перевіряє, що `message_details_dialog`` не було викликано, "
+"що ``yes_no_dialog`` було викликано, з правильним параметром повідомлення, "
+"що Arecaceae все ще існує::"
 
 #: ../../building.rst:370
 msgid "And so on"
-msgstr ""
+msgstr "І так далі"
 
 #: ../../building.rst:372
 msgid ""
 "`there are two kinds of people, those who complete what they start, and "
 "so on`"
-msgstr ""
+msgstr "'Є два види людей, ті, хто завершує те, що вони починають, і так далі'"
 
 #: ../../building.rst:375
 msgid ""
@@ -822,6 +835,10 @@ msgid ""
 "specifying ``result=True`` in the partial application of the generic "
 "``mockfunc``)."
 msgstr ""
+"Наступне тестування майже однакове, з тією різницею, що "
+"``utils.yes_no_dialog`` повинен повертати ``True`` (це ми досягаємо, "
+"вказавши ``result = True`` в частковому застосуванні загальної форми "
+"``mockfunc`` `)."
 
 #: ../../building.rst:380
 msgid ""
@@ -829,16 +846,20 @@ msgid ""
 "``True``, and there should be no Arecaceae Family in the database any "
 "more::"
 msgstr ""
+"За допомогою цієї дії значення, яке повертає ``remove_callback``, має бути "
+"``True``, і не повинно більше бути сім'ї Arecaceae в базі даних::"
 
 #: ../../building.rst:410
 msgid ""
 "have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
 "other two test functions."
 msgstr ""
+"подивіться на commit 734f5bb9fffc2f4bd22578fcee1802c8682ca83 для двох інших "
+"тестових функцій."
 
 #: ../../building.rst:414
 msgid "Testing logging"
-msgstr ""
+msgstr "Реєстрація тестування"
 
 #: ../../building.rst:416
 msgid ""
@@ -848,6 +869,11 @@ msgid ""
 "associate it to the root logger.  The ``tearDown`` method takes care of "
 "removing it."
 msgstr ""
+"Наші об'єкти ``bauble.test.BaubleTestCase`` використовують обробники класу "
+"``bauble.test.MockLoggingHandler``. Кожен раз, коли починається "
+"індивідуальне тестування, метод ``setUp`` створить новий ``handler`` І "
+"пов'язати його з кореневим реєстратором. Метод ``tearDown`` дбає про його "
+"видалення."
 
 #: ../../building.rst:421
 #, python-format
@@ -860,28 +886,37 @@ msgid ""
 "according to whatever formatter you associate to the handler, defaulting "
 "to ``logging.Formatter(\"%(message)s\")``."
 msgstr ""
+"Ви можете перевірити присутність конкретних повідомлень журналу в `` "
+"self.handler.messages``. `` Messages`` - словник, спочатку порожній, з двома "
+"рівнями індексації. По-перше, ім'я реєстратора, який видає журнал "
+"реєстрації, потім ім'я рівня запису журналу. Ключі створюються, коли це "
+"необхідно. Значення містить списки повідомлень, відформатовані за будь-яким "
+"форматом, який ви зв'язуєте з обробником, за умовчанням для ``"
+"logging.Formatter (\"%(message)s\")``."
 
 #: ../../building.rst:429
 msgid ""
 "You can explicitly empty the collected messages by invoking "
 "``self.handler.clear()``."
 msgstr ""
+"Ви можете явним чином порожнім зібраним повідомленням викликати "
+"``self.handler.clear()``."
 
 #: ../../building.rst:434
 msgid "Putting all together"
-msgstr ""
+msgstr "Введення всіх разом"
 
 #: ../../building.rst:436
 msgid "From time to time you want to activate the test class you're working at::"
-msgstr ""
+msgstr "Час від часу ви хочете активізувати тестовий клас, з яким ви працюєте::"
 
 #: ../../building.rst:440
 msgid "And at the end of the process you want to update the statistics::"
-msgstr ""
+msgstr "І в кінці процесу ви хочете оновити статистику::"
 
 #: ../../building.rst:446
 msgid "Structure of user interface"
-msgstr ""
+msgstr "Структура користувацького інтерфейсу"
 
 #: ../../building.rst:448
 msgid ""
@@ -890,6 +925,10 @@ msgid ""
 "**Model** is a SQLAlchemy database object, but we also have interface "
 "elements where there is no corresponding database model.  In general:"
 msgstr ""
+"Інтерфейс користувача побудований відповідно до архітектурного шаблону "
+"**Model** — **View** — **Presenter**. Для більшості інтерфейсів **Model** є "
+"об'єктом бази даних SQLAlchemy, але у нас також є елементи інтерфейсу, де "
+"немає відповідної моделі бази даних. В загальному:"
 
 #: ../../building.rst:453
 msgid ""
@@ -900,6 +939,12 @@ msgid ""
 "**glade** file name and the root widget name, then hand this instance "
 "over to the **presenter** constructor."
 msgstr ""
+"**View** описується як частина файлу **glade**. Це повинно включати "
+"асоціації зворотного виклику сигналу та ListStore-TreeView. Просто повторно "
+"використовуйте базовий клас ``GenericEditorView``, визначений у "
+"``bauble.editor``. Коли ви створюєте екземпляр цього загальнодоступного "
+"класу, передайте його назву файлу **glade** та ім'я root-віджет, а потім "
+"передайте цей екземпляр класу конструктору **presenter**."
 
 #: ../../building.rst:460
 msgid ""
@@ -909,12 +954,19 @@ msgid ""
 "<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, for"
 " example:"
 msgstr ""
+"У файлі поля, у розділі ``action-widgets``, що закриває опис об'єкта "
+"GtkDialog, переконайтеся, що кожен елемент ``action-widget`` має дійсне "
+"``response`` значення. Використовуйте `дійсні значення GtkResponseType "
+"<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, "
+"наприклад:"
 
 #: ../../building.rst:471
 msgid ""
 "There is no easy way to unit test a subclassed view, so please don't "
 "subclass views, there's really no need to."
 msgstr ""
+"Існує непростий спосіб об'єднати тестування представленням підкласу, тому, "
+"будь ласка, не переглядайте підклас, там насправді немає потреби."
 
 #: ../../building.rst:474
 msgid ""
@@ -922,12 +974,17 @@ msgid ""
 "activated on which signal.  The generic Presenter class offers generic "
 "callbacks which cover the most common cases."
 msgstr ""
+"У файлі поля, кожен вхідний віджет повинен визначити, який обробник "
+"активується на який сигнал. Загальний клас Presenter пропонує загальні "
+"зворотні виклики, які охоплюють найбільш поширені випадки."
 
 #: ../../building.rst:478
 msgid ""
 "GtkEntry (one-line text entry) will handle the ``changed`` signal, with "
 "either ``on_text_entry_changed`` or ``on_unique_text_entry_changed``."
 msgstr ""
+"GtkEntry (однорядкове введення) буде обробляти сигнал ``changed``, з будь-"
+"яким ``on_text_entry_changed`` або ``on_unique_text_entry_changed``."
 
 #: ../../building.rst:480
 msgid ""
@@ -938,6 +995,12 @@ msgid ""
 "receives the change. This is a workaroud for an `unresolved bug in GTK "
 "<http://stackoverflow.com/questions/32106765/>`_."
 msgstr ""
+"GtkTextView: пов'язати його з GtkTextBuffer. Для обробки сигналу ``changed`` "
+"на GtkTextBuffer, ми повинні визначити обробник, який викликає загальний "
+"``on_textbuffer_changed``, єдина роль для цієї функції полягає в тому, щоб "
+"передати нашому загальному обробнику ім'я атрибуту моделі, який отримує "
+"зміну. Це робочий апарат для `невирішеної помилки в GTK "
+"<http://stackoverflow.com/questions/32106765/>`_."
 
 #: ../../building.rst:486
 msgid ""
@@ -946,6 +1009,10 @@ msgid ""
 "of the generic ``GenericEditorView`` class, but please invoke it from the"
 " **presenter**."
 msgstr ""
+"GtkComboBox з перекладеними текстами не може бути легко оброблено з glade "
+"файлу, тому ми навіть не намагаємося. Використовуйте метод "
+"``init_translatable_combo`` загального класу ``GenericEditorView``, але будь "
+"ласка, введіть його з **presenter **."
 
 #: ../../building.rst:491
 msgid ""
@@ -953,30 +1020,37 @@ msgid ""
 "interaction, the **model** is just a passive data container, it does "
 "nothing more than to let the **presenter** modify it."
 msgstr ""
+"**Model** - це лише об'єкт з відомими атрибутами. У цій взаємодії **model** "
+"є просто пасивним контейнером даних, це не більше, ніж дозволити "
+"**presenter**  змінити це."
 
 #: ../../building.rst:495
 msgid "The subclassed **Presenter** defines and implements:"
-msgstr ""
+msgstr "Підклас **Presenter** визначає та реалізує:"
 
 #: ../../building.rst:497
 msgid ""
 "``widget_to_field_map``, a dictionary associating widget names to name of"
 " model attributes,"
 msgstr ""
+"``widget_to_field_map``, словник, що пов'язує імена віджетів з назвою "
+"атрибутів моделі,"
 
 #: ../../building.rst:499
 msgid ""
 "``view_accept_buttons``, the list of widget names which, if activated by "
 "the user, mean that the view should be closed,"
 msgstr ""
+"``view_accept_buttons``, список імен віджетів, які, якщо вони активуються "
+"користувачем, означають, що вигляд повинен бути закритий,"
 
 #: ../../building.rst:501
 msgid "all needed callbacks,"
-msgstr ""
+msgstr "всі необхідні зворотні виклики,"
 
 #: ../../building.rst:502
 msgid "optionally, it plays the **model** role, too."
-msgstr ""
+msgstr "за бажанням, це також відтворює **model**."
 
 #: ../../building.rst:504
 msgid ""
@@ -986,14 +1060,20 @@ msgid ""
 "**view** is closed successfully, or rolls them back if the **view** is "
 "canceled. (this behaviour is influenced by the parameter ``do_commit``)"
 msgstr ""
+"**presenter** постійно оновлює **model** відповідно до змін у **view**. Якщо "
+"**model** відповідає об'єкту бази даних, **presenter** зобов'язує всі "
+"**model** оновити базу даних, коли **view** успішно закрито або повертається "
+"назад, якщо **view** скасовано (ця поведінку залежить від параметра "
+"``do_commit``)"
 
 #: ../../building.rst:510
 msgid ""
 "If the **model** is something else, then the **presenter** will do "
 "something else."
-msgstr ""
+msgstr "Якщо **model** є чимось іншим, то **presenter** зробить щось інше."
 
 #: ../../building.rst:515
+#, fuzzy
 msgid ""
 "A well behaved **presenter** uses the **view** api to query the values "
 "inserted by the user or to forcibly set widget statuses. Please do not "
@@ -1001,6 +1081,11 @@ msgid ""
 "directly handle fields of ``view.widgets``. By doing so, these presenters"
 " prevents us from writing unit tests."
 msgstr ""
+"Хороша поведінка ** ведучий ** використовує ** view ** api, щоб запитати "
+"значення, вставлені користувачем, або насильно встановити статуси віджетів. "
+"Будь ласка, не навчіться з практики наших невірних ведучих, деякі з яких "
+"безпосередньо обробляють поля 'view.widgets'. Таким чином, ці доповідачі "
+"перешкоджають нам створити одиничні тести."
 
 #: ../../building.rst:521
 msgid ""
@@ -1009,22 +1094,29 @@ msgid ""
 "``MockView`` class, that you can use when writing tests for your "
 "presenters."
 msgstr ""
+"Базовий клас для ведучого, ``GenericEditorPresenter``, визначений у "
+"``bauble.editor``, реалізує багато корисних загальних зворотних викликів. "
+"Існує клас ``MockView``, який ви можете використовувати при написанні тестів "
+"для своїх ведучих."
 
 #: ../../building.rst:526
 msgid "Examples"
-msgstr ""
+msgstr "Приклади"
 
 #: ../../building.rst:528
 msgid ""
 "``Contact`` and ``ContactPresenter`` are implemented following the above "
 "lines.  The view is defined in the ``contact.glade`` file."
 msgstr ""
+"``Contact`` та ``ContactPresenter`` реалізуються за наведеними вище рядками. "
+"Вид визначається у файлі ``contact.glade``."
 
 #: ../../building.rst:531
 msgid ""
 "A good example of Presenter/View pattern (no model) is given by the "
 "connection manager."
 msgstr ""
+"Хорошим приклад шаблону Presenter/View (без model) надає менеджер з'єднань."
 
 #: ../../building.rst:534
 msgid ""
@@ -1033,10 +1125,14 @@ msgid ""
 "JSON export dialog box. The following command will give you a list of "
 "``GenericEditorView`` instantiations::"
 msgstr ""
+"Ми використовуємо той самий архітектурний шаблон для взаємодії, що не "
+"пов'язаний з базою даних, шляхом встановлення ведучого також як модель. Ми "
+"робимо це, наприклад, для діалогового вікна експорту JSON. Наступна команда "
+"дасть вам список ``GenericEditorView`` інстанцій::"
 
 #: ../../building.rst:542
 msgid "Extending Ghini with Plugins"
-msgstr ""
+msgstr "Розширення Ghini з плагінами"
 
 #: ../../building.rst:544
 msgid ""
@@ -1044,6 +1140,9 @@ msgid ""
 "create tables, define custom searchs, add menu items, create custom "
 "commands and more."
 msgstr ""
+"Майже все Ghini розширюється за допомогою плагінів. Плагіни можуть "
+"створювати таблиці, визначати власні пошукові запити, додавати пункти меню, "
+"створювати власні команди та багато іншого."
 
 #: ../../building.rst:548
 msgid ""
@@ -1058,10 +1157,12 @@ msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
 msgstr ""
+"Плагін ``Tag`` є гарним мінімальним прикладом, навіть якщо ``TagItemGUI`` "
+"виходить за рамки моделі архітектури Model-View-Presenter."
 
 #: ../../building.rst:555
 msgid "Plugins structure"
-msgstr ""
+msgstr "Структура плагінів"
 
 #: ../../building.rst:557
 msgid ""
@@ -1071,6 +1172,11 @@ msgid ""
 "distribute and write your own, or write your own plugins that extend or "
 "complete the current Ghini behaviour."
 msgstr ""
+"Ghini є основою для обробки колекцій, і поширюється разом із набором "
+"плагінів, що робить Ghini ботанічним менеджером збору. Але Ghini залишається "
+"рамкою, і ви могли б теоретично видалити всі плагіни, які ми поширюємо та "
+"пишемо власноруч, або напишіть свої власні плагіни, які розширять чи "
+"завершать поточну поведінку Ghini."
 
 #: ../../building.rst:563
 msgid ""
@@ -1078,6 +1184,9 @@ msgid ""
 "Search window. The Search window is an interaction between two objects: "
 "SearchPresenter (SP) and SearchView (SV)."
 msgstr ""
+"Після того як ви вибрали та відкрили з'єднання з базою даних, ви виходите в "
+"вікно пошуку. Вікно пошуку - це взаємодія між двома об'єктами: "
+"SearchPresenter (SP) та SearchView (SV)."
 
 #: ../../building.rst:567
 msgid ""
@@ -1085,12 +1194,17 @@ msgid ""
 "you express through SV. Handling these requests affect the content of SV "
 "and the program status in SP."
 msgstr ""
+"SV - це те, що ви бачите, SP зберігає стан програми та обробляє запити, які "
+"ви висловлюєте через SV. Обробка цих запитів впливає на вміст SV та статус "
+"програми в SP."
 
 #: ../../building.rst:571
 msgid ""
 "The search results shown in the largest part of SV are rows, objects that"
 " are instances of classes registered in a plugin."
 msgstr ""
+"Результати пошуку, відображені у більшій частині SV, є рядками, об'єктами, "
+"що є класами, зареєстрованими у плагіні."
 
 #: ../../building.rst:574
 msgid ""
@@ -1098,6 +1212,9 @@ msgid ""
 "properly behave within the Ghini framework. The Ghini framework reserves "
 "space to pluggable classes."
 msgstr ""
+"Кожне з цих класів повинно реалізовувати певну кількість функцій, щоб "
+"правильно поводитися в рамці Ghini. Система Ghini зберігає простір для "
+"підключених класів."
 
 #: ../../building.rst:578
 msgid ""
@@ -1106,6 +1223,10 @@ msgid ""
 "slot (a gtk.Box) where you can add elements. At any time, at most only "
 "one element in the slot is visible."
 msgstr ""
+"SP знає всі зареєстровані (підключені) класи, вони зберігаються в словнику, "
+"асоціюючи клас із його реалізацією плагінів. SV має слот (gtk.Box), де ви "
+"можете додати елементи. У будь-який час, максимум лише один елемент у слоті "
+"видно."
 
 #: ../../building.rst:583
 msgid ""
@@ -1115,46 +1236,52 @@ msgid ""
 " plugin view), and the MVP pattern is completed by the parent presenter "
 "(SP), again acting as model. To summarize and complete:"
 msgstr ""
+"Плагін визначає один або кілька класів плагінів. Клас плагіна відіграє роль "
+"часткового ведучого (pP - плагін-ведучий), оскільки він реалізує зворотні "
+"виклики, необхідні для відповідного приєднання часткового вигляду в слоті "
+"(pV-plugin view), а шаблон MVP завершується батьківським ведучим (SP ), "
+"знову діючи як модель. Підсумувати і завершити:"
 
 #: ../../building.rst:589
 msgid "SP acts as model,"
-msgstr ""
+msgstr "SP виступає як модель,"
 
 #: ../../building.rst:590
 msgid "the pV partial view is defined in a glade file."
-msgstr ""
+msgstr "частковий вигляд pV визначається у glade файлі."
 
 #: ../../building.rst:591
 msgid "the callbacks implemented by pP are referenced by the glade file."
 msgstr ""
+"зворотні зв'язки, реалізовані за допомогою pP, посилаються на glade файл."
 
 #: ../../building.rst:592
 msgid "a context menu for the SP row,"
-msgstr ""
+msgstr "контекстне меню для рядка SP,"
 
 #: ../../building.rst:593
 msgid "a children property."
-msgstr ""
+msgstr "дочірні власності."
 
 #: ../../building.rst:595
 msgid "when you register a plugin class, the SP:"
-msgstr ""
+msgstr "коли ви реєструєте клас плагіна, SP:"
 
 #: ../../building.rst:597
 msgid "adds the pV in the slot and makes it non-visible."
-msgstr ""
+msgstr "додає pV в слот і робить його невидимим."
 
 #: ../../building.rst:598
 msgid "adds an instance of pP in the registered plugin classes."
-msgstr ""
+msgstr "додає екземпляр pP у зареєстровані класи плагінів."
 
 #: ../../building.rst:599
 msgid "tells the pP that the SP is the model."
-msgstr ""
+msgstr "повідомляє pP, що SP є моделлю."
 
 #: ../../building.rst:600
 msgid "connects all callbacks from pV to pP."
-msgstr ""
+msgstr "з'єднує всі виклики від pV до pP."
 
 #: ../../building.rst:602
 msgid ""
@@ -1162,6 +1289,8 @@ msgid ""
 "action to SP and can request SP that it updates the model and refreshes "
 "the view."
 msgstr ""
+"коли елемент у тригерах pV викликає дію в pP, pP може передати дію SP і може "
+"запитати SP, що він оновлює модель та оновлює представлення даних."
 
 #: ../../building.rst:606
 msgid ""
@@ -1170,12 +1299,17 @@ msgid ""
 "row, and asks the pP to refresh the pV with whatever is relative to the "
 "selected row."
 msgstr ""
+"Коли користувач вибирає рядок в SP, SP ховає все в сполученому слоті і "
+"показує лише один pV відносно типу вибраного рядка, і запитує pP, щоб "
+"оновити pV з будь-яким параметром відносно вибраного рядка."
 
 #: ../../building.rst:610
 msgid ""
 "Apart from setting the visibility of the various pV, nothing needs be "
 "disabled nor removed: an invisible pV cannot trigger events!"
 msgstr ""
+"Окрім встановлення видимості різних pV, нічого не потрібно відключати чи "
+"видаляти: невидиме pv не може викликати події!"
 
 #: ../../building.rst:614
 msgid "bug solving workflow"
@@ -1272,6 +1406,8 @@ msgid ""
 "when you change strings, please make sure that old translations get re-"
 "used."
 msgstr ""
+"коли ви змінюєте рядки, переконайтеся, що старі переклади повторно "
+"використовуються."
 
 #: ../../building.rst:642
 msgid "commit your changes."
@@ -7633,4 +7769,3 @@ msgstr ""
 
 #~ msgid "*Dendrobium* ×'Emma White'"
 #~ msgstr ""
-
