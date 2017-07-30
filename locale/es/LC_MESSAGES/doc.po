@@ -1342,21 +1342,21 @@ msgid ""
 "to have a very clear idea of what it really is, that you noticed. you "
 "open an issue and describe the problem. someone might react with hints."
 msgstr ""
-"mientras que usa el software, usted nota un problema, o tienes una idea "
-"de algo que podría ser mejor, que opinas sobre lo suficiente para tener "
-"una idea muy clara de lo que realmente es, que has notado. abre un tema y"
-" describir el problema. alguien podría reaccionar con notas."
+"si al usar el software, usted nota un problema, o se le occurre "
+"de como mejorar algo, pienselo lo suficiente para perfeccionar "
+"su idea de lo que realmente es, lo que ha notado. Abra un tema y"
+" nos comparta su idea. Alguien podría reaccionar con notas."
 
 #: ../../building.rst:623
 msgid "you open the issues site and choose one you want to tackle."
-msgstr "puede abre el sitio de temas y elige que desea abordar."
+msgstr "puede visitar el sitio de temas y eligir uno que desea abordar."
 
 #: ../../building.rst:624
 msgid ""
 "assign the issue to yourself, this way you are informing the world that "
 "you have the intention to work at it. someone might react with hints."
 msgstr ""
-"asignar el tema a ti mismo, de esta manera que se informa al mundo que "
+"asigne el tema a si mismo, de esta manera informa al mundo que "
 "tiene la intención de trabajar en ello. alguien podría reaccionar con "
 "notas."
 
@@ -1373,8 +1373,8 @@ msgid ""
 "write unit tests and commit them to your branch (please do not push "
 "failing unit tests to github, run ``nosetests`` locally first)."
 msgstr ""
-"escribir pruebas unitarias y comprometerse a su rama (por favor, no "
-"empuje su defecto pruebas unitarias a github, ejecute '' nosetests'' "
+"escribir pruebas unitarias y consignar a su rama (preferiblemente, no "
+"empuje a github pruebas unitarias fallando, ejecute ``nosetests`` "
 "localmente primero)."
 
 #: ../../building.rst:630
@@ -1382,16 +1382,16 @@ msgid ""
 "write more unit tests (ideally, the tests form the complete description "
 "of the feature you are adding or correcting)."
 msgstr ""
-"escribir pruebas unitarias más (idealmente, las pruebas forman la "
-"descripción completa de la función Agregar o corregir)."
+"escribir mas pruebas unitarias (idealmente, las pruebas forman la "
+"descripción completa de la función que está agregando o corrigiendo)."
 
 #: ../../building.rst:632
 msgid ""
 "make sure the feature you are adding or correcting is really completely "
 "described by the unit tests you wrote."
 msgstr ""
-"Asegúrese de que la función se va a agregar o corregir es realmente "
-"completamente descrita por las pruebas de unidad que usted escribió."
+"Asegúrese de que la función que se agrega o corrige es realmente "
+"completamente descrita por las pruebas unitarias que usted escribió."
 
 #: ../../building.rst:634
 msgid ""
@@ -1400,8 +1400,8 @@ msgid ""
 "tests or tests that do not fit on one screen (25 lines of code)."
 msgstr ""
 "Asegúrese de que las pruebas de unidad son atómicas, es decir, que "
-"controle las variaciones en los cambios a lo largo de una sola variable. "
-"no le dé entrada complejo a pruebas unitarias o pruebas que no encajan en"
+"cada una controle efectos de cambios relativos a una sola variable. "
+"no le dé a pruebas unitarias valores de entrada complejos o pruebas que no caben en"
 " una sola pantalla (25 líneas de código)."
 
 #: ../../building.rst:637
@@ -1442,7 +1442,7 @@ msgstr "abrir una solicitud de extracción."
 
 #: ../../building.rst:647
 msgid "publishing to production"
-msgstr "editorial a la producción"
+msgstr "publicar en la linea de producción"
 
 #: ../../building.rst:649
 msgid ""
@@ -1482,7 +1482,7 @@ msgstr ""
 
 #: ../../building.rst:659
 msgid "closing step"
-msgstr "Cierre"
+msgstr "paso final"
 
 #: ../../building.rst:661
 msgid ""
