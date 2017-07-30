@@ -7,18 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-28 18:12-0500\n"
+"POT-Creation-Date: 2017-07-29 19:57-0500\n"
 "PO-Revision-Date: 2017-07-29 18:03+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
+"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -580,10 +579,10 @@ msgid ""
 "user input via yes-no-ok boxes. These functions we can easily replace "
 "with a function mocking the behaviour."
 msgstr ""
-"Наступна функція `` remove_callback`` також активує пару діалогових вікон і "
-"повідомлень, але у формі виклику функції, що запитує вхід користувача через "
-"поля yes-no-ok. Ці функції ми можемо легко замінити функцією, що висміює "
-"поведінку."
+"Наступна функція `` remove_callback`` також активує пару діалогових вікон"
+" і повідомлень, але у формі виклику функції, що запитує вхід користувача "
+"через поля yes-no-ok. Ці функції ми можемо легко замінити функцією, що "
+"висміює поведінку."
 
 #: ../../building.rst:213
 msgid "how to test"
@@ -594,8 +593,8 @@ msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
 msgstr ""
-"Отже, вирішивши, що описувати в одиничному тесті, ми розглянемо код, і ми "
-"бачимо, що це потребує дискримінації пари випадків:"
+"Отже, вирішивши, що описувати в одиничному тесті, ми розглянемо код, і ми"
+" бачимо, що це потребує дискримінації пари випадків:"
 
 #: ../../building.rst:221
 msgid "**parameter correctness**"
@@ -681,11 +680,11 @@ msgid ""
 " FamilyEditor class, which I think should be removed and replaced with a "
 "single function."
 msgstr ""
-"Клас `` FamilyTests`` містить пропущене тестування, і його реалізація буде "
-"дещо роботою, тому що нам потрібно переписати FamilyEditorPresenter, "
-"відокремити його від FamilyEditorView і переглянути, що робити з класом "
-"FamilyEditor, який, на мою думку, повинен бути вилучений і Замінено однією "
-"функцією."
+"Клас `` FamilyTests`` містить пропущене тестування, і його реалізація "
+"буде дещо роботою, тому що нам потрібно переписати FamilyEditorPresenter,"
+" відокремити його від FamilyEditorView і переглянути, що робити з класом "
+"FamilyEditor, який, на мою думку, повинен бути вилучений і Замінено "
+"однією функцією."
 
 #: ../../building.rst:255
 msgid "writing the tests"
@@ -698,8 +697,9 @@ msgid ""
 "most compact code I know for generating an error::"
 msgstr ""
 "Після останнього тесту в класі FamilyTests я додаю чотири випадки, які я "
-"хочу описати, і я переконаний, що вони завершаться невдачею, і оскільки я "
-"ледачий, я пишу найбільш компактний код, який я знаю, для генерації помилки::"
+"хочу описати, і я переконаний, що вони завершаться невдачею, і оскільки я"
+" ледачий, я пишу найбільш компактний код, який я знаю, для генерації "
+"помилки::"
 
 #: ../../building.rst:274
 msgid "One test, step by step"
@@ -734,16 +734,16 @@ msgid ""
 "There's a reason why unit tests are called unit tests. Please never test "
 "two actions in one test."
 msgstr ""
-"Є причина, чому одиничні тести називаються одиничними тестами. Будь-ласка, "
-"ніколи не перевіряйте дві дії в одному тесті."
+"Є причина, чому одиничні тести називаються одиничними тестами. "
+"Будь-ласка, ніколи не перевіряйте дві дії в одному тесті."
 
 #: ../../building.rst:290
 msgid ""
 "So let's describe T₀ for the first test, a database holding a family "
 "without genera::"
 msgstr ""
-"Тож давайте опишемо T₀ для першого тесту, бази даних, що містить родину без "
-"родів::"
+"Тож давайте опишемо T₀ для першого тесту, бази даних, що містить родину "
+"без родів::"
 
 #: ../../building.rst:298
 msgid ""
@@ -772,17 +772,18 @@ msgid ""
 "and whether ``yes_no_dialog`` and ``message_details_dialog`` were invoked"
 " or not."
 msgstr ""
-"Що ж, ми не хочемо просто перевірити, чи був об'єкт Arecaceae видалений, чи "
-"ні, ми також повинні перевірити значення, яке повертає ``remove_callback``, "
-"і чи ``yes_no_dialog`` і `` message_details_dialog`` були викликані чи ні ."
+"Що ж, ми не хочемо просто перевірити, чи був об'єкт Arecaceae видалений, "
+"чи ні, ми також повинні перевірити значення, яке повертає "
+"``remove_callback``, і чи ``yes_no_dialog`` і `` message_details_dialog``"
+" були викликані чи ні ."
 
 #: ../../building.rst:323
 msgid ""
 "A ``lambda`` expression is not enough for this. We do something "
 "apparently more complex, which will make life a lot easier."
 msgstr ""
-"Для цього не вистачає виразу ``lambda``. Ми робимо щось набагато складніше, "
-"що зробить життя набагато простіше."
+"Для цього не вистачає виразу ``lambda``. Ми робимо щось набагато "
+"складніше, що зробить життя набагато простіше."
 
 #: ../../building.rst:326
 msgid "Let's first define a rather generic function::"
@@ -2680,10 +2681,6 @@ msgstr ""
 msgid "Download the `devinstall.sh` script:"
 msgstr "Завантажити `devinstall.sh` скрипт і запустити його::"
 
-#: ../../installing.rst:53
-msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh"
-msgstr ""
-
 #: ../../installing.rst:55
 msgid ""
 "Invoke the script from a terminal window, starting at the directory where"
@@ -4362,7 +4359,7 @@ msgid ""
 "program screen."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:42
+#: ../../use_cases-jbq.rst:44
 msgid ""
 "Occasionally, at the top of the screen an information text will appear, "
 "telling you that a newer version is available on-line."
@@ -4531,10 +4528,6 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:159
 msgid "corresponding search"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:161
-msgid "'016489'"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:164
@@ -4803,10 +4796,6 @@ msgstr ""
 msgid "This allows for queries like:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:342
-msgid "``genus where notes.note=Laeliinae``"
-msgstr ""
-
 #: ../../use_cases-jbq.rst:344
 msgid ""
 "We are very much looking forward to seeing that `issue-9 "
@@ -4977,19 +4966,11 @@ msgid "description"
 msgstr "опис"
 
 #: ../../use_cases-jbq.rst:464
-msgid "CAC-B *x*"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:464
 msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:467
 msgid "Nepenthaceae exibition"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:469
-msgid "IC-*xx*:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:469
@@ -5066,10 +5047,6 @@ msgstr "Види/Таксон"
 #, fuzzy
 msgid "Location"
 msgstr "Розташування"
-
-#: ../../use_cases-jbq.rst:514
-msgid "*Dendrobium* ×'Emma White'"
-msgstr ""
 
 #: ../../use_cases-jbq.rst:514
 msgid "Invernadero 1 (calor)"
@@ -7638,3 +7615,22 @@ msgstr ""
 #~ "in our digital collection, we follow "
 #~ "this suggested practice."
 #~ msgstr ""
+
+#~ msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh"
+#~ msgstr ""
+
+#~ msgid "'016489'"
+#~ msgstr ""
+
+#~ msgid "``genus where notes.note=Laeliinae``"
+#~ msgstr ""
+
+#~ msgid "CAC-B *x*"
+#~ msgstr ""
+
+#~ msgid "IC-*xx*:"
+#~ msgstr ""
+
+#~ msgid "*Dendrobium* ×'Emma White'"
+#~ msgstr ""
+

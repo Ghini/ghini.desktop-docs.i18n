@@ -12,7 +12,7 @@ ALLPODIR=$CHECKOUTDIR/po
 cd $CHECKOUTDIR/doc
 
 # make sure we are working on matching branches
-git branch $(cd $SOURCEDOCDIR; git branch | grep ^\* | cut -b2-)
+git checkout $(cd $SOURCEDOCDIR; git branch | grep ^\* | cut -b2-)
 
 echo '=========================================================================='
 echo "copy/update files from the documentation"

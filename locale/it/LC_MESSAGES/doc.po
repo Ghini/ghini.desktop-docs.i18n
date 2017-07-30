@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-29 16:35-0500\n"
+"POT-Creation-Date: 2017-07-29 19:57-0500\n"
 "PO-Revision-Date: 2017-07-02 22:18+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: it\n"
@@ -2966,14 +2966,6 @@ msgstr "Aprire una finestra di terminale di shell e seguire queste istruzioni."
 msgid "Download the `devinstall.sh` script:"
 msgstr "Scaricare il programmino `devinstall.sh` ed eseguirlo::"
 
-#: ../../installing.rst:53
-#, fuzzy
-msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh"
-msgstr ""
-"Scarica ed esegui `lo script di installazione "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
-" La documentazione può attendere."
-
 #: ../../installing.rst:55
 msgid ""
 "Invoke the script from a terminal window, starting at the directory where"
@@ -4888,7 +4880,7 @@ msgid ""
 "program screen."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:42
+#: ../../use_cases-jbq.rst:44
 msgid ""
 "Occasionally, at the top of the screen an information text will appear, "
 "telling you that a newer version is available on-line."
@@ -5058,10 +5050,6 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:159
 msgid "corresponding search"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:161
-msgid "'016489'"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:164
@@ -5331,10 +5319,6 @@ msgstr ""
 msgid "This allows for queries like:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:342
-msgid "``genus where notes.note=Laeliinae``"
-msgstr ""
-
 #: ../../use_cases-jbq.rst:344
 msgid ""
 "We are very much looking forward to seeing that `issue-9 "
@@ -5505,19 +5489,11 @@ msgid "description"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:464
-msgid "CAC-B *x*"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:464
 msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:467
 msgid "Nepenthaceae exibition"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:469
-msgid "IC-*xx*:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:469
@@ -5594,10 +5570,6 @@ msgstr "Specie / Tassone"
 #, fuzzy
 msgid "Location"
 msgstr "Ubicazioni"
-
-#: ../../use_cases-jbq.rst:514
-msgid "*Dendrobium* ×'Emma White'"
-msgstr ""
 
 #: ../../use_cases-jbq.rst:514
 msgid "Invernadero 1 (calor)"
@@ -7663,5 +7635,27 @@ msgstr "incisione etichette"
 #~ msgstr ""
 
 #~ msgid "Hacer clic en “Aceptar”."
+#~ msgstr ""
+
+#~ msgid "https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh"
+#~ msgstr ""
+#~ "Scarica ed esegui `lo script di "
+#~ "installazione "
+#~ "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
+#~ " La documentazione può attendere."
+
+#~ msgid "'016489'"
+#~ msgstr ""
+
+#~ msgid "``genus where notes.note=Laeliinae``"
+#~ msgstr ""
+
+#~ msgid "CAC-B *x*"
+#~ msgstr ""
+
+#~ msgid "IC-*xx*:"
+#~ msgstr ""
+
+#~ msgid "*Dendrobium* ×'Emma White'"
 #~ msgstr ""
 
