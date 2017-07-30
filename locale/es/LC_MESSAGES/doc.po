@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-07-29 01:45+0000\n"
+"PO-Revision-Date: 2017-07-30 00:47+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/es/>\n"
@@ -635,7 +635,7 @@ msgstr "el usuario no confirma la eliminación"
 
 #: ../../building.rst:221
 msgid "**deleting**"
-msgstr ""
+msgstr "**borrar**"
 
 #: ../../building.rst:220
 msgid "all goes well when deleting the family"
@@ -879,14 +879,13 @@ msgid ""
 "according to whatever formatter you associate to the handler, defaulting "
 "to ``logging.Formatter(\"%(message)s\")``."
 msgstr ""
-"Usted puede comprobar presencia de mensajes de registro específica en '' "
-"self.handler.messages''. mensajes de '''' es un diccionario, inicialmente"
-" vacío, con dos niveles de indexación. El nombre del registrador de "
-"expedir el registro registrar primero, luego el nombre del nivel del "
-"expediente de registro. Se crean claves cuando sea necesario. Valores de "
-"mantener listas de mensajes, con formato según cualquier formateador "
-"asocias al controlador, estableciendo '' registro. "
-"Formatter(\"%(Message)s\")''."
+"Se puede comprobar la presencia de mensajes de registro específicos en "
+"``self.handler.messages``. ``mensajes`` es un diccionario, inicialmente "
+"vacío, con dos niveles de indexación. Primero el nombre del registrador "
+"añadiendo al registro, luego el nombre del nivel del mensaje de registro. "
+"Las claves son producidas al necesitarse. Los valores en el diccionario son "
+"listas de mensajes, con formato según el formateador asociado al "
+"controlador, por defecto ``logging.Formatter(\"%(message)s\")``."
 
 #: ../../building.rst:417
 msgid ""
@@ -898,7 +897,7 @@ msgstr ""
 
 #: ../../building.rst:422
 msgid "Putting all together"
-msgstr "Al ponerlo todo junto:"
+msgstr "Al ponerlo todo junto"
 
 #: ../../building.rst:424
 msgid "From time to time you want to activate the test class you're working at::"
@@ -1791,6 +1790,11 @@ msgid ""
 "florentina* in the taxon name, identification qualifier 'cf.', qualified "
 "rank 'species'."
 msgstr ""
+"Puede exprimir incertidumbre en la identificación mediante la adición de un "
+"calificador de identificación, al rango adecuado, para que puedas tener por "
+"ejemplo una planta inicialmente identificada como *Iris* cf. *florentina* "
+"eligiendo *Iris florentina* en el nombre del taxón, calificador de la "
+"identificación 'cf.', aplicándose al rango especie."
 
 #: ../../editing.rst:141
 msgid "Type the Accession ID, preferably also the Quantity received."
@@ -1841,6 +1845,11 @@ msgid ""
 "Initial quantity (in case not all plants go in the same accession). The "
 "Type of Material, inferred from the propagation type."
 msgstr ""
+"Cuando seleccione una propagación, el software llena varios campos en la "
+"ficha General, que ahora puede revisar.  La taxonomía (tal vez se pudo "
+"obtener algo ligeramente distinto a la planta madre). La cantidad inicial ("
+"en caso que no todas las plantas van en la misma accesión). El Tipo de "
+"Material, deducido del tipo de propagación."
 
 #: ../../editing.rst:170
 msgid "Plant"
@@ -1858,7 +1867,7 @@ msgstr ""
 
 #: ../../editing.rst:176
 msgid "Creating multiple plants"
-msgstr ""
+msgstr "Creación de múltiples plantas"
 
 #: ../../editing.rst:178
 msgid ""
@@ -1892,7 +1901,7 @@ msgstr ""
 
 #: ../../editing.rst:193
 msgid "Pictures"
-msgstr ""
+msgstr "Fotos"
 
 #: ../../editing.rst:195
 msgid ""
@@ -1956,7 +1965,7 @@ msgstr ""
 
 #: ../../editing.rst:220
 msgid "Locations"
-msgstr ""
+msgstr "Ubicaciones"
 
 #: ../../editing.rst:222
 msgid "The Location editor"
@@ -1964,7 +1973,7 @@ msgstr "Editor de escenarios"
 
 #: ../../editing.rst:225
 msgid "danger zone"
-msgstr ""
+msgstr "zona de peligro"
 
 #: ../../editing.rst:227
 msgid ""
@@ -2289,7 +2298,7 @@ msgstr ""
 
 #: ../../goal.rst:136
 msgid "Highlights"
-msgstr ""
+msgstr "Puntos destacados"
 
 #: ../../goal.rst:137
 msgid "not-so-brief list of highlights, meant to whet your appetite."
@@ -2759,7 +2768,7 @@ msgstr ""
 
 #: ../../index.rst:17
 msgid "Statements"
-msgstr ""
+msgstr "Declaraciones"
 
 #: ../../index.rst:26
 msgid "Installing Ghini"
@@ -2833,16 +2842,15 @@ msgstr ""
 
 #: ../../installing.rst:18
 msgid "The installation is based on running a script."
-msgstr "La instalación está basada en ejecutar un script:"
+msgstr "La instalación está basada en ejecutar un script."
 
 #: ../../installing.rst:20
-#, fuzzy
 msgid ""
 "The GNU/Linux script takes care of everything, from dependecies to "
 "installation for users in the ``ghini`` group."
 msgstr ""
-"El script para GNU/Linux se ocupa de todo, desde solucionar las "
-"dependencias hasta la instalación para todos los usuarios."
+"El script para GNU/Linux se ocupa de todo, desde solucionar las dependencias "
+"hasta la instalación para los usuarios en el grupo ``ghini``."
 
 #: ../../installing.rst:22
 msgid "The Windows script needs you to first install a couple things."
@@ -3631,10 +3639,9 @@ msgid ""
 "reports. More information about Mako and its language can be found at "
 "`makotemplates.org <http://www.makotemplates.org>`_."
 msgstr ""
-"El formateador de informe Mako utiliza el idioma de la plantilla de Mako "
-"para generar informes. Puede encontrar más información sobre el Mako y su"
-" lenguaje en ' makotemplates.org <http: www.makotemplates.org=\"\">' "
-"_.</http:>"
+"El formateador de informes Mako utiliza su propio idioma de plantilla para "
+"generar informes. Puede encontrar más información sobre el Mako y su "
+"lenguaje en `makotemplates.org <http://www.makotemplates.org>`_"
 
 #: ../../report.rst:18
 msgid ""
@@ -3733,7 +3740,12 @@ msgid ""
 "<http://code.google.com/p/apache-fop-"
 "installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#makechanges>`_"
 " installer."
-msgstr "NO QUERY SPECIFIED. EXAMPLE REQUEST: GET?Q=HELLO&LANGPAIR=EN|IT"
+msgstr ""
+"Tienes dos opciones para la instalación de FOP en Windows. La forma más "
+"sencilla es descargar su instalador `ApacheFOP-0.95-1-setup.exe "
+"<http://code.google.com/p/apache-fop-"
+"installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#"
+"makechanges >`_."
 
 #: ../../report.rst:65
 msgid ""
@@ -3848,7 +3860,7 @@ msgstr "Tipo de resultado"
 #: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
 #: ../../searching.rst:56
 msgid "name"
-msgstr ""
+msgstr "nombre"
 
 #: ../../searching.rst:59
 msgid ""
@@ -3926,11 +3938,10 @@ msgid ""
 " name Maxillaria. In this case the domain is ``gen``, the operator is "
 "``=`` and the value is ``Maxillaria``."
 msgstr ""
-"Una expresión se construye como ''<domain> <operator> <value>''. Por "
-"ejemplo la búsqueda: '' gen = Maxillaria'' volvería todos los géneros que"
-" coinciden con el nombre de Maxillaria. En este caso el dominio es '' "
-"gen'', es '' ='' y el valor es '' Maxillaria''.</value> </operator> "
-"</domain>"
+"Una expresión se construye como ``<domain> <operator> <value>``. Por ejemplo "
+"la búsqueda: ``gen = Maxillaria`` devuelve todos los géneros que coinciden "
+"con el nombre Maxillaria. En este caso el dominio es ``gen``, el operador es "
+"``=`` y el valor es ``Maxillaria``."
 
 #: ../../searching.rst:97
 msgid ""
@@ -4044,10 +4055,11 @@ msgid ""
 "boolean operators like ``and``, ``or``, ``not`` (and their shorthands "
 "``&&``, ``||``, ``!``), enclose them in parentheses, and more."
 msgstr ""
-"Consultas permiten el mayoría control de búsqueda. Con consultas usted "
-"puede buscar a través de las relaciones, columnas específicas, combinar "
-"criterios de búsqueda utilizando operadores booleanos como '' y '', '' o "
-"'', '' no '' (y sus abreviaturas ''"
+"Las consultas \"Query\" permiten el máximo control de búsqueda. Con "
+"consultas usted puede buscar a través de las relaciones, columnas "
+"específicas, combinar criterios de búsqueda utilizando operadores booleanos "
+"como ``and``, ``or``, ``not``, y sus abreviaciones ``&&``, ``||``, ``!``, "
+"encerrar en paréntesis, y más."
 
 #: ../../searching.rst:154
 msgid ""
@@ -4203,6 +4215,9 @@ msgid ""
 "the Query Builder does not know how to produce them. Instead of ``False``"
 " type ``0``, and instead of ``True`` type ``1``."
 msgstr ""
+"No tenemos literales ``False`` y ``True``. Estos son valores con tipo, y el "
+"generador de consultas no sabe cómo producirlos. En lugar de ``False`` "
+"escriba ``0`` y en lugar de ``True`` escriba ``1``."
 
 #: ../../searching.rst:253
 msgid "Query Grammar"
@@ -4285,13 +4300,12 @@ msgid ""
 " like `PostgreSQL <http://www.postgresql.org>`_ or `MySQL/MariaDB "
 "<https://mariadb.org/>`_, both supported by Ghini."
 msgstr ""
-"Por otro lado, si desea conectar más de una estación de trabajo de adorno"
-" a la misma base de datos, o si desea que sus datos disponibles para "
-"otros clientes, como podría ser un servidor web en un entorno de lámpara,"
-" debe tener en cuenta mantener su base de datos en un sistema de gestión "
-"de base de datos como ' PostgreSQL <http: www.postgresql.org=\"\">' _ o '"
-" MySQL/MariaDB <https: mariadb.org/=\"\">' _, ambos apoyados por "
-"Ghini.</https:> </http:>"
+"Por otro lado, si desea conectar más de una estación de trabajo a la misma "
+"base de datos, o si desea ponerlos a disposición de otros clientes, como "
+"podría ser un servidor web en ambiente LAMP, debe considerar mantener su "
+"base de datos en un sistema de gestión de base de datos como `PostgreSQL "
+"<http://www.postgresql.org>`_ o `MySQL/MariaDB <https://mariadb.org/>`_, "
+"ambos apoyados por Ghini."
 
 #: ../../started.rst:30
 msgid ""
@@ -4549,7 +4563,6 @@ msgstr ""
 "pidió. Brett hizo adorno de una idea, liberando bajo la licencia GPL."
 
 #: ../../statements.rst:15
-#, fuzzy
 msgid ""
 "After some years of stagnation Mario Frasca took responsibility of "
 "updating Bauble, rebranded it to Ghini, in honour of Luca Ghini, started "
@@ -4557,11 +4570,11 @@ msgid ""
 "is now Mario Frasca writing this, enhancing the software, looking for "
 "users, requesting feedback..."
 msgstr ""
-"Después de algunos años de estancamiento que Frasca Mario asumió la "
-"responsabilidad de actualización de chuchería, rebautizado a Ghini, en "
-"honor a Luca Ghini, comenzó adocating, viajar, distribuir, desarrollar, "
-"documentar, y ahora es Mario Frasca escribiendo esto, mejorar el "
-"software, buscando usuarios, solicitando retroalimentación..."
+"Después de algunos años de estancamiento Frasca Mario asumió la "
+"responsabilidad de actualización de Bauble, rebautizado a Ghini, en honor a "
+"Luca Ghini, comenzó promoverlo, viajar, distribuir, desarrollar, documentar, "
+"y ahora es Mario Frasca escribiendo esto, mejorando el software, buscando "
+"usuarios, solicitando retroalimentación..."
 
 #: ../../statements.rst:21
 msgid ""
@@ -4661,7 +4674,7 @@ msgstr "punto de referencia"
 
 #: ../../statements.rst:57
 msgid "community"
-msgstr "comunidad "
+msgstr "comunidad"
 
 #: ../../statements.rst:58
 msgid "development"
@@ -4733,11 +4746,11 @@ msgstr "Creación de usuarios"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
-msgstr "Para crear un nuevo"
+msgstr "Para crear un usuario nuevo..."
 
 #: ../../users.rst:16
 msgid "Permissions"
-msgstr ""
+msgstr "Permisos"
 
 #: ../../users.rst:17
 msgid "Ghini allows read, write and execute permissions."
