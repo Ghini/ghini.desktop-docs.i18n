@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-30 06:14-0500\n"
-"PO-Revision-Date: 2017-07-02 22:18+0000\n"
+"POT-Creation-Date: 2017-07-29 19:57-0500\n"
+"PO-Revision-Date: 2017-07-30 15:07+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: it\n"
 "Language-Team: Italian "
-"<https://hosted.weblate.org/projects/ghini/documentation-11/it/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"<https://hosted.weblate.org/projects/ghini/documentation-10/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -4813,9 +4814,8 @@ msgstr ""
 "avranno una spunta accanto ad esso."
 
 #: ../../use_cases-jbq.rst:2
-#, fuzzy
 msgid "Quito Botanical Garden"
-msgstr "Giardino botanico"
+msgstr "Orto botanico di Quito"
 
 #: ../../use_cases-jbq.rst:4
 msgid ""
@@ -4824,11 +4824,14 @@ msgid ""
 "program, and we are ourselves in need to document it, in order to secure "
 "the knowledge to the institution. We are happy to share it."
 msgstr ""
+"Presso il JBQ, orto botanico di Quito, abbiamo adottato il software Ghini in "
+"aprile 2015. Da quel momento, abbiamo accumulato esperienza con il "
+"programma, e siamo noi stessi nella necessità di documentare, al fine di "
+"assicurare la conoscenza all'istituzione. Siamo felici di condividere."
 
 #: ../../use_cases-jbq.rst:10
-#, fuzzy
 msgid "technical"
-msgstr "nota tecnica"
+msgstr "dettagli tecnici"
 
 #: ../../use_cases-jbq.rst:12
 msgid ""
@@ -4836,10 +4839,13 @@ msgid ""
 "database is inside of a remote database management system. This implies "
 "steps that are not obvious to the casual end user."
 msgstr ""
+"Lavoriamo su GNU/Linux, una piattaforma che molti utenti non dominano, e il "
+"nostro database è all'interno di un sistema di gestione di database. Ciò "
+"implica passaggi che non sono evidenti all'utente finale casuale."
 
 #: ../../use_cases-jbq.rst:16
 msgid "how to start a program"
-msgstr ""
+msgstr "come avviare un programma"
 
 #: ../../use_cases-jbq.rst:19
 msgid ""
@@ -4849,11 +4855,17 @@ msgid ""
 "program symbol |100000000000003100000031BB54CBDFA885EBAC_png|, appearing "
 "near the left margin of your display."
 msgstr ""
+"per avviare un programma dato il suo nome, premi il tasto |loose_png| "
+"accanto ad Alt, o fare clic su |10000000000000300000002F89E0224ADF9EC09E_png|"
+", quindi iniziare a digitare il nome del programma, nel nostro caso \"Ghini\""
+" o semplicemente cliccare sul simbolo del programma "
+"|100000000000003100000031BB54CBDFA885EBAC_png|, che appare al margine "
+"sinistro dello schermo."
 
 #: ../../use_cases-jbq.rst:25
 #, fuzzy
 msgid "database server"
-msgstr "cronologia del database"
+msgstr "server di database"
 
 #: ../../use_cases-jbq.rst:28
 msgid ""
@@ -4862,16 +4874,20 @@ msgid ""
 "simultaneously available on all ghini clients.  We did need to outsource "
 "database server management."
 msgstr ""
+"Abbiamo scelto un server centralizzato di database PostgreSQL. In questo "
+"modo siamo protetti da conflitti fra modifiche simultanee, e tutte le "
+"modifiche sono disponibili simultaneamente su tutti i client ghini.  Abbiamo "
+"però bisogno di esternalizzare la gestione del server di database."
 
 #: ../../use_cases-jbq.rst:33
 msgid "Understanding when to update"
-msgstr ""
+msgstr "Capire quando aggiornare"
 
 #: ../../use_cases-jbq.rst:35 ../../use_cases-jbq.rst:109
 #: ../../use_cases-jbq.rst:279 ../../use_cases-jbq.rst:441
 #: ../../use_cases-jbq.rst:458 ../../use_cases-jbq.rst:722
 msgid "Details"
-msgstr ""
+msgstr "Dettagli"
 
 #: ../../use_cases-jbq.rst:38
 msgid ""
@@ -4879,47 +4895,58 @@ msgid ""
 "need do anything in this window, just press enter and get into the main "
 "program screen."
 msgstr ""
+"La prima finestra presentata da Ghini assomiglia a questo. Normalmente non "
+"devi fare nulla in questa finestra, solo premere invio ed entrare nella "
+"schermata principale del programma."
 
 #: ../../use_cases-jbq.rst:44
 msgid ""
 "Occasionally, at the top of the screen an information text will appear, "
 "telling you that a newer version is available on-line."
 msgstr ""
+"Occasionalmente, nella parte superiore dello schermo apparirà un testo, che "
+"t'informa che una versione aggiornata è disponibile on-line."
 
 #: ../../use_cases-jbq.rst:49
 msgid ""
 "The update procedure is simple, and it depends on the operating system "
 "you use, we're not explaining here again."
 msgstr ""
+"La procedura di aggiornamento è semplice, e dipende dal sistema operativo in "
+"uso, non stiamo a spiegarlo di nuovo."
 
 #: ../../use_cases-jbq.rst:52
 msgid ""
 "It is generally a good idea updating the software.  If in doubt, contact "
 "the author, or write to the group."
 msgstr ""
+"È generalmente una buona idea aggiornare il software. In caso di dubbio, "
+"contattare l'autore, o scrivere al gruppo."
 
 #: ../../use_cases-jbq.rst:55
 msgid "understanding ghini initial screen"
-msgstr ""
+msgstr "la schermata iniziale di ghini"
 
 #: ../../use_cases-jbq.rst:57
 msgid "complete screen"
-msgstr ""
+msgstr "schermo completo"
 
 #: ../../use_cases-jbq.rst:60
 msgid "At the moment of writing, our initial screen looked like this:"
 msgstr ""
+"Al momento di scrivere, la nostra schermata iniziale si presentava così:"
 
 #: ../../use_cases-jbq.rst:64
 msgid ""
 "Apart from the main application menu, Ghini offers three special "
 "interface sections with information and tools to explore the database."
 msgstr ""
+"Oltre al menù principale dell'applicazione, Ghini offre tre sezioni di "
+"interfaccia speciale con informazioni e strumenti per esplorare il database."
 
 #: ../../use_cases-jbq.rst:68
-#, fuzzy
 msgid "numeric overview"
-msgstr "Panoramica sui domini di ricerca"
+msgstr "panoramica numerica"
 
 #: ../../use_cases-jbq.rst:71
 msgid ""
@@ -4927,10 +4954,13 @@ msgid ""
 "registered plants can be observed.  Each entry printed in bold is a link "
 "to the query selecting the corresponding objects."
 msgstr ""
+"La tabella nella parte destra dello schermo presenta un riepilogo di tutte "
+"le piange nel database.  Ogni voce in grassetto è un link alla query che "
+"seleziona gli oggetti corrispondenti."
 
 #: ../../use_cases-jbq.rst:77
 msgid "stored queries"
-msgstr ""
+msgstr "query memorizzate"
 
 #: ../../use_cases-jbq.rst:80
 msgid ""
@@ -4939,28 +4969,38 @@ msgid ""
 " accessions that have not been identified at rank species.  And one for "
 "the database history."
 msgstr ""
+"La metà inferiore del lato destro contiene un set di query memorizzate.  "
+"Mentre è possibile modificarle a proprio piacimento, suggeriamo includere la "
+"selezione di accessioni non identificate al rango specie.  E uno per la "
+"cronologia del database."
 
 #: ../../use_cases-jbq.rst:87
 msgid "query and action buttons"
-msgstr ""
+msgstr "pulsanti di azione e di query"
 
 #: ../../use_cases-jbq.rst:90
 msgid ""
 "At the top of this screen you can find the field in which you would enter"
 " your searches."
 msgstr ""
+"Nella parte superiore della schermata sta il campo in cui immettere le "
+"ricerche."
 
 #: ../../use_cases-jbq.rst:95
 msgid ""
 "With the |100000000000001C00000020F4C7873186014F2F_png| button, in the "
 "form of a house, you can return from your searches to the main screen."
 msgstr ""
+"Con il pulsante |100000000000001C00000020F4C7873186014F2F_png|, una casa, è "
+"possibile tornare dalle tue ricerche alla schermata principale."
 
 #: ../../use_cases-jbq.rst:98
 msgid ""
 "With the |100000000000001B000000207EC6F9075C9D3669_png| button, in the "
 "form of an arrow, you can return to your last search."
 msgstr ""
+"Con il pulsante  |100000000000001B000000207EC6F9075C9D3669_png|, una "
+"freccia, è possibile tornare alla ultima ricerca."
 
 #: ../../use_cases-jbq.rst:100
 msgid ""
@@ -4968,6 +5008,9 @@ msgid ""
 "form of a gear, you can start the \"Query Builder\", which helps you "
 "compose complex searchs in a simple, graphical way."
 msgstr ""
+"Con il pulsante |100000000000001C0000001FB8A1F75F7A5EF877_png|, un "
+"ingranaggio, è possibile avviare il \"generatore di Query\", che ti aiuta a "
+"comporre ricerche complesse in modo semplice, grafico."
 
 #: ../../use_cases-jbq.rst:105
 msgid ""
@@ -4975,31 +5018,38 @@ msgid ""
 "time. It was with them in mind that we have developed a `hypersimplified "
 "view <goal.html#hypersimplified-view>`_ on the ghini database structure."
 msgstr ""
+"Abbiamo spesso volontari che lavorano presso il giardino per un tempo molto "
+"breve. Pensando a loro abbiamo sviluppato una `vista ultrasemplificata "
+"<goal.html#hypersimplified-view>`_ della struttura del database di ghini."
 
 #: ../../use_cases-jbq.rst:112
 msgid ""
 "The two figures here show all that our temporary collaborators need to "
 "know."
 msgstr ""
+"Le due figure qui mostrano tutto ciò che i nostri collaboratori temporanei "
+"devono sapere."
 
 #: ../../use_cases-jbq.rst:115
 #, fuzzy
 msgid "Taxonomy & Collection"
-msgstr "informazioni tassonomiche"
+msgstr "Tassonomia & collezione"
 
 #: ../../use_cases-jbq.rst:115
 msgid "Garden"
-msgstr ""
+msgstr "Giardino"
 
 #: ../../use_cases-jbq.rst:120
 msgid ""
 "At times, the program gives error messages. |dontpanic_png|, retry, or "
 "report to the developers."
 msgstr ""
+"A volte, il programma dà messaggi di errore. |dontpanic_png|, riprova, o "
+"informa gli sviluppatori."
 
 #: ../../use_cases-jbq.rst:123
 msgid "network problems"
-msgstr ""
+msgstr "problemi di rete"
 
 #: ../../use_cases-jbq.rst:126
 msgid ""
@@ -5008,14 +5058,18 @@ msgid ""
 "connect to our database server. You would then get a rather explicit but "
 "very badly typeset error message."
 msgstr ""
+"Per poter funzionare, il programma ha bisogno di una connessione di rete "
+"stabile al server di database. Può succedere: si avvia il programma, e non è "
+"possibile connettersi al nostro server di database. Si ottiene un messaggio "
+"di errore abbastanza chiaro ma molto mal composto."
 
 #: ../../use_cases-jbq.rst:133
 msgid "Just ignore it and try again."
-msgstr ""
+msgstr "Basta ignorarlo e riprovare."
 
 #: ../../use_cases-jbq.rst:135
 msgid "search fails with error"
-msgstr ""
+msgstr "la ricerca ha esito negativo con errore"
 
 #: ../../use_cases-jbq.rst:138
 msgid ""
@@ -5023,14 +5077,17 @@ msgid ""
 "successfully, and a window with an error message will be displayed. In "
 "this case you only have to try to perform the same search again."
 msgstr ""
+"A volte e senza alcuna causa apparente, una ricerca non è eseguita "
+"correttamente e appare una finestra con un messaggio di errore. In questo "
+"caso prova a eseguire nuovamente la stessa ricerca."
 
 #: ../../use_cases-jbq.rst:143
 msgid "An example of such an error message:"
-msgstr ""
+msgstr "Un esempio di un tale messaggio di errore:"
 
 #: ../../use_cases-jbq.rst:147
 msgid "search does not return something I just inserted"
-msgstr ""
+msgstr "la ricerca non restituisce qualcosa che ho appena inserito"
 
 #: ../../use_cases-jbq.rst:150
 msgid ""
@@ -5039,18 +5096,24 @@ msgid ""
 "don't enclose the search string in quotes, any leading 0 will be stripped"
 " and the value will not be found."
 msgstr ""
+"Codici di accessione che iniziano con zero e composti di sole cifre, come ad "
+"esempio ``016489`` sono considerati dal software come numeri, quindi se non "
+"si racchiude la stringa di ricerca fra virgolette, tutti gli 0 iniziali "
+"verranno eliminati e il valore non verrà trovato."
 
 #: ../../use_cases-jbq.rst:155
 msgid "Try again, but enclose your search string in single or double quotes."
 msgstr ""
+"Riprovare, ma racchiudere la stringa di ricerca tra virgolette singole o "
+"doppie."
 
 #: ../../use_cases-jbq.rst:159
 msgid "Number on the label"
-msgstr ""
+msgstr "Numero sull'etichetta"
 
 #: ../../use_cases-jbq.rst:159
 msgid "corresponding search"
-msgstr ""
+msgstr "ricerca corrispondente"
 
 #: ../../use_cases-jbq.rst:164
 msgid ""
