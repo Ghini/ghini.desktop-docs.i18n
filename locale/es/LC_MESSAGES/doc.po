@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-31 08:40-0500\n"
-"PO-Revision-Date: 2017-07-31 14:09+0000\n"
-"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"PO-Revision-Date: 2017-07-31 22:19+0000\n"
+"Last-Translator: seraliam <seralia24martinez@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
 "Language: es\n"
@@ -30,11 +30,10 @@ msgid ""
 "something about database administration. While database administration is"
 " far beyond the scope of this document, we make our users aware of it."
 msgstr ""
-"Si está utilizando un verdadero sistema de manejo de base de datos (un "
-"DBMS) para guardar sus datos, es preciso saber algo de como se administra"
-" una base de datos. Esto está muy fuera del alcance de la documentación "
-"de Ghini, sin embargo es importante que los usuarios sean conscientes de "
-"la necesidad."
+"Si utiliza un DBMS real para mantener los datos botánicos, entonces necesita "
+"hacer algo sobre la administración de base de datos. Si bien la "
+"administración de la base de datos está más allá del alcance de este "
+"documento, hacemos que nuestros usuarios lo conozcan."
 
 #: ../../administration.rst:11
 msgid ""
@@ -43,11 +42,10 @@ msgid ""
 "don't know where to look for your database files, consider that, per "
 "default, bauble puts its data in the ``~/.bauble/`` directory."
 msgstr ""
-"De SQLite no se puede decir que sea un verdadero DBMS: cada database "
-"SQLite no es más que un archivo. De estos archivo haganse copias de "
-"seguridad y estará bien. Si no sabe donde buscar los archivos SQLite "
-"representantes sus colecciones, considere que, por defecto, Ghini pone "
-"sus datos en la carpeta ``~/.bauble``."
+"SQLite no es lo que se podría considerar un DBMS real: cada base de datos "
+"SQLite está en un archivo. Haga copias de seguridad y estará bien. Si no "
+"sabe dónde buscar los archivos de base de datos, considere que, por defecto, "
+"bauble coloca sus datos en el directorio `` ~ / .bauble / ``."
 
 #: ../../administration.rst:16
 msgid ""
@@ -55,29 +53,31 @@ msgid ""
 "``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best "
 "to hide the ``AppData`` directory structure to normal users."
 msgstr ""
-"En Windows estaría en algún lugar en su carpeta ``AppData``, muy "
-"probablemente en ``AppData\\Roaming\\Bauble``. Windows hace todo lo "
-"posible para no hacer visible la estructura ``AppData`` a sus usuarios."
+"En Windows está en algún lugar en el directorio `` AppData``, probablemente "
+"en `` AppData \\ Roaming \\ Bauble``. Tenga en cuenta que Windows hace todo "
+"lo posible para ocultar la estructura de directorios `` AppData`` a los "
+"usuarios normales."
 
 #: ../../administration.rst:20
 msgid ""
 "The fastest way to open it is with the file explorer: type ``%APPDATA%`` "
 "and hit enter."
 msgstr ""
-"La manera más rápida para abrir esa carpeta en el explorador: escriba "
-"``%APPDATA%`` y oprima enter."
+"La forma más rápida de abrir es con el explorador de archivos: escriba "
+"`%APPDATA%` y pulse entrar."
 
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
-msgstr "Por favor utilice la documentación oficial."
+msgstr "Por favor, consulte la documentación oficial."
 
 #: ../../administration.rst:31
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
 " your backup options starts at `chapter_24`_."
 msgstr ""
-"Por favor utilice la documentación oficial. Una discusión muy detallada "
-"sobre las opciones de backup empieza al `chapter_24`_."
+"Por favor, consulte la documentación oficial. Una discusión muy completa de "
+"las opciones de copia de seguridad inicia \n"
+" en el 'capítulo_24' _."
 
 #: ../../administration.rst:37
 msgid "Ghini Configuration"
@@ -89,9 +89,9 @@ msgid ""
 "file is associated to a user account and every user will have their own "
 "configuration file."
 msgstr ""
-"Ghini utiliza un archivo de configuración para guardar valores de una "
-"invocación a la siguiente. Este archivo está asociado a una cuenta de "
-"usuario y cada usuario tendrá su propio archivo de configuración."
+"Ghini utiliza un archivo de configuración para almacenar valores entre "
+"invocaciones. Este archivo está asociado a una cuenta de usuario y cada "
+"usuario tendrá su propio archivo de configuración."
 
 #: ../../administration.rst:43
 msgid ""
@@ -99,9 +99,9 @@ msgid ""
 " the text entry area where you normally type your searches, then hit "
 "enter."
 msgstr ""
-"Para revisar el contenido del archivo de configuración Ghini, inserte ``:"
-" prefs`` en el área de entrada de texto donde normalmente escribe tus "
-"búsquedas y oprima enter."
+"Para revisar el contenido del archivo de configuración de Ghini, escriba ``: "
+"prefs`` en el área de entrada de texto donde normalmente se escribe las "
+"búsquedas, luego presione entrar."
 
 #: ../../administration.rst:46
 msgid ""
@@ -109,30 +109,30 @@ msgid ""
 "so with a normal text editor program. Ghini configuration file is at the "
 "default location for SQLite databases."
 msgstr ""
-"Normalmente no es necesario ajustar el archivo de configuración, sin "
-"embargo puede hacerlo con un normal programa de edición de texto. El "
-"archivo de configuración de Ghini está en la misma ubicación "
-"predeterminada de las bases de datos SQLite."
+"Normalmente no es necesario ajustar el archivo de configuración, pero puede "
+"hacerlo con un programa de editor de texto normal. El Archivo de "
+"configuración Ghini está en la ubicación predeterminada para bases de datos "
+"SQLite."
 
 #: ../../administration.rst:51
 msgid "Reporting Errors"
-msgstr "Informar sobre faltas"
+msgstr "Reportar errores"
 
 #: ../../administration.rst:53
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
 msgstr ""
-"Si nota cualquier cosa en el uso de Ghini que no le parezca adecuado, por"
-" favor abra un ``issue`` en el sitio de desarrollo de Ghini."
+"Si nota algo inesperado en el comportamiento de Ghini que no le parezca "
+"adecuado, por favor abra un ``issue`` en el sitio de desarrollo de Ghini."
 
 #: ../../administration.rst:56
 msgid "Ghini development site can be accessed via the Help menu."
-msgstr "El sitio de desarrollo de Ghini es accesible desde el menu de Ayuda."
+msgstr "El sitio de desarrollo de Ghini es accesible desde el menú de Ayuda."
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
-msgstr "Manual para el desarrollador"
+msgstr "Manual del desarrollador"
 
 #: ../../building.rst:5
 msgid "Helping Ghini development"
@@ -2690,15 +2690,14 @@ msgid "Importing and Exporting Data"
 msgstr "Importación y exportación"
 
 #: ../../imex.rst:4
-#, fuzzy
 msgid ""
 "Although Ghini can be extended through plugins to support alternate "
 "import and export formats, by default it can only import and export comma"
 " separated values files or CSV."
 msgstr ""
-"Aunque se puede extender Ghini mediante plugins, para que admita formatos"
-" alternativos de importación y exportación, por defecto solo "
-"importa/exporta ficheros con datos separados por coma (CSV)."
+"Aunque Ghini puede extenderse a través de complementos para soportar "
+"formatos alternativos de importación y exportación, por defecto sólo puede "
+"importar y exportar archivos de valores separados por comas o CSV."
 
 #: ../../imex.rst:8
 msgid ""
@@ -2744,13 +2743,12 @@ msgstr ""
 "está más avanzada que cubrirá este doc."
 
 #: ../../imex.rst:25
-#, fuzzy
 msgid ""
 "To import CSV files into Ghini select "
 ":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
-"Para importar archivos CSV a Ghini seleccione: menuselection: "
-"'Herramientas--> exportaciones--> Comma Separated Values' en el menú."
+"Para importar archivos CSV en Ghini seleccione :seleccione menú:`"
+"Herramientas - >Exportar-->Valores Separados por Comas \" en el menú."
 
 #: ../../imex.rst:29
 msgid ""
