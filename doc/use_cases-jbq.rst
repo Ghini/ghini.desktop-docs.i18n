@@ -276,7 +276,7 @@ taxonomy
 
 - identifying at rank Genus, or Family
 
-  ..  admonition:: Details
+  ..  admonition:: at rank genus
       :class: toggle
 
          Ghini-1.0 prescribes that an accession is identified at rank
@@ -296,6 +296,9 @@ taxonomy
 
          .. figure:: images/genus_sp-explained.svg
 
+  ..  admonition:: at rank family
+      :class: toggle
+
          If an accession is only identified at rank family, we need a
          fictive genus, to which we can add the fictive species. Since our
          garden is primarily focusing on Orchidaceae, we use the very short
@@ -311,9 +314,13 @@ taxonomy
          Orchidaceae family, and in the other 6 families represented in our
          digital collection, we follow this suggested practice.
 
+         Remember: our **Zzz** genus is a fictive genus in the
+         **Orchidaceae** family, do not use it as unspecified genus in other
+         families.
+
 - identifying at a rank that is not allowed by the software (eg: Subtribe, or Subfamily)
 
-  ..  admonition:: subtribe
+  ..  admonition:: at rank subtribe
       :class: toggle
 
          We sometimes can't identify a taxon at rank genus, but we do manage
@@ -344,7 +351,7 @@ taxonomy
          We are very much looking forward to seeing that `issue-9
          <https://github.com/Bauble/bauble.classic/issues/9>`_ solved!
 
-  ..  admonition:: subfamily, tribe
+  ..  admonition:: at rank subfamily, tribe
       :class: toggle
 
          Just as we reserved the prefix Zzx- for subtribe, we reserve the
