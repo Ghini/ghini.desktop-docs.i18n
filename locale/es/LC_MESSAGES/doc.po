@@ -5537,7 +5537,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:323
 msgid "at rank subtribe"
-msgstr "al rango subtribus"
+msgstr "al rango subtribu"
 
 #: ../../use_cases-jbq.rst:326
 msgid ""
@@ -5547,7 +5547,7 @@ msgid ""
 msgstr ""
 "A veces no podemos identificar un taxón en el género de rango, pero "
 "logramos ser más precisas que tan sólo \"es una orquídea\". Muy a menudo "
-"somos capaces de indicar la Subtribus, esto es útil cuando se desee "
+"somos capaces de indicar la subtribu, esto es útil cuando se desee "
 "producir híbridos."
 
 #: ../../use_cases-jbq.rst:331
