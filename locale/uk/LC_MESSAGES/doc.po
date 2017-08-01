@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-31 08:40-0500\n"
+"POT-Creation-Date: 2017-08-01 16:12-0500\n"
 "PO-Revision-Date: 2017-07-30 19:09+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -5825,72 +5825,6 @@ msgstr "Дозволи"
 msgid "Ghini allows read, write and execute permissions."
 msgstr "Ghini дозволяє читати, писати і виконувати дозволи."
 
-#: ../../user_stories.rst:3
-msgid "representing the planned space"
-msgstr ""
-
-#: ../../user_stories.rst:5
-msgid ""
-"Botanic gardens are mostly organized in beds and greenhouses, and larger "
-"beds are probably organized in smaller sections, while greenhouses might "
-"be organized in tables, shelves, walls."
-msgstr ""
-
-#: ../../user_stories.rst:9
-msgid ""
-"In the above software view on garden data, the numeric indications at "
-"either end of the line connecting ``Location`` and ``Planting`` tells us "
-"that every ``Planting`` can only belong to exactly one (1) ``Location``, "
-"while every ``Location`` may contain zero or more (0..n) ``Plantings``."
-msgstr ""
-
-#: ../../user_stories.rst:14
-msgid ""
-"A consequence of this constraint in the database is that your database "
-"needs ``Locations`` in order to place ``Plants`` in the garden, so a good"
-" practice is to start by entering a database ``Location`` for every "
-"physical bed section, greenhouse table, or whatever might be the basic "
-"location unit in your garden."
-msgstr ""
-
-#: ../../user_stories.rst:21
-msgid "accepting a plant in the collection"
-msgstr ""
-
-#: ../../user_stories.rst:23
-msgid ""
-"When a plant (or a group of genetically identical plants) enters the "
-"collection,"
-msgstr ""
-
-#: ../../user_stories.rst:26
-msgid "building the history of a living plant"
-msgstr ""
-
-#: ../../user_stories.rst:29
-msgid "managing contacts"
-msgstr ""
-
-#: ../../user_stories.rst:32
-msgid "adding a taxonomist's opinion"
-msgstr ""
-
-#: ../../user_stories.rst:35
-msgid "reproducing plants"
-msgstr ""
-
-#: ../../user_stories.rst:38
-msgid "updating taxonomy tree"
-msgstr ""
-
-#: ../../user_stories.rst:41
-msgid "producing report"
-msgstr ""
-
-#: ../../user_stories.rst:44
-msgid "engraving labels"
-msgstr ""
-
 #~ msgid "rank genus"
 #~ msgstr ""
 
@@ -5901,5 +5835,69 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "subfamily, tribe"
+#~ msgstr ""
+
+#~ msgid "representing the planned space"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Botanic gardens are mostly organized in"
+#~ " beds and greenhouses, and larger "
+#~ "beds are probably organized in smaller"
+#~ " sections, while greenhouses might be "
+#~ "organized in tables, shelves, walls."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the above software view on "
+#~ "garden data, the numeric indications at"
+#~ " either end of the line connecting"
+#~ " ``Location`` and ``Planting`` tells us "
+#~ "that every ``Planting`` can only belong"
+#~ " to exactly one (1) ``Location``, "
+#~ "while every ``Location`` may contain "
+#~ "zero or more (0..n) ``Plantings``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A consequence of this constraint in "
+#~ "the database is that your database "
+#~ "needs ``Locations`` in order to place"
+#~ " ``Plants`` in the garden, so a "
+#~ "good practice is to start by "
+#~ "entering a database ``Location`` for "
+#~ "every physical bed section, greenhouse "
+#~ "table, or whatever might be the "
+#~ "basic location unit in your garden."
+#~ msgstr ""
+
+#~ msgid "accepting a plant in the collection"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When a plant (or a group of "
+#~ "genetically identical plants) enters the "
+#~ "collection,"
+#~ msgstr ""
+
+#~ msgid "building the history of a living plant"
+#~ msgstr ""
+
+#~ msgid "managing contacts"
+#~ msgstr ""
+
+#~ msgid "adding a taxonomist's opinion"
+#~ msgstr ""
+
+#~ msgid "reproducing plants"
+#~ msgstr ""
+
+#~ msgid "updating taxonomy tree"
+#~ msgstr ""
+
+#~ msgid "producing report"
+#~ msgstr ""
+
+#~ msgid "engraving labels"
 #~ msgstr ""
 

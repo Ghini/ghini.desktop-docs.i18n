@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-31 08:40-0500\n"
+"POT-Creation-Date: 2017-08-01 16:12-0500\n"
 "PO-Revision-Date: 2017-07-30 15:07+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: it\n"
@@ -6198,87 +6198,6 @@ msgstr "Permessi"
 msgid "Ghini allows read, write and execute permissions."
 msgstr "Ghini consente lettura, scrittura ed esecuzione autorizzazioni."
 
-#: ../../user_stories.rst:3
-msgid "representing the planned space"
-msgstr "che rappresenta lo spazio previsto"
-
-#: ../../user_stories.rst:5
-msgid ""
-"Botanic gardens are mostly organized in beds and greenhouses, and larger "
-"beds are probably organized in smaller sections, while greenhouses might "
-"be organized in tables, shelves, walls."
-msgstr ""
-"Giardini botanici sono per lo più organizzati in serre e letti e letti "
-"più grandi probabilmente sono organizzati in sezioni più piccole, mentre "
-"Serre potrebbero essere organizzate in tabelle, mensole, pareti."
-
-#: ../../user_stories.rst:9
-msgid ""
-"In the above software view on garden data, the numeric indications at "
-"either end of the line connecting ``Location`` and ``Planting`` tells us "
-"that every ``Planting`` can only belong to exactly one (1) ``Location``, "
-"while every ``Location`` may contain zero or more (0..n) ``Plantings``."
-msgstr ""
-"In vista software sopra il giardino dati, le indicazioni numeriche alle "
-"due estremità della linea di collegamento 'posizione ' e ' la piantatura "
-"del ' ci dice che ogni piantatura del ' ' può appartenere solo ad "
-"esattamente un 1 'posizione ', mentre ogni 'posizione ' può contenere "
-"zero o più (0.. n) ' planting '."
-
-#: ../../user_stories.rst:14
-msgid ""
-"A consequence of this constraint in the database is that your database "
-"needs ``Locations`` in order to place ``Plants`` in the garden, so a good"
-" practice is to start by entering a database ``Location`` for every "
-"physical bed section, greenhouse table, or whatever might be the basic "
-"location unit in your garden."
-msgstr ""
-"Una conseguenza di questo vincolo nel database è che il vostro database "
-"deve ' posizioni ' al fine di mettere ' piante ' nel giardino, così una "
-"buona pratica è quello di iniziare inserendo un database ' posizione ' "
-"per ogni sezione di fisica letto, tabella di serra, o qualunque sia "
-"l'unità di base posizione nel vostro giardino."
-
-#: ../../user_stories.rst:21
-msgid "accepting a plant in the collection"
-msgstr "accettando una pianta nell'insieme"
-
-#: ../../user_stories.rst:23
-msgid ""
-"When a plant (or a group of genetically identical plants) enters the "
-"collection,"
-msgstr ""
-"Quando una pianta (o un gruppo di piante geneticamente identiche) entra "
-"la raccolta,"
-
-#: ../../user_stories.rst:26
-msgid "building the history of a living plant"
-msgstr "la storia di una pianta vivente della costruzione"
-
-#: ../../user_stories.rst:29
-msgid "managing contacts"
-msgstr "Gestire i contatti"
-
-#: ../../user_stories.rst:32
-msgid "adding a taxonomist's opinion"
-msgstr "Aggiunta di opinione di un tassonomista"
-
-#: ../../user_stories.rst:35
-msgid "reproducing plants"
-msgstr "riproduzione di piante"
-
-#: ../../user_stories.rst:38
-msgid "updating taxonomy tree"
-msgstr "aggiornamento tassonomia albero"
-
-#: ../../user_stories.rst:41
-msgid "producing report"
-msgstr "produzione di report"
-
-#: ../../user_stories.rst:44
-msgid "engraving labels"
-msgstr "incisione etichette"
-
 #~ msgid "rank genus"
 #~ msgstr ""
 
@@ -6290,4 +6209,97 @@ msgstr "incisione etichette"
 
 #~ msgid "subfamily, tribe"
 #~ msgstr ""
+
+#~ msgid "representing the planned space"
+#~ msgstr "che rappresenta lo spazio previsto"
+
+#~ msgid ""
+#~ "Botanic gardens are mostly organized in"
+#~ " beds and greenhouses, and larger "
+#~ "beds are probably organized in smaller"
+#~ " sections, while greenhouses might be "
+#~ "organized in tables, shelves, walls."
+#~ msgstr ""
+#~ "Giardini botanici sono per lo più "
+#~ "organizzati in serre e letti e "
+#~ "letti più grandi probabilmente sono "
+#~ "organizzati in sezioni più piccole, "
+#~ "mentre Serre potrebbero essere organizzate "
+#~ "in tabelle, mensole, pareti."
+
+#~ msgid ""
+#~ "In the above software view on "
+#~ "garden data, the numeric indications at"
+#~ " either end of the line connecting"
+#~ " ``Location`` and ``Planting`` tells us "
+#~ "that every ``Planting`` can only belong"
+#~ " to exactly one (1) ``Location``, "
+#~ "while every ``Location`` may contain "
+#~ "zero or more (0..n) ``Plantings``."
+#~ msgstr ""
+#~ "In vista software sopra il giardino "
+#~ "dati, le indicazioni numeriche alle due"
+#~ " estremità della linea di collegamento "
+#~ "'posizione ' e ' la piantatura del"
+#~ " ' ci dice che ogni piantatura "
+#~ "del ' ' può appartenere solo ad"
+#~ " esattamente un 1 'posizione ', "
+#~ "mentre ogni 'posizione ' può contenere"
+#~ " zero o più (0.. n) ' planting"
+#~ " '."
+
+#~ msgid ""
+#~ "A consequence of this constraint in "
+#~ "the database is that your database "
+#~ "needs ``Locations`` in order to place"
+#~ " ``Plants`` in the garden, so a "
+#~ "good practice is to start by "
+#~ "entering a database ``Location`` for "
+#~ "every physical bed section, greenhouse "
+#~ "table, or whatever might be the "
+#~ "basic location unit in your garden."
+#~ msgstr ""
+#~ "Una conseguenza di questo vincolo nel"
+#~ " database è che il vostro database"
+#~ " deve ' posizioni ' al fine di"
+#~ " mettere ' piante ' nel giardino, "
+#~ "così una buona pratica è quello di"
+#~ " iniziare inserendo un database ' "
+#~ "posizione ' per ogni sezione di "
+#~ "fisica letto, tabella di serra, o "
+#~ "qualunque sia l'unità di base posizione"
+#~ " nel vostro giardino."
+
+#~ msgid "accepting a plant in the collection"
+#~ msgstr "accettando una pianta nell'insieme"
+
+#~ msgid ""
+#~ "When a plant (or a group of "
+#~ "genetically identical plants) enters the "
+#~ "collection,"
+#~ msgstr ""
+#~ "Quando una pianta (o un gruppo di"
+#~ " piante geneticamente identiche) entra la"
+#~ " raccolta,"
+
+#~ msgid "building the history of a living plant"
+#~ msgstr "la storia di una pianta vivente della costruzione"
+
+#~ msgid "managing contacts"
+#~ msgstr "Gestire i contatti"
+
+#~ msgid "adding a taxonomist's opinion"
+#~ msgstr "Aggiunta di opinione di un tassonomista"
+
+#~ msgid "reproducing plants"
+#~ msgstr "riproduzione di piante"
+
+#~ msgid "updating taxonomy tree"
+#~ msgstr "aggiornamento tassonomia albero"
+
+#~ msgid "producing report"
+#~ msgstr "produzione di report"
+
+#~ msgid "engraving labels"
+#~ msgstr "incisione etichette"
 
