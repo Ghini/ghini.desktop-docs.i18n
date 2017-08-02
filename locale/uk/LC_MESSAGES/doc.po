@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-01 16:12-0500\n"
-"PO-Revision-Date: 2017-07-30 19:09+0000\n"
+"PO-Revision-Date: 2017-08-02 11:31+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -4625,7 +4626,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:77
 msgid "stored queries"
-msgstr ""
+msgstr "збережені запити"
 
 #: ../../use_cases-jbq.rst:80
 msgid ""
@@ -5900,4 +5901,3 @@ msgstr "Ghini дозволяє читати, писати і виконуват�
 
 #~ msgid "engraving labels"
 #~ msgstr ""
-
