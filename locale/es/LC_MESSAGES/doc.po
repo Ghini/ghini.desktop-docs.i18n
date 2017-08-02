@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-02 10:06-0500\n"
-"PO-Revision-Date: 2017-08-02 15:35+0000\n"
+"PO-Revision-Date: 2017-08-02 15:40+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -4971,7 +4971,7 @@ msgstr ""
 #: ../../use_cases-jbq.rst:33
 #, fuzzy
 msgid "adding a new user"
-msgstr "Para crear un usuario nuevo..."
+msgstr "Agregar un nuevo usuario"
 
 #: ../../use_cases-jbq.rst:36
 msgid ""
