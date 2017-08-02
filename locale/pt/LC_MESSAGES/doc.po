@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2017-08-02 10:06-0500\n"
+"POT-Creation-Date: 2017-08-02 17:03-0500\n"
 "PO-Revision-Date: 2017-07-05 11:52+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: pt\n"
@@ -4711,10 +4711,6 @@ msgid ""
 "information as required, or leaving it blank:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:58
-msgid "``sudo adduser mlopez``"
-msgstr ""
-
 #: ../../use_cases-jbq.rst:60
 msgid ""
 "We do not use account names like \"voluntario\", because such accounts do"
@@ -6060,5 +6056,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "engraving labels"
+#~ msgstr ""
+
+#~ msgid "``sudo adduser mlopez``"
 #~ msgstr ""
 

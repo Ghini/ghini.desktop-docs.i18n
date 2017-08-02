@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-02 10:06-0500\n"
+"POT-Creation-Date: 2017-08-02 17:03-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3719,10 +3719,6 @@ msgid ""
 "information as required, or leaving it blank:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:58
-msgid "``sudo adduser mlopez``"
-msgstr ""
-
 #: ../../use_cases-jbq.rst:60
 msgid ""
 "We do not use account names like \"voluntario\", because such accounts do"
@@ -5058,5 +5054,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "engraving labels"
+#~ msgstr ""
+
+#~ msgid "``sudo adduser mlopez``"
 #~ msgstr ""
 
