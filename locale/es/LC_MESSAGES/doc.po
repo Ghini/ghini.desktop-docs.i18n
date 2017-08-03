@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-02 17:03-0500\n"
-"PO-Revision-Date: 2017-08-02 19:50+0000\n"
+"POT-Creation-Date: 2017-08-02 10:06-0500\n"
+"PO-Revision-Date: 2017-08-03 13:23+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: es\n"
 "Language-Team: Spanish "
@@ -1986,7 +1986,7 @@ msgstr "Ubicaciones"
 
 #: ../../editing.rst:222
 msgid "The Location editor"
-msgstr "Editor de escenarios"
+msgstr "Editor de Ubicaciones"
 
 #: ../../editing.rst:225
 msgid "danger zone"
