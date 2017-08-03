@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-07-02 22:18+0000\n"
+"PO-Revision-Date: 2017-08-03 14:12+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: it\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/it/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -282,7 +283,7 @@ msgstr ""
 
 #: ../../building.rst:67
 msgid "in short::"
-msgstr "In Breve"
+msgstr "In breve::"
 
 #: ../../building.rst:73
 msgid ""
@@ -807,7 +808,7 @@ msgstr ""
 
 #: ../../building.rst:358
 msgid "And so on"
-msgstr "E così via."
+msgstr "E così via"
 
 #: ../../building.rst:360
 msgid ""
@@ -1935,7 +1936,7 @@ msgstr "Ubicazioni"
 
 #: ../../editing.rst:222
 msgid "The Location editor"
-msgstr "Editor posizioni :"
+msgstr "Editore delle Collocazioni"
 
 #: ../../editing.rst:225
 msgid "danger zone"
@@ -3624,10 +3625,10 @@ msgid ""
 "reports. More information about Mako and its language can be found at "
 "`makotemplates.org <http://www.makotemplates.org>`_."
 msgstr ""
-"Il formattatore di relazione Mako utilizza il linguaggio del modello di "
-"Mako per la generazione di report. Ulteriori informazioni su Mako e il "
-"suo linguaggio possono essere trovati alla ' makotemplates.org <http: "
-"www.makotemplates.org=\"\">' _.</http:>"
+"Il formattatore di relazione Mako utilizza il linguaggio del modello di Mako "
+"per la generazione di report. Ulteriori informazioni su Mako e il suo "
+"linguaggio si trovano sul sito `makotemplates.org "
+"<http://www.makotemplates.org>`_."
 
 #: ../../report.rst:18
 msgid ""
@@ -3727,7 +3728,11 @@ msgid ""
 "<http://code.google.com/p/apache-fop-"
 "installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#makechanges>`_"
 " installer."
-msgstr "NO QUERY SPECIFIED. EXAMPLE REQUEST: GET?Q=HELLO&LANGPAIR=EN|IT"
+msgstr ""
+"Ci sono due modi per installare FOP su Windows. Il più semplice è scaricando "
+"il precompilato `ApacheFOP-0.95-1-setup.exe <http://code.google.com/p/apache-"
+"fop-installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#"
+"makechanges >`_."
 
 #: ../../report.rst:65
 msgid ""
@@ -3736,10 +3741,10 @@ msgid ""
 "extracting the archive you must add the directory you extracted the "
 "archive to to your PATH environment variable."
 msgstr ""
-"In alternativa è possibile scaricare il ' archivio <http: "
-"www.apache.org/dist/xmlgraphics/fop/binaries/=\"\">' _.  Dopo "
-"l'estrazione dell'archivio è necessario aggiungere la directory è stato "
-"estratto l'archivio alla variabile di ambiente PATH.</http:>"
+"In alternativa è possibile scaricare `l'archivio "
+"<http://www.apache.org/dist/xmlgraphics/fop/binaries/>`_.  Dopo l'estrazione "
+"dell'archivio è necessario aggiungere al PATH la directory dove è stato "
+"estratto l'archivio."
 
 #: ../../searching.rst:4
 msgid "Searching in Ghini"
@@ -3938,7 +3943,7 @@ msgstr ""
 "vengono inclusi implicitamente nelle ricerche."
 
 #: ../../searching.rst:100
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The search string ``loc like block%`` would return all the Locations for "
 "which name or code start with \"block\".  In this case the domain is "
@@ -3951,16 +3956,16 @@ msgid ""
 "``%ck%10`` would search for all value that contain ``ck`` and end in "
 "``10``."
 msgstr ""
-"La stringa di ricerca `loc like blocco%` restituisce tutti le Location "
-"per cui nome o codice inizia con \"blocco\".  In questo caso il dominio è"
-" `loc` (un'abbreviazione per ``location``), l'operatore è ``like`` "
-"(questo viene dall'SQL ed aggiunge un fattore di approssimazione nella "
-"ricerca), il valore è ``blocco%``, i campi di ricerca sono implicitamente"
-" ``nome`` e ``codice``.  Il segno di percentuale viene utilizzato come "
-"una wild card, pertanto se si cerca 'blocco % ' quindi ricercherà tutti i"
-" valori che iniziano con max.  Se si cerca ``%10`` ricerca per tutti i "
-"valori che terminano in ``10``.  La stringa ``%ck%10`` indica la ricerca "
-"di tutto ciò che contenga ``ck`` e termini in ``10``."
+"La stringa di ricerca ``loc like blocco%`` restituisce tutte le collocazioni "
+"il cui nome o codice inizia con \"blocco\".  In questo caso il dominio è "
+"``loc`` (un'abbreviazione per ``location``), l'operatore è ``like`` (questo "
+"viene dall'SQL ed aggiunge un fattore di approssimazione nella ricerca), il "
+"valore è ``blocco%``, i campi di ricerca sono implicitamente ``nome`` e "
+"``codice``.  Il segno di percentuale viene utilizzato come jolly, pertanto "
+"se si cerca ``max%`` ricercherà tutti i valori che iniziano con \"max\".  Se "
+"si cerca ``%10`` ricerca per tutti i valori che terminano in ``10``.  La "
+"stringa ``%ck%10`` indica la ricerca di tutto ciò che contenga ``ck`` e "
+"termini in ``10``."
 
 #: ../../searching.rst:110
 msgid "When a query takes ages to complete"
@@ -4571,7 +4576,6 @@ msgstr ""
 "patrimonio libero, proteggendolo con una licenza GPL."
 
 #: ../../statements.rst:15
-#, fuzzy
 msgid ""
 "After some years of stagnation Mario Frasca took responsibility of "
 "updating Bauble, rebranded it to Ghini, in honour of Luca Ghini, started "
@@ -4579,12 +4583,11 @@ msgid ""
 "is now Mario Frasca writing this, enhancing the software, looking for "
 "users, requesting feedback..."
 msgstr ""
-"Dopo alcuni anni di stagnazione che Mario Frasca ha assunto la "
-"responsabilità di Bauble, lo ha ridenominado come Ghini, in onore a Luca "
-"Ghini, ha iniziato a viaggiare per promuoverlo e distribuirlo, ne ha "
-"ripreso lo sviluppo e la documentazione, ed ora è Mario Frasca qui dietro"
-" il software, migliorandolo, alla ricerca di utenti, stimolando "
-"feedback..."
+"Dopo alcuni anni di stasi Mario Frasca si è preso la responsabilità di "
+"aggiornare Bauble, lo ha ribattezzato Ghini, in onore di Luca Ghini, ha "
+"iniziato a promuoverlo, viaggiando, distribuendolo, sviluppandolo, "
+"documentandolo, ed è ora Mario Frasca che scrive questo, migliora il "
+"software, ricerca utenti, stimola il feedback..."
 
 #: ../../statements.rst:21
 msgid ""
@@ -4754,7 +4757,7 @@ msgstr "Creare Utenti"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
-msgstr "Crea nuovo utente"
+msgstr "Crea nuovo utente..."
 
 #: ../../users.rst:16
 msgid "Permissions"
