@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-02 10:06-0500\n"
-"PO-Revision-Date: 2017-07-30 15:07+0000\n"
+"PO-Revision-Date: 2017-08-03 14:16+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: it\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/it/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -283,7 +284,7 @@ msgstr ""
 
 #: ../../building.rst:67
 msgid "in short::"
-msgstr "In Breve"
+msgstr "In breve::"
 
 #: ../../building.rst:73
 msgid ""
@@ -821,7 +822,7 @@ msgstr ""
 
 #: ../../building.rst:370
 msgid "And so on"
-msgstr "E così via."
+msgstr "E così via"
 
 #: ../../building.rst:372
 msgid ""
@@ -1950,7 +1951,7 @@ msgstr "Ubicazioni"
 
 #: ../../editing.rst:222
 msgid "The Location editor"
-msgstr "Editor posizioni :"
+msgstr "Editore delle Collocazioni"
 
 #: ../../editing.rst:225
 msgid "danger zone"
@@ -2167,9 +2168,8 @@ msgstr ""
 "affermando il livello applicabile di fiducia."
 
 #: ../../goal.rst:94
-#, fuzzy
 msgid "**Accessing your own Propagations**"
-msgstr "Si occupano di propagazioni"
+msgstr "**Accessioni da Propagazioni**"
 
 #: ../../goal.rst:96
 msgid ""
@@ -2855,20 +2855,18 @@ msgstr ""
 " (Linux e MacOSX) ma anche su Windows."
 
 #: ../../installing.rst:7
-#, fuzzy
 msgid "one-liner for hurried users."
-msgstr "uso Linux proprio perché ho fretta"
+msgstr "Vado di fretta."
 
 #: ../../installing.rst:10
-#, fuzzy
 msgid ""
 "Linux users just download and run `the installation script "
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
 " You may read the documentation later."
 msgstr ""
-"Scarica ed esegui `lo script di installazione "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
-" La documentazione può attendere."
+"L'utente Linux frettoloso scarica ed esegue `lo script di installazione <http"
+"s://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstal"
+"l.sh>`_. La documentazione può attendere."
 
 #: ../../installing.rst:14
 msgid ""
@@ -2957,14 +2955,12 @@ msgid "Installing on GNU/Linux"
 msgstr "Installare su Linux"
 
 #: ../../installing.rst:49
-#, fuzzy
 msgid "Open a shell terminal window, and follow the following instructions."
-msgstr "Aprire una finestra di terminale di shell e seguire queste istruzioni."
+msgstr "Aprire una finestra di terminale e seguire queste istruzioni."
 
 #: ../../installing.rst:51
-#, fuzzy
 msgid "Download the `devinstall.sh` script:"
-msgstr "Scaricare il programmino `devinstall.sh` ed eseguirlo::"
+msgstr "Scaricare lo script `devinstall.sh` ed eseguirlo:"
 
 #: ../../installing.rst:55
 msgid ""
@@ -2977,9 +2973,8 @@ msgid "The script will produce quite some output, which you can safely ignore."
 msgstr ""
 
 #: ../../installing.rst:62
-#, fuzzy
 msgid "global installation"
-msgstr "Istallazione"
+msgstr "Istallazione globale"
 
 #: ../../installing.rst:65
 msgid ""
@@ -3006,13 +3001,12 @@ msgid "You can now start ghini by invoking the ``ghini`` script::"
 msgstr ""
 
 #: ../../installing.rst:81
-#, fuzzy
 msgid ""
 "You use the same ``ghini`` script to update ghini to the latest released "
 "production patch::"
 msgstr ""
-"o aggiornare ghini all'ultima versione rilasciata nella linea di "
-"produzione::"
+"Si utilizza lo stesso script ``ghini`` per aggiornarsi alla patch pubblicata "
+"più recente::"
 
 #: ../../installing.rst:86
 msgid "This is what you would do when ghini shows you something like this:"
@@ -3026,15 +3020,14 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:96
-#, fuzzy
 msgid ""
 "Please beware: you might need solve dependencies. How to do so, depends "
 "on which GNU/Linux flavour you are using. Check with your distribution "
 "documentation."
 msgstr ""
-"Si potrebbero bisogno di risolvere le dipendenze. Come farlo, dipende dal"
-" sapore che GNU/Linux si sta utilizzando. Consultare la documentazione di"
-" distribuzione."
+"Attenzione: potrebbe essere necessario risolvere le dipendenze. Come farlo, "
+"dipende dalla distribuzione GNU/Linux che si sta utilizzando. Controllare la "
+"vostra documentazione."
 
 #: ../../installing.rst:100
 msgid ""
@@ -3202,29 +3195,27 @@ msgstr ""
 " su GNU/Linux. Le fasi conclusive sono nuovamente Windows specifico."
 
 #: ../../installing.rst:197
-#, fuzzy
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 up to W-10. "
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
-"Ghini è stato testato con ed è noto a lavorare su W-XP, W-7 e W-8. Anche "
-"se dovrebbe funzionare bene su altre versioni di Windows non è stato "
-"accuratamente testato."
+"Ghini è stato testato e funziona su W-XP, W-7 a W-10. Windows non è la "
+"piattaforma su cui facciamo i test di integrazione continua."
 
 #: ../../installing.rst:207
 msgid "The installation steps on Windows:"
 msgstr "La procedura di installazione su Windows:"
 
 #: ../../installing.rst:209
-#, fuzzy
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``). Grab it from `the Git download area <https://git-"
 "scm.com/download/win>`_."
 msgstr ""
-"scaricare e installare ' git ' (viene fornito con un unix-like ' sh ' e "
-"include ' vi ') da::"
+"scaricare e installare ``git`` (viene fornito con un unix-like ``sh`` e "
+"comprende ``vi``). Copiarlo dall'`area di download git <https://git-"
+"scm.com/download/win>`_."
 
 #: ../../installing.rst:212
 msgid ""
@@ -3241,24 +3232,22 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:220
-#, fuzzy
 msgid "When installing Python, do put Python in the PATH:"
-msgstr "durante l'installazione di Python, mettere Python nel percorso:"
+msgstr "Durante l'installazione di Python, includerlo nel PATH:"
 
 #: ../../installing.rst:224
-#, fuzzy
 msgid ""
 "download ``pygtk`` from `the official source "
 "<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/>`_. (this requires "
 "32bit python). be sure you download the \"all in one\" version."
 msgstr ""
-"Scarica ' pygtk ' dall'origine seguente. (questo richiede python a 32 "
-"bit). Accertati di scaricare il \"all in One\" versione::"
+"scaricare ``pygtk`` da `la fonte ufficiale "
+"<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/ >`_. (questo richiede "
+"python a 32 bit). Accertati di scaricare la versione \"all in one\"."
 
 #: ../../installing.rst:228
-#, fuzzy
 msgid "Make a complete install, selecting everything:"
-msgstr "fare un'installazione completa, selezionando tutto:"
+msgstr "Fare un'installazione completa, selezionando tutto:"
 
 #: ../../installing.rst:232
 msgid ""
@@ -3271,13 +3260,12 @@ msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr "Ricordate che avete bisogno della versione a 32 bit, per Python 2.7."
 
 #: ../../installing.rst:246
-#, fuzzy
 msgid ""
 "(definitely optional) download and install a database connector other "
 "than ``sqlite3``."
 msgstr ""
-"(facoltativo) scaricare e installare un connettore di database diverso da"
-" 'sqlite3 '."
+"(decisamente facoltativo) scaricare e installare un connettore di database "
+"diverso da ``sqlite3``."
 
 #: ../../installing.rst:249
 msgid ""
@@ -3303,14 +3291,10 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:259
-#, fuzzy
 msgid ""
 "`devinstall.bat "
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.bat>`_"
 msgstr ""
-"Scarica ed esegui `lo script di installazione "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
-" La documentazione può attendere."
 
 #: ../../installing.rst:261
 msgid ""
@@ -3342,44 +3326,40 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:284
-#, fuzzy
 msgid ""
 "Running ``devinstall.bat`` will pull the ``ghini.desktop`` repository "
 "from github to your home directory, under ``Local\\github\\Ghini``, "
 "checkout the ``ghini-1.0`` production line, create a virtual environment "
 "and install ghini into it."
 msgstr ""
-"Questo sarà tirare ' ghini.desktop ' repository su github alla tua home "
-"directory, sotto 'Local\\github\\Ghini ', check-out la linea di "
-"produzione ' ghini-1.0 ', creare un ambiente virtuale e installare ghini "
-"in esso."
+"L'esecuzione di ``devinstall.bat`` scarica l'intero repositorio "
+"``ghini.desktop`` nella vostra home directory, in ``Local\\github\\Ghini``, "
+"lo connette alla linea di produzione ``ghini-1.0``, crea un ambiente "
+"virtuale e vi installa ghini."
 
 #: ../../installing.rst:289
-#, fuzzy
 msgid ""
 "You can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
-"è inoltre possibile eseguire ' devinstall.bat ' passando come argomento "
-"la parte numerica della linea produttiva che si desidera seguire."
+"È inoltre possibile eseguire ``devinstall.bat`` passando come argomento la "
+"parte numerica della linea di produzione che si desidera seguire."
 
 #: ../../installing.rst:292
-#, fuzzy
 msgid ""
 "This is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
-"Questo è l'ultimo passo di installazione che dipende, in larga misura, su"
-" un lavoro connessione internet."
+"Questo è l'ultimo passo di installazione che dipende, e molto, da una buona "
+"connessione ad internet."
 
 #: ../../installing.rst:295
-#, fuzzy
 msgid ""
 "The operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
-"l'operazione può richiedere alcuni minuti per completare, a seconda della"
-" velocità della tua connessione internet."
+"L'operazione può tardare alcuni minuti, a seconda della velocità della tua "
+"connessione internet."
 
 #: ../../installing.rst:298
 msgid ""
@@ -3426,16 +3406,14 @@ msgstr ""
 "selezionata."
 
 #: ../../installing.rst:317
-#, fuzzy
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``, it will hardly take one minute."
 msgstr ""
-"ogni volta che si desidera aggiornare l'installazione, basta avviare il "
-"prompt ed eseguire ' ghini-Update. bat '"
+"Ogni volta che si desidera aggiornare l'installazione, basta avviare il "
+"prompt ed eseguire ``ghini-update. bat``."
 
 #: ../../installing.rst:320
-#, fuzzy
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
@@ -3443,10 +3421,10 @@ msgid ""
 " you will need to include the directory you extracted to in your PATH."
 msgstr ""
 "Se si desidera generare e stampare report in formato PDF utilizzando il "
-"generatore di report predefinito di Ghini, quindi sarà necessario "
-"scaricare e installare ' Apache FOP <http: "
-"xmlgraphics.apache.org/fop/=\"\">' _. Dopo l'estrazione dell'archivio FOP"
-" è necessario includere la directory estratti nel tuo percorso.</http:>"
+"generatore di report predefinito di Ghini, si dovrà scaricare e installare `"
+"Apache FOP <http://xmlgraphics.apache.org/fop/>`_. Dopo l'estrazione di "
+"Apache FOP, è necessario includere nel PATH la directory in cui lo si è "
+"estratto."
 
 #: ../../installing.rst:332
 msgid "Troubleshooting"
@@ -3704,10 +3682,10 @@ msgid ""
 "reports. More information about Mako and its language can be found at "
 "`makotemplates.org <http://www.makotemplates.org>`_."
 msgstr ""
-"Il formattatore di relazione Mako utilizza il linguaggio del modello di "
-"Mako per la generazione di report. Ulteriori informazioni su Mako e il "
-"suo linguaggio possono essere trovati alla ' makotemplates.org <http: "
-"www.makotemplates.org=\"\">' _.</http:>"
+"Il formattatore di relazione Mako utilizza il linguaggio del modello di Mako "
+"per la generazione di report. Ulteriori informazioni su Mako e il suo "
+"linguaggio si trovano sul sito `makotemplates.org "
+"<http://www.makotemplates.org>`_."
 
 #: ../../report.rst:18
 msgid ""
@@ -3807,7 +3785,11 @@ msgid ""
 "<http://code.google.com/p/apache-fop-"
 "installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#makechanges>`_"
 " installer."
-msgstr "NO QUERY SPECIFIED. EXAMPLE REQUEST: GET?Q=HELLO&LANGPAIR=EN|IT"
+msgstr ""
+"Ci sono due modi per installare FOP su Windows. Il più semplice è scaricando "
+"il precompilato `ApacheFOP-0.95-1-setup.exe <http://code.google.com/p/apache-"
+"fop-installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#"
+"makechanges >`_."
 
 #: ../../report.rst:65
 msgid ""
@@ -3816,10 +3798,10 @@ msgid ""
 "extracting the archive you must add the directory you extracted the "
 "archive to to your PATH environment variable."
 msgstr ""
-"In alternativa è possibile scaricare il ' archivio <http: "
-"www.apache.org/dist/xmlgraphics/fop/binaries/=\"\">' _.  Dopo "
-"l'estrazione dell'archivio è necessario aggiungere la directory è stato "
-"estratto l'archivio alla variabile di ambiente PATH.</http:>"
+"In alternativa è possibile scaricare `l'archivio "
+"<http://www.apache.org/dist/xmlgraphics/fop/binaries/>`_.  Dopo l'estrazione "
+"dell'archivio è necessario aggiungere al PATH la directory dove è stato "
+"estratto l'archivio."
 
 #: ../../searching.rst:4
 msgid "Searching in Ghini"
@@ -4018,7 +4000,7 @@ msgstr ""
 "vengono inclusi implicitamente nelle ricerche."
 
 #: ../../searching.rst:100
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The search string ``loc like block%`` would return all the Locations for "
 "which name or code start with \"block\".  In this case the domain is "
@@ -4031,16 +4013,16 @@ msgid ""
 "``%ck%10`` would search for all value that contain ``ck`` and end in "
 "``10``."
 msgstr ""
-"La stringa di ricerca `loc like blocco%` restituisce tutti le Location "
-"per cui nome o codice inizia con \"blocco\".  In questo caso il dominio è"
-" `loc` (un'abbreviazione per ``location``), l'operatore è ``like`` "
-"(questo viene dall'SQL ed aggiunge un fattore di approssimazione nella "
-"ricerca), il valore è ``blocco%``, i campi di ricerca sono implicitamente"
-" ``nome`` e ``codice``.  Il segno di percentuale viene utilizzato come "
-"una wild card, pertanto se si cerca 'blocco % ' quindi ricercherà tutti i"
-" valori che iniziano con max.  Se si cerca ``%10`` ricerca per tutti i "
-"valori che terminano in ``10``.  La stringa ``%ck%10`` indica la ricerca "
-"di tutto ciò che contenga ``ck`` e termini in ``10``."
+"La stringa di ricerca ``loc like blocco%`` restituisce tutte le collocazioni "
+"il cui nome o codice inizia con \"blocco\".  In questo caso il dominio è "
+"``loc`` (un'abbreviazione per ``location``), l'operatore è ``like`` (questo "
+"viene dall'SQL ed aggiunge un fattore di approssimazione nella ricerca), il "
+"valore è ``blocco%``, i campi di ricerca sono implicitamente ``nome`` e "
+"``codice``.  Il segno di percentuale viene utilizzato come jolly, pertanto "
+"se si cerca ``max%`` ricercherà tutti i valori che iniziano con \"max\".  Se "
+"si cerca ``%10`` ricerca per tutti i valori che terminano in ``10``.  La "
+"stringa ``%ck%10`` indica la ricerca di tutto ciò che contenga ``ck`` e "
+"termini in ``10``."
 
 #: ../../searching.rst:110
 msgid "When a query takes ages to complete"
@@ -4651,7 +4633,6 @@ msgstr ""
 "patrimonio libero, proteggendolo con una licenza GPL."
 
 #: ../../statements.rst:15
-#, fuzzy
 msgid ""
 "After some years of stagnation Mario Frasca took responsibility of "
 "updating Bauble, rebranded it to Ghini, in honour of Luca Ghini, started "
@@ -4659,12 +4640,11 @@ msgid ""
 "is now Mario Frasca writing this, enhancing the software, looking for "
 "users, requesting feedback..."
 msgstr ""
-"Dopo alcuni anni di stagnazione che Mario Frasca ha assunto la "
-"responsabilità di Bauble, lo ha ridenominado come Ghini, in onore a Luca "
-"Ghini, ha iniziato a viaggiare per promuoverlo e distribuirlo, ne ha "
-"ripreso lo sviluppo e la documentazione, ed ora è Mario Frasca qui dietro"
-" il software, migliorandolo, alla ricerca di utenti, stimolando "
-"feedback..."
+"Dopo alcuni anni di stasi Mario Frasca si è preso la responsabilità di "
+"aggiornare Bauble, lo ha ribattezzato Ghini, in onore di Luca Ghini, ha "
+"iniziato a promuoverlo, viaggiando, distribuendolo, sviluppandolo, "
+"documentandolo, ed è ora Mario Frasca che scrive questo, migliora il "
+"software, ricerca utenti, stimola il feedback..."
 
 #: ../../statements.rst:21
 msgid ""
@@ -4863,7 +4843,6 @@ msgstr ""
 "sinistro dello schermo."
 
 #: ../../use_cases-jbq.rst:25
-#, fuzzy
 msgid "database server"
 msgstr "server di database"
 
@@ -4881,9 +4860,8 @@ msgstr ""
 "database."
 
 #: ../../use_cases-jbq.rst:33
-#, fuzzy
 msgid "adding a new user"
-msgstr "Crea nuovo utente"
+msgstr "Creare un nuovo utente"
 
 #: ../../use_cases-jbq.rst:36
 msgid ""
@@ -5083,7 +5061,6 @@ msgstr ""
 "temporanei devono sapere."
 
 #: ../../use_cases-jbq.rst:145
-#, fuzzy
 msgid "Taxonomy & Collection"
 msgstr "Tassonomia & collezione"
 
@@ -5278,9 +5255,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:263
-#, fuzzy
 msgid "where are the logs"
-msgstr "dove mettere i test"
+msgstr "dove stanno i log"
 
 #: ../../use_cases-jbq.rst:266
 msgid ""
@@ -5318,9 +5294,8 @@ msgid "taxonomy"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:289
-#, fuzzy
 msgid "introduction"
-msgstr "pubblicazione in produzione"
+msgstr "introduzione"
 
 #: ../../use_cases-jbq.rst:291
 msgid "Orchidaceae taxonomic complexity"
@@ -5686,19 +5661,16 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:549
-#, fuzzy
 msgid "Accession"
-msgstr "Accessioni"
+msgstr "Accessione"
 
 #: ../../use_cases-jbq.rst:549
-#, fuzzy
 msgid "Species"
-msgstr "Specie / Tassone"
+msgstr "Specie"
 
 #: ../../use_cases-jbq.rst:549
-#, fuzzy
 msgid "Location"
-msgstr "Ubicazioni"
+msgstr "Collocazione"
 
 #: ../../use_cases-jbq.rst:551
 msgid "Invernadero 1 (calor)"
@@ -5719,9 +5691,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:565 ../../use_cases-jbq.rst:600
-#, fuzzy
 msgid "Accession ID"
-msgstr "Accessioni"
+msgstr "ID delle Accessioni"
 
 #: ../../use_cases-jbq.rst:565 ../../use_cases-jbq.rst:600
 msgid "Type of Material"
@@ -5788,9 +5759,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:600
-#, fuzzy
 msgid "Source"
-msgstr "fonte di pubblico accesso"
+msgstr "Fonte"
 
 #: ../../use_cases-jbq.rst:602
 msgid "specified"
@@ -5891,12 +5861,11 @@ msgstr ""
 #: ../../use_cases-jbq.rst:661
 #, fuzzy
 msgid "producing or reproducing labels"
-msgstr "riproduzione di piante"
+msgstr "produzione o riproduzione di etichette"
 
 #: ../../use_cases-jbq.rst:663
-#, fuzzy
 msgid "refreshing plant labels"
-msgstr "riproduzione di piante"
+msgstr "rinnovare le etichette"
 
 #: ../../use_cases-jbq.rst:666
 msgid ""
@@ -6072,7 +6041,7 @@ msgstr ""
 #: ../../use_cases-jbq.rst:781
 #, fuzzy
 msgid "Searching the database"
-msgstr "Connettersi ad una base dati"
+msgstr "Ricerca nel database"
 
 #: ../../use_cases-jbq.rst:783
 msgid ""
@@ -6086,9 +6055,8 @@ msgid "and you hope to see your result in the search result view."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:791
-#, fuzzy
 msgid "search in order to edit (plant or accession)"
-msgstr "Panoramica sui domini di ricerca"
+msgstr "ricerca al fine di modificare (pianta o accessione)"
 
 #: ../../use_cases-jbq.rst:794
 msgid ""
@@ -6238,7 +6206,7 @@ msgstr "Creare Utenti"
 
 #: ../../users.rst:12
 msgid "To create a new user..."
-msgstr "Crea nuovo utente"
+msgstr "Crea nuovo utente..."
 
 #: ../../users.rst:16
 msgid "Permissions"
@@ -6352,4 +6320,3 @@ msgstr "Ghini consente lettura, scrittura ed esecuzione autorizzazioni."
 
 #~ msgid "engraving labels"
 #~ msgstr "incisione etichette"
-
