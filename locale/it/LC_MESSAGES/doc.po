@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-08-03 14:12+0000\n"
+"PO-Revision-Date: 2017-08-04 01:42+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/it/>\n"
@@ -710,7 +710,7 @@ msgstr "T₀ (condizione iniziale),"
 
 #: ../../building.rst:269
 msgid "action,"
-msgstr ""
+msgstr "azione,"
 
 #: ../../building.rst:270
 msgid "T₁ (testing the result of the action given the initial conditions)"
@@ -1774,6 +1774,12 @@ msgid ""
 "florentina* in the taxon name, identification qualifier 'cf.', qualified "
 "rank 'species'."
 msgstr ""
+"Si può segnalare l'incertezza nell'identificazione con l'aggiunta di un "
+"qualificatore di identificazione, al rango corrispondente, così è possibile "
+"ad esempio avere una pianta inizialmente identificata come *Iris* cf "
+"*florentina* selezionando *Iris florentina* come specie, e porre come "
+"qualificatore di identificazione 'cf', essendo la 'specie' il rango così "
+"qualificato."
 
 #: ../../editing.rst:141
 msgid "Type the Accession ID, preferably also the Quantity received."
@@ -1792,10 +1798,16 @@ msgid ""
 "choose \"Garden Propagation\", which is placed as a default first item in"
 " the list of contacts."
 msgstr ""
+"La fonte delle accessioni consente di aggiungere ulteriori informazioni "
+"sulla provenienza della accessione.  Selezionare un contatto dall'elenco a "
+"tendina, o scegliere \"Propagazione del giardino\", primo elemento "
+"predefinito nell'elenco dei contatti."
 
 #: ../../editing.rst:152
 msgid "A Garden Propagation is the result of successful Propagation."
 msgstr ""
+"Una propagazione del giardino è il risultato di una propagazione andata a "
+"buon fine."
 
 #: ../../editing.rst:154
 msgid ""
@@ -1805,6 +1817,12 @@ msgid ""
 "is the parent plant and choose among the still not completely accessed "
 "propagations the one you intend to add as an accession in your database."
 msgstr ""
+"Quando si accessiona materiale di una propagazione di giardino, lascia "
+"inizialmente vuota la prima scheda (generale) e inizia dalla seconda scheda "
+"(fonte). Seleziona come contatto \"Propagazione del Giardino\", indicare "
+"quale pianta è la pianta madre e scegli tra le propagazioni ancora non "
+"completamente accessionate quella che si desidera aggiungere come accessione "
+"nel database."
 
 #: ../../editing.rst:160
 msgid ""
@@ -1814,6 +1832,11 @@ msgid ""
 "Initial quantity (in case not all plants go in the same accession). The "
 "Type of Material, inferred from the propagation type."
 msgstr ""
+"Una volta che si seleziona una propagazione, il software riempie alcuni "
+"campi nella scheda generale, che è ora bene esaminare.  Il Taxon (forse sei "
+"riuscito a ottenere qualcosa di leggermente diverso da quello della pianta "
+"madre). La quantità iniziale (in caso che non tutte le piante vanno nella "
+"stessa accessione). Il tipo di materiale, derivato dal tipo di propagazione."
 
 #: ../../editing.rst:170
 msgid "Plant"
@@ -1940,7 +1963,7 @@ msgstr "Editore delle Collocazioni"
 
 #: ../../editing.rst:225
 msgid "danger zone"
-msgstr ""
+msgstr "zona di pericolo"
 
 #: ../../editing.rst:227
 msgid ""
@@ -2267,7 +2290,7 @@ msgstr ""
 
 #: ../../goal.rst:136
 msgid "Highlights"
-msgstr ""
+msgstr "Punti principali"
 
 #: ../../goal.rst:137
 msgid "not-so-brief list of highlights, meant to whet your appetite."
