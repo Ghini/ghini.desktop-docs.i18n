@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-02 10:06-0500\n"
-"PO-Revision-Date: 2017-08-03 14:16+0000\n"
+"PO-Revision-Date: 2017-08-04 01:42+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/it/>\n"
@@ -401,12 +401,17 @@ msgid ""
 " difficult once you know how to do that. First of all, add weblate as "
 "remote::"
 msgstr ""
+"Qualcosa che accade: trovarsi con un conflitto. Risoluzione dei conflitti "
+"non è difficile se sai come si fa. Prima di tutto, aggiungere weblate come "
+"remoto::"
 
 #: ../../building.rst:131
 msgid ""
 "Then make sure we are in the correct repository, on the correct branch, "
 "update the remote, merge with it::"
 msgstr ""
+"Quindi assicurarsi che siamo nel repository corretto, sul ramo corretto, "
+"aggiornare la fonte remota, unirla al ramo::"
 
 #: ../../building.rst:138
 msgid ""
@@ -724,7 +729,7 @@ msgstr "T₀ (condizione iniziale),"
 
 #: ../../building.rst:281
 msgid "action,"
-msgstr ""
+msgstr "azione,"
 
 #: ../../building.rst:282
 msgid "T₁ (testing the result of the action given the initial conditions)"
@@ -1788,6 +1793,12 @@ msgid ""
 "florentina* in the taxon name, identification qualifier 'cf.', qualified "
 "rank 'species'."
 msgstr ""
+"Si può segnalare l'incertezza nell'identificazione con l'aggiunta di un "
+"qualificatore di identificazione, al rango corrispondente, così è possibile "
+"ad esempio avere una pianta inizialmente identificata come *Iris* cf "
+"*florentina* selezionando *Iris florentina* come specie, e porre come "
+"qualificatore di identificazione 'cf', essendo la 'specie' il rango così "
+"qualificato."
 
 #: ../../editing.rst:141
 msgid "Type the Accession ID, preferably also the Quantity received."
@@ -1806,10 +1817,16 @@ msgid ""
 "choose \"Garden Propagation\", which is placed as a default first item in"
 " the list of contacts."
 msgstr ""
+"La fonte delle accessioni consente di aggiungere ulteriori informazioni "
+"sulla provenienza della accessione.  Selezionare un contatto dall'elenco a "
+"tendina, o scegliere \"Propagazione del giardino\", primo elemento "
+"predefinito nell'elenco dei contatti."
 
 #: ../../editing.rst:152
 msgid "A Garden Propagation is the result of successful Propagation."
 msgstr ""
+"Una propagazione del giardino è il risultato di una propagazione andata a "
+"buon fine."
 
 #: ../../editing.rst:154
 msgid ""
@@ -1819,6 +1836,12 @@ msgid ""
 "is the parent plant and choose among the still not completely accessed "
 "propagations the one you intend to add as an accession in your database."
 msgstr ""
+"Quando si accessiona materiale di una propagazione di giardino, lascia "
+"inizialmente vuota la prima scheda (generale) e inizia dalla seconda scheda "
+"(fonte). Seleziona come contatto \"Propagazione del Giardino\", indicare "
+"quale pianta è la pianta madre e scegli tra le propagazioni ancora non "
+"completamente accessionate quella che si desidera aggiungere come accessione "
+"nel database."
 
 #: ../../editing.rst:160
 msgid ""
@@ -1828,6 +1851,11 @@ msgid ""
 "Initial quantity (in case not all plants go in the same accession). The "
 "Type of Material, inferred from the propagation type."
 msgstr ""
+"Una volta che si seleziona una propagazione, il software riempie alcuni "
+"campi nella scheda generale, che è ora bene esaminare.  Il Taxon (forse sei "
+"riuscito a ottenere qualcosa di leggermente diverso da quello della pianta "
+"madre). La quantità iniziale (in caso che non tutte le piante vanno nella "
+"stessa accessione). Il tipo di materiale, derivato dal tipo di propagazione."
 
 #: ../../editing.rst:170 ../../use_cases-jbq.rst:567
 #: ../../use_cases-jbq.rst:602
@@ -1955,7 +1983,7 @@ msgstr "Editore delle Collocazioni"
 
 #: ../../editing.rst:225
 msgid "danger zone"
-msgstr ""
+msgstr "zona di pericolo"
 
 #: ../../editing.rst:227
 msgid ""
@@ -1998,6 +2026,8 @@ msgid ""
 "If you already know, and all you want is to do something practical, check"
 " our `user-contributed recipes <use_cases.html>`_."
 msgstr ""
+"Se quanto sopra è già noto, e tutto quello che volete è passare alla "
+"pratica, si vedano le `ricette contribuite <use_cases.html>`_."
 
 #: ../../goal.rst:13
 msgid "Botanic Garden"
@@ -2074,6 +2104,9 @@ msgid ""
 "blocks are those relative to objects you definitely need insert in the "
 "database."
 msgstr ""
+"Nella figura sopra, una vista semplificata del database, i blocchi "
+"evidenziati sono quelli relativi agli oggetti che vanno decisamente inseriti "
+"nel database."
 
 #: ../../goal.rst:55
 msgid ""
@@ -2082,6 +2115,10 @@ msgid ""
 "information, then step to administering your **Collection**, and finally "
 "consider the physical **Garden**."
 msgstr ""
+"Distinguiamo tre sezioni principali nel database.  Leggendo il grafico da "
+"destra verso sinistra, iniziamo con l'informazione **tassonomica**, poi "
+"passiamo all'amministrazione della **collezione** e infine consideriamo il "
+"**giardino** fisico."
 
 #: ../../goal.rst:60
 msgid ""
@@ -2095,7 +2132,7 @@ msgstr ""
 
 #: ../../goal.rst:63
 msgid "**Accession links Planting to Species**"
-msgstr ""
+msgstr "**Accessione collega la Pianta alla Specie**"
 
 #: ../../goal.rst:65
 msgid ""
@@ -2131,7 +2168,7 @@ msgstr ""
 
 #: ../../goal.rst:79
 msgid "**Accession at the base of the history of your plants**"
-msgstr ""
+msgstr "**Accessione alla base della storia delle vostre piante**"
 
 #: ../../goal.rst:81
 msgid ""
@@ -2313,7 +2350,7 @@ msgstr ""
 
 #: ../../goal.rst:153
 msgid "Hypersimplified view"
-msgstr ""
+msgstr "Vista Ipersemplificata"
 
 #: ../../goal.rst:155
 msgid ""
@@ -2321,12 +2358,18 @@ msgid ""
 "structure and look at it as two nested sequences of objects, each element"
 " of the sequence being necessary to add element at the next level."
 msgstr ""
+"Chi utilizzi Ghini solo sporadicamente può preferire ignorare la struttura "
+"del database e considerare i dati come due sequenze di oggetti in cascata, "
+"in modo che ogni elemento della sequenza sia necessario agli elementi dei "
+"livelli successivi."
 
 #: ../../goal.rst:159
 msgid ""
 "In order to get down to an Accession, you will need four levels, as in "
 "this example:"
 msgstr ""
+"Al fine di raggiungere l'Accessione, son necessari quattro livelli, come in "
+"questo esempio:"
 
 #: ../../goal.rst:164
 msgid ""
@@ -2334,6 +2377,9 @@ msgid ""
 " at the moment Ghini initializes it. So all you need is adding Species "
 "and Accessions, in this order."
 msgstr ""
+"Un insieme molto completo di famiglie e generi è inserito nel database al "
+"momento in cui Ghini l'inizializza. Così tutto ciò che serve è aggiungere "
+"specie ed accessioni, in questo ordine."
 
 #: ../../goal.rst:168
 msgid ""
@@ -2341,10 +2387,13 @@ msgid ""
 " garden, you need to describe this \"somewhere\" digitally, as a Location"
 " in the garden."
 msgstr ""
+"Quando si posiziona una pianta fisica (relativa ad un'accessione) in un "
+"luogo nel giardino, è necessario descrivere digitalmente questo \"luogo\", "
+"come una Collocazione nel giardino."
 
 #: ../../goal.rst:177
 msgid "Highlights"
-msgstr ""
+msgstr "Punti principali"
 
 #: ../../goal.rst:178
 msgid "not-so-brief list of highlights, meant to whet your appetite."
