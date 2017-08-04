@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2017-08-02 17:03-0500\n"
+"POT-Creation-Date: 2017-08-04 09:14-0500\n"
 "PO-Revision-Date: 2017-07-05 11:52+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: pt\n"
@@ -3073,8 +3073,8 @@ msgid ""
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
 
-#: ../../installing.rst:132 ../../installing.rst:186 ../../installing.rst:326
-#: ../../installing.rst:362
+#: ../../installing.rst:132 ../../installing.rst:186 ../../installing.rst:328
+#: ../../installing.rst:364
 msgid "Next..."
 msgstr ""
 
@@ -3380,18 +3380,19 @@ msgstr ""
 "devinstall-finalize.bat ', ele está certo em sua pasta de início e foi "
 "criado na etapa anterior."
 
-#: ../../installing.rst:304
+#: ../../installing.rst:306
+#, fuzzy
 msgid ""
-"right-click on it, select run as administrator, confirm you want it to "
-"make changes to your computer. These changes are in the Start Menu only: "
-"create the Ghini group, place the Ghini shortcut."
+"Right-click on it, select run as administrator, confirm you want it to "
+"make changes to your computer.  These changes are in the Start Menu only:"
+" create the Ghini group, place the Ghini shortcut."
 msgstr ""
 "botão direito do mouse sobre ele, selecione executar como administrador, "
 "confirme que você quer fazer alterações no seu computador. Essas "
 "alterações são apenas do menu iniciar: criar o grupo Ghini, colocar o "
 "atalho Ghini."
 
-#: ../../installing.rst:308
+#: ../../installing.rst:310
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
@@ -3399,7 +3400,7 @@ msgstr ""
 "Baixe o arquivo batch que você usará para manter-se actualizado com a "
 "linha de produção, que você escolheu a seguir:"
 
-#: ../../installing.rst:313
+#: ../../installing.rst:315
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
@@ -3410,7 +3411,7 @@ msgstr ""
 "alerta de qualquer mais recente ghini liberar dentro de sua linha de "
 "produção escolhida."
 
-#: ../../installing.rst:317
+#: ../../installing.rst:319
 #, fuzzy
 msgid ""
 "any time you want to update your installation, just start the command "
@@ -3419,7 +3420,7 @@ msgstr ""
 "sempre que quiser atualizar sua instalação, apenas inicie o prompt de "
 "comando e execute o ' ghini-Update. bat '"
 
-#: ../../installing.rst:320
+#: ../../installing.rst:322
 #, fuzzy
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
@@ -3433,15 +3434,15 @@ msgstr ""
 "arquivo FOP, você precisará incluir o diretório que você extraiu a em seu"
 " caminho"
 
-#: ../../installing.rst:332
+#: ../../installing.rst:334
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../installing.rst:334
+#: ../../installing.rst:336
 msgid "any error related to lxml."
 msgstr "qualquer erro relacionado com lxml."
 
-#: ../../installing.rst:336
+#: ../../installing.rst:338
 msgid ""
 "In order to be able to compile lxml, you have to install a C compiler (on"
 " GNU/Linux this would be the ``gcc`` package) and Cython (a Python "
@@ -3453,7 +3454,7 @@ msgstr ""
 "especialização Python, que é compilada para código C. Nota: Cython não é "
 "CPython)."
 
-#: ../../installing.rst:341
+#: ../../installing.rst:343
 msgid ""
 "However, It should not be necessary to compile anything, and ``pip`` "
 "should be able to locate the binary modules in the online libraries."
@@ -3461,21 +3462,21 @@ msgstr ""
 "No entanto, não deve ser necessário compilar qualquer coisa, e ' pip ' "
 "deve ser capaz de localizar os módulos binários nas bibliotecas on-line."
 
-#: ../../installing.rst:344
+#: ../../installing.rst:346
 msgid "For some reason, this is not the case on Windows 8.1."
 msgstr "Por alguma razão, isto não é o caso no Windows 8.1."
 
-#: ../../installing.rst:348
+#: ../../installing.rst:350
 msgid "Please report any other trouble related to the installation of lxml."
 msgstr ""
 "Por favor, reporte qualquer outros problemas relacionados com a "
 "instalação de lxml."
 
-#: ../../installing.rst:350
+#: ../../installing.rst:352
 msgid "Couldn't install gdata."
 msgstr "Não consegui instalar o gdata."
 
-#: ../../installing.rst:352
+#: ../../installing.rst:354
 msgid ""
 "For some reason the Google's gdata package lists itself in the Python "
 "Package Index but doesn't work properly with the easy_install command.  "
@@ -3485,7 +3486,7 @@ msgstr ""
 "pacote Python mas não funciona corretamente com o comando easy_install.  "
 "Você pode baixar o pacote de instalação mais recente gdata:"
 
-#: ../../installing.rst:359
+#: ../../installing.rst:361
 msgid ""
 "Unzip it and run ``python setup.py installw`` in the folder you unzip it "
 "to."

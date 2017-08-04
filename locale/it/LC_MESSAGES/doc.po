@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-02 10:06-0500\n"
+"POT-Creation-Date: 2017-08-04 09:14-0500\n"
 "PO-Revision-Date: 2017-08-04 01:42+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language: it\n"
 "Language-Team: Italian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/it/>\n"
-"Language: it\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.16-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -401,9 +400,9 @@ msgid ""
 " difficult once you know how to do that. First of all, add weblate as "
 "remote::"
 msgstr ""
-"Qualcosa che accade: trovarsi con un conflitto. Risoluzione dei conflitti "
-"non è difficile se sai come si fa. Prima di tutto, aggiungere weblate come "
-"remoto::"
+"Qualcosa che accade: trovarsi con un conflitto. Risoluzione dei conflitti"
+" non è difficile se sai come si fa. Prima di tutto, aggiungere weblate "
+"come remoto::"
 
 #: ../../building.rst:131
 msgid ""
@@ -1794,11 +1793,11 @@ msgid ""
 "rank 'species'."
 msgstr ""
 "Si può segnalare l'incertezza nell'identificazione con l'aggiunta di un "
-"qualificatore di identificazione, al rango corrispondente, così è possibile "
-"ad esempio avere una pianta inizialmente identificata come *Iris* cf "
-"*florentina* selezionando *Iris florentina* come specie, e porre come "
-"qualificatore di identificazione 'cf', essendo la 'specie' il rango così "
-"qualificato."
+"qualificatore di identificazione, al rango corrispondente, così è "
+"possibile ad esempio avere una pianta inizialmente identificata come "
+"*Iris* cf *florentina* selezionando *Iris florentina* come specie, e "
+"porre come qualificatore di identificazione 'cf', essendo la 'specie' il "
+"rango così qualificato."
 
 #: ../../editing.rst:141
 msgid "Type the Accession ID, preferably also the Quantity received."
@@ -1818,15 +1817,15 @@ msgid ""
 " the list of contacts."
 msgstr ""
 "La fonte delle accessioni consente di aggiungere ulteriori informazioni "
-"sulla provenienza della accessione.  Selezionare un contatto dall'elenco a "
-"tendina, o scegliere \"Propagazione del giardino\", primo elemento "
+"sulla provenienza della accessione.  Selezionare un contatto dall'elenco "
+"a tendina, o scegliere \"Propagazione del giardino\", primo elemento "
 "predefinito nell'elenco dei contatti."
 
 #: ../../editing.rst:152
 msgid "A Garden Propagation is the result of successful Propagation."
 msgstr ""
-"Una propagazione del giardino è il risultato di una propagazione andata a "
-"buon fine."
+"Una propagazione del giardino è il risultato di una propagazione andata a"
+" buon fine."
 
 #: ../../editing.rst:154
 msgid ""
@@ -1837,11 +1836,11 @@ msgid ""
 "propagations the one you intend to add as an accession in your database."
 msgstr ""
 "Quando si accessiona materiale di una propagazione di giardino, lascia "
-"inizialmente vuota la prima scheda (generale) e inizia dalla seconda scheda "
-"(fonte). Seleziona come contatto \"Propagazione del Giardino\", indicare "
-"quale pianta è la pianta madre e scegli tra le propagazioni ancora non "
-"completamente accessionate quella che si desidera aggiungere come accessione "
-"nel database."
+"inizialmente vuota la prima scheda (generale) e inizia dalla seconda "
+"scheda (fonte). Seleziona come contatto \"Propagazione del Giardino\", "
+"indicare quale pianta è la pianta madre e scegli tra le propagazioni "
+"ancora non completamente accessionate quella che si desidera aggiungere "
+"come accessione nel database."
 
 #: ../../editing.rst:160
 msgid ""
@@ -1852,10 +1851,11 @@ msgid ""
 "Type of Material, inferred from the propagation type."
 msgstr ""
 "Una volta che si seleziona una propagazione, il software riempie alcuni "
-"campi nella scheda generale, che è ora bene esaminare.  Il Taxon (forse sei "
-"riuscito a ottenere qualcosa di leggermente diverso da quello della pianta "
-"madre). La quantità iniziale (in caso che non tutte le piante vanno nella "
-"stessa accessione). Il tipo di materiale, derivato dal tipo di propagazione."
+"campi nella scheda generale, che è ora bene esaminare.  Il Taxon (forse "
+"sei riuscito a ottenere qualcosa di leggermente diverso da quello della "
+"pianta madre). La quantità iniziale (in caso che non tutte le piante "
+"vanno nella stessa accessione). Il tipo di materiale, derivato dal tipo "
+"di propagazione."
 
 #: ../../editing.rst:170 ../../use_cases-jbq.rst:567
 #: ../../use_cases-jbq.rst:602
@@ -2105,8 +2105,8 @@ msgid ""
 "database."
 msgstr ""
 "Nella figura sopra, una vista semplificata del database, i blocchi "
-"evidenziati sono quelli relativi agli oggetti che vanno decisamente inseriti "
-"nel database."
+"evidenziati sono quelli relativi agli oggetti che vanno decisamente "
+"inseriti nel database."
 
 #: ../../goal.rst:55
 msgid ""
@@ -2115,10 +2115,10 @@ msgid ""
 "information, then step to administering your **Collection**, and finally "
 "consider the physical **Garden**."
 msgstr ""
-"Distinguiamo tre sezioni principali nel database.  Leggendo il grafico da "
-"destra verso sinistra, iniziamo con l'informazione **tassonomica**, poi "
-"passiamo all'amministrazione della **collezione** e infine consideriamo il "
-"**giardino** fisico."
+"Distinguiamo tre sezioni principali nel database.  Leggendo il grafico da"
+" destra verso sinistra, iniziamo con l'informazione **tassonomica**, poi "
+"passiamo all'amministrazione della **collezione** e infine consideriamo "
+"il **giardino** fisico."
 
 #: ../../goal.rst:60
 msgid ""
@@ -2358,18 +2358,18 @@ msgid ""
 "structure and look at it as two nested sequences of objects, each element"
 " of the sequence being necessary to add element at the next level."
 msgstr ""
-"Chi utilizzi Ghini solo sporadicamente può preferire ignorare la struttura "
-"del database e considerare i dati come due sequenze di oggetti in cascata, "
-"in modo che ogni elemento della sequenza sia necessario agli elementi dei "
-"livelli successivi."
+"Chi utilizzi Ghini solo sporadicamente può preferire ignorare la "
+"struttura del database e considerare i dati come due sequenze di oggetti "
+"in cascata, in modo che ogni elemento della sequenza sia necessario agli "
+"elementi dei livelli successivi."
 
 #: ../../goal.rst:159
 msgid ""
 "In order to get down to an Accession, you will need four levels, as in "
 "this example:"
 msgstr ""
-"Al fine di raggiungere l'Accessione, son necessari quattro livelli, come in "
-"questo esempio:"
+"Al fine di raggiungere l'Accessione, son necessari quattro livelli, come "
+"in questo esempio:"
 
 #: ../../goal.rst:164
 msgid ""
@@ -2377,9 +2377,9 @@ msgid ""
 " at the moment Ghini initializes it. So all you need is adding Species "
 "and Accessions, in this order."
 msgstr ""
-"Un insieme molto completo di famiglie e generi è inserito nel database al "
-"momento in cui Ghini l'inizializza. Così tutto ciò che serve è aggiungere "
-"specie ed accessioni, in questo ordine."
+"Un insieme molto completo di famiglie e generi è inserito nel database al"
+" momento in cui Ghini l'inizializza. Così tutto ciò che serve è "
+"aggiungere specie ed accessioni, in questo ordine."
 
 #: ../../goal.rst:168
 msgid ""
@@ -2388,8 +2388,8 @@ msgid ""
 " in the garden."
 msgstr ""
 "Quando si posiziona una pianta fisica (relativa ad un'accessione) in un "
-"luogo nel giardino, è necessario descrivere digitalmente questo \"luogo\", "
-"come una Collocazione nel giardino."
+"luogo nel giardino, è necessario descrivere digitalmente questo "
+"\"luogo\", come una Collocazione nel giardino."
 
 #: ../../goal.rst:177
 msgid "Highlights"
@@ -2913,9 +2913,9 @@ msgid ""
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
 " You may read the documentation later."
 msgstr ""
-"L'utente Linux frettoloso scarica ed esegue `lo script di installazione <http"
-"s://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstal"
-"l.sh>`_. La documentazione può attendere."
+"L'utente Linux frettoloso scarica ed esegue `lo script di installazione "
+"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
+" La documentazione può attendere."
 
 #: ../../installing.rst:14
 msgid ""
@@ -3054,8 +3054,8 @@ msgid ""
 "You use the same ``ghini`` script to update ghini to the latest released "
 "production patch::"
 msgstr ""
-"Si utilizza lo stesso script ``ghini`` per aggiornarsi alla patch pubblicata "
-"più recente::"
+"Si utilizza lo stesso script ``ghini`` per aggiornarsi alla patch "
+"pubblicata più recente::"
 
 #: ../../installing.rst:86
 msgid "This is what you would do when ghini shows you something like this:"
@@ -3074,9 +3074,9 @@ msgid ""
 "on which GNU/Linux flavour you are using. Check with your distribution "
 "documentation."
 msgstr ""
-"Attenzione: potrebbe essere necessario risolvere le dipendenze. Come farlo, "
-"dipende dalla distribuzione GNU/Linux che si sta utilizzando. Controllare la "
-"vostra documentazione."
+"Attenzione: potrebbe essere necessario risolvere le dipendenze. Come "
+"farlo, dipende dalla distribuzione GNU/Linux che si sta utilizzando. "
+"Controllare la vostra documentazione."
 
 #: ../../installing.rst:100
 msgid ""
@@ -3127,8 +3127,8 @@ msgid ""
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
 
-#: ../../installing.rst:132 ../../installing.rst:186 ../../installing.rst:326
-#: ../../installing.rst:362
+#: ../../installing.rst:132 ../../installing.rst:186 ../../installing.rst:328
+#: ../../installing.rst:364
 msgid "Next..."
 msgstr "Prossimo..."
 
@@ -3291,8 +3291,9 @@ msgid ""
 "32bit python). be sure you download the \"all in one\" version."
 msgstr ""
 "scaricare ``pygtk`` da `la fonte ufficiale "
-"<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/ >`_. (questo richiede "
-"python a 32 bit). Accertati di scaricare la versione \"all in one\"."
+"<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/ >`_. (questo "
+"richiede python a 32 bit). Accertati di scaricare la versione \"all in "
+"one\"."
 
 #: ../../installing.rst:228
 msgid "Make a complete install, selecting everything:"
@@ -3313,8 +3314,8 @@ msgid ""
 "(definitely optional) download and install a database connector other "
 "than ``sqlite3``."
 msgstr ""
-"(decisamente facoltativo) scaricare e installare un connettore di database "
-"diverso da ``sqlite3``."
+"(decisamente facoltativo) scaricare e installare un connettore di "
+"database diverso da ``sqlite3``."
 
 #: ../../installing.rst:249
 msgid ""
@@ -3382,33 +3383,33 @@ msgid ""
 "and install ghini into it."
 msgstr ""
 "L'esecuzione di ``devinstall.bat`` scarica l'intero repositorio "
-"``ghini.desktop`` nella vostra home directory, in ``Local\\github\\Ghini``, "
-"lo connette alla linea di produzione ``ghini-1.0``, crea un ambiente "
-"virtuale e vi installa ghini."
+"``ghini.desktop`` nella vostra home directory, in "
+"``Local\\github\\Ghini``, lo connette alla linea di produzione "
+"``ghini-1.0``, crea un ambiente virtuale e vi installa ghini."
 
 #: ../../installing.rst:289
 msgid ""
 "You can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
-"È inoltre possibile eseguire ``devinstall.bat`` passando come argomento la "
-"parte numerica della linea di produzione che si desidera seguire."
+"È inoltre possibile eseguire ``devinstall.bat`` passando come argomento "
+"la parte numerica della linea di produzione che si desidera seguire."
 
 #: ../../installing.rst:292
 msgid ""
 "This is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
-"Questo è l'ultimo passo di installazione che dipende, e molto, da una buona "
-"connessione ad internet."
+"Questo è l'ultimo passo di installazione che dipende, e molto, da una "
+"buona connessione ad internet."
 
 #: ../../installing.rst:295
 msgid ""
 "The operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
-"L'operazione può tardare alcuni minuti, a seconda della velocità della tua "
-"connessione internet."
+"L'operazione può tardare alcuni minuti, a seconda della velocità della "
+"tua connessione internet."
 
 #: ../../installing.rst:298
 msgid ""
@@ -3424,18 +3425,19 @@ msgstr ""
 "chiama ' devinstall-finalize.bat ', è proprio nella tua cartella HOME ed "
 "è stato creato nel passaggio precedente."
 
-#: ../../installing.rst:304
+#: ../../installing.rst:306
+#, fuzzy
 msgid ""
-"right-click on it, select run as administrator, confirm you want it to "
-"make changes to your computer. These changes are in the Start Menu only: "
-"create the Ghini group, place the Ghini shortcut."
+"Right-click on it, select run as administrator, confirm you want it to "
+"make changes to your computer.  These changes are in the Start Menu only:"
+" create the Ghini group, place the Ghini shortcut."
 msgstr ""
 "pulsante destro del mouse su di esso, selezionare Esegui come "
 "amministratore, confermare che si desidera apportare modifiche al "
 "computer. Questi cambiamenti sono nel Menu Start solo: creare il gruppo "
 "di Ghini, inserire il collegamento di Ghini."
 
-#: ../../installing.rst:308
+#: ../../installing.rst:310
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
@@ -3443,7 +3445,7 @@ msgstr ""
 "scaricare il file di batch che si utilizzerà per rimanere sempre "
 "aggiornati con la linea di produzione che si è scelto di seguire:"
 
-#: ../../installing.rst:313
+#: ../../installing.rst:315
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
@@ -3454,7 +3456,7 @@ msgstr ""
 "qualsiasi più recenti ghini rilasciare entro la linea di produzione "
 "selezionata."
 
-#: ../../installing.rst:317
+#: ../../installing.rst:319
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``, it will hardly take one minute."
@@ -3462,7 +3464,7 @@ msgstr ""
 "Ogni volta che si desidera aggiornare l'installazione, basta avviare il "
 "prompt ed eseguire ``ghini-update. bat``."
 
-#: ../../installing.rst:320
+#: ../../installing.rst:322
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
@@ -3470,20 +3472,20 @@ msgid ""
 " you will need to include the directory you extracted to in your PATH."
 msgstr ""
 "Se si desidera generare e stampare report in formato PDF utilizzando il "
-"generatore di report predefinito di Ghini, si dovrà scaricare e installare `"
-"Apache FOP <http://xmlgraphics.apache.org/fop/>`_. Dopo l'estrazione di "
-"Apache FOP, è necessario includere nel PATH la directory in cui lo si è "
-"estratto."
+"generatore di report predefinito di Ghini, si dovrà scaricare e "
+"installare `Apache FOP <http://xmlgraphics.apache.org/fop/>`_. Dopo "
+"l'estrazione di Apache FOP, è necessario includere nel PATH la directory "
+"in cui lo si è estratto."
 
-#: ../../installing.rst:332
+#: ../../installing.rst:334
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../installing.rst:334
+#: ../../installing.rst:336
 msgid "any error related to lxml."
 msgstr "qualsiasi errore relazionati a lxml."
 
-#: ../../installing.rst:336
+#: ../../installing.rst:338
 msgid ""
 "In order to be able to compile lxml, you have to install a C compiler (on"
 " GNU/Linux this would be the ``gcc`` package) and Cython (a Python "
@@ -3495,7 +3497,7 @@ msgstr ""
 " (una specializzazione di Python, che viene compilata in codice C. Nota: "
 "Cython non è CPython)."
 
-#: ../../installing.rst:341
+#: ../../installing.rst:343
 msgid ""
 "However, It should not be necessary to compile anything, and ``pip`` "
 "should be able to locate the binary modules in the online libraries."
@@ -3504,21 +3506,21 @@ msgstr ""
 "dovrebbe essere in grado di individuare i moduli binari nelle librerie "
 "online."
 
-#: ../../installing.rst:344
+#: ../../installing.rst:346
 msgid "For some reason, this is not the case on Windows 8.1."
 msgstr "Per qualche ragione, questo non è il caso su Windows 8.1."
 
-#: ../../installing.rst:348
+#: ../../installing.rst:350
 msgid "Please report any other trouble related to the installation of lxml."
 msgstr ""
 "Si prega di segnalare eventuali altri problemi relazionati "
 "all'installazione di lxml."
 
-#: ../../installing.rst:350
+#: ../../installing.rst:352
 msgid "Couldn't install gdata."
 msgstr "Non poteva installare gdata."
 
-#: ../../installing.rst:352
+#: ../../installing.rst:354
 msgid ""
 "For some reason the Google's gdata package lists itself in the Python "
 "Package Index but doesn't work properly with the easy_install command.  "
@@ -3528,7 +3530,7 @@ msgstr ""
 "nell'indice pacchetto Python ma non funziona correttamente con il comando"
 " easy_install.  È possibile scaricare l'ultimo pacchetto di gdata da:"
 
-#: ../../installing.rst:359
+#: ../../installing.rst:361
 msgid ""
 "Unzip it and run ``python setup.py installw`` in the folder you unzip it "
 "to."
@@ -3731,9 +3733,9 @@ msgid ""
 "reports. More information about Mako and its language can be found at "
 "`makotemplates.org <http://www.makotemplates.org>`_."
 msgstr ""
-"Il formattatore di relazione Mako utilizza il linguaggio del modello di Mako "
-"per la generazione di report. Ulteriori informazioni su Mako e il suo "
-"linguaggio si trovano sul sito `makotemplates.org "
+"Il formattatore di relazione Mako utilizza il linguaggio del modello di "
+"Mako per la generazione di report. Ulteriori informazioni su Mako e il "
+"suo linguaggio si trovano sul sito `makotemplates.org "
 "<http://www.makotemplates.org>`_."
 
 #: ../../report.rst:18
@@ -3835,10 +3837,11 @@ msgid ""
 "installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#makechanges>`_"
 " installer."
 msgstr ""
-"Ci sono due modi per installare FOP su Windows. Il più semplice è scaricando "
-"il precompilato `ApacheFOP-0.95-1-setup.exe <http://code.google.com/p/apache-"
-"fop-installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#"
-"makechanges >`_."
+"Ci sono due modi per installare FOP su Windows. Il più semplice è "
+"scaricando il precompilato `ApacheFOP-0.95-1-setup.exe "
+"<http://code.google.com/p/apache-fop-"
+"installer/downloads/detail?name=ApacheFOP-0.95-1-setup.exe&can=2&q=#makechanges"
+" >`_."
 
 #: ../../report.rst:65
 msgid ""
@@ -3848,9 +3851,9 @@ msgid ""
 "archive to to your PATH environment variable."
 msgstr ""
 "In alternativa è possibile scaricare `l'archivio "
-"<http://www.apache.org/dist/xmlgraphics/fop/binaries/>`_.  Dopo l'estrazione "
-"dell'archivio è necessario aggiungere al PATH la directory dove è stato "
-"estratto l'archivio."
+"<http://www.apache.org/dist/xmlgraphics/fop/binaries/>`_.  Dopo "
+"l'estrazione dell'archivio è necessario aggiungere al PATH la directory "
+"dove è stato estratto l'archivio."
 
 #: ../../searching.rst:4
 msgid "Searching in Ghini"
@@ -4062,16 +4065,16 @@ msgid ""
 "``%ck%10`` would search for all value that contain ``ck`` and end in "
 "``10``."
 msgstr ""
-"La stringa di ricerca ``loc like blocco%`` restituisce tutte le collocazioni "
-"il cui nome o codice inizia con \"blocco\".  In questo caso il dominio è "
-"``loc`` (un'abbreviazione per ``location``), l'operatore è ``like`` (questo "
-"viene dall'SQL ed aggiunge un fattore di approssimazione nella ricerca), il "
-"valore è ``blocco%``, i campi di ricerca sono implicitamente ``nome`` e "
-"``codice``.  Il segno di percentuale viene utilizzato come jolly, pertanto "
-"se si cerca ``max%`` ricercherà tutti i valori che iniziano con \"max\".  Se "
-"si cerca ``%10`` ricerca per tutti i valori che terminano in ``10``.  La "
-"stringa ``%ck%10`` indica la ricerca di tutto ciò che contenga ``ck`` e "
-"termini in ``10``."
+"La stringa di ricerca ``loc like blocco%`` restituisce tutte le "
+"collocazioni il cui nome o codice inizia con \"blocco\".  In questo caso "
+"il dominio è ``loc`` (un'abbreviazione per ``location``), l'operatore è "
+"``like`` (questo viene dall'SQL ed aggiunge un fattore di approssimazione"
+" nella ricerca), il valore è ``blocco%``, i campi di ricerca sono "
+"implicitamente ``nome`` e ``codice``.  Il segno di percentuale viene "
+"utilizzato come jolly, pertanto se si cerca ``max%`` ricercherà tutti i "
+"valori che iniziano con \"max\".  Se si cerca ``%10`` ricerca per tutti i"
+" valori che terminano in ``10``.  La stringa ``%ck%10`` indica la ricerca"
+" di tutto ciò che contenga ``ck`` e termini in ``10``."
 
 #: ../../searching.rst:110
 msgid "When a query takes ages to complete"
@@ -6365,3 +6368,4 @@ msgstr "Ghini consente lettura, scrittura ed esecuzione autorizzazioni."
 
 #~ msgid "engraving labels"
 #~ msgstr "incisione etichette"
+

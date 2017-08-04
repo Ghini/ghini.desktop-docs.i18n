@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-02 17:03-0500\n"
+"POT-Creation-Date: 2017-08-04 09:14-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3048,8 +3048,8 @@ msgid ""
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
 
-#: ../../installing.rst:132 ../../installing.rst:186 ../../installing.rst:326
-#: ../../installing.rst:362
+#: ../../installing.rst:132 ../../installing.rst:186 ../../installing.rst:328
+#: ../../installing.rst:364
 msgid "Next..."
 msgstr ""
 
@@ -3295,33 +3295,33 @@ msgid ""
 "step."
 msgstr ""
 
-#: ../../installing.rst:304
+#: ../../installing.rst:306
 msgid ""
-"right-click on it, select run as administrator, confirm you want it to "
-"make changes to your computer. These changes are in the Start Menu only: "
-"create the Ghini group, place the Ghini shortcut."
+"Right-click on it, select run as administrator, confirm you want it to "
+"make changes to your computer.  These changes are in the Start Menu only:"
+" create the Ghini group, place the Ghini shortcut."
 msgstr ""
 
-#: ../../installing.rst:308
+#: ../../installing.rst:310
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
 msgstr ""
 
-#: ../../installing.rst:313
+#: ../../installing.rst:315
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
 "newer ghini release within your chosen production line."
 msgstr ""
 
-#: ../../installing.rst:317
+#: ../../installing.rst:319
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``, it will hardly take one minute."
 msgstr ""
 
-#: ../../installing.rst:320
+#: ../../installing.rst:322
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
@@ -3329,15 +3329,15 @@ msgid ""
 " you will need to include the directory you extracted to in your PATH."
 msgstr ""
 
-#: ../../installing.rst:332
+#: ../../installing.rst:334
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../installing.rst:334
+#: ../../installing.rst:336
 msgid "any error related to lxml."
 msgstr ""
 
-#: ../../installing.rst:336
+#: ../../installing.rst:338
 msgid ""
 "In order to be able to compile lxml, you have to install a C compiler (on"
 " GNU/Linux this would be the ``gcc`` package) and Cython (a Python "
@@ -3345,32 +3345,32 @@ msgid ""
 "CPython)."
 msgstr ""
 
-#: ../../installing.rst:341
+#: ../../installing.rst:343
 msgid ""
 "However, It should not be necessary to compile anything, and ``pip`` "
 "should be able to locate the binary modules in the online libraries."
 msgstr ""
 
-#: ../../installing.rst:344
+#: ../../installing.rst:346
 msgid "For some reason, this is not the case on Windows 8.1."
 msgstr ""
 
-#: ../../installing.rst:348
+#: ../../installing.rst:350
 msgid "Please report any other trouble related to the installation of lxml."
 msgstr ""
 
-#: ../../installing.rst:350
+#: ../../installing.rst:352
 msgid "Couldn't install gdata."
 msgstr ""
 
-#: ../../installing.rst:352
+#: ../../installing.rst:354
 msgid ""
 "For some reason the Google's gdata package lists itself in the Python "
 "Package Index but doesn't work properly with the easy_install command.  "
 "You can download the latest gdata package from:"
 msgstr ""
 
-#: ../../installing.rst:359
+#: ../../installing.rst:361
 msgid ""
 "Unzip it and run ``python setup.py installw`` in the folder you unzip it "
 "to."
@@ -5780,5 +5780,14 @@ msgstr "Ghini permet les autorisations de lecture, d'écriture et d'exécution."
 #~ msgstr ""
 
 #~ msgid "``sudo adduser mlopez``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "right-click on it, select run as"
+#~ " administrator, confirm you want it "
+#~ "to make changes to your computer. "
+#~ "These changes are in the Start "
+#~ "Menu only: create the Ghini group, "
+#~ "place the Ghini shortcut."
 #~ msgstr ""
 
