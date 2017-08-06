@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-07-30 19:07+0000\n"
+"PO-Revision-Date: 2017-08-06 12:18+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
@@ -2096,12 +2096,17 @@ msgstr ""
 "відповідного рівня довіри."
 
 #: ../../goal.rst:75
+#, fuzzy
 msgid ""
 "If an ``Accession`` was obtained in the garden nursery from a successful "
 "``Propagation``, the ``Propagation`` links the ``Accession`` and all of "
 "its ``Plantings`` to a single parent ``Planting``, the seed or the "
 "vegetative parent."
 msgstr ""
+"Якщо ``Приєднання`` отримано з садового розсадника від успішного "
+"``Розмноження``, ``Розмноження``зв'язує ``Приєднання`` і всі його "
+"``Насадження`` до батьківського ``Насадження``, насіння або вегетативного "
+"батька."
 
 #: ../../goal.rst:80
 msgid ""
@@ -2112,10 +2117,16 @@ msgid ""
 "concept any clearer. One of our users gave an example which I'm glad to "
 "include in Ghini's documentation."
 msgstr ""
+"Навіть після викладеного вище пояснення, нові користувачі, як правило, як і "
+"раніше запитують, чому їм потрібно пройти через екран ``Приєднання``, тоді "
+"як все, що вони хочуть - це вставити ``Рослина`` у колекцію, і знову: що це "
+"річ \"приєднання\" в будь-якому випадку? Більшість дискусій у мережі не "
+"роблять поняття чіткішим. Один з наших користувачів дав приклад, який я "
+"радий включити в документацію Ghini."
 
 #: ../../goal.rst
 msgid "use case"
-msgstr ""
+msgstr "варіант використання"
 
 #: ../../goal.rst:87
 msgid ""
@@ -2126,6 +2137,11 @@ msgid ""
 "them all together at one ``Location`` as a single ``Planting``, also with"
 " quantity 5."
 msgstr ""
+"На початку 2007 року ми отримали п'ять саджанців *Heliconia longa* (``Вид`` "
+"рослини) від нашого сусіда (джерело ``Контакт``). Оскільки це було перше "
+"придбання року, ми назвали їх 2007.0001 (ми надали їм єдиний унікальний код "
+"``Приєднання``, з кількістю 5) і ми посадили їх усіх разом в одному "
+"``Розташування`` як одиничне ``Насадження``, також з кількістю 5."
 
 #: ../../goal.rst:95
 msgid ""
@@ -2135,18 +2151,28 @@ msgid ""
 "intervention was splitting, moving, and of course writing this "
 "information in the database. Total plant quantity is above 40."
 msgstr ""
+"На момент написання, через дев'ять років, ``Приєднання`` 2007.0001 має 6 "
+"окремих ``Насаджень``, кожне в іншому ``Розташуванні`` у нашому саду, "
+"отриманих вегетативно (безстатево) від оригінальних 5 рослин. Наше єдине "
+"втручання було поділ, переміщення, і, звичайно, записати цю інформацію в "
+"базі даних. Загальна кількість рослин перевищує 40."
 
 #: ../../goal.rst:102
+#, fuzzy
 msgid ""
 "New ``Plantings`` obtained by (assisted) sexual ``Propagation`` come in "
 "our database under different ``Accession`` codes, where our garden is the"
 " ``Contact`` source and where we know which of our ``Plantings`` is the "
 "seed parent."
 msgstr ""
+"Нові ``Насадження``, отримані (допоміжним) половим ``Розповсюдженням``, "
+"надходять в нашу базу даних за різними кодами ``Приєднання``, де наш сад є "
+"джерелом ``Контакт``, і де ми знаємо, який із наших ``Насаджень`` - батько "
+"сім'ї."
 
 #: ../../goal.rst:107
 msgid "the above three cases translate into several short usage stories:"
-msgstr ""
+msgstr "ці три випадки переводяться в кілька коротких історій використання:"
 
 #: ../../goal.rst:109
 msgid ""
@@ -2155,26 +2181,33 @@ msgid ""
 "quantity of the ``Accession``; add its ``Planting`` at the desired "
 "``Location``."
 msgstr ""
+"Активізуйте меню Вставка → Приєднання, перевірте існування та правильність "
+"``Види`` *Heliconia longa*, вкажіть початкову кількість ``Приєднання``; "
+"додайте своє ``Насадження`` на бажане ``Розташування``."
 
 #: ../../goal.rst:113
 msgid ""
 "edit ``Planting`` to correct the amount of living plants — repeat this as"
 " often as necessary."
 msgstr ""
+"відредагуйте ``Насадження`` для виправлення кількості живих рослин - "
+"повторіть це так часто, як це необхідно."
 
 #: ../../goal.rst:115
 msgid ""
 "edit ``Planting`` to split it at separate ``Locations`` — this produces a"
 " different ``Planting`` under the same ``Accession``."
 msgstr ""
+"відредагуйте ``Насадження``, щоб розділити його на окремі ``Розташування`` - "
+"це створює інші ``Насадження`` під тим самим ``Приєднанням``."
 
 #: ../../goal.rst:117
 msgid "edit ``Planting`` to add a (seed) ``Propagation``."
-msgstr ""
+msgstr "редагувати ``Насадження``, щоб додати (насіння) ``Розповсюдження``."
 
 #: ../../goal.rst:118
 msgid "edit ``Planting`` to update the status of the ``Propagation``."
-msgstr ""
+msgstr "редагувати ``Насадження`` щоб оновити статус ``Розповсюдження``."
 
 #: ../../goal.rst:119
 msgid ""
@@ -2182,6 +2215,9 @@ msgid ""
 "successful ``Propagation`` trial; add the ``Planting`` at the desired "
 "``Location``."
 msgstr ""
+"активізуйте меню Вставити → Приєднання, щоб пов'язати приєднання до успішної "
+"пробної версії ``Розповсюдження``; додайте ``Насадження`` у бажаному "
+"``Розташуванні``."
 
 #: ../../goal.rst:123
 msgid ""
@@ -2191,6 +2227,10 @@ msgid ""
 "removed from the collection, help justify the presence of the "
 "``Accession`` abstraction level."
 msgstr ""
+"Зокрема, можливість розділити ``Насадження`` в декількох різних "
+"``Розташуваннях`` і тримати все рівномірно асоційованими з одним ``Видом``, "
+"або можливість зберегти інформацію про ``Насадження`` які були вилучені з "
+"колекції, допоможе підтвердити наявність рівня абстракції ``Приєднання``."
 
 #: ../../goal.rst:131
 msgid "Our User Stories section contains details about the above, and more."
@@ -2198,7 +2238,7 @@ msgstr ""
 
 #: ../../goal.rst:136
 msgid "Highlights"
-msgstr ""
+msgstr "Підсвічування"
 
 #: ../../goal.rst:137
 msgid "not-so-brief list of highlights, meant to whet your appetite."
