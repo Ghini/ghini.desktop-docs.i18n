@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-04 09:14-0500\n"
-"PO-Revision-Date: 2017-08-06 12:18+0000\n"
+"PO-Revision-Date: 2017-08-07 18:12+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
@@ -2371,6 +2371,14 @@ msgid ""
 "regarding the Orchidaceae, using “Tropicos, botanical information system "
 "at the Missouri Botanical Garden - www.tropicos.org” as a source."
 msgstr ""
+"Коли ви вперше запустите Ghini, і підключитися до бази даних, Ghini буде "
+"ініціалізувати базу даних не тільки з усіма таблицями, які потрібно "
+"запустити, але і заповнювати таблиці таксонів для рангів сім'ї і роду, "
+"використовуючи дані з  “RBG Kew's Family and Genera list from Vascular Plant "
+"Families and Genera compiled by R. K. Brummitt and published by the Royal "
+"Botanic Gardens, Kew in 1992”. У 2015 році ми переглянули дані щодо "
+"Orchidaceae, використовуючи, як джерело, “Tropicos, botanical information "
+"system at the Missouri Botanical Garden - www.tropicos.org”."
 
 #: ../../goal.rst:193
 msgid "importing data"
@@ -2383,6 +2391,10 @@ msgid ""
 "database. If you need help, you can ask some Ghini professional to help "
 "you transform your data into Ghini's intermediate json format."
 msgstr ""
+"Ghini дозволить вам імпортувати будь-які дані, які ви помістили в проміжному "
+"форматі json. Те, що ви імпортуєте, завершить те, що ви вже маєте в базі "
+"даних. Якщо вам потрібна допомога, ви можете попросити фахівця Ghini "
+"допомогти вам перетворити ваші дані в проміжний Ghini формат json."
 
 #: ../../goal.rst:201
 msgid "synonyms"
@@ -2559,6 +2571,11 @@ msgid ""
 " on unix, it is possible to successfully run the Linux installation "
 "procedure on any recent Apple computer, after a few preparation steps."
 msgstr ""
+"Встановлення Ghini в Windows - це простий і лінійний процес, займе не більше "
+"10 хвилин. Ghini народився в Linux і встановити його на  ubuntu, fedora або "
+"debian ще простіше. MacOSX заснований на unix, можна успішно запустити "
+"процедуру встановлення Linux на будь-якому нещодавньому комп'ютері Apple, "
+"після кількох кроків підготовки."
 
 #: ../../goal.rst:291
 msgid "easily updated"
@@ -2589,6 +2606,11 @@ msgid ""
 "difficult for us to release anything which has a single failing unit "
 "test."
 msgstr ""
+"Ghini постійно та екстенсивно перевіряється, дещо, що робить регрес "
+"функціональності близьким до неможливості. Кожне оновлення автоматично "
+"перевіряється, на Travis Continuous Integration службі. Інтеграція TravisCI "
+"з платформою github ускладнить для нас випуск будь-якого матеріалу, що має "
+"єдиний тест на несправність."
 
 #: ../../goal.rst:307
 msgid ""
@@ -2805,8 +2827,9 @@ msgstr ""
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
 #: ../../index.rst:17
+#, fuzzy
 msgid "Statements"
-msgstr ""
+msgstr "Заяви"
 
 #: ../../index.rst:26
 #, fuzzy
@@ -2815,7 +2838,7 @@ msgstr "Установка Ghini"
 
 #: ../../index.rst:35
 msgid "User's Guide"
-msgstr ""
+msgstr "Керівництво користувача"
 
 #: ../../index.rst:50
 msgid "Cookbook"
@@ -2847,7 +2870,7 @@ msgstr ""
 
 #: ../../installing.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "Установка"
 
 #: ../../installing.rst:4
 #, fuzzy
@@ -2860,7 +2883,7 @@ msgstr ""
 
 #: ../../installing.rst:7
 msgid "one-liner for hurried users."
-msgstr ""
+msgstr "одним рядком для поспішних користувачів."
 
 #: ../../installing.rst:10
 msgid ""
@@ -2868,6 +2891,9 @@ msgid ""
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
 " You may read the documentation later."
 msgstr ""
+"Користувачі Linux просто завантажують і запускають `the installation script <"
+"https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devin"
+"stall.sh>`_. Ви можете ознайомитися з документацією пізніше."
 
 #: ../../installing.rst:14
 msgid ""
@@ -2877,12 +2903,18 @@ msgid ""
 "PyGTK_>`_, `psycopg2 <Direct link to download psycopg2_>`_), read the "
 "instructions in the meanwhile."
 msgstr ""
+"Користувачі Windows починають завантажувати всі зовнішні залежності (`git <"
+"Direct link to download git_>`_, `Python <Direct link to download Python_>`"
+"_, `lxml <Direct link to download lxml_>`_, `PyGTK <Direct link to download "
+"PyGTK_>`_, `psycopg2 <Direct link to download psycopg2_>`_), читаючи "
+"інструкції тим часом."
 
 #: ../../installing.rst:21
 msgid "Mac users are never in a hurry, are they?"
-msgstr ""
+msgstr "Користувачі Mac ніколи не поспішають, чи є вони?"
 
 #: ../../installing.rst:23
+#, fuzzy
 msgid ""
 "Ghini is maintained by very few people, who focus on enhancing its "
 "functional parts, more than on writing fancy installers. Instead of "
@@ -2890,6 +2922,11 @@ msgid ""
 "procedure. This has a few big advantages which you will learn to "
 "appreciate as we go."
 msgstr ""
+"Ghini підтримується дуже небагатьма людьми, які зосереджують свою увагу на "
+"підвищенні його функціональних частин, ніж на написанні фантастичних "
+"інсталяторів. Замість декількох інсталяторів, ми пропонуємо єдину процедуру "
+"встановлення крос-платформ. Це має декілька великих переваг, які ви "
+"навчитеся оцінити, як ми йдемо."
 
 #: ../../installing.rst:28
 #, fuzzy
