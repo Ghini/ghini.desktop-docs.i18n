@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-08-06 12:18+0000\n"
+"PO-Revision-Date: 2017-08-07 18:12+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
@@ -2261,6 +2261,14 @@ msgid ""
 "regarding the Orchidaceae, using “Tropicos, botanical information system "
 "at the Missouri Botanical Garden - www.tropicos.org” as a source."
 msgstr ""
+"Коли ви вперше запустите Ghini, і підключитися до бази даних, Ghini буде "
+"ініціалізувати базу даних не тільки з усіма таблицями, які потрібно "
+"запустити, але і заповнювати таблиці таксонів для рангів сім'ї і роду, "
+"використовуючи дані з  “RBG Kew's Family and Genera list from Vascular Plant "
+"Families and Genera compiled by R. K. Brummitt and published by the Royal "
+"Botanic Gardens, Kew in 1992”. У 2015 році ми переглянули дані щодо "
+"Orchidaceae, використовуючи, як джерело, “Tropicos, botanical information "
+"system at the Missouri Botanical Garden - www.tropicos.org”."
 
 #: ../../goal.rst:152
 msgid "importing data"
@@ -2273,6 +2281,10 @@ msgid ""
 "database. If you need help, you can ask some Ghini professional to help "
 "you transform your data into Ghini's intermediate json format."
 msgstr ""
+"Ghini дозволить вам імпортувати будь-які дані, які ви помістили в проміжному "
+"форматі json. Те, що ви імпортуєте, завершить те, що ви вже маєте в базі "
+"даних. Якщо вам потрібна допомога, ви можете попросити фахівця Ghini "
+"допомогти вам перетворити ваші дані в проміжний Ghini формат json."
 
 #: ../../goal.rst:160
 msgid "synonyms"
@@ -2449,6 +2461,11 @@ msgid ""
 " on unix, it is possible to successfully run the Linux installation "
 "procedure on any recent Apple computer, after a few preparation steps."
 msgstr ""
+"Встановлення Ghini в Windows - це простий і лінійний процес, займе не більше "
+"10 хвилин. Ghini народився в Linux і встановити його на  ubuntu, fedora або "
+"debian ще простіше. MacOSX заснований на unix, можна успішно запустити "
+"процедуру встановлення Linux на будь-якому нещодавньому комп'ютері Apple, "
+"після кількох кроків підготовки."
 
 #: ../../goal.rst:250
 msgid "easily updated"
@@ -2479,6 +2496,11 @@ msgid ""
 "difficult for us to release anything which has a single failing unit "
 "test."
 msgstr ""
+"Ghini постійно та екстенсивно перевіряється, дещо, що робить регрес "
+"функціональності близьким до неможливості. Кожне оновлення автоматично "
+"перевіряється, на Travis Continuous Integration службі. Інтеграція TravisCI "
+"з платформою github ускладнить для нас випуск будь-якого матеріалу, що має "
+"єдиний тест на несправність."
 
 #: ../../goal.rst:266
 msgid ""
@@ -2695,8 +2717,9 @@ msgstr ""
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
 #: ../../index.rst:17
+#, fuzzy
 msgid "Statements"
-msgstr ""
+msgstr "Заяви"
 
 #: ../../index.rst:26
 #, fuzzy
@@ -2733,7 +2756,7 @@ msgstr ""
 
 #: ../../installing.rst:2
 msgid "Installation"
-msgstr ""
+msgstr "Установка"
 
 #: ../../installing.rst:4
 #, fuzzy
@@ -2756,6 +2779,7 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:13
+#, fuzzy
 msgid ""
 "Ghini is maintained by very few people, who focus on enhancing its "
 "functional parts, more than on writing fancy installers. Instead of "
@@ -2763,6 +2787,11 @@ msgid ""
 "procedure. This has a few big advantages which you will learn to "
 "appreciate as we go."
 msgstr ""
+"Ghini підтримується дуже небагатьма людьми, які зосереджують свою увагу на "
+"підвищенні його функціональних частин, ніж на написанні фантастичних "
+"інсталяторів. Замість декількох інсталяторів, ми пропонуємо єдину процедуру "
+"встановлення крос-платформ. Це має декілька великих переваг, які ви "
+"навчитеся оцінити, як ми йдемо."
 
 #: ../../installing.rst:18
 #, fuzzy
