@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-10 09:04-0500\n"
+"POT-Creation-Date: 2017-08-13 08:36-0500\n"
 "PO-Revision-Date: 2017-07-02 20:20+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: ar\n"
@@ -3616,6 +3616,10 @@ msgstr ""
 
 #: ../../statements.rst:60
 msgid "geographic information"
+msgstr ""
+
+#: ../../statements.rst:63
+msgid "The Ghini family"
 msgstr ""
 
 #: ../../tagging.rst:2

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-10 09:04-0500\n"
+"POT-Creation-Date: 2017-08-13 08:36-0500\n"
 "PO-Revision-Date: 2017-08-04 01:42+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: it\n"
@@ -3068,7 +3068,10 @@ msgid ""
 "``/usr/local/bin``. This globally available ``ghini`` script cannot be "
 "used to update a ghini installation."
 msgstr ""
-"Gli utenti della installazione globale scrivono ``ghini`` per invocare il programma, ma utilizzano lo script globale, situato in ``/usr/local/bin``. Questo script ``ghini`` non serve ad aggiornare ghini."
+"Gli utenti della installazione globale scrivono ``ghini`` per invocare il"
+" programma, ma utilizzano lo script globale, situato in "
+"``/usr/local/bin``. Questo script ``ghini`` non serve ad aggiornare "
+"ghini."
 
 #: ../../installing.rst:95
 msgid ""
@@ -4817,6 +4820,10 @@ msgstr "integrazione con il portale web"
 #: ../../statements.rst:60
 msgid "geographic information"
 msgstr "informazioni geografiche"
+
+#: ../../statements.rst:63
+msgid "The Ghini family"
+msgstr ""
 
 #: ../../tagging.rst:2
 msgid "Tagging"
