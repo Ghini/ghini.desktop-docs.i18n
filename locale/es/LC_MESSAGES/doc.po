@@ -3244,7 +3244,7 @@ msgid ""
 msgstr ""
 "asegúrese de haber entendido los problemas que serás reportados, y "
 "corríjalos. pygtk necesita xquartz y brew no puede solucionar la "
-"dependencia en manera automatica. use bre para instalar xquartz::"
+"dependencia en manera automatica. instale xquartz utilizando brew::"
 
 #: ../../installing.rst:167
 msgid "then install the remaining dependencies::"
@@ -3256,15 +3256,15 @@ msgstr "siga las instrucciones relativas a como activar lo que acaba de instalar
 
 #: ../../installing.rst:174
 msgid "Mac running OSX 10.12 —Sierra—"
-msgstr "Mac ejecutando OS X 10.12 — Sierra —"
+msgstr "Mac con OSX 10.12 —Sierra—"
 
 #: ../../installing.rst:177
 msgid ""
 "On OSX 10.12, ``brew`` reports that ``gettext`` is already installed, but"
 " then it won't let us find it. A solution is to run the following line::"
 msgstr ""
-"En OSX 10.12, '' colar '' informa que '' gettext'' ya está instalado, "
-"pero entonces no nos lo encontrará. Una solución es ejecutar la siguiente"
+"En OSX 10.12, ``brew`` informa que ``gettext`` ya está instalado, "
+"pero lo mismo no lo encuentra. Una solución es ejecutar la siguiente"
 " línea::"
 
 #: ../../installing.rst:183
@@ -3272,9 +3272,9 @@ msgid ""
 "Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
 "installing a couple of python packages, globally. Do this::"
 msgstr ""
-"Antes de que podemos ejecutar '' devinstall.sh'' como en GNU/Linux, "
+"Antes de poder ejecutar ``devinstall.sh`` como en GNU/Linux, "
 "todavía necesitamos instalar un par de paquetes de python, a nivel "
-"mundial. Hacer esto::"
+"global. Lo hacemos así::"
 
 #: ../../installing.rst:188
 msgid ""
