@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2017-08-14 06:33-0500\n"
+"POT-Creation-Date: 2017-08-14 09:14-0500\n"
 "PO-Revision-Date: 2017-07-05 11:52+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: pt\n"
@@ -4739,7 +4739,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:65 ../../use_cases-jbq.rst:139
 #: ../../use_cases-jbq.rst:478 ../../use_cases-jbq.rst:495
-#: ../../use_cases-jbq.rst:759
+#: ../../use_cases-jbq.rst:770
 msgid "Details"
 msgstr ""
 
@@ -5619,58 +5619,70 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:648
-msgid "we find a plant without a label"
+msgid ""
+"If you need add any details about the plant death, please use a **note**,"
+" and re-use the note category \"death_cause\"."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:651
+msgid ""
+"Plants with **quantity** zero are shown with a different colour in the "
+"results view.  This helps distinguish them from live plants."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:654
+msgid "we find a plant without a label"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:657
 msgid ""
 "We can't be sure the plant had ever been in the collection or not. We "
 "assume it had, and that its label was lost."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:654
+#: ../../use_cases-jbq.rst:660
 msgid ""
 "Losing a plant label is unfortunate, but it just sometimes happens. What "
 "we do is to put a new label to the plant, and to clearly state that the "
 "label is a replacement of an original one."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:658
+#: ../../use_cases-jbq.rst:664
 msgid ""
 "We then handle the case as if it was a new accession, plus we add a note "
 "to the accession, category “label”, text “relabeled”."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:661
+#: ../../use_cases-jbq.rst:667
 msgid "producing or reproducing labels"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:663
+#: ../../use_cases-jbq.rst:669
 msgid "refreshing plant labels"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:666
+#: ../../use_cases-jbq.rst:672
 msgid ""
 "Sometimes we refresh the labels, for example all that is in a greenhouse,"
 " or maybe just a set of plants because their labels risk becoming "
 "unreadable."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:670
+#: ../../use_cases-jbq.rst:676
 msgid ""
 "In the first case it's easy selecting all plants in the Location, we just"
 " type the location name, or give the search ``location like <location "
 "name>``."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:674
+#: ../../use_cases-jbq.rst:680
 msgid ""
 "The second case it's a bit trickier.  What we do is to create a temporary"
 " **Tag**, and use it to tag all plants that were found in need for a new "
 "label."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:678
+#: ../../use_cases-jbq.rst:684
 msgid ""
 "Given the selection, we start the report tool, using the mako "
 "``accession-label.svg`` template.  We reset its options to default "
@@ -5678,18 +5690,18 @@ msgid ""
 "``black`` instead of ``blue``, which is meant for engraving."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:683
+#: ../../use_cases-jbq.rst:689
 msgid "preparing labels for non-database plants"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:686
+#: ../../use_cases-jbq.rst:692
 msgid ""
 "To prepare the batch of 72 labels, we use a mako report template, named "
 "``accession-label.svg``.  This template accepts parameters, this is an "
 "example that would produce labels from 025801 all the way to 025872."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:693
+#: ../../use_cases-jbq.rst:699
 msgid ""
 "Labels come for us in two flavours: (1) either new plants just being "
 "acquired by the garden; (2) or plants in the garden, found without a "
@@ -5697,41 +5709,69 @@ msgid ""
 "relabeled plants."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:698
+#: ../../use_cases-jbq.rst:704
 msgid "We keep two boxes with labels of the two types, ready to be used."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:700
+#: ../../use_cases-jbq.rst:706
 msgid ""
-"Our workflow includes moving plants around in the garden, keep track of "
-"current locations and history of movements."
+"Our garden has two exposition greenhouses, and several warm and cold "
+"greenhouses where we keep the largest part of our collection.  Plants are"
+" moved to the exposition when flowering and back to the \"warehouse\" "
+"when less interesting for the exposition. For each plant in our "
+"collection we need to know its current locations and history of "
+"movements."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:703
+#: ../../use_cases-jbq.rst:712
+msgid "planned action"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:715
+msgid ""
+"The action starts by moving the plants around, and collecting the plant "
+"code either on paper, or in our mobile app, if we had one."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:718
+msgid ""
+"We then go to the desktop terminal and revise all plants one by one "
+"changing their location in the database.  It is important that the date "
+"of the location change is correctly memorized, because this tells us how "
+"long a plant stays in the exposition."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:723
+msgid ""
+"If we had a mobile app, we would just upload the info to the server and "
+"we would be done."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:726
 msgid "ex-post correction"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:706
+#: ../../use_cases-jbq.rst:729
 msgid ""
 "While revising the garden, we find a plant at a location that is not what"
 " the database says.  We update the database information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:709
+#: ../../use_cases-jbq.rst:732
 msgid ""
 "For example, the plant belonging to accession “012142”, species "
 "“*Acineta* sp”, was found in “Invernadero 1”, while the database says it "
 "is in “ICAlm3”."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:712
+#: ../../use_cases-jbq.rst:735
 msgid ""
 "All we do is find the Plant in the database and update its information.  "
 "We do not chang anything in the initial Accession information, just the "
 "current Plant information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:716
+#: ../../use_cases-jbq.rst:739
 msgid ""
 "We type the accession code in the search entry field, with quotes, hit "
 "enter. The search results now shows the accession, and it tells us how "
@@ -5739,123 +5779,101 @@ msgid ""
 " so we now also see a row for the plant belonging to the accession."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:721
+#: ../../use_cases-jbq.rst:744
 msgid ""
 "Right click on the Plant row, the three options will show: “Edit, Split, "
 "Delete”, select Edit, you land in the Plant Editor."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:724
+#: ../../use_cases-jbq.rst:747
 msgid "Just correct the Location field, and click on OK."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:726
+#: ../../use_cases-jbq.rst:749
 msgid "The InfoBox contains information about the last change to the object:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:731
+#: ../../use_cases-jbq.rst:754
 msgid ""
 "For plants, even more interesting, it builds a history of changes, list "
 "that includes Location changes, or Quantity changes."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:736
-msgid "planned action"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:739
-msgid ""
-"The action starts by moving the plants around, and collecting the plant "
-"code either on paper, or in our mobile app, if we had one."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:742
-msgid ""
-"We then go to the desktop terminal and revise all plants one by one "
-"changing their location in the database."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:745
-msgid ""
-"If we had a mobile app, we would just upload the info to the server and "
-"we would be done."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:748
+#: ../../use_cases-jbq.rst:759
 msgid ""
 "As plants enter the flowering stage, we can review their identification "
 "directly, or we take pictures of details of the flower, hoping that a "
 "visiting specialist could help completing the identification."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:755
+#: ../../use_cases-jbq.rst:766
 msgid ""
 "Regularly, we need producing reports about our collection that the "
 "Ecuadorian Environment Ministery (MAE) requires and that justify the very"
 " existence of the garden."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:762
+#: ../../use_cases-jbq.rst:773
 msgid ""
 "Each year the botanic garden has to submit a report (annual report of "
 "management and maintenance of orchids collection) complying to the "
 "requirements of the Ecuadorian Ministry of the Environment."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:766
+#: ../../use_cases-jbq.rst:777
 msgid ""
 "To this end, we start selecting the plants we have to include in the "
 "report. It might be all acquisition in the past year::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:770
+#: ../../use_cases-jbq.rst:781
 msgid ""
 "or all plants within a location, or all plants belonging to a species, or"
 " just everything (but this will take time)::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:777
+#: ../../use_cases-jbq.rst:788
 msgid ""
 "Having selected the database objects which we want in the report, we "
 "start the report tool, which acts on the selection."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:781
+#: ../../use_cases-jbq.rst:792
 msgid "Searching the database"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:783
+#: ../../use_cases-jbq.rst:794
 msgid ""
 "You search the database in order to edit the data further, or because you"
 " want to produce a report. Anyway you start with typing something in the "
 "search field"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:789
+#: ../../use_cases-jbq.rst:800
 msgid "and you hope to see your result in the search result view."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:791
+#: ../../use_cases-jbq.rst:802
 #, fuzzy
 msgid "search in order to edit (plant or accession)"
 msgstr "Visão geral dos domínios de pesquisa"
 
-#: ../../use_cases-jbq.rst:794
+#: ../../use_cases-jbq.rst:805
 msgid ""
 "When searching in order to edit, you want to be very specific, and select"
 " as few objects as possible. The most fine-tuned search is the one based "
 "on plant number: you know the code, you get one object."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:798
+#: ../../use_cases-jbq.rst:809
 msgid "If your plant is not there, the screen would look like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:802
+#: ../../use_cases-jbq.rst:813
 msgid "Other example, plant ``007701.1`` is in the database:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:806
+#: ../../use_cases-jbq.rst:817
 msgid ""
 "All fields with a darker background in the infobox on the right hand side"
 " are hyperlinks to other objects in the database. Clicking on them will "
@@ -5863,28 +5881,28 @@ msgid ""
 "will simply add the object to the results."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:811
+#: ../../use_cases-jbq.rst:822
 msgid "Clicking on the accession does the latter."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:815
+#: ../../use_cases-jbq.rst:826
 msgid ""
 "We now have both Plant or Accession in the search result view and we can "
 "now edit either or both."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:818
+#: ../../use_cases-jbq.rst:829
 msgid "search in order to report"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:821
+#: ../../use_cases-jbq.rst:832
 msgid ""
 "When searching in order to create a report, you want to be both specific "
 "(you don't want to report about irrelevant objects) and broad (you don't "
 "want to report about a single object)."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:825
+#: ../../use_cases-jbq.rst:836
 msgid ""
 "Sometimes the report itself suggests the query, as for example: all "
 "plants in greenhouse 3; or: all plants belonging to endangered species "
@@ -5892,52 +5910,52 @@ msgid ""
 "plants added to the collection this year; ::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:834
+#: ../../use_cases-jbq.rst:845
 msgid "Otherwise a flexible way to achieve this is to work with **Tags**."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:836
+#: ../../use_cases-jbq.rst:847
 msgid "using **Tags** as enhanced searching"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:839
+#: ../../use_cases-jbq.rst:850
 msgid ""
 "Sometimes we have to take the same action on objects of the same type, "
 "but we don't manage to quickly think of a search query that would group "
 "all that we need and exclude all we do not need."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:843
+#: ../../use_cases-jbq.rst:854
 msgid ""
 "This is one possible use of **Tags**.  We start with a selection, we tag "
 "all objects in the selection under a new temporary tag. Let's say we call"
 " it \"temporary\"."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:847
+#: ../../use_cases-jbq.rst:858
 msgid ""
 "We continue searching and adding objects to the temporary tag until the "
 "tag identifies all that we need."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:850
+#: ../../use_cases-jbq.rst:861
 msgid ""
 "Finally from the Tags menu we select the one we just created (in our "
 "example this corresponds to the search ``tag=\"temporary\"``) and we can "
 "invoke the report."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:854
+#: ../../use_cases-jbq.rst:865
 msgid ""
 "When we're done with a temporary tag, there's no point in leaving it "
 "around, so we just delete it."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:859
+#: ../../use_cases-jbq.rst:870
 msgid "be aware of the available search strategies"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:862
+#: ../../use_cases-jbq.rst:873
 msgid ""
 "This is nicely documented, \"più non dimandare\" and `read the docs "
 "<searching.html>`_."
@@ -6092,5 +6110,19 @@ msgstr ""
 #~ "Each ``Planting`` belongs to exactly one"
 #~ " ``Accession``, each ``Species`` may have"
 #~ " multiple ``Accessions`` relating to it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Our workflow includes moving plants "
+#~ "around in the garden, keep track "
+#~ "of current locations and history of "
+#~ "movements."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We then go to the desktop terminal"
+#~ " and revise all plants one by "
+#~ "one changing their location in the "
+#~ "database."
 #~ msgstr ""
 
