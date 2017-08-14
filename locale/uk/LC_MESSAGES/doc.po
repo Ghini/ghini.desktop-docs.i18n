@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-14 15:25-0500\n"
+"POT-Creation-Date: 2017-08-14 16:11-0500\n"
 "PO-Revision-Date: 2017-08-07 18:12+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -5690,7 +5690,7 @@ msgid "Donor: Dr. Maro Jiménez"
 msgstr ""
 
 #: ../../use_cases-jbq.rst
-msgid "Donation reason: Contribución científica al JBQ"
+msgid "Reason: Contribución científica al JBQ"
 msgstr ""
 
 #: ../../use_cases-jbq.rst
@@ -6439,5 +6439,8 @@ msgstr "Ghini дозволяє читати, писати і виконуват�
 #~ msgstr ""
 
 #~ msgid "be aware of the available search strategies"
+#~ msgstr ""
+
+#~ msgid "Donation reason: Contribución científica al JBQ"
 #~ msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-14 15:25-0500\n"
+"POT-Creation-Date: 2017-08-14 16:11-0500\n"
 "PO-Revision-Date: 2017-08-03 13:23+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: es\n"
@@ -6325,7 +6325,7 @@ msgid "Donor: Dr. Maro Jiménez"
 msgstr ""
 
 #: ../../use_cases-jbq.rst
-msgid "Donation reason: Contribución científica al JBQ"
+msgid "Reason: Contribución científica al JBQ"
 msgstr ""
 
 #: ../../use_cases-jbq.rst
@@ -7066,4 +7066,7 @@ msgstr "Ghini permite la lectura, escritura y ejecución."
 #~ "Descomprimirlo y ejecutar \"python setup.py"
 #~ " installw'' en la carpeta para "
 #~ "descomprimir."
+
+#~ msgid "Donation reason: Contribución científica al JBQ"
+#~ msgstr ""
 
