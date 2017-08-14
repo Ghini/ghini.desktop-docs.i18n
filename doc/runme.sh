@@ -17,7 +17,7 @@ git checkout $(cd $SOURCEDOCDIR; git branch | grep ^\* | cut -b2-)
 echo '=========================================================================='
 echo "copy/update files from the documentation"
 echo '--------------------------------------------------------------------------'
-rsync -rt --exclude Makefile --exclude conf.py --exclude locale --exclude --make.bat --exclude welcome-letter.txt $SOURCEDOCDIR ..
+rsync -rt --exclude-from not_to_be_copied.txt $SOURCEDOCDIR ..
 rm api.rst
 
 echo "done copying/updating files from documentation"
