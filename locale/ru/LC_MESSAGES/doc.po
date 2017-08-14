@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-14 09:14-0500\n"
+"POT-Creation-Date: 2017-08-14 15:25-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2406,8 +2406,7 @@ msgid ""
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
 
-#: ../../installing.rst:137 ../../installing.rst:191 ../../installing.rst:333
-#: ../../installing.rst:369
+#: ../../installing.rst:137 ../../installing.rst:197 ../../installing.rst:339
 msgid "Next..."
 msgstr ""
 
@@ -2425,71 +2424,78 @@ msgstr ""
 msgid ""
 "Last time we tested, some of the dependencies could not be installed on "
 "MacOSX 10.5 and we assume similar problems would also show on older OSX "
-"versions.  Ghini has been successfully tested with 10.7, 10.9 and 10.12."
+"versions.  Ghini has been successfully installed on several OSX systems, "
+"between 10.7 and 10.12."
 msgstr ""
 
-#: ../../installing.rst:150
+#: ../../installing.rst:151
 msgid ""
 "First of all, you need things which are an integral part of a unix "
 "environment, but which are missing in a off-the-shelf mac:"
 msgstr ""
 
-#: ../../installing.rst:153
+#: ../../installing.rst:154
 msgid ""
 "developers tools: xcode. check the wikipedia page for the version "
 "supported on your mac."
 msgstr ""
 
-#: ../../installing.rst:155
+#: ../../installing.rst:156
 msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr ""
 
-#: ../../installing.rst:157
+#: ../../installing.rst:158
 msgid "with the above installed, open a terminal window and run::"
 msgstr ""
 
-#: ../../installing.rst:161
+#: ../../installing.rst:162
 msgid ""
 "make sure you understand the problems it reports, and correct them. pygtk"
 " will need xquartz and brew will not solve the dependency automatically. "
 "either install xquartz using brew or the way you prefer::"
 msgstr ""
 
-#: ../../installing.rst:167
+#: ../../installing.rst:168
 msgid "then install the remaining dependencies::"
 msgstr ""
 
-#: ../../installing.rst:172
+#: ../../installing.rst:173
 msgid "follow all instructions on how to activate what you have installed."
 msgstr ""
 
-#: ../../installing.rst:174
-msgid "Mac running OSX 10.12 —Sierra—"
-msgstr ""
-
-#: ../../installing.rst:177
+#: ../../installing.rst:175
 msgid ""
-"On OSX 10.12, ``brew`` reports that ``gettext`` is already installed, but"
-" then it won't let us find it. A solution is to run the following line::"
+"In particular, make sure you read and understand all reports starting "
+"with ``If you need to have this software``."
 msgstr ""
 
-#: ../../installing.rst:183
+#: ../../installing.rst:178
+msgid ""
+"You will need at least the following four lines in your "
+"``~/.bash_profile``::"
+msgstr ""
+
+#: ../../installing.rst:185
+msgid "Activate the profile by sourcing it::"
+msgstr ""
+
+#: ../../installing.rst:189
 msgid ""
 "Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
 "installing a couple of python packages, globally. Do this::"
 msgstr ""
 
-#: ../../installing.rst:188
+#: ../../installing.rst:194
 msgid ""
 "The rest is just as on a normal unix machine. Read the above GNU/Linux "
 "instructions, follow them, enjoy."
 msgstr ""
 
-#: ../../installing.rst:195
+#: ../../installing.rst:201
 msgid "Installing on Windows"
 msgstr ""
 
-#: ../../installing.rst:197
+#: ../../installing.rst:203
 msgid ""
 "The steps described here instruct you on how to install Git, Gtk, Python,"
 " and the python database connectors. With this environment correctly set "
@@ -2497,107 +2503,107 @@ msgid ""
 " steps are again Windows specific."
 msgstr ""
 
-#: ../../installing.rst:202
+#: ../../installing.rst:208
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 up to W-10. "
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
 
-#: ../../installing.rst:212
+#: ../../installing.rst:218
 msgid "The installation steps on Windows:"
 msgstr ""
 
-#: ../../installing.rst:214
+#: ../../installing.rst:220
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``). Grab it from `the Git download area <https://git-"
 "scm.com/download/win>`_."
 msgstr ""
 
-#: ../../installing.rst:217
+#: ../../installing.rst:223
 msgid ""
 "all default options are fine, except we need git to be executable from "
 "the command prompt:"
 msgstr ""
 
-#: ../../installing.rst:222
+#: ../../installing.rst:228
 msgid ""
 "download and install Python 2.x (32bit). Grab it from the `Python "
 "official site <http://www.python.org>`_."
 msgstr ""
 
-#: ../../installing.rst:225
+#: ../../installing.rst:231
 msgid "When installing Python, do put Python in the PATH:"
 msgstr ""
 
-#: ../../installing.rst:229
+#: ../../installing.rst:235
 msgid ""
 "download ``pygtk`` from `the official source "
 "<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/>`_. (this requires "
 "32bit python). be sure you download the \"all in one\" version."
 msgstr ""
 
-#: ../../installing.rst:233
+#: ../../installing.rst:239
 msgid "Make a complete install, selecting everything:"
 msgstr ""
 
-#: ../../installing.rst:237
+#: ../../installing.rst:243
 msgid ""
 "(Possibly necessary, maybe superfluous) install lxml, you can grab this "
 "from `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 msgstr ""
 
-#: ../../installing.rst:240
+#: ../../installing.rst:246
 msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr ""
 
-#: ../../installing.rst:251
+#: ../../installing.rst:257
 msgid ""
 "(definitely optional) download and install a database connector other "
 "than ``sqlite3``."
 msgstr ""
 
-#: ../../installing.rst:254
+#: ../../installing.rst:260
 msgid ""
 "If you plan using PostgreSQL, the best Windows binary library for Python "
 "is `psycopg and is Made in Italy "
 "<http://initd.org/psycopg/docs/install.html>`_."
 msgstr ""
 
-#: ../../installing.rst:258
+#: ../../installing.rst:264
 msgid "**REBOOT**"
 msgstr ""
 
-#: ../../installing.rst:260
+#: ../../installing.rst:266
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
 
-#: ../../installing.rst:262
+#: ../../installing.rst:268
 msgid ""
 "We're done with the dependecies, now we can download and run the batch "
 "file:"
 msgstr ""
 
-#: ../../installing.rst:264
+#: ../../installing.rst:270
 msgid ""
 "`devinstall.bat "
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.bat>`_"
 msgstr ""
 
-#: ../../installing.rst:266
+#: ../../installing.rst:272
 msgid ""
 "Please don't just follow the above link.  Instead: right click, save link"
 " as..."
 msgstr ""
 
-#: ../../installing.rst:270
+#: ../../installing.rst:276
 msgid ""
 "Also make sure you don't let Windows convert the script to a text "
 "document."
 msgstr ""
 
-#: ../../installing.rst:274
+#: ../../installing.rst:280
 msgid ""
 "Now **Open** the script to run it.  Please note: in the below image, we "
 "have saved the file twice, once letting Windows convert it to a text "
@@ -2606,7 +2612,7 @@ msgid ""
 " batch file, which isn't going to lead us anywhere."
 msgstr ""
 
-#: ../../installing.rst:282
+#: ../../installing.rst:288
 msgid ""
 "If you installed everything as described here, the first thing you should"
 " see when you start the installation script is a window like this, and "
@@ -2614,7 +2620,7 @@ msgid ""
 "it is doing."
 msgstr ""
 
-#: ../../installing.rst:289
+#: ../../installing.rst:295
 msgid ""
 "Running ``devinstall.bat`` will pull the ``ghini.desktop`` repository "
 "from github to your home directory, under ``Local\\github\\Ghini``, "
@@ -2622,25 +2628,25 @@ msgid ""
 "and install ghini into it."
 msgstr ""
 
-#: ../../installing.rst:294
+#: ../../installing.rst:300
 msgid ""
 "You can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
 
-#: ../../installing.rst:297
+#: ../../installing.rst:303
 msgid ""
 "This is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
 
-#: ../../installing.rst:300
+#: ../../installing.rst:306
 msgid ""
 "The operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
 
-#: ../../installing.rst:303
+#: ../../installing.rst:309
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -2649,85 +2655,38 @@ msgid ""
 "step."
 msgstr ""
 
-#: ../../installing.rst:311
+#: ../../installing.rst:317
 msgid ""
 "Right-click on it, select run as administrator, confirm you want it to "
 "make changes to your computer.  These changes are in the Start Menu only:"
 " create the Ghini group, place the Ghini shortcut."
 msgstr ""
 
-#: ../../installing.rst:315
+#: ../../installing.rst:321
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
 msgstr ""
 
-#: ../../installing.rst:320
+#: ../../installing.rst:326
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
 "newer ghini release within your chosen production line."
 msgstr ""
 
-#: ../../installing.rst:324
+#: ../../installing.rst:330
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``, it will hardly take one minute."
 msgstr ""
 
-#: ../../installing.rst:327
+#: ../../installing.rst:333
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
 "<http://xmlgraphics.apache.org/fop/>`_.  After extracting the FOP archive"
 " you will need to include the directory you extracted to in your PATH."
-msgstr ""
-
-#: ../../installing.rst:339
-msgid "Troubleshooting"
-msgstr ""
-
-#: ../../installing.rst:341
-msgid "any error related to lxml."
-msgstr ""
-
-#: ../../installing.rst:343
-msgid ""
-"In order to be able to compile lxml, you have to install a C compiler (on"
-" GNU/Linux this would be the ``gcc`` package) and Cython (a Python "
-"specialization, that gets compiled into C code. Note: Cython is not "
-"CPython)."
-msgstr ""
-
-#: ../../installing.rst:348
-msgid ""
-"However, It should not be necessary to compile anything, and ``pip`` "
-"should be able to locate the binary modules in the online libraries."
-msgstr ""
-
-#: ../../installing.rst:351
-msgid "For some reason, this is not the case on Windows 8.1."
-msgstr ""
-
-#: ../../installing.rst:355
-msgid "Please report any other trouble related to the installation of lxml."
-msgstr ""
-
-#: ../../installing.rst:357
-msgid "Couldn't install gdata."
-msgstr ""
-
-#: ../../installing.rst:359
-msgid ""
-"For some reason the Google's gdata package lists itself in the Python "
-"Package Index but doesn't work properly with the easy_install command.  "
-"You can download the latest gdata package from:"
-msgstr ""
-
-#: ../../installing.rst:366
-msgid ""
-"Unzip it and run ``python setup.py installw`` in the folder you unzip it "
-"to."
 msgstr ""
 
 #: ../../propagations.rst:4
@@ -3703,7 +3662,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:10
-msgid "technical"
+msgid "Technical"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:12
@@ -3714,12 +3673,12 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:16
-msgid "how to start a program"
+msgid "How to start a program"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:19
 msgid ""
-"to start a program given its name, hit the |loose_png| key next to Alt, "
+"To start a program given its name, hit the |loose_png| key next to Alt, "
 "or click on |10000000000000300000002F89E0224ADF9EC09E_png|, then start "
 "typing the name of the program, in our case “Ghini” or just click on the "
 "program symbol |100000000000003100000031BB54CBDFA885EBAC_png|, appearing "
@@ -3728,7 +3687,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:25
 #, fuzzy
-msgid "database server"
+msgid "Database server"
 msgstr "Хронология базы данных"
 
 #: ../../use_cases-jbq.rst:28
@@ -3791,7 +3750,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:65 ../../use_cases-jbq.rst:139
 #: ../../use_cases-jbq.rst:478 ../../use_cases-jbq.rst:495
-#: ../../use_cases-jbq.rst:770
+#: ../../use_cases-jbq.rst:844 ../../use_cases-jbq.rst:857
 msgid "Details"
 msgstr ""
 
@@ -3825,7 +3784,7 @@ msgid "understanding ghini initial screen"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:87
-msgid "complete screen"
+msgid "Complete screen"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:90
@@ -3839,7 +3798,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:98
-msgid "numeric overview"
+msgid "Numeric overview"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:101
@@ -3850,7 +3809,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:107
-msgid "stored queries"
+msgid "Stored queries"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:110
@@ -3862,7 +3821,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:117
-msgid "query and action buttons"
+msgid "Query and action buttons"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:120
@@ -3918,7 +3877,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:153
-msgid "network problems"
+msgid "Network problems"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:156
@@ -3934,7 +3893,7 @@ msgid "Just ignore it and try again."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:165
-msgid "search fails with error"
+msgid "Search fails with error"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:168
@@ -3949,7 +3908,7 @@ msgid "An example of such an error message:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:177
-msgid "search does not return something I just inserted"
+msgid "Search does not return something I just inserted"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:180
@@ -3987,67 +3946,66 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:202
-msgid "solving it with user permissions"
+msgid "Solving it with user permissions"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:205
 msgid ""
-"We haven't yet conclusively decided how to solve this one. One way would "
-"be to have different connection profiles, associated to different "
-"database users, each user with all needed permissions."
+"We propose to have different connection profiles, associated to different"
+" database users, each user with all needed permissions."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:210
-msgid "full permission (BD-JBQ)"
+#: ../../use_cases-jbq.rst:209
+msgid "Full permission (BD-JBQ)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:210
-msgid "only qualified personnel get this kind of access."
+#: ../../use_cases-jbq.rst:209
+msgid "Only qualified personnel get this kind of access."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:215
-msgid "insert and update (BD-JBQ-limitado)"
+#: ../../use_cases-jbq.rst:214
+msgid "Insert and update (BD-JBQ-limitado)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:213
+#: ../../use_cases-jbq.rst:212
 msgid ""
 "We use this one for those users who come help us for a limited time, and "
 "who did not get a complete introduction to database concepts. It is meant"
 " to prevent costly mistakes."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:218
-msgid "read only (BD-JBQ-lectura)"
+#: ../../use_cases-jbq.rst:217
+msgid "Read only (BD-JBQ-lectura)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:218
+#: ../../use_cases-jbq.rst:217
 msgid "it can be shared with anyone visiting the garden"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:220
+#: ../../use_cases-jbq.rst:219
 msgid ""
 "You select the connection at startup, and the software asks you for the "
 "password corresponding to the connection you selected."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:225
+#: ../../use_cases-jbq.rst:224
 msgid ""
 "If you want to review the details of the connection, click on the ▶ next "
 "to 'Connection Details', it will change to ▼, and the connection window "
 "will be displayed as one of the following:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:233
+#: ../../use_cases-jbq.rst:232
 msgid ""
 "As you can see, we are connecting to the same database server, each "
 "connection uses the same database on the server, but with different user."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:237
-msgid "thinking further about it"
+#: ../../use_cases-jbq.rst:236
+msgid "Thinking further about it"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:240
+#: ../../use_cases-jbq.rst:239
 msgid ""
 "On the other hand, we are questioning if it is at all appropriate, "
 "letting any user delete something at such high level as a family, or a "
@@ -4055,24 +4013,24 @@ msgid ""
 "collection."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:245
+#: ../../use_cases-jbq.rst:244
 msgid ""
 "The ghini way to question the software features, is by opening a "
 "`corresponding issue "
 "<https://github.com/Ghini/ghini.desktop/issues/218>`_."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:249
+#: ../../use_cases-jbq.rst:248
 msgid ""
 "When contacting the developers, they will definitely ask for technical "
 "information, or at least to see a screenshot.  Help them help you."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:252
+#: ../../use_cases-jbq.rst:251
 msgid "Taking a screenshot"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:255
+#: ../../use_cases-jbq.rst:254
 msgid ""
 "On Linux there are three ways to create a screenshot, all involve hitting"
 " the 'PrtSc' key.  The most practical one is possibly hitting the 'PrtSc'"
@@ -4082,55 +4040,55 @@ msgid ""
 "where the developers are trying to help you."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:263
-msgid "where are the logs"
+#: ../../use_cases-jbq.rst:262
+msgid "Where are the logs"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:266
+#: ../../use_cases-jbq.rst:265
 msgid ""
 "Ghini continuously saves a very informative log file, in the "
 "``~/.bauble/bauble.log`` file.  Don't bother opening it, just send it "
 "over.  It contains loads of technical information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:270
-msgid "continous unmanned alerting"
+#: ../../use_cases-jbq.rst:269
+msgid "Continous unmanned alerting"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:273
+#: ../../use_cases-jbq.rst:272
 msgid ""
 "An other option is to activate the sentry handler. It will notify our "
 "sentry server of any serious situations in the software.  If you "
 "registered, the developers will know how to contact you if necessary."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:278
+#: ../../use_cases-jbq.rst:277
 msgid ""
 "To the healthy paranoid: we're not monitoring what you're doing, we're "
 "monitoring how our software works.  You can always opt out."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:281
+#: ../../use_cases-jbq.rst:280
 msgid ""
 "You activate the Sentry handler in the ``:prefs`` page: look for the row "
 "with name ``bauble.use_sentry_handler``, if the value is not what you "
 "wish, double click on the line and it will change to the other value."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:287
-msgid "taxonomy"
+#: ../../use_cases-jbq.rst:286
+msgid "Taxonomy"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:289
+#: ../../use_cases-jbq.rst:288
 #, fuzzy
-msgid "introduction"
+msgid "Introduction"
 msgstr "Администрация"
 
-#: ../../use_cases-jbq.rst:291
+#: ../../use_cases-jbq.rst:290
 msgid "Orchidaceae taxonomic complexity"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:294
+#: ../../use_cases-jbq.rst:293
 msgid ""
 "At the JBQ, we work most of all with orchids, family Orchidaceae, one of "
 "the largest plant families, with no less than 850 genera, organized "
@@ -4139,7 +4097,7 @@ msgid ""
 "be explained."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:299
+#: ../../use_cases-jbq.rst:298
 msgid ""
 "The taxonomy of the Orchidaceae family is continuously being reviewed. "
 "Genera get added, refused, reorganized, recognized as synonyms, some "
@@ -4150,15 +4108,15 @@ msgid ""
 "stored in our Ghini database."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:307
-msgid "identifying at rank Genus, or Family"
+#: ../../use_cases-jbq.rst:306
+msgid "Identifying at rank Genus, or Family"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:309
-msgid "at rank genus"
+#: ../../use_cases-jbq.rst:308
+msgid "At rank genus"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:312
+#: ../../use_cases-jbq.rst:311
 msgid ""
 "Ghini-1.0 prescribes that an accession is identified at rank species, in "
 "all cases. The current maintainer acknowledges that this is a mistake, "
@@ -4167,7 +4125,7 @@ msgid ""
 "practices."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:318
+#: ../../use_cases-jbq.rst:317
 msgid ""
 "If an accession is identified at rank genus, we add a fictive species in "
 "that genus, we don't specify its species epithet (we don't know that) and"
@@ -4175,15 +4133,15 @@ msgid ""
 "like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:325
+#: ../../use_cases-jbq.rst:324
 msgid "When displayed in a search result, it shows like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:329
-msgid "at rank family"
+#: ../../use_cases-jbq.rst:328
+msgid "At rank family"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:332
+#: ../../use_cases-jbq.rst:331
 msgid ""
 "If an accession is only identified at rank family, we need a fictive "
 "genus, to which we can add the fictive species. Since our garden is "
@@ -4191,12 +4149,12 @@ msgid ""
 " the fictive genus within the family, like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:339
+#: ../../use_cases-jbq.rst:338
 msgid ""
 "The current maintainer suggests to use the prefix **Zzz-** and behind the"
 " prefix to write the family name, possibly removing the trailing **e**.  "
 "Removal of the trailing **e** is useful in order not to get results that "
-"include genus names when you as for stuff ending in **aceae**.  In "
+"include genus names when you as for stuff ending in **aceae**. In "
 "practice, we have a **Zzz** genus in the Orchidaceae family, and in the "
 "other 6 families represented in our digital collection, we follow this "
 "suggested practice."
@@ -4210,12 +4168,12 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:351
 msgid ""
-"identifying at a rank that is not allowed by the software (eg: Subtribe, "
+"Identifying at a rank that is not allowed by the software (eg: Subtribe, "
 "or Subfamily)"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:353
-msgid "at rank subtribe"
+msgid "At rank subtribe"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:356
@@ -4259,7 +4217,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:384
-msgid "at rank subfamily, tribe"
+msgid "At rank subfamily, tribe"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:387
@@ -4280,7 +4238,7 @@ msgid "Editing the Accession identification - the Species details"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:396
-msgid "placeholder species for individual accessions"
+msgid "Placeholder species for individual accessions"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:399
@@ -4303,7 +4261,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:411
-msgid "unknown species for multiple accessions"
+msgid "Unknown species for multiple accessions"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:414
@@ -4333,7 +4291,7 @@ msgid "A new plants is relative to a species not yet in our collection."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:431
-msgid "last minute species"
+msgid "Last minute species"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:434
@@ -4347,7 +4305,7 @@ msgid "Adding a species and using online taxonomic services"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:440
-msgid "adding a new species — the plant list."
+msgid "Adding a new species — the plant list."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:443
@@ -4376,7 +4334,7 @@ msgid "Accept the hint and it will be as if you had typed the data yourself."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:465
-msgid "reviewing a whole selection — TNRS."
+msgid "Reviewing a whole selection — TNRS."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:468
@@ -4473,7 +4431,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:530
-msgid "existing plant, found in the garden with its own label"
+msgid "Existing plant, found in the garden with its own label"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:533
@@ -4564,7 +4522,7 @@ msgid "The plant is now part of the database:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:584
-msgid "new accession: plant just entering the garden"
+msgid "New accession: plant just entering the garden"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:587
@@ -4607,7 +4565,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:613
-msgid "existing plant, found in the garden without its label"
+msgid "Existing plant, found in the garden without its label"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:616
@@ -4627,7 +4585,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:626
-msgid "we find a dead plant"
+msgid "We find a dead plant"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:629
@@ -4678,7 +4636,7 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:654
-msgid "we find a plant without a label"
+msgid "We find a plant without a label"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:657
@@ -4700,36 +4658,183 @@ msgid ""
 "to the accession, category “label”, text “relabeled”."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:667
-msgid "producing or reproducing labels"
+#: ../../use_cases-jbq.rst:668
+msgid "Keeping track of different sources of plant material"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:669
-msgid "refreshing plant labels"
+#: ../../use_cases-jbq.rst:670
+msgid "What different sources we can have"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:672
+#: ../../use_cases-jbq.rst:673
+msgid ""
+"In this botanical garden, we receive plants from different types of "
+"origin. It could be from expeditions (plants coming from nature, "
+"collected with legal permission from MAE - Ecuadorian Environment "
+"Ministery), donated plants mostly coming as gifts from collectionist or "
+"orchid commercialization enterprises, purchased, or confiscated plants "
+"(usually coming from MAE raids around the country)."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:681
+msgid "If the plant comes from a wild source"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:684
+msgid ""
+"In the plant accession we have the option \"origin\". When a plant comes "
+"from a wild source we can specified their specific origin. We want to "
+"comply with ITF2, and ghini-1.0 only partly respects that standard. The "
+"ITF2 compying options are:"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:689
+msgid "Wild: Accession of wild source."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:690
+msgid "Cultivated: Propagule(s) from a wild source plant."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:691
+msgid "Not Wild: Accession not traceable to a wild source."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:692
+msgid "Insufficient data"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:694
+msgid ""
+"In the case of a donated plant, it is better to put detail information "
+"just as a note in the plant accesion; in the case of a plant with an "
+"unknown origin, we select the Insufficient data option."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:698
+msgid "Using the source tab in the accession editor"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:701
+msgid ""
+"In this section we can create or use a contact, our source of plant "
+"material. It could be from an expedition to a collecting place, and in "
+"this case we would specify the region and the expedition name, or could "
+"be the name of the person or enterprise donating a specific batch of "
+"plants."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:709
+msgid ""
+"Once you choose or create the conctact information, this section deploys "
+"more options, here you can specify the region, where you can choose the "
+"country of origin, and a specific location within the region, "
+"georeferencing information (including the GPS data), habitat description "
+"collector name. For the last one, I recommend also to write the specific "
+"data next to the collector name (eg. Luis Baquero 11/10/2016)."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:717
+msgid "Donated, bought or confiscated plants"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:720
+msgid ""
+"However useful for expeditions or for donors where the main information "
+"is geographic, this source tab is not very practical in our remaining "
+"cases: we handle three more categories: confiscated, purchased and "
+"donated, for these categories the options available in the source tab do "
+"not apply: too much information and not to the point."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:726
+msgid ""
+"In these cases, we work with notes. In the accession \"notes\" tab we "
+"specify this useful information:"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:729
+msgid "\"Donated plant\""
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "Donor: Dr. Maro Jiménez"
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "Donation reason: Contribución científica al JBQ"
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "Donation date: 20/07/2009"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:735
+msgid "\"Purchased plant\""
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "ID: *Trisetella hirtzii* Luer"
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "Enterprise: Ecuagenera"
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "Purchae date: 12/12/2014"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:741
+msgid "\"Confiscated plant\""
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "ID: *Cattleya maxima* Lindl."
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "Confiscated from: \"Vivero Riina y Mancuso\""
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "Reason: Legally protected specie, forbidden collection and distribution."
+msgstr ""
+
+#: ../../use_cases-jbq.rst
+msgid "Date: 20/07/2009"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:748
+msgid "Producing or reproducing labels"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:750
+msgid "Refreshing plant labels"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:753
 msgid ""
 "Sometimes we refresh the labels, for example all that is in a greenhouse,"
 " or maybe just a set of plants because their labels risk becoming "
 "unreadable."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:676
+#: ../../use_cases-jbq.rst:757
 msgid ""
 "In the first case it's easy selecting all plants in the Location, we just"
 " type the location name, or give the search ``location like <location "
 "name>``."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:680
+#: ../../use_cases-jbq.rst:761
 msgid ""
 "The second case it's a bit trickier.  What we do is to create a temporary"
 " **Tag**, and use it to tag all plants that were found in need for a new "
 "label."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:684
+#: ../../use_cases-jbq.rst:765
 msgid ""
 "Given the selection, we start the report tool, using the mako "
 "``accession-label.svg`` template.  We reset its options to default "
@@ -4737,18 +4842,18 @@ msgid ""
 "``black`` instead of ``blue``, which is meant for engraving."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:689
-msgid "preparing labels for non-database plants"
+#: ../../use_cases-jbq.rst:770
+msgid "Preparing labels for non-database plants"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:692
+#: ../../use_cases-jbq.rst:773
 msgid ""
 "To prepare the batch of 72 labels, we use a mako report template, named "
 "``accession-label.svg``.  This template accepts parameters, this is an "
 "example that would produce labels from 025801 all the way to 025872."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:699
+#: ../../use_cases-jbq.rst:780
 msgid ""
 "Labels come for us in two flavours: (1) either new plants just being "
 "acquired by the garden; (2) or plants in the garden, found without a "
@@ -4756,11 +4861,11 @@ msgid ""
 "relabeled plants."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:704
+#: ../../use_cases-jbq.rst:785
 msgid "We keep two boxes with labels of the two types, ready to be used."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:706
+#: ../../use_cases-jbq.rst:787
 msgid ""
 "Our garden has two exposition greenhouses, and several warm and cold "
 "greenhouses where we keep the largest part of our collection.  Plants are"
@@ -4770,17 +4875,17 @@ msgid ""
 "movements."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:712
-msgid "planned action"
+#: ../../use_cases-jbq.rst:793
+msgid "Planned action"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:715
+#: ../../use_cases-jbq.rst:796
 msgid ""
 "The action starts by moving the plants around, and collecting the plant "
 "code either on paper, or in our mobile app, if we had one."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:718
+#: ../../use_cases-jbq.rst:799
 msgid ""
 "We then go to the desktop terminal and revise all plants one by one "
 "changing their location in the database.  It is important that the date "
@@ -4788,37 +4893,37 @@ msgid ""
 "long a plant stays in the exposition."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:723
+#: ../../use_cases-jbq.rst:804
 msgid ""
 "If we had a mobile app, we would just upload the info to the server and "
 "we would be done."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:726
-msgid "ex-post correction"
+#: ../../use_cases-jbq.rst:807
+msgid "Ex-post correction"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:729
+#: ../../use_cases-jbq.rst:810
 msgid ""
 "While revising the garden, we find a plant at a location that is not what"
 " the database says.  We update the database information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:732
+#: ../../use_cases-jbq.rst:813
 msgid ""
 "For example, the plant belonging to accession “012142”, species "
 "“*Acineta* sp”, was found in “Invernadero 1”, while the database says it "
 "is in “ICAlm3”."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:735
+#: ../../use_cases-jbq.rst:816
 msgid ""
 "All we do is find the Plant in the database and update its information.  "
 "We do not chang anything in the initial Accession information, just the "
 "current Plant information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:739
+#: ../../use_cases-jbq.rst:820
 msgid ""
 "We type the accession code in the search entry field, with quotes, hit "
 "enter. The search results now shows the accession, and it tells us how "
@@ -4826,100 +4931,108 @@ msgid ""
 " so we now also see a row for the plant belonging to the accession."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:744
+#: ../../use_cases-jbq.rst:825
 msgid ""
 "Right click on the Plant row, the three options will show: “Edit, Split, "
 "Delete”, select Edit, you land in the Plant Editor."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:747
+#: ../../use_cases-jbq.rst:828
 msgid "Just correct the Location field, and click on OK."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:749
+#: ../../use_cases-jbq.rst:830
 msgid "The InfoBox contains information about the last change to the object:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:754
+#: ../../use_cases-jbq.rst:835
 msgid ""
 "For plants, even more interesting, it builds a history of changes, list "
 "that includes Location changes, or Quantity changes."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:759
+#: ../../use_cases-jbq.rst:840
 msgid ""
 "As plants enter the flowering stage, we can review their identification "
 "directly, or we take pictures of details of the flower, hoping that a "
 "visiting specialist could help completing the identification."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:766
+#: ../../use_cases-jbq.rst:847
+msgid ""
+"We are practicing with ODK Collect, a small program running on hand-held "
+"android devices.  Ghini's use of ODK Collect hasn't yet frozen to a best "
+"practice.  Do have a look at the `corresponding issue "
+"<https://github.com/Ghini/ghini.desktop/issues/243>`_ on github."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:853
 msgid ""
 "Regularly, we need producing reports about our collection that the "
 "Ecuadorian Environment Ministery (MAE) requires and that justify the very"
 " existence of the garden."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:773
+#: ../../use_cases-jbq.rst:860
 msgid ""
 "Each year the botanic garden has to submit a report (annual report of "
 "management and maintenance of orchids collection) complying to the "
 "requirements of the Ecuadorian Ministry of the Environment."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:777
+#: ../../use_cases-jbq.rst:864
 msgid ""
 "To this end, we start selecting the plants we have to include in the "
 "report. It might be all acquisition in the past year::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:781
+#: ../../use_cases-jbq.rst:869
 msgid ""
 "or all plants within a location, or all plants belonging to a species, or"
 " just everything (but this will take time)::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:788
+#: ../../use_cases-jbq.rst:876
 msgid ""
 "Having selected the database objects which we want in the report, we "
 "start the report tool, which acts on the selection."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:792
+#: ../../use_cases-jbq.rst:880
 msgid "Searching the database"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:794
+#: ../../use_cases-jbq.rst:882
 msgid ""
 "You search the database in order to edit the data further, or because you"
 " want to produce a report. Anyway you start with typing something in the "
 "search field"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:800
+#: ../../use_cases-jbq.rst:888
 msgid "and you hope to see your result in the search result view."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:802
-msgid "search in order to edit (plant or accession)"
+#: ../../use_cases-jbq.rst:890
+msgid "Search in order to edit (plant or accession)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:805
+#: ../../use_cases-jbq.rst:893
 msgid ""
 "When searching in order to edit, you want to be very specific, and select"
 " as few objects as possible. The most fine-tuned search is the one based "
 "on plant number: you know the code, you get one object."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:809
+#: ../../use_cases-jbq.rst:897
 msgid "If your plant is not there, the screen would look like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:813
+#: ../../use_cases-jbq.rst:901
 msgid "Other example, plant ``007701.1`` is in the database:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:817
+#: ../../use_cases-jbq.rst:905
 msgid ""
 "All fields with a darker background in the infobox on the right hand side"
 " are hyperlinks to other objects in the database. Clicking on them will "
@@ -4927,28 +5040,28 @@ msgid ""
 "will simply add the object to the results."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:822
+#: ../../use_cases-jbq.rst:910
 msgid "Clicking on the accession does the latter."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:826
+#: ../../use_cases-jbq.rst:914
 msgid ""
 "We now have both Plant or Accession in the search result view and we can "
 "now edit either or both."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:829
-msgid "search in order to report"
+#: ../../use_cases-jbq.rst:917
+msgid "Search in order to report"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:832
+#: ../../use_cases-jbq.rst:920
 msgid ""
 "When searching in order to create a report, you want to be both specific "
 "(you don't want to report about irrelevant objects) and broad (you don't "
 "want to report about a single object)."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:836
+#: ../../use_cases-jbq.rst:924
 msgid ""
 "Sometimes the report itself suggests the query, as for example: all "
 "plants in greenhouse 3; or: all plants belonging to endangered species "
@@ -4956,52 +5069,52 @@ msgid ""
 "plants added to the collection this year; ::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:845
+#: ../../use_cases-jbq.rst:933
 msgid "Otherwise a flexible way to achieve this is to work with **Tags**."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:847
-msgid "using **Tags** as enhanced searching"
+#: ../../use_cases-jbq.rst:935
+msgid "Using **Tags** as enhanced searching"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:850
+#: ../../use_cases-jbq.rst:938
 msgid ""
 "Sometimes we have to take the same action on objects of the same type, "
 "but we don't manage to quickly think of a search query that would group "
 "all that we need and exclude all we do not need."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:854
+#: ../../use_cases-jbq.rst:942
 msgid ""
 "This is one possible use of **Tags**.  We start with a selection, we tag "
 "all objects in the selection under a new temporary tag. Let's say we call"
 " it \"temporary\"."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:858
+#: ../../use_cases-jbq.rst:946
 msgid ""
 "We continue searching and adding objects to the temporary tag until the "
 "tag identifies all that we need."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:861
+#: ../../use_cases-jbq.rst:949
 msgid ""
 "Finally from the Tags menu we select the one we just created (in our "
 "example this corresponds to the search ``tag=\"temporary\"``) and we can "
 "invoke the report."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:865
+#: ../../use_cases-jbq.rst:953
 msgid ""
 "When we're done with a temporary tag, there's no point in leaving it "
 "around, so we just delete it."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:870
-msgid "be aware of the available search strategies"
+#: ../../use_cases-jbq.rst:958
+msgid "Be aware of the available search strategies"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:873
+#: ../../use_cases-jbq.rst:961
 msgid ""
 "This is nicely documented, \"più non dimandare\" and `read the docs "
 "<searching.html>`_."
@@ -5181,5 +5294,243 @@ msgstr "Ghini позволяет читать, изменять и исполн�
 #~ " and revise all plants one by "
 #~ "one changing their location in the "
 #~ "database."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Last time we tested, some of the"
+#~ " dependencies could not be installed "
+#~ "on MacOSX 10.5 and we assume "
+#~ "similar problems would also show on "
+#~ "older OSX versions.  Ghini has been "
+#~ "successfully tested with 10.7, 10.9 and"
+#~ " 10.12."
+#~ msgstr ""
+
+#~ msgid "Mac running OSX 10.12 —Sierra—"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On OSX 10.12, ``brew`` reports that "
+#~ "``gettext`` is already installed, but "
+#~ "then it won't let us find it. "
+#~ "A solution is to run the following"
+#~ " line::"
+#~ msgstr ""
+
+#~ msgid "Troubleshooting"
+#~ msgstr ""
+
+#~ msgid "any error related to lxml."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In order to be able to compile "
+#~ "lxml, you have to install a C "
+#~ "compiler (on GNU/Linux this would be "
+#~ "the ``gcc`` package) and Cython (a "
+#~ "Python specialization, that gets compiled "
+#~ "into C code. Note: Cython is not"
+#~ " CPython)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "However, It should not be necessary "
+#~ "to compile anything, and ``pip`` should"
+#~ " be able to locate the binary "
+#~ "modules in the online libraries."
+#~ msgstr ""
+
+#~ msgid "For some reason, this is not the case on Windows 8.1."
+#~ msgstr ""
+
+#~ msgid "Please report any other trouble related to the installation of lxml."
+#~ msgstr ""
+
+#~ msgid "Couldn't install gdata."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For some reason the Google's gdata "
+#~ "package lists itself in the Python "
+#~ "Package Index but doesn't work properly"
+#~ " with the easy_install command.  You "
+#~ "can download the latest gdata package"
+#~ " from:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Unzip it and run ``python setup.py "
+#~ "installw`` in the folder you unzip "
+#~ "it to."
+#~ msgstr ""
+
+#~ msgid "technical"
+#~ msgstr ""
+
+#~ msgid "how to start a program"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "to start a program given its name,"
+#~ " hit the |loose_png| key next to "
+#~ "Alt, or click on "
+#~ "|10000000000000300000002F89E0224ADF9EC09E_png|, then start"
+#~ " typing the name of the program, "
+#~ "in our case “Ghini” or just click"
+#~ " on the program symbol "
+#~ "|100000000000003100000031BB54CBDFA885EBAC_png|, appearing "
+#~ "near the left margin of your "
+#~ "display."
+#~ msgstr ""
+
+#~ msgid "complete screen"
+#~ msgstr ""
+
+#~ msgid "numeric overview"
+#~ msgstr ""
+
+#~ msgid "stored queries"
+#~ msgstr ""
+
+#~ msgid "query and action buttons"
+#~ msgstr ""
+
+#~ msgid "network problems"
+#~ msgstr ""
+
+#~ msgid "search fails with error"
+#~ msgstr ""
+
+#~ msgid "search does not return something I just inserted"
+#~ msgstr ""
+
+#~ msgid "solving it with user permissions"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We haven't yet conclusively decided how"
+#~ " to solve this one. One way "
+#~ "would be to have different connection"
+#~ " profiles, associated to different database"
+#~ " users, each user with all needed "
+#~ "permissions."
+#~ msgstr ""
+
+#~ msgid "full permission (BD-JBQ)"
+#~ msgstr ""
+
+#~ msgid "only qualified personnel get this kind of access."
+#~ msgstr ""
+
+#~ msgid "insert and update (BD-JBQ-limitado)"
+#~ msgstr ""
+
+#~ msgid "read only (BD-JBQ-lectura)"
+#~ msgstr ""
+
+#~ msgid "thinking further about it"
+#~ msgstr ""
+
+#~ msgid "where are the logs"
+#~ msgstr ""
+
+#~ msgid "continous unmanned alerting"
+#~ msgstr ""
+
+#~ msgid "taxonomy"
+#~ msgstr ""
+
+#~ msgid "identifying at rank Genus, or Family"
+#~ msgstr ""
+
+#~ msgid "at rank genus"
+#~ msgstr ""
+
+#~ msgid "at rank family"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The current maintainer suggests to use"
+#~ " the prefix **Zzz-** and behind the"
+#~ " prefix to write the family name, "
+#~ "possibly removing the trailing **e**.  "
+#~ "Removal of the trailing **e** is "
+#~ "useful in order not to get results"
+#~ " that include genus names when you"
+#~ " as for stuff ending in **aceae**."
+#~ "  In practice, we have a **Zzz** "
+#~ "genus in the Orchidaceae family, and "
+#~ "in the other 6 families represented "
+#~ "in our digital collection, we follow "
+#~ "this suggested practice."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "identifying at a rank that is not"
+#~ " allowed by the software (eg: "
+#~ "Subtribe, or Subfamily)"
+#~ msgstr ""
+
+#~ msgid "at rank subtribe"
+#~ msgstr ""
+
+#~ msgid "at rank subfamily, tribe"
+#~ msgstr ""
+
+#~ msgid "placeholder species for individual accessions"
+#~ msgstr ""
+
+#~ msgid "unknown species for multiple accessions"
+#~ msgstr ""
+
+#~ msgid "last minute species"
+#~ msgstr ""
+
+#~ msgid "adding a new species — the plant list."
+#~ msgstr ""
+
+#~ msgid "reviewing a whole selection — TNRS."
+#~ msgstr ""
+
+#~ msgid "existing plant, found in the garden with its own label"
+#~ msgstr ""
+
+#~ msgid "new accession: plant just entering the garden"
+#~ msgstr ""
+
+#~ msgid "existing plant, found in the garden without its label"
+#~ msgstr ""
+
+#~ msgid "we find a dead plant"
+#~ msgstr ""
+
+#~ msgid "we find a plant without a label"
+#~ msgstr ""
+
+#~ msgid "producing or reproducing labels"
+#~ msgstr ""
+
+#~ msgid "refreshing plant labels"
+#~ msgstr ""
+
+#~ msgid "preparing labels for non-database plants"
+#~ msgstr ""
+
+#~ msgid "planned action"
+#~ msgstr ""
+
+#~ msgid "ex-post correction"
+#~ msgstr ""
+
+#~ msgid "search in order to edit (plant or accession)"
+#~ msgstr ""
+
+#~ msgid "search in order to report"
+#~ msgstr ""
+
+#~ msgid "using **Tags** as enhanced searching"
+#~ msgstr ""
+
+#~ msgid "be aware of the available search strategies"
 #~ msgstr ""
 
