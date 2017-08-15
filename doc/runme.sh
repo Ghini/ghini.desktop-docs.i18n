@@ -66,7 +66,12 @@ echo "this is enough as far as weblate and readthedocs are concerned"
 echo '--------------------------------------------------------------------------'
 #################################################################
 echo press enter to continue with other stuff, or ^C to stop here
-read
+if [ $# -ne 0 ]
+then
+    exit
+else
+    read
+fi
 
 #################################################################
 # build translated documentation for all configured languages
