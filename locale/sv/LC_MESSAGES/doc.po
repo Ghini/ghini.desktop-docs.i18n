@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-14 16:11-0500\n"
+"POT-Creation-Date: 2017-08-15 16:12-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1123,10 +1123,38 @@ msgid "tell the world about it: on facebook, the google group, linkedin, ..."
 msgstr ""
 
 #: ../../building.rst:659
-msgid "closing step"
+msgid "your own fork"
 msgstr ""
 
 #: ../../building.rst:661
+msgid ""
+"If you want to keep your own fork of the project, keep in mind this is "
+"full force work in progress, so staying up to date will require some "
+"effort from your side."
+msgstr ""
+
+#: ../../building.rst:665
+msgid ""
+"The best way to keep your own fork is to focus on some specific issue, "
+"work relatively quickly, often open pull requests for your work, make "
+"sure that you get it accepted.  Just follow Ghini's coding style, write "
+"unit tests, concise and abundant, and there should be no problem in "
+"having your work included in Ghini's upstream."
+msgstr ""
+
+#: ../../building.rst:671
+msgid ""
+"If your fork got out of sync with Ghini's upstream: read, understand, "
+"follow the github guides `configuring a remote for a fork "
+"<https://help.github.com/articles/configuring-a-remote-for-a-fork/>`_ and"
+" `syncing a fork <https://help.github.com/articles/syncing-a-fork/>`_."
+msgstr ""
+
+#: ../../building.rst:677
+msgid "closing step"
+msgstr ""
+
+#: ../../building.rst:679
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
@@ -3703,7 +3731,6 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:65 ../../use_cases-jbq.rst:139
 #: ../../use_cases-jbq.rst:478 ../../use_cases-jbq.rst:495
-#: ../../use_cases-jbq.rst:844 ../../use_cases-jbq.rst:857
 msgid "Details"
 msgstr ""
 
@@ -4633,10 +4660,10 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:684
 msgid ""
-"In the plant accession we have the option \"origin\". When a plant comes "
-"from a wild source we can specified their specific origin. We want to "
-"comply with ITF2, and ghini-1.0 only partly respects that standard. The "
-"ITF2 compying options are:"
+"The accession editor offers the option \"origin\" option. When a plant is"
+" traceable to a wild source, we can specified its specific origin. We "
+"want to comply with ITF2, and ghini-1.0 only partly respects that "
+"standard. The ITF2 complying options are:"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:689
@@ -4682,7 +4709,7 @@ msgid ""
 "country of origin, and a specific location within the region, "
 "georeferencing information (including the GPS data), habitat description "
 "collector name. For the last one, I recommend also to write the specific "
-"data next to the collector name (eg. Luis Baquero 11/10/2016)."
+"date next to the collector name (eg. Luis Baquero 11/10/2016)."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:717
@@ -4909,6 +4936,10 @@ msgid ""
 "visiting specialist could help completing the identification."
 msgstr ""
 
+#: ../../use_cases-jbq.rst:844
+msgid "Adding pictures"
+msgstr ""
+
 #: ../../use_cases-jbq.rst:847
 msgid ""
 "We are practicing with ODK Collect, a small program running on hand-held "
@@ -4922,6 +4953,10 @@ msgid ""
 "Regularly, we need producing reports about our collection that the "
 "Ecuadorian Environment Ministery (MAE) requires and that justify the very"
 " existence of the garden."
+msgstr ""
+
+#: ../../use_cases-jbq.rst:857
+msgid "Producing reports"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:860
@@ -5488,5 +5523,30 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Donation reason: Contribución científica al JBQ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the plant accession we have the"
+#~ " option \"origin\". When a plant "
+#~ "comes from a wild source we can"
+#~ " specified their specific origin. We "
+#~ "want to comply with ITF2, and "
+#~ "ghini-1.0 only partly respects that "
+#~ "standard. The ITF2 compying options are:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you choose or create the "
+#~ "conctact information, this section deploys "
+#~ "more options, here you can specify "
+#~ "the region, where you can choose "
+#~ "the country of origin, and a "
+#~ "specific location within the region, "
+#~ "georeferencing information (including the GPS"
+#~ " data), habitat description collector name."
+#~ " For the last one, I recommend "
+#~ "also to write the specific data "
+#~ "next to the collector name (eg. "
+#~ "Luis Baquero 11/10/2016)."
 #~ msgstr ""
 

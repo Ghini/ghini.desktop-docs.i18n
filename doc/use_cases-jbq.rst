@@ -681,10 +681,10 @@ Let the database fit the garden
   ..  admonition::  If the plant comes from a wild source
       :class: toggle
 
-         In the plant accession we have the option "origin". When a plant comes
-         from a wild source we can specified their specific origin. We want to
-         comply with ITF2, and ghini-1.0 only partly respects that standard. The
-         ITF2 compying options are:
+         The accession editor offers the option "origin" option. When a
+         plant is traceable to a wild source, we can specified its specific
+         origin. We want to comply with ITF2, and ghini-1.0 only partly
+         respects that standard. The ITF2 complying options are:
 
          - Wild: Accession of wild source.
          - Cultivated: Propagule(s) from a wild source plant.
@@ -695,7 +695,7 @@ Let the database fit the garden
          just as a note in the plant accesion; in the case of a plant with an
          unknown origin, we select the Insufficient data option.
 
- ..  admonition::  Using the source tab in the accession editor
+  ..  admonition::  Using the source tab in the accession editor
       :class: toggle
 
          In this section we can create or use a contact, our source of plant
@@ -704,17 +704,17 @@ Let the database fit the garden
          or could be the name of the person or enterprise donating a
          specific batch of plants.
 
-         .. image:: Plant_Origin_description.png
+         .. image:: images/accession-source-collection.png
 
          Once you choose or create the conctact information, this section
          deploys more options, here you can specify the region, where you
          can choose the country of origin, and a specific location within
          the region, georeferencing information (including the GPS data),
          habitat description collector name. For the last one, I recommend
-         also to write the specific data next to the collector name
+         also to write the specific date next to the collector name
          (eg. Luis Baquero 11/10/2016).
 
- ..  admonition::  Donated, bought or confiscated plants
+  ..  admonition::  Donated, bought or confiscated plants
       :class: toggle
 
          However useful for expeditions or for donors where the main
@@ -841,7 +841,7 @@ Let the database fit the garden
   directly, or we take pictures of details of the flower, hoping that a
   visiting specialist could help completing the identification.
 
-  ..  admonition:: Details
+  ..  admonition:: Adding pictures
       :class: toggle
 
          We are practicing with ODK Collect, a small program running on
@@ -854,7 +854,7 @@ Let the database fit the garden
   Ecuadorian Environment Ministery (MAE) requires and that justify the very
   existence of the garden.
 
-  ..  admonition:: Details
+  ..  admonition:: Producing reports
       :class: toggle
 
          Each year the botanic garden has to submit a report (annual report
