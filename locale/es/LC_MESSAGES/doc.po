@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-14 16:11-0500\n"
-"PO-Revision-Date: 2017-08-03 13:23+0000\n"
+"PO-Revision-Date: 2017-08-15 22:04+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.17-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -6183,12 +6184,16 @@ msgid ""
 "If you need add any details about the plant death, please use a **note**,"
 " and re-use the note category \"death_cause\"."
 msgstr ""
+"Si necesita añadir más detalles acerca de la muerte de la planta, por favor, "
+"ponga una **nota**, y utilice la categoría \"death_cause\"."
 
 #: ../../use_cases-jbq.rst:651
 msgid ""
 "Plants with **quantity** zero are shown with a different colour in the "
 "results view.  This helps distinguish them from live plants."
 msgstr ""
+"Plantas con **cantidad** cero se muestran con un color diferente en la vista "
+"de resultados.  Esto ayuda a distinguirlos de las plantas vivas."
 
 #: ../../use_cases-jbq.rst:654
 #, fuzzy
@@ -6223,11 +6228,11 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:668
 msgid "Keeping track of different sources of plant material"
-msgstr ""
+msgstr "Hacer el seguimiento de diferentes fuentes de material vegetal"
 
 #: ../../use_cases-jbq.rst:670
 msgid "What different sources we can have"
-msgstr ""
+msgstr "Qué diferentes fuentes podemos tener"
 
 #: ../../use_cases-jbq.rst:673
 msgid ""
@@ -6238,10 +6243,16 @@ msgid ""
 "orchid commercialization enterprises, purchased, or confiscated plants "
 "(usually coming from MAE raids around the country)."
 msgstr ""
+"En este jardín botánico, recibimos plantas de diferentes tipos de origen. "
+"Pueden ser de expediciones (plantas provenientes de la naturaleza, recogidas "
+"con permiso legal de MAE - Ministerio de Ambiente Ecuatoriano), plantas "
+"donadas sobre todo como regalos de coleccionistas o de empresas de "
+"comercialización de orquídeas, compradas, o plantas confiscadas ("
+"generalmente proveniente de incursiones del MAE a lo largo del país)."
 
 #: ../../use_cases-jbq.rst:681
 msgid "If the plant comes from a wild source"
-msgstr ""
+msgstr "Si la planta proviene una fuente salvaje"
 
 #: ../../use_cases-jbq.rst:684
 msgid ""
@@ -6250,22 +6261,26 @@ msgid ""
 "comply with ITF2, and ghini-1.0 only partly respects that standard. The "
 "ITF2 compying options are:"
 msgstr ""
+"En la pantalla de accesión contamos con la opción \"origen\". Cuando una "
+"planta viene de una fuente salvaje, podemos especificar su origen. Dado que "
+"queremos cumplir con ITF2 y que ghini 1.0 respeta sólo en parte esa norma, "
+"hay que tener un poco de cuidado. Las opciones que cumplen con el ITF2 son:"
 
 #: ../../use_cases-jbq.rst:689
 msgid "Wild: Accession of wild source."
-msgstr ""
+msgstr "Salvaje: Accesión de fuente salvaje."
 
 #: ../../use_cases-jbq.rst:690
 msgid "Cultivated: Propagule(s) from a wild source plant."
-msgstr ""
+msgstr "Cultivado: Propagación de una planta de fuente salvaje."
 
 #: ../../use_cases-jbq.rst:691
 msgid "Not Wild: Accession not traceable to a wild source."
-msgstr ""
+msgstr "No salvaje: Accesión no rastreable a una fuente salvaje."
 
 #: ../../use_cases-jbq.rst:692
 msgid "Insufficient data"
-msgstr ""
+msgstr "Datos insuficientes"
 
 #: ../../use_cases-jbq.rst:694
 msgid ""
@@ -6273,10 +6288,13 @@ msgid ""
 "just as a note in the plant accesion; in the case of a plant with an "
 "unknown origin, we select the Insufficient data option."
 msgstr ""
+"En el caso de una planta donada, es mejor poner información detallada así "
+"como una nota en la accesión de la planta; en el caso de una planta con un "
+"origen desconocido, seleccionamos la opción datos suficientes."
 
 #: ../../use_cases-jbq.rst:698
 msgid "Using the source tab in the accession editor"
-msgstr ""
+msgstr "Como usar la ficha de la fuente en el editor de accesión"
 
 #: ../../use_cases-jbq.rst:701
 msgid ""
@@ -6286,6 +6304,10 @@ msgid ""
 "be the name of the person or enterprise donating a specific batch of "
 "plants."
 msgstr ""
+"En esta sección podemos crear o utilizar un contacto, nuestra fuente de "
+"material vegetal. Podría ser de una expedición a un sitio de colecta, y en "
+"este caso especificar la región y el nombre de la expedición, o podría ser "
+"el nombre de la persona o empresa, que donó un lote específico de plantas."
 
 #: ../../use_cases-jbq.rst:709
 msgid ""
@@ -6296,10 +6318,17 @@ msgid ""
 "collector name. For the last one, I recommend also to write the specific "
 "data next to the collector name (eg. Luis Baquero 11/10/2016)."
 msgstr ""
+"Una vez que usted seleccione o cree la información de contacto, en esta "
+"sección se despliegan más opciones, aquí puede especificar la región, en que "
+"se puede elegir el país de origen, y una ubicación específica dentro de la "
+"región, la georreferenciación de la información (incluidos los datos de GPS)"
+", la descripción del hábitat, el nombre del colector. Por último, recomiendo "
+"también escribir al lado del nombre del colector, la fecha de colecta (ej. "
+"Luis Baquero 11/10/2016)."
 
 #: ../../use_cases-jbq.rst:717
 msgid "Donated, bought or confiscated plants"
-msgstr ""
+msgstr "Plantas donadas, compradas o confiscadas"
 
 #: ../../use_cases-jbq.rst:720
 msgid ""
@@ -6309,32 +6338,39 @@ msgid ""
 "donated, for these categories the options available in the source tab do "
 "not apply: too much information and not to the point."
 msgstr ""
+"Aun así útil para expediciones o para donantes donde la información "
+"principal es geográfica, este tabulador de fuente no es muy práctico en "
+"nuestros casos restantes:  manejamos tres más categorías: confiscado, "
+"adquirido y dado, para estas categorías las opciones disponibles en el "
+"tabulador de fuente no aplica: demasiada información y no al punto."
 
 #: ../../use_cases-jbq.rst:726
 msgid ""
 "In these cases, we work with notes. In the accession \"notes\" tab we "
 "specify this useful information:"
 msgstr ""
+"En estos casos,  trabajamos con notas. En el tabulador \"notas\" de la "
+"accesión  especificamos esta información útil:"
 
 #: ../../use_cases-jbq.rst:729
 msgid "\"Donated plant\""
-msgstr ""
+msgstr "Donación de planta"
 
 #: ../../use_cases-jbq.rst
 msgid "Donor: Dr. Maro Jiménez"
-msgstr ""
+msgstr "Donante: Dr. Maro Jiménez"
 
 #: ../../use_cases-jbq.rst
 msgid "Reason: Contribución científica al JBQ"
-msgstr ""
+msgstr "Razón: Contribución científica JBQ"
 
 #: ../../use_cases-jbq.rst
 msgid "Donation date: 20/07/2009"
-msgstr ""
+msgstr "Fecha de donación: 20/07/2009"
 
 #: ../../use_cases-jbq.rst:735
 msgid "\"Purchased plant\""
-msgstr ""
+msgstr "\"Planta comprada\""
 
 #: ../../use_cases-jbq.rst
 msgid "ID: *Trisetella hirtzii* Luer"
@@ -6342,15 +6378,15 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst
 msgid "Enterprise: Ecuagenera"
-msgstr ""
+msgstr "Empresa: Ecuagenera"
 
 #: ../../use_cases-jbq.rst
 msgid "Purchae date: 12/12/2014"
-msgstr ""
+msgstr "Fecha de compra: 12/12/2014"
 
 #: ../../use_cases-jbq.rst:741
 msgid "\"Confiscated plant\""
-msgstr ""
+msgstr "\"Planta decomisada\""
 
 #: ../../use_cases-jbq.rst
 msgid "ID: *Cattleya maxima* Lindl."
@@ -6358,15 +6394,16 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst
 msgid "Confiscated from: \"Vivero Riina y Mancuso\""
-msgstr ""
+msgstr "Decomisadas de: \"Vivero Riina y Mancuso\""
 
 #: ../../use_cases-jbq.rst
 msgid "Reason: Legally protected specie, forbidden collection and distribution."
 msgstr ""
+"Razón: Especie legalmente protegida, prohibido la recolección y distribución."
 
 #: ../../use_cases-jbq.rst
 msgid "Date: 20/07/2009"
-msgstr ""
+msgstr "Fecha: 20/07/2009"
 
 #: ../../use_cases-jbq.rst:748
 #, fuzzy
@@ -6462,6 +6499,12 @@ msgid ""
 "collection we need to know its current locations and history of "
 "movements."
 msgstr ""
+"Nuestro jardín cuenta con dos invernaderos de exposición y varios "
+"invernaderos de frío y de calor donde guardamos la mayor parte de nuestra "
+"colección.  Movemos las plantas al área de exposición al florecimiento y al "
+"almacén cuando se vuelven menos llamativas para la exposición. Para cada "
+"planta en nuestra colección tenemos que saber su ubicación actual y la "
+"historia de los movimientos."
 
 #: ../../use_cases-jbq.rst:793
 #, fuzzy
@@ -6484,6 +6527,11 @@ msgid ""
 "of the location change is correctly memorized, because this tells us how "
 "long a plant stays in the exposition."
 msgstr ""
+"A continuación, vamos a la terminal de escritorio y revisamos todas las "
+"plantas una por una, poniendo al día su ubicación en la base de datos. Es "
+"importante que la fecha del cambio de ubicación esté memorizada "
+"correctamente, porque esto nos dice cuánto tiempo una planta se queda en la "
+"exposición."
 
 #: ../../use_cases-jbq.rst:804
 msgid ""
@@ -6583,6 +6631,10 @@ msgid ""
 "practice.  Do have a look at the `corresponding issue "
 "<https://github.com/Ghini/ghini.desktop/issues/243>`_ on github."
 msgstr ""
+"Estamos practicando con ODK Collect, un pequeño programa que se ejecuta en "
+"los dispositivos android. Todavía no identificamos una mejor práctica en el "
+"uso de ODK Collect. Eche un vistazo a la `issue correspondiente "
+"<https://github.com/Ghini/ghini.desktop/issues/243>`_ en github."
 
 #: ../../use_cases-jbq.rst:853
 msgid ""
@@ -7069,4 +7121,3 @@ msgstr "Ghini permite la lectura, escritura y ejecución."
 
 #~ msgid "Donation reason: Contribución científica al JBQ"
 #~ msgstr ""
-
