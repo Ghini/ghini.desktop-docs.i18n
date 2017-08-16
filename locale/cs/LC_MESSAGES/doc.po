@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-16 10:40-0500\n"
+"POT-Creation-Date: 2017-08-16 11:11-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4361,7 +4361,7 @@ msgid "description"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:501
-msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
+msgid "Reserved to cactus plants next to the orchids exposition glasshouses."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:504
@@ -5719,5 +5719,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Date: 20/07/2009"
+#~ msgstr ""
+
+#~ msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
 #~ msgstr ""
 

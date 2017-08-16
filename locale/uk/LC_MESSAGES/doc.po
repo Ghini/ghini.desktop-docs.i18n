@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-16 10:40-0500\n"
+"POT-Creation-Date: 2017-08-16 11:11-0500\n"
 "PO-Revision-Date: 2017-08-07 18:12+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -5334,7 +5334,7 @@ msgid "description"
 msgstr "опис"
 
 #: ../../use_cases-jbq.rst:501
-msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
+msgid "Reserved to cactus plants next to the orchids exposition glasshouses."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:504
@@ -6716,5 +6716,8 @@ msgstr "Ghini дозволяє читати, писати і виконуват�
 #~ msgstr ""
 
 #~ msgid "Date: 20/07/2009"
+#~ msgstr ""
+
+#~ msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
 #~ msgstr ""
 

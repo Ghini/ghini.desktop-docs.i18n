@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-16 10:40-0500\n"
+"POT-Creation-Date: 2017-08-16 11:11-0500\n"
 "PO-Revision-Date: 2017-08-15 22:23+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: es\n"
@@ -5865,8 +5865,8 @@ msgid "description"
 msgstr "descripción"
 
 #: ../../use_cases-jbq.rst:501
-msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
-msgstr ""
+msgid "Reserved to cactus plants next to the orchids exposition glasshouses."
+msgstr "Solo las cactáceas afuera de los orquidearios en el jardín "
 
 #: ../../use_cases-jbq.rst:504
 msgid "Nepenthaceae exibition"
@@ -6969,4 +6969,7 @@ msgstr "Ghini permite la lectura, escritura y ejecución."
 
 #~ msgid "Date: 20/07/2009"
 #~ msgstr "Fecha: 20/07/2009"
+
+#~ msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
+#~ msgstr ""
 
