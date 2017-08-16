@@ -4855,9 +4855,8 @@ msgstr ""
 "assicurare la conoscenza all'istituzione. Siamo felici di condividere."
 
 #: ../../use_cases-jbq.rst:10
-#, fuzzy
 msgid "Technical"
-msgstr "dettagli tecnici"
+msgstr "Dettagli tecnici"
 
 #: ../../use_cases-jbq.rst:12
 msgid ""
@@ -4870,9 +4869,8 @@ msgstr ""
 "Ciò implica passaggi che non sono evidenti all'utente finale casuale."
 
 #: ../../use_cases-jbq.rst:16
-#, fuzzy
 msgid "How to start a program"
-msgstr "come avviare un programma"
+msgstr "Come avviare un programma"
 
 #: ../../use_cases-jbq.rst:19
 #, fuzzy
@@ -4892,9 +4890,8 @@ msgstr ""
 "sinistro dello schermo."
 
 #: ../../use_cases-jbq.rst:25
-#, fuzzy
 msgid "Database server"
-msgstr "server di database"
+msgstr "Server di database"
 
 #: ../../use_cases-jbq.rst:28
 msgid ""
@@ -5002,9 +4999,8 @@ msgid "understanding ghini initial screen"
 msgstr "la schermata iniziale di ghini"
 
 #: ../../use_cases-jbq.rst:87
-#, fuzzy
 msgid "Complete screen"
-msgstr "schermo completo"
+msgstr "Schermo completo"
 
 #: ../../use_cases-jbq.rst:90
 msgid "At the moment of writing, our initial screen looked like this:"
@@ -5020,9 +5016,8 @@ msgstr ""
 "database."
 
 #: ../../use_cases-jbq.rst:98
-#, fuzzy
 msgid "Numeric overview"
-msgstr "panoramica numerica"
+msgstr "Panoramica numerica"
 
 #: ../../use_cases-jbq.rst:101
 msgid ""
@@ -5035,9 +5030,8 @@ msgstr ""
 "query che seleziona gli oggetti corrispondenti."
 
 #: ../../use_cases-jbq.rst:107
-#, fuzzy
 msgid "Stored queries"
-msgstr "query memorizzate"
+msgstr "Query memorizzate"
 
 #: ../../use_cases-jbq.rst:110
 msgid ""
@@ -5052,9 +5046,8 @@ msgstr ""
 "la cronologia del database."
 
 #: ../../use_cases-jbq.rst:117
-#, fuzzy
 msgid "Query and action buttons"
-msgstr "pulsanti di azione e di query"
+msgstr "Pulsanti di azione e di query"
 
 #: ../../use_cases-jbq.rst:120
 msgid ""
@@ -5126,9 +5119,8 @@ msgstr ""
 "informa gli sviluppatori."
 
 #: ../../use_cases-jbq.rst:153
-#, fuzzy
 msgid "Network problems"
-msgstr "problemi di rete"
+msgstr "Problemi di rete"
 
 #: ../../use_cases-jbq.rst:156
 msgid ""
@@ -5147,9 +5139,8 @@ msgid "Just ignore it and try again."
 msgstr "Basta ignorarlo e riprovare."
 
 #: ../../use_cases-jbq.rst:165
-#, fuzzy
 msgid "Search fails with error"
-msgstr "la ricerca ha esito negativo con errore"
+msgstr "La ricerca ha esito negativo con errore"
 
 #: ../../use_cases-jbq.rst:168
 msgid ""
@@ -5166,9 +5157,8 @@ msgid "An example of such an error message:"
 msgstr "Un esempio di un tale messaggio di errore:"
 
 #: ../../use_cases-jbq.rst:177
-#, fuzzy
 msgid "Search does not return something I just inserted"
-msgstr "la ricerca non restituisce qualcosa che ho appena inserito"
+msgstr "La ricerca non restituisce qualcosa che ho appena inserito"
 
 #: ../../use_cases-jbq.rst:180
 msgid ""
@@ -5306,9 +5296,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:262
-#, fuzzy
 msgid "Where are the logs"
-msgstr "dove stanno i log"
+msgstr "Dove stanno i log"
 
 #: ../../use_cases-jbq.rst:265
 msgid ""
@@ -5346,9 +5335,8 @@ msgid "Taxonomy"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:288
-#, fuzzy
 msgid "Introduction"
-msgstr "introduzione"
+msgstr "Introduzione"
 
 #: ../../use_cases-jbq.rst:290
 msgid "Orchidaceae taxonomic complexity"
@@ -6071,14 +6059,12 @@ msgid "Date: 20/07/2009"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:748
-#, fuzzy
 msgid "Producing or reproducing labels"
-msgstr "produzione o riproduzione di etichette"
+msgstr "Produzione o riproduzione di etichette"
 
 #: ../../use_cases-jbq.rst:750
-#, fuzzy
 msgid "Refreshing plant labels"
-msgstr "rinnovare le etichette"
+msgstr "Rinnovare le etichette"
 
 #: ../../use_cases-jbq.rst:753
 msgid ""
@@ -6226,7 +6212,6 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:844
-#, fuzzy
 msgid "Adding pictures"
 msgstr "Fotografie"
 
@@ -6246,7 +6231,6 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:857
-#, fuzzy
 msgid "Producing reports"
 msgstr "Generare relazioni"
 
@@ -6276,7 +6260,6 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:880
-#, fuzzy
 msgid "Searching the database"
 msgstr "Ricerca nel database"
 
@@ -6292,9 +6275,8 @@ msgid "and you hope to see your result in the search result view."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:890
-#, fuzzy
 msgid "Search in order to edit (plant or accession)"
-msgstr "ricerca al fine di modificare (pianta o accessione)"
+msgstr "Ricerca al fine di modificare (pianta o accessione)"
 
 #: ../../use_cases-jbq.rst:893
 msgid ""
@@ -6330,9 +6312,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:917
-#, fuzzy
 msgid "Search in order to report"
-msgstr "ricerca al fine di modificare (pianta o accessione)"
+msgstr "Ricerca al fine di modificare (pianta o accessione)"
 
 #: ../../use_cases-jbq.rst:920
 msgid ""

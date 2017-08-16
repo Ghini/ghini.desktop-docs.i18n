@@ -4859,9 +4859,8 @@ msgid "geographic information"
 msgstr "información geográfica"
 
 #: ../../statements.rst:63
-#, fuzzy
 msgid "The Ghini family"
-msgstr "al rango familia"
+msgstr "La familia Ghini"
 
 #: ../../tagging.rst:2
 msgid "Tagging"
@@ -4915,9 +4914,8 @@ msgstr ""
 "compartirlo."
 
 #: ../../use_cases-jbq.rst:10
-#, fuzzy
 msgid "Technical"
-msgstr "detalles técnicos"
+msgstr "Detalles técnicos"
 
 #: ../../use_cases-jbq.rst:12
 msgid ""
@@ -4930,7 +4928,6 @@ msgstr ""
 "datos remota. Esto implica medidas que no son evidentes para la mayoría."
 
 #: ../../use_cases-jbq.rst:16
-#, fuzzy
 msgid "How to start a program"
 msgstr "Como arrancar un programa"
 
@@ -4952,9 +4949,8 @@ msgstr ""
 "margen izquierda de la pantalla."
 
 #: ../../use_cases-jbq.rst:25
-#, fuzzy
 msgid "Database server"
-msgstr "servidor de bases de datos"
+msgstr "Servidor de bases de datos"
 
 #: ../../use_cases-jbq.rst:28
 msgid ""
@@ -5082,7 +5078,6 @@ msgid "understanding ghini initial screen"
 msgstr "Entender la pantalla inicial de ghini"
 
 #: ../../use_cases-jbq.rst:87
-#, fuzzy
 msgid "Complete screen"
 msgstr "Pantalla completa"
 
@@ -5100,9 +5095,8 @@ msgstr ""
 "la base de datos."
 
 #: ../../use_cases-jbq.rst:98
-#, fuzzy
 msgid "Numeric overview"
-msgstr "resumen numérico"
+msgstr "Resumen numérico"
 
 #: ../../use_cases-jbq.rst:101
 msgid ""
@@ -5115,9 +5109,8 @@ msgstr ""
 "consulta que selecciona los objetos correspondientes."
 
 #: ../../use_cases-jbq.rst:107
-#, fuzzy
 msgid "Stored queries"
-msgstr "consultas almacenadas"
+msgstr "Consultas almacenadas"
 
 #: ../../use_cases-jbq.rst:110
 msgid ""
@@ -5133,9 +5126,8 @@ msgstr ""
 "datos."
 
 #: ../../use_cases-jbq.rst:117
-#, fuzzy
 msgid "Query and action buttons"
-msgstr "botones de acción y consulta"
+msgstr "Botones de acción y consulta"
 
 #: ../../use_cases-jbq.rst:120
 msgid ""
@@ -5208,9 +5200,8 @@ msgstr ""
 "informe a los desarrolladores."
 
 #: ../../use_cases-jbq.rst:153
-#, fuzzy
 msgid "Network problems"
-msgstr "problemas de red"
+msgstr "Problemas de red"
 
 #: ../../use_cases-jbq.rst:156
 msgid ""
@@ -5229,7 +5220,6 @@ msgid "Just ignore it and try again."
 msgstr "Sólo ignorarlo y vuelva a intentarlo."
 
 #: ../../use_cases-jbq.rst:165
-#, fuzzy
 msgid "Search fails with error"
 msgstr "La búsqueda falla con error"
 
@@ -5248,9 +5238,8 @@ msgid "An example of such an error message:"
 msgstr "Un ejemplo de un mensaje de error:"
 
 #: ../../use_cases-jbq.rst:177
-#, fuzzy
 msgid "Search does not return something I just inserted"
-msgstr "la búsqueda no devuelve algo que acabo de insertar"
+msgstr "La búsqueda no devuelve algo que acabo de insertar"
 
 #: ../../use_cases-jbq.rst:180
 msgid ""
@@ -5299,7 +5288,6 @@ msgstr ""
 "abajo, especies y accesiones y sinonimias."
 
 #: ../../use_cases-jbq.rst:202
-#, fuzzy
 msgid "Solving it with user permissions"
 msgstr "Solucionandolo con permisos de usuario"
 
@@ -5314,19 +5302,16 @@ msgstr ""
 "base de datos, cada usuario con permisos diferentes."
 
 #: ../../use_cases-jbq.rst:209
-#, fuzzy
 msgid "Full permission (BD-JBQ)"
-msgstr "permiso completo (BD-JBQ)"
+msgstr "Permiso completo (BD-JBQ)"
 
 #: ../../use_cases-jbq.rst:209
-#, fuzzy
 msgid "Only qualified personnel get this kind of access."
-msgstr "solamente el personal calificado obtiene este tipo de acceso."
+msgstr "Solamente el personal calificado obtiene este tipo de acceso."
 
 #: ../../use_cases-jbq.rst:214
-#, fuzzy
 msgid "Insert and update (BD-JBQ-limitado)"
-msgstr "insert y update (BD-JBQ-limitado)"
+msgstr "Insert y update (BD-JBQ-limitado)"
 
 #: ../../use_cases-jbq.rst:212
 msgid ""
@@ -5339,9 +5324,8 @@ msgstr ""
 "de base de datos. Está destinado a evitar errores costosos."
 
 #: ../../use_cases-jbq.rst:217
-#, fuzzy
 msgid "Read only (BD-JBQ-lectura)"
-msgstr "sólo lectura (BD-JBQ-lectura)"
+msgstr "Sólo lectura (BD-JBQ-lectura)"
 
 #: ../../use_cases-jbq.rst:217
 msgid "it can be shared with anyone visiting the garden"
@@ -5375,9 +5359,8 @@ msgstr ""
 "diferente usuario."
 
 #: ../../use_cases-jbq.rst:236
-#, fuzzy
 msgid "Thinking further about it"
-msgstr "pensándolo más"
+msgstr "Pensándolo más"
 
 #: ../../use_cases-jbq.rst:239
 msgid ""
@@ -5432,9 +5415,8 @@ msgstr ""
 "tratando de ayudarle."
 
 #: ../../use_cases-jbq.rst:262
-#, fuzzy
 msgid "Where are the logs"
-msgstr "donde están los log"
+msgstr "Donde están los log"
 
 #: ../../use_cases-jbq.rst:265
 msgid ""
@@ -5447,9 +5429,8 @@ msgstr ""
 "más.  Contiene mucha información técnica."
 
 #: ../../use_cases-jbq.rst:269
-#, fuzzy
 msgid "Continous unmanned alerting"
-msgstr "alerta continua no tripulada"
+msgstr "Alerta continua no tripulada"
 
 #: ../../use_cases-jbq.rst:272
 msgid ""
@@ -5482,14 +5463,12 @@ msgstr ""
 "desea, haga doble clic en la línea y cambiará a otro valor."
 
 #: ../../use_cases-jbq.rst:286
-#, fuzzy
 msgid "Taxonomy"
-msgstr "taxonomía"
+msgstr "Taxonomía"
 
 #: ../../use_cases-jbq.rst:288
-#, fuzzy
 msgid "Introduction"
-msgstr "introducción"
+msgstr "Introducción"
 
 #: ../../use_cases-jbq.rst:290
 msgid "Orchidaceae taxonomic complexity"
@@ -5529,14 +5508,12 @@ msgstr ""
 "datos Ghini."
 
 #: ../../use_cases-jbq.rst:306
-#, fuzzy
 msgid "Identifying at rank Genus, or Family"
-msgstr "identificar a rango género o familia"
+msgstr "Identificar a rango género o familia"
 
 #: ../../use_cases-jbq.rst:308
-#, fuzzy
 msgid "At rank genus"
-msgstr "al rango género"
+msgstr "Al rango género"
 
 #: ../../use_cases-jbq.rst:311
 msgid ""
@@ -5569,9 +5546,8 @@ msgid "When displayed in a search result, it shows like this:"
 msgstr "Cuando aparece en un resultado de búsqueda, se muestra como este:"
 
 #: ../../use_cases-jbq.rst:328
-#, fuzzy
 msgid "At rank family"
-msgstr "al rango familia"
+msgstr "Al rango familia"
 
 #: ../../use_cases-jbq.rst:331
 msgid ""
@@ -5614,18 +5590,16 @@ msgstr ""
 "**Orchidaceae**, no lo utilice como género desconocido en otras familias."
 
 #: ../../use_cases-jbq.rst:351
-#, fuzzy
 msgid ""
 "Identifying at a rank that is not allowed by the software (eg: Subtribe, "
 "or Subfamily)"
 msgstr ""
-"identificar en un rango que no está permitido por el software (por "
+"Identificar en un rango que no está permitido por el software (por "
 "ejemplo: Subtribu o subfamilia)"
 
 #: ../../use_cases-jbq.rst:353
-#, fuzzy
 msgid "At rank subtribe"
-msgstr "al rango subtribu"
+msgstr "Al rango subtribu"
 
 #: ../../use_cases-jbq.rst:356
 msgid ""
@@ -5682,9 +5656,8 @@ msgstr ""
 "https://github.com/Bauble/bauble.classic/issues/9 >`_ sea solucionado!"
 
 #: ../../use_cases-jbq.rst:384
-#, fuzzy
 msgid "At rank subfamily, tribe"
-msgstr "al rango subfamilia o tribu"
+msgstr "Al rango subfamilia o tribu"
 
 #: ../../use_cases-jbq.rst:387
 msgid ""
@@ -5708,9 +5681,8 @@ msgid "Editing the Accession identification - the Species details"
 msgstr "Edición de la identificación de accesión - los detalles de las especies"
 
 #: ../../use_cases-jbq.rst:396
-#, fuzzy
 msgid "Placeholder species for individual accessions"
-msgstr "especie comodín para accesiones individuales"
+msgstr "Especie comodín para accesiones individuales"
 
 #: ../../use_cases-jbq.rst:399
 msgid ""
@@ -5739,7 +5711,6 @@ msgstr ""
 "accesiones totalmente sin relación con la que identificamos."
 
 #: ../../use_cases-jbq.rst:411
-#, fuzzy
 msgid "Unknown species for multiple accessions"
 msgstr "Especie desconocida para accesiones múltiples"
 
@@ -5782,9 +5753,8 @@ msgstr ""
 " colección."
 
 #: ../../use_cases-jbq.rst:431
-#, fuzzy
 msgid "Last minute species"
-msgstr "especie de último minuto"
+msgstr "Especie de último minuto"
 
 #: ../../use_cases-jbq.rst:434
 msgid ""
@@ -5800,9 +5770,8 @@ msgid "Adding a species and using online taxonomic services"
 msgstr "Añadir una especie y utilizar servicios taxonómicos en línea"
 
 #: ../../use_cases-jbq.rst:440
-#, fuzzy
 msgid "Adding a new species — the plant list."
-msgstr "añadir una nueva especie — the plant list."
+msgstr "Añadir una nueva especie — the plant list."
 
 #: ../../use_cases-jbq.rst:443
 msgid ""
@@ -5841,9 +5810,8 @@ msgstr ""
 "usted mismo."
 
 #: ../../use_cases-jbq.rst:465
-#, fuzzy
 msgid "Reviewing a whole selection — TNRS."
-msgstr "revisar una selección entera — TNRS."
+msgstr "Revisar una selección entera — TNRS."
 
 #: ../../use_cases-jbq.rst:468
 msgid ""
@@ -5958,9 +5926,8 @@ msgstr ""
 "etiqueta, pero sin sus contrapartes digitales."
 
 #: ../../use_cases-jbq.rst:530
-#, fuzzy
 msgid "Existing plant, found in the garden with its own label"
-msgstr "planta existente, se encuentra en el jardín con su propia etiqueta"
+msgstr "Planta existente, se encuentra en el jardín con su propia etiqueta"
 
 #: ../../use_cases-jbq.rst:533
 msgid ""
@@ -6067,9 +6034,8 @@ msgid "The plant is now part of the database:"
 msgstr "La planta es ahora parte de la base de datos:"
 
 #: ../../use_cases-jbq.rst:584
-#, fuzzy
 msgid "New accession: plant just entering the garden"
-msgstr "planta formando un nuevo ingreso en la colección"
+msgstr "Planta formando un nuevo ingreso en la colección"
 
 #: ../../use_cases-jbq.rst:587
 msgid ""
@@ -6123,9 +6089,8 @@ msgstr ""
 "invernadero, antes de que llegue su lugar previsto en el jardín."
 
 #: ../../use_cases-jbq.rst:613
-#, fuzzy
 msgid "Existing plant, found in the garden without its label"
-msgstr "planta existente, en el jardín sin su etiqueta"
+msgstr "Planta existente, en el jardín sin su etiqueta"
 
 #: ../../use_cases-jbq.rst:616
 msgid ""
@@ -6431,14 +6396,12 @@ msgid "Date: 20/07/2009"
 msgstr "Fecha: 20/07/2009"
 
 #: ../../use_cases-jbq.rst:748
-#, fuzzy
 msgid "Producing or reproducing labels"
-msgstr "producción o reproducción de etiquetas"
+msgstr "Producción o reproducción de etiquetas"
 
 #: ../../use_cases-jbq.rst:750
-#, fuzzy
 msgid "Refreshing plant labels"
-msgstr "renovar etiquetas de plantas"
+msgstr "Renovar etiquetas de plantas"
 
 #: ../../use_cases-jbq.rst:753
 msgid ""
@@ -6483,9 +6446,8 @@ msgstr ""
 "color ``black`` en lugar que ``blue``."
 
 #: ../../use_cases-jbq.rst:770
-#, fuzzy
 msgid "Preparing labels for non-database plants"
-msgstr "preparar las etiquetas de plantas que no están en la base de datos"
+msgstr "Preparar las etiquetas de plantas que no están en la base de datos"
 
 #: ../../use_cases-jbq.rst:773
 msgid ""
@@ -6532,9 +6494,8 @@ msgstr ""
 "historia de los movimientos."
 
 #: ../../use_cases-jbq.rst:793
-#, fuzzy
 msgid "Planned action"
-msgstr "acción planificada"
+msgstr "Acción planificada"
 
 #: ../../use_cases-jbq.rst:796
 msgid ""
@@ -6567,9 +6528,8 @@ msgstr ""
 "servidor y ya estaríamos."
 
 #: ../../use_cases-jbq.rst:807
-#, fuzzy
 msgid "Ex-post correction"
-msgstr "corrección ex-post"
+msgstr "Corrección ex-post"
 
 #: ../../use_cases-jbq.rst:810
 msgid ""
@@ -6650,7 +6610,6 @@ msgstr ""
 "pueda completar la identificación."
 
 #: ../../use_cases-jbq.rst:844
-#, fuzzy
 msgid "Adding pictures"
 msgstr "Fotos"
 
@@ -6677,7 +6636,6 @@ msgstr ""
 "que justifican la existencia misma del jardín."
 
 #: ../../use_cases-jbq.rst:857
-#, fuzzy
 msgid "Producing reports"
 msgstr "Producir informes"
 
@@ -6734,9 +6692,8 @@ msgid "and you hope to see your result in the search result view."
 msgstr "y ojalá sus resultados aparezcan en el resultado de búsqueda."
 
 #: ../../use_cases-jbq.rst:890
-#, fuzzy
 msgid "Search in order to edit (plant or accession)"
-msgstr "búsqueda para editar (planta o accesión)"
+msgstr "Búsqueda para editar (planta o accesión)"
 
 #: ../../use_cases-jbq.rst:893
 msgid ""
@@ -6783,9 +6740,8 @@ msgstr ""
 "búsqueda y podremos editar ambas."
 
 #: ../../use_cases-jbq.rst:917
-#, fuzzy
 msgid "Search in order to report"
-msgstr "búsqueda para informes"
+msgstr "Búsqueda para informes"
 
 #: ../../use_cases-jbq.rst:920
 msgid ""
@@ -6817,9 +6773,8 @@ msgstr ""
 "**etiquetas**."
 
 #: ../../use_cases-jbq.rst:935
-#, fuzzy
 msgid "Using **Tags** as enhanced searching"
-msgstr "el uso de **Tags** como búsqueda mejorada"
+msgstr "El uso de **Tags** como búsqueda mejorada"
 
 #: ../../use_cases-jbq.rst:938
 msgid ""
@@ -6868,9 +6823,8 @@ msgstr ""
 "con ella, así que simplemente la borramos."
 
 #: ../../use_cases-jbq.rst:958
-#, fuzzy
 msgid "Be aware of the available search strategies"
-msgstr "conozca las estrategias de búsqueda"
+msgstr "Conozca las estrategias de búsqueda"
 
 #: ../../use_cases-jbq.rst:961
 msgid ""

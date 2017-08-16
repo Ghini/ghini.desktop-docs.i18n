@@ -4344,9 +4344,8 @@ msgstr ""
 "celle-ci."
 
 #: ../../use_cases-jbq.rst:2
-#, fuzzy
 msgid "Quito Botanical Garden"
-msgstr "Jardin Botanique"
+msgstr "Jardin Botanique de Quito"
 
 #: ../../use_cases-jbq.rst:4
 #, fuzzy
@@ -4387,9 +4386,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:25
-#, fuzzy
 msgid "Database server"
-msgstr "histoire de la base de données"
+msgstr "Serveur de bases de données"
 
 #: ../../use_cases-jbq.rst:28
 msgid ""
@@ -4400,7 +4398,6 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:33
-#, fuzzy
 msgid "adding a new user"
 msgstr "Pour créer un nouvel utilisateur..."
 
@@ -4563,9 +4560,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:145
-#, fuzzy
 msgid "Taxonomy & Collection"
-msgstr "informations taxonomiques"
+msgstr "Taxonomie et Collection"
 
 #: ../../use_cases-jbq.rst:145
 msgid "Garden"
@@ -5150,9 +5146,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:549
-#, fuzzy
 msgid "Accession"
-msgstr "Source de l’accès"
+msgstr "Accès"
 
 #: ../../use_cases-jbq.rst:549
 msgid "Species"
@@ -5681,7 +5676,6 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:857
-#, fuzzy
 msgid "Producing reports"
 msgstr "exportations et rapports"
 
