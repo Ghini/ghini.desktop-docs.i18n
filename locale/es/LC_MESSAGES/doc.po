@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-08-03 13:23+0000\n"
+"PO-Revision-Date: 2017-08-17 16:47+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.16-dev\n"
+"X-Generator: Weblate 2.17-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -1136,9 +1136,9 @@ msgid ""
 "create tables, define custom searchs, add menu items, create custom "
 "commands and more."
 msgstr ""
-"Casi todo sobre Ghini es extensible mediante plugins. Plugins puede crear"
-" tablas, definir búsquedas personalizadas, agregar elementos de menú, "
-"crear comandos personalizados y mucho más."
+"Casi todo en Ghini es extensible mediante plugins. Un Plugin puede crear "
+"tablas, definir búsquedas personalizadas, agregar elementos de menú, crear "
+"comandos personalizados y mucho más."
 
 #: ../../building.rst:536
 msgid ""
@@ -2662,13 +2662,12 @@ msgid "Exporting to CSV"
 msgstr "Exportar a CSV"
 
 #: ../../imex.rst:37
-#, fuzzy
 msgid ""
 "To export the Ghini data to CSV select "
 ":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
-"Exportar los datos de Ghini para seleccionar CSV: menuselection: "
-"'Herramientas--> exportaciones--> Comma Separated Values' en el menú."
+"Para exportar los datos de Ghini en formato CSV, seleccionar en el menu "
+":menuselection:`Tools-->Export-->Comma Separated Values`"
 
 #: ../../imex.rst:40
 msgid ""
@@ -3665,7 +3664,6 @@ msgstr ""
 "cualquier persona con un poco pero de experiencia de programación."
 
 #: ../../report.rst:26
-#, fuzzy
 msgid ""
 "The template generator will use the same file extension as the template "
 "which should indicate the type of output the template with create.  For "
@@ -3673,12 +3671,10 @@ msgid ""
 "template something like `report.html`.  If the template will generate a "
 "comma separated value file you should name the template `report.csv`."
 msgstr ""
-"El generador de la plantilla a utilizar la misma extensión de archivo "
-"como la plantilla que debe indicar el tipo de salida de la plantilla con "
-"create.  Por ejemplo, para generar una página HTML de la plantilla de "
-"usted debe el nombre la plantilla algo como 'report.html'.  Si la "
-"plantilla generará un archivo de valor separado por comas debe nombrar la"
-" plantilla 'report.csv'."
+"El generador de la plantilla produce archivos con la misma extensión que la "
+"plantilla.  Por ejemplo, para generar una página HTML, el nombre de su "
+"plantilla debe ser algo como 'report.html'.  Si la plantilla generará un "
+"archivo de valor separado por comas, nombre la plantilla 'report.csv'."
 
 #: ../../report.rst:33
 msgid ""
