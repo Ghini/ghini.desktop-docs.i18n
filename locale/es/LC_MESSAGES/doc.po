@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-16 11:11-0500\n"
-"PO-Revision-Date: 2017-08-15 22:23+0000\n"
+"POT-Creation-Date: 2017-08-16 10:40-0500\n"
+"PO-Revision-Date: 2017-08-16 16:21+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.17-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -1151,15 +1152,14 @@ msgid "Extending Ghini with Plugins"
 msgstr "Ghini extensible con Plugins"
 
 #: ../../building.rst:544
-#, fuzzy
 msgid ""
 "Nearly everything about Ghini is extensible through plugins. Plugins can "
 "create tables, define custom searchs, add menu items, create custom "
 "commands and more."
 msgstr ""
-"Casi todo sobre Ghini es extensible mediante plugins. Plugins puede crear"
-" tablas, definir búsquedas personalizadas, agregar elementos de menú, "
-"crear comandos personalizados y mucho más."
+"Casi todo en Ghini es extensible mediante plugins. Un Plugin puede crear "
+"tablas, definir búsquedas personalizadas, agregar elementos de menú, crear "
+"comandos personalizados y mucho más."
 
 #: ../../building.rst:548
 msgid ""
@@ -1496,6 +1496,9 @@ msgid ""
 "full force work in progress, so staying up to date will require some "
 "effort from your side."
 msgstr ""
+"Si desea mantener su propio fork del proyecto, tenga en cuenta que esto está "
+"en continuo progreso, por lo que mantenerse actualizado requerirá algún "
+"esfuerzo de su parte."
 
 #: ../../building.rst:665
 msgid ""
@@ -1505,6 +1508,11 @@ msgid ""
 "unit tests, concise and abundant, and there should be no problem in "
 "having your work included in Ghini's upstream."
 msgstr ""
+"La mejor manera de mantener el propio 'fork' consiste en enfocarse en algún "
+"tema específico, trabajar relativamente rápido, a menudo abrir solicitudes "
+"de 'pull' para su trabajo, y asegurarse que sea aceptado.  Sólo siga el "
+"estilo de programación de Ghini, añada pruebas unitarias, concisas y "
+"abundantes, y no habrá ningún problema en ver su trabajo incluido en Ghini."
 
 #: ../../building.rst:671
 msgid ""
@@ -3296,6 +3304,8 @@ msgid ""
 "In particular, make sure you read and understand all reports starting "
 "with ``If you need to have this software``."
 msgstr ""
+"En particular, asegúrese de leer y entender todos los textos que empiecen "
+"con ``If you need to have this software``."
 
 #: ../../installing.rst:178
 msgid ""
@@ -3399,13 +3409,13 @@ msgid "Make a complete install, selecting everything:"
 msgstr "Hágase una instalación completa, incluyéndolo absolutamente todo:"
 
 #: ../../installing.rst:243
-#, fuzzy
 msgid ""
 "(Possibly necessary, maybe superfluous) install lxml, you can grab this "
 "from `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 msgstr ""
 "(Posiblemente necesario, tal vez superfluo) instalar lxml, usted puede "
-"agarrar esto de:"
+"agarrar esto de `the pypi archives "
+"<https://pypi.python.org/pypi/lxml/3.4.4>`_"
 
 #: ../../installing.rst:246
 msgid "Remember you need the 32 bit version, for Python 2.7."
@@ -5150,15 +5160,14 @@ msgstr ""
 "flecha, puede volver a su última búsqueda."
 
 #: ../../use_cases-jbq.rst:130
-#, fuzzy
 msgid ""
 "With the |100000000000001C0000001FB8A1F75F7A5EF877_png| button, in the "
 "form of a gear, you can start the \"Query Builder\", which helps you "
 "compose complex searches in a simple, graphical way."
 msgstr ""
-"Con el |100000000000001C0000001FB8A1F75F7a5ef877_png| botón, en la forma "
-"de un engranaje, usted puede iniciar la \"Query Builder\", que le ayuda a"
-" componer complejas búsquedas en una simple forma gráfica."
+"Con el botón |100000000000001C0000001FB8A1F75F7a5ef877_png| en forma de "
+"engranaje, usted puede iniciar la \"Query Builder\", que le ayuda a componer "
+"complejas búsquedas en una simple forma gráfica."
 
 #: ../../use_cases-jbq.rst:135
 msgid ""
@@ -5288,14 +5297,12 @@ msgid "Solving it with user permissions"
 msgstr "Solucionandolo con permisos de usuario"
 
 #: ../../use_cases-jbq.rst:205
-#, fuzzy
 msgid ""
 "We propose to have different connection profiles, associated to different"
 " database users, each user with all needed permissions."
 msgstr ""
-"No hemos todavía concluyentemente decidido cómo resolver esta cuestión. "
-"Una forma sería a través de diferentes perfiles, asociado a usuarios de "
-"base de datos, cada usuario con permisos diferentes."
+"Una forma sería a través de diferentes perfiles, asociado a usuarios de base "
+"de datos, cada usuario con permisos diferentes."
 
 #: ../../use_cases-jbq.rst:209
 msgid "Full permission (BD-JBQ)"
@@ -5328,7 +5335,6 @@ msgid "it can be shared with anyone visiting the garden"
 msgstr "puede ser compartido con cualquier persona que visita el jardín"
 
 #: ../../use_cases-jbq.rst:219
-#, fuzzy
 msgid ""
 "You select the connection at start-up, and the software asks you for the "
 "password corresponding to the connection you selected."
@@ -6969,7 +6975,3 @@ msgstr "Ghini permite la lectura, escritura y ejecución."
 
 #~ msgid "Date: 20/07/2009"
 #~ msgstr "Fecha: 20/07/2009"
-
-#~ msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
-#~ msgstr ""
-
