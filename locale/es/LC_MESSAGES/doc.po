@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-16 10:40-0500\n"
+"POT-Creation-Date: 2017-08-16 12:17-0500\n"
 "PO-Revision-Date: 2017-08-16 16:56+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language: es\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
-"Language: es\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.17-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -1158,8 +1157,8 @@ msgid ""
 "commands and more."
 msgstr ""
 "Casi todo en Ghini es extensible mediante plugins. Un Plugin puede crear "
-"tablas, definir búsquedas personalizadas, agregar elementos de menú, crear "
-"comandos personalizados y mucho más."
+"tablas, definir búsquedas personalizadas, agregar elementos de menú, "
+"crear comandos personalizados y mucho más."
 
 #: ../../building.rst:548
 msgid ""
@@ -1496,9 +1495,9 @@ msgid ""
 "full force work in progress, so staying up to date will require some "
 "effort from your side."
 msgstr ""
-"Si desea mantener su propio fork del proyecto, tenga en cuenta que esto está "
-"en continuo progreso, por lo que mantenerse actualizado requerirá algún "
-"esfuerzo de su parte."
+"Si desea mantener su propio fork del proyecto, tenga en cuenta que esto "
+"está en continuo progreso, por lo que mantenerse actualizado requerirá "
+"algún esfuerzo de su parte."
 
 #: ../../building.rst:665
 msgid ""
@@ -1508,11 +1507,12 @@ msgid ""
 "unit tests, concise and abundant, and there should be no problem in "
 "having your work included in Ghini's upstream."
 msgstr ""
-"La mejor manera de mantener el propio 'fork' consiste en enfocarse en algún "
-"tema específico, trabajar relativamente rápido, a menudo abrir solicitudes "
-"de 'pull' para su trabajo, y asegurarse que sea aceptado.  Sólo siga el "
-"estilo de programación de Ghini, añada pruebas unitarias, concisas y "
-"abundantes, y no habrá ningún problema en ver su trabajo incluido en Ghini."
+"La mejor manera de mantener el propio 'fork' consiste en enfocarse en "
+"algún tema específico, trabajar relativamente rápido, a menudo abrir "
+"solicitudes de 'pull' para su trabajo, y asegurarse que sea aceptado.  "
+"Sólo siga el estilo de programación de Ghini, añada pruebas unitarias, "
+"concisas y abundantes, y no habrá ningún problema en ver su trabajo "
+"incluido en Ghini."
 
 #: ../../building.rst:671
 msgid ""
@@ -3304,8 +3304,8 @@ msgid ""
 "In particular, make sure you read and understand all reports starting "
 "with ``If you need to have this software``."
 msgstr ""
-"En particular, asegúrese de leer y entender todos los textos que empiecen "
-"con ``If you need to have this software``."
+"En particular, asegúrese de leer y entender todos los textos que empiecen"
+" con ``If you need to have this software``."
 
 #: ../../installing.rst:178
 msgid ""
@@ -3455,12 +3455,6 @@ msgid ""
 msgstr ""
 "Hemos terminado con las dependencias, ahora podemos descargar y ejecutar "
 "el archivo batch:"
-
-#: ../../installing.rst:270
-msgid ""
-"`devinstall.bat "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.bat>`_"
-msgstr ""
 
 #: ../../installing.rst:272
 msgid ""
@@ -3826,10 +3820,10 @@ msgid ""
 "template something like `report.html`.  If the template will generate a "
 "comma separated value file you should name the template `report.csv`."
 msgstr ""
-"El generador de la plantilla produce archivos con la misma extensión que la "
-"plantilla.  Por ejemplo, para generar una página HTML, el nombre de su "
-"plantilla debe ser algo como 'report.html'.  Si la plantilla generará un "
-"archivo de valor separado por comas, nombre la plantilla 'report.csv'."
+"El generador de la plantilla produce archivos con la misma extensión que "
+"la plantilla.  Por ejemplo, para generar una página HTML, el nombre de su"
+" plantilla debe ser algo como 'report.html'.  Si la plantilla generará un"
+" archivo de valor separado por comas, nombre la plantilla 'report.csv'."
 
 #: ../../report.rst:33
 msgid ""
@@ -5164,8 +5158,8 @@ msgid ""
 "compose complex searches in a simple, graphical way."
 msgstr ""
 "Con el botón |100000000000001C0000001FB8A1F75F7a5ef877_png| en forma de "
-"engranaje, usted puede iniciar la \"Query Builder\", que le ayuda a componer "
-"complejas búsquedas en una simple forma gráfica."
+"engranaje, usted puede iniciar la \"Query Builder\", que le ayuda a "
+"componer complejas búsquedas en una simple forma gráfica."
 
 #: ../../use_cases-jbq.rst:135
 msgid ""
@@ -5299,8 +5293,8 @@ msgid ""
 "We propose to have different connection profiles, associated to different"
 " database users, each user with all needed permissions."
 msgstr ""
-"Una forma sería a través de diferentes perfiles, asociado a usuarios de base "
-"de datos, cada usuario con permisos diferentes."
+"Una forma sería a través de diferentes perfiles, asociado a usuarios de "
+"base de datos, cada usuario con permisos diferentes."
 
 #: ../../use_cases-jbq.rst:209
 msgid "Full permission (BD-JBQ)"
@@ -5574,12 +5568,12 @@ msgid ""
 "suggested practice."
 msgstr ""
 "El responsable actual sugiere utilizar el prefijo **Zzz-** y detrás del "
-"prefijo escribir el nombre de la familia, posiblemente eliminando la **e** "
-"final. La eliminación de la **e** final es útil para no obtener resultados "
-"que incluyan nombres de género cuando busca cosas que terminen en **aceae**. "
-"En práctica, tenemos un género **Zzz** en la familia Orchidaceae mientras "
-"que en las demás familias representadas en nuestra colección digital, "
-"seguimos esta práctica sugerida."
+"prefijo escribir el nombre de la familia, posiblemente eliminando la "
+"**e** final. La eliminación de la **e** final es útil para no obtener "
+"resultados que incluyan nombres de género cuando busca cosas que terminen"
+" en **aceae**. En práctica, tenemos un género **Zzz** en la familia "
+"Orchidaceae mientras que en las demás familias representadas en nuestra "
+"colección digital, seguimos esta práctica sugerida."
 
 #: ../../use_cases-jbq.rst:347
 msgid ""
@@ -6341,8 +6335,8 @@ msgid "In these cases, we add a set of notes, according to the case."
 msgstr "En estos casos, se añade un conjunto de notas, según el caso."
 
 #: ../../use_cases-jbq.rst:728
-msgid "Donated plants"
-msgstr "Planta donadas"
+msgid "— Donated plants"
+msgstr "— Plantas donadas"
 
 #: ../../use_cases-jbq.rst:731
 msgid ""
@@ -6350,8 +6344,8 @@ msgid ""
 "contacts and specify it as source, then we add the notes:"
 msgstr ""
 "Si la planta fue donada por un individuo, agregamos al individuo entre "
-"nuestros contactos y lo indicamos como fuente, a continuación añadimos las "
-"notas:"
+"nuestros contactos y lo indicamos como fuente, a continuación añadimos "
+"las notas:"
 
 #: ../../use_cases-jbq.rst:735 ../../use_cases-jbq.rst:748
 #: ../../use_cases-jbq.rst:762
@@ -6363,27 +6357,17 @@ msgstr "categoría"
 msgid "text"
 msgstr "texto"
 
-#: ../../use_cases-jbq.rst:737 ../../use_cases-jbq.rst:750
-#: ../../use_cases-jbq.rst:764
-msgid "source-type"
-msgstr ""
-
 #: ../../use_cases-jbq.rst:737
 msgid "gift"
 msgstr "donación"
-
-#: ../../use_cases-jbq.rst:738 ../../use_cases-jbq.rst:751
-#: ../../use_cases-jbq.rst:765
-msgid "source-detail"
-msgstr ""
 
 #: ../../use_cases-jbq.rst:738
 msgid "Contribución científica al JBQ"
 msgstr "Razón: Contribución científica JBQ"
 
 #: ../../use_cases-jbq.rst:741
-msgid "Bought plants"
-msgstr "Plantas compradas"
+msgid "— Bought plants"
+msgstr "— Plantas compradas"
 
 #: ../../use_cases-jbq.rst:744
 msgid ""
@@ -6402,16 +6386,12 @@ msgid "optional, free text"
 msgstr "opcional, texto libre"
 
 #: ../../use_cases-jbq.rst:752
-msgid "factura"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:752
 msgid "the invoice number"
 msgstr "el número de la factura"
 
 #: ../../use_cases-jbq.rst:755
-msgid "Confiscated plants"
-msgstr "Planta decomisada"
+msgid "— Confiscated plants"
+msgstr "— Plantas decomisadas"
 
 #: ../../use_cases-jbq.rst:758
 msgid ""
@@ -6974,3 +6954,18 @@ msgstr "Ghini permite la lectura, escritura y ejecución."
 
 #~ msgid "Date: 20/07/2009"
 #~ msgstr "Fecha: 20/07/2009"
+
+#~ msgid ""
+#~ "`devinstall.bat "
+#~ "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.bat>`_"
+#~ msgstr ""
+
+#~ msgid "source-type"
+#~ msgstr ""
+
+#~ msgid "source-detail"
+#~ msgstr ""
+
+#~ msgid "factura"
+#~ msgstr ""
+

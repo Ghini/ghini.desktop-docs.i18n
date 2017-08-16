@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2017-08-16 11:11-0500\n"
+"POT-Creation-Date: 2017-08-16 12:17-0500\n"
 "PO-Revision-Date: 2017-07-05 11:52+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: pt\n"
@@ -3336,12 +3336,6 @@ msgid ""
 "file:"
 msgstr ""
 
-#: ../../installing.rst:270
-msgid ""
-"`devinstall.bat "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.bat>`_"
-msgstr ""
-
 #: ../../installing.rst:272
 msgid ""
 "Please don't just follow the above link.  Instead: right click, save link"
@@ -5718,7 +5712,7 @@ msgid "In these cases, we add a set of notes, according to the case."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:728
-msgid "Donated plants"
+msgid "— Donated plants"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:731
@@ -5737,18 +5731,8 @@ msgstr ""
 msgid "text"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:737 ../../use_cases-jbq.rst:750
-#: ../../use_cases-jbq.rst:764
-msgid "source-type"
-msgstr ""
-
 #: ../../use_cases-jbq.rst:737
 msgid "gift"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:738 ../../use_cases-jbq.rst:751
-#: ../../use_cases-jbq.rst:765
-msgid "source-detail"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:738
@@ -5756,7 +5740,7 @@ msgid "Contribución científica al JBQ"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:741
-msgid "Bought plants"
+msgid "— Bought plants"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:744
@@ -5775,15 +5759,11 @@ msgid "optional, free text"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:752
-msgid "factura"
-msgstr ""
-
-#: ../../use_cases-jbq.rst:752
 msgid "the invoice number"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:755
-msgid "Confiscated plants"
+msgid "— Confiscated plants"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:758
@@ -6750,5 +6730,28 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Solo las cactáceas afuera de los orquidearios en el jardín"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`devinstall.bat "
+#~ "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.bat>`_"
+#~ msgstr ""
+
+#~ msgid "Donated plants"
+#~ msgstr ""
+
+#~ msgid "source-type"
+#~ msgstr ""
+
+#~ msgid "source-detail"
+#~ msgstr ""
+
+#~ msgid "Bought plants"
+#~ msgstr ""
+
+#~ msgid "factura"
+#~ msgstr ""
+
+#~ msgid "Confiscated plants"
 #~ msgstr ""
 
