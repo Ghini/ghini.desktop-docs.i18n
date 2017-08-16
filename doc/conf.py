@@ -60,8 +60,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Ghini'
-copyright = u'2004-2012, Brett Adams; 2012-2015, Mario Frasca'
-author = u'Brett Adams; Mario Frasca'
+copyright = u'2004-2017 bauble.classic & 2015-2017 ghini.desktop contributors'
+author = u'Mario Frasca'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
