@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-14 16:11-0500\n"
-"PO-Revision-Date: 2017-08-15 22:23+0000\n"
+"PO-Revision-Date: 2017-08-16 14:44+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -2800,13 +2800,12 @@ msgid "Exporting to CSV"
 msgstr "Exportar a CSV"
 
 #: ../../imex.rst:37
-#, fuzzy
 msgid ""
 "To export the Ghini data to CSV select "
 ":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
-"Exportar los datos de Ghini para seleccionar CSV: menuselection: "
-"'Herramientas--> exportaciones--> Comma Separated Values' en el menú."
+"Para exportar los datos de Ghini en formato CSV, seleccionar en el menu "
+":menuselection:`Tools-->Export-->Comma Separated Values`"
 
 #: ../../imex.rst:40
 msgid ""
@@ -3239,7 +3238,6 @@ msgstr ""
 "o menos."
 
 #: ../../installing.rst:146
-#, fuzzy
 msgid ""
 "Last time we tested, some of the dependencies could not be installed on "
 "MacOSX 10.5 and we assume similar problems would also show on older OSX "
@@ -3247,9 +3245,9 @@ msgid ""
 "between 10.7 and 10.12."
 msgstr ""
 "La última vez que intentamos, no pudimos instalar algunas de las "
-"dependencias en MacOSX 10.5, seguramente los mismos problemas se "
-"encuentran con versiones anteriores. Ghini ha sido instalado exitosamente"
-" en las versiones 10.7, 10.9 y 10.12."
+"dependencias en MacOSX 10.5, seguramente los mismos problemas se encuentran "
+"con versiones anteriores. Ghini ha sido instalado exitosamente varias "
+"versiones de OSX, entre 10.7 y 10.12."
 
 #: ../../installing.rst:151
 msgid ""
@@ -3546,16 +3544,14 @@ msgstr ""
 "carpeta de inicio y se ha creado en el paso anterior."
 
 #: ../../installing.rst:317
-#, fuzzy
 msgid ""
 "Right-click on it, select run as administrator, confirm you want it to "
 "make changes to your computer.  These changes are in the Start Menu only:"
 " create the Ghini group, place the Ghini shortcut."
 msgstr ""
-"Haga clic derecho sobre él, seleccione Ejecutar como administrador, "
-"confirme que desea realizar cambios en su equipo. Estos cambios son en el"
-" menú Inicio sólo: crear el grupo de Ghini, coloque el acceso directo de "
-"Ghini."
+"Haga clic derecho sobre él, seleccione Ejecutar como administrador, confirme "
+"que desea realizar cambios en su equipo. Estos cambios son sólo en el menú "
+"Inicio: crea el grupo de Ghini, le coloca el enlace directo a Ghini."
 
 #: ../../installing.rst:321
 msgid ""
@@ -3583,7 +3579,6 @@ msgstr ""
 "apenas te llevará un minuto."
 
 #: ../../installing.rst:333
-#, fuzzy
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
@@ -3591,10 +3586,10 @@ msgid ""
 " you will need to include the directory you extracted to in your PATH."
 msgstr ""
 "Si desea generar e imprimir informes en PDF usando generador de informe "
-"predeterminado de Ghini entonces usted necesitará descargar e instalar ' "
-"Apache FOP <http: xmlgraphics.apache.org/fop/=\"\">' _. Después de "
-"extraer el archivo FOP debe incluir el directorio ha extraído en su "
-"reinado</http:>"
+"predeterminado de Ghini entonces usted necesitará descargar e instalar `"
+"Apache FOP <http://xmlgraphics.apache.org/fop/>`_. Después de haber "
+"desempacado el archivo FOP, debe incluir en el PATH el directorio en que lo "
+"ha extraído."
 
 #: ../../propagations.rst:4
 msgid "Dealing with Propagations"
@@ -4859,9 +4854,8 @@ msgid "geographic information"
 msgstr "información geográfica"
 
 #: ../../statements.rst:63
-#, fuzzy
 msgid "The Ghini family"
-msgstr "al rango familia"
+msgstr "La familia Ghini"
 
 #: ../../tagging.rst:2
 msgid "Tagging"
@@ -4915,9 +4909,8 @@ msgstr ""
 "compartirlo."
 
 #: ../../use_cases-jbq.rst:10
-#, fuzzy
 msgid "Technical"
-msgstr "detalles técnicos"
+msgstr "Detalles técnicos"
 
 #: ../../use_cases-jbq.rst:12
 msgid ""
@@ -4930,12 +4923,10 @@ msgstr ""
 "datos remota. Esto implica medidas que no son evidentes para la mayoría."
 
 #: ../../use_cases-jbq.rst:16
-#, fuzzy
 msgid "How to start a program"
 msgstr "Como arrancar un programa"
 
 #: ../../use_cases-jbq.rst:19
-#, fuzzy
 msgid ""
 "To start a program given its name, hit the |loose_png| key next to Alt, "
 "or click on |10000000000000300000002F89E0224ADF9EC09E_png|, then start "
@@ -4943,18 +4934,16 @@ msgid ""
 "program symbol |100000000000003100000031BB54CBDFA885EBAC_png|, appearing "
 "near the left margin of your display."
 msgstr ""
-"para iniciar un programa dado su nombre, active la tecla |loose_png|, al "
-"lado de Alt, o haga clic en "
-"|10000000000000300000002F89E0224Adf9ec09e_png|, a continuación, comience "
-"a escribir el nombre del programa, en nuestro caso \"Ghini\", o "
-"simplemente haga clic en el símbolo del programa "
+"Para iniciar un programa dado su nombre, active la tecla |loose_png|, al "
+"lado de Alt, o haga clic en |10000000000000300000002F89E0224Adf9ec09e_png|, "
+"a continuación, comience a escribir el nombre del programa, en nuestro caso "
+"\"Ghini\", o simplemente haga clic en el símbolo del programa "
 "|100000000000003100000031BB54CBDFa885ebac_png|, que aparece cerca de la "
 "margen izquierda de la pantalla."
 
 #: ../../use_cases-jbq.rst:25
-#, fuzzy
 msgid "Database server"
-msgstr "servidor de bases de datos"
+msgstr "Servidor de bases de datos"
 
 #: ../../use_cases-jbq.rst:28
 msgid ""
@@ -5082,7 +5071,6 @@ msgid "understanding ghini initial screen"
 msgstr "Entender la pantalla inicial de ghini"
 
 #: ../../use_cases-jbq.rst:87
-#, fuzzy
 msgid "Complete screen"
 msgstr "Pantalla completa"
 
@@ -5100,9 +5088,8 @@ msgstr ""
 "la base de datos."
 
 #: ../../use_cases-jbq.rst:98
-#, fuzzy
 msgid "Numeric overview"
-msgstr "resumen numérico"
+msgstr "Resumen numérico"
 
 #: ../../use_cases-jbq.rst:101
 msgid ""
@@ -5115,9 +5102,8 @@ msgstr ""
 "consulta que selecciona los objetos correspondientes."
 
 #: ../../use_cases-jbq.rst:107
-#, fuzzy
 msgid "Stored queries"
-msgstr "consultas almacenadas"
+msgstr "Consultas almacenadas"
 
 #: ../../use_cases-jbq.rst:110
 msgid ""
@@ -5133,9 +5119,8 @@ msgstr ""
 "datos."
 
 #: ../../use_cases-jbq.rst:117
-#, fuzzy
 msgid "Query and action buttons"
-msgstr "botones de acción y consulta"
+msgstr "Botones de acción y consulta"
 
 #: ../../use_cases-jbq.rst:120
 msgid ""
@@ -5208,9 +5193,8 @@ msgstr ""
 "informe a los desarrolladores."
 
 #: ../../use_cases-jbq.rst:153
-#, fuzzy
 msgid "Network problems"
-msgstr "problemas de red"
+msgstr "Problemas de red"
 
 #: ../../use_cases-jbq.rst:156
 msgid ""
@@ -5229,7 +5213,6 @@ msgid "Just ignore it and try again."
 msgstr "Sólo ignorarlo y vuelva a intentarlo."
 
 #: ../../use_cases-jbq.rst:165
-#, fuzzy
 msgid "Search fails with error"
 msgstr "La búsqueda falla con error"
 
@@ -5248,9 +5231,8 @@ msgid "An example of such an error message:"
 msgstr "Un ejemplo de un mensaje de error:"
 
 #: ../../use_cases-jbq.rst:177
-#, fuzzy
 msgid "Search does not return something I just inserted"
-msgstr "la búsqueda no devuelve algo que acabo de insertar"
+msgstr "La búsqueda no devuelve algo que acabo de insertar"
 
 #: ../../use_cases-jbq.rst:180
 msgid ""
@@ -5299,7 +5281,6 @@ msgstr ""
 "abajo, especies y accesiones y sinonimias."
 
 #: ../../use_cases-jbq.rst:202
-#, fuzzy
 msgid "Solving it with user permissions"
 msgstr "Solucionandolo con permisos de usuario"
 
@@ -5314,19 +5295,16 @@ msgstr ""
 "base de datos, cada usuario con permisos diferentes."
 
 #: ../../use_cases-jbq.rst:209
-#, fuzzy
 msgid "Full permission (BD-JBQ)"
-msgstr "permiso completo (BD-JBQ)"
+msgstr "Permiso completo (BD-JBQ)"
 
 #: ../../use_cases-jbq.rst:209
-#, fuzzy
 msgid "Only qualified personnel get this kind of access."
-msgstr "solamente el personal calificado obtiene este tipo de acceso."
+msgstr "Solamente el personal calificado obtiene este tipo de acceso."
 
 #: ../../use_cases-jbq.rst:214
-#, fuzzy
 msgid "Insert and update (BD-JBQ-limitado)"
-msgstr "insert y update (BD-JBQ-limitado)"
+msgstr "Insert y update (BD-JBQ-limitado)"
 
 #: ../../use_cases-jbq.rst:212
 msgid ""
@@ -5339,9 +5317,8 @@ msgstr ""
 "de base de datos. Está destinado a evitar errores costosos."
 
 #: ../../use_cases-jbq.rst:217
-#, fuzzy
 msgid "Read only (BD-JBQ-lectura)"
-msgstr "sólo lectura (BD-JBQ-lectura)"
+msgstr "Sólo lectura (BD-JBQ-lectura)"
 
 #: ../../use_cases-jbq.rst:217
 msgid "it can be shared with anyone visiting the garden"
@@ -5375,9 +5352,8 @@ msgstr ""
 "diferente usuario."
 
 #: ../../use_cases-jbq.rst:236
-#, fuzzy
 msgid "Thinking further about it"
-msgstr "pensándolo más"
+msgstr "Pensándolo más"
 
 #: ../../use_cases-jbq.rst:239
 msgid ""
@@ -5432,9 +5408,8 @@ msgstr ""
 "tratando de ayudarle."
 
 #: ../../use_cases-jbq.rst:262
-#, fuzzy
 msgid "Where are the logs"
-msgstr "donde están los log"
+msgstr "Donde están los log"
 
 #: ../../use_cases-jbq.rst:265
 msgid ""
@@ -5447,9 +5422,8 @@ msgstr ""
 "más.  Contiene mucha información técnica."
 
 #: ../../use_cases-jbq.rst:269
-#, fuzzy
 msgid "Continous unmanned alerting"
-msgstr "alerta continua no tripulada"
+msgstr "Alerta continua no tripulada"
 
 #: ../../use_cases-jbq.rst:272
 msgid ""
@@ -5482,14 +5456,12 @@ msgstr ""
 "desea, haga doble clic en la línea y cambiará a otro valor."
 
 #: ../../use_cases-jbq.rst:286
-#, fuzzy
 msgid "Taxonomy"
-msgstr "taxonomía"
+msgstr "Taxonomía"
 
 #: ../../use_cases-jbq.rst:288
-#, fuzzy
 msgid "Introduction"
-msgstr "introducción"
+msgstr "Introducción"
 
 #: ../../use_cases-jbq.rst:290
 msgid "Orchidaceae taxonomic complexity"
@@ -5529,14 +5501,12 @@ msgstr ""
 "datos Ghini."
 
 #: ../../use_cases-jbq.rst:306
-#, fuzzy
 msgid "Identifying at rank Genus, or Family"
-msgstr "identificar a rango género o familia"
+msgstr "Identificar a rango género o familia"
 
 #: ../../use_cases-jbq.rst:308
-#, fuzzy
 msgid "At rank genus"
-msgstr "al rango género"
+msgstr "Al rango género"
 
 #: ../../use_cases-jbq.rst:311
 msgid ""
@@ -5569,9 +5539,8 @@ msgid "When displayed in a search result, it shows like this:"
 msgstr "Cuando aparece en un resultado de búsqueda, se muestra como este:"
 
 #: ../../use_cases-jbq.rst:328
-#, fuzzy
 msgid "At rank family"
-msgstr "al rango familia"
+msgstr "Al rango familia"
 
 #: ../../use_cases-jbq.rst:331
 msgid ""
@@ -5614,18 +5583,16 @@ msgstr ""
 "**Orchidaceae**, no lo utilice como género desconocido en otras familias."
 
 #: ../../use_cases-jbq.rst:351
-#, fuzzy
 msgid ""
 "Identifying at a rank that is not allowed by the software (eg: Subtribe, "
 "or Subfamily)"
 msgstr ""
-"identificar en un rango que no está permitido por el software (por "
-"ejemplo: Subtribu o subfamilia)"
+"Identificar en un rango que no está permitido por el software (por ejemplo: "
+"Subtribu o subfamilia)"
 
 #: ../../use_cases-jbq.rst:353
-#, fuzzy
 msgid "At rank subtribe"
-msgstr "al rango subtribu"
+msgstr "Al rango subtribu"
 
 #: ../../use_cases-jbq.rst:356
 msgid ""
