@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-16 10:40-0500\n"
-"PO-Revision-Date: 2017-08-16 16:21+0000\n"
+"PO-Revision-Date: 2017-08-16 16:56+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -1488,7 +1488,7 @@ msgstr ""
 
 #: ../../building.rst:659
 msgid "your own fork"
-msgstr ""
+msgstr "su propio 'fork'"
 
 #: ../../building.rst:661
 msgid ""
@@ -3312,10 +3312,12 @@ msgid ""
 "You will need at least the following four lines in your "
 "``~/.bash_profile``::"
 msgstr ""
+"Se necesitan por lo menos las siguientes cuatro líneas en su '' "
+"~/.bash_profile''::"
 
 #: ../../installing.rst:185
 msgid "Activate the profile by sourcing it::"
-msgstr ""
+msgstr "Activar el ``profile`` ejecutándolo así::"
 
 #: ../../installing.rst:189
 msgid ""
@@ -3414,8 +3416,7 @@ msgid ""
 "from `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 msgstr ""
 "(Posiblemente necesario, tal vez superfluo) instalar lxml, usted puede "
-"agarrar esto de `the pypi archives "
-"<https://pypi.python.org/pypi/lxml/3.4.4>`_"
+"bajarlo de los `archivos pypi <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 
 #: ../../installing.rst:246
 msgid "Remember you need the 32 bit version, for Python 2.7."
@@ -3818,7 +3819,6 @@ msgstr ""
 "cualquier persona con un poco pero de experiencia de programación."
 
 #: ../../report.rst:26
-#, fuzzy
 msgid ""
 "The template generator will use the same file extension as the template "
 "which should indicate the type of output the template with create.  For "
@@ -3826,12 +3826,10 @@ msgid ""
 "template something like `report.html`.  If the template will generate a "
 "comma separated value file you should name the template `report.csv`."
 msgstr ""
-"El generador de la plantilla a utilizar la misma extensión de archivo "
-"como la plantilla que debe indicar el tipo de salida de la plantilla con "
-"create.  Por ejemplo, para generar una página HTML de la plantilla de "
-"usted debe el nombre la plantilla algo como 'report.html'.  Si la "
-"plantilla generará un archivo de valor separado por comas debe nombrar la"
-" plantilla 'report.csv'."
+"El generador de la plantilla produce archivos con la misma extensión que la "
+"plantilla.  Por ejemplo, para generar una página HTML, el nombre de su "
+"plantilla debe ser algo como 'report.html'.  Si la plantilla generará un "
+"archivo de valor separado por comas, nombre la plantilla 'report.csv'."
 
 #: ../../report.rst:33
 msgid ""
@@ -5339,7 +5337,7 @@ msgid ""
 "You select the connection at start-up, and the software asks you for the "
 "password corresponding to the connection you selected."
 msgstr ""
-"Selecciona la conexión en el inicio, y el software le pide la contraseña "
+"Seleccione la conexión en el inicio, y el software le pide la contraseña "
 "correspondiente a la conexión seleccionada."
 
 #: ../../use_cases-jbq.rst:224
@@ -5566,7 +5564,6 @@ msgstr ""
 "familia, como este:"
 
 #: ../../use_cases-jbq.rst:338
-#, fuzzy
 msgid ""
 "The current maintainer suggests to use the prefix **Zzz-** and behind the"
 " prefix to write the family name, possibly removing the trailing **e**.  "
@@ -5577,11 +5574,11 @@ msgid ""
 "suggested practice."
 msgstr ""
 "El responsable actual sugiere utilizar el prefijo **Zzz-** y detrás del "
-"prefijo escribir el nombre de la familia, posiblemente eliminando la "
-"**e** final. La eliminación de la **e** final es útil para no obtener "
-"resultados que incluyan nombres de género cuando busca cosas que terminen"
-" en **aceae**. En práctica, tenemos un género **Zzz** en la familia "
-"Orchidaceae y todas familias representadas en nuestra colección digital, "
+"prefijo escribir el nombre de la familia, posiblemente eliminando la **e** "
+"final. La eliminación de la **e** final es útil para no obtener resultados "
+"que incluyan nombres de género cuando busca cosas que terminen en **aceae**. "
+"En práctica, tenemos un género **Zzz** en la familia Orchidaceae mientras "
+"que en las demás familias representadas en nuestra colección digital, "
 "seguimos esta práctica sugerida."
 
 #: ../../use_cases-jbq.rst:347
@@ -6341,28 +6338,30 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:726
 msgid "In these cases, we add a set of notes, according to the case."
-msgstr ""
+msgstr "En estos casos, se añade un conjunto de notas, según el caso."
 
 #: ../../use_cases-jbq.rst:728
-#, fuzzy
 msgid "Donated plants"
-msgstr "Donación de planta"
+msgstr "Planta donadas"
 
 #: ../../use_cases-jbq.rst:731
 msgid ""
 "If the plant was donated by individual, we add the individual among our "
 "contacts and specify it as source, then we add the notes:"
 msgstr ""
+"Si la planta fue donada por un individuo, agregamos al individuo entre "
+"nuestros contactos y lo indicamos como fuente, a continuación añadimos las "
+"notas:"
 
 #: ../../use_cases-jbq.rst:735 ../../use_cases-jbq.rst:748
 #: ../../use_cases-jbq.rst:762
 msgid "category"
-msgstr ""
+msgstr "categoría"
 
 #: ../../use_cases-jbq.rst:735 ../../use_cases-jbq.rst:748
 #: ../../use_cases-jbq.rst:762
 msgid "text"
-msgstr ""
+msgstr "texto"
 
 #: ../../use_cases-jbq.rst:737 ../../use_cases-jbq.rst:750
 #: ../../use_cases-jbq.rst:764
@@ -6371,7 +6370,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:737
 msgid "gift"
-msgstr ""
+msgstr "donación"
 
 #: ../../use_cases-jbq.rst:738 ../../use_cases-jbq.rst:751
 #: ../../use_cases-jbq.rst:765
@@ -6379,28 +6378,28 @@ msgid "source-detail"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:738
-#, fuzzy
 msgid "Contribución científica al JBQ"
 msgstr "Razón: Contribución científica JBQ"
 
 #: ../../use_cases-jbq.rst:741
 msgid "Bought plants"
-msgstr ""
+msgstr "Plantas compradas"
 
 #: ../../use_cases-jbq.rst:744
 msgid ""
 "If the plant was bought, we add the previous owner among our contacts and"
 " specify it as source, then we add the notes:"
 msgstr ""
+"Si la planta fue comprada, añadimos el dueño anterior entre nuestros "
+"contactos y lo indicamos como fuente, luego añadimos las notas:"
 
 #: ../../use_cases-jbq.rst:750
-#, fuzzy
 msgid "purchase"
-msgstr "Caso de uso"
+msgstr "compra"
 
 #: ../../use_cases-jbq.rst:751
 msgid "optional, free text"
-msgstr ""
+msgstr "opcional, texto libre"
 
 #: ../../use_cases-jbq.rst:752
 msgid "factura"
@@ -6408,27 +6407,27 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:752
 msgid "the invoice number"
-msgstr ""
+msgstr "el número de la factura"
 
 #: ../../use_cases-jbq.rst:755
-#, fuzzy
 msgid "Confiscated plants"
-msgstr "\"Planta decomisada\""
+msgstr "Planta decomisada"
 
 #: ../../use_cases-jbq.rst:758
 msgid ""
 "If the plant was confiscated, we add the previous owner among our "
 "contacts and specify it as source, then we add the notes:"
 msgstr ""
+"Si la planta fue confiscada, agregamos el dueño anterior entre nuestros "
+"contactos y lo indicamos como fuente, a continuación añadimos las notas:"
 
 #: ../../use_cases-jbq.rst:764
-#, fuzzy
 msgid "confiscated"
-msgstr "\"Planta decomisada\""
+msgstr "decomisada"
 
 #: ../../use_cases-jbq.rst:765
 msgid "possibly, legal details, law number ..."
-msgstr ""
+msgstr "Posiblemente, detalles legales, número de ley ..."
 
 #: ../../use_cases-jbq.rst:769
 msgid "Producing or reproducing labels"
