@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-08-07 18:12+0000\n"
+"PO-Revision-Date: 2017-08-22 19:48+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.16-dev\n"
+"X-Generator: Weblate 2.17-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -2799,14 +2799,17 @@ msgid "The installation is based on running a script."
 msgstr "кроки по установці на Windows:"
 
 #: ../../installing.rst:20
+#, fuzzy
 msgid ""
 "The GNU/Linux script takes care of everything, from dependecies to "
 "installation for users in the ``ghini`` group."
 msgstr ""
+"Сценарій GNU/Linux дбає про все, від залежностей до інсталяції для "
+"користувачів у групі ``ghini``."
 
 #: ../../installing.rst:22
 msgid "The Windows script needs you to first install a couple things."
-msgstr ""
+msgstr "Сценарій Windows потребує, щоб ви спочатку встановите пару речей."
 
 #: ../../installing.rst:23
 msgid ""
@@ -2814,20 +2817,31 @@ msgid ""
 "default package manager, we install one and we use it before we start the"
 " script."
 msgstr ""
+"У MacOSX ми використовуємо той самий сценарій, що і на GNU/Linux. Оскільки "
+"OSX не має менеджера пакетів за замовчуванням, ми встановлюємо його, і "
+"використовуємо, перш ніж запускати скрипт."
 
 #: ../../installing.rst:26
+#, fuzzy
 msgid ""
 "Following our installation procedure, you will end with Ghini running "
 "within a Python virtual environment, all Python dependencies installed "
 "locally, non conflicting with any other Python program you may have on "
 "your system."
 msgstr ""
+"Дотримуючись нашої процедури встановлення, по закінчені Ghini працює в "
+"віртуальному середовищі Python, всі Python залежності встановлено локально, "
+"не конфліктуючи з будь-якою іншою програмою Python, яку ви можете мати у "
+"вашій системі."
 
 #: ../../installing.rst:30
 msgid ""
 "Dependencies that don't fit in a Python virtual environment are: Python, "
 "virtualenv, GTK+, and PyGTK. Their installation varies per platform."
 msgstr ""
+"Залежність, яка не відповідає віртуальному середовищу Python, полягає в "
+"наступному: Python, virtualenv, GTK + і PyGTK. Їх установка залежить від "
+"платформи."
 
 #: ../../installing.rst:33
 #, fuzzy
@@ -2925,19 +2939,24 @@ msgstr ""
 
 #: ../../installing.rst:77
 msgid "beginner's note"
-msgstr ""
+msgstr "примітка новачка"
 
 #: ../../installing.rst:80
+#, fuzzy
 msgid ""
 "To run a script, first make sure you note down the name of the directory "
 "to which you have downloaded the script, then you open a terminal window "
 "and in that window you type `bash` followed by a space and the complete "
 "name of the script including directory name, and hit on the enter key."
 msgstr ""
+"Щоб запустити скрипт, спершу переконайтеся, що ви помітили назву каталогу, "
+"до якого ви завантажили скрипт, після чого ви відкриваєте вікно термінала, і "
+"в цьому вікні набираєте `bash`, після чого пробіл і повне ім'я сценарію "
+"включаючи ім'я каталогу, і натисніть клавішу Enter."
 
 #: ../../installing.rst:86
 msgid "technical note"
-msgstr ""
+msgstr "технічна примітка"
 
 #: ../../installing.rst:89
 msgid ""
@@ -3041,6 +3060,8 @@ msgid ""
 "Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
 "installing a couple of python packages, globally. Do this::"
 msgstr ""
+"Перш ніж ми можемо запустити ``devinstall.sh`` як на GNU / Linux, нам все ще "
+"потрібно встановити пару пакетів python, глобально. Зробити це::"
 
 #: ../../installing.rst:153
 #, fuzzy
@@ -3078,6 +3099,10 @@ msgid ""
 "up, the Ghini installation procedure runs as on GNU/Linux. The concluding"
 " steps are again Windows specific."
 msgstr ""
+"Нижче описані кроки допоможуть вам встановити Git, Gtk, Python та консолі "
+"бази даних Python. При правильному настроюванні цього середовища процедура "
+"встановлення Ghini працює як на GNU/Linux. Завершальні кроки знов є "
+"специфічними для Windows."
 
 #: ../../installing.rst:174
 #, fuzzy
@@ -3184,7 +3209,7 @@ msgstr ""
 
 #: ../../installing.rst:241
 msgid "Remember you need the 32 bit version, for Python 2.7."
-msgstr ""
+msgstr "Пам'ятайте, вам потрібна 32-бітова версія для Python 2.7."
 
 #: ../../installing.rst:243
 #, fuzzy
@@ -3263,6 +3288,7 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:281
+#, fuzzy
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -3270,6 +3296,10 @@ msgid ""
 "it is right in your HOME folder, and has been created at the previous "
 "step."
 msgstr ""
+"Останній етап установки створює групу Ghini і ярлики в меню Пуск Windows для "
+"всіх користувачів. Для цього вам потрібно запустити скрипт із правами "
+"адміністратора. Сценарій називається ``devinstall-finalize.bat``, Це "
+"правильно в папці HOME і створено на попередньому кроці."
 
 #: ../../installing.rst:287
 msgid ""
@@ -3376,7 +3406,7 @@ msgstr ""
 
 #: ../../propagations.rst:4
 msgid "Dealing with Propagations"
-msgstr ""
+msgstr "Робота з розповсюдженням"
 
 #: ../../propagations.rst:6
 msgid ""
