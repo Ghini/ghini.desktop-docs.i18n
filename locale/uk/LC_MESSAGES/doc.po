@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-16 13:28-0500\n"
-"PO-Revision-Date: 2017-08-07 18:12+0000\n"
+"PO-Revision-Date: 2017-08-22 19:48+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.17-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -1462,7 +1463,7 @@ msgstr "розповісти світові про це: на Facebook, груп
 
 #: ../../building.rst:659
 msgid "your own fork"
-msgstr ""
+msgstr "ваша власна гілка"
 
 #: ../../building.rst:661
 msgid ""
@@ -1470,8 +1471,12 @@ msgid ""
 "full force work in progress, so staying up to date will require some "
 "effort from your side."
 msgstr ""
+"Якщо ви хочете зберегти власну гілку проекту, майте на увазі, що це робота в "
+"повну силу над результатом, і щоб бути в курсі, потрібні певні зусилля з "
+"вашої сторони."
 
 #: ../../building.rst:665
+#, fuzzy
 msgid ""
 "The best way to keep your own fork is to focus on some specific issue, "
 "work relatively quickly, often open pull requests for your work, make "
@@ -1479,14 +1484,24 @@ msgid ""
 "unit tests, concise and abundant, and there should be no problem in "
 "having your work included in Ghini's upstream."
 msgstr ""
+"Найкращий спосіб зберегти власну гілку полягає в тому, щоб сфокусуватися на "
+"певній конкретній проблемі, часто відкривають тягові запити для вашої "
+"роботи, переконайтеся, що ви це приймаєте. Просто дотримуйтесь стилю "
+"кодування Ghini, пишіть одиничні тести, лаконічні та рясні, і не повинно "
+"бути ніяких проблем в тому, щоб ваша робота була включена до Ghini."
 
 #: ../../building.rst:671
+#, fuzzy
 msgid ""
 "If your fork got out of sync with Ghini's upstream: read, understand, "
 "follow the github guides `configuring a remote for a fork "
 "<https://help.github.com/articles/configuring-a-remote-for-a-fork/>`_ and"
 " `syncing a fork <https://help.github.com/articles/syncing-a-fork/>`_."
 msgstr ""
+"Якщо гілка вийшла з синхронізації з Ghini вгору: читати, зрозуміти, слідуйте "
+"за github  довідниками `configuring a remote for a fork "
+"<https://help.github.com/articles/configuring-a-remote-for-a-fork/>`_ і `"
+"syncing a fork <https://help.github.com/articles/syncing-a-fork/>`_."
 
 #: ../../building.rst:677
 msgid "closing step"
@@ -2878,7 +2893,7 @@ msgstr "Керівництво користувача"
 
 #: ../../index.rst:50
 msgid "Cookbook"
-msgstr ""
+msgstr "Довідник програмних рішень"
 
 #: ../../index.rst:58
 msgid "Administration"
@@ -2971,14 +2986,17 @@ msgid "The installation is based on running a script."
 msgstr "кроки по установці на Windows:"
 
 #: ../../installing.rst:30
+#, fuzzy
 msgid ""
 "The GNU/Linux script takes care of everything, from dependecies to "
 "installation for users in the ``ghini`` group."
 msgstr ""
+"Сценарій GNU/Linux дбає про все, від залежностей до інсталяції для "
+"користувачів у групі ``ghini``."
 
 #: ../../installing.rst:32
 msgid "The Windows script needs you to first install a couple things."
-msgstr ""
+msgstr "Сценарій Windows потребує, щоб ви спочатку встановите пару речей."
 
 #: ../../installing.rst:33
 msgid ""
@@ -2986,20 +3004,31 @@ msgid ""
 "default package manager, we install one and we use it before we start the"
 " script."
 msgstr ""
+"У MacOSX ми використовуємо той самий сценарій, що і на GNU/Linux. Оскільки "
+"OSX не має менеджера пакетів за замовчуванням, ми встановлюємо його, і "
+"використовуємо, перш ніж запускати скрипт."
 
 #: ../../installing.rst:36
+#, fuzzy
 msgid ""
 "Following our installation procedure, you will end with Ghini running "
 "within a Python virtual environment, all Python dependencies installed "
 "locally, non conflicting with any other Python program you may have on "
 "your system."
 msgstr ""
+"Дотримуючись нашої процедури встановлення, по закінчені Ghini працює в "
+"віртуальному середовищі Python, всі Python залежності встановлено локально, "
+"не конфліктуючи з будь-якою іншою програмою Python, яку ви можете мати у "
+"вашій системі."
 
 #: ../../installing.rst:40
 msgid ""
 "Dependencies that don't fit in a Python virtual environment are: Python, "
 "virtualenv, GTK+, and PyGTK. Their installation varies per platform."
 msgstr ""
+"Залежність, яка не відповідає віртуальному середовищу Python, полягає в "
+"наступному: Python, virtualenv, GTK + і PyGTK. Їх установка залежить від "
+"платформи."
 
 #: ../../installing.rst:43
 #, fuzzy
@@ -3017,7 +3046,7 @@ msgstr "Установка на Linux"
 
 #: ../../installing.rst:49
 msgid "Open a shell terminal window, and follow the following instructions."
-msgstr ""
+msgstr "Відкрийте вікно оболонки терміналу та виконайте наступні інструкції."
 
 #: ../../installing.rst:51
 #, fuzzy
@@ -3029,38 +3058,50 @@ msgid ""
 "Invoke the script from a terminal window, starting at the directory where"
 " you downloaded it, like this::"
 msgstr ""
+"Викличте скрипт з вікна терміналу, починаючи з каталогу, де ви його "
+"завантажили, ось так:"
 
 #: ../../installing.rst:60
 msgid "The script will produce quite some output, which you can safely ignore."
 msgstr ""
+"Сценарій дасть досить багато результатів, які можна безпечно ігнорувати."
 
 #: ../../installing.rst:62
 msgid "global installation"
-msgstr ""
+msgstr "глобальна установка"
 
 #: ../../installing.rst:65
+#, fuzzy
 msgid ""
 "When almost ready, the installation script will ask you for your "
 "password.  This lets it create a ``ghini`` user group, initialise it to "
 "just yourself, make the just created ``ghini`` script available to the "
 "whole ``ghini`` user group."
 msgstr ""
+"Коли майже готовий, сценарій установки запитає вас про ваш пароль. Це "
+"дозволяє створити групу ``ghini``, ініціалізувати його лише для себе, "
+"зробити скрипт просто створеного ``ghini`` доступним для всієї групи "
+"користувачів ``ghini``."
 
 #: ../../installing.rst:70
 msgid ""
 "If feeling paranoid, you can safely not give your password and interrupt "
 "the script there."
 msgstr ""
+"Якщо ви відчуваєте невпевненість, ви можете не надати пароль і перервати "
+"виконання скрипту."
 
 #: ../../installing.rst:73
 msgid ""
 "Possibly the main advantage of a global installation is being able to "
 "find Ghini in the application menus of your graphic environment."
 msgstr ""
+"Можливо, основною перевагою глобальної інсталяції є можливість знайти Ghini "
+"в меню програм вашого графічного середовища."
 
 #: ../../installing.rst:77
 msgid "You can now start ghini by invoking the ``ghini`` script::"
-msgstr ""
+msgstr "Тепер ви можете запустити ghini за допомогою сценарію ``ghini``::"
 
 #: ../../installing.rst:81
 #, fuzzy
@@ -3071,15 +3112,20 @@ msgstr "або оновити ghini до останнього випущеног
 
 #: ../../installing.rst:86
 msgid "This is what you would do when ghini shows you something like this:"
-msgstr ""
+msgstr "Це те, що ви зробите, коли ghini покаже вам щось на зразок цього:"
 
 #: ../../installing.rst:90
+#, fuzzy
 msgid ""
 "Users of the global installation will also type ``ghini`` to invoke the "
 "program, but they will get to a different script, located in "
 "``/usr/local/bin``. This globally available ``ghini`` script cannot be "
 "used to update a ghini installation."
 msgstr ""
+"Користувачі глобальної інсталяції також набиратимуть `` ghini`` для виклику "
+"програми, але вони дійдуть до іншого сценарію, розташованого в ``/ usr / "
+"local / bin``. Цей загальнодоступний сценарій ``ghini`` не може "
+"використовуватися для оновлення установки ghini."
 
 #: ../../installing.rst:95
 msgid ""
@@ -3087,6 +3133,9 @@ msgid ""
 "connectors: option ``-p`` is for PostgreSQL, option ``-m`` is for "
 "MySQL/MariaDB, but you can also install both at the same time::"
 msgstr ""
+"Знову ж скрипт ``ghini`` дозволяє встановлювати необов'язкові з'єднувачі для "
+"баз даних: параметр ``-p`` для PostgreSQL, опція ``-m`` для MySQL /MariaDB, "
+"але ви також можете встановити обидва одночасно::"
 
 #: ../../installing.rst:101
 #, fuzzy
@@ -3105,28 +3154,37 @@ msgid ""
 " line.  At the moment ``1.0`` is the stable one, but you can select "
 "``1.1`` if you want to help us with its development::"
 msgstr ""
+"Ви також можете використовувати скрипт ``ghini`` для перемикання на іншу "
+"виробничу лінію. На даний момент ``1.0`` є стабільним, але ви можете вибрати "
+"``1.1``, якщо ви хочете допомогти нам у його розвитку::"
 
 #: ../../installing.rst:111
 msgid "beginner's note"
-msgstr ""
+msgstr "примітка новачка"
 
 #: ../../installing.rst:114
+#, fuzzy
 msgid ""
 "To run a script, first make sure you note down the name of the directory "
 "to which you have downloaded the script, then you open a terminal window "
 "and in that window you type `bash` followed by a space and the complete "
 "name of the script including directory name, and hit on the enter key."
 msgstr ""
+"Щоб запустити скрипт, спершу переконайтеся, що ви помітили назву каталогу, "
+"до якого ви завантажили скрипт, після чого ви відкриваєте вікно термінала, і "
+"в цьому вікні набираєте `bash`, після чого пробіл і повне ім'я сценарію "
+"включаючи ім'я каталогу, і натисніть клавішу Enter."
 
 #: ../../installing.rst:120
 msgid "technical note"
-msgstr ""
+msgstr "технічна примітка"
 
 #: ../../installing.rst:123
 msgid "You can study the script to see what steps if runs for you."
-msgstr ""
+msgstr "Ви можете вивчити скрипт, щоб побачити, які кроки виконується для вас."
 
 #: ../../installing.rst:125
+#, fuzzy
 msgid ""
 "In short it will install dependencies which can't be satisfied in a "
 "virtual environment, then it will create a virtual environment named "
@@ -3136,12 +3194,21 @@ msgid ""
 "then builds ghini, downloading all remaining dependencies in the virtual "
 "environment, and finally it creates the ``ghini`` startup script."
 msgstr ""
+"Коротше кажучи, він встановить залежності, які не можуть бути задоволені в "
+"віртуальному середовищі, то він створить віртуальне середовище з ім'ям "
+"``ghide``, використовуйте git для завантаження джерел до каталогу з назвою "
+"``~/Local/github/Ghini/ghini.desktop``, і підключіть git до гілки "
+"``ghini-1.0`` (це ви можете розглянути виробничу лінію), він створює ghini, "
+"завантажує всі залишки залежностей у віртуальне середовище і, нарешті, "
+"створює сценарій запуску ``ghini``."
 
 #: ../../installing.rst:133
 msgid ""
 "If you have ``sudo`` permissions, it will be placed in "
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
+"Якщо у вас є ``sudo`` дозволи, вони будуть поміщені в ``/usr/local/bin``, "
+"інакше в папку ``~/bin``."
 
 #: ../../installing.rst:137 ../../installing.rst:197 ../../installing.rst:339
 msgid "Next..."
@@ -3221,22 +3288,27 @@ msgid ""
 "In particular, make sure you read and understand all reports starting "
 "with ``If you need to have this software``."
 msgstr ""
+"Зокрема, переконайтеся, що ви прочитали та зрозуміли всі повідомлення, "
+"починаючи з ``Якщо вам потрібно це програмне забезпечення``."
 
 #: ../../installing.rst:178
 msgid ""
 "You will need at least the following four lines in your "
 "``~/.bash_profile``::"
 msgstr ""
+"Вам буде потрібно щонайменше чотири рядки у вашому ``~/.bash_profile``::"
 
 #: ../../installing.rst:185
 msgid "Activate the profile by sourcing it::"
-msgstr ""
+msgstr "Активізуйте профіль, отримавши його::"
 
 #: ../../installing.rst:189
 msgid ""
 "Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
 "installing a couple of python packages, globally. Do this::"
 msgstr ""
+"Перш ніж ми можемо запустити ``devinstall.sh`` як на GNU / Linux, нам все ще "
+"потрібно встановити пару пакетів python, глобально. Зробити це::"
 
 #: ../../installing.rst:194
 #, fuzzy
@@ -3259,6 +3331,10 @@ msgid ""
 "up, the Ghini installation procedure runs as on GNU/Linux. The concluding"
 " steps are again Windows specific."
 msgstr ""
+"Нижче описані кроки допоможуть вам встановити Git, Gtk, Python та консолі "
+"бази даних Python. При правильному настроюванні цього середовища процедура "
+"встановлення Ghini працює як на GNU/Linux. Завершальні кроки знов є "
+"специфічними для Windows."
 
 #: ../../installing.rst:208
 #, fuzzy
@@ -3299,6 +3375,8 @@ msgid ""
 "download and install Python 2.x (32bit). Grab it from the `Python "
 "official site <http://www.python.org>`_."
 msgstr ""
+"Завантажте та встановіть Python 2.x (32 біт). Візьміть його з `офіційного "
+"сайту Python <http://www.python.org>`_."
 
 #: ../../installing.rst:231
 #, fuzzy
@@ -3325,10 +3403,12 @@ msgid ""
 "(Possibly necessary, maybe superfluous) install lxml, you can grab this "
 "from `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 msgstr ""
+"(Можливо необхідно, може бути зайвим) встановити lxml, ви можете захопити це "
+"з `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 
 #: ../../installing.rst:246
 msgid "Remember you need the 32 bit version, for Python 2.7."
-msgstr ""
+msgstr "Пам'ятайте, вам потрібна 32-бітова версія для Python 2.7."
 
 #: ../../installing.rst:257
 #, fuzzy
@@ -3345,6 +3425,9 @@ msgid ""
 "is `psycopg and is Made in Italy "
 "<http://initd.org/psycopg/docs/install.html>`_."
 msgstr ""
+"Якщо ви плануєте використовувати PostgreSQL, то краща бібліотека Windows для "
+"бібліотеки Python це `psycopg and is Made in Italy "
+"<http://initd.org/psycopg/docs/install.html>`_."
 
 #: ../../installing.rst:264
 msgid "**REBOOT**"
@@ -3359,18 +3442,24 @@ msgid ""
 "We're done with the dependecies, now we can download and run the batch "
 "file:"
 msgstr ""
+"Ми закінчили залежність, тепер ми можемо завантажити та запустити пакетний "
+"файл:"
 
 #: ../../installing.rst:272
 msgid ""
 "Please don't just follow the above link.  Instead: right click, save link"
 " as..."
 msgstr ""
+"Будь ласка, не просто дотримуйтесь наведеного вище посилання. Замість цього: "
+"клацніть правою кнопкою миші, збережіть посилання як ..."
 
 #: ../../installing.rst:276
 msgid ""
 "Also make sure you don't let Windows convert the script to a text "
 "document."
 msgstr ""
+"Також переконайтеся, що ви не дозволяєте Windows конвертувати скрипт у "
+"текстовий документ."
 
 #: ../../installing.rst:280
 msgid ""
@@ -3380,6 +3469,11 @@ msgid ""
 " run the script.  Opening the text document will show you the code of the"
 " batch file, which isn't going to lead us anywhere."
 msgstr ""
+"Тепер **Відкрити** сценарій для його запуску. Зверніть увагу: у наведеному "
+"нижче зображенні, ми двічі зберегли файл, коли Windows дозволить перетворити "
+"його в текстовий документ, і знову як пакетний файл Windows. Відкриття "
+"пакетного файлу запускатиме скрипт. Відкриття текстового документа покаже "
+"вам код командного файлу, який не збирається привести нас будь-де."
 
 #: ../../installing.rst:288
 msgid ""
@@ -3388,6 +3482,9 @@ msgid ""
 "your computer will be busy during a couple of minutes, showing you what "
 "it is doing."
 msgstr ""
+"Якщо ви встановили все, як описано тут, перше, що ви повинні бачити під час "
+"запуску сценарію встановлення, це вікно, подібне до цього, і ваш комп'ютер "
+"буде зайнятий протягом кількох хвилин, показуючи вам, що він робить."
 
 #: ../../installing.rst:295
 #, fuzzy
@@ -3416,14 +3513,19 @@ msgid ""
 "This is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
+"Це останній етап інсталяції, який сильно залежить від робочого підключення "
+"до Інтернету."
 
 #: ../../installing.rst:306
 msgid ""
 "The operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
+"Операція може зайняти декілька хвилин, залежно від швидкості вашого "
+"інтернет-з'єднання."
 
 #: ../../installing.rst:309
+#, fuzzy
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -3431,6 +3533,10 @@ msgid ""
 "it is right in your HOME folder, and has been created at the previous "
 "step."
 msgstr ""
+"Останній етап установки створює групу Ghini і ярлики в меню Пуск Windows для "
+"всіх користувачів. Для цього вам потрібно запустити скрипт із правами "
+"адміністратора. Сценарій називається ``devinstall-finalize.bat``, Це "
+"правильно в папці HOME і створено на попередньому кроці."
 
 #: ../../installing.rst:317
 msgid ""
@@ -3438,6 +3544,9 @@ msgid ""
 "make changes to your computer.  These changes are in the Start Menu only:"
 " create the Ghini group, place the Ghini shortcut."
 msgstr ""
+"Клацніть правою кнопкою миші на ньому, виберіть запустити як адміністратор, "
+"підтвердити, що хочете внести зміни в свій комп'ютер. Ці зміни знаходяться "
+"тільки в меню Пуск: створіть групу Ghini, помістіть ярлик Ghini."
 
 #: ../../installing.rst:321
 #, fuzzy
@@ -3484,7 +3593,7 @@ msgstr ""
 
 #: ../../propagations.rst:4
 msgid "Dealing with Propagations"
-msgstr ""
+msgstr "Робота з розповсюдженням"
 
 #: ../../propagations.rst:6
 msgid ""
@@ -6743,4 +6852,3 @@ msgstr "Ghini дозволяє читати, писати і виконуват�
 #~ "in our digital collection, we follow "
 #~ "this suggested practice."
 #~ msgstr ""
-
