@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-08-22 19:48+0000\n"
+"PO-Revision-Date: 2017-08-24 16:48+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
@@ -1686,13 +1686,12 @@ msgstr ""
 "таксоном, такі як розподіл, синоніми і інша інформація."
 
 #: ../../editing.rst:112
-#, fuzzy
 msgid ""
 "The *Infraspecific parts* in the species editor allows you to specify the"
 " `taxon` further than at `species` rank."
 msgstr ""
-"В *Внутрішньовидові частини* в редакторі видів дозволить вам вказати "
-"додатково `таксон`ніж при `види` рангу."
+"*Внутрішньовидові частини* в редакторі видів дозволять вам вказати додатково "
+"`таксон`ніж при `види` рангу."
 
 #: ../../editing.rst:117
 msgid "To save the species you are working on then click *OK*."
@@ -3416,14 +3415,19 @@ msgid ""
 "is successful, Ghini lets you associate it to a new Accession. You can "
 "only associate one Accession to a Propagation Trial."
 msgstr ""
+"Ghini пропонує можливість асоціювати дослідження розповсюдження на рослини "
+"та документувати їх трактування та результати. Трактування є невід'ємною "
+"частиною опису розповсюдження. Якщо дослідження про розповсюдження є "
+"успішним, Ghini дозволяє пов'язати його з новим приєднанням. Ви можете "
+"приєднати лише одне приєднання до пробної версії."
 
 #: ../../propagations.rst:12
 msgid "Here we describe how you use this part of the interface."
-msgstr ""
+msgstr "Тут ми описуємо, як ви використовуєте цю частину інтерфейсу."
 
 #: ../../propagations.rst:15
 msgid "Creating a Propagation"
-msgstr ""
+msgstr "Створення розмноження"
 
 #: ../../propagations.rst:17
 msgid ""
@@ -3431,6 +3435,9 @@ msgid ""
 "its interface: you select a plant, open the Plant Editor on it, activate "
 "the Propagation Tab, click on Add."
 msgstr ""
+"Розмноження (випробування) отримують із рослини. Ghini відображає це у "
+"своєму інтерфейсі: вибираєте рослину, відкривається редактор рослин, "
+"активуєте вкладку розповсюдження, натискаєте Додати."
 
 #: ../../propagations.rst:21
 msgid ""
@@ -3439,6 +3446,10 @@ msgid ""
 "Ghini treats the Propagation Editor as a special editor window, which you"
 " can only reach from the Plant Editor."
 msgstr ""
+"Коли ви робите це вище, ви отримаєте вікно редактора розповсюдження. Ghini "
+"не вважає, що дослідження про розповсюдження є незалежними органами. В "
+"результаті, Ghini розглядає редактор розповсюдження як спеціальне вікно "
+"редактора, який ви можете отримати тільки з редактора рослин."
 
 #: ../../propagations.rst:26
 msgid ""
@@ -3446,6 +3457,8 @@ msgid ""
 "an immutable property of the propagation) then insert the data describing"
 " it."
 msgstr ""
+"Для нового розповсюдження ви вибираєте тип розповсюдження (це стає незмінним "
+"властивістю розповсюдження), потім вставляйте дані, що описують його."
 
 #: ../../propagations.rst:29
 msgid ""
@@ -3454,6 +3467,10 @@ msgid ""
 " click on the corresponding Edit button. You will be able to edit all "
 "properties of an existing Propagation trial, except its type."
 msgstr ""
+"Ви зможете редагувати дані про розповсюдження одним шляхом: виберіть "
+"рослину, відкрийте редактор рослин, ідентифікуйте поширення, яке ви хочете "
+"редагувати, натисніть на відповідну кнопку Редагувати. Ви зможете редагувати "
+"всі властивості існуючого процесу розповсюдження, крім його типу."
 
 #: ../../propagations.rst:34
 msgid ""
@@ -3461,6 +3478,9 @@ msgid ""
 "seed parent. You should always associate the Propagation trial to the "
 "seed parent."
 msgstr ""
+"У випадку пробного розмноження насіння, у вас є батьківський пилок, і "
+"батьківське насіння. Завжди слід зв'язувати розповсюдження проб до "
+"батьківського насіння."
 
 #: ../../propagations.rst:38
 msgid ""
@@ -3471,14 +3491,21 @@ msgid ""
 "indicate whether this is the case, Ghini-1.1 has a (boolean) field "
 "indicating whether this is the case."
 msgstr ""
+"У Ghini-1.0 ви вказуєте пилок батьківської рослини в поле \"Примітки\", у "
+"той час як Ghini-1.1 має (відношення) поле для нього. За інформацією ITF2, "
+"можуть бути випадки випробувань на розмноження де невідомо, яку роль "
+"відіграє яке насіння . Знову ж таки, в Ghini-1.0 ви повинні використовувати "
+"примітку, щоб вказати, чи це так, Ghini-1.1 має (булеве) поле, що вказує, чи "
+"це так."
 
 #: ../../propagations.rst:47
 msgid "Using a Propagation"
-msgstr ""
+msgstr "Використання розповсюдження"
 
 #: ../../propagations.rst:49
 msgid "A Propagation trial may be successful and result in a new Accession."
 msgstr ""
+"Процес розповсюдження може бути успішним і призвести до нового приєднання."
 
 #: ../../propagations.rst:51
 msgid ""
@@ -3486,24 +3513,33 @@ msgid ""
 "immediately switch to the Source tab and select \"Garden Propagation\" in"
 " the (admittedly somewhat misleading) Contact field."
 msgstr ""
+"Ghini допоможе відобразити це в базі даних: створити нове приєднання, "
+"негайно перейдіть на вкладку Джерело і виберіть \"Розповсюдження саду\" в ("
+"правда, дещо помилково) контактному полі."
 
 #: ../../propagations.rst:55
 msgid ""
 "Start typing the plant number and a list of matching plants with "
 "propagation trials will appear for you to select from."
 msgstr ""
+"Почніть вводити номер рослини, і ви побачите список відповідних рослин із "
+"випробуваннями для розповсюдження."
 
 #: ../../propagations.rst:58
 msgid ""
 "Select the plant, and the list of accessed and unaccessed propagation "
 "trials will appear in the lower half of the window."
 msgstr ""
+"Виберіть рослину, а список доступних і недоступних випробувань поширення "
+"з'явиться в нижній частині вікна."
 
 #: ../../propagations.rst:61
 msgid ""
 "Select a still unaccessed propagation trial from the list and click on Ok"
 " to complete the operation."
 msgstr ""
+"Виберіть незадовільну пробну версію для розповсюдження зі списку та "
+"натисніть кнопку ОК, щоб завершити операцію."
 
 #: ../../propagations.rst:64
 msgid ""
@@ -3513,10 +3549,15 @@ msgid ""
 "the software will not prevent introducing conceptual inconsistencies in "
 "your database."
 msgstr ""
+"Використовуючи дані, отримані в процесі розповсюдження, Ghini завершує деякі "
+"поля на вкладці Загальні: назва Таксона, Тип матеріалу та, можливо, "
+"Походження. Ви зможете редагувати ці поля, але будь ласка, зверніть увагу, "
+"що програмне забезпечення не заважатиме введення концептуальних "
+"невідповідностей у вашій базі даних."
 
 #: ../../propagations.rst:70
 msgid "You can associate a Propagation trial to only one Accession."
-msgstr ""
+msgstr "Ви можете приєднати пробну версію до одного приєднання."
 
 #: ../../report.rst:2
 msgid "Generating reports"
@@ -3529,10 +3570,14 @@ msgid ""
 " choice), as labels (to be printed or engraved), as html pages or pdf or "
 "postscript documents."
 msgstr ""
+"База даних без експортних об'єктів мало користується. Ghini дозволяє "
+"експортувати дані у форматі таблиці (за бажанням, відкрийте їх у своєму "
+"редакторі електронних таблиць), як html-сторінки, pdf або postscript "
+"документи."
 
 #: ../../report.rst:9
 msgid "This page describes the two tools Ghini offers for these tasks."
-msgstr ""
+msgstr "На цій сторінці описуються два інструменти Ghini для цих завдань."
 
 #: ../../report.rst:12
 msgid "Using the Mako Report Formatter"
@@ -3685,29 +3730,31 @@ msgstr "Стратегії пошуку"
 
 #: ../../searching.rst:15
 msgid "Ghini offers four distinct search strategies:"
-msgstr ""
+msgstr "Ghini пропонує чотири різні стратегії пошуку:"
 
 #: ../../searching.rst:17
 msgid "by value — in all domains;"
-msgstr ""
+msgstr "за значенням - у всіх доменах;"
 
 #: ../../searching.rst:18
 msgid "by expression — in a few implicit fields in one explicit domain;"
-msgstr ""
+msgstr "за виразом - в декількох неявних полях в одній явній області;"
 
 #: ../../searching.rst:19
 msgid "by query — in one domain;"
-msgstr ""
+msgstr "за запитом - в одному домені;"
 
 #: ../../searching.rst:20
 msgid "by binomial name — only searches the Species domain."
-msgstr ""
+msgstr "за біномічним ім'ям - пошук лише в домені Вид."
 
 #: ../../searching.rst:22
 msgid ""
 "All search strategies —with the notable exception of the binomial name "
 "search— are case insensitive."
 msgstr ""
+"Усі стратегії пошуку - за винятком пошуку біноміальних назв - нечутливі до "
+"регістру."
 
 #: ../../searching.rst:27
 msgid "Search by Value"
@@ -3720,6 +3767,10 @@ msgid ""
 "(domain) where one or more of its fields contain one or more of the "
 "search strings."
 msgstr ""
+"Пошук за значенням - це найпростіший спосіб пошуку. Ви вводите одне або "
+"декілька рядків і дізнаєтеся, які збіги. Результат включає об'єкти будь-"
+"якого типу (домену), де один або декілька його полів містять одне або кілька "
+"пошукових рядків."
 
 #: ../../searching.rst:33
 msgid ""
@@ -3727,28 +3778,33 @@ msgid ""
 "indicate which fields you want to match, this is implicit in the search "
 "domain."
 msgstr ""
+"Ви не вкажете пошуковий домен, всі вони включені, а також ви не вкажете, які "
+"поля потрібно підібрати, це неявно в пошуковому домені."
 
 #: ../../searching.rst:36
 msgid ""
 "The following table helps you understand the results and guides you in "
 "formulating your searches."
 msgstr ""
+"Наступна таблиця допоможе вам зрозуміти результати та допоможе вам у "
+"формулюванні ваших пошуків."
 
 #: ../../searching.rst:42
 msgid "search domain overview"
-msgstr ""
+msgstr "огляд пошукового домену"
 
 #: ../../searching.rst:44
+#, fuzzy
 msgid "name and shorthands"
-msgstr ""
+msgstr "ім'я та короткі терміни"
 
 #: ../../searching.rst:44
 msgid "field"
-msgstr ""
+msgstr "поле"
 
 #: ../../searching.rst:44
 msgid "result type"
-msgstr ""
+msgstr "тип результату"
 
 #: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
 #: ../../searching.rst:56
@@ -3779,9 +3835,10 @@ msgstr ""
 
 #: ../../searching.rst:68
 msgid "× Composite Primary Keys"
-msgstr ""
+msgstr "× складні первинні ключі"
 
 #: ../../searching.rst:71
+#, fuzzy
 msgid ""
 "A **species** epithet means little without the corresponding genus, "
 "likewise a **planting** code is unique only within the accession to which"
@@ -3789,6 +3846,11 @@ msgid ""
 "sufficient to form a **primary key** for respectively species and "
 "planting. These domains need a **composite** primary key."
 msgstr ""
+"Епітет **вид** означає мало, без відповідного роду, також код **рослин** "
+"унікальний тільки в рамках приєднання, до якого вони належить. У теорії "
+"термінологія бази даних, епітету і коду недостатньо для формування **"
+"первинного ключа** для відповідних видів та посадок. Ці домени потребують "
+"первинного ключа **composite**."
 
 #: ../../searching.rst:78
 msgid ""
@@ -3798,6 +3860,10 @@ msgid ""
 "for plantings.  For **species**, we have introduced the binomial search, "
 "described below."
 msgstr ""
+"Пошук по значеннях дозволяє шукати **посадки** за їх повним кодом посадки, "
+"який включає код приєднання. Взагалі, код приєднання та код посадки "
+"забезпечують **складний первинний ключ** для посадок. Для **виду** ми "
+"представили біноміальний пошук, описаний нижче."
 
 #: ../../searching.rst:86
 msgid "Search by Expression"
@@ -3809,6 +3875,9 @@ msgid ""
 "are searching for. You narrow the search down to a specific domain, the "
 "software defines which fields to search within the domain you specified."
 msgstr ""
+"Пошук за допомогою виразу дає вам трохи більше контролю над тим, що ви "
+"шукаєте. Ви обмежуєте пошук до певного домену, програмне забезпечення "
+"визначає, які поля потрібно шукати в зазначеному вами домені."
 
 #: ../../searching.rst:92
 msgid ""
@@ -3817,12 +3886,17 @@ msgid ""
 " name Maxillaria. In this case the domain is ``gen``, the operator is "
 "``=`` and the value is ``Maxillaria``."
 msgstr ""
+"Вираз будується як ``<domain> <operator> <value>``. Наприклад, пошук: "
+"``gen=Maxillaria`` поверне усі роди, які відповідають імені Maxillaria. У "
+"цьому випадку домен ``gen``, оператор ``=`` і значення ``Maxillaria``."
 
 #: ../../searching.rst:97
 msgid ""
 "The above search domain overview table tells you the names of the search "
 "domains, and, per search domain, which fields are searched."
 msgstr ""
+"У наведеній вище таблиці огляду пошукових доменів вказані імена пошукових "
+"доменів, а також для кожного пошукового домену, які поля шукаються."
 
 #: ../../searching.rst:100
 #, fuzzy, python-format
@@ -3847,8 +3921,9 @@ msgstr ""
 " містять max і в кінці а."
 
 #: ../../searching.rst:110
+#, fuzzy
 msgid "When a query takes ages to complete"
-msgstr ""
+msgstr "Коли запит заповнюється віком"
 
 #: ../../searching.rst:113
 msgid ""
@@ -3860,10 +3935,16 @@ msgid ""
 "``maxillaria``, returning all that match at least one of the three "
 "criteria."
 msgstr ""
+"Ви даєте запит, це вимагає часу для обчислення, результат містить "
+"необґрунтовано багато записів. Це трапляється, коли ви маєте намір "
+"використати стратегію, але ваші рядки не утворюють дійсного виразу. У цьому "
+"випадку Ghini повертається до *пошуку за значенням*. Наприклад, рядок пошуку "
+"``gen lik maxillaria`` буде шукати рядки ``gen``, ``lik`` і ``maxillaria``, "
+"повертаючи всі, що відповідають хоча б одному з трьох критеріїв."
 
 #: ../../searching.rst:122
 msgid "Binomial search"
-msgstr ""
+msgstr "Біноміальний пошук"
 
 #: ../../searching.rst:124
 msgid ""
@@ -3872,20 +3953,26 @@ msgid ""
 "the search engine, correctly capitalized, i.e.: **Genus epithet** with "
 "one leading capital letter, **Species epithet** all lowercase."
 msgstr ""
+"Ви також можете виконати пошук у базі даних, якщо ви знаєте цей вид, просто "
+"розмістивши в пошуковій системі декілька початкових букв епітетів роду та "
+"виду, правильно надруковані, тобто: **Епітет роду** з однією заголовною "
+"великою буквою, **Епітет видів ** всі літери."
 
 #: ../../searching.rst:129
 msgid "This way you can perform the search ``So ha``."
-msgstr ""
+msgstr "Таким чином ви можете виконати пошук ``So ha``."
 
 #: ../../searching.rst:131
 msgid "These would be the initials for Solanum hayesii, or Solanum havanense."
-msgstr ""
+msgstr "Це були б ініціали для Solanum hayesii, або Solanum havanense."
 
 #: ../../searching.rst:133
 msgid ""
 "Binomial search comes to compensate the limited usefulness of the above "
 "search by expression when trying to look for a species."
 msgstr ""
+"Біноміальний пошук приходить до компенсації обмеженої корисності "
+"вищезгаданого пошуку за виразом при спробі шукати вид."
 
 #: ../../searching.rst:136
 msgid ""
@@ -3894,6 +3981,10 @@ msgid ""
 "guess will be a search by value, which will possibly result in far more "
 "matches than you had expected."
 msgstr ""
+"Це правильна капіталізація **Xxxx xxxx **, яка інформує програмне "
+"забезпечення про свій намір виконувати пошук у біноміалі. Друга помилка "
+"програмного забезпечення - пошук за значенням, що, можливо, призведе до "
+"набагато більшої кількості значень, ніж ви очікували."
 
 #: ../../searching.rst:141
 msgid ""
@@ -3901,6 +3992,9 @@ msgid ""
 "objects, starting at Family \"Acalyp(**ha**)ceae\", ending at Geography "
 "\"Western (**So**)uth America\"."
 msgstr ""
+"Аналогічний запит ``so ha`` поверне в новій установці понад 3000 об'єктів, "
+"починаючи з сім'ї \"Acalyp(**ha**)ceae\", закінчуючи географією  \"Western "
+"(**So**)uth America\"."
 
 #: ../../searching.rst:147
 msgid "Search by Query"
@@ -3924,39 +4018,48 @@ msgid ""
 "volunteer to document this more thoroughly.  In the meanwhile you may "
 "start familiarizing yourself with the core structure of Ghini's database."
 msgstr ""
+"Будь ласка, зв'яжіться з авторами, якщо ви хочете отримати додаткову "
+"інформацію, або якщо ви добровільно документуєте це докладніше. Тим часом ви "
+"можете почати ознайомитися з основною структурою бази даних  Ghini."
 
 #: ../../searching.rst:162
 msgid "A few examples:"
-msgstr ""
+msgstr "Кілька прикладів:"
 
 #: ../../searching.rst:164
 msgid "plantings of family Fabaceae in location Block 10::"
-msgstr ""
+msgstr "насадження сімейства Fabaceae в місці розташування Блок 10::"
 
 #: ../../searching.rst:168
 msgid "locations that contain no plants::"
-msgstr ""
+msgstr "місця, де немає рослин::"
 
 #: ../../searching.rst:172
 msgid ""
 "accessions associated to a species of known binomial name (e.g.: "
 "Mangifera indica)::"
 msgstr ""
+"приєднання, пов'язані з видом відомих біномічних назв (наприклад, Mangifera "
+"indica)::"
 
 #: ../../searching.rst:176
 msgid "accessions we propagated in the year 2016::"
-msgstr ""
+msgstr "приєднання ми поширювали в 2016 році::"
 
 #: ../../searching.rst:180
 msgid "accessions we modified in the last three days::"
-msgstr ""
+msgstr "приєднання, які ми змінили за останні три дні::"
 
 #: ../../searching.rst:184
+#, fuzzy
 msgid ""
 "Searching with queries requires some knowledge of a little syntax and an "
 "idea of the extensive Ghini database table structure. Both you acquire "
 "with practice, and with the help of the Query Builder."
 msgstr ""
+"Пошук за запитами вимагає певних знань про маленький синтаксис та ідеї про "
+"велику структуру таблиці Ghini. Обидва ти придбаєш з практикою і за "
+"допомогою Query Builder."
 
 #: ../../searching.rst:190
 msgid "The Query Builder"
@@ -3981,6 +4084,8 @@ msgid ""
 " construct a correct query that is understood by Ghini's Query Search "
 "Strategy."
 msgstr ""
+"З'явиться вікно, яке веде вас до всіх кроків, необхідних для побудови "
+"правильного запиту, який розуміється в стратегії пошуку запиту Ghini."
 
 #: ../../searching.rst:210
 msgid ""
@@ -3989,6 +4094,10 @@ msgid ""
 "logical clauses as you need, connecting them with a ``and`` or ``or`` "
 "binary operator."
 msgstr ""
+"Насамперед, ви вказуєте пошуковий домен, це дозволить Query Builder "
+"завершити свій графічний інтерфейс, після чого ви додасте стільки логічних "
+"статей, скільки потрібно, підключаючи їх ``and`` або ``or`` бінарним "
+"оператором."
 
 #: ../../searching.rst:215
 msgid ""
@@ -3997,6 +4106,10 @@ msgid ""
 "the drop-down list, a value that you can either type or select from the "
 "list of valid values for the field."
 msgstr ""
+"Кожен розділ складається з трьох частин: властивості, які можна отримати з "
+"початкового домену пошуку, оператор зіставлення, який ви вибираєте з "
+"розкривного списку, значення, яке ви можете ввести або вибрати зі списку "
+"дійсних значень для поля."
 
 #: ../../searching.rst:220
 #, fuzzy
@@ -4026,6 +4139,14 @@ msgid ""
 "and ``Empty``. You may edit the query and insert quotes if you need them,"
 " eg if you need to literally look for the string ``Empty``."
 msgstr ""
+"На цьому етапі конструктор запитів записує запит у записі пошуку та виконує "
+"його. Тепер ви можете редагувати рядок так, ніби ви набрали його самостійно. "
+"Зверніть увагу, як значення інтер'єру лівої сторони інтерпретуються "
+"забудовником запиту та додаються в окремі лапки, якщо вони визнані як рядки, "
+"залишатись окремо, якщо вони виглядають як цифри або два зарезервовані слова "
+"``None`` та ``Empty``. Ви можете відредагувати запит і вставляти лапки, якщо "
+"вони вам потрібні, наприклад, якщо вам потрібно буквально шукати рядок "
+"``Empty``."
 
 #: ../../searching.rst:234
 msgid ""
@@ -4033,6 +4154,9 @@ msgid ""
 "lenght string ``''`` nor the numeric ``0`` nor the boolean ``False`` nor "
 "the set ``Empty``, it indicates that the field has no value at all."
 msgstr ""
+"``None'' - це значення порожнього поля. Це не те ж саме, що рядок нульової "
+"довжини `` '' ``, ані числове ``0``, ані логічне ``False``, ані встановленя "
+"``Empty``, це означає, що поле не має значення Все."
 
 #: ../../searching.rst:238
 msgid ""
@@ -4046,6 +4170,14 @@ msgid ""
 "will drop the field name and let you compare the set on the left with "
 "``Empty`` on the right."
 msgstr ""
+"``Empty`` є порожнім набором. Будучи набором, він може бути узгоджений з "
+"наборами (наприклад: рослини приєднання або приєднання одного виду), не "
+"проти елементів (наприклад, кількість рослини або опис місця розташування). "
+"Тим не менш, Query Builder не дозволяє вибирати зупинку значень лівої "
+"сторони при встановленні, він сподівається, що ви виберете поле. Виберіть "
+"будь-яке поле: на момент створення запиту, коли Builder Query відповідає "
+"умовам з правою частиною значення буквеного рядка ``Empty``, він виведе поле "
+"назви і дозволить вам порівняти набір зліва з ``Empty`` справа."
 
 #: ../../searching.rst:247
 msgid ""
@@ -4053,10 +4185,13 @@ msgid ""
 "the Query Builder does not know how to produce them. Instead of ``False``"
 " type ``0``, and instead of ``True`` type ``1``."
 msgstr ""
+"У нас немає друкарських букв ``False`` і ``True``. Це типи значення, і Query "
+"Builder не вміє їх випускати. Замість ``False`` введіть ``0``, а замість "
+"``True`` ``1`` тип."
 
 #: ../../searching.rst:253
 msgid "Query Grammar"
-msgstr ""
+msgstr "Граматика запиту"
 
 #: ../../searching.rst:255
 msgid ""
@@ -4067,6 +4202,11 @@ msgid ""
 "are included in single quotes; the grammar is mostly case insensitive, "
 "unless otherwise stated::"
 msgstr ""
+"Для тих, хто не боїться дещо формальної точності, наступний код BNF дає "
+"точне уявлення про граматику, яку реалізує Стратегія пошуку запитів. Деякі "
+"граматичні категорії визначаються неформально; будь-які зниклі з них "
+"залишаються у вашій родючій уяві; літери беруться в одинарні лапки; "
+"граматика в основному нечутлива, якщо не вказано інше::"
 
 #: ../../searching.rst:318
 msgid ""
@@ -4075,10 +4215,14 @@ msgid ""
 "Query Builder form a proper subset of the queries recognized by the "
 "software::"
 msgstr ""
+"Будь ласка, пам'ятайте, що мова запиту Ghini є набагато складнішою, ніж те, "
+"що може створити Query Builder: запити, які ви можете побудувати за "
+"допомогою Query Builder, є правильною підмножиною запитів, визнаних "
+"програмним забезпеченням::"
 
 #: ../../started.rst:2
 msgid "Initial Configuration"
-msgstr ""
+msgstr "Початкова конфігурація"
 
 #: ../../started.rst:4
 msgid ""
@@ -4087,6 +4231,10 @@ msgid ""
 " configuration. This page focuses on this task. If you don't know what "
 "this is about, please do read the part relative to SQLite."
 msgstr ""
+"Після успішної установки більш складні організації повинні налаштувати свою "
+"базу даних і налаштувати Ghini відповідно до їх конфігурації. Ця сторінка "
+"зосереджена на цьому завданні. Якщо ви не знаєте, чого це стосується, будь "
+"ласка, прочитайте частину щодо SQLite."
 
 #: ../../started.rst:12
 msgid "Should you SQLite?"
@@ -4100,6 +4248,11 @@ msgid ""
 "probably better stick with SQLite, the easy, fast, zero-administration "
 "file-based database."
 msgstr ""
+"Це вперше ви використовуєте Ghini, ви збираєтеся працювати в автономному "
+"режимі, у вас немає найменшої ідеї управління системою керування базою "
+"даних? Якщо ви відповіли так на будь-який з запитань, вам, напевно, краще "
+"дотримуватися бази даних на базі файлів SQLite, легкої, швидкої, з нульовою "
+"адміністрацію."
 
 #: ../../started.rst:20
 msgid ""
@@ -4178,6 +4331,9 @@ msgid ""
 "connections list becomes empty. As it says: click on **Add** to create "
 "your first connection."
 msgstr ""
+"Це сповіщення буде показано при першій активації, а також у майбутньому, "
+"якщо список ваших з'єднань стане порожнім. Як говориться: натисніть "
+"**Додати**, щоб створити своє перше з'єднання."
 
 #: ../../started.rst:59
 msgid ""
@@ -4357,17 +4513,19 @@ msgstr ""
 
 #: ../../statements.rst:2
 msgid "Mission & Vision"
-msgstr ""
+msgstr "Місія і Бачення"
 
 #: ../../statements.rst:4
 msgid ""
 "Here we state who we are, what we think of our work, what you can expect "
 "of this project."
 msgstr ""
+"Тут ми визначаємо, хто ми, що ми думаємо про нашу роботу, що ви можете "
+"очікувати від цього проекту."
 
 #: ../../statements.rst:8
 msgid "Who is behind Ghini"
-msgstr ""
+msgstr "Хто стоїть за Ghini"
 
 #: ../../statements.rst:10
 msgid ""
@@ -4376,6 +4534,10 @@ msgid ""
 "adapted it to the needs of a couple of other users who asked him. Brett "
 "made Bauble a commons, by releasing it under a GPL license."
 msgstr ""
+"Ghini розпочався, як проект Brett Adams. Він запустив це програмне "
+"забезпечення, як Bauble, для і в ботанічному саду Белізу, а потім адаптував "
+"його до потреб пари інших користувачів, які попросили його. Brett Adams "
+"зробив Bauble загальним, випустивши його за ліцензією GPL."
 
 #: ../../statements.rst:15
 msgid ""
@@ -4385,12 +4547,19 @@ msgid ""
 "is now Mario Frasca writing this, enhancing the software, looking for "
 "users, requesting feedback..."
 msgstr ""
+"Після декількох років стагнації Mario Frasca взяв на себе відповідальність "
+"за оновлення Bauble, перейменувавши його в Ghini, на честь  Luca Ghini, "
+"почав відстоювати, рухатися, розробляти, документувати це, і тепер це "
+"написано Mario Frasca, покращення програмного забезпечення, пошук "
+"користувачів, запит на зворотній зв'язок..."
 
 #: ../../statements.rst:21
 msgid ""
 "So currently behind Ghini there's not only one developer, but much more "
 "importantly, a small but growing global users community."
 msgstr ""
+"Отже, зараз за Ghini є не лише один розробник, але набагато важливіше - "
+"невелика, але зростаюча глобальна спільнота користувачів."
 
 #: ../../statements.rst:24
 msgid ""
@@ -4398,6 +4567,8 @@ msgid ""
 "scenes, translating a couple of missing terms or sentences, and "
 "disappearing again."
 msgstr ""
+"Переклади надаються добровольцями, які в основному залишаються поза сценами, "
+"перекладаючи пару пропущених термінів або пропозицій і зникаючи знов."
 
 #: ../../statements.rst:27
 msgid ""
@@ -4405,10 +4576,13 @@ msgid ""
 "document we will—indicate whether it's Ghini(the software), or Ghini(the "
 "people), unless obviously we mean both things."
 msgstr ""
+"Щоб зробити речі чіткішими, коли ми говоримо про Ghini, але ми повинні "
+"вказати, чи це Ghini (програмне забезпечення), або Ghini (люди), якщо, "
+"очевидно, ми не маємо на увазі обидві речі."
 
 #: ../../statements.rst:32
 msgid "Mission"
-msgstr ""
+msgstr "Місія"
 
 #: ../../statements.rst:34
 msgid ""
@@ -4418,34 +4592,39 @@ msgid ""
 "with Ghini(the software) and with the services of Ghini(the people), the "
 "market in which Ghini develops and its intended public image."
 msgstr ""
+"Місія є метою, вона визначає обґрунтування суб'єкта, і є конкретною та "
+"правдивою. Для Ghini місіонерська заява визначає соціальний порядок, до "
+"якого здійснюється Ghini, потреби, які задовольняються Ghini (програмне "
+"забезпечення) та послуги Ghini (людей), ринок, в якому розвивається Ghini, "
+"та його передбачуваний публічний імідж ."
 
 #: ../../statements.rst:40
 msgid "access to software"
-msgstr ""
+msgstr "доступ до програмного забезпечення"
 
 #: ../../statements.rst:41
 msgid "access to development"
-msgstr ""
+msgstr "доступ до розробки"
 
 #: ../../statements.rst:42
 msgid "bundling resources"
-msgstr ""
+msgstr "комплектація ресурсів"
 
 #: ../../statements.rst:43
 msgid "open source"
-msgstr ""
+msgstr "відкритий вихідний код"
 
 #: ../../statements.rst:44
 msgid "open data"
-msgstr ""
+msgstr "відкриті дані"
 
 #: ../../statements.rst:45
 msgid "community forming"
-msgstr ""
+msgstr "формування спільноти"
 
 #: ../../statements.rst:48
 msgid "Vision"
-msgstr ""
+msgstr "Бачення"
 
 #: ../../statements.rst:50
 msgid ""
@@ -4454,30 +4633,34 @@ msgid ""
 "way.  It serves as motivation because it visualizes the challenge and "
 "direction of necessary changes in order to grow and prosper."
 msgstr ""
+"Бачення служить для позначення майбутнього реалістичного та привабливого "
+"способу майбутнього іміджу того, що хочемо ми, наша організація. Вона слугує "
+"мотивацією, оскільки вона візуалізує виклик і напрямок необхідних змін, щоб "
+"рости і процвітати."
 
 #: ../../statements.rst:55
 msgid "by the year 2020"
-msgstr ""
+msgstr "до 2020 року"
 
 #: ../../statements.rst:56
 msgid "reference point"
-msgstr ""
+msgstr "контрольна точка"
 
 #: ../../statements.rst:57
 msgid "community"
-msgstr ""
+msgstr "спільнота"
 
 #: ../../statements.rst:58
 msgid "development"
-msgstr ""
+msgstr "розвиток"
 
 #: ../../statements.rst:59
 msgid "integration with web portal"
-msgstr ""
+msgstr "інтеграція з веб-порталом"
 
 #: ../../statements.rst:60
 msgid "geographic information"
-msgstr ""
+msgstr "географічна інформація"
 
 #: ../../tagging.rst:2
 msgid "Tagging"
