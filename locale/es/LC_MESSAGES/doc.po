@@ -44,7 +44,7 @@ msgstr ""
 "SQLite no es lo que se podría considerar un DBMS real: cada base de datos"
 " SQLite está en un archivo. Haga copias de seguridad y estará bien. Si no"
 " sabe dónde buscar los archivos de base de datos, considere que, por "
-"defecto, bauble coloca sus datos en el directorio `` ~ / .bauble / ``."
+"defecto, bauble coloca sus datos en el directorio ``~/.bauble/``."
 
 #: ../../administration.rst:16
 msgid ""
@@ -52,10 +52,10 @@ msgid ""
 "``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best "
 "to hide the ``AppData`` directory structure to normal users."
 msgstr ""
-"En Windows está en algún lugar en el directorio `` AppData``, "
-"probablemente en `` AppData \\ Roaming \\ Bauble``. Tenga en cuenta que "
+"En Windows está en algún lugar en el directorio ``AppData``, "
+"probablemente en ``AppData\\Roaming\\Bauble``. Tenga en cuenta que "
 "Windows hace todo lo posible para ocultar la estructura de directorios ``"
-" AppData`` a los usuarios normales."
+"AppData`` a los usuarios normales."
 
 #: ../../administration.rst:20
 msgid ""
@@ -63,7 +63,7 @@ msgid ""
 "and hit enter."
 msgstr ""
 "La forma más rápida de abrir es con el explorador de archivos: escriba "
-"`%APPDATA%` y pulse entrar."
+"``%APPDATA%`` y pulse entrar."
 
 #: ../../administration.rst:26
 msgid "Please refer to the official documentation."
@@ -75,8 +75,7 @@ msgid ""
 " your backup options starts at `chapter_24`_."
 msgstr ""
 "Por favor, consulte la documentación oficial. Una discusión muy completa "
-"de las opciones de copia de seguridad inicia \n"
-" en el 'capítulo_24' _."
+"de las opciones de copia de seguridad inicia al `chapter_24`_."
 
 #: ../../administration.rst:37
 msgid "Ghini Configuration"
