@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-08-24 16:48+0000\n"
+"PO-Revision-Date: 2017-08-26 08:33+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
@@ -495,7 +495,6 @@ msgstr ""
 "буде, допомагаючи нам знаходити та писати пропущені тестові блоки."
 
 #: ../../building.rst:168
-#, fuzzy
 msgid ""
 "A well tested function is one whose behaviour you cannot change without "
 "breaking at least one unit test."
@@ -536,12 +535,11 @@ msgstr ""
 "рівнем охоплення."
 
 #: ../../building.rst:185
-#, fuzzy
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
 msgstr ""
-"Для цього прикладу, починаючи у жовтні 2015 року, ми приземлилися на "
+"Для цього прикладу, починаючи з жовтня 2015 року, ми приземлилися на "
 "``bauble.plugins.plants.family``, на 33%."
 
 #: ../../building.rst:190
@@ -557,14 +555,13 @@ msgstr ""
 "одиничні тести для цього класу, а потім повернутися сюди."
 
 #: ../../building.rst:195
-#, fuzzy
 msgid ""
 "The next function, ``remove_callback``, also activates a couple of dialog"
 " and message boxes, but in the form of invoking a function requesting "
 "user input via yes-no-ok boxes. These functions we can easily replace "
 "with a function mocking the behaviour."
 msgstr ""
-"Наступна функція `` remove_callback`` також активує пару діалогових вікон і "
+"Наступна функція ``remove_callback`` також активує пару діалогових вікон і "
 "повідомлень, але у формі виклику функції, що запитує вхід користувача через "
 "поля yes-no-ok. Ці функції ми можемо легко замінити функцією, що висміює "
 "поведінку."
@@ -574,12 +571,11 @@ msgid "how to test"
 msgstr "як протестувати"
 
 #: ../../building.rst:203
-#, fuzzy
 msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
 msgstr ""
-"Отже, вирішивши, що описувати в одиничному тесті, ми розглянемо код, і ми "
+"Отже, вирішивши, що описувати в одиничному тесті, ми розглянемо код, і "
 "бачимо, що це потребує дискримінації пари випадків:"
 
 #: ../../building.rst:209
@@ -659,7 +655,6 @@ msgid "what about skipped tests"
 msgstr "що про пропущені тести"
 
 #: ../../building.rst:236
-#, fuzzy
 msgid ""
 "The ``FamilyTests`` class contains a skipped test, implementing it will "
 "be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
@@ -667,11 +662,10 @@ msgid ""
 " FamilyEditor class, which I think should be removed and replaced with a "
 "single function."
 msgstr ""
-"Клас `` FamilyTests`` містить пропущене тестування, і його реалізація буде "
-"дещо роботою, тому що нам потрібно переписати FamilyEditorPresenter, "
-"відокремити його від FamilyEditorView і переглянути, що робити з класом "
-"FamilyEditor, який, на мою думку, повинен бути вилучений і Замінено однією "
-"функцією."
+"Клас ``FamilyTests`` містить пропущене тестування, і його реалізація займе "
+"дещо час, тому що нам потрібно переписати FamilyEditorPresenter, відокремити "
+"його від FamilyEditorView і переглянути, що робити з класом FamilyEditor, "
+"який, на мою думку, повинен бути вилучений і замінений однією функцією."
 
 #: ../../building.rst:243
 msgid "writing the tests"
@@ -732,7 +726,6 @@ msgstr ""
 "родів::"
 
 #: ../../building.rst:286
-#, fuzzy
 msgid ""
 "We do not want the function being tested to invoke the interactive "
 "``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
@@ -741,12 +734,12 @@ msgid ""
 "original interactive function, accepts one parameter and returns a "
 "boolean. In this case: ``False``::"
 msgstr ""
-"Ми не хочемо, щоб тестована функція викликала інтерактивну функцію `` "
-"utils.yes_no_dialog``, ми хочемо `` remove_callback`` викликати "
-"неінтерактивну функцію заміни. Ми досягаємо цього просто, зробивши `` "
-"utils.yes_no_dialog`` виразом вираз `` lambda``, який, як і початкова "
+"Ми не хочемо, щоб тестована функція викликала інтерактивну функцію "
+"``utils.yes_no_dialog``, а хочемо викликати неінтерактивну функцію заміни "
+"``remove_callback``. Ми досягаємо цього просто, зробивши вираз "
+"``utils.yes_no_dialog`` виразом  ``lambda``, який, як і початкова "
 "інтерактивна функція, приймає один параметр і повертає логічний. У цьому "
-"випадку: `` False`` ::"
+"випадку: ``False``::"
 
 #: ../../building.rst:304
 msgid "Next we test the result."
@@ -1054,7 +1047,6 @@ msgid ""
 msgstr "Якщо **model** є чимось іншим, то **presenter** зробить щось інше."
 
 #: ../../building.rst:503
-#, fuzzy
 msgid ""
 "A well behaved **presenter** uses the **view** api to query the values "
 "inserted by the user or to forcibly set widget statuses. Please do not "
@@ -1062,10 +1054,10 @@ msgid ""
 "directly handle fields of ``view.widgets``. By doing so, these presenters"
 " prevents us from writing unit tests."
 msgstr ""
-"Хороша поведінка ** ведучий ** використовує ** view ** api, щоб запитати "
+"Хороша поведінка **presenter** використовує **view** api, щоб запитати "
 "значення, вставлені користувачем, або насильно встановити статуси віджетів. "
-"Будь ласка, не навчіться з практики наших невірних ведучих, деякі з яких "
-"безпосередньо обробляють поля 'view.widgets'. Таким чином, ці доповідачі "
+"Будь ласка, не використовуйте практики наших невірних ведучих, деякі з яких "
+"безпосередньо обробляють поля 'view.widgets'. Таким чином, ведучі "
 "перешкоджають нам створити одиничні тести."
 
 #: ../../building.rst:509
@@ -2066,7 +2058,6 @@ msgstr ""
 "послідовно пов'язує всі його ``Насадження`` до `` Видів``."
 
 #: ../../goal.rst:64
-#, fuzzy
 msgid ""
 "``Propagations`` and ``Contacts`` provide plant material for the garden; "
 "this information is optional and smaller collectors might prefer to leave"
@@ -2080,7 +2071,7 @@ msgstr ""
 "інформація є необов'язковою, і менші колекціонери можуть віддати перевагу "
 "залишити це в стороні. Процес ``Розповсюдження`` може виявитися невдалим, у "
 "більшості випадків це призведе точно до одного приєднання, але це також може "
-"призвести дещо інший таксонів, тому база даних дозволяє нуль або більше "
+"призвести дещо інших таксонів, тому база даних дозволяє нуль або більше "
 "``Приєднань`` за ``Розповсюдження`` (0..n). Також ``Контакт`` може надавати "
 "нуль або більше ``Приєднання`` (0..n)."
 
@@ -2095,7 +2086,6 @@ msgstr ""
 "відповідного рівня довіри."
 
 #: ../../goal.rst:75
-#, fuzzy
 msgid ""
 "If an ``Accession`` was obtained in the garden nursery from a successful "
 "``Propagation``, the ``Propagation`` links the ``Accession`` and all of "
@@ -2157,7 +2147,6 @@ msgstr ""
 "базі даних. Загальна кількість рослин перевищує 40."
 
 #: ../../goal.rst:102
-#, fuzzy
 msgid ""
 "New ``Plantings`` obtained by (assisted) sexual ``Propagation`` come in "
 "our database under different ``Accession`` codes, where our garden is the"
@@ -2234,6 +2223,8 @@ msgstr ""
 #: ../../goal.rst:131
 msgid "Our User Stories section contains details about the above, and more."
 msgstr ""
+"Наша сторінка історії користувачів містить інформацію про вищезазначене та "
+"багато іншого."
 
 #: ../../goal.rst:136
 msgid "Highlights"
@@ -2390,7 +2381,6 @@ msgid "simple and powerful search"
 msgstr "простий і потужний пошук"
 
 #: ../../goal.rst:213
-#, fuzzy
 msgid ""
 "Ghini allows you search the database using simple keywords, e.g.: the "
 "name of the location or a genus name, or you can write more complex "
@@ -2398,16 +2388,15 @@ msgid ""
 "level of detail localizing your data."
 msgstr ""
 "Ghini дозволяє шукати в базі даних, використовуючи прості ключові слова, "
-"наприклад: назва місця або ім'я роду, або ви можете написати більш "
-"складні запити, які не досягають складності SQL, але дозволять вам гідний"
-" рівень деталізації локалізованих даних."
+"наприклад: назва місця або ім'я роду, або ви можете написати більш складні "
+"запити, які не досягають складності SQL, але дозволять вам гідний рівень "
+"деталізації локалізованих даних."
 
 #: ../../goal.rst:219
 msgid "database agnostic"
 msgstr "агностична база даних"
 
 #: ../../goal.rst:221
-#, fuzzy
 msgid ""
 "Ghini is not a database management system, so it does not reinvent the "
 "wheel. It works storing its data in a SQL database, and it will connect "
@@ -2419,16 +2408,15 @@ msgid ""
 " system (Linux-Apache-MySQL-Php) and include your live data on your "
 "institution web site."
 msgstr ""
-"Ghini не є системою управління базами даних, щоб не вигадувати знову "
-"колесо. Вона працює зберігаючи свої дані в базі даних SQL, і буде "
-"підключатися до будь-якої  системи управління базами даних, яка приймає "
-"роз'єм SQLAlchemy. Це означає будь-яку досить сучасну систему управління "
-"базами даних і включає в себе MySQL, PostgreSQL, Oracle. Вона також може "
-"працювати з sqlite, що для цілей окремих користувачів цілком достатньо і "
-"ефективно. Якщо підключити Ghini до реальної системі бази даних, ви "
-"можете розглянути можливість зробити базу даних частиною системи  LAMP "
-"(Linux-Apache-MySQL-Php) і включити ваші дані в реальному часі на вашому "
-"веб-сайті установи."
+"Ghini не є системою управління базами даних, щоб не вигадувати знову колесо. "
+"Вона працює зберігаючи свої дані в базі даних SQL, і буде підключатися до "
+"будь-якої  системи управління базами даних, яка приймає роз'єм SQLAlchemy. "
+"Це означає будь-яку досить сучасну систему управління базами даних і включає "
+"в себе MySQL, PostgreSQL, Oracle. Вона також може працювати з sqlite, що для "
+"цілей окремих користувачів цілком достатньо і ефективно. Якщо підключити "
+"Ghini до реальної системи бази даних, ви можете розглянути можливість "
+"зробити базу даних частиною системи  LAMP (Linux-Apache-MySQL-Php) і "
+"включити ваші дані в реальному часі на вашому веб-сайті установи."
 
 #: ../../goal.rst:232
 msgid "language agnostic"
@@ -2515,20 +2503,18 @@ msgid "customizable/extensible"
 msgstr "настроюємий/розширяємий"
 
 #: ../../goal.rst:272
-#, fuzzy
 msgid ""
 "Ghini is extensible through plugins and can be customized to suit the "
 "needs of the institution."
 msgstr ""
-"Ghini розширюється за допомогою плагінів і може бути налаштований "
-"відповідно до потреб установи."
+"Ghini розширюється за допомогою плагінів і може бути налаштований відповідно "
+"до потреб установи."
 
 #: ../../imex.rst:2
 msgid "Importing and Exporting Data"
 msgstr "Імпорт та експорт даних"
 
 #: ../../imex.rst:4
-#, fuzzy
 msgid ""
 "Although Ghini can be extended through plugins to support alternate "
 "import and export formats, by default it can only import and export comma"
@@ -2571,18 +2557,16 @@ msgid "Importing from CSV"
 msgstr "Імпорт з CSV"
 
 #: ../../imex.rst:21
-#, fuzzy
 msgid ""
 "In general it is best to only import CSV files into Ghini that were "
 "previously exported from Ghini. It is possible to import any CSV file but"
 " that is more advanced that this doc will cover."
 msgstr ""
-"Загалом, краще імпортувати CSV файли в Ghini, які раніше були "
-"експортовані з Ghini. Можна імпортувати будь-який файл CSV, але це надає "
-"більше, чим цей документ буде охоплювати."
+"Загалом, краще імпортувати CSV файли в Ghini, які раніше були експортовані з "
+"Ghini. Можна імпортувати будь-який файл CSV, але це більше, чим цей документ "
+"буде охоплювати."
 
 #: ../../imex.rst:25
-#, fuzzy
 msgid ""
 "To import CSV files into Ghini select "
 ":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
@@ -2605,33 +2589,29 @@ msgid "Exporting to CSV"
 msgstr "Експорт в CSV"
 
 #: ../../imex.rst:37
-#, fuzzy
 msgid ""
 "To export the Ghini data to CSV select "
 ":menuselection:`Tools-->Export-->Comma Separated Values` from the menu."
 msgstr ""
-"Щоб експортувати дані  Ghini в CSV виберіть "
-":menuselection:`Tools-->Export-->Comma Seperated Values` з меню."
+"Щоб експортувати дані  Ghini в CSV виберіть :menuselection:`Tools-->Export-->"
+"Comma Seperated Values` з меню."
 
 #: ../../imex.rst:40
-#, fuzzy
 msgid ""
 "This tool will ask you to select a directory to export the CSV data. All "
 "of the tables in Ghini will be exported to files in the format "
 "tablename.txt where tablename is the name of the table where the data was"
 " exported from."
 msgstr ""
-"Цей інструмент запропонує вам вибрати каталог для експорту даних в "
-"форматі CSV. Всі таблиці в Ghini буде експортовано в файли в форматі "
-"tablename.txt де ім'я_таблиці це ім'я таблиці куди дані будуть "
-"експортовані."
+"Цей інструмент запропонує вам вибрати каталог для експорту даних CSV. Всі "
+"таблиці в Ghini будуть експортовані до файлів у форматі tablename.txt, де "
+"tablename - це назва таблиці, з якої дані було експортовано."
 
 #: ../../imex.rst:46
 msgid "Importing from JSON"
 msgstr "Імпорт з JSON"
 
 #: ../../imex.rst:48
-#, fuzzy
 msgid ""
 "This is *the* way to import data into an existing database, without "
 "destroying previous content. A typical example of this functionality "
@@ -2641,20 +2621,18 @@ msgid ""
 "authors if you need any further help."
 msgstr ""
 "Цей *the * спосіб для імпорту даних в існуючу базу даних, не руйнуючи "
-"попередній вміст. Типовий приклад цієї функції буде імпорт вашої цифрової"
-" колекції в нові, тільки розмічені бази даних Ghini. Перетворення бази "
-"даних в  bauble json формат обміну виходить за рамки даного керівництва, "
-"будь ласка, зв'яжіться з одним з авторів, якщо вам потрібна додаткова "
-"допомога."
+"попередній вміст. Типовий приклад цієї функції буде імпорт вашої цифрової "
+"колекції в нові, тільки розміщені бази даних Ghini. Перетворення бази даних "
+"в bauble json формат обміну виходить за рамки даного керівництва, будь "
+"ласка, зв'яжіться з одним з авторів, якщо вам потрібна додаткова допомога."
 
 #: ../../imex.rst:55
-#, fuzzy
 msgid ""
 "Using the Ghini json interchange format, you can import data which you "
 "have exported from a different Ghini installation."
 msgstr ""
-"За допомогою Ghini json формату обміну, ви можете імпортувати дані, які "
-"ви експортували з іншої Ghini установки."
+"Використовуючи формат обміну Ghini json, ви можете імпортувати дані, які ви "
+"експортували з іншої установки Ghini."
 
 #: ../../imex.rst:59
 msgid "Exporting to JSON"
@@ -2692,18 +2670,16 @@ msgstr ""
 "невключені), всі зазначені місця і класифіковані."
 
 #: ../../index.rst:2
-#, fuzzy
 msgid "Documentation for Ghini 1.0"
 msgstr "Документація для  Ghini 1.0"
 
 #: ../../index.rst:8
-#, fuzzy
 msgid ""
 "Ghini is an application for managing botanical specimen collections. With"
 " it you can create a searchable database of plant records."
 msgstr ""
-"Ghini являє собою додаток для управління ботанічними колекціями зразків. "
-"З його допомогою ви можете створити базу даних для пошуку записів рослин."
+"Ghini являє собою додаток для управління ботанічними колекціями зразків. З "
+"його допомогою ви можете створити базу даних для пошуку записів рослин."
 
 #: ../../index.rst:11
 msgid ""
@@ -2716,41 +2692,36 @@ msgstr ""
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
 #: ../../index.rst:17
-#, fuzzy
 msgid "Statements"
 msgstr "Заяви"
 
 #: ../../index.rst:26
-#, fuzzy
 msgid "Installing Ghini"
 msgstr "Установка Ghini"
 
 #: ../../index.rst:35
 msgid "Using Ghini"
-msgstr ""
+msgstr "Використання Ghini"
 
 #: ../../index.rst:51
 msgid "Administration"
 msgstr "Адміністрація"
 
 #: ../../index.rst:60
-#, fuzzy
 msgid "Ghini Development"
 msgstr "Розвиток Ghini"
 
 #: ../../index.rst:68
-#, fuzzy
 msgid "Supporting Ghini"
 msgstr "Підтримка Ghini"
 
 #: ../../index.rst:72
-#, fuzzy
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
 msgstr ""
-"Якщо ви використовуєте Ghini, або якщо ви хочете допомогти її розвитку, "
-"будь ласка, розгляньте питання `пожертвування "
+"Якщо ви використовуєте Ghini, або якщо ви хочете допомогти її розвитку, будь "
+"ласка, розгляньте питання `пожертвування "
 "<https://pledgie.com/campaigns/29188>`_"
 
 #: ../../installing.rst:2
@@ -2758,17 +2729,16 @@ msgid "Installation"
 msgstr "Установка"
 
 #: ../../installing.rst:4
-#, fuzzy
 msgid ""
 "ghini.desktop is a cross-platform program and it will run on unix "
 "machines like GNU/Linux and MacOSX, as well as on Windows."
 msgstr ""
-"ghini.desktop крос-платформна програма і вона буде працювати на Unix "
-"машинах, таких як Linux і MacOSX, а також на Windows."
+"Ghini.desktop - це крос-платформна програма, яка працюватиме на Unix-"
+"машинах, таких як GNU/Linux і MacOSX, а також у Windows."
 
 #: ../../installing.rst:7
 msgid "one-liner for hurried Linux users."
-msgstr ""
+msgstr "один-вкладиш для поспішних користувачів Linux."
 
 #: ../../installing.rst:10
 msgid ""
@@ -2776,9 +2746,11 @@ msgid ""
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
 " You may read the documentation later."
 msgstr ""
+"Завантажте та запустіть `сценарій установки <https://raw.githubusercontent.co"
+"m/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_. Ви можете "
+"ознайомитися з документацією пізніше."
 
 #: ../../installing.rst:13
-#, fuzzy
 msgid ""
 "Ghini is maintained by very few people, who focus on enhancing its "
 "functional parts, more than on writing fancy installers. Instead of "
@@ -2789,21 +2761,19 @@ msgstr ""
 "Ghini підтримується дуже небагатьма людьми, які зосереджують свою увагу на "
 "підвищенні його функціональних частин, ніж на написанні фантастичних "
 "інсталяторів. Замість декількох інсталяторів, ми пропонуємо єдину процедуру "
-"встановлення крос-платформ. Це має декілька великих переваг, які ви "
-"навчитеся оцінити, як ми йдемо."
+"встановлення крос-платформ. Це має декілька великих переваг, які ви оцінити, "
+"як ми почнемо."
 
 #: ../../installing.rst:18
-#, fuzzy
 msgid "The installation is based on running a script."
-msgstr "кроки по установці на Windows:"
+msgstr "Встановлення засноване на запуску сценарію."
 
 #: ../../installing.rst:20
-#, fuzzy
 msgid ""
 "The GNU/Linux script takes care of everything, from dependecies to "
 "installation for users in the ``ghini`` group."
 msgstr ""
-"Сценарій GNU/Linux дбає про все, від залежностей до інсталяції для "
+"Сценарій GNU/Linux дбає про все, від dependecies до інсталяції для "
 "користувачів у групі ``ghini``."
 
 #: ../../installing.rst:22
@@ -2821,7 +2791,6 @@ msgstr ""
 "використовуємо, перш ніж запускати скрипт."
 
 #: ../../installing.rst:26
-#, fuzzy
 msgid ""
 "Following our installation procedure, you will end with Ghini running "
 "within a Python virtual environment, all Python dependencies installed "
@@ -2843,58 +2812,51 @@ msgstr ""
 "платформи."
 
 #: ../../installing.rst:33
-#, fuzzy
 msgid ""
 "If you later choose to remove Ghini, you simply remove the virtual "
 "environment, which is a directory, with all of its content."
 msgstr ""
-"якщо пізніше ви вирішите видалити Ghini, ви просто видалите віртуальне "
+"Якщо пізніше ви вирішите видалити Ghini, ви просто видалите віртуальне "
 "середовище, яке є каталогом, з усім його вмістом."
 
 #: ../../installing.rst:37
-#, fuzzy
 msgid "Installing on GNU/Linux"
-msgstr "Установка на Linux"
+msgstr "Встановлення на GNU/Linux"
 
 #: ../../installing.rst:39
 msgid "Open a shell terminal window, and follow these instructions."
-msgstr ""
+msgstr "Відкрийте вікно терміналу оболонки та виконайте ці вказівки."
 
 #: ../../installing.rst:41
 msgid "Download the `devinstall.sh` script and run it::"
 msgstr "Завантажити `devinstall.sh` скрипт і запустити його::"
 
 #: ../../installing.rst:45
-#, fuzzy
 msgid ""
 "Please note that the script will not help you install any extra database "
 "connector. This is not strictly necessary and you can do it at any later "
 "moment."
 msgstr ""
-"Будь ласка, це не той скрипт що допоможе вам встановити додатковий роз'єм"
-" бази даних. Це ви будете робити на більш пізньому етапі."
+"Будь ласка, це не той скрипт що допоможе вам встановити додатковий роз'єм "
+"бази даних. Це ви будете робити на більш пізньому етапі."
 
 #: ../../installing.rst:48
-#, fuzzy
 msgid "If the script ends without error, you can now start ghini::"
 msgstr "Якщо сценарій завершується без помилок, ви можете запустити ghini::"
 
 #: ../../installing.rst:52
-#, fuzzy
 msgid "or update ghini to the latest released production patch::"
 msgstr "або оновити ghini до останнього випущеного виробничого патча::"
 
 #: ../../installing.rst:56
-#, fuzzy
 msgid ""
 "The same script you can use to switch to a different production line. At "
 "the moment it's just `ghini-1.0` and `ghini-1.1`."
 msgstr ""
-"Той же сценарій ви можете використовувати для перемикання на іншу "
-"виробничу лінію, але на даний момент є тільки `ghini-1.0` і `ghini-1.1`."
+"Той же сценарій ви можете використовувати для перемикання на іншу виробничу "
+"лінію, але на даний момент є тільки `ghini-1.0` і `ghini-1.1`."
 
 #: ../../installing.rst:59
-#, fuzzy
 msgid ""
 "on Unity, open a terminal, start ghini, its icon will show up in the "
 "launcher, you can now `lock to launcher` it."
@@ -2926,22 +2888,20 @@ msgstr ""
 "середовище і встановіть psycopg2 з наступними командами::"
 
 #: ../../installing.rst:74
-#, fuzzy
 msgid ""
 "You might need solve dependencies. How to do so, depends on which "
 "GNU/Linux flavour you are using. Check with your distribution "
 "documentation."
 msgstr ""
-"Вам, можливо, буде потрібно визначити залежності. Як зробити так, "
-"залежить від того, який Linux ви використовуєте. Зверніться до "
-"документації розподілу."
+"Вам, можливо, буде потрібно визначити залежності. Як зробити так, залежить "
+"від того, який GNU/Linux ви використовуєте. Перевірте свою документацію про "
+"розповсюдження."
 
 #: ../../installing.rst:77
 msgid "beginner's note"
 msgstr "примітка новачка"
 
 #: ../../installing.rst:80
-#, fuzzy
 msgid ""
 "To run a script, first make sure you note down the name of the directory "
 "to which you have downloaded the script, then you open a terminal window "
@@ -2970,6 +2930,15 @@ msgid ""
 "``sudo`` permissions, it will be placed in ``/usr/local/bin``, otherwise "
 "in your ``~/bin`` folder. Again if you"
 msgstr ""
+"Ви можете вивчити скрипт, щоб побачити, які кроки виконується для вас. "
+"Коротше кажучи, він встановить залежності, які не можуть бути задоволені в "
+"віртуальному середовищі, тоді він створить віртуальне середовище з ім'ям "
+"``ghide``, використовуйте git для завантаження джерел до каталогу з назвою "
+"``~/Local/github/Ghini/ghini.desktop``, і підключіть git до гілки "
+"``ghini-1.0`` (можете розглянути виробничу лінію), він потім будує ghini, "
+"завантажуючи всі залишкові залежності в віртуальному середовищі, і, нарешті, "
+"створює сценарій запуску. Якщо у вас є ``sudo`` дозволи, він буде поміщений "
+"в ``/usr/local/bin``, інакше в папці ``~/bin``. Знову, якщо ви"
 
 #: ../../installing.rst:102 ../../installing.rst:156 ../../installing.rst:310
 #: ../../installing.rst:346
@@ -2981,25 +2950,23 @@ msgid "Installing on MacOSX"
 msgstr "Установка на MacOSX"
 
 #: ../../installing.rst:108
-#, fuzzy
 msgid ""
 "Being MacOSX a unix environment, most things will work the same as on "
 "GNU/Linux (sort of)."
 msgstr ""
-"MacOSX являється середовищем unix, більшість речей буде працювати так "
-"само, як і на Linux (різновид)."
+"MacOSX являється середовищем unix, більшість речей буде працювати так само, "
+"як і на GNU/Linux (різновид)."
 
 #: ../../installing.rst:111
-#, fuzzy
 msgid ""
 "Last time we tested, some of the dependencies could not be installed on "
 "MacOSX 10.5 and we assume similar problems would also show on older OSX "
 "versions.  Ghini has been successfully tested with 10.7, 10.9 and 10.12."
 msgstr ""
 "За останніми нашими тестуваннями, деякі з залежностей не можуть бути "
-"встановлені на MacOSX 10.5 і ми припускаємо, що подібні проблеми будуть і"
-" на більш старих версіях OSX. Ghini була успішно протестована з 10,7 і "
-"10,9."
+"встановлені на MacOSX 10.5 і ми припускаємо, що подібні проблеми будуть і на "
+"більш старих версіях OSX. Ghini була успішно протестована  з 10.7, 10.9 та "
+"10.12."
 
 #: ../../installing.rst:115
 msgid ""
@@ -3022,9 +2989,8 @@ msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr "менеджер пакетів:  homebrew (tigerbrew для старих версій OSX)."
 
 #: ../../installing.rst:122
-#, fuzzy
 msgid "with the above installed, open a terminal window and run::"
-msgstr "з вище встановлено, запустити::"
+msgstr "з встановленим вище, відкрийте вікно термінала і запустіть::"
 
 #: ../../installing.rst:126
 msgid ""
@@ -3046,13 +3012,15 @@ msgstr "дотримуватися всіх інструкцій про те, я
 
 #: ../../installing.rst:139
 msgid "Mac running OSX 10.12 —Sierra—"
-msgstr ""
+msgstr "Mac працює OSX 10.12 —Sierra—"
 
 #: ../../installing.rst:142
 msgid ""
 "On OSX 10.12, ``brew`` reports that ``gettext`` is already installed, but"
 " then it won't let us find it. A solution is to run the following line::"
 msgstr ""
+"У OSX 10.12, ``brew`` повідомляє, що ``gettext`` вже встановлено, але тоді "
+"це не дозволить нам знайти його. Рішенням є запустити наступний рядок:"
 
 #: ../../installing.rst:148
 msgid ""
@@ -3063,14 +3031,12 @@ msgstr ""
 "потрібно встановити пару пакетів python, глобально. Зробити це::"
 
 #: ../../installing.rst:153
-#, fuzzy
 msgid ""
 "The rest is just as on a normal unix machine. Read the above GNU/Linux "
 "instructions, follow them, enjoy."
 msgstr ""
-"інше так само, як на звичайній машині unix, і у нас є "
-"`devinstall.sh`скрипт для цього. Прочитайте вище інструкції Linux, "
-"слідуйте за ними, насолоджуйтесь."
+"Інше - так само, як на звичайній машині Unix. Прочитайте наведені вище "
+"інструкції GNU/Linux, дотримуйтесь їх, насолоджуйтеся."
 
 #: ../../installing.rst:160
 msgid "Installing on Windows"
@@ -3083,13 +3049,17 @@ msgid ""
 "reduced to the same installation procedure as on Unix (GNU/Linux and "
 "MacOSX)."
 msgstr ""
+"Поточний супровід ghini.desktop не зацікавлений в тому, щоб навчитися "
+"вивчати інсталятори Windows, тому встановлення в Windows тут зводиться до "
+"тієї ж процедури встановлення, що і на Unix (GNU/Linux і MacOSX)."
 
 #: ../../installing.rst:166
-#, fuzzy
 msgid ""
 "Please report any trouble. Help with packaging will be very welcome, in "
 "particular by other Windows users."
-msgstr "Повідомлення про виявлені проблеми і допомога з пакуванням дуже вітається."
+msgstr ""
+"Повідомлення про виявлені проблеми. Допомога з пакуванням дуже вітається, "
+"зокрема користувачами Windows."
 
 #: ../../installing.rst:169
 msgid ""
@@ -3104,15 +3074,13 @@ msgstr ""
 "специфічними для Windows."
 
 #: ../../installing.rst:174
-#, fuzzy
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 and W-8. "
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
-"Ghini була протестована і як відомо, працює на W-XP, W-7 і W-8. Хоча і "
-"працює нормально на інших версіях Windows, Ghini не була ретельно "
-"протестована на них."
+"Ghini була протестована і як відомо, працює на W-XP, W-7 і W-8. Працює "
+"нормально на інших версіях Windows хоча не була ретельно протестована на них."
 
 #: ../../installing.rst:178
 msgid ""
@@ -3127,18 +3095,16 @@ msgstr ""
 " працювати, будь ласка, зателефонуйте, що б ми могли оновити інформацію."
 
 #: ../../installing.rst:189
-#, fuzzy
 msgid "The installation steps on Windows:"
-msgstr "кроки по установці на Windows:"
+msgstr "Кроки по установці на Windows:"
 
 #: ../../installing.rst:191
-#, fuzzy
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``) from::"
 msgstr ""
-"загрузити і встановити ``git`` (поставляється з unix-like ``sh`` і "
-"включає в себе ``vi``) з:"
+"загрузити і встановити ``git`` (поставляється з unix-like ``sh`` і включає в "
+"себе ``vi``) з::"
 
 #: ../../installing.rst:196
 msgid "`Direct link to download git`_"
@@ -3153,24 +3119,22 @@ msgstr ""
 "виконуваним з командного рядка:"
 
 #: ../../installing.rst:203
-#, fuzzy
 msgid "download and install Python 2.x (32bit) from::"
-msgstr "завантажити та встановити Python 2.x (32bit) з:"
+msgstr "завантажити та встановити Python 2.x (32bit) з::"
 
 #: ../../installing.rst:207
 msgid "`Direct link to download Python`_"
 msgstr "`Пряме посилання на завантаження Python`_"
 
 #: ../../installing.rst:209
-#, fuzzy
 msgid ""
 "Ghini has been developed and tested using Python 2.x.  It will definitely"
 " **not** run on Python 3.x.  If you are interested in helping port to "
 "Python 3.x, please contact the Ghini maintainers."
 msgstr ""
 "Ghini була розроблена і апробована з використанням Python 2.x. Це, "
-"безумовно, **не ** працюватиме на Python 3.x, будь ласка, зв'яжіться з "
-"розробниками Ghini."
+"безумовно, **не** працюватиме на Python 3.x. Якщо ви зацікавлені в тому, щоб "
+"допомогти порту Python 3.x, будь ласка, зв'яжіться з розробниками Ghini."
 
 #: ../../installing.rst:213
 msgid "when installing Python, do put Python in the PATH:"
@@ -3197,23 +3161,26 @@ msgid ""
 "(Windows 8.x) please consider this additional step. It is possibly "
 "necessary to avoid the following error on Windows 8.1 installations::"
 msgstr ""
+"(Windows 8.x), будь ласка, розгляньте цей додатковий крок. Можливо, "
+"необхідно уникнути наступної помилки в установках Windows 8.1:"
 
 #: ../../installing.rst:235
 msgid "If you skip this step and can confirm you get the error, please inform us."
 msgstr ""
+"Якщо ви пропустите цей крок і зможете підтвердити, що ви отримали помилку, "
+"будь ласка, повідомте нас."
 
 #: ../../installing.rst:237
 msgid "You can download lxml from::"
-msgstr ""
+msgstr "Ви можете завантажити lxml з::"
 
 #: ../../installing.rst:241
 msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr "Пам'ятайте, вам потрібна 32-бітова версія для Python 2.7."
 
 #: ../../installing.rst:243
-#, fuzzy
 msgid "`Direct link to download lxml`_"
-msgstr "`Пряме посилання на завантаження git`_"
+msgstr "`Пряме посилання для завантаження lxml`_"
 
 #: ../../installing.rst:245
 msgid ""
@@ -3244,27 +3211,26 @@ msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr "Гей, це Windows, вам необхідно перезавантажити, щоб зміни вступили в силу!"
 
 #: ../../installing.rst:259
-#, fuzzy
 msgid "download and run (from ``\\system32\\cmd.exe``) the batch file:"
-msgstr "завантажте та запустіть пакетний файл::"
+msgstr "завантажте та запустіть (з ``\\system32\\cmd.exe``) пакетний файл:"
 
 #: ../../installing.rst:263
 msgid ""
 "right before you hit the enter key to run the script, your screen might "
 "look like something like this:"
 msgstr ""
+"прямо перед натисканням клавіші enter, щоб запустити скрипт, ваш екран може "
+"виглядати приблизно так:"
 
 #: ../../installing.rst:268
-#, fuzzy
 msgid ""
 "this will pull the ``ghini.desktop`` repository on github to your home "
 "directory, under ``Local\\github\\Ghini``, checkout the ``ghini-1.0`` "
 "production line, create a virtual environment and install ghini into it."
 msgstr ""
-"це буде тягнути ``ghini.desktop`` репозиторій на github в вашому "
-"домашньому каталозі, під ``Local\\github\\Ghini``, перевірте "
-"``ghini-1.0`` виробничу лінію, створіть віртуальне середовище і "
-"встановіть ghini в нього."
+"це буде тягнути ``ghini.desktop`` репозиторій на github до вашого домашнього "
+"каталога, під ``Local\\github\\Ghini``, перевірте ``ghini-1.0`` виробничу "
+"лінію, створіть віртуальне середовище і встановіть ghini в нього."
 
 #: ../../installing.rst:272
 msgid ""
@@ -3279,15 +3245,18 @@ msgid ""
 "this is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
+"це останній етап інсталяції, який сильно залежить від робочого підключення "
+"до Інтернету."
 
 #: ../../installing.rst:278
 msgid ""
 "the operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
+"операція може зайняти декілька хвилин, залежно від швидкості вашого "
+"інтернет-з'єднання."
 
 #: ../../installing.rst:281
-#, fuzzy
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -3297,8 +3266,8 @@ msgid ""
 msgstr ""
 "Останній етап установки створює групу Ghini і ярлики в меню Пуск Windows для "
 "всіх користувачів. Для цього вам потрібно запустити скрипт із правами "
-"адміністратора. Сценарій називається ``devinstall-finalize.bat``, Це "
-"правильно в папці HOME і створено на попередньому кроці."
+"адміністратора. Сценарій називається ``devinstall-finalize.bat``, він прямо "
+"в папці HOME, і був створений на попередньому кроці."
 
 #: ../../installing.rst:287
 msgid ""
@@ -3306,58 +3275,56 @@ msgid ""
 "make changes to your computer. These changes are in the Start Menu only: "
 "create the Ghini group, place the Ghini shortcut."
 msgstr ""
+"натисніть правою кнопкою миші на ньому, виберіть запустити як адміністратор, "
+"підтвердіть, що хочете внести зміни в свій комп'ютер. Ці зміни знаходяться "
+"тільки в меню Пуск: створіть групу Ghini, помістіть ярлик Ghini."
 
 #: ../../installing.rst:291
-#, fuzzy
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
 msgstr ""
-"завантажити пакетний файл, який буде використовуватися up-to-date "
-"виробничої лінії якій ви вирішили слідувати::"
+"завантажити пакетний файл, який буде використовуватися up-to-date виробничої "
+"лінії якій ви вирішили слідувати::"
 
 #: ../../installing.rst:296
-#, fuzzy
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
 "newer ghini release within your chosen production line."
 msgstr ""
-"Якщо у вас встановлена сучасна Ghini, то коли ви запускаєте програму, "
-"Ghini перевірятиме сайт розробника і попередить вас про випуск нових "
-"версій  ghini в межах обраної виробничої лінії."
+"Якщо ви знаходитесь на нещодавній установці Ghini, кожного разу, коли ви "
+"запускаєте програму, Ghini перевірить на сайті розробки та сповістить вас "
+"про будь-який новий випуск ghini у вибраній вами виробничій лінії."
 
 #: ../../installing.rst:300
-#, fuzzy
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``"
 msgstr ""
-"в будь-який час ви можете оновити свою установку, просто відкрийте "
-"командний рядок і запустіть ``ghini-update.bat``"
+"в будь-який час ви можете оновити свою установку, просто відкрийте командний "
+"рядок і запустіть ``ghini-update.bat``"
 
 #: ../../installing.rst:303
-#, fuzzy
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
 "<http://xmlgraphics.apache.org/fop/>`_. After extracting the FOP archive "
 "you will need to include the directory you extracted to in your PATH."
 msgstr ""
-"Якщо ви хочете створювати і друкувати звіти в форматі PDF з використанням"
-" генератора звітів  Ghini за замовчуванням, то вам необхідно буде "
-"завантажити і встановити `Apache FOP "
-"<http://xmlgraphics.apache.org/fop/>`_. Після розпакування архіву FOP вам"
-" потрібно буде включати каталог розпакування в свій PATH."
+"Якщо ви хочете створювати і друкувати звіти в форматі PDF з використанням "
+"генератора звітів  Ghini за замовчуванням, то вам необхідно буде завантажити "
+"і встановити `Apache FOP <http://xmlgraphics.apache.org/fop/>`_. Після "
+"розпакування архіву FOP вам потрібно буде включати каталог розпакування в "
+"свій PATH."
 
 #: ../../installing.rst:316
-#, fuzzy
 msgid "Troubleshooting"
-msgstr "Пошук і усунення несправностей установки"
+msgstr "Вирішення проблем"
 
 #: ../../installing.rst:318
 msgid "any error related to lxml."
-msgstr ""
+msgstr "будь-яка помилка, пов'язана з lxml."
 
 #: ../../installing.rst:320
 msgid ""
@@ -3366,20 +3333,27 @@ msgid ""
 "specialization, that gets compiled into C code. Note: Cython is not "
 "CPython)."
 msgstr ""
+"Для того, щоб мати можливість компілювати lxml, вам слід встановити "
+"компілятор C (на GNU/Linux це буде пакет ``gcc``) і Cython (спеціалізація "
+"Python, яка збирається у коді C. Примітка: Cython не CPython)."
 
 #: ../../installing.rst:325
 msgid ""
 "However, It should not be necessary to compile anything, and ``pip`` "
 "should be able to locate the binary modules in the online libraries."
 msgstr ""
+"Проте нічого не потрібно збирати, і ``pip`` повинен мати можливість "
+"знаходити бінарні модулі в онлайн-бібліотеках."
 
 #: ../../installing.rst:328
 msgid "For some reason, this is not the case on Windows 8.1."
-msgstr ""
+msgstr "З якоїсь причини це не так у Windows 8.1."
 
 #: ../../installing.rst:332
 msgid "Please report any other trouble related to the installation of lxml."
 msgstr ""
+"Будь ласка, повідомте про будь-які інші проблеми, пов'язані з установкою "
+"lxml."
 
 #: ../../installing.rst:334
 msgid "Couldn't install gdata."
@@ -3594,7 +3568,6 @@ msgstr ""
 "`makotemplates.org <http://www.makotemplates.org>`_."
 
 #: ../../report.rst:18
-#, fuzzy
 msgid ""
 "The Mako templating system should already be installed on your computer "
 "if Ghini is installed."
@@ -3615,7 +3588,6 @@ msgstr ""
 " хоча б з невеликим досвідом програмування."
 
 #: ../../report.rst:26
-#, fuzzy
 msgid ""
 "The template generator will use the same file extension as the template "
 "which should indicate the type of output the template with create.  For "
@@ -3623,8 +3595,11 @@ msgid ""
 "template something like `report.html`.  If the template will generate a "
 "comma separated value file you should name the template `report.csv`."
 msgstr ""
-"Генератор шаблонів буде використовувати таке ж розширення файлу як "
-"шаблон, який повинен вказати тип вихідного шаблону створення."
+"Генератор шаблону буде використовувати те саме розширення файлу, як шаблон, "
+"який повинен вказати тип виводу шаблону при створенні. Наприклад, щоб "
+"створити HTML-сторінку з вашого шаблону, ви маєте називати шаблон так: "
+"`report.html`. Якщо шаблон буде генерувати файл зі значеннями, розділеними "
+"комами, слід назвати шаблон `report.csv`."
 
 #: ../../report.rst:33
 msgid ""
@@ -3707,22 +3682,20 @@ msgstr ""
 "середовища."
 
 #: ../../searching.rst:4
-#, fuzzy
 msgid "Searching in Ghini"
 msgstr "Пошук в Ghini"
 
 #: ../../searching.rst:6
-#, fuzzy
 msgid ""
 "Searching allows you to view, browse and create reports from your data. "
 "You can perform searches by either entering the queries in the main "
 "search entry or by using the Query Builder to create the queries for you."
 " The results of Ghini searches are listed in the main window."
 msgstr ""
-"Пошук дозволяє представляти, перегляд і створювати звіти з ваших даних. "
-"Ви можете виконувати пошук ввівши запит в основному компоненті пошуку або"
-" використати Query Builder для створення запитів. Результати пошуку Ghini"
-" виводяться в головному вікні."
+"Пошук дозволяє представляти, перегляд і створювати звіти з ваших даних. Ви "
+"можете виконувати пошук ввівши запит в основному компоненті пошуку або "
+"використати Query Builder для створення запитів. Результати пошуку Ghini "
+"виводяться в головному вікні."
 
 #: ../../searching.rst:13
 msgid "Search Strategies"
@@ -3794,7 +3767,6 @@ msgid "search domain overview"
 msgstr "огляд пошукового домену"
 
 #: ../../searching.rst:44
-#, fuzzy
 msgid "name and shorthands"
 msgstr "ім'я та короткі терміни"
 
@@ -3812,14 +3784,14 @@ msgid "name"
 msgstr "ім'я"
 
 #: ../../searching.rst:59
-#, fuzzy
 msgid ""
 "Examples of searching by value would be: Maxillaria, Acanth, 2008.1234, "
 "2003.2.1, indica."
-msgstr "Приклади пошуку за значенням: Maxillaria, Acanth, 2008.1234, 2003.2.1"
+msgstr ""
+"Приклади пошуку за значенням будуть: Maxillaria, Acanth, 2008.1234, "
+"2003.2.1,indica."
 
 #: ../../searching.rst:62
-#, fuzzy
 msgid ""
 "Unless explicitly quoted, spaces separate search strings. For example if "
 "you search for ``Block 10`` then Ghini will search for the strings Block "
@@ -3827,18 +3799,16 @@ msgid ""
 "you want to search for Block 10 as one whole string then you should quote"
 " the string like ``\"Block 10\"``."
 msgstr ""
-"Рядок пошуку розділений пробілами. Наприклад, якщо ввести в рядок пошуку "
-"``Block 10`` то Ghini буде шукати рядки Block і 10 та поверне всі "
-"результати, які відповідають цим рядкам. Якщо ви хочете знайти "
-"безроздільно Block 10 у рядку, то ви повинні ввести в рядок пошуку, як "
-"цитату ``\"Block 10\"``."
+"Рядок пошуку розділений пробілами. Наприклад, якщо ввести в рядок пошуку ``"
+"Block 10`` то Ghini буде шукати рядки Block і 10 та поверне всі результати, "
+"які відповідають цим рядкам. Якщо ви хочете знайти безроздільно Block 10 у "
+"рядку, то ви повинні ввести в рядок пошуку, як цитату ``\"Block 10\"``."
 
 #: ../../searching.rst:68
 msgid "× Composite Primary Keys"
 msgstr "× складні первинні ключі"
 
 #: ../../searching.rst:71
-#, fuzzy
 msgid ""
 "A **species** epithet means little without the corresponding genus, "
 "likewise a **planting** code is unique only within the accession to which"
@@ -3847,7 +3817,7 @@ msgid ""
 "planting. These domains need a **composite** primary key."
 msgstr ""
 "Епітет **вид** означає мало, без відповідного роду, також код **рослин** "
-"унікальний тільки в рамках приєднання, до якого вони належить. У теорії "
+"унікальний тільки в рамках приєднання, до якого вони належать. У теорії "
 "термінологія бази даних, епітету і коду недостатньо для формування **"
 "первинного ключа** для відповідних видів та посадок. Ці домени потребують "
 "первинного ключа **composite**."
@@ -3899,7 +3869,7 @@ msgstr ""
 "доменів, а також для кожного пошукового домену, які поля шукаються."
 
 #: ../../searching.rst:100
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "The search string ``loc like block%`` would return all the Locations for "
 "which name or code start with \"block\".  In this case the domain is "
@@ -3912,18 +3882,19 @@ msgid ""
 "``%ck%10`` would search for all value that contain ``ck`` and end in "
 "``10``."
 msgstr ""
-"Рядок пошуку ``gen like max%`` буде повертати всі роди, чиї імена "
-"починаються з \"Max\". В цьому випадку доменом знову є gen, оператором є "
-"like, що дозволяє  \"вибірковий\" пошук і значенням є max%. Знак відсотка"
-" використовується в якості джокера, так якщо ви шукаєте max% то шукаються"
-" всі значення, які починаються з max. Якщо ви шукаєте %max шукаються всі "
-"значення, які закінчуються на max. Рядок %max% шукатиме всі значення, які"
-" містять max і в кінці а."
+"Рядок пошуку ``loc like block%`` повертає всі місця, для яких ім'я або код "
+"починається з \"block\". У цьому випадку домен є ``loc`` (скорочення для "
+"``location``), оператор є ``like`` (це походить з SQL і дозволяє \"fuzzy\" "
+"пошук) значення є ``block%``, поля, що неявно співпадають ``ім'я`` і ``код``"
+". Знак відсотка використовується як динамічна карта, тому якщо ви шукаєте "
+"``block%``, то він шукає всі значення, що починаються з ``block``. Якщо ви "
+"шукаєте ``%10``, він шукає всі значення, які закінчуються ``10``. Рядок "
+"``%ck%10`` буде шукати всі значення, яке містить ``ck`` і закінчується на "
+"``10``."
 
 #: ../../searching.rst:110
-#, fuzzy
 msgid "When a query takes ages to complete"
-msgstr "Коли запит заповнюється віком"
+msgstr "Скільки часу потрібно на запит"
 
 #: ../../searching.rst:113
 msgid ""
@@ -4001,16 +3972,17 @@ msgid "Search by Query"
 msgstr "Пошук по запиту"
 
 #: ../../searching.rst:149
-#, fuzzy
 msgid ""
 "Queries allow the most control over searching. With queries you can "
 "search across relations, specific columns, combine search criteria using "
 "boolean operators like ``and``, ``or``, ``not`` (and their shorthands "
 "``&&``, ``||``, ``!``), enclose them in parentheses, and more."
 msgstr ""
-"Запити дозволяють найбільший контроль над пошуком. З запитами ви можете "
-"здійснювати пошук по відносинам, конкретним стовпцям і об'єднати пошук з "
-"використанням логічних операторів, таких як AND і OR."
+"Запити дозволяють максимально контролювати пошук. За допомогою запитів ви "
+"можете здійснювати пошук по відношенню до певних стовпчиків, комбінуючи "
+"критерії пошуку за допомогою логічних операторів, таких як ``and``, ``or``, "
+"``not`` (і їх скорочення ``&&``, ``||``, ``!``) додайте їх у дужки, та "
+"багато іншого."
 
 #: ../../searching.rst:154
 msgid ""
@@ -4051,14 +4023,13 @@ msgid "accessions we modified in the last three days::"
 msgstr "приєднання, які ми змінили за останні три дні::"
 
 #: ../../searching.rst:184
-#, fuzzy
 msgid ""
 "Searching with queries requires some knowledge of a little syntax and an "
 "idea of the extensive Ghini database table structure. Both you acquire "
 "with practice, and with the help of the Query Builder."
 msgstr ""
 "Пошук за запитами вимагає певних знань про маленький синтаксис та ідеї про "
-"велику структуру таблиці Ghini. Обидва ти придбаєш з практикою і за "
+"велику структуру таблиці Ghini. Обидва ви придбаєте з практикою і за "
 "допомогою Query Builder."
 
 #: ../../searching.rst:190
@@ -4066,17 +4037,16 @@ msgid "The Query Builder"
 msgstr "Query Builder"
 
 #: ../../searching.rst:192
-#, fuzzy
 msgid ""
 "Ghini offers a Query Builder, that helps you build complex search queries"
 " through a point and click interface.  To open the Query Builder click "
 "the |querybuilder| icon to the left of the search entry or select "
 ":menuselection:`Tools-->Query Builder` from the menu."
 msgstr ""
-"Query Builder дозволяє будувати складні пошукові запити через вказування "
-"і натискання в інтерфейсі. Для того, щоб відкрити Query Builder натисніть"
-" зліва від входу пошуку або виберіть :menuselection:`Tools-->Query "
-"Builder` в меню."
+"Query Builder дозволяє будувати складні пошукові запити через вказування і "
+"натискання в інтерфейсі. Для того, щоб відкрити Query Builder натисніть "
+"|querybuilder| іконку зліва від входу пошуку або виберіть "
+":menuselection:`Tools-->Query Builder` в меню."
 
 #: ../../searching.rst:201
 msgid ""
@@ -4112,16 +4082,14 @@ msgstr ""
 "дійсних значень для поля."
 
 #: ../../searching.rst:220
-#, fuzzy
 msgid ""
 "Add as many search properties as you need, by clicking on the plus sign. "
 "Select and/or next to the property name to choose how the clauses will be"
 " combined in the search query."
 msgstr ""
-"Якщо  необхідно кілька властивостей пошуку, натисніть на знак плюс що "
-"додасть більше властивостей пошуку. Виберіть And/Or поруч з ім'ям "
-"вибраних властивостей, для визначення, як властивості будуть об'єднані в "
-"пошуковому запиті."
+"Додайте якомога більше властивостей пошукових систем, натиснувши знак плюс. "
+"Виберіть та/або біля назви властивості, щоб вибрати, які об'єкти будуть "
+"об'єднані в пошуковому запиті."
 
 #: ../../searching.rst:224
 msgid "When you are done building your query click OK to perform the search."
@@ -4263,7 +4231,6 @@ msgstr ""
 "`connecting`_."
 
 #: ../../started.rst:23
-#, fuzzy
 msgid ""
 "On the other hand, if you want to connect more than one bauble "
 "workstation to the same database, or if you want to make your data "
@@ -4272,15 +4239,14 @@ msgid ""
 " like `PostgreSQL <http://www.postgresql.org>`_ or `MySQL/MariaDB "
 "<https://mariadb.org/>`_, both supported by Ghini."
 msgstr ""
-"З іншого боку, якщо ви хочете підключити більше однієї ghini робочої "
-"станції в одній і тій же базі даних, або якщо ви хочете, щоб ваші дані "
-"були доступними для інших клієнтів, як в налаштуванні LAMP веб сервера, "
-"ви повинні забезпечити зберігання бази даних в системі управління базами "
-"даних, як `PostgreSQL <http://www.postgresql.org>`_ або `MySQL/MariaDB "
+"З іншого боку, якщо ви хочете підключити більше однієї робочої станції до "
+"тієї ж бази даних, або якщо ви хочете зробити свої дані доступними для інших "
+"клієнтів, як це може бути веб-сервер у налаштуваннях LAMP, слід враховувати "
+"збереження вашої бази даних В системі управління базами даних, як `"
+"PostgreSQL <http://www.postgresql.org>`_ або `MySQL/MariaDB "
 "<https://mariadb.org/>`_, обидва варіанти підтримуються Ghini."
 
 #: ../../started.rst:30
-#, fuzzy
 msgid ""
 "When connecting to a database server as one of the above, you have to "
 "manually create: at least one bauble user, the database you want bauble "
@@ -4289,12 +4255,12 @@ msgid ""
 "tables and importing the default data set.  The process is database-"
 "dependent and it falls beyond the scope of this manual."
 msgstr ""
-"При підключенні до сервера бази даних в якості одного з вище вказаного, "
-"ви повинні створити вручну: щонайменше одного користувача ghini, базу "
-"даних яку ви хочете використовувати, і надати повні права користувачеві "
-"ghini на цю базу даних. Коли це буде зроблено, Ghini матиме можливість "
-"продовжити, створення таблиць та імпорт набору даних за замовчуванням. "
-"Процес бази даних - залежить і виходить за рамки даного керівництва."
+"При підключенні до сервера бази даних в якості одного з вище вказаного, ви "
+"повинні створити вручну: щонайменше одного користувача бази даних яку ви "
+"хочете використовувати, і надати повні права користувачеві на цю базу даних. "
+"Коли це буде зроблено, Ghini матиме можливість продовжити, створення таблиць "
+"та імпорт набору даних за замовчуванням. Процес бази даних - залежить і "
+"виходить за рамки даного керівництва."
 
 #: ../../started.rst:37
 msgid ""
@@ -4310,14 +4276,12 @@ msgid "Connecting to a database"
 msgstr "Підключення до бази даних"
 
 #: ../../started.rst:45
-#, fuzzy
 msgid ""
 "When you start Ghini the first thing that comes up is the connection "
 "dialog."
 msgstr "При запуску Ghini вперше спливає діалогове вікно підключення."
 
 #: ../../started.rst:48
-#, fuzzy
 msgid ""
 "Quite obviously, if this is the first time you start Ghini, you have no "
 "connections yet and Ghini will alert you about it."
@@ -4353,16 +4317,14 @@ msgid "**specify the connection details**"
 msgstr "**вказати параметри з'єднання**"
 
 #: ../../started.rst:69
-#, fuzzy
 msgid ""
 "If you do not know what to do here, Ghini will help you stay safe. "
 "Activate the **Use default locations** check box and create your first "
 "connection by clicking on **Connect**."
 msgstr ""
-"Якщо ви не знаєте, що робити тут, Ghini допоможе вам залишатися в "
-"безпеці. Активуйте **Використання розташування за замовчуванням** шляхом "
-"встановлення прапорця і створіть перше з'єднання, натиснувши на "
-"**Підключення**."
+"Якщо ви не знаєте, що робити тут, Ghini допоможе вам залишатися в безпеці. "
+"Активуйте **Використання розташування за замовчуванням** шляхом встановлення "
+"прапорця і створіть перше з'єднання, натиснувши на **Підключення**."
 
 #: ../../started.rst:72
 msgid ""
@@ -4377,28 +4339,24 @@ msgid "**fine-tune the connection details**"
 msgstr "**точно налаштувати  деталі з'єднання**"
 
 #: ../../started.rst:77
-#, fuzzy
 msgid ""
 "By default Ghini uses the file-based SQLite database.  During the "
 "installation process you had the choice (and you still have after "
 "installation), to add database connectors other than the default SQLite."
 msgstr ""
-"За замовчуванням Ghini  використовує файл бази даних на основі SQLite. В "
-"процесі установки у вас був вибір (і він у вас залишається і після "
-"установки), додати інші, ніж SQLite за замовчуванням з'єднувачі бази "
-"даних."
+"За замовчуванням Ghini використовує файл бази даних на основі SQLite. В "
+"процесі установки у вас був вибір (і він у вас залишається і після установки)"
+", додати інші, ніж SQLite за замовчуванням з'єднувачі бази даних."
 
 #: ../../started.rst:81
-#, fuzzy
 msgid ""
 "In this example, Ghini can connect to SQLite, PostgreSQL and MySQL, but "
 "no connector is available for Oracle or MS SQL Server."
 msgstr ""
-"У цьому прикладі, Ghini може підключитися до SQLite,  PostgreSQL і MySQL,"
-" але немає з'єднувачів доступних для Oracle або MS SQL Server."
+"У цьому прикладі, Ghini може підключитися до SQLite,  PostgreSQL і MySQL, "
+"але немає з'єднувачів доступних для Oracle або MS SQL Server."
 
 #: ../../started.rst:86
-#, fuzzy
 msgid ""
 "If you use SQLite, all you really need specify is the connection name. If"
 " you let Ghini use the default filename then Ghini creates a database "
@@ -4407,25 +4365,24 @@ msgid ""
 "``~/.bauble`` on Linux/MacOSX or in ``AppData\\Roaming\\Bauble`` on "
 "Windows."
 msgstr ""
-"Якщо ви використовуєте SQLite, все, що вам дійсно потрібно це вказати "
-"ім'я з'єднання. Якщо ви дозволите Ghini  використовувати ім'я файлу за "
+"Якщо ви використовуєте SQLite, все, що вам дійсно потрібно це вказати ім'я "
+"з'єднання. Якщо ви дозволите Ghini  використовувати ім'я файлу за "
 "замовчуванням, то Ghini  створює файл бази даних з тим же ім'ям, що і "
 "з'єднання і ``.db`` розширення, і папку зображень з таким же ім'ям і без "
-"розширення, як в ``~/.bauble``в Linux/MacOSX або в "
-"``AppData\\Roaming\\Bauble`` в Windows."
+"розширення, як в ``~/.bauble``в Linux/MacOSX або в ``AppData\\Roaming\\"
+"Bauble`` в Windows."
 
 #: ../../started.rst:92
-#, fuzzy
 msgid ""
 "Still with SQLite, you might have received or downloaded a bauble "
 "database, and you want to connect to it. In this case you do not let "
 "Ghini use the default filename, but you browse in your computer to the "
 "location where you saved the Ghini SQLite database file."
 msgstr ""
-"Проте з SQLite, ви, можливо, отримали або завантажили bauble базу даних, "
-"і ви хочете підключитися до неї. В цьому випадку ви не дозволяєте Ghini "
-"використовувати ім'я файлу за замовчуванням, лише перегляньте на "
-"комп'ютері в тому місці, де ви зберегли Ghini SQLite файл бази даних."
+"Проте з SQLite, ви, можливо, отримали або завантажили bauble базу даних, і "
+"ви хочете підключитися до неї. В цьому випадку ви не дозволяєте Ghini "
+"використовувати ім'я файлу за замовчуванням, лише перегляньте на комп'ютері "
+"в тому місці, де ви зберегли Ghini SQLite файл бази даних."
 
 #: ../../started.rst:97
 msgid ""
@@ -4438,17 +4395,15 @@ msgstr ""
 "параметрів необхідних для підключення до бази даних за вашим вибором."
 
 #: ../../started.rst:101
-#, fuzzy
 msgid ""
 "If you are connecting to an existing database you can continue to :ref"
 ":`editing-and-inserting-data` and subsequently :ref:`searching-in-"
 "bauble`, otherwise read on to the following section on initializing a "
 "database for Ghini."
 msgstr ""
-"При підключенні до існуючої бази даних ви можете продовжувати :ref"
-":`editing-and-inserting-data` і згодом :ref:`searching-in-bauble`, в "
-"іншому випадку читайте далі в наступному розділі про ініціалізацію бази "
-"даних для Ghini."
+"При підключенні до існуючої бази даних ви можете продовжувати :ref:`editing-"
+"and-inserting-data` і згодом :ref:`searching-in-bauble`, в іншому випадку "
+"читайте далі в наступному розділі про ініціалізацію бази даних для Ghini."
 
 #: ../../started.rst:106
 msgid ""
@@ -4465,41 +4420,40 @@ msgid "Initialize a database"
 msgstr "Ініціалізувати базу даних"
 
 #: ../../started.rst:115
-#, fuzzy
 msgid ""
 "First time you open a connection to a database which had never been seen "
 "by Ghini before, Ghini will first display an alert:"
 msgstr ""
-"Коли ви відкриваєте з'єднання з базою даних, яка не відмічена в Ghini "
-"перший раз, Ghini спочатку відобразить оповіщення:"
+"Коли ви відкриваєте з'єднання з базою даних, яка не відмічена в Ghini перший "
+"раз, Ghini спочатку відобразить оповіщення:"
 
 #: ../../started.rst:120
 msgid "immediately followed by a question:"
 msgstr "відразу слідує запитання:"
 
 #: ../../started.rst:124
-#, fuzzy
 msgid ""
 "Be careful when manually specifying the connection parameters: the values"
 " you have entered may refer to an existing database, not intended for use"
 " with Ghini. By letting Ghini initialize a database, the database will be"
 " emptied and all of its content be lost."
 msgstr ""
-"Будьте обережні, коли вручну, вказуєте параметри з'єднання: значення, які"
-" ви ввели і відсилатися до існуючої бази даних, можуть бути не призначені"
-" для використання в Ghini."
+"Будьте обережні, коли вручну, вказуєте параметри з'єднання: значення, які ви "
+"ввели і відіслали до існуючої бази даних, можуть бути не призначені для "
+"використання в Ghini. Даючи Ghini ініціалізувати базу даних, база даних буде "
+"вичерпана, і весь її вміст буде втрачено."
 
 #: ../../started.rst:129
-#, fuzzy
 msgid ""
 "If you are sure you want to create a database at this connection then "
 "select \"Yes\". Ghini will then start creating the database tables and "
 "importing the default data. This can take a minute or two so while all of"
 " the default data is imported into the database so be patient."
 msgstr ""
-"Якщо ви впевнені, що хочете створити базу даних з цим підключенням "
-"виберіть \"Так\". Ghini приступить до створення таблиць бази даних та "
-"імпорту даних за замовчуванням."
+"Якщо ви впевнені, що хочете створити базу даних у цьому зв'язку, виберіть \""
+"Так\". Ghini почне створювати таблиці бази даних та імпортувати дані за "
+"замовчуванням. Це може зайняти хвилину або дві, тоді як всі дані за "
+"замовчуванням імпортуються в базу даних, тому будьте терплячі."
 
 #: ../../started.rst:134
 msgid ""
@@ -4701,18 +4655,16 @@ msgid "Managing Users"
 msgstr "Управління користувачами"
 
 #: ../../users.rst:4
-#, fuzzy
 msgid "The Ghini users plugin is only available on PostgreSQL based databases."
-msgstr "Використання плагіна The Ghini доступне тільки в базах даних PostgreSQL."
+msgstr "Плагін користувачів Ghini доступний лише на базі даних PostgreSQL."
 
 #: ../../users.rst:7
-#, fuzzy
 msgid ""
 "The Ghini User's Plugin will allow you to create and manage the "
 "permissions of users for your Ghini database."
 msgstr ""
-"Плагін Ghini User дозволить вам створювати і управляти дозволами "
-"користувачів в вашій базі даних Ghini."
+"Плагін користувача Ghini дозволить вам створювати та керувати правами "
+"користувачів для бази даних Ghini."
 
 #: ../../users.rst:11
 msgid "Creating Users"
@@ -4727,13 +4679,12 @@ msgid "Permissions"
 msgstr "Дозволи"
 
 #: ../../users.rst:17
-#, fuzzy
 msgid "Ghini allows read, write and execute permissions."
-msgstr "Ghini дозволяє читати, писати і виконувати дозволи."
+msgstr "Ghini дозволяє читати, писати і оформляти дозволи."
 
 #: ../../user_stories.rst:3
 msgid "representing the planned space"
-msgstr ""
+msgstr "представляє запланований простір"
 
 #: ../../user_stories.rst:5
 msgid ""
@@ -4741,6 +4692,9 @@ msgid ""
 "beds are probably organized in smaller sections, while greenhouses might "
 "be organized in tables, shelves, walls."
 msgstr ""
+"Ботанічні сади в основному організовані на грядках і теплицях, а більші "
+"грядки, ймовірно, організовані в невеликих секціях, тоді як теплиці можуть "
+"бути організовані на столах, полицях, стінах."
 
 #: ../../user_stories.rst:9
 msgid ""
@@ -4749,6 +4703,10 @@ msgid ""
 "that every ``Planting`` can only belong to exactly one (1) ``Location``, "
 "while every ``Location`` may contain zero or more (0..n) ``Plantings``."
 msgstr ""
+"У вищезгаданому програмному представленні даних саду цифрові вказівки на "
+"будь-якому кінці рядка, що зв'язує ``Місце`` та ``Посадку``, говорить нам, "
+"що кожна ``Посадка`` може належати лише до одного (1) ``Місця``, в той час "
+"як кожен ``Місце`` може містити нуль або більше (0..n) ``Посадок``."
 
 #: ../../user_stories.rst:14
 msgid ""
@@ -4758,44 +4716,50 @@ msgid ""
 "physical bed section, greenhouse table, or whatever might be the basic "
 "location unit in your garden."
 msgstr ""
+"Наслідком цього обмеження в базі даних є те, що у вашій базі даних потрібні "
+"``Місця`` для розміщення ``Рослин`` у саду, тому слід почати належну "
+"практику, ввівши в базу даних ``Місце`` для кожного фізичного розділу "
+"грядки, парникового стіла або інше, що може бути основним місцем "
+"розташування в вашому саду."
 
 #: ../../user_stories.rst:21
 msgid "accepting a plant in the collection"
-msgstr ""
+msgstr "прийом рослин в колекції"
 
 #: ../../user_stories.rst:23
 msgid ""
 "When a plant (or a group of genetically identical plants) enters the "
 "collection,"
 msgstr ""
+"Коли рослина (або група генетично ідентичних рослин) входить до колекції,"
 
 #: ../../user_stories.rst:26
 msgid "building the history of a living plant"
-msgstr ""
+msgstr "будуючи історію живої рослини"
 
 #: ../../user_stories.rst:29
 msgid "managing contacts"
-msgstr ""
+msgstr "управління контактами"
 
 #: ../../user_stories.rst:32
 msgid "adding a taxonomist's opinion"
-msgstr ""
+msgstr "додавши думку таксономіста"
 
 #: ../../user_stories.rst:35
 msgid "reproducing plants"
-msgstr ""
+msgstr "відтворюючи рослини"
 
 #: ../../user_stories.rst:38
 msgid "updating taxonomy tree"
-msgstr ""
+msgstr "оновлення дерева таксономії"
 
 #: ../../user_stories.rst:41
 msgid "producing report"
-msgstr ""
+msgstr "підготовка звіту"
 
 #: ../../user_stories.rst:44
 msgid "engraving labels"
-msgstr ""
+msgstr "гравюрні етикетки"
 
 #~ msgid "structure of user interface"
 #~ msgstr "структура інтерфейсу користувача"
