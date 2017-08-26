@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-16 13:28-0500\n"
+"POT-Creation-Date: 2017-08-25 19:29-0500\n"
 "PO-Revision-Date: 2017-08-16 14:44+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: it\n"
@@ -75,16 +75,18 @@ msgstr "Prego riferirsi alla documentazione ufficiale."
 #: ../../administration.rst:31
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
-" your backup options starts at `chapter_24`_."
+" your backup options starts at `chapter 24 "
+"<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 msgstr ""
-"Prego riferirsi alla documentazione ufficiale. Una discussione molto "
-"approfondita sulle varie opzioni di backup inizia al `chapter_24`_."
+"Prego riferirsi alla documentazione ufficiale. Una dettagliata discussione "
+"sulle varie opzioni di backup inizia al `capitolo 24 "
+"<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 
-#: ../../administration.rst:37
+#: ../../administration.rst:35
 msgid "Ghini Configuration"
 msgstr "Configurazione di Ghini"
 
-#: ../../administration.rst:39
+#: ../../administration.rst:37
 msgid ""
 "Ghini uses a configuration file to store values across invocations. This "
 "file is associated to a user account and every user will have their own "
@@ -94,7 +96,7 @@ msgstr ""
 "chiamate. Questo file è associato all'account dell'utente, così ogni "
 "utente avrà il suo file di configurazione."
 
-#: ../../administration.rst:43
+#: ../../administration.rst:41
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in"
 " the text entry area where you normally type your searches, then hit "
@@ -104,7 +106,7 @@ msgstr ""
 "``:prefs`` nell'area di immissione testo dove normalmente tipo le "
 "ricerche, quindi premere INVIO."
 
-#: ../../administration.rst:46
+#: ../../administration.rst:44
 msgid ""
 "You normally do not need tweaking the configuration file, but you can do "
 "so with a normal text editor program. Ghini configuration file is at the "
@@ -114,11 +116,11 @@ msgstr ""
 "possibile farlo con un programma di editor di testo normale. File di "
 "configurazione di Ghini è il percorso predefinito per i database SQLite."
 
-#: ../../administration.rst:51
+#: ../../administration.rst:49
 msgid "Reporting Errors"
 msgstr "Prospetto errori"
 
-#: ../../administration.rst:53
+#: ../../administration.rst:51
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
@@ -126,7 +128,7 @@ msgstr ""
 "Se notate qualcosa di imprevisto nel comportamento di Ghini, si prega di "
 "considerare un problema di deposito sul sito di sviluppo Ghini."
 
-#: ../../administration.rst:56
+#: ../../administration.rst:54
 msgid "Ghini development site can be accessed via the Help menu."
 msgstr "Ghini lo sviluppo del sito sono accessibili tramite il menu di aiuto."
 

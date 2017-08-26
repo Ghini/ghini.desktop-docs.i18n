@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-16 13:28-0500\n"
+"POT-Creation-Date: 2017-08-25 19:29-0500\n"
 "PO-Revision-Date: 2017-07-02 20:20+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: ar\n"
@@ -59,45 +59,46 @@ msgstr ""
 #: ../../administration.rst:31
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
-" your backup options starts at `chapter_24`_."
+" your backup options starts at `chapter 24 "
+"<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 msgstr ""
 
-#: ../../administration.rst:37
+#: ../../administration.rst:35
 msgid "Ghini Configuration"
 msgstr ""
 
-#: ../../administration.rst:39
+#: ../../administration.rst:37
 msgid ""
 "Ghini uses a configuration file to store values across invocations. This "
 "file is associated to a user account and every user will have their own "
 "configuration file."
 msgstr ""
 
-#: ../../administration.rst:43
+#: ../../administration.rst:41
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in"
 " the text entry area where you normally type your searches, then hit "
 "enter."
 msgstr ""
 
-#: ../../administration.rst:46
+#: ../../administration.rst:44
 msgid ""
 "You normally do not need tweaking the configuration file, but you can do "
 "so with a normal text editor program. Ghini configuration file is at the "
 "default location for SQLite databases."
 msgstr ""
 
-#: ../../administration.rst:51
+#: ../../administration.rst:49
 msgid "Reporting Errors"
 msgstr ""
 
-#: ../../administration.rst:53
+#: ../../administration.rst:51
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
 msgstr ""
 
-#: ../../administration.rst:56
+#: ../../administration.rst:54
 msgid "Ghini development site can be accessed via the Help menu."
 msgstr ""
 
@@ -5795,5 +5796,12 @@ msgstr ""
 #~ "in the other 6 families represented "
 #~ "in our digital collection, we follow "
 #~ "this suggested practice."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please refer to the official "
+#~ "documentation. A very thorough discussion "
+#~ "of your backup options starts at "
+#~ "`chapter_24`_."
 #~ msgstr ""
 

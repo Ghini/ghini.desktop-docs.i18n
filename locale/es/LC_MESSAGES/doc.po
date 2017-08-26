@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-16 13:28-0500\n"
+"POT-Creation-Date: 2017-08-25 19:29-0500\n"
 "PO-Revision-Date: 2017-08-16 16:56+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: es\n"
@@ -31,8 +31,8 @@ msgid ""
 msgstr ""
 "Si utiliza un verdadero DBMS para mantener sus datos botánicos, "
 "necesitará hacer algo de administración de base de datos. Aunque la "
-"administración de base de datos está fuera del alcance de este "
-"documento, por lo menos alertamos nuestros usuarios de esta necesidad."
+"administración de base de datos está fuera del alcance de este documento,"
+" por lo menos alertamos nuestros usuarios de esta necesidad."
 
 #: ../../administration.rst:11
 msgid ""
@@ -54,8 +54,8 @@ msgid ""
 msgstr ""
 "En Windows está en algún lugar en el directorio ``AppData``, "
 "probablemente en ``AppData\\Roaming\\Bauble``. Tenga en cuenta que "
-"Windows hace todo lo posible para ocultar la estructura de directorios ``"
-"AppData`` a los usuarios normales."
+"Windows hace todo lo posible para ocultar la estructura de directorios "
+"``AppData`` a los usuarios normales."
 
 #: ../../administration.rst:20
 msgid ""
@@ -72,16 +72,18 @@ msgstr "Por favor, consulte la documentación oficial."
 #: ../../administration.rst:31
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
-" your backup options starts at `chapter_24`_."
+" your backup options starts at `chapter 24 "
+"<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 msgstr ""
 "Por favor, consulte la documentación oficial. Una discusión muy completa "
-"de las opciones de copia de seguridad inicia al `chapter_24`_."
+"de las opciones de copia de seguridad inicia al `capítulo 24 "
+"<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 
-#: ../../administration.rst:37
+#: ../../administration.rst:35
 msgid "Ghini Configuration"
 msgstr "Configuración de Ghini"
 
-#: ../../administration.rst:39
+#: ../../administration.rst:37
 msgid ""
 "Ghini uses a configuration file to store values across invocations. This "
 "file is associated to a user account and every user will have their own "
@@ -91,7 +93,7 @@ msgstr ""
 "invocaciones. Este archivo está asociado a una cuenta de usuario y cada "
 "usuario tendrá su propio archivo de configuración."
 
-#: ../../administration.rst:43
+#: ../../administration.rst:41
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in"
 " the text entry area where you normally type your searches, then hit "
@@ -101,7 +103,7 @@ msgstr ""
 "``: prefs`` en el área de entrada de texto donde normalmente se escribe "
 "las búsquedas, luego presione entrar."
 
-#: ../../administration.rst:46
+#: ../../administration.rst:44
 msgid ""
 "You normally do not need tweaking the configuration file, but you can do "
 "so with a normal text editor program. Ghini configuration file is at the "
@@ -112,11 +114,11 @@ msgstr ""
 "configuración Ghini está en la ubicación predeterminada para bases de "
 "datos SQLite."
 
-#: ../../administration.rst:51
+#: ../../administration.rst:49
 msgid "Reporting Errors"
 msgstr "Reportar errores"
 
-#: ../../administration.rst:53
+#: ../../administration.rst:51
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
@@ -124,7 +126,7 @@ msgstr ""
 "Si nota algo inesperado en el comportamiento de Ghini que no le parezca "
 "adecuado, por favor abra un ``issue`` en el sitio de desarrollo de Ghini."
 
-#: ../../administration.rst:56
+#: ../../administration.rst:54
 msgid "Ghini development site can be accessed via the Help menu."
 msgstr "El sitio de desarrollo de Ghini es accesible desde el menú de Ayuda."
 
@@ -5575,7 +5577,9 @@ msgid ""
 " follow this suggested practice, so for example our collection would "
 "include *Zzz-cactacea* or *Zzz-bromeliacea*."
 msgstr ""
-"Con la excepción del ya mencionado género **Zzz**, de la familia Orchidaceae, sí seguimos esta práctica aconsejada, así que por ejemplo nuestra colección incluye *Zzz-cactacea* y *Zzz-bromeliacea*."
+"Con la excepción del ya mencionado género **Zzz**, de la familia "
+"Orchidaceae, sí seguimos esta práctica aconsejada, así que por ejemplo "
+"nuestra colección incluye *Zzz-cactacea* y *Zzz-bromeliacea*."
 
 #: ../../use_cases-jbq.rst:348
 msgid ""
