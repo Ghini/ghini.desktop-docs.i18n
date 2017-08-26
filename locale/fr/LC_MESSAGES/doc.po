@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-25 19:29-0500\n"
+"POT-Creation-Date: 2017-08-26 15:22-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,10 +67,19 @@ msgstr ""
 "fichiers : taper « %AppData% » et appuyez sur Entrez."
 
 #: ../../administration.rst:26
-msgid "Please refer to the official documentation."
-msgstr "Référez-vous à la documentation officielle."
+msgid ""
+"Please refer to the `official documentation <https://mariadb.com/kb/en"
+"/the-mariadb-library/documentation/>`_."
+msgstr ""
 
-#: ../../administration.rst:31
+#: ../../administration.rst:28
+msgid ""
+"Backing up and restoring databases is described in breadth and depth "
+"starting at `this page <https://mariadb.com/kb/en/the-mariadb-library"
+"/backing-up-and-restoring-databases/>`_."
+msgstr ""
+
+#: ../../administration.rst:35
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
 " your backup options starts at `chapter 24 "
@@ -80,11 +89,11 @@ msgstr ""
 "très approfondie de vos options de sauvegarde commence au `chapitre 24 "
 "<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 
-#: ../../administration.rst:35
+#: ../../administration.rst:39
 msgid "Ghini Configuration"
 msgstr "Configuration de Ghini"
 
-#: ../../administration.rst:37
+#: ../../administration.rst:41
 msgid ""
 "Ghini uses a configuration file to store values across invocations. This "
 "file is associated to a user account and every user will have their own "
@@ -95,7 +104,7 @@ msgstr ""
 "d’utilisateur et chaque utilisateur aura son propre fichier de "
 "configuration."
 
-#: ../../administration.rst:41
+#: ../../administration.rst:45
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in"
 " the text entry area where you normally type your searches, then hit "
@@ -105,7 +114,7 @@ msgstr ""
 "``:prefs`` dans la zone de saisie de texte où vous normalement tapez "
 "votre recherche, puis appuyez sur Entrez."
 
-#: ../../administration.rst:44
+#: ../../administration.rst:48
 msgid ""
 "You normally do not need tweaking the configuration file, but you can do "
 "so with a normal text editor program. Ghini configuration file is at the "
@@ -116,11 +125,11 @@ msgstr ""
 "de texte. Le fichier de configuration Ghini est par défaut au même "
 "emplacement que les bases de données SQLite."
 
-#: ../../administration.rst:49
+#: ../../administration.rst:53
 msgid "Reporting Errors"
 msgstr "Signaler les erreurs"
 
-#: ../../administration.rst:51
+#: ../../administration.rst:55
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
@@ -129,7 +138,7 @@ msgstr ""
 "Ghini, s’il vous plaît envisager de déposer un *issue* sur le site de "
 "développement de Ghini."
 
-#: ../../administration.rst:54
+#: ../../administration.rst:58
 msgid "Ghini development site can be accessed via the Help menu."
 msgstr "Le site de développement de Ghini est accessible via le menu aide."
 
@@ -6376,4 +6385,7 @@ msgstr "Ghini permet les autorisations de lecture, d'écriture et d'exécution."
 #~ "in our digital collection, we follow "
 #~ "this suggested practice."
 #~ msgstr ""
+
+#~ msgid "Please refer to the official documentation."
+#~ msgstr "Référez-vous à la documentation officielle."
 
