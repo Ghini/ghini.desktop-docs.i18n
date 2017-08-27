@@ -2594,12 +2594,16 @@ msgid "language agnostic"
 msgstr "агностична мова"
 
 #: ../../goal.rst:275
+#, fuzzy
 msgid ""
 "The program was born in English and all its technical and user "
 "documentation is first written in that language. Both technical and user "
 "documentation use ``gettext``, an advanced tool for semi-automatic "
 "translation."
 msgstr ""
+"Програма народилася в Англії і все "
+"технічне забезпечення і документація "
+"користувача залишається на англійській мові."
 
 #: ../../goal.rst:279
 msgid ""
@@ -2608,6 +2612,12 @@ msgid ""
 "name some Southern American languages, as well as Ukrainian (100%) and "
 "Czech (71%)."
 msgstr ""
+"Програма була переведена і"
+" може використовуватися в різних інших "
+"мовах, включаючи іспанську (97%), "
+"португальську  (71%), французьку (82%), деякі"
+" південно-американські мови, а також "
+"шведська (71%) і чеська (71%)."
 
 #: ../../goal.rst:283
 msgid ""

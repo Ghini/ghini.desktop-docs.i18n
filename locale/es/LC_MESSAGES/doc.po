@@ -2657,6 +2657,10 @@ msgid ""
 "documentation use ``gettext``, an advanced tool for semi-automatic "
 "translation."
 msgstr ""
+"El programa Ghini tuvo origen en Ingles y toda su documentación nace "
+"en ese idioma. Tanto la documentación técnica cuanto para el usuario "
+"se apoyan a ``gettext``, una moderna herramienta para la traducción "
+"semi-automática"
 
 #: ../../goal.rst:279
 msgid ""
