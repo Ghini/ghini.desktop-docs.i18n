@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-26 15:22-0500\n"
+"POT-Creation-Date: 2017-08-27 17:38-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2590,23 +2590,30 @@ msgstr "indépendant du langage"
 #: ../../goal.rst:275
 msgid ""
 "The program was born in English and all its technical and user "
-"documentation is still only in that language, but the program itself has "
-"been translated and can be used in various other languages, including "
-"Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
-"American languages, as well as Swedish (100%) and Czech (100%)."
+"documentation is first written in that language. Both technical and user "
+"documentation use ``gettext``, an advanced tool for semi-automatic "
+"translation."
 msgstr ""
-"Le programme est né en anglais et toute sa documentation technique et "
-"utilisateur n’est encore que dans cette langue, mais le programme "
-"lui-même a été traduit et peut être utilisé en plusieurs autres langues, "
-"y compris espagnol (86 %), portugais (100 %), Français (42 %), pour ne "
-"nommer que quelques langues d’Amérique du Sud, ainsi que les suédois (100"
-" %) et tchèque (100 %)."
 
-#: ../../goal.rst:282
+#: ../../goal.rst:279
+msgid ""
+"The program has been translated and can be used in various other "
+"languages, including Spanish (97%), French (82%), Portuguese (71%), to "
+"name some Southern American languages, as well as Ukrainian (100%) and "
+"Czech (71%)."
+msgstr ""
+
+#: ../../goal.rst:283
+msgid ""
+"Translation of documentation goes a bit slower, with only Ukrainian, "
+"Spanish and Italian at more than 50%."
+msgstr ""
+
+#: ../../goal.rst:287
 msgid "platform agnostic"
 msgstr "indépendant de la plate-forme"
 
-#: ../../goal.rst:284
+#: ../../goal.rst:289
 msgid ""
 "Installing Ghini on Windows is an easy and linear process, it will not "
 "take longer than 10 minutes. Ghini was born on Linux and installing it on"
@@ -2621,11 +2628,11 @@ msgstr ""
 "procédure d’installation de Linux sur n’importe quel ordinateur Apple "
 "récemment, après quelques étapes de préparation."
 
-#: ../../goal.rst:291
+#: ../../goal.rst:296
 msgid "easily updated"
 msgstr "mis à jour facilement"
 
-#: ../../goal.rst:293
+#: ../../goal.rst:298
 msgid ""
 "The installation process will produce an updatable installation, where "
 "updating it will take less than one minute. Depending on the amount of "
@@ -2637,11 +2644,11 @@ msgstr ""
 "commentaires que nous recevons, nous produirons des mises à jour tous les"
 " quelques jours ou une fois dans un certain temps."
 
-#: ../../goal.rst:299
+#: ../../goal.rst:304
 msgid "unit tested"
 msgstr "Testé"
 
-#: ../../goal.rst:301
+#: ../../goal.rst:306
 msgid ""
 "Ghini is continuously and extensively unit tested, something that makes "
 "regression of functionality close to impossible. Every update is "
@@ -2657,7 +2664,7 @@ msgstr ""
 "difficile pour que l'on puisse divulguer quoi que ce soit qui dispose "
 "d’une unité unique défaut d’essai."
 
-#: ../../goal.rst:307
+#: ../../goal.rst:312
 msgid ""
 "Most changes and additions we make, come with some extra unit test, which"
 " defines the behaviour and will make any undesired change easily visible."
@@ -2666,11 +2673,11 @@ msgstr ""
 " essais unité supplémentaire, qui définit le comportement et fera tout "
 "changement intempestif facilement visible."
 
-#: ../../goal.rst:311
+#: ../../goal.rst:316
 msgid "customizable/extensible"
 msgstr ""
 
-#: ../../goal.rst:313
+#: ../../goal.rst:318
 msgid ""
 "Ghini is extensible through plugins and can be customized to suit the "
 "needs of the institution."
@@ -6388,4 +6395,28 @@ msgstr "Ghini permet les autorisations de lecture, d'écriture et d'exécution."
 
 #~ msgid "Please refer to the official documentation."
 #~ msgstr "Référez-vous à la documentation officielle."
+
+#~ msgid ""
+#~ "The program was born in English "
+#~ "and all its technical and user "
+#~ "documentation is still only in that "
+#~ "language, but the program itself has "
+#~ "been translated and can be used in"
+#~ " various other languages, including Spanish"
+#~ " (86%), Portuguese (100%), French (42%),"
+#~ " to name some Southern American "
+#~ "languages, as well as Swedish (100%) "
+#~ "and Czech (100%)."
+#~ msgstr ""
+#~ "Le programme est né en anglais et"
+#~ " toute sa documentation technique et "
+#~ "utilisateur n’est encore que dans cette"
+#~ " langue, mais le programme lui-même a"
+#~ " été traduit et peut être utilisé "
+#~ "en plusieurs autres langues, y compris"
+#~ " espagnol (86 %), portugais (100 %),"
+#~ " Français (42 %), pour ne nommer "
+#~ "que quelques langues d’Amérique du Sud,"
+#~ " ainsi que les suédois (100 %) "
+#~ "et tchèque (100 %)."
 
