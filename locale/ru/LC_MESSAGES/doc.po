@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-08-28 16:21-0500\n"
+"POT-Creation-Date: 2017-09-01 16:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1452,8 +1452,8 @@ msgid ""
 "Type of Material, inferred from the propagation type."
 msgstr ""
 
-#: ../../editing.rst:170 ../../use_cases-jbq.rst:576
-#: ../../use_cases-jbq.rst:611
+#: ../../editing.rst:170 ../../use_cases-jbq.rst:569
+#: ../../use_cases-jbq.rst:604
 msgid "Plant"
 msgstr "Растение"
 
@@ -3753,115 +3753,107 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:41
 msgid ""
-"Adding a new user is a task taking less than a minute, and can be done "
-"either graphically, or from the command line."
+"Since we work using PostgreSQL, the users that Ghini stores in the "
+"database history are the database users, not the system users."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:44
 msgid ""
-"Hit the |loose_png| key, then start typing ``users``, something like this"
-" will appear on your screen:"
+"Each user knows their own password, and only knows that one. Our super-"
+"user, responsible for the database content, also has the 'bauble' "
+"fictional user password, which we only only use to create other users."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:49
 msgid ""
-"Activate the program, unlock the user data, create a new user account, "
-"define the password and write it down on a piece of paper you hand over "
-"to the person."
+"Ghini offers a minimum of user management, accessible from the menu "
+"Tools. It is neither perfect nor complete, but it serves to our needs."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:53
 msgid ""
-"You can achieve the same, possibly faster, from the command line. For "
-"example we add user 'Marta López', account 'mlopez', by invoking the "
-"command and entering your password (to unlock user data), then all "
-"information as required, or leaving it blank:"
+"We do not use account names like `voluntario`, because such accounts do "
+"not help us associate the name to the person."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:60
-msgid ""
-"We do not use account names like \"voluntario\", because such accounts do"
-" not help us associate the name to the person."
-msgstr ""
-
-#: ../../use_cases-jbq.rst:63
+#: ../../use_cases-jbq.rst:56
 msgid "Understanding when to update"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:65
+#: ../../use_cases-jbq.rst:58
 msgid "Updating the system"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:68
+#: ../../use_cases-jbq.rst:61
 msgid ""
 "Ubuntu updates are a lot lighter and easier than with Windows. So "
 "whenever the system suggests an update, we let it do that. Generally, "
 "there's no need to wait during the update nor to reboot after it's done."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:73
+#: ../../use_cases-jbq.rst:66
 msgid "Updating ghini"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:76
+#: ../../use_cases-jbq.rst:69
 msgid ""
 "The first window presented by Ghini looks like this. Normally, you don't "
 "need do anything in this window, just press enter and get into the main "
 "program screen."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:82
+#: ../../use_cases-jbq.rst:75
 msgid ""
 "Occasionally, at the top of the screen an information text will appear, "
 "telling you that a newer version is available on-line."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:87
+#: ../../use_cases-jbq.rst:80
 msgid ""
 "The update procedure is simple, and it depends on the operating system "
 "you use, we're not explaining here again."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:90
+#: ../../use_cases-jbq.rst:83
 msgid ""
 "It is generally a good idea updating the software.  If in doubt, contact "
 "the author, or write to the group."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:93
+#: ../../use_cases-jbq.rst:86
 msgid "understanding ghini initial screen"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:95
+#: ../../use_cases-jbq.rst:88
 msgid "Complete screen"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:98
+#: ../../use_cases-jbq.rst:91
 msgid "At the moment of writing, our initial screen looked like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:102
+#: ../../use_cases-jbq.rst:95
 msgid ""
 "Apart from the main application menu, Ghini offers three special "
 "interface sections with information and tools to explore the database."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:106
+#: ../../use_cases-jbq.rst:99
 msgid "Numeric overview"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:109
+#: ../../use_cases-jbq.rst:102
 msgid ""
 "The table in the right half of the screen presents a summary of all the "
 "registered plants can be observed.  Each entry printed in bold is a link "
 "to the query selecting the corresponding objects."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:115
+#: ../../use_cases-jbq.rst:108
 msgid "Stored queries"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:118
+#: ../../use_cases-jbq.rst:111
 msgid ""
 "The lower half of the right hand side contains a set of stored queries.  "
 "While you can edit them to your liking, our hints include selecting those"
@@ -3869,72 +3861,72 @@ msgid ""
 "the database history."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:125
+#: ../../use_cases-jbq.rst:118
 msgid "Query and action buttons"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:128
+#: ../../use_cases-jbq.rst:121
 msgid ""
 "At the top of this screen you can find the field in which you would enter"
 " your searches."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:133
+#: ../../use_cases-jbq.rst:126
 msgid ""
 "With the |100000000000001C00000020F4C7873186014F2F_png| button, in the "
 "form of a house, you can return from your searches to the main screen."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:136
+#: ../../use_cases-jbq.rst:129
 msgid ""
 "With the |100000000000001B000000207EC6F9075C9D3669_png| button, in the "
 "form of an arrow, you can return to your last search."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:138
+#: ../../use_cases-jbq.rst:131
 msgid ""
 "With the |100000000000001C0000001FB8A1F75F7A5EF877_png| button, in the "
 "form of a gear, you can start the \"Query Builder\", which helps you "
 "compose complex searches in a simple, graphical way."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:143
+#: ../../use_cases-jbq.rst:136
 msgid ""
 "We often have volunteers who only work at the garden for a very short "
 "time. It was with them in mind that we have developed a `hyper-simplified"
 " view <goal.html#hypersimplified-view>`_ on the ghini database structure."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:147 ../../use_cases-jbq.rst:487
-#: ../../use_cases-jbq.rst:504
+#: ../../use_cases-jbq.rst:140 ../../use_cases-jbq.rst:480
+#: ../../use_cases-jbq.rst:497
 msgid "Details"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:150
+#: ../../use_cases-jbq.rst:143
 msgid ""
 "The two figures here show all that our temporary collaborators need to "
 "know."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:153
+#: ../../use_cases-jbq.rst:146
 msgid "Taxonomy & Collection"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:153
+#: ../../use_cases-jbq.rst:146
 msgid "Garden"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:158
+#: ../../use_cases-jbq.rst:151
 msgid ""
 "At times, the program gives error messages. |dontpanic_png|, retry, or "
 "report to the developers."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:161
+#: ../../use_cases-jbq.rst:154
 msgid "Network problems"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:164
+#: ../../use_cases-jbq.rst:157
 msgid ""
 "In order to work, the program needs a stable network connection to the "
 "database server. It can happen: you start the program, and it can't "
@@ -3942,30 +3934,30 @@ msgid ""
 "very badly typeset error message."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:171
+#: ../../use_cases-jbq.rst:164
 msgid "Just ignore it and try again."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:173
+#: ../../use_cases-jbq.rst:166
 msgid "Search fails with error"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:176
+#: ../../use_cases-jbq.rst:169
 msgid ""
 "Sometimes and without any apparent cause, a search will not run "
 "successfully, and a window with an error message will be displayed. In "
 "this case you only have to try to perform the same search again."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:181
+#: ../../use_cases-jbq.rst:174
 msgid "An example of such an error message:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:185
+#: ../../use_cases-jbq.rst:178
 msgid "Search does not return something I just inserted"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:188
+#: ../../use_cases-jbq.rst:181
 msgid ""
 "Accession codes starting with zero and composed of just numbers, as for "
 "example ``016489`` are considered by the software as numbers, so if you "
@@ -3973,93 +3965,93 @@ msgid ""
 " and the value will not be found."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:193
+#: ../../use_cases-jbq.rst:186
 msgid "Try again, but enclose your search string in single or double quotes."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:197
+#: ../../use_cases-jbq.rst:190
 msgid "Number on the label"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:197
+#: ../../use_cases-jbq.rst:190
 msgid "corresponding search"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:202
+#: ../../use_cases-jbq.rst:195
 msgid ""
 "Please note: when you look for a Plant code, not an Accession, the "
 "leading zero becomes optional, so in the above example it's maybe easier "
 "to type ``16489.1``."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:206
+#: ../../use_cases-jbq.rst:199
 msgid ""
 "A serious situation happened once, and we absolutely want to prevent it "
 "from happening again: a user deleted a genus, with everything that was "
 "below it, species and accessions, and synonyms."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:210
+#: ../../use_cases-jbq.rst:203
 msgid "Solving it with user permissions"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:213
+#: ../../use_cases-jbq.rst:206
 msgid ""
 "We propose to have different connection profiles, associated to different"
 " database users, each user with all needed permissions."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:217
+#: ../../use_cases-jbq.rst:210
 msgid "Full permission (BD-JBQ)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:217
+#: ../../use_cases-jbq.rst:210
 msgid "Only qualified personnel get this kind of access."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:222
+#: ../../use_cases-jbq.rst:215
 msgid "Insert and update (BD-JBQ-limitado)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:220
+#: ../../use_cases-jbq.rst:213
 msgid ""
 "We use this one for those users who come help us for a limited time, and "
 "who did not get a complete introduction to database concepts. It is meant"
 " to prevent costly mistakes."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:225
+#: ../../use_cases-jbq.rst:218
 msgid "Read only (BD-JBQ-lectura)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:225
+#: ../../use_cases-jbq.rst:218
 msgid "it can be shared with anyone visiting the garden"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:227
+#: ../../use_cases-jbq.rst:220
 msgid ""
 "You select the connection at start-up, and the software asks you for the "
 "password corresponding to the connection you selected."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:232
+#: ../../use_cases-jbq.rst:225
 msgid ""
 "If you want to review the details of the connection, click on the ▶ next "
 "to 'Connection Details', it will change to ▼, and the connection window "
 "will be displayed as one of the following:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:240
+#: ../../use_cases-jbq.rst:233
 msgid ""
 "As you can see, we are connecting to the same database server, each "
 "connection uses the same database on the server, but with different user."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:244
+#: ../../use_cases-jbq.rst:237
 msgid "Thinking further about it"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:247
+#: ../../use_cases-jbq.rst:240
 msgid ""
 "On the other hand, we are questioning if it is at all appropriate, "
 "letting any user delete something at such high level as a family, or a "
@@ -4067,24 +4059,24 @@ msgid ""
 "collection."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:252
+#: ../../use_cases-jbq.rst:245
 msgid ""
 "The ghini way to question the software features, is by opening a "
 "`corresponding issue "
 "<https://github.com/Ghini/ghini.desktop/issues/218>`_."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:256
+#: ../../use_cases-jbq.rst:249
 msgid ""
 "When contacting the developers, they will definitely ask for technical "
 "information, or at least to see a screen-shot.  Help them help you."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:259
+#: ../../use_cases-jbq.rst:252
 msgid "Taking a screen-shot"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:262
+#: ../../use_cases-jbq.rst:255
 msgid ""
 "On Linux there are three ways to create a screen-shot, all involve "
 "hitting the 'PrtSc' key.  The most practical one is possibly hitting the "
@@ -4094,55 +4086,55 @@ msgid ""
 " chat line where the developers are trying to help you."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:270
+#: ../../use_cases-jbq.rst:263
 msgid "Where are the logs"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:273
+#: ../../use_cases-jbq.rst:266
 msgid ""
 "Ghini continuously saves a very informative log file, in the "
 "``~/.bauble/bauble.log`` file.  Don't bother opening it, just send it "
 "over.  It contains loads of technical information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:277
+#: ../../use_cases-jbq.rst:270
 msgid "Continuous unmanned alerting"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:280
+#: ../../use_cases-jbq.rst:273
 msgid ""
 "An other option is to activate the sentry handler. It will notify our "
 "sentry server of any serious situations in the software.  If you "
 "registered, the developers will know how to contact you if necessary."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:285
+#: ../../use_cases-jbq.rst:278
 msgid ""
 "To the healthy paranoid: we're not monitoring what you're doing, we're "
 "monitoring how our software works.  You can always opt out."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:288
+#: ../../use_cases-jbq.rst:281
 msgid ""
 "You activate the Sentry handler in the ``:prefs`` page: look for the row "
 "with name ``bauble.use_sentry_handler``, if the value is not what you "
 "wish, double click on the line and it will change to the other value."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:294
+#: ../../use_cases-jbq.rst:287
 msgid "Taxonomy"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:296
+#: ../../use_cases-jbq.rst:289
 #, fuzzy
 msgid "Introduction"
 msgstr "Администрация"
 
-#: ../../use_cases-jbq.rst:298
+#: ../../use_cases-jbq.rst:291
 msgid "Orchidaceae taxonomic complexity"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:301
+#: ../../use_cases-jbq.rst:294
 msgid ""
 "At the JBQ, we work most of all with orchids, family Orchidaceae, one of "
 "the largest plant families, with no less than 850 genera, organized "
@@ -4151,7 +4143,7 @@ msgid ""
 "be explained."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:306
+#: ../../use_cases-jbq.rst:299
 msgid ""
 "The taxonomy of the Orchidaceae family is continuously being reviewed. "
 "Genera get added, refused, reorganized, recognized as synonyms, some "
@@ -4162,15 +4154,15 @@ msgid ""
 "stored in our Ghini database."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:314
+#: ../../use_cases-jbq.rst:307
 msgid "Identifying at rank Genus, or Family"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:316
+#: ../../use_cases-jbq.rst:309
 msgid "At rank genus"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:319
+#: ../../use_cases-jbq.rst:312
 msgid ""
 "Ghini-1.0 prescribes that an accession is identified at rank species, in "
 "all cases. The current maintainer acknowledges that this is a mistake, "
@@ -4179,7 +4171,7 @@ msgid ""
 "practices."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:325
+#: ../../use_cases-jbq.rst:318
 msgid ""
 "If an accession is identified at rank genus, we add a fictive species in "
 "that genus, we don't specify its species epithet (we don't know that) and"
@@ -4187,15 +4179,15 @@ msgid ""
 "like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:332
+#: ../../use_cases-jbq.rst:325
 msgid "When displayed in a search result, it shows like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:336
+#: ../../use_cases-jbq.rst:329
 msgid "At rank family"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:339
+#: ../../use_cases-jbq.rst:332
 msgid ""
 "If an accession is only identified at rank family, we need a fictive "
 "genus, to which we can add the fictive species. Since our garden is "
@@ -4203,7 +4195,7 @@ msgid ""
 " the fictive genus within the family, like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:346
+#: ../../use_cases-jbq.rst:339
 msgid ""
 "The current maintainer suggests to use the prefix **Zzz-** and behind the"
 " prefix to write the family name, possibly removing the trailing **e**.  "
@@ -4211,118 +4203,118 @@ msgid ""
 "include genus names when you as for stuff ending in **aceae**."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:352
+#: ../../use_cases-jbq.rst:345
 msgid ""
 "Apart from the aforementioned **Zzz** genus in the Orchidaceae family, we"
 " follow this suggested practice, so for example our collection would "
 "include *Zzz-cactacea* or *Zzz-bromeliacea*."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:356
+#: ../../use_cases-jbq.rst:349
 msgid ""
 "Remember: our **Zzz** genus is a fictive genus in the **Orchidaceae** "
 "family, do not use it as unspecified genus in other families."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:360
+#: ../../use_cases-jbq.rst:353
 msgid ""
 "Identifying at a rank that is not allowed by the software (eg: Subtribe, "
 "or Subfamily)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:362
+#: ../../use_cases-jbq.rst:355
 msgid "At rank subtribe"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:365
+#: ../../use_cases-jbq.rst:358
 msgid ""
 "We sometimes can't identify a taxon at rank genus, but we do manage to be"
 " more precise than just \"it's an orchid\". Quite often we are able to "
 "indicate the subtribe, this is useful when you want to produce hybrids."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:370
+#: ../../use_cases-jbq.rst:363
 msgid ""
 "The software does not let us store ranks which are intermediate between "
 "family and genus, so we need to invent something, and this is what we do:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:374
+#: ../../use_cases-jbq.rst:367
 msgid ""
 "We insert a fictive genus, naming it as the subtribe, prefixing it with "
 "'Zzx-', like in this example:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:379
+#: ../../use_cases-jbq.rst:372
 msgid "This Zzx-Laeliinae is some genus in the Laeliinae subtribe."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:381
+#: ../../use_cases-jbq.rst:374
 msgid ""
 "In order to be able to select genera by subtribe, we also add a note to "
 "the Zzx-Laeliinae fictive genus as well as for all real genera in that "
 "subtribe, note category subtribus, note value the subtribe name."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:386
+#: ../../use_cases-jbq.rst:379
 msgid "This allows for queries like:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:390
+#: ../../use_cases-jbq.rst:383
 msgid ""
 "We are very much looking forward to seeing that `issue-9 "
 "<https://github.com/Bauble/bauble.classic/issues/9>`_ solved!"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:393
+#: ../../use_cases-jbq.rst:386
 msgid "At rank subfamily, tribe"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:396
+#: ../../use_cases-jbq.rst:389
 msgid ""
 "Just as we reserved the prefix Zzx- for subtribe, we reserve the prefixes"
 " Zzy- for tribe, Zzw- for subfamily."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:399
+#: ../../use_cases-jbq.rst:392
 msgid ""
 "In particular, the subfamily information is relevant, because there are "
 "subfamilies within the Orchidaceae family which are not further "
 "separated."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:403
+#: ../../use_cases-jbq.rst:396
 msgid "Editing the Accession identification - the Species details"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:405
+#: ../../use_cases-jbq.rst:398
 msgid "Placeholder species for individual accessions"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:408
+#: ../../use_cases-jbq.rst:401
 msgid ""
 "Scenario one describes the identification of a single accession, which "
 "had been associated to a \"generic\", placeholder species, something like"
 " “*Zzz* sp” or “*Vanda* sp”;"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:412
+#: ../../use_cases-jbq.rst:405
 msgid ""
 "In this case, when the plant species becomes known, we change the "
 "association in the accession, selecting a different species."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:417
+#: ../../use_cases-jbq.rst:410
 msgid ""
 "We do not edit the species, because there might be totally unrelated "
 "accessions connected to the same placeholder species."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:420
+#: ../../use_cases-jbq.rst:413
 msgid "Unknown species for multiple accessions"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:423
+#: ../../use_cases-jbq.rst:416
 msgid ""
 "A different case is when we have a whole batch of accessions, all "
 "obviously the same species, but we haven't been able to identify it. In "
@@ -4331,87 +4323,87 @@ msgid ""
 " name, who made the association."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:429
+#: ../../use_cases-jbq.rst:422
 msgid ""
 "A species like “*Vanda* sp-018599” is not a placeholder species, it is a "
 "very concrete species, which we haven't yet identified."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:434
+#: ../../use_cases-jbq.rst:427
 msgid ""
 "In this case, when the species gets identified (and it could even be a "
 "species nova), we directly edit the species, so all accessions that refer"
 " to it get the change."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:438
+#: ../../use_cases-jbq.rst:431
 msgid "A new plants is relative to a species not yet in our collection."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:440
+#: ../../use_cases-jbq.rst:433
 msgid "Last minute species"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:443
+#: ../../use_cases-jbq.rst:436
 msgid ""
 "We start this from the Accession window and it's very simple, just click "
 "on the **+** next to the species name, we get into the Species window."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:447
+#: ../../use_cases-jbq.rst:440
 msgid "Adding a species and using online taxonomic services"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:449
+#: ../../use_cases-jbq.rst:442
 msgid "Adding a new species — the plant list."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:452
+#: ../../use_cases-jbq.rst:445
 msgid ""
 "We start the obvious way: type the genus epithet, possibly select it from"
 " the completion list, then type the species epithet, or at least your "
 "best guess."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:458
+#: ../../use_cases-jbq.rst:451
 msgid ""
 "Next to the species epithet field there's a small button, |green_ball|, "
 "which connects us to the plant list.  Click on it, a message area appears"
 " at the top of the window."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:464
+#: ../../use_cases-jbq.rst:457
 msgid ""
 "Depending on the speed of your internet connection, but also on how close"
 " your best guess is to a correct published name, the top area will change"
 " to something like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:470
+#: ../../use_cases-jbq.rst:463
 msgid "Accept the hint and it will be as if you had typed the data yourself."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:474
+#: ../../use_cases-jbq.rst:467
 msgid "Reviewing a whole selection — TNRS."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:477
+#: ../../use_cases-jbq.rst:470
 msgid ""
 "This is described in the manual, it's extremely useful, don't forget "
 "about it."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:482
+#: ../../use_cases-jbq.rst:475
 msgid "Let the database fit the garden"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:484
+#: ../../use_cases-jbq.rst:477
 msgid ""
 "A never-ending task is reviewing what we have in the garden and have it "
 "match what we have in the database."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:490
+#: ../../use_cases-jbq.rst:483
 msgid ""
 "When we adopted ghini, we imported into it all that was properly "
 "described in a filemaker database. That database focused solely on "
@@ -4420,7 +4412,7 @@ msgid ""
 "database."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:496
+#: ../../use_cases-jbq.rst:489
 msgid ""
 "From time to time, we manage to get resources to review the garden, "
 "comparing it to the collection in the database, and the main activity is "
@@ -4429,51 +4421,51 @@ msgid ""
 "remainder of this section."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:502
+#: ../../use_cases-jbq.rst:495
 msgid "Naming convention in garden locations"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:508
+#: ../../use_cases-jbq.rst:501
 msgid "description"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:510
+#: ../../use_cases-jbq.rst:503
 msgid "Reserved to cactus plants next to the orchids exposition glasshouses."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:513
+#: ../../use_cases-jbq.rst:506
 msgid "Nepenthaceae exibition"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:515
+#: ../../use_cases-jbq.rst:508
 msgid ""
 "orquidearios de calor en el jardín (1A a 9C son lugares especificos entre"
 " del orquideario)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:518
+#: ../../use_cases-jbq.rst:511
 msgid ""
 "orquidearios de frío en el jardín (1A a 5I son lugares específicos dentro"
 " del orquideario)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:521
+#: ../../use_cases-jbq.rst:514
 msgid "invernadero 1 (calor)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:523
+#: ../../use_cases-jbq.rst:516
 msgid "invernadero 2 (frío)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:525
+#: ../../use_cases-jbq.rst:518
 msgid "invernadero 3 (calor)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:528
+#: ../../use_cases-jbq.rst:521
 msgid "Adding an Accession for a Plant"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:530
+#: ../../use_cases-jbq.rst:523
 msgid ""
 "Obviously we keep increasing our collection, with plants coming from "
 "commercial sources, or collected from the wild, more rarely coming from "
@@ -4481,48 +4473,48 @@ msgid ""
 "were illegally collected."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:535
+#: ../../use_cases-jbq.rst:528
 msgid ""
 "Sometimes we have to add plants to the digital collection, just because "
 "we have them physically, found in the garden, with or without its label, "
 "but without their digital counterpart."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:539
+#: ../../use_cases-jbq.rst:532
 msgid "Existing plant, found in the garden with its own label"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:542
+#: ../../use_cases-jbq.rst:535
 msgid ""
 "This activity starts with a plant, which was found at a specific garden "
 "location, an accession label, and the knowledge that the accession code "
 "is not in the database."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:554
+#: ../../use_cases-jbq.rst:547
 msgid ""
 "For this example, let's assume we are going to insert this information in"
 " the database."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:558
+#: ../../use_cases-jbq.rst:551
 #, fuzzy
 msgid "Accession"
 msgstr "Полномочия"
 
-#: ../../use_cases-jbq.rst:558
+#: ../../use_cases-jbq.rst:551
 msgid "Species"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:558
+#: ../../use_cases-jbq.rst:551
 msgid "Location"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:560
+#: ../../use_cases-jbq.rst:553
 msgid "Invernadero 1 (calor)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:563
+#: ../../use_cases-jbq.rst:556
 msgid ""
 "We go straight into the Accession Editor, start typing the species name "
 "in the corresponding field.  Luckily, the species was already in the "
@@ -4530,66 +4522,66 @@ msgid ""
 "field."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:570
+#: ../../use_cases-jbq.rst:563
 msgid ""
 "We select the correct species, and we fill in a couple more fields, "
 "leaving the rest to the default values:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:574 ../../use_cases-jbq.rst:609
+#: ../../use_cases-jbq.rst:567 ../../use_cases-jbq.rst:602
 msgid "Accession ID"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:574 ../../use_cases-jbq.rst:609
+#: ../../use_cases-jbq.rst:567 ../../use_cases-jbq.rst:602
 msgid "Type of Material"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:574 ../../use_cases-jbq.rst:609
+#: ../../use_cases-jbq.rst:567 ../../use_cases-jbq.rst:602
 msgid "Quantity"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:574
+#: ../../use_cases-jbq.rst:567
 msgid "Provenance"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:576
+#: ../../use_cases-jbq.rst:569
 msgid "Unknown"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:579 ../../use_cases-jbq.rst:614
+#: ../../use_cases-jbq.rst:572 ../../use_cases-jbq.rst:607
 msgid ""
 "After this, we continue to the Plant editor, by clicking on **Add "
 "Plants**."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:582
+#: ../../use_cases-jbq.rst:575
 msgid ""
 "We do not fill in the Accession's \"**Intended Locations**\", because we "
 "don't know what was the original intention when the plant was first "
 "acquired."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:586
+#: ../../use_cases-jbq.rst:579
 msgid ""
 "In the Plant Editor, we insert the Quantity and the Location.  And we're "
 "done."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:589
+#: ../../use_cases-jbq.rst:582
 msgid "The plant is now part of the database:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:593
+#: ../../use_cases-jbq.rst:586
 msgid "New accession: plant just entering the garden"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:596
+#: ../../use_cases-jbq.rst:589
 msgid ""
 "This activity starts with a new Plant, just acquired from a known Source,"
 " a plant label, and an intended Location in the garden."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:599
+#: ../../use_cases-jbq.rst:592
 msgid ""
 "We mostly do the same as for the case that a plant is found in the "
 "garden, there are two differences: (1) we know the source of the plant; "
@@ -4597,36 +4589,36 @@ msgid ""
 "at a specific location in the garden."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:604
+#: ../../use_cases-jbq.rst:597
 msgid ""
 "Again, we go straight into the Accession Editor, start typing the species"
 " and we either select if from the completion list or we add it on the "
 "fly."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:609
+#: ../../use_cases-jbq.rst:602
 msgid "Source"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:611
+#: ../../use_cases-jbq.rst:604
 msgid "specified"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:617
+#: ../../use_cases-jbq.rst:610
 msgid "In the Plant Editor, we insert the Quantity and the Location."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:619
+#: ../../use_cases-jbq.rst:612
 msgid ""
 "Please note that the plant may be initially placed in a greenhouse, "
 "before it reaches its intended location in the garden."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:622
+#: ../../use_cases-jbq.rst:615
 msgid "Existing plant, found in the garden without its label"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:625
+#: ../../use_cases-jbq.rst:618
 msgid ""
 "When this happens, we can't be sure the plant had never been in the "
 "collection, so we act as if we were re-labeling the plant.  This is "
@@ -4634,7 +4626,7 @@ msgid ""
 "accession."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:630
+#: ../../use_cases-jbq.rst:623
 msgid ""
 "When we physically associate a label to a plant, there's always the "
 "chance that something happens either to the plant (it may die) or to the "
@@ -4642,38 +4634,38 @@ msgid ""
 "separated). We have software-aided protocols for these events."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:635
+#: ../../use_cases-jbq.rst:628
 msgid "We find a dead plant"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:638
+#: ../../use_cases-jbq.rst:631
 msgid ""
 "Whenever a plant is found dead, we collect its label and put it in a box "
 "next to the main data insertion terminal, the box is marked “dead "
 "plants”."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:641
+#: ../../use_cases-jbq.rst:634
 msgid ""
 "Definitely at least once a week, the box is emptied and the database is "
 "updated with this information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:644
+#: ../../use_cases-jbq.rst:637
 msgid ""
 "Dead plants aren't *removed* from the database, they stay there but get a"
 " **quantity** zero. If the cause of death is known, this is also written "
 "in the database."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:648
+#: ../../use_cases-jbq.rst:641
 msgid ""
 "Please once again remember that a **Plant** is not an **Accession** and "
 "please remember we do not remove objects from the database, we just add "
 "to their history."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:652
+#: ../../use_cases-jbq.rst:645
 msgid ""
 "Insert the complete plant code (something like ``012345.1``, or "
 "``2017.0001.3``, and you don't need leading zeros nor quotes), right "
@@ -4681,50 +4673,50 @@ msgid ""
 "quantity to 0, fill in the reason and preferably also the date of change."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:657
+#: ../../use_cases-jbq.rst:650
 msgid ""
 "If you need add any details about the plant death, please use a **note**,"
 " and re-use the note category \"death_cause\"."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:660
+#: ../../use_cases-jbq.rst:653
 msgid ""
 "Plants with **quantity** zero are shown with a different colour in the "
 "results view.  This helps distinguish them from live plants."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:663
+#: ../../use_cases-jbq.rst:656
 msgid "We find a plant without a label"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:666
+#: ../../use_cases-jbq.rst:659
 msgid ""
 "We can't be sure the plant had ever been in the collection or not. We "
 "assume it had, and that its label was lost."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:669
+#: ../../use_cases-jbq.rst:662
 msgid ""
 "Losing a plant label is unfortunate, but it just sometimes happens. What "
 "we do is to put a new label to the plant, and to clearly state that the "
 "label is a replacement of an original one."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:673
+#: ../../use_cases-jbq.rst:666
 msgid ""
 "We then handle the case as if it was a new accession, plus we add a note "
 "to the accession, category “label”, text “relabeled”."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:677
+#: ../../use_cases-jbq.rst:670
 msgid "Keeping track of different sources of plant material"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:679
+#: ../../use_cases-jbq.rst:672
 msgid "What different sources we can have"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:682
+#: ../../use_cases-jbq.rst:675
 msgid ""
 "In this botanical garden, we receive plants from different types of "
 "origin. It could be from expeditions (plants coming from nature, "
@@ -4734,11 +4726,11 @@ msgid ""
 "(usually coming from MAE raids around the country)."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:690
+#: ../../use_cases-jbq.rst:683
 msgid "If the plant comes from a wild source"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:693
+#: ../../use_cases-jbq.rst:686
 msgid ""
 "The accession editor offers the option \"origin\" option. When a plant is"
 " traceable to a wild source, we can specified its specific origin. We "
@@ -4746,34 +4738,34 @@ msgid ""
 "standard. The ITF2 complying options are:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:698
+#: ../../use_cases-jbq.rst:691
 msgid "Wild: Accession of wild source."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:699
+#: ../../use_cases-jbq.rst:692
 msgid "Cultivated: Propagule(s) from a wild source plant."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:700
+#: ../../use_cases-jbq.rst:693
 msgid "Not Wild: Accession not traceable to a wild source."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:701
+#: ../../use_cases-jbq.rst:694
 msgid "Insufficient data"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:703
+#: ../../use_cases-jbq.rst:696
 msgid ""
 "In the case of a donated plant, it is better to put detail information "
 "just as a note in the plant accession; in the case of a plant with an "
 "unknown origin, we select the Insufficient data option."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:707
+#: ../../use_cases-jbq.rst:700
 msgid "Using the source tab in the accession editor"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:710
+#: ../../use_cases-jbq.rst:703
 msgid ""
 "In this section we can create or use a contact, our source of plant "
 "material. It could be from an expedition to a collecting place, and in "
@@ -4782,7 +4774,7 @@ msgid ""
 "plants."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:718
+#: ../../use_cases-jbq.rst:711
 msgid ""
 "Once you choose or create the contact information, this section deploys "
 "more options, here you can specify the region, where you can choose the "
@@ -4792,11 +4784,11 @@ msgid ""
 "date next to the collector name (eg. Luis Baquero 11/10/2016)."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:726
+#: ../../use_cases-jbq.rst:719
 msgid "Donated, bought or confiscated plants"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:729
+#: ../../use_cases-jbq.rst:722
 msgid ""
 "However useful for expeditions or for donors where the main information "
 "is geographic, this source tab is not very practical in our remaining "
@@ -4805,108 +4797,108 @@ msgid ""
 "not apply: too much information and not to the point."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:735
+#: ../../use_cases-jbq.rst:728
 msgid "In these cases, we add a set of notes, according to the case."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:737
+#: ../../use_cases-jbq.rst:730
 msgid "— Donated plants"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:740
+#: ../../use_cases-jbq.rst:733
 msgid ""
 "If the plant was donated by individual, we add the individual among our "
 "contacts and specify it as source, then we add the notes:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:744 ../../use_cases-jbq.rst:757
-#: ../../use_cases-jbq.rst:771
+#: ../../use_cases-jbq.rst:737 ../../use_cases-jbq.rst:750
+#: ../../use_cases-jbq.rst:764
 msgid "category"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:744 ../../use_cases-jbq.rst:757
-#: ../../use_cases-jbq.rst:771
+#: ../../use_cases-jbq.rst:737 ../../use_cases-jbq.rst:750
+#: ../../use_cases-jbq.rst:764
 msgid "text"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:746
+#: ../../use_cases-jbq.rst:739
 msgid "gift"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:747
+#: ../../use_cases-jbq.rst:740
 msgid "Contribución científica al JBQ"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:750
+#: ../../use_cases-jbq.rst:743
 msgid "— Bought plants"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:753
+#: ../../use_cases-jbq.rst:746
 msgid ""
 "If the plant was bought, we add the previous owner among our contacts and"
 " specify it as source, then we add the notes:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:759
+#: ../../use_cases-jbq.rst:752
 msgid "purchase"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:760
+#: ../../use_cases-jbq.rst:753
 msgid "optional, free text"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:761
+#: ../../use_cases-jbq.rst:754
 msgid "the invoice number"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:764
+#: ../../use_cases-jbq.rst:757
 msgid "— Confiscated plants"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:767
+#: ../../use_cases-jbq.rst:760
 msgid ""
 "If the plant was confiscated, we add the previous owner among our "
 "contacts and specify it as source, then we add the notes:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:773
+#: ../../use_cases-jbq.rst:766
 msgid "confiscated"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:774
+#: ../../use_cases-jbq.rst:767
 msgid "possibly, legal details, law number ..."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:778
+#: ../../use_cases-jbq.rst:771
 msgid "Producing or reproducing labels"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:780
+#: ../../use_cases-jbq.rst:773
 msgid "Refreshing plant labels"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:783
+#: ../../use_cases-jbq.rst:776
 msgid ""
 "Sometimes we refresh the labels, for example all that is in a greenhouse,"
 " or maybe just a set of plants because their labels risk becoming "
 "unreadable."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:787
+#: ../../use_cases-jbq.rst:780
 msgid ""
 "In the first case it's easy selecting all plants in the Location, we just"
 " type the location name, or give the search ``location like <location "
 "name>``."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:791
+#: ../../use_cases-jbq.rst:784
 msgid ""
 "The second case it's a bit trickier.  What we do is to create a temporary"
 " **Tag**, and use it to tag all plants that were found in need for a new "
 "label."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:795
+#: ../../use_cases-jbq.rst:788
 msgid ""
 "Given the selection, we start the report tool, using the mako "
 "``accession-label.svg`` template.  We reset its options to default "
@@ -4914,18 +4906,18 @@ msgid ""
 "``black`` instead of ``blue``, which is meant for engraving."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:800
+#: ../../use_cases-jbq.rst:793
 msgid "Preparing labels for non-database plants"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:803
+#: ../../use_cases-jbq.rst:796
 msgid ""
 "To prepare the batch of 72 labels, we use a mako report template, named "
 "``accession-label.svg``.  This template accepts parameters, this is an "
 "example that would produce labels from 025801 all the way to 025872."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:810
+#: ../../use_cases-jbq.rst:803
 msgid ""
 "Labels come for us in two flavours: (1) either new plants just being "
 "acquired by the garden; (2) or plants in the garden, found without a "
@@ -4933,11 +4925,11 @@ msgid ""
 "relabeled plants."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:815
+#: ../../use_cases-jbq.rst:808
 msgid "We keep two boxes with labels of the two types, ready to be used."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:817
+#: ../../use_cases-jbq.rst:810
 msgid ""
 "Our garden has two exposition greenhouses, and several warm and cold "
 "greenhouses where we keep the largest part of our collection.  Plants are"
@@ -4947,17 +4939,17 @@ msgid ""
 "movements."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:823
+#: ../../use_cases-jbq.rst:816
 msgid "Planned action"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:826
+#: ../../use_cases-jbq.rst:819
 msgid ""
 "The action starts by moving the plants around, and collecting the plant "
 "code either on paper, or in our mobile app, if we had one."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:829
+#: ../../use_cases-jbq.rst:822
 msgid ""
 "We then go to the desktop terminal and revise all plants one by one "
 "changing their location in the database.  It is important that the date "
@@ -4965,37 +4957,37 @@ msgid ""
 "long a plant stays in the exposition."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:834
+#: ../../use_cases-jbq.rst:827
 msgid ""
 "If we had a mobile app, we would just upload the info to the server and "
 "we would be done."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:837
+#: ../../use_cases-jbq.rst:830
 msgid "Ex-post correction"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:840
+#: ../../use_cases-jbq.rst:833
 msgid ""
 "While revising the garden, we find a plant at a location that is not what"
 " the database says.  We update the database information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:843
+#: ../../use_cases-jbq.rst:836
 msgid ""
 "For example, the plant belonging to accession “012142”, species "
 "“*Acineta* sp”, was found in “Invernadero 1”, while the database says it "
 "is in “ICAlm3”."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:846
+#: ../../use_cases-jbq.rst:839
 msgid ""
 "All we do is find the Plant in the database and update its information.  "
 "We do not change anything in the initial Accession information, just the "
 "current Plant information."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:850
+#: ../../use_cases-jbq.rst:843
 msgid ""
 "We type the accession code in the search entry field, with quotes, hit "
 "enter. The search results now shows the accession, and it tells us how "
@@ -5003,38 +4995,38 @@ msgid ""
 " so we now also see a row for the plant belonging to the accession."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:855
+#: ../../use_cases-jbq.rst:848
 msgid ""
 "Right click on the Plant row, the three options will show: “Edit, Split, "
 "Delete”, select Edit, you land in the Plant Editor."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:858
+#: ../../use_cases-jbq.rst:851
 msgid "Just correct the Location field, and click on OK."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:860
+#: ../../use_cases-jbq.rst:853
 msgid "The InfoBox contains information about the last change to the object:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:865
+#: ../../use_cases-jbq.rst:858
 msgid ""
 "For plants, even more interesting, it builds a history of changes, list "
 "that includes Location changes, or Quantity changes."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:870
+#: ../../use_cases-jbq.rst:863
 msgid ""
 "As plants enter the flowering stage, we can review their identification "
 "directly, or we take pictures of details of the flower, hoping that a "
 "visiting specialist could help completing the identification."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:874
+#: ../../use_cases-jbq.rst:867
 msgid "Adding pictures"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:877
+#: ../../use_cases-jbq.rst:870
 msgid ""
 "We are practicing with ODK Collect, a small program running on hand-held "
 "android devices.  Ghini's use of ODK Collect hasn't yet frozen to a best "
@@ -5042,78 +5034,78 @@ msgid ""
 "<https://github.com/Ghini/ghini.desktop/issues/243>`_ on github."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:883
+#: ../../use_cases-jbq.rst:876
 msgid ""
 "Regularly, we need producing reports about our collection that the "
 "Ecuadorian Environment Ministry (MAE) requires and that justify the very "
 "existence of the garden."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:887
+#: ../../use_cases-jbq.rst:880
 #, fuzzy
 msgid "Producing reports"
 msgstr "Создается отчет"
 
-#: ../../use_cases-jbq.rst:890
+#: ../../use_cases-jbq.rst:883
 msgid ""
 "Each year the botanic garden has to submit a report (annual report of "
 "management and maintenance of orchids collection) complying to the "
 "requirements of the Ecuadorian Ministry of the Environment."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:894
+#: ../../use_cases-jbq.rst:887
 msgid ""
 "To this end, we start selecting the plants we have to include in the "
 "report. It might be all acquisition in the past year::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:899
+#: ../../use_cases-jbq.rst:892
 msgid ""
 "or all plants within a location, or all plants belonging to a species, or"
 " just everything (but this will take time)::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:906
+#: ../../use_cases-jbq.rst:899
 msgid ""
 "Having selected the database objects which we want in the report, we "
 "start the report tool, which acts on the selection."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:910
+#: ../../use_cases-jbq.rst:903
 msgid "Searching the database"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:912
+#: ../../use_cases-jbq.rst:905
 msgid ""
 "You search the database in order to edit the data further, or because you"
 " want to produce a report. Anyway you start with typing something in the "
 "search field"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:918
+#: ../../use_cases-jbq.rst:911
 msgid "and you hope to see your result in the search result view."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:920
+#: ../../use_cases-jbq.rst:913
 msgid "Search in order to edit (plant or accession)"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:923
+#: ../../use_cases-jbq.rst:916
 msgid ""
 "When searching in order to edit, you want to be very specific, and select"
 " as few objects as possible. The most fine-tuned search is the one based "
 "on plant number: you know the code, you get one object."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:927
+#: ../../use_cases-jbq.rst:920
 msgid "If your plant is not there, the screen would look like this:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:931
+#: ../../use_cases-jbq.rst:924
 msgid "Other example, plant ``007701.1`` is in the database:"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:935
+#: ../../use_cases-jbq.rst:928
 msgid ""
 "All fields with a darker background in the infobox on the right hand side"
 " are hyperlinks to other objects in the database. Clicking on them will "
@@ -5121,28 +5113,28 @@ msgid ""
 "will simply add the object to the results."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:940
+#: ../../use_cases-jbq.rst:933
 msgid "Clicking on the accession does the latter."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:944
+#: ../../use_cases-jbq.rst:937
 msgid ""
 "We now have both Plant or Accession in the search result view and we can "
 "now edit either or both."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:947
+#: ../../use_cases-jbq.rst:940
 msgid "Search in order to report"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:950
+#: ../../use_cases-jbq.rst:943
 msgid ""
 "When searching in order to create a report, you want to be both specific "
 "(you don't want to report about irrelevant objects) and broad (you don't "
 "want to report about a single object)."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:954
+#: ../../use_cases-jbq.rst:947
 msgid ""
 "Sometimes the report itself suggests the query, as for example: all "
 "plants in greenhouse 3; or: all plants belonging to endangered species "
@@ -5150,52 +5142,52 @@ msgid ""
 "plants added to the collection this year; ::"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:963
+#: ../../use_cases-jbq.rst:956
 msgid "Otherwise a flexible way to achieve this is to work with **Tags**."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:965
+#: ../../use_cases-jbq.rst:958
 msgid "Using **Tags** as enhanced searching"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:968
+#: ../../use_cases-jbq.rst:961
 msgid ""
 "Sometimes we have to take the same action on objects of the same type, "
 "but we don't manage to quickly think of a search query that would group "
 "all that we need and exclude all we do not need."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:972
+#: ../../use_cases-jbq.rst:965
 msgid ""
 "This is one possible use of **Tags**.  We start with a selection, we tag "
 "all objects in the selection under a new temporary tag. Let's say we call"
 " it \"temporary\"."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:976
+#: ../../use_cases-jbq.rst:969
 msgid ""
 "We continue searching and adding objects to the temporary tag until the "
 "tag identifies all that we need."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:979
+#: ../../use_cases-jbq.rst:972
 msgid ""
 "Finally from the Tags menu we select the one we just created (in our "
 "example this corresponds to the search ``tag=\"temporary\"``) and we can "
 "invoke the report."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:983
+#: ../../use_cases-jbq.rst:976
 msgid ""
 "When we're done with a temporary tag, there's no point in leaving it "
 "around, so we just delete it."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:988
+#: ../../use_cases-jbq.rst:981
 msgid "Be aware of the available search strategies"
 msgstr ""
 
-#: ../../use_cases-jbq.rst:991
+#: ../../use_cases-jbq.rst:984
 msgid ""
 "This is nicely documented, \"più non dimandare\" and `read the docs "
 "<searching.html>`_."
@@ -5903,5 +5895,44 @@ msgstr "Ghini позволяет читать, изменять и исполн�
 #~ msgstr ""
 
 #~ msgid "updating ghini"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adding a new user is a task "
+#~ "taking less than a minute, and can"
+#~ " be done either graphically, or from"
+#~ " the command line."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hit the |loose_png| key, then start "
+#~ "typing ``users``, something like this "
+#~ "will appear on your screen:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Activate the program, unlock the user"
+#~ " data, create a new user account, "
+#~ "define the password and write it "
+#~ "down on a piece of paper you "
+#~ "hand over to the person."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can achieve the same, possibly "
+#~ "faster, from the command line. For "
+#~ "example we add user 'Marta López', "
+#~ "account 'mlopez', by invoking the "
+#~ "command and entering your password (to"
+#~ " unlock user data), then all "
+#~ "information as required, or leaving it"
+#~ " blank:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We do not use account names like"
+#~ " \"voluntario\", because such accounts do"
+#~ " not help us associate the name "
+#~ "to the person."
 #~ msgstr ""
 

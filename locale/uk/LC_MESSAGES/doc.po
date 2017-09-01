@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-28 16:21-0500\n"
+"POT-Creation-Date: 2017-09-01 16:45-0500\n"
 "PO-Revision-Date: 2017-08-26 12:31+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -1873,8 +1873,8 @@ msgstr ""
 "кількість (у випадку, якщо не всі рослини переходять до одного "
 "приєднання). Тип матеріалу, що випливає з типу розповсюдження."
 
-#: ../../editing.rst:170 ../../use_cases-jbq.rst:576
-#: ../../use_cases-jbq.rst:611
+#: ../../editing.rst:170 ../../use_cases-jbq.rst:569
+#: ../../use_cases-jbq.rst:604
 msgid "Plant"
 msgstr "Рослина"
 
@@ -4930,72 +4930,54 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:41
 msgid ""
-"Adding a new user is a task taking less than a minute, and can be done "
-"either graphically, or from the command line."
+"Since we work using PostgreSQL, the users that Ghini stores in the "
+"database history are the database users, not the system users."
 msgstr ""
-"Додавання нового користувача - задача, яка займає менше хвилини, і може "
-"бути виконана або графічно, або з командного рядка."
 
 #: ../../use_cases-jbq.rst:44
 msgid ""
-"Hit the |loose_png| key, then start typing ``users``, something like this"
-" will appear on your screen:"
+"Each user knows their own password, and only knows that one. Our super-"
+"user, responsible for the database content, also has the 'bauble' "
+"fictional user password, which we only only use to create other users."
 msgstr ""
-"Натиснути кнопку |loose_png|, тоді почніть вводити ``users``, щось на "
-"зразок цього з'явиться на вашому екрані:"
 
 #: ../../use_cases-jbq.rst:49
 msgid ""
-"Activate the program, unlock the user data, create a new user account, "
-"define the password and write it down on a piece of paper you hand over "
-"to the person."
+"Ghini offers a minimum of user management, accessible from the menu "
+"Tools. It is neither perfect nor complete, but it serves to our needs."
 msgstr ""
-"Активізуйте програму, розблокуйте дані користувача, створіть новий "
-"обліковий запис користувача, визначте пароль і напишіть на папері, який "
-"ви передаєте людині."
 
 #: ../../use_cases-jbq.rst:53
+#, fuzzy
 msgid ""
-"You can achieve the same, possibly faster, from the command line. For "
-"example we add user 'Marta López', account 'mlopez', by invoking the "
-"command and entering your password (to unlock user data), then all "
-"information as required, or leaving it blank:"
-msgstr ""
-"Ви можете досягти того ж, можливо швидше, з командного рядка. Наприклад, "
-"ми додаємо користувача 'Marta López', акант 'mlopez', за допомогою "
-"команди та вводимо свій пароль (щоб розблокувати дані користувача), тоді "
-"всю інформацію, яка вимагається, або залиште це порожнім:"
-
-#: ../../use_cases-jbq.rst:60
-msgid ""
-"We do not use account names like \"voluntario\", because such accounts do"
-" not help us associate the name to the person."
+"We do not use account names like `voluntario`, because such accounts do "
+"not help us associate the name to the person."
 msgstr ""
 "Ми не використовуємо назви облікових записів, як 'voluntario', оскільки "
 "такі облікові записи не допомагають нам пов'язувати ім'я з особами."
 
-#: ../../use_cases-jbq.rst:63
+#: ../../use_cases-jbq.rst:56
 msgid "Understanding when to update"
 msgstr "Розуміння того, коли оновлювати"
 
-#: ../../use_cases-jbq.rst:65
+#: ../../use_cases-jbq.rst:58
 #, fuzzy
 msgid "Updating the system"
 msgstr "написання тестів"
 
-#: ../../use_cases-jbq.rst:68
+#: ../../use_cases-jbq.rst:61
 msgid ""
 "Ubuntu updates are a lot lighter and easier than with Windows. So "
 "whenever the system suggests an update, we let it do that. Generally, "
 "there's no need to wait during the update nor to reboot after it's done."
 msgstr ""
 
-#: ../../use_cases-jbq.rst:73
+#: ../../use_cases-jbq.rst:66
 #, fuzzy
 msgid "Updating ghini"
 msgstr "Підтримка Ghini"
 
-#: ../../use_cases-jbq.rst:76
+#: ../../use_cases-jbq.rst:69
 msgid ""
 "The first window presented by Ghini looks like this. Normally, you don't "
 "need do anything in this window, just press enter and get into the main "
@@ -5005,7 +4987,7 @@ msgstr ""
 " нічого не потрібно робити, просто натисніть клавішу Enter і потрапите у "
 "головний екран програми."
 
-#: ../../use_cases-jbq.rst:82
+#: ../../use_cases-jbq.rst:75
 msgid ""
 "Occasionally, at the top of the screen an information text will appear, "
 "telling you that a newer version is available on-line."
@@ -5013,7 +4995,7 @@ msgstr ""
 "Іноді у верхній частині екрана з'являється інформаційний текст, в якому "
 "повідомляється, що нова версія доступна в режимі онлайн."
 
-#: ../../use_cases-jbq.rst:87
+#: ../../use_cases-jbq.rst:80
 msgid ""
 "The update procedure is simple, and it depends on the operating system "
 "you use, we're not explaining here again."
@@ -5021,7 +5003,7 @@ msgstr ""
 "Процедура оновлення проста, і це залежить від використовуваної вами "
 "операційної системи, ми не пояснюємо тут ще раз."
 
-#: ../../use_cases-jbq.rst:90
+#: ../../use_cases-jbq.rst:83
 msgid ""
 "It is generally a good idea updating the software.  If in doubt, contact "
 "the author, or write to the group."
@@ -5029,19 +5011,19 @@ msgstr ""
 "Як правило, хороша ідея оновлення програмного забезпечення. Якщо у вас "
 "сумніви, зв'яжіться з автором або напишіть у групу."
 
-#: ../../use_cases-jbq.rst:93
+#: ../../use_cases-jbq.rst:86
 msgid "understanding ghini initial screen"
 msgstr "розуміння початкового екрану ghini"
 
-#: ../../use_cases-jbq.rst:95
+#: ../../use_cases-jbq.rst:88
 msgid "Complete screen"
 msgstr "Повний екран"
 
-#: ../../use_cases-jbq.rst:98
+#: ../../use_cases-jbq.rst:91
 msgid "At the moment of writing, our initial screen looked like this:"
 msgstr "На момент написання наш початковий екран виглядав так:"
 
-#: ../../use_cases-jbq.rst:102
+#: ../../use_cases-jbq.rst:95
 msgid ""
 "Apart from the main application menu, Ghini offers three special "
 "interface sections with information and tools to explore the database."
@@ -5049,11 +5031,11 @@ msgstr ""
 "Крім основного меню додатків, Ghini пропонує три розділи спеціального "
 "інтерфейсу з інформацією та інструментами для вивчення бази даних."
 
-#: ../../use_cases-jbq.rst:106
+#: ../../use_cases-jbq.rst:99
 msgid "Numeric overview"
 msgstr "Числовий огляд"
 
-#: ../../use_cases-jbq.rst:109
+#: ../../use_cases-jbq.rst:102
 msgid ""
 "The table in the right half of the screen presents a summary of all the "
 "registered plants can be observed.  Each entry printed in bold is a link "
@@ -5063,11 +5045,11 @@ msgstr ""
 "зареєстрованих рослин, можна спостерігати. Кожна запис, надрукований "
 "жирним шрифтом, є посиланням на запит, вибравши відповідні об'єкти."
 
-#: ../../use_cases-jbq.rst:115
+#: ../../use_cases-jbq.rst:108
 msgid "Stored queries"
 msgstr "Збережені запити"
 
-#: ../../use_cases-jbq.rst:118
+#: ../../use_cases-jbq.rst:111
 msgid ""
 "The lower half of the right hand side contains a set of stored queries.  "
 "While you can edit them to your liking, our hints include selecting those"
@@ -5079,11 +5061,11 @@ msgstr ""
 " приєднань, які не були ідентифіковані за категоріями видів. І один для "
 "історії бази даних."
 
-#: ../../use_cases-jbq.rst:125
+#: ../../use_cases-jbq.rst:118
 msgid "Query and action buttons"
 msgstr "Кнопки запиту та дії"
 
-#: ../../use_cases-jbq.rst:128
+#: ../../use_cases-jbq.rst:121
 msgid ""
 "At the top of this screen you can find the field in which you would enter"
 " your searches."
@@ -5091,7 +5073,7 @@ msgstr ""
 "У верхній частині цього екрана ви можете знайти поле, в яке потрібно "
 "ввести ваші пошуки."
 
-#: ../../use_cases-jbq.rst:133
+#: ../../use_cases-jbq.rst:126
 msgid ""
 "With the |100000000000001C00000020F4C7873186014F2F_png| button, in the "
 "form of a house, you can return from your searches to the main screen."
@@ -5099,7 +5081,7 @@ msgstr ""
 "З |100000000000001C00000020F4C7873186014F2F_png| кнопки, у вигляді "
 "будинку, ви можете повернутися з ваших пошуків на головний екран."
 
-#: ../../use_cases-jbq.rst:136
+#: ../../use_cases-jbq.rst:129
 msgid ""
 "With the |100000000000001B000000207EC6F9075C9D3669_png| button, in the "
 "form of an arrow, you can return to your last search."
@@ -5107,7 +5089,7 @@ msgstr ""
 "З |100000000000001B000000207EC6F9075C9D3669_png| кнопки, у формі стрілки,"
 " ви можете повернутися до вашого останнього пошуку."
 
-#: ../../use_cases-jbq.rst:138
+#: ../../use_cases-jbq.rst:131
 msgid ""
 "With the |100000000000001C0000001FB8A1F75F7A5EF877_png| button, in the "
 "form of a gear, you can start the \"Query Builder\", which helps you "
@@ -5117,7 +5099,7 @@ msgstr ""
 " ви можете запустити \"Query Builder\", який допоможе вам скласти складні"
 " пошуки в простий, графічний спосіб."
 
-#: ../../use_cases-jbq.rst:143
+#: ../../use_cases-jbq.rst:136
 msgid ""
 "We often have volunteers who only work at the garden for a very short "
 "time. It was with them in mind that we have developed a `hyper-simplified"
@@ -5127,12 +5109,12 @@ msgstr ""
 "проміжку часу. Саме це маючи на увазі, ми розробили `hyper-simplified "
 "view <goal.html#hypersimplified-view>`_ на Ghini структури бази даних."
 
-#: ../../use_cases-jbq.rst:147 ../../use_cases-jbq.rst:487
-#: ../../use_cases-jbq.rst:504
+#: ../../use_cases-jbq.rst:140 ../../use_cases-jbq.rst:480
+#: ../../use_cases-jbq.rst:497
 msgid "Details"
 msgstr "Подробиці"
 
-#: ../../use_cases-jbq.rst:150
+#: ../../use_cases-jbq.rst:143
 msgid ""
 "The two figures here show all that our temporary collaborators need to "
 "know."
@@ -5140,15 +5122,15 @@ msgstr ""
 "Дві цифри тут показують все, що наші тимчасові співробітники повинні "
 "знати."
 
-#: ../../use_cases-jbq.rst:153
+#: ../../use_cases-jbq.rst:146
 msgid "Taxonomy & Collection"
 msgstr "Таксономія та колекція"
 
-#: ../../use_cases-jbq.rst:153
+#: ../../use_cases-jbq.rst:146
 msgid "Garden"
 msgstr "Сад"
 
-#: ../../use_cases-jbq.rst:158
+#: ../../use_cases-jbq.rst:151
 msgid ""
 "At times, the program gives error messages. |dontpanic_png|, retry, or "
 "report to the developers."
@@ -5156,11 +5138,11 @@ msgstr ""
 "Іноді програма отримує повідомлення про помилку. |dontpanic_png|, "
 "повторіть спробу або повідомте розробникам."
 
-#: ../../use_cases-jbq.rst:161
+#: ../../use_cases-jbq.rst:154
 msgid "Network problems"
 msgstr "Мережеві проблеми"
 
-#: ../../use_cases-jbq.rst:164
+#: ../../use_cases-jbq.rst:157
 msgid ""
 "In order to work, the program needs a stable network connection to the "
 "database server. It can happen: you start the program, and it can't "
@@ -5172,15 +5154,15 @@ msgstr ""
 "може підключитися до нашого сервера баз даних. Потім ви отримаєте досить "
 "явне, але дуже погано набираєме повідомлення про помилку."
 
-#: ../../use_cases-jbq.rst:171
+#: ../../use_cases-jbq.rst:164
 msgid "Just ignore it and try again."
 msgstr "Просто ігноруйте його і повторіть спробу."
 
-#: ../../use_cases-jbq.rst:173
+#: ../../use_cases-jbq.rst:166
 msgid "Search fails with error"
 msgstr "Пошук не вдається з помилкою"
 
-#: ../../use_cases-jbq.rst:176
+#: ../../use_cases-jbq.rst:169
 msgid ""
 "Sometimes and without any apparent cause, a search will not run "
 "successfully, and a window with an error message will be displayed. In "
@@ -5190,15 +5172,15 @@ msgstr ""
 "виконуватися, і з'явиться вікно з повідомленням про помилку. У цьому "
 "випадку вам доведеться спробувати виконати той самий пошук ще раз."
 
-#: ../../use_cases-jbq.rst:181
+#: ../../use_cases-jbq.rst:174
 msgid "An example of such an error message:"
 msgstr "Приклад такого повідомлення про помилку:"
 
-#: ../../use_cases-jbq.rst:185
+#: ../../use_cases-jbq.rst:178
 msgid "Search does not return something I just inserted"
 msgstr "Пошук не повертає те, що я щойно вставив"
 
-#: ../../use_cases-jbq.rst:188
+#: ../../use_cases-jbq.rst:181
 msgid ""
 "Accession codes starting with zero and composed of just numbers, as for "
 "example ``016489`` are considered by the software as numbers, so if you "
@@ -5210,21 +5192,21 @@ msgstr ""
 "не вкладете рядок пошуку в лапки, будь-який провідний 0 буде знятий і "
 "значення буде не знайдено."
 
-#: ../../use_cases-jbq.rst:193
+#: ../../use_cases-jbq.rst:186
 msgid "Try again, but enclose your search string in single or double quotes."
 msgstr ""
 "Спробуйте ще раз, але додайте свій пошуковий рядок в одинарні або "
 "подвійні лапки."
 
-#: ../../use_cases-jbq.rst:197
+#: ../../use_cases-jbq.rst:190
 msgid "Number on the label"
 msgstr "Номер на етикетці"
 
-#: ../../use_cases-jbq.rst:197
+#: ../../use_cases-jbq.rst:190
 msgid "corresponding search"
 msgstr "відповідний пошук"
 
-#: ../../use_cases-jbq.rst:202
+#: ../../use_cases-jbq.rst:195
 msgid ""
 "Please note: when you look for a Plant code, not an Accession, the "
 "leading zero becomes optional, so in the above example it's maybe easier "
@@ -5234,7 +5216,7 @@ msgstr ""
 " провідний нуль стає необов'язковим, тому в наведеному вище прикладі може"
 " бути простіше вводити ``16489.1``."
 
-#: ../../use_cases-jbq.rst:206
+#: ../../use_cases-jbq.rst:199
 msgid ""
 "A serious situation happened once, and we absolutely want to prevent it "
 "from happening again: a user deleted a genus, with everything that was "
@@ -5244,11 +5226,11 @@ msgstr ""
 "цьому: знову користувач видалив рід, все, що було нижче, види і "
 "приєднання та синоніми."
 
-#: ../../use_cases-jbq.rst:210
+#: ../../use_cases-jbq.rst:203
 msgid "Solving it with user permissions"
 msgstr "Вирішення з правами користувачів"
 
-#: ../../use_cases-jbq.rst:213
+#: ../../use_cases-jbq.rst:206
 msgid ""
 "We propose to have different connection profiles, associated to different"
 " database users, each user with all needed permissions."
@@ -5257,19 +5239,19 @@ msgstr ""
 "користувачами баз даних, кожен користувач із усіма необхідними правами "
 "доступу."
 
-#: ../../use_cases-jbq.rst:217
+#: ../../use_cases-jbq.rst:210
 msgid "Full permission (BD-JBQ)"
 msgstr "Повний дозвіл (BD-JBQ)"
 
-#: ../../use_cases-jbq.rst:217
+#: ../../use_cases-jbq.rst:210
 msgid "Only qualified personnel get this kind of access."
 msgstr "Тільки кваліфікований персонал отримує такий доступ."
 
-#: ../../use_cases-jbq.rst:222
+#: ../../use_cases-jbq.rst:215
 msgid "Insert and update (BD-JBQ-limitado)"
 msgstr "Вставити та оновити (BD-JBQ-limitado)"
 
-#: ../../use_cases-jbq.rst:220
+#: ../../use_cases-jbq.rst:213
 msgid ""
 "We use this one for those users who come help us for a limited time, and "
 "who did not get a complete introduction to database concepts. It is meant"
@@ -5279,15 +5261,15 @@ msgstr ""
 "протягом обмеженого часу, і які не отримали повного введення в концепції "
 "бази даних. Він призначений для запобігання серйозних помилок."
 
-#: ../../use_cases-jbq.rst:225
+#: ../../use_cases-jbq.rst:218
 msgid "Read only (BD-JBQ-lectura)"
 msgstr "Тільки для читання (BD-JBQ-lectura)"
 
-#: ../../use_cases-jbq.rst:225
+#: ../../use_cases-jbq.rst:218
 msgid "it can be shared with anyone visiting the garden"
 msgstr "це може бути доступним для всіх, хто відвідує сад"
 
-#: ../../use_cases-jbq.rst:227
+#: ../../use_cases-jbq.rst:220
 msgid ""
 "You select the connection at start-up, and the software asks you for the "
 "password corresponding to the connection you selected."
@@ -5295,7 +5277,7 @@ msgstr ""
 "Ви вибираєте підключення під час запуску, а програма запитає вас про "
 "пароль, що відповідає обраному вами з'єднанню."
 
-#: ../../use_cases-jbq.rst:232
+#: ../../use_cases-jbq.rst:225
 msgid ""
 "If you want to review the details of the connection, click on the ▶ next "
 "to 'Connection Details', it will change to ▼, and the connection window "
@@ -5305,7 +5287,7 @@ msgstr ""
 "із пунктом «Подробиці підключення», вона змінюється на ▼, і вікно "
 "з'єднання відображатиметься як одне з наступних:"
 
-#: ../../use_cases-jbq.rst:240
+#: ../../use_cases-jbq.rst:233
 msgid ""
 "As you can see, we are connecting to the same database server, each "
 "connection uses the same database on the server, but with different user."
@@ -5313,11 +5295,11 @@ msgstr ""
 "Як бачимо, ми підключаємося до того ж сервера баз даних, кожен зв'язок "
 "використовує ту саму базу даних на сервері, але з іншим користувачем."
 
-#: ../../use_cases-jbq.rst:244
+#: ../../use_cases-jbq.rst:237
 msgid "Thinking further about it"
 msgstr "Думаю далі про це"
 
-#: ../../use_cases-jbq.rst:247
+#: ../../use_cases-jbq.rst:240
 msgid ""
 "On the other hand, we are questioning if it is at all appropriate, "
 "letting any user delete something at such high level as a family, or a "
@@ -5329,7 +5311,7 @@ msgstr ""
 " або рід, або, у зв'язку з цим, щось пов'язане з приєднаннями до "
 "колекції."
 
-#: ../../use_cases-jbq.rst:252
+#: ../../use_cases-jbq.rst:245
 msgid ""
 "The ghini way to question the software features, is by opening a "
 "`corresponding issue "
@@ -5339,7 +5321,7 @@ msgstr ""
 "програмного забезпечення, полягає у відкритті відповідної проблеми "
 "<https://github.com/Ghini/ghini.desktop/issues/218> `_."
 
-#: ../../use_cases-jbq.rst:256
+#: ../../use_cases-jbq.rst:249
 msgid ""
 "When contacting the developers, they will definitely ask for technical "
 "information, or at least to see a screen-shot.  Help them help you."
@@ -5347,11 +5329,11 @@ msgstr ""
 "При зверненні до розробників вони обов'язково просять технічну інформацію"
 " або, принаймні, побачити екранний знімок. Допоможіть їм допомогти вам."
 
-#: ../../use_cases-jbq.rst:259
+#: ../../use_cases-jbq.rst:252
 msgid "Taking a screen-shot"
 msgstr "Зйомка екрану"
 
-#: ../../use_cases-jbq.rst:262
+#: ../../use_cases-jbq.rst:255
 msgid ""
 "On Linux there are three ways to create a screen-shot, all involve "
 "hitting the 'PrtSc' key.  The most practical one is possibly hitting the "
@@ -5367,11 +5349,11 @@ msgstr ""
 "скопійована в буфер обміну. Вставте його в електронний лист, який ви "
 "пишете, або в чаті, де розробники намагатимуться вам допомогти."
 
-#: ../../use_cases-jbq.rst:270
+#: ../../use_cases-jbq.rst:263
 msgid "Where are the logs"
 msgstr "Де знаходяться журнали"
 
-#: ../../use_cases-jbq.rst:273
+#: ../../use_cases-jbq.rst:266
 msgid ""
 "Ghini continuously saves a very informative log file, in the "
 "``~/.bauble/bauble.log`` file.  Don't bother opening it, just send it "
@@ -5381,11 +5363,11 @@ msgstr ""
 "``~/.bauble/bauble.log``. Не хвилюйтеся відкриваючи його, просто "
 "надішліть його. Він містить багато технічної інформації."
 
-#: ../../use_cases-jbq.rst:277
+#: ../../use_cases-jbq.rst:270
 msgid "Continuous unmanned alerting"
 msgstr "Безперервне безпілотне оповіщення"
 
-#: ../../use_cases-jbq.rst:280
+#: ../../use_cases-jbq.rst:273
 msgid ""
 "An other option is to activate the sentry handler. It will notify our "
 "sentry server of any serious situations in the software.  If you "
@@ -5396,7 +5378,7 @@ msgstr ""
 "зареєструвалися, розробники будуть знати, як з вами зв'язуватися, якщо це"
 " необхідно."
 
-#: ../../use_cases-jbq.rst:285
+#: ../../use_cases-jbq.rst:278
 msgid ""
 "To the healthy paranoid: we're not monitoring what you're doing, we're "
 "monitoring how our software works.  You can always opt out."
@@ -5405,7 +5387,7 @@ msgstr ""
 "за тим, як працює наше програмне забезпечення. Ви завжди можете "
 "відмовитися."
 
-#: ../../use_cases-jbq.rst:288
+#: ../../use_cases-jbq.rst:281
 msgid ""
 "You activate the Sentry handler in the ``:prefs`` page: look for the row "
 "with name ``bauble.use_sentry_handler``, if the value is not what you "
@@ -5415,19 +5397,19 @@ msgstr ""
 "назвою ``bauble.use_sentry_handler``, якщо значення не є тим, що ви "
 "хочете, двічі натисніть по лінії, і вона зміниться на інше значення."
 
-#: ../../use_cases-jbq.rst:294
+#: ../../use_cases-jbq.rst:287
 msgid "Taxonomy"
 msgstr "Таксономія"
 
-#: ../../use_cases-jbq.rst:296
+#: ../../use_cases-jbq.rst:289
 msgid "Introduction"
 msgstr "Введення"
 
-#: ../../use_cases-jbq.rst:298
+#: ../../use_cases-jbq.rst:291
 msgid "Orchidaceae taxonomic complexity"
 msgstr "Таксономічна складність орхідей"
 
-#: ../../use_cases-jbq.rst:301
+#: ../../use_cases-jbq.rst:294
 msgid ""
 "At the JBQ, we work most of all with orchids, family Orchidaceae, one of "
 "the largest plant families, with no less than 850 genera, organized "
@@ -5440,7 +5422,7 @@ msgstr ""
 "згідно з Dressler - приблизно 70 субтрибами, 22 трибами, 5 підродин. Як "
 "ми представляємо цю інформацію, це не є очевидним і потребує пояснення."
 
-#: ../../use_cases-jbq.rst:306
+#: ../../use_cases-jbq.rst:299
 msgid ""
 "The taxonomy of the Orchidaceae family is continuously being reviewed. "
 "Genera get added, refused, reorganized, recognized as synonyms, some "
@@ -5458,15 +5440,15 @@ msgstr ""
 "спеціально, але це є частиною нашої повсякденної роботи, і все це можна "
 "зберегти в нашій базі даних Ghini."
 
-#: ../../use_cases-jbq.rst:314
+#: ../../use_cases-jbq.rst:307
 msgid "Identifying at rank Genus, or Family"
 msgstr "Визначення по рангу роду або сім'ї"
 
-#: ../../use_cases-jbq.rst:316
+#: ../../use_cases-jbq.rst:309
 msgid "At rank genus"
 msgstr "По родовому рангу"
 
-#: ../../use_cases-jbq.rst:319
+#: ../../use_cases-jbq.rst:312
 msgid ""
 "Ghini-1.0 prescribes that an accession is identified at rank species, in "
 "all cases. The current maintainer acknowledges that this is a mistake, "
@@ -5480,7 +5462,7 @@ msgstr ""
 "забезпеченням. Доки це не буде зафіксовано, ми покладаємось на "
 "встановлені практики."
 
-#: ../../use_cases-jbq.rst:325
+#: ../../use_cases-jbq.rst:318
 msgid ""
 "If an accession is identified at rank genus, we add a fictive species in "
 "that genus, we don't specify its species epithet (we don't know that) and"
@@ -5492,15 +5474,15 @@ msgstr ""
 " додаємо незареєстрований епітет у розділі інфрачервоної інформації, як "
 "це:"
 
-#: ../../use_cases-jbq.rst:332
+#: ../../use_cases-jbq.rst:325
 msgid "When displayed in a search result, it shows like this:"
 msgstr "Коли він відображається в результатах пошуку, він виглядає так:"
 
-#: ../../use_cases-jbq.rst:336
+#: ../../use_cases-jbq.rst:329
 msgid "At rank family"
 msgstr "По сімейному рангу"
 
-#: ../../use_cases-jbq.rst:339
+#: ../../use_cases-jbq.rst:332
 msgid ""
 "If an accession is only identified at rank family, we need a fictive "
 "genus, to which we can add the fictive species. Since our garden is "
@@ -5512,7 +5494,7 @@ msgstr ""
 "чергу орієнтується на Orchidaceae, ми використовуємо дуже коротке ім'я "
 "**Zzz** для вигаданого роду в сім'ї, як це:"
 
-#: ../../use_cases-jbq.rst:346
+#: ../../use_cases-jbq.rst:339
 msgid ""
 "The current maintainer suggests to use the prefix **Zzz-** and behind the"
 " prefix to write the family name, possibly removing the trailing **e**.  "
@@ -5525,7 +5507,7 @@ msgstr ""
 "які містять назви родів, коли ви, як для речовини, що закінчується "
 "**aceae**."
 
-#: ../../use_cases-jbq.rst:352
+#: ../../use_cases-jbq.rst:345
 msgid ""
 "Apart from the aforementioned **Zzz** genus in the Orchidaceae family, we"
 " follow this suggested practice, so for example our collection would "
@@ -5535,7 +5517,7 @@ msgstr ""
 "запропонованої практики, тому, наприклад, наша колекція включатиме *Zzz-"
 "cactacea* або *Zzz-bromeliacea*."
 
-#: ../../use_cases-jbq.rst:356
+#: ../../use_cases-jbq.rst:349
 msgid ""
 "Remember: our **Zzz** genus is a fictive genus in the **Orchidaceae** "
 "family, do not use it as unspecified genus in other families."
@@ -5543,7 +5525,7 @@ msgstr ""
 "Пам'ятайте: наш **Zzz** рід є вигаданим родом у сім'ї **Orchidaceae**, не"
 " використовуйте його як невизначений рід в інших сім'ях."
 
-#: ../../use_cases-jbq.rst:360
+#: ../../use_cases-jbq.rst:353
 msgid ""
 "Identifying at a rank that is not allowed by the software (eg: Subtribe, "
 "or Subfamily)"
@@ -5551,11 +5533,11 @@ msgstr ""
 "Визначення за рангом, яке не дозволено програмним забезпеченням "
 "(наприклад: Subtribe або підсемейство)"
 
-#: ../../use_cases-jbq.rst:362
+#: ../../use_cases-jbq.rst:355
 msgid "At rank subtribe"
 msgstr "По рангу субтриб"
 
-#: ../../use_cases-jbq.rst:365
+#: ../../use_cases-jbq.rst:358
 msgid ""
 "We sometimes can't identify a taxon at rank genus, but we do manage to be"
 " more precise than just \"it's an orchid\". Quite often we are able to "
@@ -5565,7 +5547,7 @@ msgstr ""
 "бути точнішим, ніж просто \"це орхідея\". Часто ми можемо вказати "
 "субтриб, це корисно, коли ви хочете виготовити гібриди."
 
-#: ../../use_cases-jbq.rst:370
+#: ../../use_cases-jbq.rst:363
 msgid ""
 "The software does not let us store ranks which are intermediate between "
 "family and genus, so we need to invent something, and this is what we do:"
@@ -5573,7 +5555,7 @@ msgstr ""
 "Програмне забезпечення не дозволяє нам зберігати ряди, які є проміжними "
 "між сім'єю та родом, тому нам потрібно щось винайти, і це ми робимо:"
 
-#: ../../use_cases-jbq.rst:374
+#: ../../use_cases-jbq.rst:367
 msgid ""
 "We insert a fictive genus, naming it as the subtribe, prefixing it with "
 "'Zzx-', like in this example:"
@@ -5581,11 +5563,11 @@ msgstr ""
 "Ми вставляємо вигаданий рід, називаючи його сабтриб, передусім називаючи "
 "його 'Zzx-', як у цьому прикладі:"
 
-#: ../../use_cases-jbq.rst:379
+#: ../../use_cases-jbq.rst:372
 msgid "This Zzx-Laeliinae is some genus in the Laeliinae subtribe."
 msgstr "Це Zzx-Laeliinae є деяким родом в Laeliinae субтрибу."
 
-#: ../../use_cases-jbq.rst:381
+#: ../../use_cases-jbq.rst:374
 msgid ""
 "In order to be able to select genera by subtribe, we also add a note to "
 "the Zzx-Laeliinae fictive genus as well as for all real genera in that "
@@ -5596,11 +5578,11 @@ msgstr ""
 "родів у цьому підзаголовоку, примітку категорії subtribus, відзначимо "
 "значення імені субтиба."
 
-#: ../../use_cases-jbq.rst:386
+#: ../../use_cases-jbq.rst:379
 msgid "This allows for queries like:"
 msgstr "Це дозволяє виконувати такі запити, як:"
 
-#: ../../use_cases-jbq.rst:390
+#: ../../use_cases-jbq.rst:383
 msgid ""
 "We are very much looking forward to seeing that `issue-9 "
 "<https://github.com/Bauble/bauble.classic/issues/9>`_ solved!"
@@ -5608,11 +5590,11 @@ msgstr ""
 "Ми дуже з нетерпінням чекаємо цього `issue-9 "
 "<https://github.com/Bauble/bauble.classic/issues/9>`_ вирішено!"
 
-#: ../../use_cases-jbq.rst:393
+#: ../../use_cases-jbq.rst:386
 msgid "At rank subfamily, tribe"
 msgstr "По рангу підродини, триба"
 
-#: ../../use_cases-jbq.rst:396
+#: ../../use_cases-jbq.rst:389
 msgid ""
 "Just as we reserved the prefix Zzx- for subtribe, we reserve the prefixes"
 " Zzy- for tribe, Zzw- for subfamily."
@@ -5620,7 +5602,7 @@ msgstr ""
 "Оскільки ми зарезервували префікс Zzx- для субтрибу, ми зберігаємо "
 "префікси Zzy для трибу, Zzw- для підродини."
 
-#: ../../use_cases-jbq.rst:399
+#: ../../use_cases-jbq.rst:392
 msgid ""
 "In particular, the subfamily information is relevant, because there are "
 "subfamilies within the Orchidaceae family which are not further "
@@ -5629,15 +5611,15 @@ msgstr ""
 "Зокрема інформація підродини є актуальною, оскільки в сімействах "
 "Orchidaceae є підродини, які ще не розділені."
 
-#: ../../use_cases-jbq.rst:403
+#: ../../use_cases-jbq.rst:396
 msgid "Editing the Accession identification - the Species details"
 msgstr "Редагування ідентифікації приєднання - відомості виду"
 
-#: ../../use_cases-jbq.rst:405
+#: ../../use_cases-jbq.rst:398
 msgid "Placeholder species for individual accessions"
 msgstr "Покажчик місця заповнення видів для окремих приєднань"
 
-#: ../../use_cases-jbq.rst:408
+#: ../../use_cases-jbq.rst:401
 msgid ""
 "Scenario one describes the identification of a single accession, which "
 "had been associated to a \"generic\", placeholder species, something like"
@@ -5646,7 +5628,7 @@ msgstr ""
 "Сценарій описує ідентифікацію єдиного приєднання, яке було пов'язане з "
 "\"родовим\", заповнювачем видів, щось типу “*Zzz* sp” або “*Vanda* sp”;"
 
-#: ../../use_cases-jbq.rst:412
+#: ../../use_cases-jbq.rst:405
 msgid ""
 "In this case, when the plant species becomes known, we change the "
 "association in the accession, selecting a different species."
@@ -5654,7 +5636,7 @@ msgstr ""
 "У цьому випадку, коли виявляється вид рослини, ми змінюємо асоціацію при "
 "приєднанні, вибираючи інший вид."
 
-#: ../../use_cases-jbq.rst:417
+#: ../../use_cases-jbq.rst:410
 msgid ""
 "We do not edit the species, because there might be totally unrelated "
 "accessions connected to the same placeholder species."
@@ -5662,11 +5644,11 @@ msgstr ""
 "Ми не редагуємо види, оскільки можуть бути абсолютно незв'язані "
 "приєднання, пов'язані з тими ж типами заповнювачів."
 
-#: ../../use_cases-jbq.rst:420
+#: ../../use_cases-jbq.rst:413
 msgid "Unknown species for multiple accessions"
 msgstr "Невідомі види для численних приєднань"
 
-#: ../../use_cases-jbq.rst:423
+#: ../../use_cases-jbq.rst:416
 msgid ""
 "A different case is when we have a whole batch of accessions, all "
 "obviously the same species, but we haven't been able to identify it. In "
@@ -5680,7 +5662,7 @@ msgstr ""
 "кшталт “*Zzz* sp-59”, бажано додати ім'я таксономіста, який створив "
 "асоціацію."
 
-#: ../../use_cases-jbq.rst:429
+#: ../../use_cases-jbq.rst:422
 msgid ""
 "A species like “*Vanda* sp-018599” is not a placeholder species, it is a "
 "very concrete species, which we haven't yet identified."
@@ -5688,7 +5670,7 @@ msgstr ""
 "Вид, як  “*Vanda* sp-018599”, не є заповнювачем, це дуже конкретний вид, "
 "який ми ще не визначили."
 
-#: ../../use_cases-jbq.rst:434
+#: ../../use_cases-jbq.rst:427
 msgid ""
 "In this case, when the species gets identified (and it could even be a "
 "species nova), we directly edit the species, so all accessions that refer"
@@ -5698,15 +5680,15 @@ msgstr ""
 "nova), ми безпосередньо редагуємо вид, тому всі приєднання, які належать "
 "до нього, отримують зміни."
 
-#: ../../use_cases-jbq.rst:438
+#: ../../use_cases-jbq.rst:431
 msgid "A new plants is relative to a species not yet in our collection."
 msgstr "Нові рослини відносяться до виду, ще не в нашій колекції."
 
-#: ../../use_cases-jbq.rst:440
+#: ../../use_cases-jbq.rst:433
 msgid "Last minute species"
 msgstr "Остання хвилина видів"
 
-#: ../../use_cases-jbq.rst:443
+#: ../../use_cases-jbq.rst:436
 msgid ""
 "We start this from the Accession window and it's very simple, just click "
 "on the **+** next to the species name, we get into the Species window."
@@ -5714,15 +5696,15 @@ msgstr ""
 "Ми починаємо це з вікна приєднання, і це дуже просто, просто натисніть "
 "**+** поруч із назвою виду, ми потрапляємо у вікно види."
 
-#: ../../use_cases-jbq.rst:447
+#: ../../use_cases-jbq.rst:440
 msgid "Adding a species and using online taxonomic services"
 msgstr "Додавання виду та використання онлайн-таксономічних послуг"
 
-#: ../../use_cases-jbq.rst:449
+#: ../../use_cases-jbq.rst:442
 msgid "Adding a new species — the plant list."
 msgstr "Додавання нового виду - список рослин."
 
-#: ../../use_cases-jbq.rst:452
+#: ../../use_cases-jbq.rst:445
 msgid ""
 "We start the obvious way: type the genus epithet, possibly select it from"
 " the completion list, then type the species epithet, or at least your "
@@ -5732,7 +5714,7 @@ msgstr ""
 "його з списку завершень, потім введіть епітет виду або, принаймні, "
 "найкращий припущення."
 
-#: ../../use_cases-jbq.rst:458
+#: ../../use_cases-jbq.rst:451
 msgid ""
 "Next to the species epithet field there's a small button, |green_ball|, "
 "which connects us to the plant list.  Click on it, a message area appears"
@@ -5742,7 +5724,7 @@ msgstr ""
 "з'єднує нас із списком рослин. Натисніть на неї, у верхній частині вікна "
 "з'явиться повідомлення."
 
-#: ../../use_cases-jbq.rst:464
+#: ../../use_cases-jbq.rst:457
 msgid ""
 "Depending on the speed of your internet connection, but also on how close"
 " your best guess is to a correct published name, the top area will change"
@@ -5752,25 +5734,25 @@ msgstr ""
 "наскільки правильно опубліковане ім'я, верхня область зміниться на щось "
 "подібне:"
 
-#: ../../use_cases-jbq.rst:470
+#: ../../use_cases-jbq.rst:463
 msgid "Accept the hint and it will be as if you had typed the data yourself."
 msgstr "Прийміть підказку, і це буде так, ніби ви самі набрали дані."
 
-#: ../../use_cases-jbq.rst:474
+#: ../../use_cases-jbq.rst:467
 msgid "Reviewing a whole selection — TNRS."
 msgstr "Перегляд цілого вибору - TNRS."
 
-#: ../../use_cases-jbq.rst:477
+#: ../../use_cases-jbq.rst:470
 msgid ""
 "This is described in the manual, it's extremely useful, don't forget "
 "about it."
 msgstr "Це описано в посібнику, це надзвичайно корисно, не забувайте про це."
 
-#: ../../use_cases-jbq.rst:482
+#: ../../use_cases-jbq.rst:475
 msgid "Let the database fit the garden"
 msgstr "Нехай база даних підходить до саду"
 
-#: ../../use_cases-jbq.rst:484
+#: ../../use_cases-jbq.rst:477
 msgid ""
 "A never-ending task is reviewing what we have in the garden and have it "
 "match what we have in the database."
@@ -5778,7 +5760,7 @@ msgstr ""
 "Невичерпне завдання - переглянути те, що ми маємо в саду, і поєднати його"
 " з базами."
 
-#: ../../use_cases-jbq.rst:490
+#: ../../use_cases-jbq.rst:483
 msgid ""
 "When we adopted ghini, we imported into it all that was properly "
 "described in a filemaker database. That database focused solely on "
@@ -5792,7 +5774,7 @@ msgstr ""
 "зустрічаємо помічені рослини в саду, які ніколи не були вставлені в базу "
 "даних."
 
-#: ../../use_cases-jbq.rst:496
+#: ../../use_cases-jbq.rst:489
 msgid ""
 "From time to time, we manage to get resources to review the garden, "
 "comparing it to the collection in the database, and the main activity is "
@@ -5806,57 +5788,57 @@ msgstr ""
 "помітити її місце розташування, Всі завдання, описані в решті частини "
 "цього розділу."
 
-#: ../../use_cases-jbq.rst:502
+#: ../../use_cases-jbq.rst:495
 msgid "Naming convention in garden locations"
 msgstr "Найменування конвенції в місцях саду"
 
-#: ../../use_cases-jbq.rst:508
+#: ../../use_cases-jbq.rst:501
 msgid "description"
 msgstr "опис"
 
-#: ../../use_cases-jbq.rst:510
+#: ../../use_cases-jbq.rst:503
 msgid "Reserved to cactus plants next to the orchids exposition glasshouses."
 msgstr "Резервний для рослин кактуса поряд з експозицією орхідей теплиць."
 
-#: ../../use_cases-jbq.rst:513
+#: ../../use_cases-jbq.rst:506
 #, fuzzy
 msgid "Nepenthaceae exibition"
 msgstr "Виставка непентаних"
 
-#: ../../use_cases-jbq.rst:515
+#: ../../use_cases-jbq.rst:508
 #, fuzzy
 msgid ""
 "orquidearios de calor en el jardín (1A a 9C son lugares especificos entre"
 " del orquideario)"
 msgstr "теплі сади орхідей (від 1А до 9С є специфічними місцями серед орхідей)"
 
-#: ../../use_cases-jbq.rst:518
+#: ../../use_cases-jbq.rst:511
 #, fuzzy
 msgid ""
 "orquidearios de frío en el jardín (1A a 5I son lugares específicos dentro"
 " del orquideario)"
 msgstr "холодні сади орхідей (1А до 5I конкретні місця в межах orquideario)"
 
-#: ../../use_cases-jbq.rst:521
+#: ../../use_cases-jbq.rst:514
 #, fuzzy
 msgid "invernadero 1 (calor)"
 msgstr "теплиця 1 (тепло)"
 
-#: ../../use_cases-jbq.rst:523
+#: ../../use_cases-jbq.rst:516
 #, fuzzy
 msgid "invernadero 2 (frío)"
 msgstr "теплиця 2 (холодно)"
 
-#: ../../use_cases-jbq.rst:525
+#: ../../use_cases-jbq.rst:518
 #, fuzzy
 msgid "invernadero 3 (calor)"
 msgstr "теплиця 3 (тепло)"
 
-#: ../../use_cases-jbq.rst:528
+#: ../../use_cases-jbq.rst:521
 msgid "Adding an Accession for a Plant"
 msgstr "Додавання приєднання для рослини"
 
-#: ../../use_cases-jbq.rst:530
+#: ../../use_cases-jbq.rst:523
 msgid ""
 "Obviously we keep increasing our collection, with plants coming from "
 "commercial sources, or collected from the wild, more rarely coming from "
@@ -5868,7 +5850,7 @@ msgstr ""
 "виходять з експедицій у віддалені райони нашої країни, або ми отримуємо "
 "рослини, які були незаконно зібрані."
 
-#: ../../use_cases-jbq.rst:535
+#: ../../use_cases-jbq.rst:528
 msgid ""
 "Sometimes we have to add plants to the digital collection, just because "
 "we have them physically, found in the garden, with or without its label, "
@@ -5878,11 +5860,11 @@ msgstr ""
 "їх фізично знаходимо в саду з міткою або без неї, але без їхнього "
 "цифрового аналога."
 
-#: ../../use_cases-jbq.rst:539
+#: ../../use_cases-jbq.rst:532
 msgid "Existing plant, found in the garden with its own label"
 msgstr "Існуюча рослина, знайдена в саду з власною етикеткою"
 
-#: ../../use_cases-jbq.rst:542
+#: ../../use_cases-jbq.rst:535
 msgid ""
 "This activity starts with a plant, which was found at a specific garden "
 "location, an accession label, and the knowledge that the accession code "
@@ -5892,7 +5874,7 @@ msgstr ""
 "саду, а також знак приєднання та знання про те, що код входження не "
 "знаходиться в базі даних."
 
-#: ../../use_cases-jbq.rst:554
+#: ../../use_cases-jbq.rst:547
 msgid ""
 "For this example, let's assume we are going to insert this information in"
 " the database."
@@ -5900,24 +5882,24 @@ msgstr ""
 "Для цього прикладу, припустимо, ми будемо вставляти цю інформацію в базу "
 "даних."
 
-#: ../../use_cases-jbq.rst:558
+#: ../../use_cases-jbq.rst:551
 msgid "Accession"
 msgstr "Приєднання"
 
-#: ../../use_cases-jbq.rst:558
+#: ../../use_cases-jbq.rst:551
 msgid "Species"
 msgstr "Вид"
 
-#: ../../use_cases-jbq.rst:558
+#: ../../use_cases-jbq.rst:551
 msgid "Location"
 msgstr "Розташування"
 
-#: ../../use_cases-jbq.rst:560
+#: ../../use_cases-jbq.rst:553
 #, fuzzy
 msgid "Invernadero 1 (calor)"
 msgstr "Теплиця 1 (тепло)"
 
-#: ../../use_cases-jbq.rst:563
+#: ../../use_cases-jbq.rst:556
 msgid ""
 "We go straight into the Accession Editor, start typing the species name "
 "in the corresponding field.  Luckily, the species was already in the "
@@ -5928,7 +5910,7 @@ msgstr ""
 "відповідному полі. На щастя, цей вид вже був у базі даних, інакше ми "
 "використали б кнопку **Додати** біля поля введення."
 
-#: ../../use_cases-jbq.rst:570
+#: ../../use_cases-jbq.rst:563
 msgid ""
 "We select the correct species, and we fill in a couple more fields, "
 "leaving the rest to the default values:"
@@ -5936,27 +5918,27 @@ msgstr ""
 "Ми вибираємо правильний вид, і ми заповнюємо ще пару полів, залишивши "
 "решту до значень за замовчуванням:"
 
-#: ../../use_cases-jbq.rst:574 ../../use_cases-jbq.rst:609
+#: ../../use_cases-jbq.rst:567 ../../use_cases-jbq.rst:602
 msgid "Accession ID"
 msgstr "ID приєднання"
 
-#: ../../use_cases-jbq.rst:574 ../../use_cases-jbq.rst:609
+#: ../../use_cases-jbq.rst:567 ../../use_cases-jbq.rst:602
 msgid "Type of Material"
 msgstr "Тип матеріалу"
 
-#: ../../use_cases-jbq.rst:574 ../../use_cases-jbq.rst:609
+#: ../../use_cases-jbq.rst:567 ../../use_cases-jbq.rst:602
 msgid "Quantity"
 msgstr "Кількість"
 
-#: ../../use_cases-jbq.rst:574
+#: ../../use_cases-jbq.rst:567
 msgid "Provenance"
 msgstr "Походження"
 
-#: ../../use_cases-jbq.rst:576
+#: ../../use_cases-jbq.rst:569
 msgid "Unknown"
 msgstr "Невідомо"
 
-#: ../../use_cases-jbq.rst:579 ../../use_cases-jbq.rst:614
+#: ../../use_cases-jbq.rst:572 ../../use_cases-jbq.rst:607
 msgid ""
 "After this, we continue to the Plant editor, by clicking on **Add "
 "Plants**."
@@ -5964,7 +5946,7 @@ msgstr ""
 "Після цього ми продовжуємо в редакторі рослин, натиснувши кнопку **Додати"
 " рослини**."
 
-#: ../../use_cases-jbq.rst:582
+#: ../../use_cases-jbq.rst:575
 msgid ""
 "We do not fill in the Accession's \"**Intended Locations**\", because we "
 "don't know what was the original intention when the plant was first "
@@ -5974,21 +5956,21 @@ msgstr ""
 "що ми не знаємо, що було первісним наміром, коли рослина була вперше "
 "придбана."
 
-#: ../../use_cases-jbq.rst:586
+#: ../../use_cases-jbq.rst:579
 msgid ""
 "In the Plant Editor, we insert the Quantity and the Location.  And we're "
 "done."
 msgstr "У редакторі рослин ми вставляємо кількість та місце. І ми закінчили."
 
-#: ../../use_cases-jbq.rst:589
+#: ../../use_cases-jbq.rst:582
 msgid "The plant is now part of the database:"
 msgstr "Рослина тепер є частиною бази даних:"
 
-#: ../../use_cases-jbq.rst:593
+#: ../../use_cases-jbq.rst:586
 msgid "New accession: plant just entering the garden"
 msgstr "Нове приєднання: рослина просто входить у сад"
 
-#: ../../use_cases-jbq.rst:596
+#: ../../use_cases-jbq.rst:589
 msgid ""
 "This activity starts with a new Plant, just acquired from a known Source,"
 " a plant label, and an intended Location in the garden."
@@ -5996,7 +5978,7 @@ msgstr ""
 "Ця діяльність починається з нової рослини, яка тільки що придбана від "
 "відомого джерела, ярлик рослини та передбачуваного розташування в саду."
 
-#: ../../use_cases-jbq.rst:599
+#: ../../use_cases-jbq.rst:592
 msgid ""
 "We mostly do the same as for the case that a plant is found in the "
 "garden, there are two differences: (1) we know the source of the plant; "
@@ -6008,7 +5990,7 @@ msgstr ""
 " придбання цієї рослини було планованим заходом, і ми маємо намір "
 "розмістити його в певному місці в саду."
 
-#: ../../use_cases-jbq.rst:604
+#: ../../use_cases-jbq.rst:597
 msgid ""
 "Again, we go straight into the Accession Editor, start typing the species"
 " and we either select if from the completion list or we add it on the "
@@ -6017,19 +5999,19 @@ msgstr ""
 "Знову ж таки ми йдемо прямо в редактор приєднання, починаємо вводити вид,"
 " і ми обираємо з списку завершень або додаємо його на льоту."
 
-#: ../../use_cases-jbq.rst:609
+#: ../../use_cases-jbq.rst:602
 msgid "Source"
 msgstr "Джерело"
 
-#: ../../use_cases-jbq.rst:611
+#: ../../use_cases-jbq.rst:604
 msgid "specified"
 msgstr "точно визначений"
 
-#: ../../use_cases-jbq.rst:617
+#: ../../use_cases-jbq.rst:610
 msgid "In the Plant Editor, we insert the Quantity and the Location."
 msgstr "У редакторі рослин ми вставляємо кількість та місце."
 
-#: ../../use_cases-jbq.rst:619
+#: ../../use_cases-jbq.rst:612
 msgid ""
 "Please note that the plant may be initially placed in a greenhouse, "
 "before it reaches its intended location in the garden."
@@ -6037,11 +6019,11 @@ msgstr ""
 "Зверніть увагу, що рослина може бути спочатку розміщена у теплиці, перш "
 "ніж вона досягне передбачуваного місця розташування в саду."
 
-#: ../../use_cases-jbq.rst:622
+#: ../../use_cases-jbq.rst:615
 msgid "Existing plant, found in the garden without its label"
 msgstr "Існуюча рослина, знайдена в саду без етикетки"
 
-#: ../../use_cases-jbq.rst:625
+#: ../../use_cases-jbq.rst:618
 msgid ""
 "When this happens, we can't be sure the plant had never been in the "
 "collection, so we act as if we were re-labeling the plant.  This is "
@@ -6053,7 +6035,7 @@ msgstr ""
 "обговорюється в наступному розділі, але ми повернемося до випадку нового "
 "приєднання."
 
-#: ../../use_cases-jbq.rst:630
+#: ../../use_cases-jbq.rst:623
 msgid ""
 "When we physically associate a label to a plant, there's always the "
 "chance that something happens either to the plant (it may die) or to the "
@@ -6065,11 +6047,11 @@ msgstr ""
 "(може стати нечитабельною) або з асоціацію (її можна розділити). У нас є "
 "програмні протоколи для цих подій."
 
-#: ../../use_cases-jbq.rst:635
+#: ../../use_cases-jbq.rst:628
 msgid "We find a dead plant"
 msgstr "Ми знаходимо мертву рослину"
 
-#: ../../use_cases-jbq.rst:638
+#: ../../use_cases-jbq.rst:631
 msgid ""
 "Whenever a plant is found dead, we collect its label and put it in a box "
 "next to the main data insertion terminal, the box is marked “dead "
@@ -6079,7 +6061,7 @@ msgstr ""
 "поміщаємо її в поле поруч із основним терміналом введення даних, поле "
 "позначено як “мертві рослини”."
 
-#: ../../use_cases-jbq.rst:641
+#: ../../use_cases-jbq.rst:634
 msgid ""
 "Definitely at least once a week, the box is emptied and the database is "
 "updated with this information."
@@ -6087,7 +6069,7 @@ msgstr ""
 "Безумовно, щонайменше раз на тиждень, бокс вичерпується, а база даних "
 "оновлюється з цією інформацією."
 
-#: ../../use_cases-jbq.rst:644
+#: ../../use_cases-jbq.rst:637
 msgid ""
 "Dead plants aren't *removed* from the database, they stay there but get a"
 " **quantity** zero. If the cause of death is known, this is also written "
@@ -6097,7 +6079,7 @@ msgstr ""
 "отримують **кількість** нуль. Якщо відомо про причину смерті, це також "
 "написано в базі даних."
 
-#: ../../use_cases-jbq.rst:648
+#: ../../use_cases-jbq.rst:641
 msgid ""
 "Please once again remember that a **Plant** is not an **Accession** and "
 "please remember we do not remove objects from the database, we just add "
@@ -6107,7 +6089,7 @@ msgstr ""
 "будь ласка, пам'ятайте, що ми не видаляємо об'єкти з бази даних, ми "
 "просто додаємо їхню історію."
 
-#: ../../use_cases-jbq.rst:652
+#: ../../use_cases-jbq.rst:645
 msgid ""
 "Insert the complete plant code (something like ``012345.1``, or "
 "``2017.0001.3``, and you don't need leading zeros nor quotes), right "
@@ -6119,7 +6101,7 @@ msgstr ""
 "правою кнопкою миші на відповідному рядку та натисніть **змінити** . "
 "Змінити кількість на 0, вказати причину і, бажано, також дату зміни."
 
-#: ../../use_cases-jbq.rst:657
+#: ../../use_cases-jbq.rst:650
 msgid ""
 "If you need add any details about the plant death, please use a **note**,"
 " and re-use the note category \"death_cause\"."
@@ -6128,7 +6110,7 @@ msgstr ""
 "будь-ласка, використовуйте **примітку** та повторно використовуйте "
 "категорію примітки \"death_cause\"."
 
-#: ../../use_cases-jbq.rst:660
+#: ../../use_cases-jbq.rst:653
 msgid ""
 "Plants with **quantity** zero are shown with a different colour in the "
 "results view.  This helps distinguish them from live plants."
@@ -6136,11 +6118,11 @@ msgstr ""
 "Рослини з **кількістю** нуль показані у різному кольорі у вікні "
 "результатів. Це допомагає відрізняти їх від живих рослин."
 
-#: ../../use_cases-jbq.rst:663
+#: ../../use_cases-jbq.rst:656
 msgid "We find a plant without a label"
 msgstr "Ми знаходимо рослину без етикетки"
 
-#: ../../use_cases-jbq.rst:666
+#: ../../use_cases-jbq.rst:659
 msgid ""
 "We can't be sure the plant had ever been in the collection or not. We "
 "assume it had, and that its label was lost."
@@ -6148,7 +6130,7 @@ msgstr ""
 "Ми не можемо бути впевнені, що рослина коли-набудь була в колекції чи ні."
 " Ми припускаємо, що це було, і що її етикетка була втрачена."
 
-#: ../../use_cases-jbq.rst:669
+#: ../../use_cases-jbq.rst:662
 msgid ""
 "Losing a plant label is unfortunate, but it just sometimes happens. What "
 "we do is to put a new label to the plant, and to clearly state that the "
@@ -6158,7 +6140,7 @@ msgstr ""
 " ставимо на рослину нову етикетку і чітко говоримо, що етикетка є заміною"
 " оригіналу."
 
-#: ../../use_cases-jbq.rst:673
+#: ../../use_cases-jbq.rst:666
 msgid ""
 "We then handle the case as if it was a new accession, plus we add a note "
 "to the accession, category “label”, text “relabeled”."
@@ -6167,15 +6149,15 @@ msgstr ""
 " додали примітку до приєднання, категорію “етикетка”, текст "
 "“перемарковані”."
 
-#: ../../use_cases-jbq.rst:677
+#: ../../use_cases-jbq.rst:670
 msgid "Keeping track of different sources of plant material"
 msgstr "Слідкуйте за різними джерелами рослинного матеріалу"
 
-#: ../../use_cases-jbq.rst:679
+#: ../../use_cases-jbq.rst:672
 msgid "What different sources we can have"
 msgstr "Які різні джерела ми можемо мати"
 
-#: ../../use_cases-jbq.rst:682
+#: ../../use_cases-jbq.rst:675
 msgid ""
 "In this botanical garden, we receive plants from different types of "
 "origin. It could be from expeditions (plants coming from nature, "
@@ -6191,11 +6173,11 @@ msgstr ""
 "колекціонерів або орхідеї комерціалізації підприємств, придбаних або "
 "конфіскованих рослин (зазвичай відбуваються з МАЕ рейди по всій країні)."
 
-#: ../../use_cases-jbq.rst:690
+#: ../../use_cases-jbq.rst:683
 msgid "If the plant comes from a wild source"
 msgstr "Якщо рослина походить з дикоростучого джерела"
 
-#: ../../use_cases-jbq.rst:693
+#: ../../use_cases-jbq.rst:686
 msgid ""
 "The accession editor offers the option \"origin\" option. When a plant is"
 " traceable to a wild source, we can specified its specific origin. We "
@@ -6207,23 +6189,23 @@ msgstr ""
 "походження. Ми хочемо дотримуватися ITF2, і ghini-1.0 лише частково "
 "дотримується цього стандарту. Параметри, що відповідають ITF2, такі:"
 
-#: ../../use_cases-jbq.rst:698
+#: ../../use_cases-jbq.rst:691
 msgid "Wild: Accession of wild source."
 msgstr "Дикоростучі: приєднання дикоростучого джерела."
 
-#: ../../use_cases-jbq.rst:699
+#: ../../use_cases-jbq.rst:692
 msgid "Cultivated: Propagule(s) from a wild source plant."
 msgstr "Культивовані: Росток (-и) з рослини дикоростучого джерела."
 
-#: ../../use_cases-jbq.rst:700
+#: ../../use_cases-jbq.rst:693
 msgid "Not Wild: Accession not traceable to a wild source."
 msgstr "Не дикоростучі: приєднання неможливо відстежити до дикоростучого джерела."
 
-#: ../../use_cases-jbq.rst:701
+#: ../../use_cases-jbq.rst:694
 msgid "Insufficient data"
 msgstr "Недостатньо даних"
 
-#: ../../use_cases-jbq.rst:703
+#: ../../use_cases-jbq.rst:696
 msgid ""
 "In the case of a donated plant, it is better to put detail information "
 "just as a note in the plant accession; in the case of a plant with an "
@@ -6233,11 +6215,11 @@ msgstr ""
 "записку на приєднання рослини; У випадку з рослиною з невідомим джерелом,"
 " ми обираємо параметр недостатньо даних."
 
-#: ../../use_cases-jbq.rst:707
+#: ../../use_cases-jbq.rst:700
 msgid "Using the source tab in the accession editor"
 msgstr "Використання вкладки вихідного коду в редакторі приєднання"
 
-#: ../../use_cases-jbq.rst:710
+#: ../../use_cases-jbq.rst:703
 msgid ""
 "In this section we can create or use a contact, our source of plant "
 "material. It could be from an expedition to a collecting place, and in "
@@ -6251,7 +6233,7 @@ msgstr ""
 "можемо назвати особу чи підприємство, що пожертвувало певну партію "
 "рослин."
 
-#: ../../use_cases-jbq.rst:718
+#: ../../use_cases-jbq.rst:711
 msgid ""
 "Once you choose or create the contact information, this section deploys "
 "more options, here you can specify the region, where you can choose the "
@@ -6268,11 +6250,11 @@ msgstr ""
 "написати конкретну дату поруч із назвою колекціонера (наприклад, Луїсом "
 "Бакеро, 10.11.2016 р.)."
 
-#: ../../use_cases-jbq.rst:726
+#: ../../use_cases-jbq.rst:719
 msgid "Donated, bought or confiscated plants"
 msgstr "Пожертвувані, куплені чи конфісковані рослини"
 
-#: ../../use_cases-jbq.rst:729
+#: ../../use_cases-jbq.rst:722
 msgid ""
 "However useful for expeditions or for donors where the main information "
 "is geographic, this source tab is not very practical in our remaining "
@@ -6286,15 +6268,15 @@ msgstr ""
 "пожертвувати, для цих категорій параметри, доступні на вкладці вихідного "
 "коду, не застосовуються: занадто багато інформації і не до речі."
 
-#: ../../use_cases-jbq.rst:735
+#: ../../use_cases-jbq.rst:728
 msgid "In these cases, we add a set of notes, according to the case."
 msgstr "У цих випадках ми додаємо набір нотаток, відповідно до справи."
 
-#: ../../use_cases-jbq.rst:737
+#: ../../use_cases-jbq.rst:730
 msgid "— Donated plants"
 msgstr "— Пожертвувані рослини"
 
-#: ../../use_cases-jbq.rst:740
+#: ../../use_cases-jbq.rst:733
 msgid ""
 "If the plant was donated by individual, we add the individual among our "
 "contacts and specify it as source, then we add the notes:"
@@ -6302,29 +6284,29 @@ msgstr ""
 "Якщо рослина була подарована індивідуумом, ми додаємо індивідуум серед "
 "наших контактів і вказуємо його як джерело, потім додаємо примітки:"
 
-#: ../../use_cases-jbq.rst:744 ../../use_cases-jbq.rst:757
-#: ../../use_cases-jbq.rst:771
+#: ../../use_cases-jbq.rst:737 ../../use_cases-jbq.rst:750
+#: ../../use_cases-jbq.rst:764
 msgid "category"
 msgstr "категорія"
 
-#: ../../use_cases-jbq.rst:744 ../../use_cases-jbq.rst:757
-#: ../../use_cases-jbq.rst:771
+#: ../../use_cases-jbq.rst:737 ../../use_cases-jbq.rst:750
+#: ../../use_cases-jbq.rst:764
 msgid "text"
 msgstr "текст"
 
-#: ../../use_cases-jbq.rst:746
+#: ../../use_cases-jbq.rst:739
 msgid "gift"
 msgstr "подарунок"
 
-#: ../../use_cases-jbq.rst:747
+#: ../../use_cases-jbq.rst:740
 msgid "Contribución científica al JBQ"
 msgstr "Науковий внесок у JBQ"
 
-#: ../../use_cases-jbq.rst:750
+#: ../../use_cases-jbq.rst:743
 msgid "— Bought plants"
 msgstr "— Купили рослини"
 
-#: ../../use_cases-jbq.rst:753
+#: ../../use_cases-jbq.rst:746
 msgid ""
 "If the plant was bought, we add the previous owner among our contacts and"
 " specify it as source, then we add the notes:"
@@ -6332,23 +6314,23 @@ msgstr ""
 "Якщо рослина була куплена, ми додаємо попереднього власника серед наших "
 "контактів і вказуємо його як джерело, потім додаємо примітки:"
 
-#: ../../use_cases-jbq.rst:759
+#: ../../use_cases-jbq.rst:752
 msgid "purchase"
 msgstr "придбання"
 
-#: ../../use_cases-jbq.rst:760
+#: ../../use_cases-jbq.rst:753
 msgid "optional, free text"
 msgstr "необов'язковий, вільний текст"
 
-#: ../../use_cases-jbq.rst:761
+#: ../../use_cases-jbq.rst:754
 msgid "the invoice number"
 msgstr "номер рахунку-фактури"
 
-#: ../../use_cases-jbq.rst:764
+#: ../../use_cases-jbq.rst:757
 msgid "— Confiscated plants"
 msgstr "— Конфісковані рослини"
 
-#: ../../use_cases-jbq.rst:767
+#: ../../use_cases-jbq.rst:760
 msgid ""
 "If the plant was confiscated, we add the previous owner among our "
 "contacts and specify it as source, then we add the notes:"
@@ -6356,23 +6338,23 @@ msgstr ""
 "Якщо рослина була конфіскована, ми додаємо попереднього власника серед "
 "наших контактів і вказуємо його як джерело, потім додаємо примітки:"
 
-#: ../../use_cases-jbq.rst:773
+#: ../../use_cases-jbq.rst:766
 msgid "confiscated"
 msgstr "конфіскований"
 
-#: ../../use_cases-jbq.rst:774
+#: ../../use_cases-jbq.rst:767
 msgid "possibly, legal details, law number ..."
 msgstr "можливо, юридичні деталі, номер закону ..."
 
-#: ../../use_cases-jbq.rst:778
+#: ../../use_cases-jbq.rst:771
 msgid "Producing or reproducing labels"
 msgstr "Виробництво або відтворення етикеток"
 
-#: ../../use_cases-jbq.rst:780
+#: ../../use_cases-jbq.rst:773
 msgid "Refreshing plant labels"
 msgstr "Оновлення етикеток рослин"
 
-#: ../../use_cases-jbq.rst:783
+#: ../../use_cases-jbq.rst:776
 msgid ""
 "Sometimes we refresh the labels, for example all that is in a greenhouse,"
 " or maybe just a set of plants because their labels risk becoming "
@@ -6382,7 +6364,7 @@ msgstr ""
 "можливо, просто набір рослин, тому що їх етикетки ризикують стати "
 "нечитабельними."
 
-#: ../../use_cases-jbq.rst:787
+#: ../../use_cases-jbq.rst:780
 msgid ""
 "In the first case it's easy selecting all plants in the Location, we just"
 " type the location name, or give the search ``location like <location "
@@ -6392,7 +6374,7 @@ msgstr ""
 " введемо назву місцезнаходження або надамо пошук  ``location like "
 "<location name>``."
 
-#: ../../use_cases-jbq.rst:791
+#: ../../use_cases-jbq.rst:784
 msgid ""
 "The second case it's a bit trickier.  What we do is to create a temporary"
 " **Tag**, and use it to tag all plants that were found in need for a new "
@@ -6402,7 +6384,7 @@ msgstr ""
 "**Тег** і використовуємо його для позначення всіх рослин, які були "
 "знайдені в необхідності для нової мітки."
 
-#: ../../use_cases-jbq.rst:795
+#: ../../use_cases-jbq.rst:788
 msgid ""
 "Given the selection, we start the report tool, using the mako "
 "``accession-label.svg`` template.  We reset its options to default "
@@ -6415,11 +6397,11 @@ msgstr ""
 "ми встановлюємо колір на ``чорний`` замість ``синій``, який призначений "
 "для гравюри."
 
-#: ../../use_cases-jbq.rst:800
+#: ../../use_cases-jbq.rst:793
 msgid "Preparing labels for non-database plants"
 msgstr "Підготовка етикеток для не базових рослин"
 
-#: ../../use_cases-jbq.rst:803
+#: ../../use_cases-jbq.rst:796
 msgid ""
 "To prepare the batch of 72 labels, we use a mako report template, named "
 "``accession-label.svg``.  This template accepts parameters, this is an "
@@ -6429,7 +6411,7 @@ msgstr ""
 "ім'ям ``accession-label.svg``. Цей шаблон приймає параметри, це приклад, "
 "який буде містити мітки від 025801 до 025872."
 
-#: ../../use_cases-jbq.rst:810
+#: ../../use_cases-jbq.rst:803
 msgid ""
 "Labels come for us in two flavours: (1) either new plants just being "
 "acquired by the garden; (2) or plants in the garden, found without a "
@@ -6441,11 +6423,11 @@ msgstr ""
 "Ми розрізняємо два випадки, додавши 'ret' додатковий текст для "
 "перемаркованих рослин."
 
-#: ../../use_cases-jbq.rst:815
+#: ../../use_cases-jbq.rst:808
 msgid "We keep two boxes with labels of the two types, ready to be used."
 msgstr "Ми зберігаємо два бокси з мітками двох типів, готових до використання."
 
-#: ../../use_cases-jbq.rst:817
+#: ../../use_cases-jbq.rst:810
 msgid ""
 "Our garden has two exposition greenhouses, and several warm and cold "
 "greenhouses where we keep the largest part of our collection.  Plants are"
@@ -6460,11 +6442,11 @@ msgstr ""
 "\"сховище\", коли менш цікаві для експозиції. Для кожної рослини в нашій "
 "колекції нам потрібно знати його поточні розташування та історію рухів."
 
-#: ../../use_cases-jbq.rst:823
+#: ../../use_cases-jbq.rst:816
 msgid "Planned action"
 msgstr "Плановані дії"
 
-#: ../../use_cases-jbq.rst:826
+#: ../../use_cases-jbq.rst:819
 msgid ""
 "The action starts by moving the plants around, and collecting the plant "
 "code either on paper, or in our mobile app, if we had one."
@@ -6472,7 +6454,7 @@ msgstr ""
 "Дія починається з переміщення рослин навколо та збирання коду рослин на "
 "папері або у нашому мобільному додатку, якщо така була."
 
-#: ../../use_cases-jbq.rst:829
+#: ../../use_cases-jbq.rst:822
 msgid ""
 "We then go to the desktop terminal and revise all plants one by one "
 "changing their location in the database.  It is important that the date "
@@ -6484,7 +6466,7 @@ msgstr ""
 "місцезнаходження була правильно збережена, оскільки це говорить нам, як "
 "довго рослина залишається в експозиції."
 
-#: ../../use_cases-jbq.rst:834
+#: ../../use_cases-jbq.rst:827
 msgid ""
 "If we had a mobile app, we would just upload the info to the server and "
 "we would be done."
@@ -6492,11 +6474,11 @@ msgstr ""
 "Якщо б ми мали мобільний додаток, ми просто завантажили би інформацію на "
 "сервер, і ми зробимо це."
 
-#: ../../use_cases-jbq.rst:837
+#: ../../use_cases-jbq.rst:830
 msgid "Ex-post correction"
 msgstr "Фактична корекція"
 
-#: ../../use_cases-jbq.rst:840
+#: ../../use_cases-jbq.rst:833
 msgid ""
 "While revising the garden, we find a plant at a location that is not what"
 " the database says.  We update the database information."
@@ -6504,7 +6486,7 @@ msgstr ""
 "Під час перегляду саду ми знаходимо рослину в місці, де не базується база"
 " даних. Ми оновлюємо інформацію бази даних."
 
-#: ../../use_cases-jbq.rst:843
+#: ../../use_cases-jbq.rst:836
 msgid ""
 "For example, the plant belonging to accession “012142”, species "
 "“*Acineta* sp”, was found in “Invernadero 1”, while the database says it "
@@ -6514,7 +6496,7 @@ msgstr ""
 "sp” був знайдений в “Invernadero 1”, тоді як база даних говорить, що вона"
 " знаходиться в “ICAlm3”."
 
-#: ../../use_cases-jbq.rst:846
+#: ../../use_cases-jbq.rst:839
 msgid ""
 "All we do is find the Plant in the database and update its information.  "
 "We do not change anything in the initial Accession information, just the "
@@ -6524,7 +6506,7 @@ msgstr ""
 "інформацію. Ми не змінюємо нічого в початковій інформації про приєднання,"
 " а саме про поточну інформацію про рослину."
 
-#: ../../use_cases-jbq.rst:850
+#: ../../use_cases-jbq.rst:843
 msgid ""
 "We type the accession code in the search entry field, with quotes, hit "
 "enter. The search results now shows the accession, and it tells us how "
@@ -6537,7 +6519,7 @@ msgstr ""
 "результатів, так що тепер ми також бачимо рядок для рослини, що належить "
 "до приєднання."
 
-#: ../../use_cases-jbq.rst:855
+#: ../../use_cases-jbq.rst:848
 msgid ""
 "Right click on the Plant row, the three options will show: “Edit, Split, "
 "Delete”, select Edit, you land in the Plant Editor."
@@ -6546,15 +6528,15 @@ msgstr ""
 "Редагувати, Розділити, Видалити, виберіть Редагувати, ви  потрапляєте в "
 "редактор рослин."
 
-#: ../../use_cases-jbq.rst:858
+#: ../../use_cases-jbq.rst:851
 msgid "Just correct the Location field, and click on OK."
 msgstr "Просто скопіюйте поле розташування та натисніть OK."
 
-#: ../../use_cases-jbq.rst:860
+#: ../../use_cases-jbq.rst:853
 msgid "The InfoBox contains information about the last change to the object:"
 msgstr "InfoBox містить інформацію про останню зміну об'єкта:"
 
-#: ../../use_cases-jbq.rst:865
+#: ../../use_cases-jbq.rst:858
 msgid ""
 "For plants, even more interesting, it builds a history of changes, list "
 "that includes Location changes, or Quantity changes."
@@ -6562,7 +6544,7 @@ msgstr ""
 "Для рослин, ще цікавіше, він створює історію змін, список яких включає в "
 "себе зміни місцезнаходження або кількість змін."
 
-#: ../../use_cases-jbq.rst:870
+#: ../../use_cases-jbq.rst:863
 msgid ""
 "As plants enter the flowering stage, we can review their identification "
 "directly, or we take pictures of details of the flower, hoping that a "
@@ -6573,11 +6555,11 @@ msgstr ""
 "сподіваючись, що спеціаліст-відвідувач може допомогти завершити "
 "ідентифікацію."
 
-#: ../../use_cases-jbq.rst:874
+#: ../../use_cases-jbq.rst:867
 msgid "Adding pictures"
 msgstr "Додавання зображень"
 
-#: ../../use_cases-jbq.rst:877
+#: ../../use_cases-jbq.rst:870
 msgid ""
 "We are practicing with ODK Collect, a small program running on hand-held "
 "android devices.  Ghini's use of ODK Collect hasn't yet frozen to a best "
@@ -6589,7 +6571,7 @@ msgstr ""
 "до кращої практики. Погляньте на `відповідний випуск "
 "<https://github.com/Ghini/ghini.desktop/issues/243>`_ на github."
 
-#: ../../use_cases-jbq.rst:883
+#: ../../use_cases-jbq.rst:876
 msgid ""
 "Regularly, we need producing reports about our collection that the "
 "Ecuadorian Environment Ministry (MAE) requires and that justify the very "
@@ -6598,11 +6580,11 @@ msgstr ""
 "Регулярно нам потрібні звіти про нашу колекцію, які вимагає Міністерство "
 "екології Республіки Еквадор (MAE), і це виправдовує саме існування саду."
 
-#: ../../use_cases-jbq.rst:887
+#: ../../use_cases-jbq.rst:880
 msgid "Producing reports"
 msgstr "Створення звітів"
 
-#: ../../use_cases-jbq.rst:890
+#: ../../use_cases-jbq.rst:883
 msgid ""
 "Each year the botanic garden has to submit a report (annual report of "
 "management and maintenance of orchids collection) complying to the "
@@ -6612,7 +6594,7 @@ msgstr ""
 "управління та підтримці колекції орхідей), що відповідає вимогам "
 "Міністерства навколишнього середовища Еквадору."
 
-#: ../../use_cases-jbq.rst:894
+#: ../../use_cases-jbq.rst:887
 msgid ""
 "To this end, we start selecting the plants we have to include in the "
 "report. It might be all acquisition in the past year::"
@@ -6620,7 +6602,7 @@ msgstr ""
 "З цією метою ми починаємо вибирати рослини, які ми повинні включити до "
 "звіту. Це може бути все придбання в минулому році:"
 
-#: ../../use_cases-jbq.rst:899
+#: ../../use_cases-jbq.rst:892
 msgid ""
 "or all plants within a location, or all plants belonging to a species, or"
 " just everything (but this will take time)::"
@@ -6628,7 +6610,7 @@ msgstr ""
 "або всі рослини в межах місця, або всі рослини, що належать до певного "
 "виду, або просто все (але це займе час)::"
 
-#: ../../use_cases-jbq.rst:906
+#: ../../use_cases-jbq.rst:899
 msgid ""
 "Having selected the database objects which we want in the report, we "
 "start the report tool, which acts on the selection."
@@ -6636,11 +6618,11 @@ msgstr ""
 "Вибравши у звіті об'єкти бази даних, ми запускаємо інструмент звітування,"
 " який діє на вибір."
 
-#: ../../use_cases-jbq.rst:910
+#: ../../use_cases-jbq.rst:903
 msgid "Searching the database"
 msgstr "Пошук в базі даних"
 
-#: ../../use_cases-jbq.rst:912
+#: ../../use_cases-jbq.rst:905
 msgid ""
 "You search the database in order to edit the data further, or because you"
 " want to produce a report. Anyway you start with typing something in the "
@@ -6649,17 +6631,17 @@ msgstr ""
 "Ви шукаєте в базі даних, щоб змінити дані далі, або тому, що хочете "
 "створити звіт. Так чи інакше, ви починаєте щось набирати в полі пошуку"
 
-#: ../../use_cases-jbq.rst:918
+#: ../../use_cases-jbq.rst:911
 msgid "and you hope to see your result in the search result view."
 msgstr ""
 "і ви сподіваєтеся побачити свій результат у представленні результатів "
 "пошуку."
 
-#: ../../use_cases-jbq.rst:920
+#: ../../use_cases-jbq.rst:913
 msgid "Search in order to edit (plant or accession)"
 msgstr "Пошук для редагування (рослина або приєднання)"
 
-#: ../../use_cases-jbq.rst:923
+#: ../../use_cases-jbq.rst:916
 msgid ""
 "When searching in order to edit, you want to be very specific, and select"
 " as few objects as possible. The most fine-tuned search is the one based "
@@ -6669,15 +6651,15 @@ msgstr ""
 " якомога менше об'єктів. Найточніший пошук на основі номера рослини: ви "
 "знаєте код, ви отримуєте один об'єкт."
 
-#: ../../use_cases-jbq.rst:927
+#: ../../use_cases-jbq.rst:920
 msgid "If your plant is not there, the screen would look like this:"
 msgstr "Якщо вашої рослини там немає, екран виглядатиме так:"
 
-#: ../../use_cases-jbq.rst:931
+#: ../../use_cases-jbq.rst:924
 msgid "Other example, plant ``007701.1`` is in the database:"
 msgstr "Інший приклад, в базі даних знаходиться рослина ``007701.1``:"
 
-#: ../../use_cases-jbq.rst:935
+#: ../../use_cases-jbq.rst:928
 msgid ""
 "All fields with a darker background in the infobox on the right hand side"
 " are hyperlinks to other objects in the database. Clicking on them will "
@@ -6689,11 +6671,11 @@ msgstr ""
 " замінити текст у полі пошуку і виконувати запит, або просто додавати "
 "об'єкт до результатів."
 
-#: ../../use_cases-jbq.rst:940
+#: ../../use_cases-jbq.rst:933
 msgid "Clicking on the accession does the latter."
 msgstr "Натискання на приєднання робить останній."
 
-#: ../../use_cases-jbq.rst:944
+#: ../../use_cases-jbq.rst:937
 msgid ""
 "We now have both Plant or Accession in the search result view and we can "
 "now edit either or both."
@@ -6701,11 +6683,11 @@ msgstr ""
 "Тепер у представленні результатів пошуку є як Рослина, так і Приєднання, "
 "і тепер ми можемо редагувати одне або обидва."
 
-#: ../../use_cases-jbq.rst:947
+#: ../../use_cases-jbq.rst:940
 msgid "Search in order to report"
 msgstr "Пошук з звітом"
 
-#: ../../use_cases-jbq.rst:950
+#: ../../use_cases-jbq.rst:943
 msgid ""
 "When searching in order to create a report, you want to be both specific "
 "(you don't want to report about irrelevant objects) and broad (you don't "
@@ -6715,7 +6697,7 @@ msgstr ""
 "не хочете повідомляти про невідповідні об'єкти) та широкі (ви не хочете "
 "повідомляти про один об'єкт)."
 
-#: ../../use_cases-jbq.rst:954
+#: ../../use_cases-jbq.rst:947
 msgid ""
 "Sometimes the report itself suggests the query, as for example: all "
 "plants in greenhouse 3; or: all plants belonging to endangered species "
@@ -6727,15 +6709,15 @@ msgstr ""
 "інформацію у примітці, пов'язаної з цим видом); або: всі рослини додані "
 "до колекції цього року; ::"
 
-#: ../../use_cases-jbq.rst:963
+#: ../../use_cases-jbq.rst:956
 msgid "Otherwise a flexible way to achieve this is to work with **Tags**."
 msgstr "Інший гнучкий спосіб досягти цього - працювати з **Тегами**."
 
-#: ../../use_cases-jbq.rst:965
+#: ../../use_cases-jbq.rst:958
 msgid "Using **Tags** as enhanced searching"
 msgstr "Використовуйте **Теги** як розширений пошук"
 
-#: ../../use_cases-jbq.rst:968
+#: ../../use_cases-jbq.rst:961
 msgid ""
 "Sometimes we have to take the same action on objects of the same type, "
 "but we don't manage to quickly think of a search query that would group "
@@ -6745,7 +6727,7 @@ msgstr ""
 " вдається швидко подумати про пошуковий запит, який буде групувати все, "
 "що нам потрібно, і виключити все, що нам не потрібне."
 
-#: ../../use_cases-jbq.rst:972
+#: ../../use_cases-jbq.rst:965
 msgid ""
 "This is one possible use of **Tags**.  We start with a selection, we tag "
 "all objects in the selection under a new temporary tag. Let's say we call"
@@ -6755,7 +6737,7 @@ msgstr ""
 "всі об'єкти у виборі під новим тимчасовим тегом. Скажімо, ми називаємо це"
 " \"тимчасовий\"."
 
-#: ../../use_cases-jbq.rst:976
+#: ../../use_cases-jbq.rst:969
 msgid ""
 "We continue searching and adding objects to the temporary tag until the "
 "tag identifies all that we need."
@@ -6763,7 +6745,7 @@ msgstr ""
 "Ми продовжуємо пошук і додавання об'єктів до тимчасового тегу, доки тег "
 "не визначить всього, що нам потрібно."
 
-#: ../../use_cases-jbq.rst:979
+#: ../../use_cases-jbq.rst:972
 msgid ""
 "Finally from the Tags menu we select the one we just created (in our "
 "example this corresponds to the search ``tag=\"temporary\"``) and we can "
@@ -6773,7 +6755,7 @@ msgstr ""
 "прикладі це відповідає пошуку ``tag = 'тимчасовий'``), і ми можемо "
 "викликати звіт."
 
-#: ../../use_cases-jbq.rst:983
+#: ../../use_cases-jbq.rst:976
 msgid ""
 "When we're done with a temporary tag, there's no point in leaving it "
 "around, so we just delete it."
@@ -6781,11 +6763,11 @@ msgstr ""
 "Коли ми закінчимо тимчасовий тег, немає сенсу залишити його надалі, тому "
 "ми просто видалимо його."
 
-#: ../../use_cases-jbq.rst:988
+#: ../../use_cases-jbq.rst:981
 msgid "Be aware of the available search strategies"
 msgstr "Будьте обізнані про наявні стратегії пошуку"
 
-#: ../../use_cases-jbq.rst:991
+#: ../../use_cases-jbq.rst:984
 msgid ""
 "This is nicely documented, \"più non dimandare\" and `read the docs "
 "<searching.html>`_."
@@ -7465,4 +7447,55 @@ msgstr "Ghini дозволяє читати, писати і оформляти 
 #~ "португальську  (100%), французьку (42%), деякі"
 #~ " південно-американські мови, а також "
 #~ "шведська (100%) і чеська (100%)."
+
+#~ msgid ""
+#~ "Adding a new user is a task "
+#~ "taking less than a minute, and can"
+#~ " be done either graphically, or from"
+#~ " the command line."
+#~ msgstr ""
+#~ "Додавання нового користувача - задача, "
+#~ "яка займає менше хвилини, і може "
+#~ "бути виконана або графічно, або з "
+#~ "командного рядка."
+
+#~ msgid ""
+#~ "Hit the |loose_png| key, then start "
+#~ "typing ``users``, something like this "
+#~ "will appear on your screen:"
+#~ msgstr ""
+#~ "Натиснути кнопку |loose_png|, тоді почніть "
+#~ "вводити ``users``, щось на зразок цього"
+#~ " з'явиться на вашому екрані:"
+
+#~ msgid ""
+#~ "Activate the program, unlock the user"
+#~ " data, create a new user account, "
+#~ "define the password and write it "
+#~ "down on a piece of paper you "
+#~ "hand over to the person."
+#~ msgstr ""
+#~ "Активізуйте програму, розблокуйте дані "
+#~ "користувача, створіть новий обліковий запис"
+#~ " користувача, визначте пароль і напишіть"
+#~ " на папері, який ви передаєте людині."
+
+#~ msgid ""
+#~ "You can achieve the same, possibly "
+#~ "faster, from the command line. For "
+#~ "example we add user 'Marta López', "
+#~ "account 'mlopez', by invoking the "
+#~ "command and entering your password (to"
+#~ " unlock user data), then all "
+#~ "information as required, or leaving it"
+#~ " blank:"
+#~ msgstr ""
+#~ "Ви можете досягти того ж, можливо "
+#~ "швидше, з командного рядка. Наприклад, "
+#~ "ми додаємо користувача 'Marta López', "
+#~ "акант 'mlopez', за допомогою команди та"
+#~ " вводимо свій пароль (щоб розблокувати "
+#~ "дані користувача), тоді всю інформацію, "
+#~ "яка вимагається, або залиште це "
+#~ "порожнім:"
 
