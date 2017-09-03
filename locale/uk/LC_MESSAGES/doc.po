@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-28 16:21-0500\n"
-"PO-Revision-Date: 2017-08-26 12:31+0000\n"
+"PO-Revision-Date: 2017-09-04 19:49+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.17-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -72,6 +73,8 @@ msgid ""
 "Please refer to the `official documentation <https://mariadb.com/kb/en"
 "/the-mariadb-library/documentation/>`_."
 msgstr ""
+"Будь ласка, зверніться до `офіційної документації <https://mariadb.com/kb/en"
+"/the-mariadb-library/documentation/>`_."
 
 #: ../../administration.rst:28
 msgid ""
@@ -79,6 +82,9 @@ msgid ""
 "starting at `this page <https://mariadb.com/kb/en/the-mariadb-library"
 "/backing-up-and-restoring-databases/>`_."
 msgstr ""
+"Резервне копіювання та відновлення баз даних описано широко та глибоко, "
+"починаючи з `цієї сторінки <https://mariadb.com/kb/en/the-mariadb-library"
+"/backing-up-and-restoring-databases/>`_."
 
 #: ../../administration.rst:35
 msgid ""
@@ -2594,15 +2600,16 @@ msgid "language agnostic"
 msgstr "агностична мова"
 
 #: ../../goal.rst:275
-#, fuzzy
 msgid ""
 "The program was born in English and all its technical and user "
 "documentation is first written in that language. Both technical and user "
 "documentation use ``gettext``, an advanced tool for semi-automatic "
 "translation."
 msgstr ""
-"Програма народилася в Англії і все технічне забезпечення і документація "
-"користувача залишається на англійській мові."
+"Програма народилася англійською мовою, і вся її технічна та користувацька "
+"документація спочатку була написана на цій мові. Як технічна, так і "
+"користувацька документація використовує ``gettext``, розширений інструмент "
+"для напівавтоматичного перекладу."
 
 #: ../../goal.rst:279
 msgid ""
@@ -2620,6 +2627,8 @@ msgid ""
 "Translation of documentation goes a bit slower, with only Ukrainian, "
 "Spanish and Italian at more than 50%."
 msgstr ""
+"Переклад документації йде трохи повільніше, лише понад 50% - лише "
+"українська, іспанська та італійська."
 
 #: ../../goal.rst:287
 msgid "platform agnostic"
@@ -4309,9 +4318,9 @@ msgid ""
 "lenght string ``''`` nor the numeric ``0`` nor the boolean ``False`` nor "
 "the set ``Empty``, it indicates that the field has no value at all."
 msgstr ""
-"``None`` - це значення порожнього поля. Це не те ж саме, що рядок "
-"нульової довжини ``''``, ані числове ``0``, ані логічне ``False``, ані "
-"встановленя ``Empty``, це означає, що поле не має значення Все."
+"``None`` - це значення порожнього поля. Це не те ж саме, що рядок нульової "
+"довжини ``''``, ані числове ``0``, ані логічне ``False``, ані встановлення "
+"``Empty``, це означає, що поле не має значення Все."
 
 #: ../../searching.rst:238
 msgid ""
@@ -4979,9 +4988,8 @@ msgid "Understanding when to update"
 msgstr "Розуміння того, коли оновлювати"
 
 #: ../../use_cases-jbq.rst:65
-#, fuzzy
 msgid "Updating the system"
-msgstr "написання тестів"
+msgstr "Оновлення системи"
 
 #: ../../use_cases-jbq.rst:68
 msgid ""
@@ -4989,11 +4997,13 @@ msgid ""
 "whenever the system suggests an update, we let it do that. Generally, "
 "there's no need to wait during the update nor to reboot after it's done."
 msgstr ""
+"Оновлення Ubuntu набагато легше і простіше, ніж у Windows. Тому коли система "
+"пропонує оновлення, ми дозволимо це зробити. Як правило, не потрібно чекати "
+"під час оновлення, ані перезавантажувати після завершення."
 
 #: ../../use_cases-jbq.rst:73
-#, fuzzy
 msgid "Updating ghini"
-msgstr "Підтримка Ghini"
+msgstr "Оновлення ghini"
 
 #: ../../use_cases-jbq.rst:76
 msgid ""
@@ -5819,9 +5829,8 @@ msgid "Reserved to cactus plants next to the orchids exposition glasshouses."
 msgstr "Резервний для рослин кактуса поряд з експозицією орхідей теплиць."
 
 #: ../../use_cases-jbq.rst:513
-#, fuzzy
 msgid "Nepenthaceae exibition"
-msgstr "Виставка непентаних"
+msgstr "Виявлення непентаних"
 
 #: ../../use_cases-jbq.rst:515
 #, fuzzy
@@ -7465,4 +7474,3 @@ msgstr "Ghini дозволяє читати, писати і оформляти 
 #~ "португальську  (100%), французьку (42%), деякі"
 #~ " південно-американські мови, а також "
 #~ "шведська (100%) і чеська (100%)."
-
