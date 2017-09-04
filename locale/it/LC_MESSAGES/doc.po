@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-04 16:24-0500\n"
+"POT-Creation-Date: 2017-09-04 16:57-0500\n"
 "PO-Revision-Date: 2017-08-16 14:44+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: it\n"
@@ -4443,9 +4443,14 @@ msgid ""
 "super-user credentials in a very safe place."
 msgstr ""
 "Quando ci si connette a un server di database come uno di cui sopra, ci "
-"sono un paio di passi da effettuare manualmente: Creare almeno un utente Ghini; creare il database che "
-"Ghini potrà usare; Concedere ad almeno un utente tutti i "
-"permessi sul database. Se si ha intenzione di utilizzare più di un utente: Dare ad un utente il privilegio ``CREATEROLE``; Considerare l'utente con il privilegio ``CREATEROLE`` alla stregua di un amministratore, non destinato alla manipolazione dati; Tenere le credenziali di accesso di questo amministratore in un posto assolutamente sicuro."
+"sono un paio di passi da effettuare manualmente: Creare almeno un utente "
+"Ghini; creare il database che Ghini potrà usare; Concedere ad almeno un "
+"utente tutti i permessi sul database. Se si ha intenzione di utilizzare "
+"più di un utente: Dare ad un utente il privilegio ``CREATEROLE``; "
+"Considerare l'utente con il privilegio ``CREATEROLE`` alla stregua di un "
+"amministratore, non destinato alla manipolazione dati; Tenere le "
+"credenziali di accesso di questo amministratore in un posto assolutamente"
+" sicuro."
 
 #: ../../started.rst:38
 msgid ""
@@ -4453,10 +4458,9 @@ msgid ""
 " importing the default data set.  The process is database-dependent and "
 "it falls beyond the scope of this manual."
 msgstr ""
-"Fatto ciò, Ghini sarà in grado di procedere, "
-"creare tabelle e importare il set di dati predefinito.  Il processo in "
-"dettaglio dipende fortemente dal database e cade ben oltre la portata di "
-"questo manuale."
+"Fatto ciò, Ghini sarà in grado di procedere, creare tabelle e importare "
+"il set di dati predefinito.  Il processo in dettaglio dipende fortemente "
+"dal database e cade ben oltre la portata di questo manuale."
 
 #: ../../started.rst:42
 msgid ""
@@ -4601,9 +4605,9 @@ msgid ""
 " otherwise read on to the following section on initializing a database "
 "for Ghini."
 msgstr ""
-"Se ci si connette a un database esistente è possibile continuare a :ref"
-":`inserire-e-modificare-dati` e successivamente :ref:`ricerca-in-ghini`, "
-"altrimenti leggete la sezione seguente sull'inizializzazione di "
+"Se ci si connette a un database esistente è possibile continuare a "
+":ref:`inserire-e-modificare-dati` e successivamente :ref:`ricerca-in-"
+"ghini`, altrimenti leggete la sezione seguente sull'inizializzazione di "
 "un database per Ghini."
 
 #: ../../started.rst:111
@@ -6470,25 +6474,31 @@ msgstr "Il plugin di utenti Ghini disponibile solo su database PostgreSQL basata
 
 #: ../../users.rst:7
 msgid ""
-"The Ghini User's Plugin will allow you to create and manage the "
+"The Ghini Users Plugin will allow you to create and manage the "
 "permissions of users for your Ghini database."
 msgstr ""
 "Plugin dell'utente Ghini vi permetterà di creare e gestire le "
 "autorizzazioni degli utenti per il database di Ghini."
 
-#: ../../users.rst:11
+#: ../../users.rst:10
+msgid ""
+"You must log in to your database as a user with ``CREATEROLE`` privilege "
+"in order to manage other users."
+msgstr ""
+
+#: ../../users.rst:14
 msgid "Creating Users"
 msgstr "Creare Utenti"
 
-#: ../../users.rst:12
+#: ../../users.rst:15
 msgid "To create a new user..."
 msgstr "Crea nuovo utente..."
 
-#: ../../users.rst:16
+#: ../../users.rst:19
 msgid "Permissions"
 msgstr "Permessi"
 
-#: ../../users.rst:17
+#: ../../users.rst:20
 msgid "Ghini allows read, write and execute permissions."
 msgstr "Ghini consente lettura, scrittura ed esecuzione autorizzazioni."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-04 16:09-0500\n"
+"POT-Creation-Date: 2017-09-04 16:57-0500\n"
 "PO-Revision-Date: 2017-08-29 22:47+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language: es\n"
@@ -4512,10 +4512,12 @@ msgid ""
 msgstr ""
 "Cuando se conecta a un servidor de base de datos como uno de los "
 "anteriores, hay unas tareas manuales para usted: Cree por lo menos un "
-"usuario; Cree su base de datos; Asigne a un usuario todos privilegios sobre la base de datos; "
-"Si además piensa tener más usuarios: Asigne a un usuarios el privilegio ``CREATEROLE``; "
-"Considere el usuarios con el privilegio ``CREATEROLE`` como un superusuario, que no se utilice para manejar datos;"
-"Tenga la contraseña de su superusuario en un lugar muy seguro."
+"usuario; Cree su base de datos; Asigne a un usuario todos privilegios "
+"sobre la base de datos; Si además piensa tener más usuarios: Asigne a un "
+"usuarios el privilegio ``CREATEROLE``; Considere el usuarios con el "
+"privilegio ``CREATEROLE`` como un superusuario, que no se utilice para "
+"manejar datos;Tenga la contraseña de su superusuario en un lugar muy "
+"seguro."
 
 #: ../../started.rst:38
 msgid ""
@@ -4523,10 +4525,9 @@ msgid ""
 " importing the default data set.  The process is database-dependent and "
 "it falls beyond the scope of this manual."
 msgstr ""
-"Cuando esto "
-"esté hecho, Ghini podrá proceder, crear las tablas e importar el "
-"conjunto de datos por defecto.  El proceso depende de la base de datos y "
-"cae fuera del alcance de este manual."
+"Cuando esto esté hecho, Ghini podrá proceder, crear las tablas e importar"
+" el conjunto de datos por defecto.  El proceso depende de la base de "
+"datos y cae fuera del alcance de este manual."
 
 #: ../../started.rst:42
 msgid ""
@@ -4635,12 +4636,12 @@ msgid ""
 "``~/.bauble`` on Linux/MacOSX or in ``AppData\\Roaming\\Bauble`` on "
 "Windows."
 msgstr ""
-"Si utiliza SQLite, lo único que realmente se necesite especificar es el nombre "
-"de conexión. Si Ghini puede utilizar el nombre predeterminado, Ghini crea "
-"el archivo de base de datos con el mismo nombre que la conexión y "
-"con extensión ``.db`` y una carpeta de fotos con el mismo nombre y sin "
-"extensión, que se encontrarán en ``~/.bauble`` en Linux/MacOSX o en ``"
-"AppData\\Roaming\\Bauble`` en Windows."
+"Si utiliza SQLite, lo único que realmente se necesite especificar es el "
+"nombre de conexión. Si Ghini puede utilizar el nombre predeterminado, "
+"Ghini crea el archivo de base de datos con el mismo nombre que la "
+"conexión y con extensión ``.db`` y una carpeta de fotos con el mismo "
+"nombre y sin extensión, que se encontrarán en ``~/.bauble`` en "
+"Linux/MacOSX o en ``AppData\\Roaming\\Bauble`` en Windows."
 
 #: ../../started.rst:97
 msgid ""
@@ -4649,9 +4650,9 @@ msgid ""
 "Ghini use the default filename, but you browse in your computer to the "
 "location where you saved the Ghini SQLite database file."
 msgstr ""
-"Siempre con SQLite, usted quizás recibió o descargó un archivo de base de datos, y "
-"quiere utilizarlo. En este caso no deje a Ghini utilizar el nombre "
-"predeterminado, sino busque en su computadora la ubicación donde "
+"Siempre con SQLite, usted quizás recibió o descargó un archivo de base de"
+" datos, y quiere utilizarlo. En este caso no deje a Ghini utilizar el "
+"nombre predeterminado, sino busque en su computadora la ubicación donde "
 "guardó ese archivo SQLite."
 
 #: ../../started.rst:102
@@ -4667,14 +4668,14 @@ msgstr ""
 #: ../../started.rst:106
 msgid ""
 "If you are connecting to an existing database you can continue to :ref"
-":`editing-and-inserting-data` and subsequently :ref:`searching-in-"
-"ghini`, otherwise read on to the following section on initializing a "
-"database for Ghini."
+":`editing-and-inserting-data` and subsequently :ref:`searching-in-ghini`,"
+" otherwise read on to the following section on initializing a database "
+"for Ghini."
 msgstr ""
-"Si se conecta a una base de datos existente puede continuar: ref:"
-"`editar-e-insertar-información`' y posteriormente: ref:`buscar-en-ghini`, "
-"de lo contrario sigue leyendo la siguiente sección en inicializar una "
-"base de datos de Ghini."
+"Si se conecta a una base de datos existente puede continuar: "
+"ref:`editar-e-insertar-información`' y posteriormente: ref:`buscar-en-"
+"ghini`, de lo contrario sigue leyendo la siguiente sección en inicializar"
+" una base de datos de Ghini."
 
 #: ../../started.rst:111
 msgid ""
@@ -6938,25 +6939,33 @@ msgstr ""
 
 #: ../../users.rst:7
 msgid ""
-"The Ghini User's Plugin will allow you to create and manage the "
+"The Ghini Users Plugin will allow you to create and manage the "
 "permissions of users for your Ghini database."
 msgstr ""
-"Plugin del usuario Ghini le permitirá crear y administrar los permisos de"
+"El plugin de usuarios le permitirá crear y administrar los permisos de"
 " los usuarios para su base de datos de Ghini."
 
-#: ../../users.rst:11
+#: ../../users.rst:10
+msgid ""
+"You must log in to your database as a user with ``CREATEROLE`` privilege "
+"in order to manage other users."
+msgstr ""
+"Para modificar los privilegios de los demás usuarios, usted debe conectarse"
+" a la base datos bajo un usuario con privilegio ``CREATEROLE``."
+
+#: ../../users.rst:14
 msgid "Creating Users"
 msgstr "Creación de usuarios"
 
-#: ../../users.rst:12
+#: ../../users.rst:15
 msgid "To create a new user..."
 msgstr "Para crear un usuario nuevo..."
 
-#: ../../users.rst:16
+#: ../../users.rst:19
 msgid "Permissions"
 msgstr "Permisos"
 
-#: ../../users.rst:17
+#: ../../users.rst:20
 msgid "Ghini allows read, write and execute permissions."
 msgstr "Ghini permite la lectura, escritura y ejecución."
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-04 16:24-0500\n"
+"POT-Creation-Date: 2017-09-04 16:57-0500\n"
 "PO-Revision-Date: 2017-08-26 12:31+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -6825,25 +6825,31 @@ msgstr "Плагін користувачів Ghini доступний лише 
 
 #: ../../users.rst:7
 msgid ""
-"The Ghini User's Plugin will allow you to create and manage the "
+"The Ghini Users Plugin will allow you to create and manage the "
 "permissions of users for your Ghini database."
 msgstr ""
 "Плагін користувача Ghini дозволить вам створювати та керувати правами "
 "користувачів для бази даних Ghini."
 
-#: ../../users.rst:11
+#: ../../users.rst:10
+msgid ""
+"You must log in to your database as a user with ``CREATEROLE`` privilege "
+"in order to manage other users."
+msgstr ""
+
+#: ../../users.rst:14
 msgid "Creating Users"
 msgstr "Створення користувачів"
 
-#: ../../users.rst:12
+#: ../../users.rst:15
 msgid "To create a new user..."
 msgstr "Для створення нового користувача ..."
 
-#: ../../users.rst:16
+#: ../../users.rst:19
 msgid "Permissions"
 msgstr "Дозволи"
 
-#: ../../users.rst:17
+#: ../../users.rst:20
 msgid "Ghini allows read, write and execute permissions."
 msgstr "Ghini дозволяє читати, писати і оформляти дозволи."
 
