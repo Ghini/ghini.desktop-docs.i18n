@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 16:45-0500\n"
+"POT-Creation-Date: 2017-09-04 16:09-0500\n"
 "PO-Revision-Date: 2017-08-29 22:47+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language: es\n"
@@ -4503,21 +4503,32 @@ msgstr ""
 #: ../../started.rst:30
 msgid ""
 "When connecting to a database server as one of the above, you have to "
-"manually create: at least one bauble user, the database you want bauble "
-"to use, and to give at lest one bauble user full permissions on its "
-"database. When this is done, Ghini will be able to proceed, creating the "
-"tables and importing the default data set.  The process is database-"
-"dependent and it falls beyond the scope of this manual."
+"manually do the following: Create at least one user; Create your "
+"database; Give at least one user full permissions on your database; If "
+"you plan having more database users: Give one of your users the "
+"``CREATEROLE`` privilege; Consider the user with the ``CREATEROLE`` "
+"privilege as a super-user, not meant to handle data directly; Keep your "
+"super-user credentials in a very safe place."
 msgstr ""
 "Cuando se conecta a un servidor de base de datos como uno de los "
-"anteriores, usted tiene que crear manualmente: chuchería al menos un "
-"usuario, la base de datos desea chuchería a utilizar y darle a para que "
-"un usuario de chuchería full permisos en su base de datos. Cuando esto "
-"esté hecho, Ghini podrán proceder, crear las tablas e importar el "
+"anteriores, hay unas tareas manuales para usted: Cree por lo menos un "
+"usuario; Cree su base de datos; Asigne a un usuario todos privilegios sobre la base de datos; "
+"Si además piensa tener más usuarios: Asigne a un usuarios el privilegio ``CREATEROLE``; "
+"Considere el usuarios con el privilegio ``CREATEROLE`` como un superusuario, que no se utilice para manejar datos;"
+"Tenga la contraseña de su superusuario en un lugar muy seguro."
+
+#: ../../started.rst:38
+msgid ""
+"When this is done, Ghini will be able to proceed, creating the tables and"
+" importing the default data set.  The process is database-dependent and "
+"it falls beyond the scope of this manual."
+msgstr ""
+"Cuando esto "
+"esté hecho, Ghini podrá proceder, crear las tablas e importar el "
 "conjunto de datos por defecto.  El proceso depende de la base de datos y "
 "cae fuera del alcance de este manual."
 
-#: ../../started.rst:37
+#: ../../started.rst:42
 msgid ""
 "If you already got the chills or sick at your stomach, no need to worry, "
 "just stick with SQLite, you do not miss on features nor performance."
@@ -4526,11 +4537,11 @@ msgstr ""
 "preocuparse, simplemente pegan con SQLite, no perder características ni "
 "prestaciones."
 
-#: ../../started.rst:43
+#: ../../started.rst:48
 msgid "Connecting to a database"
 msgstr "Conectarse a una base de datos"
 
-#: ../../started.rst:45
+#: ../../started.rst:50
 msgid ""
 "When you start Ghini the first thing that comes up is the connection "
 "dialog."
@@ -4538,7 +4549,7 @@ msgstr ""
 "Al arrancar Ghini, lo primero que aparece es una ventana en que "
 "seleccionar la conexión."
 
-#: ../../started.rst:48
+#: ../../started.rst:53
 msgid ""
 "Quite obviously, if this is the first time you start Ghini, you have no "
 "connections yet and Ghini will alert you about it."
@@ -4546,7 +4557,7 @@ msgstr ""
 "Pues si esta es la primera vez que arranca Ghini por supuesto no hay "
 "conexiones. Ghini se lo deja notar."
 
-#: ../../started.rst:53
+#: ../../started.rst:58
 msgid ""
 "This alert will show at first activation and also in the future if your "
 "connections list becomes empty. As it says: click on **Add** to create "
@@ -4556,7 +4567,7 @@ msgstr ""
 "su lista de conexiones se convierte en vacío. Como dice: haga clic en ** "
 "Agregar ** para crear tu primera conexión."
 
-#: ../../started.rst:59
+#: ../../started.rst:64
 msgid ""
 "Just insert a name for your connection, something meaningful you "
 "associate with the collection to be represented in the database (for "
@@ -4570,11 +4581,11 @@ msgstr ""
 "anterior, donde el nombre de la conexión está seleccionada y los Detalles"
 " de conexión se han expandido."
 
-#: ../../started.rst:67
+#: ../../started.rst:72
 msgid "**specify the connection details**"
 msgstr "** especificar la información de conexión **"
 
-#: ../../started.rst:69
+#: ../../started.rst:74
 msgid ""
 "If you do not know what to do here, Ghini will help you stay safe. "
 "Activate the **Use default locations** check box and create your first "
@@ -4584,7 +4595,7 @@ msgstr ""
 " valores por defecto** y finalice el crear la conexión pisando "
 "**Conectar**."
 
-#: ../../started.rst:72
+#: ../../started.rst:77
 msgid ""
 "You may safely skip the remainder of this section for the time being and "
 "continue reading to the following section."
@@ -4592,11 +4603,11 @@ msgstr ""
 "El resto de esta sección da más detalles de natura técnica. Si no quiere "
 "adentrarse, puede seguir con la sección siguiente."
 
-#: ../../started.rst:75
+#: ../../started.rst:80
 msgid "**fine-tune the connection details**"
 msgstr "**detalles de conexión: sintonización fina**"
 
-#: ../../started.rst:77
+#: ../../started.rst:82
 msgid ""
 "By default Ghini uses the file-based SQLite database.  During the "
 "installation process you had the choice (and you still have after "
@@ -4607,7 +4618,7 @@ msgstr ""
 "instalación), para agregar conectores de base de datos distinta de la "
 "predeterminada de SQLite."
 
-#: ../../started.rst:81
+#: ../../started.rst:86
 msgid ""
 "In this example, Ghini can connect to SQLite, PostgreSQL and MySQL, but "
 "no connector is available for Oracle or MS SQL Server."
@@ -4615,7 +4626,7 @@ msgstr ""
 "En este ejemplo, Ghini puede conectar SQLite, PostgreSQL y MySQL, pero "
 "ningún conector está disponible para Oracle o MS SQL Server."
 
-#: ../../started.rst:86
+#: ../../started.rst:91
 msgid ""
 "If you use SQLite, all you really need specify is the connection name. If"
 " you let Ghini use the default filename then Ghini creates a database "
@@ -4624,48 +4635,48 @@ msgid ""
 "``~/.bauble`` on Linux/MacOSX or in ``AppData\\Roaming\\Bauble`` on "
 "Windows."
 msgstr ""
-"Si utiliza SQLite, todo lo realmente necesario especificar es el nombre "
-"de conexión. Si dejas Ghini utilizar el nombre predeterminado Ghini crea "
-"un archivo de base de datos con el mismo nombre que la conexión y "
-"extensión del '' .db '' y una carpeta de fotos con el mismo nombre y sin "
-"extensión, tanto en '' ~/.bauble'' en Linux/MacOSX o en '' "
-"AppData\\Roaming\\Bauble'' en Windows."
+"Si utiliza SQLite, lo único que realmente se necesite especificar es el nombre "
+"de conexión. Si Ghini puede utilizar el nombre predeterminado, Ghini crea "
+"el archivo de base de datos con el mismo nombre que la conexión y "
+"con extensión ``.db`` y una carpeta de fotos con el mismo nombre y sin "
+"extensión, que se encontrarán en ``~/.bauble`` en Linux/MacOSX o en ``"
+"AppData\\Roaming\\Bauble`` en Windows."
 
-#: ../../started.rst:92
+#: ../../started.rst:97
 msgid ""
 "Still with SQLite, you might have received or downloaded a bauble "
 "database, and you want to connect to it. In this case you do not let "
 "Ghini use the default filename, but you browse in your computer to the "
 "location where you saved the Ghini SQLite database file."
 msgstr ""
-"Aún con SQLite, recibido o descargar una base de datos de chuchería, y "
-"quiere conectarse a él. En este caso no deja Ghini utilizar el nombre "
-"predeterminado, pero buscar en su computadora a la ubicación donde "
-"guardaste el Ghini SQLite base de datos."
+"Siempre con SQLite, usted quizás recibió o descargó un archivo de base de datos, y "
+"quiere utilizarlo. En este caso no deje a Ghini utilizar el nombre "
+"predeterminado, sino busque en su computadora la ubicación donde "
+"guardó ese archivo SQLite."
 
-#: ../../started.rst:97
+#: ../../started.rst:102
 msgid ""
 "If you use a different database connector, the dialog box will look "
 "different and it will offer you the option to fine tune all parameters "
 "needed to connect to the database of your choice."
 msgstr ""
-"Si utiliza un conector de base de datos, el cuadro de diálogo se verá "
+"Si utiliza otro conector de base de datos, el cuadro de diálogo se verá "
 "diferente y le ofrecerá la opción de afinar todos los parámetros "
-"necesitan para conectarse a la base de datos de su elección."
+"necesarios para conectarse a la base de datos de su elección."
 
-#: ../../started.rst:101
+#: ../../started.rst:106
 msgid ""
 "If you are connecting to an existing database you can continue to :ref"
 ":`editing-and-inserting-data` and subsequently :ref:`searching-in-"
-"bauble`, otherwise read on to the following section on initializing a "
+"ghini`, otherwise read on to the following section on initializing a "
 "database for Ghini."
 msgstr ""
-"Si se conecta a una base de datos existente puede continuar: ref: "
-"'edición-y-insertar-data' y posteriormente: ref: 'Buscar-en-chuchería', "
+"Si se conecta a una base de datos existente puede continuar: ref:"
+"`editar-e-insertar-información`' y posteriormente: ref:`buscar-en-ghini`, "
 "de lo contrario sigue leyendo la siguiente sección en inicializar una "
 "base de datos de Ghini."
 
-#: ../../started.rst:106
+#: ../../started.rst:111
 msgid ""
 "If you plan to associate pictures to plants, specify also the *pictures "
 "root* folder. The meaning of this is explained in further detail at :ref"
@@ -4675,11 +4686,11 @@ msgstr ""
 "carpeta imágenes. El significado de esto se explica con mayor detalle en:"
 " ref: 'planta-pictures' en: ref: 'edición-y-insertar-data'."
 
-#: ../../started.rst:113
+#: ../../started.rst:118
 msgid "Initialize a database"
 msgstr "Inicializar una base de datos"
 
-#: ../../started.rst:115
+#: ../../started.rst:120
 msgid ""
 "First time you open a connection to a database which had never been seen "
 "by Ghini before, Ghini will first display an alert:"
@@ -4687,11 +4698,11 @@ msgstr ""
 "La primera vez que se abre una conexión a una base de datos, nunca antes "
 "vista con Ghini, el programa presenta el aviso:"
 
-#: ../../started.rst:120
+#: ../../started.rst:125
 msgid "immediately followed by a question:"
 msgstr "e inmediatamente después la pregunta:"
 
-#: ../../started.rst:124
+#: ../../started.rst:129
 msgid ""
 "Be careful when manually specifying the connection parameters: the values"
 " you have entered may refer to an existing database, not intended for use"
@@ -4704,7 +4715,7 @@ msgstr ""
 "base de datos, la base de datos estará vacía y todo su contenido se "
 "pierde."
 
-#: ../../started.rst:129
+#: ../../started.rst:134
 msgid ""
 "If you are sure you want to create a database at this connection then "
 "select \"Yes\". Ghini will then start creating the database tables and "
@@ -4717,7 +4728,7 @@ msgstr ""
 "tardar un minuto o dos así que mientras que todos los datos por defecto "
 "es importado a la base de datos asi que tengan paciencia."
 
-#: ../../started.rst:134
+#: ../../started.rst:139
 msgid ""
 "Once your database has been created, configured, initialized, you are "
 "ready to start :ref:`editing-and-inserting-data` and subsequently :ref"
@@ -5009,9 +5020,8 @@ msgid ""
 "Since we work using PostgreSQL, the users that Ghini stores in the "
 "database history are the database users, not the system users."
 msgstr ""
-"Dado que trabajamos usando PostgreSQL, los usuarios grabados por "
-"Ghini en el historial son los usuarios de la base de datos, no los "
-"del sistema."
+"Dado que trabajamos usando PostgreSQL, los usuarios grabados por Ghini en"
+" el historial son los usuarios de la base de datos, no los del sistema."
 
 #: ../../use_cases-jbq.rst:44
 msgid ""
@@ -5037,8 +5047,8 @@ msgid ""
 "We do not use account names like `voluntario`, because such accounts do "
 "not help us associate the name to the person."
 msgstr ""
-"No utilizamos nombres de cuenta como `voluntario`, porque tales cuentas"
-" no nos ayudan asociar el nombre a la persona."
+"No utilizamos nombres de cuenta como `voluntario`, porque tales cuentas "
+"no nos ayudan asociar el nombre a la persona."
 
 #: ../../use_cases-jbq.rst:56
 msgid "Understanding when to update"

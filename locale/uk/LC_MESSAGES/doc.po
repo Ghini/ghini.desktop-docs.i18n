@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-01 16:45-0500\n"
+"POT-Creation-Date: 2017-09-04 16:24-0500\n"
 "PO-Revision-Date: 2017-08-26 12:31+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -4437,11 +4437,20 @@ msgstr ""
 #: ../../started.rst:30
 msgid ""
 "When connecting to a database server as one of the above, you have to "
-"manually create: at least one bauble user, the database you want bauble "
-"to use, and to give at lest one bauble user full permissions on its "
-"database. When this is done, Ghini will be able to proceed, creating the "
-"tables and importing the default data set.  The process is database-"
-"dependent and it falls beyond the scope of this manual."
+"manually do the following: Create at least one user; Create your "
+"database; Give at least one user full permissions on your database; If "
+"you plan having more database users: Give one of your users the "
+"``CREATEROLE`` privilege; Consider the user with the ``CREATEROLE`` "
+"privilege as a super-user, not meant to handle data directly; Keep your "
+"super-user credentials in a very safe place."
+msgstr ""
+
+#: ../../started.rst:38
+#, fuzzy
+msgid ""
+"When this is done, Ghini will be able to proceed, creating the tables and"
+" importing the default data set.  The process is database-dependent and "
+"it falls beyond the scope of this manual."
 msgstr ""
 "При підключенні до сервера бази даних в якості одного з вище вказаного, "
 "ви повинні створити вручну: щонайменше одного користувача бази даних яку "
@@ -4450,7 +4459,7 @@ msgstr ""
 "створення таблиць та імпорт набору даних за замовчуванням. Процес бази "
 "даних - залежить і виходить за рамки даного керівництва."
 
-#: ../../started.rst:37
+#: ../../started.rst:42
 msgid ""
 "If you already got the chills or sick at your stomach, no need to worry, "
 "just stick with SQLite, you do not miss on features nor performance."
@@ -4459,17 +4468,17 @@ msgstr ""
 " просто тримайтеся SQLite, ви не зазнаєте невдачі на особливостях, ні в "
 "продуктивності."
 
-#: ../../started.rst:43
+#: ../../started.rst:48
 msgid "Connecting to a database"
 msgstr "Підключення до бази даних"
 
-#: ../../started.rst:45
+#: ../../started.rst:50
 msgid ""
 "When you start Ghini the first thing that comes up is the connection "
 "dialog."
 msgstr "При запуску Ghini вперше спливає діалогове вікно підключення."
 
-#: ../../started.rst:48
+#: ../../started.rst:53
 msgid ""
 "Quite obviously, if this is the first time you start Ghini, you have no "
 "connections yet and Ghini will alert you about it."
@@ -4477,7 +4486,7 @@ msgstr ""
 "Цілком очевидно, що, якщо це перший раз, коли ви запускаєте Ghini, у вас "
 "немає ще підключення і Ghini попередить вас про це."
 
-#: ../../started.rst:53
+#: ../../started.rst:58
 msgid ""
 "This alert will show at first activation and also in the future if your "
 "connections list becomes empty. As it says: click on **Add** to create "
@@ -4487,7 +4496,7 @@ msgstr ""
 "якщо список ваших з'єднань стане порожнім. Як говориться: натисніть "
 "**Додати**, щоб створити своє перше з'єднання."
 
-#: ../../started.rst:59
+#: ../../started.rst:64
 msgid ""
 "Just insert a name for your connection, something meaningful you "
 "associate with the collection to be represented in the database (for "
@@ -4500,11 +4509,11 @@ msgstr ""
 "і натисніть **OK**. Ви повернетеся до попереднього екрана, але ваше ім'я "
 "з'єднання буде обрано і Деталі Підключення будуть розширені."
 
-#: ../../started.rst:67
+#: ../../started.rst:72
 msgid "**specify the connection details**"
 msgstr "**вказати параметри з'єднання**"
 
-#: ../../started.rst:69
+#: ../../started.rst:74
 msgid ""
 "If you do not know what to do here, Ghini will help you stay safe. "
 "Activate the **Use default locations** check box and create your first "
@@ -4515,7 +4524,7 @@ msgstr ""
 "встановлення прапорця і створіть перше з'єднання, натиснувши на "
 "**Підключення**."
 
-#: ../../started.rst:72
+#: ../../started.rst:77
 msgid ""
 "You may safely skip the remainder of this section for the time being and "
 "continue reading to the following section."
@@ -4523,11 +4532,11 @@ msgstr ""
 "На даний момент ви можете сміливо пропустити решту цього розділу і "
 "продовжити читати наступний розділ."
 
-#: ../../started.rst:75
+#: ../../started.rst:80
 msgid "**fine-tune the connection details**"
 msgstr "**точно налаштувати  деталі з'єднання**"
 
-#: ../../started.rst:77
+#: ../../started.rst:82
 msgid ""
 "By default Ghini uses the file-based SQLite database.  During the "
 "installation process you had the choice (and you still have after "
@@ -4538,7 +4547,7 @@ msgstr ""
 "установки), додати інші, ніж SQLite за замовчуванням з'єднувачі бази "
 "даних."
 
-#: ../../started.rst:81
+#: ../../started.rst:86
 msgid ""
 "In this example, Ghini can connect to SQLite, PostgreSQL and MySQL, but "
 "no connector is available for Oracle or MS SQL Server."
@@ -4546,7 +4555,7 @@ msgstr ""
 "У цьому прикладі, Ghini може підключитися до SQLite,  PostgreSQL і MySQL,"
 " але немає з'єднувачів доступних для Oracle або MS SQL Server."
 
-#: ../../started.rst:86
+#: ../../started.rst:91
 msgid ""
 "If you use SQLite, all you really need specify is the connection name. If"
 " you let Ghini use the default filename then Ghini creates a database "
@@ -4562,7 +4571,7 @@ msgstr ""
 "розширення, як в ``~/.bauble``в Linux/MacOSX або в "
 "``AppData\\Roaming\\Bauble`` в Windows."
 
-#: ../../started.rst:92
+#: ../../started.rst:97
 msgid ""
 "Still with SQLite, you might have received or downloaded a bauble "
 "database, and you want to connect to it. In this case you do not let "
@@ -4574,7 +4583,7 @@ msgstr ""
 "використовувати ім'я файлу за замовчуванням, лише перегляньте на "
 "комп'ютері в тому місці, де ви зберегли Ghini SQLite файл бази даних."
 
-#: ../../started.rst:97
+#: ../../started.rst:102
 msgid ""
 "If you use a different database connector, the dialog box will look "
 "different and it will offer you the option to fine tune all parameters "
@@ -4584,19 +4593,20 @@ msgstr ""
 "виглядати по-іншому і вам запропонують варіант для точної настройки всіх "
 "параметрів необхідних для підключення до бази даних за вашим вибором."
 
-#: ../../started.rst:101
+#: ../../started.rst:106
+#, fuzzy
 msgid ""
 "If you are connecting to an existing database you can continue to :ref"
-":`editing-and-inserting-data` and subsequently :ref:`searching-in-"
-"bauble`, otherwise read on to the following section on initializing a "
-"database for Ghini."
+":`editing-and-inserting-data` and subsequently :ref:`searching-in-ghini`,"
+" otherwise read on to the following section on initializing a database "
+"for Ghini."
 msgstr ""
 "При підключенні до існуючої бази даних ви можете продовжувати :ref"
 ":`editing-and-inserting-data` і згодом :ref:`searching-in-bauble`, в "
 "іншому випадку читайте далі в наступному розділі про ініціалізацію бази "
 "даних для Ghini."
 
-#: ../../started.rst:106
+#: ../../started.rst:111
 msgid ""
 "If you plan to associate pictures to plants, specify also the *pictures "
 "root* folder. The meaning of this is explained in further detail at :ref"
@@ -4606,11 +4616,11 @@ msgstr ""
 "root* папку. Сенс цього пояснено більш детально в :ref:`editing-and-"
 "inserting-data`."
 
-#: ../../started.rst:113
+#: ../../started.rst:118
 msgid "Initialize a database"
 msgstr "Ініціалізувати базу даних"
 
-#: ../../started.rst:115
+#: ../../started.rst:120
 msgid ""
 "First time you open a connection to a database which had never been seen "
 "by Ghini before, Ghini will first display an alert:"
@@ -4618,11 +4628,11 @@ msgstr ""
 "Коли ви відкриваєте з'єднання з базою даних, яка не відмічена в Ghini "
 "перший раз, Ghini спочатку відобразить оповіщення:"
 
-#: ../../started.rst:120
+#: ../../started.rst:125
 msgid "immediately followed by a question:"
 msgstr "відразу слідує запитання:"
 
-#: ../../started.rst:124
+#: ../../started.rst:129
 msgid ""
 "Be careful when manually specifying the connection parameters: the values"
 " you have entered may refer to an existing database, not intended for use"
@@ -4634,7 +4644,7 @@ msgstr ""
 "для використання в Ghini. Даючи Ghini ініціалізувати базу даних, база "
 "даних буде вичерпана, і весь її вміст буде втрачено."
 
-#: ../../started.rst:129
+#: ../../started.rst:134
 msgid ""
 "If you are sure you want to create a database at this connection then "
 "select \"Yes\". Ghini will then start creating the database tables and "
@@ -4646,7 +4656,7 @@ msgstr ""
 "за замовчуванням. Це може зайняти хвилину або дві, тоді як всі дані за "
 "замовчуванням імпортуються в базу даних, тому будьте терплячі."
 
-#: ../../started.rst:134
+#: ../../started.rst:139
 msgid ""
 "Once your database has been created, configured, initialized, you are "
 "ready to start :ref:`editing-and-inserting-data` and subsequently :ref"
