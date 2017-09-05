@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-09-04 16:57-0500\n"
+"POT-Creation-Date: 2017-09-05 11:27-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2420,7 +2420,7 @@ msgid ""
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
 
-#: ../../installing.rst:137 ../../installing.rst:197 ../../installing.rst:339
+#: ../../installing.rst:137 ../../installing.rst:201 ../../installing.rst:343
 msgid "Next..."
 msgstr ""
 
@@ -2505,11 +2505,18 @@ msgid ""
 "instructions, follow them, enjoy."
 msgstr ""
 
-#: ../../installing.rst:201
+#: ../../installing.rst:196
+msgid ""
+"As an optional aesthetical step, consider packaging your ``~/bin/ghini`` "
+"script in a `platypus <https://github.com/sveinbjornt/Platypus>`_ "
+"application bundle.  The ``images`` directory contains a 128×128 icon."
+msgstr ""
+
+#: ../../installing.rst:205
 msgid "Installing on Windows"
 msgstr ""
 
-#: ../../installing.rst:203
+#: ../../installing.rst:207
 msgid ""
 "The steps described here instruct you on how to install Git, Gtk, Python,"
 " and the python database connectors. With this environment correctly set "
@@ -2517,101 +2524,101 @@ msgid ""
 " steps are again Windows specific."
 msgstr ""
 
-#: ../../installing.rst:208
+#: ../../installing.rst:212
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 up to W-10. "
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
 
-#: ../../installing.rst:218
+#: ../../installing.rst:222
 msgid "The installation steps on Windows:"
 msgstr ""
 
-#: ../../installing.rst:220
+#: ../../installing.rst:224
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``). Grab it from `the Git download area <https://git-"
 "scm.com/download/win>`_."
 msgstr ""
 
-#: ../../installing.rst:223
+#: ../../installing.rst:227
 msgid ""
 "all default options are fine, except we need git to be executable from "
 "the command prompt:"
 msgstr ""
 
-#: ../../installing.rst:228
+#: ../../installing.rst:232
 msgid ""
 "download and install Python 2.x (32bit). Grab it from the `Python "
 "official site <http://www.python.org>`_."
 msgstr ""
 
-#: ../../installing.rst:231
+#: ../../installing.rst:235
 msgid "When installing Python, do put Python in the PATH:"
 msgstr ""
 
-#: ../../installing.rst:235
+#: ../../installing.rst:239
 msgid ""
 "download ``pygtk`` from `the official source "
 "<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/>`_. (this requires "
 "32bit python). be sure you download the \"all in one\" version."
 msgstr ""
 
-#: ../../installing.rst:239
+#: ../../installing.rst:243
 msgid "Make a complete install, selecting everything:"
 msgstr ""
 
-#: ../../installing.rst:243
+#: ../../installing.rst:247
 msgid ""
 "(Possibly necessary, maybe superfluous) install lxml, you can grab this "
 "from `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 msgstr ""
 
-#: ../../installing.rst:246
+#: ../../installing.rst:250
 msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr ""
 
-#: ../../installing.rst:257
+#: ../../installing.rst:261
 msgid ""
 "(definitely optional) download and install a database connector other "
 "than ``sqlite3``."
 msgstr ""
 
-#: ../../installing.rst:260
+#: ../../installing.rst:264
 msgid ""
 "If you plan using PostgreSQL, the best Windows binary library for Python "
 "is `psycopg and is Made in Italy "
 "<http://initd.org/psycopg/docs/install.html>`_."
 msgstr ""
 
-#: ../../installing.rst:264
+#: ../../installing.rst:268
 msgid "**REBOOT**"
 msgstr ""
 
-#: ../../installing.rst:266
+#: ../../installing.rst:270
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
 
-#: ../../installing.rst:268
+#: ../../installing.rst:272
 msgid ""
 "We're done with the dependecies, now we can download and run the batch "
 "file:"
 msgstr ""
 
-#: ../../installing.rst:272
+#: ../../installing.rst:276
 msgid ""
 "Please don't just follow the above link.  Instead: right click, save link"
 " as..."
 msgstr ""
 
-#: ../../installing.rst:276
+#: ../../installing.rst:280
 msgid ""
 "Also make sure you don't let Windows convert the script to a text "
 "document."
 msgstr ""
 
-#: ../../installing.rst:280
+#: ../../installing.rst:284
 msgid ""
 "Now **Open** the script to run it.  Please note: in the below image, we "
 "have saved the file twice, once letting Windows convert it to a text "
@@ -2620,7 +2627,7 @@ msgid ""
 " batch file, which isn't going to lead us anywhere."
 msgstr ""
 
-#: ../../installing.rst:288
+#: ../../installing.rst:292
 msgid ""
 "If you installed everything as described here, the first thing you should"
 " see when you start the installation script is a window like this, and "
@@ -2628,7 +2635,7 @@ msgid ""
 "it is doing."
 msgstr ""
 
-#: ../../installing.rst:295
+#: ../../installing.rst:299
 msgid ""
 "Running ``devinstall.bat`` will pull the ``ghini.desktop`` repository "
 "from github to your home directory, under ``Local\\github\\Ghini``, "
@@ -2636,25 +2643,25 @@ msgid ""
 "and install ghini into it."
 msgstr ""
 
-#: ../../installing.rst:300
+#: ../../installing.rst:304
 msgid ""
 "You can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
 
-#: ../../installing.rst:303
+#: ../../installing.rst:307
 msgid ""
 "This is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
 
-#: ../../installing.rst:306
+#: ../../installing.rst:310
 msgid ""
 "The operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
 
-#: ../../installing.rst:309
+#: ../../installing.rst:313
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -2663,33 +2670,33 @@ msgid ""
 "step."
 msgstr ""
 
-#: ../../installing.rst:317
+#: ../../installing.rst:321
 msgid ""
 "Right-click on it, select run as administrator, confirm you want it to "
 "make changes to your computer.  These changes are in the Start Menu only:"
 " create the Ghini group, place the Ghini shortcut."
 msgstr ""
 
-#: ../../installing.rst:321
+#: ../../installing.rst:325
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
 msgstr ""
 
-#: ../../installing.rst:326
+#: ../../installing.rst:330
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
 "newer ghini release within your chosen production line."
 msgstr ""
 
-#: ../../installing.rst:330
+#: ../../installing.rst:334
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``, it will hardly take one minute."
 msgstr ""
 
-#: ../../installing.rst:333
+#: ../../installing.rst:337
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "

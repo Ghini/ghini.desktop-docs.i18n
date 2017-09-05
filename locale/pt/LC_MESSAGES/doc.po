@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2017-09-04 16:57-0500\n"
+"POT-Creation-Date: 2017-09-05 11:27-0500\n"
 "PO-Revision-Date: 2017-08-29 22:47+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language: pt\n"
@@ -3132,7 +3132,7 @@ msgid ""
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
 
-#: ../../installing.rst:137 ../../installing.rst:197 ../../installing.rst:339
+#: ../../installing.rst:137 ../../installing.rst:201 ../../installing.rst:343
 msgid "Next..."
 msgstr ""
 
@@ -3238,11 +3238,18 @@ msgstr ""
 "O resto é como em uma máquina unix normal. Leia as instruções acima de "
 "GNU/Linux, segui-los, aproveite."
 
-#: ../../installing.rst:201
+#: ../../installing.rst:196
+msgid ""
+"As an optional aesthetical step, consider packaging your ``~/bin/ghini`` "
+"script in a `platypus <https://github.com/sveinbjornt/Platypus>`_ "
+"application bundle.  The ``images`` directory contains a 128×128 icon."
+msgstr ""
+
+#: ../../installing.rst:205
 msgid "Installing on Windows"
 msgstr "Instalação no Windows"
 
-#: ../../installing.rst:203
+#: ../../installing.rst:207
 msgid ""
 "The steps described here instruct you on how to install Git, Gtk, Python,"
 " and the python database connectors. With this environment correctly set "
@@ -3254,7 +3261,7 @@ msgstr ""
 "corretamente configurado, o procedimento de instalação Ghini corre como "
 "no GNU/Linux. As etapas finais são novamente Windows específicos."
 
-#: ../../installing.rst:208
+#: ../../installing.rst:212
 #, fuzzy
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 up to W-10. "
@@ -3265,11 +3272,11 @@ msgstr ""
 "Embora ele deve funcionar bem em outras versões do Windows não tem sido "
 "exaustivamente testado."
 
-#: ../../installing.rst:218
+#: ../../installing.rst:222
 msgid "The installation steps on Windows:"
 msgstr "Os passos de instalação no Windows:"
 
-#: ../../installing.rst:220
+#: ../../installing.rst:224
 #, fuzzy
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
@@ -3279,7 +3286,7 @@ msgstr ""
 "Baixe e instale o ' git ' (vem com um unix-like ' sh ' e inclui ' vi ') "
 "de::"
 
-#: ../../installing.rst:223
+#: ../../installing.rst:227
 msgid ""
 "all default options are fine, except we need git to be executable from "
 "the command prompt:"
@@ -3287,18 +3294,18 @@ msgstr ""
 "todas as opções padrão estão bem, exceto que precisamos git ser "
 "executável no prompt de comando:"
 
-#: ../../installing.rst:228
+#: ../../installing.rst:232
 msgid ""
 "download and install Python 2.x (32bit). Grab it from the `Python "
 "official site <http://www.python.org>`_."
 msgstr ""
 
-#: ../../installing.rst:231
+#: ../../installing.rst:235
 #, fuzzy
 msgid "When installing Python, do put Python in the PATH:"
 msgstr "ao instalar o Python, colocar o Python no caminho:"
 
-#: ../../installing.rst:235
+#: ../../installing.rst:239
 #, fuzzy
 msgid ""
 "download ``pygtk`` from `the official source "
@@ -3308,22 +3315,22 @@ msgstr ""
 "Baixe ' pygtk ' da fonte de seguir. (isso requer python de 32 bits). "
 "Certifique-se de que você baixar o \"all no one\" versão::"
 
-#: ../../installing.rst:239
+#: ../../installing.rst:243
 #, fuzzy
 msgid "Make a complete install, selecting everything:"
 msgstr "fazer uma instalação completa, selecionando tudo:"
 
-#: ../../installing.rst:243
+#: ../../installing.rst:247
 msgid ""
 "(Possibly necessary, maybe superfluous) install lxml, you can grab this "
 "from `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 msgstr ""
 
-#: ../../installing.rst:246
+#: ../../installing.rst:250
 msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr "Lembre-se de que você precisa da versão de 32 bits, para o Python 2.7."
 
-#: ../../installing.rst:257
+#: ../../installing.rst:261
 #, fuzzy
 msgid ""
 "(definitely optional) download and install a database connector other "
@@ -3332,42 +3339,42 @@ msgstr ""
 "(opcional) Baixe e instale um conector de banco de dados que não sejam "
 "'sqlite3 '."
 
-#: ../../installing.rst:260
+#: ../../installing.rst:264
 msgid ""
 "If you plan using PostgreSQL, the best Windows binary library for Python "
 "is `psycopg and is Made in Italy "
 "<http://initd.org/psycopg/docs/install.html>`_."
 msgstr ""
 
-#: ../../installing.rst:264
+#: ../../installing.rst:268
 msgid "**REBOOT**"
 msgstr ""
 
-#: ../../installing.rst:266
+#: ../../installing.rst:270
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
 "Ei, isso é Windows, você precisa reiniciar para que as alterações entrem "
 "em vigor!"
 
-#: ../../installing.rst:268
+#: ../../installing.rst:272
 msgid ""
 "We're done with the dependecies, now we can download and run the batch "
 "file:"
 msgstr ""
 
-#: ../../installing.rst:272
+#: ../../installing.rst:276
 msgid ""
 "Please don't just follow the above link.  Instead: right click, save link"
 " as..."
 msgstr ""
 
-#: ../../installing.rst:276
+#: ../../installing.rst:280
 msgid ""
 "Also make sure you don't let Windows convert the script to a text "
 "document."
 msgstr ""
 
-#: ../../installing.rst:280
+#: ../../installing.rst:284
 msgid ""
 "Now **Open** the script to run it.  Please note: in the below image, we "
 "have saved the file twice, once letting Windows convert it to a text "
@@ -3376,7 +3383,7 @@ msgid ""
 " batch file, which isn't going to lead us anywhere."
 msgstr ""
 
-#: ../../installing.rst:288
+#: ../../installing.rst:292
 msgid ""
 "If you installed everything as described here, the first thing you should"
 " see when you start the installation script is a window like this, and "
@@ -3384,7 +3391,7 @@ msgid ""
 "it is doing."
 msgstr ""
 
-#: ../../installing.rst:295
+#: ../../installing.rst:299
 #, fuzzy
 msgid ""
 "Running ``devinstall.bat`` will pull the ``ghini.desktop`` repository "
@@ -3396,7 +3403,7 @@ msgstr ""
 "diretório home, sob 'Local\\github\\Ghini ', a linha de produção ' "
 "ghini-1.0 ' check-out, criar um ambiente virtual e instalar ghini nele."
 
-#: ../../installing.rst:300
+#: ../../installing.rst:304
 #, fuzzy
 msgid ""
 "You can also run ``devinstall.bat`` passing it as argument the numerical "
@@ -3405,7 +3412,7 @@ msgstr ""
 "Você também pode executar ' devinstall.bat ' passando como argumento a "
 "parte numérica da linha de produção, que você quer seguir."
 
-#: ../../installing.rst:303
+#: ../../installing.rst:307
 #, fuzzy
 msgid ""
 "This is the last installation step that depends, heavily, on a working "
@@ -3414,7 +3421,7 @@ msgstr ""
 "Esta é a última etapa de instalação que depende, fortemente, um trabalho "
 "conexão de internet."
 
-#: ../../installing.rst:306
+#: ../../installing.rst:310
 #, fuzzy
 msgid ""
 "The operation can take several minutes to complete, depending on the "
@@ -3423,7 +3430,7 @@ msgstr ""
 "a operação pode levar vários minutos para ser concluída, dependendo da "
 "velocidade da sua conexão de internet."
 
-#: ../../installing.rst:309
+#: ../../installing.rst:313
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -3437,7 +3444,7 @@ msgstr ""
 "devinstall-finalize.bat ', ele está certo em sua pasta de início e foi "
 "criado na etapa anterior."
 
-#: ../../installing.rst:317
+#: ../../installing.rst:321
 #, fuzzy
 msgid ""
 "Right-click on it, select run as administrator, confirm you want it to "
@@ -3449,7 +3456,7 @@ msgstr ""
 "alterações são apenas do menu iniciar: criar o grupo Ghini, colocar o "
 "atalho Ghini."
 
-#: ../../installing.rst:321
+#: ../../installing.rst:325
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
@@ -3457,7 +3464,7 @@ msgstr ""
 "Baixe o arquivo batch que você usará para manter-se actualizado com a "
 "linha de produção, que você escolheu a seguir:"
 
-#: ../../installing.rst:326
+#: ../../installing.rst:330
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
@@ -3468,7 +3475,7 @@ msgstr ""
 "alerta de qualquer mais recente ghini liberar dentro de sua linha de "
 "produção escolhida."
 
-#: ../../installing.rst:330
+#: ../../installing.rst:334
 #, fuzzy
 msgid ""
 "any time you want to update your installation, just start the command "
@@ -3477,7 +3484,7 @@ msgstr ""
 "sempre que quiser atualizar sua instalação, apenas inicie o prompt de "
 "comando e execute o ' ghini-Update. bat '"
 
-#: ../../installing.rst:333
+#: ../../installing.rst:337
 #, fuzzy
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
