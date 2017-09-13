@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-12 10:57-0500\n"
-"PO-Revision-Date: 2017-09-04 19:49+0000\n"
+"PO-Revision-Date: 2017-09-14 19:49+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.17-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -3310,6 +3311,10 @@ msgid ""
 "script in a `platypus <https://github.com/sveinbjornt/Platypus>`_ "
 "application bundle.  The ``images`` directory contains a 128×128 icon."
 msgstr ""
+"В якості додаткового естетичного кроку розгляньте можливість упаковки вашого "
+"сценарію `` ~ / bin / ghini`` в `platypus "
+"<https://github.com/sveinbjornt/Platypus>`_ пакету програм. Каталог "
+"``images`` містить піктограму 128 × 128."
 
 #: ../../installing.rst:205
 msgid "Installing on Windows"
@@ -4450,6 +4455,7 @@ msgstr ""
 "<https://mariadb.org/>`_, обидва варіанти підтримуються Ghini."
 
 #: ../../started.rst:30
+#, fuzzy
 msgid ""
 "When connecting to a database server as one of the above, you have to "
 "manually do the following: Create at least one user; Create your "
@@ -4459,6 +4465,14 @@ msgid ""
 "privilege as a super-user, not meant to handle data directly; Keep your "
 "super-user credentials in a very safe place."
 msgstr ""
+"При підключенні до сервера баз даних, як один з перерахованих вище, вам "
+"доведеться вручну виконати наступне: Створити хоча б одного користувача; "
+"Створити свою базу даних; Надати принаймні одне повне право власності на "
+"вашу базу даних; Якщо ви плануєте мати більше користувачів бази даних: "
+"надайте одному з ваших користувачів привілей ``CREATEROLE``; Розглянемо "
+"користувача з привілеєм ``CREATEROLE`` як суперкористувача, який не має "
+"безпосередньо обробляти дані; Зберігайте свої суперкористувачі в надійному "
+"місці."
 
 #: ../../started.rst:38
 #, fuzzy
@@ -4958,6 +4972,8 @@ msgid ""
 "Since we work using PostgreSQL, the users that Ghini stores in the "
 "database history are the database users, not the system users."
 msgstr ""
+"Оскільки ми працюємо з PostgreSQL, користувачі, яких зберігає Ghini в "
+"історії бази даних, є користувачі бази даних, а не користувачі системи."
 
 #: ../../use_cases-jbq.rst:44
 msgid ""
@@ -4965,6 +4981,10 @@ msgid ""
 "user, responsible for the database content, also has the ``bauble`` "
 "fictional user password, which we only only use to create other users."
 msgstr ""
+"Кожен користувач знає свій пароль, і тільки він знає його. Наш "
+"суперкористувач, який відповідає за вміст бази даних, також має ``bauble`` "
+"вигаданий пароль користувача, який ми використовуємо лише для створення "
+"інших користувачів."
 
 #: ../../use_cases-jbq.rst:49
 #, fuzzy
@@ -4976,9 +4996,8 @@ msgstr ""
 "такі облікові записи не допомагають нам пов'язувати ім'я з особами."
 
 #: ../../use_cases-jbq.rst:52
-#, fuzzy
 msgid "— adding a new system user (linux/osx)"
-msgstr "додавання нового користувача"
+msgstr "— додавання нового користувача системи (linux/osx)"
 
 #: ../../use_cases-jbq.rst:55
 msgid ""
@@ -4988,6 +5007,12 @@ msgid ""
 "systems we have a single shared account with several configured "
 "connections, on other systems we have one account per user."
 msgstr ""
+"Додавання системного користувача не є обов'язково необхідним, оскільки ghini "
+"не використовує його в журналах, однак додавши, що системний користувач "
+"дозволяє розділити налаштування, налаштовані з'єднання, історію пошуку. У "
+"деяких наших системах ми маємо єдиний загальний обліковий запис з кількома "
+"налаштованими з'єднаннями, в інших системах ми маємо один обліковий запис "
+"для кожного користувача."
 
 #: ../../use_cases-jbq.rst:62
 msgid ""
@@ -4996,21 +5021,26 @@ msgid ""
 "``/home/<account>/.pgpass`` file.  This file is only readable for the "
 "``<account>`` owner."
 msgstr ""
+"На системах з одним обліковим записом для кожного користувача наші "
+"користувачі мають одне налаштоване з'єднання, і ми зберігаємо пароль бази "
+"даних у файлі ``/home/<account>/.pgpass``. Цей файл є лише читабельним для "
+"власника ``<account>``."
 
 #: ../../use_cases-jbq.rst:67
 msgid ""
 "On systems with a shared account, the user must select their own "
 "connection and type the corresponding password."
 msgstr ""
+"У системах із загальним обліковим записом користувач повинен вибрати своє "
+"власне з'єднання та ввести відповідний пароль."
 
 #: ../../use_cases-jbq.rst:70
 msgid "These are the steps to add system users::"
-msgstr ""
+msgstr "Ось кроки для додавання користувачів системи::"
 
 #: ../../use_cases-jbq.rst:76
-#, fuzzy
 msgid "— adding a new database user"
-msgstr "додавання нового користувача"
+msgstr "— додавання нового користувача бази даних"
 
 #: ../../use_cases-jbq.rst:79
 msgid ""
@@ -5019,18 +5049,28 @@ msgid ""
 "that will allow us use it, for the time being we use the ``create-"
 "role.sh`` script::"
 msgstr ""
+"Ghini має дуже мінімальний інтерфейс для управління користувачами, він "
+"працює тільки з postgresql, і його дуже не вистачає. Ми відкрили питання, "
+"які дозволять нам використовувати його, поки що ми використовуємо сценарій "
+"``create-role.sh``::"
 
 #: ../../use_cases-jbq.rst:96
 msgid ""
 "The redundant ``alter role`` following the ``create role`` lets us apply "
 "the same script also for correcting existing accounts."
 msgstr ""
+"Надлишкова ``alter role`` після `` create role`` дозволяє застосовувати один "
+"і той же сценарій для виправлення існуючих облікових записів."
 
 #: ../../use_cases-jbq.rst:99
+#, fuzzy
 msgid ""
 "Our ghini database is called ``bauble``, and ``bauble`` is also the name "
 "of our database super user, the only user with ``CREATEROLE`` privilege."
 msgstr ""
+"Наша база даних ghini називається ``bauble``, і ``bauble`` також називає "
+"нашу базу даних суперкористувачем, єдиним користувачем з ``CREATEROLE`` "
+"привілеєм."
 
 #: ../../use_cases-jbq.rst:103
 msgid ""
@@ -5038,6 +5078,8 @@ msgid ""
 "with password ``orange``, on the ``bauble`` database hosted at "
 "192.168.5.6::"
 msgstr ""
+"Наприклад, наступний виклик створить користувача ``willem`` з паролем "
+"``orange`` у базі ``bauble``, розміщених на 192.168.5.6::"
 
 #: ../../use_cases-jbq.rst:109
 msgid "Understanding when to update"
@@ -6910,6 +6952,8 @@ msgid ""
 "You must log in to your database as a user with ``CREATEROLE`` privilege "
 "in order to manage other users."
 msgstr ""
+"Ви повинні входити до своєї бази даних як користувач із привілеєм "
+"``CREATEROLE`` для керування іншими користувачами."
 
 #: ../../users.rst:14
 msgid "Creating Users"
@@ -7554,4 +7598,3 @@ msgstr "Ghini дозволяє читати, писати і оформляти 
 #~ "complete, but it serves to our "
 #~ "needs."
 #~ msgstr ""
-
