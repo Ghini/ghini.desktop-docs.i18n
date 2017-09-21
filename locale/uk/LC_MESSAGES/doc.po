@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-12 10:57-0500\n"
-"PO-Revision-Date: 2017-09-14 19:49+0000\n"
+"PO-Revision-Date: 2017-09-22 16:48+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
@@ -4455,7 +4455,6 @@ msgstr ""
 "<https://mariadb.org/>`_, обидва варіанти підтримуються Ghini."
 
 #: ../../started.rst:30
-#, fuzzy
 msgid ""
 "When connecting to a database server as one of the above, you have to "
 "manually do the following: Create at least one user; Create your "
@@ -4471,22 +4470,18 @@ msgstr ""
 "вашу базу даних; Якщо ви плануєте мати більше користувачів бази даних: "
 "надайте одному з ваших користувачів привілей ``CREATEROLE``; Розглянемо "
 "користувача з привілеєм ``CREATEROLE`` як суперкористувача, який не має "
-"безпосередньо обробляти дані; Зберігайте свої суперкористувачі в надійному "
-"місці."
+"безпосередньо обробляти дані; Зберегти облікові дані привілейованого "
+"користувача в дуже безпечному місці."
 
 #: ../../started.rst:38
-#, fuzzy
 msgid ""
 "When this is done, Ghini will be able to proceed, creating the tables and"
 " importing the default data set.  The process is database-dependent and "
 "it falls beyond the scope of this manual."
 msgstr ""
-"При підключенні до сервера бази даних в якості одного з вище вказаного, "
-"ви повинні створити вручну: щонайменше одного користувача бази даних яку "
-"ви хочете використовувати, і надати повні права користувачеві на цю базу "
-"даних. Коли це буде зроблено, Ghini матиме можливість продовжити, "
-"створення таблиць та імпорт набору даних за замовчуванням. Процес бази "
-"даних - залежить і виходить за рамки даного керівництва."
+"Коли це буде зроблено, Ghini зможе продовжувати, створюючи таблиці та "
+"імпортуючи набір даних за замовчуванням. Цей процес залежить від бази даних "
+"і виходить за рамки цього посібника."
 
 #: ../../started.rst:42
 msgid ""
@@ -4623,17 +4618,15 @@ msgstr ""
 "параметрів необхідних для підключення до бази даних за вашим вибором."
 
 #: ../../started.rst:106
-#, fuzzy
 msgid ""
 "If you are connecting to an existing database you can continue to :ref"
 ":`editing-and-inserting-data` and subsequently :ref:`searching-in-ghini`,"
 " otherwise read on to the following section on initializing a database "
 "for Ghini."
 msgstr ""
-"При підключенні до існуючої бази даних ви можете продовжувати :ref"
-":`editing-and-inserting-data` і згодом :ref:`searching-in-bauble`, в "
-"іншому випадку читайте далі в наступному розділі про ініціалізацію бази "
-"даних для Ghini."
+"При підключенні до існуючої бази даних ви можете продовжувати :ref:`editing-"
+"and-inserting-data` і згодом :ref:`searching-in-ghini`, в іншому випадку "
+"читайте далі в наступному розділі про ініціалізацію бази даних для Ghini."
 
 #: ../../started.rst:111
 msgid ""
@@ -4987,12 +4980,11 @@ msgstr ""
 "інших користувачів."
 
 #: ../../use_cases-jbq.rst:49
-#, fuzzy
 msgid ""
 "We do not use account names like ``voluntario``, because such accounts do"
 " not help us associate the name to the person."
 msgstr ""
-"Ми не використовуємо назви облікових записів, як 'voluntario', оскільки "
+"Ми не використовуємо назви облікових записів, як ``voluntario``, оскільки "
 "такі облікові записи не допомагають нам пов'язувати ім'я з особами."
 
 #: ../../use_cases-jbq.rst:52
@@ -5063,13 +5055,12 @@ msgstr ""
 "і той же сценарій для виправлення існуючих облікових записів."
 
 #: ../../use_cases-jbq.rst:99
-#, fuzzy
 msgid ""
 "Our ghini database is called ``bauble``, and ``bauble`` is also the name "
 "of our database super user, the only user with ``CREATEROLE`` privilege."
 msgstr ""
-"Наша база даних ghini називається ``bauble``, і ``bauble`` також називає "
-"нашу базу даних суперкористувачем, єдиним користувачем з ``CREATEROLE`` "
+"Наша база даних ghini називається ``bauble``, і ``bauble`` також ім'я "
+"суперкористувача нашої бази даних, єдиного користувача з ``CREATEROLE`` "
 "привілеєм."
 
 #: ../../use_cases-jbq.rst:103
