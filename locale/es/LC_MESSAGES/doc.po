@@ -6020,7 +6020,7 @@ msgid ""
 "database in our pocket while walking in the garden, but it also allows "
 "for a very swift inventory procedure."
 msgstr ""
-"La puequeña aplicación android ghini pocket fue añadida a la familia Ghini en ocasión de una visita de un programador Ghini al Jardín Botánico de Quito.  ghini.pocket nos permite llevarnos en el bolsillo una copia reducida del contenido de la base datos, pero también nos facilita la rápida realización de un inventario"
+"La pequeña aplicación android ghini pocket fue añadida a la familia Ghini en ocasión de una visita de un programador Ghini al Jardín Botánico de Quito.  ghini.pocket nos permite llevarnos en el bolsillo una copia reducida del contenido de la base datos, pero también nos facilita la rápida realización de un inventario"
 
 #: ../../use_cases-jbq.rst:553
 msgid "Inventory procedure"
