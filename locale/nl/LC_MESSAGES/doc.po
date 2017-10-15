@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-10-07 15:40-0500\n"
-"PO-Revision-Date: 2017-10-14 23:45+0000\n"
+"PO-Revision-Date: 2017-10-16 01:46+0000\n"
 "Last-Translator: Christophe Van Calster <christophevancalster@mac.com>\n"
 "Language-Team: Dutch "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/nl/>\n"
@@ -1232,7 +1232,7 @@ msgstr ""
 
 #: ../../editing.rst:39
 msgid "Family"
-msgstr ""
+msgstr "Familie"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
@@ -1284,7 +1284,7 @@ msgstr ""
 
 #: ../../editing.rst:69
 msgid "Genus"
-msgstr ""
+msgstr "Geslacht"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
@@ -4607,7 +4607,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:651
 msgid "Location"
-msgstr ""
+msgstr "Locatie"
 
 #: ../../use_cases-jbq.rst:653
 msgid "Invernadero 1 (calor)"
