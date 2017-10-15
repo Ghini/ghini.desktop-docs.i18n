@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-07 15:40-0500\n"
-"PO-Revision-Date: 2017-09-22 16:48+0000\n"
+"PO-Revision-Date: 2017-10-16 10:49+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.17\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -5879,7 +5880,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:533
 msgid "Initial status and variable resources"
-msgstr ""
+msgstr "Початковий статус і змінні ресурси"
 
 #: ../../use_cases-jbq.rst:536
 msgid ""
@@ -5916,10 +5917,14 @@ msgid ""
 "database in our pocket while walking in the garden, but it also allows "
 "for a very swift inventory procedure."
 msgstr ""
+"Невеликий застосунок ghini.pocket для Android був доданий до сім'ї Ghini, "
+"коли програміст Ghini був тут у Кіто. Це допомагає нам зробити знімок бази "
+"даних на місці під час прогулянки в саду, також це дозволяє дуже швидку "
+"інвентаризацію."
 
 #: ../../use_cases-jbq.rst:553
 msgid "Inventory procedure"
-msgstr ""
+msgstr "Процедури інвентаризації"
 
 #: ../../use_cases-jbq.rst:556
 msgid ""
@@ -5928,6 +5933,10 @@ msgid ""
 "We enter (type or scan if the plant has bar code or QR code) the "
 "accession code and we look it up in ghini.pocket."
 msgstr ""
+"Запускаючи ghini.pocket, ми записуємо назву місця, де ми будемо проводити "
+"інвентаризацію, наприклад (INV 1) оранжереї 1. Ми вводимо (тип або "
+"сканування, якщо на рослині є штрих-код або QR-код) код приєднання, і ми "
+"розглянемо його в ghini.pocket."
 
 #: ../../use_cases-jbq.rst:561
 msgid ""
@@ -5935,12 +5944,17 @@ msgid ""
 "date with time, location and the code looked for in a text file that can "
 "later be imported into the database."
 msgstr ""
+"Побічним ефектом виконання пошуку є те, що ghini.pocket записує дату з "
+"часом, розташуванням та пошуковим кодом у текстовому файлі, який пізніше "
+"можна буде імпортувати до бази даних."
 
 #: ../../use_cases-jbq.rst:565
 msgid ""
 "For a greenhouse with around 1000 plants our estimates suggest you will "
 "need two days, working at relaxed pace, from 8:00 am to 5:00 pm."
 msgstr ""
+"Для оранжереї приблизно з 1000 рослин наші оцінки вказують на те, що вам "
+"доведеться спокійно працювати два дні з 8:00 до 17:00."
 
 #: ../../use_cases-jbq.rst:569
 msgid ""
@@ -5948,23 +5962,29 @@ msgid ""
 "reveal which plants are missing. For example: If we did the inventory of "
 "the INV3 from 4 to 5 September, this is the corresponding search::"
 msgstr ""
+"Після імпорту файлу, створеного ghini.pocket, легко з'ясувати, які рослини "
+"відсутні. Наприклад: якщо ми провели інвентаризацію INV3 з 4 по 5 вересня, "
+"це відповідний пошук::"
 
 #: ../../use_cases-jbq.rst:576
-#, fuzzy
 msgid ""
 "All of these plants can be marked as dead, or lost, according to garden "
 "policy."
-msgstr "У цих випадках ми додаємо набір нотаток, відповідно до справи."
+msgstr ""
+"Усі ці рослини можуть бути позначені як мертві або втрачені відповідно до "
+"садової політики."
 
 #: ../../use_cases-jbq.rst:579
 msgid "Visualizing the need of taxonomic attention"
-msgstr ""
+msgstr "Візуалізуючи потребу таксономічної уваги"
 
 #: ../../use_cases-jbq.rst:582
 msgid ""
 "Our protocol includes one more detail intended to visually highlight "
 "plants that need the attention of a taxonomist."
 msgstr ""
+"Наш протокол містить ще одну деталь, призначену для візуального виділення "
+"рослин, які потребують уваги таксономіста."
 
 #: ../../use_cases-jbq.rst:587
 msgid ""
@@ -5975,6 +5995,12 @@ msgid ""
 "of the greenhouse can quickly spot them and possibly proceed to add their"
 " identification in the database."
 msgstr ""
+"Це рослина, що з'являється лише в нашій базі даних, ідентифікованій на рівні "
+"сім'ї, або це ще не база даних отримує візуальний сигнал (наприклад, "
+"дерев'яна або пластмасова палиця, для морозива або фрі), щоб підкреслити, що "
+"це не ідентифіковано. Таким чином, відповідальний таксоном, під час "
+"екскурсії по оранжереї, може швидко їх помістити і, можливо, продовжувати "
+"додавати свою ідентифікацію в базу даних."
 
 #: ../../use_cases-jbq.rst:595
 msgid "Naming convention in garden locations"
@@ -7659,4 +7685,3 @@ msgstr "Ghini дозволяє читати, писати і оформляти 
 #~ "complete, but it serves to our "
 #~ "needs."
 #~ msgstr ""
-
