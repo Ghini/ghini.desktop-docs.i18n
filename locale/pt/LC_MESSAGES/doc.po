@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2017-10-07 15:40-0500\n"
+"POT-Creation-Date: 2017-10-19 07:05-0500\n"
 "PO-Revision-Date: 2017-08-29 22:47+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language: pt\n"
@@ -1542,6 +1542,35 @@ msgstr ""
 "Examine este fluxo de trabalho. Considere isto como uma diretriz, a mesmo"
 " e aos seus colegas. por favor ajude a torná-lo melhor e a prática de "
 "correspondência."
+
+#: ../../building.rst:683
+#, fuzzy
+msgid "distributing for windows"
+msgstr "Instalação no Windows"
+
+#: ../../building.rst:685
+msgid "placeholder section"
+msgstr ""
+
+#: ../../building.rst:687
+msgid "what do you need to produce a NSIS installer?"
+msgstr ""
+
+#: ../../building.rst:688
+msgid "what dependencies you must satisfy?"
+msgstr ""
+
+#: ../../building.rst:689
+msgid "how do you install each of them?"
+msgstr ""
+
+#: ../../building.rst:690
+msgid "which is the command to produce the setup.exe?"
+msgstr ""
+
+#: ../../building.rst:691
+msgid "how do you publish the installer?"
+msgstr ""
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"

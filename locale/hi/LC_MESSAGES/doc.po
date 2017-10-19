@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-10-07 15:40-0500\n"
+"POT-Creation-Date: 2017-10-19 07:05-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1168,6 +1168,34 @@ msgstr ""
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
+msgstr ""
+
+#: ../../building.rst:683
+msgid "distributing for windows"
+msgstr ""
+
+#: ../../building.rst:685
+msgid "placeholder section"
+msgstr ""
+
+#: ../../building.rst:687
+msgid "what do you need to produce a NSIS installer?"
+msgstr ""
+
+#: ../../building.rst:688
+msgid "what dependencies you must satisfy?"
+msgstr ""
+
+#: ../../building.rst:689
+msgid "how do you install each of them?"
+msgstr ""
+
+#: ../../building.rst:690
+msgid "which is the command to produce the setup.exe?"
+msgstr ""
+
+#: ../../building.rst:691
+msgid "how do you publish the installer?"
 msgstr ""
 
 #: ../../editing.rst:4

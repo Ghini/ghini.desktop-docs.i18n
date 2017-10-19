@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-07 15:40-0500\n"
+"POT-Creation-Date: 2017-10-19 07:05-0500\n"
 "PO-Revision-Date: 2017-10-04 15:12+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: es\n"
@@ -1553,6 +1553,36 @@ msgstr ""
 "revisar el flujo de trabajo. considerar esto como una guía, a ti y a tus "
 "compañeros. por favor, ayudar a hacer mejor y coincidencia de la "
 "práctica."
+
+#: ../../building.rst:683
+#, fuzzy
+msgid "distributing for windows"
+msgstr "Instalar en Windows"
+
+#: ../../building.rst:685
+#, fuzzy
+msgid "placeholder section"
+msgstr "Acción planificada"
+
+#: ../../building.rst:687
+msgid "what do you need to produce a NSIS installer?"
+msgstr ""
+
+#: ../../building.rst:688
+msgid "what dependencies you must satisfy?"
+msgstr ""
+
+#: ../../building.rst:689
+msgid "how do you install each of them?"
+msgstr ""
+
+#: ../../building.rst:690
+msgid "which is the command to produce the setup.exe?"
+msgstr ""
+
+#: ../../building.rst:691
+msgid "how do you publish the installer?"
+msgstr ""
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
@@ -6020,7 +6050,11 @@ msgid ""
 "database in our pocket while walking in the garden, but it also allows "
 "for a very swift inventory procedure."
 msgstr ""
-"La pequeña aplicación android ghini pocket fue añadida a la familia Ghini en ocasión de una visita de un programador Ghini al Jardín Botánico de Quito.  ghini.pocket nos permite llevarnos en el bolsillo una copia reducida del contenido de la base datos, pero también nos facilita la rápida realización de un inventario"
+"La pequeña aplicación android ghini pocket fue añadida a la familia Ghini"
+" en ocasión de una visita de un programador Ghini al Jardín Botánico de "
+"Quito.  ghini.pocket nos permite llevarnos en el bolsillo una copia "
+"reducida del contenido de la base datos, pero también nos facilita la "
+"rápida realización de un inventario"
 
 #: ../../use_cases-jbq.rst:553
 msgid "Inventory procedure"
@@ -6033,7 +6067,10 @@ msgid ""
 "We enter (type or scan if the plant has bar code or QR code) the "
 "accession code and we look it up in ghini.pocket."
 msgstr ""
-"Ingresamos a ghini.pocket, anotamos el nombre de la locación donde se estará realizando el inventario. Ejem (INV 1) para invernadero 1. Anotamos o escaneamos la accesión  (si la planta cuenta con código de barra o código QR) y se realiza la búsqueda."
+"Ingresamos a ghini.pocket, anotamos el nombre de la locación donde se "
+"estará realizando el inventario. Ejem (INV 1) para invernadero 1. "
+"Anotamos o escaneamos la accesión  (si la planta cuenta con código de "
+"barra o código QR) y se realiza la búsqueda."
 
 #: ../../use_cases-jbq.rst:561
 msgid ""
@@ -6041,14 +6078,17 @@ msgid ""
 "date with time, location and the code looked for in a text file that can "
 "later be imported into the database."
 msgstr ""
-"Ghini.pocket marca la fecha con horario, la ubicación, el código buscado en un archivo textual que luego podrá ser importado a la base de datos."
+"Ghini.pocket marca la fecha con horario, la ubicación, el código buscado "
+"en un archivo textual que luego podrá ser importado a la base de datos."
 
 #: ../../use_cases-jbq.rst:565
 msgid ""
 "For a greenhouse with around 1000 plants our estimates suggest you will "
 "need two days, working at relaxed pace, from 8:00 am to 5:00 pm."
 msgstr ""
-"Para un invernadero con alrededor de 1000 plantas el tiempo estimado a realizarse es de dos días, en un horario de 8:00 am a 5:00 pm, trabajando sin apuro."
+"Para un invernadero con alrededor de 1000 plantas el tiempo estimado a "
+"realizarse es de dos días, en un horario de 8:00 am a 5:00 pm, trabajando"
+" sin apuro."
 
 #: ../../use_cases-jbq.rst:569
 msgid ""
@@ -6056,14 +6096,17 @@ msgid ""
 "reveal which plants are missing. For example: If we did the inventory of "
 "the INV3 from 4 to 5 September, this is the corresponding search::"
 msgstr ""
-"Luego de haber importado el archivo generado por ghini.pocket, es fácil evidenciar cuales plantas faltan. Por ejemplo: si hicimos el inventario del INV3  del 4 al 5 de septiembre, la búsqueda correspondiente es::"
+"Luego de haber importado el archivo generado por ghini.pocket, es fácil "
+"evidenciar cuales plantas faltan. Por ejemplo: si hicimos el inventario "
+"del INV3  del 4 al 5 de septiembre, la búsqueda correspondiente es::"
 
 #: ../../use_cases-jbq.rst:576
 msgid ""
 "All of these plants can be marked as dead, or lost, according to garden "
 "policy."
 msgstr ""
-"Todas estas plantas se pueden marcar como pérdidas o muertas, según decida el Jardín."
+"Todas estas plantas se pueden marcar como pérdidas o muertas, según "
+"decida el Jardín."
 
 #: ../../use_cases-jbq.rst:579
 msgid "Visualizing the need of taxonomic attention"
@@ -6074,7 +6117,8 @@ msgid ""
 "Our protocol includes one more detail intended to visually highlight "
 "plants that need the attention of a taxonomist."
 msgstr ""
-"Nuestro protocolo incluye otro detalle pensado para evidenciar las plantas que necesitan la atención de un taxónomo."
+"Nuestro protocolo incluye otro detalle pensado para evidenciar las "
+"plantas que necesitan la atención de un taxónomo."
 
 #: ../../use_cases-jbq.rst:587
 msgid ""
@@ -6085,7 +6129,13 @@ msgid ""
 "of the greenhouse can quickly spot them and possibly proceed to add their"
 " identification in the database."
 msgstr ""
-"Las plantas que solo aparezcan en nuestra base de datos identificadas a nivel familia o que no estaban en la base de datos reciben una señal visual (por ejemplo: un palito plástico o de madera  para paletas o papas fritas), para resaltar que no está identificada y de esta forma el taxónomo o encargado cuando realice un recorrido por el invernadero pueda identificarlas y proceder a agregar la identificación en la base de datos."
+"Las plantas que solo aparezcan en nuestra base de datos identificadas a "
+"nivel familia o que no estaban en la base de datos reciben una señal "
+"visual (por ejemplo: un palito plástico o de madera  para paletas o papas"
+" fritas), para resaltar que no está identificada y de esta forma el "
+"taxónomo o encargado cuando realice un recorrido por el invernadero pueda"
+" identificarlas y proceder a agregar la identificación en la base de "
+"datos."
 
 #: ../../use_cases-jbq.rst:595
 msgid "Naming convention in garden locations"
