@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2017-10-19 07:05-0500\n"
+"POT-Creation-Date: 2017-10-22 09:20-0500\n"
 "PO-Revision-Date: 2017-08-29 22:47+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language: pt\n"
@@ -3161,7 +3161,7 @@ msgid ""
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
 
-#: ../../installing.rst:137 ../../installing.rst:201 ../../installing.rst:343
+#: ../../installing.rst:137 ../../installing.rst:222 ../../installing.rst:364
 msgid "Next..."
 msgstr ""
 
@@ -3170,27 +3170,15 @@ msgid "Installing on MacOSX"
 msgstr "Instalação no MacOSX"
 
 #: ../../installing.rst:143
+#, fuzzy
 msgid ""
-"Being MacOSX a unix environment, most things will work the same as on "
+"Being macOS a unix environment, most things will work the same as on "
 "GNU/Linux (sort of)."
 msgstr ""
 "Sendo MacOSX um ambiente unix, a maioria das coisas vai funcionar igual "
 "no GNU/Linux (tipo de)."
 
 #: ../../installing.rst:146
-#, fuzzy
-msgid ""
-"Last time we tested, some of the dependencies could not be installed on "
-"MacOSX 10.5 and we assume similar problems would also show on older OSX "
-"versions.  Ghini has been successfully installed on several OSX systems, "
-"between 10.7 and 10.12."
-msgstr ""
-"Da última vez que testamos, algumas das dependências não podem ser "
-"instaladas no MacOSX 10.5 e assumimos que problemas semelhantes mostrava-"
-"se também em versões mais antigas do OSX.  Ghini foi testado com êxito "
-"com 10,7, 10,9 e 10.12."
-
-#: ../../installing.rst:151
 msgid ""
 "First of all, you need things which are an integral part of a unix "
 "environment, but which are missing in a off-the-shelf mac:"
@@ -3198,7 +3186,7 @@ msgstr ""
 "Em primeiro lugar, você precisa de coisas que são parte integrante de um "
 "ambiente unix, mas que estão faltando em um mac de prateleira:"
 
-#: ../../installing.rst:154
+#: ../../installing.rst:149
 msgid ""
 "developers tools: xcode. check the wikipedia page for the version "
 "supported on your mac."
@@ -3206,17 +3194,52 @@ msgstr ""
 "ferramentas de desenvolvedores: xcode. Verifique a página da wikipedia "
 "para a versão suportada no seu mac."
 
-#: ../../installing.rst:156
+#: ../../installing.rst:151
 msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr ""
 "Gerenciador de pacotes: homebrew (tigerbrew para versões mais antigas do "
 "OSX)."
 
-#: ../../installing.rst:158
-msgid "with the above installed, open a terminal window and run::"
+#: ../../installing.rst:153
+#, fuzzy
+msgid "Installation on older macOS."
+msgstr "Os passos de instalação no Windows:"
+
+#: ../../installing.rst:156
+msgid ""
+"Every time we tested, we could only solve all dependencies on the two or "
+"three most recent macOS versions.  In April 2015 this excluded macOS 10.6"
+" and older.  In September 2017 this excluded macOS 10.8 and older.  We "
+"never had a problem with the lastest macOS."
+msgstr ""
+
+#: ../../installing.rst:161
+msgid ""
+"The problem lies with homebrew and some of the packages we rely on. The "
+"messages you have to fear look like this::"
+msgstr ""
+
+#: ../../installing.rst:166
+msgid "and::"
+msgstr ""
+
+#: ../../installing.rst:173
+msgid "The only solution I can offer is: please update your system."
+msgstr ""
+
+#: ../../installing.rst:175
+msgid ""
+"On the bright side, if at any time in the past you did install "
+"ghini.desktop on your older and now unsupported macOS, you will always be"
+" able to update ghini.desktop to the latest version."
+msgstr ""
+
+#: ../../installing.rst:179
+#, fuzzy
+msgid "With the above installed, open a terminal window and run::"
 msgstr "com o acima instalado, abra uma janela de terminal e execute::"
 
-#: ../../installing.rst:162
+#: ../../installing.rst:183
 msgid ""
 "make sure you understand the problems it reports, and correct them. pygtk"
 " will need xquartz and brew will not solve the dependency automatically. "
@@ -3227,31 +3250,31 @@ msgstr ""
 "automaticamente. Instale o xquartz usando poção ou a maneira que você "
 "prefere::"
 
-#: ../../installing.rst:168
+#: ../../installing.rst:189
 msgid "then install the remaining dependencies::"
 msgstr "em seguida, instale as dependências restantes::"
 
-#: ../../installing.rst:173
+#: ../../installing.rst:194
 msgid "follow all instructions on how to activate what you have installed."
 msgstr "Siga todas as instruções sobre como ativar o que você instalou."
 
-#: ../../installing.rst:175
+#: ../../installing.rst:196
 msgid ""
 "In particular, make sure you read and understand all reports starting "
 "with ``If you need to have this software``."
 msgstr ""
 
-#: ../../installing.rst:178
+#: ../../installing.rst:199
 msgid ""
 "You will need at least the following four lines in your "
 "``~/.bash_profile``::"
 msgstr ""
 
-#: ../../installing.rst:185
+#: ../../installing.rst:206
 msgid "Activate the profile by sourcing it::"
 msgstr ""
 
-#: ../../installing.rst:189
+#: ../../installing.rst:210
 msgid ""
 "Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
 "installing a couple of python packages, globally. Do this::"
@@ -3259,7 +3282,7 @@ msgstr ""
 "Antes de correr ' devinstall.sh ' como no GNU/Linux, nós ainda precisamos"
 " instalar alguns pacotes python, globalmente. Fazer isso::"
 
-#: ../../installing.rst:194
+#: ../../installing.rst:215
 msgid ""
 "The rest is just as on a normal unix machine. Read the above GNU/Linux "
 "instructions, follow them, enjoy."
@@ -3267,18 +3290,18 @@ msgstr ""
 "O resto é como em uma máquina unix normal. Leia as instruções acima de "
 "GNU/Linux, segui-los, aproveite."
 
-#: ../../installing.rst:196
+#: ../../installing.rst:217
 msgid ""
 "As an optional aesthetical step, consider packaging your ``~/bin/ghini`` "
 "script in a `platypus <https://github.com/sveinbjornt/Platypus>`_ "
 "application bundle.  The ``images`` directory contains a 128×128 icon."
 msgstr ""
 
-#: ../../installing.rst:205
+#: ../../installing.rst:226
 msgid "Installing on Windows"
 msgstr "Instalação no Windows"
 
-#: ../../installing.rst:207
+#: ../../installing.rst:228
 msgid ""
 "The steps described here instruct you on how to install Git, Gtk, Python,"
 " and the python database connectors. With this environment correctly set "
@@ -3290,7 +3313,7 @@ msgstr ""
 "corretamente configurado, o procedimento de instalação Ghini corre como "
 "no GNU/Linux. As etapas finais são novamente Windows específicos."
 
-#: ../../installing.rst:212
+#: ../../installing.rst:233
 #, fuzzy
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 up to W-10. "
@@ -3301,11 +3324,11 @@ msgstr ""
 "Embora ele deve funcionar bem em outras versões do Windows não tem sido "
 "exaustivamente testado."
 
-#: ../../installing.rst:222
+#: ../../installing.rst:243
 msgid "The installation steps on Windows:"
 msgstr "Os passos de instalação no Windows:"
 
-#: ../../installing.rst:224
+#: ../../installing.rst:245
 #, fuzzy
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
@@ -3315,7 +3338,7 @@ msgstr ""
 "Baixe e instale o ' git ' (vem com um unix-like ' sh ' e inclui ' vi ') "
 "de::"
 
-#: ../../installing.rst:227
+#: ../../installing.rst:248
 msgid ""
 "all default options are fine, except we need git to be executable from "
 "the command prompt:"
@@ -3323,18 +3346,18 @@ msgstr ""
 "todas as opções padrão estão bem, exceto que precisamos git ser "
 "executável no prompt de comando:"
 
-#: ../../installing.rst:232
+#: ../../installing.rst:253
 msgid ""
 "download and install Python 2.x (32bit). Grab it from the `Python "
 "official site <http://www.python.org>`_."
 msgstr ""
 
-#: ../../installing.rst:235
+#: ../../installing.rst:256
 #, fuzzy
 msgid "When installing Python, do put Python in the PATH:"
 msgstr "ao instalar o Python, colocar o Python no caminho:"
 
-#: ../../installing.rst:239
+#: ../../installing.rst:260
 #, fuzzy
 msgid ""
 "download ``pygtk`` from `the official source "
@@ -3344,22 +3367,22 @@ msgstr ""
 "Baixe ' pygtk ' da fonte de seguir. (isso requer python de 32 bits). "
 "Certifique-se de que você baixar o \"all no one\" versão::"
 
-#: ../../installing.rst:243
+#: ../../installing.rst:264
 #, fuzzy
 msgid "Make a complete install, selecting everything:"
 msgstr "fazer uma instalação completa, selecionando tudo:"
 
-#: ../../installing.rst:247
+#: ../../installing.rst:268
 msgid ""
 "(Possibly necessary, maybe superfluous) install lxml, you can grab this "
 "from `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 msgstr ""
 
-#: ../../installing.rst:250
+#: ../../installing.rst:271
 msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr "Lembre-se de que você precisa da versão de 32 bits, para o Python 2.7."
 
-#: ../../installing.rst:261
+#: ../../installing.rst:282
 #, fuzzy
 msgid ""
 "(definitely optional) download and install a database connector other "
@@ -3368,42 +3391,42 @@ msgstr ""
 "(opcional) Baixe e instale um conector de banco de dados que não sejam "
 "'sqlite3 '."
 
-#: ../../installing.rst:264
+#: ../../installing.rst:285
 msgid ""
 "If you plan using PostgreSQL, the best Windows binary library for Python "
 "is `psycopg and is Made in Italy "
 "<http://initd.org/psycopg/docs/install.html>`_."
 msgstr ""
 
-#: ../../installing.rst:268
+#: ../../installing.rst:289
 msgid "**REBOOT**"
 msgstr ""
 
-#: ../../installing.rst:270
+#: ../../installing.rst:291
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
 "Ei, isso é Windows, você precisa reiniciar para que as alterações entrem "
 "em vigor!"
 
-#: ../../installing.rst:272
+#: ../../installing.rst:293
 msgid ""
 "We're done with the dependecies, now we can download and run the batch "
 "file:"
 msgstr ""
 
-#: ../../installing.rst:276
+#: ../../installing.rst:297
 msgid ""
 "Please don't just follow the above link.  Instead: right click, save link"
 " as..."
 msgstr ""
 
-#: ../../installing.rst:280
+#: ../../installing.rst:301
 msgid ""
 "Also make sure you don't let Windows convert the script to a text "
 "document."
 msgstr ""
 
-#: ../../installing.rst:284
+#: ../../installing.rst:305
 msgid ""
 "Now **Open** the script to run it.  Please note: in the below image, we "
 "have saved the file twice, once letting Windows convert it to a text "
@@ -3412,7 +3435,7 @@ msgid ""
 " batch file, which isn't going to lead us anywhere."
 msgstr ""
 
-#: ../../installing.rst:292
+#: ../../installing.rst:313
 msgid ""
 "If you installed everything as described here, the first thing you should"
 " see when you start the installation script is a window like this, and "
@@ -3420,7 +3443,7 @@ msgid ""
 "it is doing."
 msgstr ""
 
-#: ../../installing.rst:299
+#: ../../installing.rst:320
 #, fuzzy
 msgid ""
 "Running ``devinstall.bat`` will pull the ``ghini.desktop`` repository "
@@ -3432,7 +3455,7 @@ msgstr ""
 "diretório home, sob 'Local\\github\\Ghini ', a linha de produção ' "
 "ghini-1.0 ' check-out, criar um ambiente virtual e instalar ghini nele."
 
-#: ../../installing.rst:304
+#: ../../installing.rst:325
 #, fuzzy
 msgid ""
 "You can also run ``devinstall.bat`` passing it as argument the numerical "
@@ -3441,7 +3464,7 @@ msgstr ""
 "Você também pode executar ' devinstall.bat ' passando como argumento a "
 "parte numérica da linha de produção, que você quer seguir."
 
-#: ../../installing.rst:307
+#: ../../installing.rst:328
 #, fuzzy
 msgid ""
 "This is the last installation step that depends, heavily, on a working "
@@ -3450,7 +3473,7 @@ msgstr ""
 "Esta é a última etapa de instalação que depende, fortemente, um trabalho "
 "conexão de internet."
 
-#: ../../installing.rst:310
+#: ../../installing.rst:331
 #, fuzzy
 msgid ""
 "The operation can take several minutes to complete, depending on the "
@@ -3459,7 +3482,7 @@ msgstr ""
 "a operação pode levar vários minutos para ser concluída, dependendo da "
 "velocidade da sua conexão de internet."
 
-#: ../../installing.rst:313
+#: ../../installing.rst:334
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -3473,7 +3496,7 @@ msgstr ""
 "devinstall-finalize.bat ', ele está certo em sua pasta de início e foi "
 "criado na etapa anterior."
 
-#: ../../installing.rst:321
+#: ../../installing.rst:342
 #, fuzzy
 msgid ""
 "Right-click on it, select run as administrator, confirm you want it to "
@@ -3485,7 +3508,7 @@ msgstr ""
 "alterações são apenas do menu iniciar: criar o grupo Ghini, colocar o "
 "atalho Ghini."
 
-#: ../../installing.rst:325
+#: ../../installing.rst:346
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
@@ -3493,7 +3516,7 @@ msgstr ""
 "Baixe o arquivo batch que você usará para manter-se actualizado com a "
 "linha de produção, que você escolheu a seguir:"
 
-#: ../../installing.rst:330
+#: ../../installing.rst:351
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
@@ -3504,7 +3527,7 @@ msgstr ""
 "alerta de qualquer mais recente ghini liberar dentro de sua linha de "
 "produção escolhida."
 
-#: ../../installing.rst:334
+#: ../../installing.rst:355
 #, fuzzy
 msgid ""
 "any time you want to update your installation, just start the command "
@@ -3513,7 +3536,7 @@ msgstr ""
 "sempre que quiser atualizar sua instalação, apenas inicie o prompt de "
 "comando e execute o ' ghini-Update. bat '"
 
-#: ../../installing.rst:337
+#: ../../installing.rst:358
 #, fuzzy
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
@@ -7091,4 +7114,21 @@ msgstr ""
 #~ "not help us associate the name to"
 #~ " the person."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Last time we tested, some of the"
+#~ " dependencies could not be installed "
+#~ "on MacOSX 10.5 and we assume "
+#~ "similar problems would also show on "
+#~ "older OSX versions.  Ghini has been "
+#~ "successfully installed on several OSX "
+#~ "systems, between 10.7 and 10.12."
+#~ msgstr ""
+#~ "Da última vez que testamos, algumas "
+#~ "das dependências não podem ser "
+#~ "instaladas no MacOSX 10.5 e assumimos"
+#~ " que problemas semelhantes mostrava-se "
+#~ "também em versões mais antigas do "
+#~ "OSX.  Ghini foi testado com êxito "
+#~ "com 10,7, 10,9 e 10.12."
 

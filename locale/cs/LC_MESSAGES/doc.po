@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-10-19 07:05-0500\n"
+"POT-Creation-Date: 2017-10-22 09:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2450,7 +2450,7 @@ msgid ""
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
 
-#: ../../installing.rst:137 ../../installing.rst:201 ../../installing.rst:343
+#: ../../installing.rst:137 ../../installing.rst:222 ../../installing.rst:364
 msgid "Next..."
 msgstr ""
 
@@ -2460,93 +2460,118 @@ msgstr ""
 
 #: ../../installing.rst:143
 msgid ""
-"Being MacOSX a unix environment, most things will work the same as on "
+"Being macOS a unix environment, most things will work the same as on "
 "GNU/Linux (sort of)."
 msgstr ""
 
 #: ../../installing.rst:146
 msgid ""
-"Last time we tested, some of the dependencies could not be installed on "
-"MacOSX 10.5 and we assume similar problems would also show on older OSX "
-"versions.  Ghini has been successfully installed on several OSX systems, "
-"between 10.7 and 10.12."
-msgstr ""
-
-#: ../../installing.rst:151
-msgid ""
 "First of all, you need things which are an integral part of a unix "
 "environment, but which are missing in a off-the-shelf mac:"
 msgstr ""
 
-#: ../../installing.rst:154
+#: ../../installing.rst:149
 msgid ""
 "developers tools: xcode. check the wikipedia page for the version "
 "supported on your mac."
 msgstr ""
 
-#: ../../installing.rst:156
+#: ../../installing.rst:151
 msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr ""
 
-#: ../../installing.rst:158
-msgid "with the above installed, open a terminal window and run::"
+#: ../../installing.rst:153
+msgid "Installation on older macOS."
 msgstr ""
 
-#: ../../installing.rst:162
+#: ../../installing.rst:156
+msgid ""
+"Every time we tested, we could only solve all dependencies on the two or "
+"three most recent macOS versions.  In April 2015 this excluded macOS 10.6"
+" and older.  In September 2017 this excluded macOS 10.8 and older.  We "
+"never had a problem with the lastest macOS."
+msgstr ""
+
+#: ../../installing.rst:161
+msgid ""
+"The problem lies with homebrew and some of the packages we rely on. The "
+"messages you have to fear look like this::"
+msgstr ""
+
+#: ../../installing.rst:166
+msgid "and::"
+msgstr ""
+
+#: ../../installing.rst:173
+msgid "The only solution I can offer is: please update your system."
+msgstr ""
+
+#: ../../installing.rst:175
+msgid ""
+"On the bright side, if at any time in the past you did install "
+"ghini.desktop on your older and now unsupported macOS, you will always be"
+" able to update ghini.desktop to the latest version."
+msgstr ""
+
+#: ../../installing.rst:179
+msgid "With the above installed, open a terminal window and run::"
+msgstr ""
+
+#: ../../installing.rst:183
 msgid ""
 "make sure you understand the problems it reports, and correct them. pygtk"
 " will need xquartz and brew will not solve the dependency automatically. "
 "either install xquartz using brew or the way you prefer::"
 msgstr ""
 
-#: ../../installing.rst:168
+#: ../../installing.rst:189
 msgid "then install the remaining dependencies::"
 msgstr ""
 
-#: ../../installing.rst:173
+#: ../../installing.rst:194
 msgid "follow all instructions on how to activate what you have installed."
 msgstr ""
 
-#: ../../installing.rst:175
+#: ../../installing.rst:196
 msgid ""
 "In particular, make sure you read and understand all reports starting "
 "with ``If you need to have this software``."
 msgstr ""
 
-#: ../../installing.rst:178
+#: ../../installing.rst:199
 msgid ""
 "You will need at least the following four lines in your "
 "``~/.bash_profile``::"
 msgstr ""
 
-#: ../../installing.rst:185
+#: ../../installing.rst:206
 msgid "Activate the profile by sourcing it::"
 msgstr ""
 
-#: ../../installing.rst:189
+#: ../../installing.rst:210
 msgid ""
 "Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
 "installing a couple of python packages, globally. Do this::"
 msgstr ""
 
-#: ../../installing.rst:194
+#: ../../installing.rst:215
 msgid ""
 "The rest is just as on a normal unix machine. Read the above GNU/Linux "
 "instructions, follow them, enjoy."
 msgstr ""
 
-#: ../../installing.rst:196
+#: ../../installing.rst:217
 msgid ""
 "As an optional aesthetical step, consider packaging your ``~/bin/ghini`` "
 "script in a `platypus <https://github.com/sveinbjornt/Platypus>`_ "
 "application bundle.  The ``images`` directory contains a 128×128 icon."
 msgstr ""
 
-#: ../../installing.rst:205
+#: ../../installing.rst:226
 msgid "Installing on Windows"
 msgstr ""
 
-#: ../../installing.rst:207
+#: ../../installing.rst:228
 msgid ""
 "The steps described here instruct you on how to install Git, Gtk, Python,"
 " and the python database connectors. With this environment correctly set "
@@ -2554,101 +2579,101 @@ msgid ""
 " steps are again Windows specific."
 msgstr ""
 
-#: ../../installing.rst:212
+#: ../../installing.rst:233
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 up to W-10. "
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
 
-#: ../../installing.rst:222
+#: ../../installing.rst:243
 msgid "The installation steps on Windows:"
 msgstr ""
 
-#: ../../installing.rst:224
+#: ../../installing.rst:245
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``). Grab it from `the Git download area <https://git-"
 "scm.com/download/win>`_."
 msgstr ""
 
-#: ../../installing.rst:227
+#: ../../installing.rst:248
 msgid ""
 "all default options are fine, except we need git to be executable from "
 "the command prompt:"
 msgstr ""
 
-#: ../../installing.rst:232
+#: ../../installing.rst:253
 msgid ""
 "download and install Python 2.x (32bit). Grab it from the `Python "
 "official site <http://www.python.org>`_."
 msgstr ""
 
-#: ../../installing.rst:235
+#: ../../installing.rst:256
 msgid "When installing Python, do put Python in the PATH:"
 msgstr ""
 
-#: ../../installing.rst:239
+#: ../../installing.rst:260
 msgid ""
 "download ``pygtk`` from `the official source "
 "<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/>`_. (this requires "
 "32bit python). be sure you download the \"all in one\" version."
 msgstr ""
 
-#: ../../installing.rst:243
+#: ../../installing.rst:264
 msgid "Make a complete install, selecting everything:"
 msgstr ""
 
-#: ../../installing.rst:247
+#: ../../installing.rst:268
 msgid ""
 "(Possibly necessary, maybe superfluous) install lxml, you can grab this "
 "from `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
 msgstr ""
 
-#: ../../installing.rst:250
+#: ../../installing.rst:271
 msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr ""
 
-#: ../../installing.rst:261
+#: ../../installing.rst:282
 msgid ""
 "(definitely optional) download and install a database connector other "
 "than ``sqlite3``."
 msgstr ""
 
-#: ../../installing.rst:264
+#: ../../installing.rst:285
 msgid ""
 "If you plan using PostgreSQL, the best Windows binary library for Python "
 "is `psycopg and is Made in Italy "
 "<http://initd.org/psycopg/docs/install.html>`_."
 msgstr ""
 
-#: ../../installing.rst:268
+#: ../../installing.rst:289
 msgid "**REBOOT**"
 msgstr ""
 
-#: ../../installing.rst:270
+#: ../../installing.rst:291
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
 
-#: ../../installing.rst:272
+#: ../../installing.rst:293
 msgid ""
 "We're done with the dependecies, now we can download and run the batch "
 "file:"
 msgstr ""
 
-#: ../../installing.rst:276
+#: ../../installing.rst:297
 msgid ""
 "Please don't just follow the above link.  Instead: right click, save link"
 " as..."
 msgstr ""
 
-#: ../../installing.rst:280
+#: ../../installing.rst:301
 msgid ""
 "Also make sure you don't let Windows convert the script to a text "
 "document."
 msgstr ""
 
-#: ../../installing.rst:284
+#: ../../installing.rst:305
 msgid ""
 "Now **Open** the script to run it.  Please note: in the below image, we "
 "have saved the file twice, once letting Windows convert it to a text "
@@ -2657,7 +2682,7 @@ msgid ""
 " batch file, which isn't going to lead us anywhere."
 msgstr ""
 
-#: ../../installing.rst:292
+#: ../../installing.rst:313
 msgid ""
 "If you installed everything as described here, the first thing you should"
 " see when you start the installation script is a window like this, and "
@@ -2665,7 +2690,7 @@ msgid ""
 "it is doing."
 msgstr ""
 
-#: ../../installing.rst:299
+#: ../../installing.rst:320
 msgid ""
 "Running ``devinstall.bat`` will pull the ``ghini.desktop`` repository "
 "from github to your home directory, under ``Local\\github\\Ghini``, "
@@ -2673,25 +2698,25 @@ msgid ""
 "and install ghini into it."
 msgstr ""
 
-#: ../../installing.rst:304
+#: ../../installing.rst:325
 msgid ""
 "You can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
 
-#: ../../installing.rst:307
+#: ../../installing.rst:328
 msgid ""
 "This is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
 
-#: ../../installing.rst:310
+#: ../../installing.rst:331
 msgid ""
 "The operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
 
-#: ../../installing.rst:313
+#: ../../installing.rst:334
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -2700,33 +2725,33 @@ msgid ""
 "step."
 msgstr ""
 
-#: ../../installing.rst:321
+#: ../../installing.rst:342
 msgid ""
 "Right-click on it, select run as administrator, confirm you want it to "
 "make changes to your computer.  These changes are in the Start Menu only:"
 " create the Ghini group, place the Ghini shortcut."
 msgstr ""
 
-#: ../../installing.rst:325
+#: ../../installing.rst:346
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
 msgstr ""
 
-#: ../../installing.rst:330
+#: ../../installing.rst:351
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
 "newer ghini release within your chosen production line."
 msgstr ""
 
-#: ../../installing.rst:334
+#: ../../installing.rst:355
 msgid ""
 "any time you want to update your installation, just start the command "
 "prompt and run ``ghini-update.bat``, it will hardly take one minute."
 msgstr ""
 
-#: ../../installing.rst:337
+#: ../../installing.rst:358
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
@@ -6073,5 +6098,24 @@ msgstr ""
 #~ " `voluntario`, because such accounts do "
 #~ "not help us associate the name to"
 #~ " the person."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Being MacOSX a unix environment, most"
+#~ " things will work the same as "
+#~ "on GNU/Linux (sort of)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Last time we tested, some of the"
+#~ " dependencies could not be installed "
+#~ "on MacOSX 10.5 and we assume "
+#~ "similar problems would also show on "
+#~ "older OSX versions.  Ghini has been "
+#~ "successfully installed on several OSX "
+#~ "systems, between 10.7 and 10.12."
+#~ msgstr ""
+
+#~ msgid "with the above installed, open a terminal window and run::"
 #~ msgstr ""
 
