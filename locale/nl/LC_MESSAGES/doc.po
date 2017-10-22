@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-07-02 19:42-0500\n"
-"PO-Revision-Date: 2017-10-16 00:45+0000\n"
+"PO-Revision-Date: 2017-10-23 21:45+0000\n"
 "Last-Translator: Christophe Van Calster <christophevancalster@mac.com>\n"
 "Language-Team: Dutch "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/nl/>\n"
@@ -1158,7 +1158,7 @@ msgstr ""
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "Notities"
 
 #: ../../editing.rst:27
 msgid ""
@@ -1386,7 +1386,7 @@ msgstr ""
 
 #: ../../editing.rst:170
 msgid "Plant"
-msgstr ""
+msgstr "Plant"
 
 #: ../../editing.rst:172
 msgid ""
@@ -1422,7 +1422,7 @@ msgstr ""
 
 #: ../../editing.rst:193
 msgid "Pictures"
-msgstr ""
+msgstr "Afbeeldingen"
 
 #: ../../editing.rst:195
 msgid ""
