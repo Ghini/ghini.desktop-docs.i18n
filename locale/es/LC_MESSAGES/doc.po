@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-22 13:47-0500\n"
+"POT-Creation-Date: 2017-11-15 20:42-0500\n"
 "PO-Revision-Date: 2017-10-04 15:12+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: es\n"
@@ -4614,11 +4614,52 @@ msgstr ""
 "preocuparse, simplemente pegan con SQLite, no perder características ni "
 "prestaciones."
 
+#: ../../started.rst:45
+msgid "Some more hints if you need PostgreSQL"
+msgstr ""
+
 #: ../../started.rst:48
+msgid ""
+"Start simple, don't do all at the same time. Review `the online manual "
+"<https://www.postgresql.org/docs/9.4/static/index.html>`_, or download "
+"and study `the offline version "
+"<https://www.postgresql.org/files/documentation/pdf/9.4/postgresql-9.4-A4.pdf>`_."
+msgstr ""
+
+#: ../../started.rst:53
+msgid ""
+"As said above, create a database, a user, make this user the owner of the"
+" database, decide whether you're going to need multiple users, and "
+"preferably reserve a user for database and normal user creation. This "
+"super-user should be your only user with ``CREATEROLE`` privilege."
+msgstr ""
+
+#: ../../started.rst:59
+msgid ""
+"All normal users will need all privileges on all tables and sequences, "
+"something you can do from the :menuselection:`Tools-->Users` menu.  If "
+"you have any difficulty, please `open an issue "
+"<https://github.com/Ghini/ghini.desktop/issues/new>`_ about it."
+msgstr ""
+
+#: ../../started.rst:65
+msgid ""
+"Connect using the ``psql`` interactive terminal.  Create a ``~/.pgpass`` "
+"file (read more about it in `the manual "
+"<https://www.postgresql.org/docs/9.4/static/libpq-pgpass.html>`_), tweak "
+"your ``pg_hba.conf`` and ``postgresql.conf`` files, until you can connect"
+" using the command::"
+msgstr ""
+
+#: ../../started.rst:73
+msgid "With the above setup, connecting from ghini will be an obvious task."
+msgstr ""
+
+#: ../../started.rst:79
 msgid "Connecting to a database"
 msgstr "Conectarse a una base de datos"
 
-#: ../../started.rst:50
+#: ../../started.rst:81
 msgid ""
 "When you start Ghini the first thing that comes up is the connection "
 "dialog."
@@ -4626,7 +4667,7 @@ msgstr ""
 "Al arrancar Ghini, lo primero que aparece es una ventana en que "
 "seleccionar la conexión."
 
-#: ../../started.rst:53
+#: ../../started.rst:84
 msgid ""
 "Quite obviously, if this is the first time you start Ghini, you have no "
 "connections yet and Ghini will alert you about it."
@@ -4634,7 +4675,7 @@ msgstr ""
 "Pues si esta es la primera vez que arranca Ghini por supuesto no hay "
 "conexiones. Ghini se lo deja notar."
 
-#: ../../started.rst:58
+#: ../../started.rst:89
 msgid ""
 "This alert will show at first activation and also in the future if your "
 "connections list becomes empty. As it says: click on **Add** to create "
@@ -4644,7 +4685,7 @@ msgstr ""
 "su lista de conexiones se convierte en vacío. Como dice: haga clic en ** "
 "Agregar ** para crear tu primera conexión."
 
-#: ../../started.rst:64
+#: ../../started.rst:95
 msgid ""
 "Just insert a name for your connection, something meaningful you "
 "associate with the collection to be represented in the database (for "
@@ -4658,11 +4699,11 @@ msgstr ""
 "anterior, donde el nombre de la conexión está seleccionada y los Detalles"
 " de conexión se han expandido."
 
-#: ../../started.rst:72
+#: ../../started.rst:103
 msgid "**specify the connection details**"
 msgstr "** especificar la información de conexión **"
 
-#: ../../started.rst:74
+#: ../../started.rst:105
 msgid ""
 "If you do not know what to do here, Ghini will help you stay safe. "
 "Activate the **Use default locations** check box and create your first "
@@ -4672,7 +4713,7 @@ msgstr ""
 " valores por defecto** y finalice el crear la conexión pisando "
 "**Conectar**."
 
-#: ../../started.rst:77
+#: ../../started.rst:108
 msgid ""
 "You may safely skip the remainder of this section for the time being and "
 "continue reading to the following section."
@@ -4680,11 +4721,11 @@ msgstr ""
 "El resto de esta sección da más detalles de natura técnica. Si no quiere "
 "adentrarse, puede seguir con la sección siguiente."
 
-#: ../../started.rst:80
+#: ../../started.rst:111
 msgid "**fine-tune the connection details**"
 msgstr "**detalles de conexión: sintonización fina**"
 
-#: ../../started.rst:82
+#: ../../started.rst:113
 msgid ""
 "By default Ghini uses the file-based SQLite database.  During the "
 "installation process you had the choice (and you still have after "
@@ -4695,7 +4736,7 @@ msgstr ""
 "instalación), para agregar conectores de base de datos distinta de la "
 "predeterminada de SQLite."
 
-#: ../../started.rst:86
+#: ../../started.rst:117
 msgid ""
 "In this example, Ghini can connect to SQLite, PostgreSQL and MySQL, but "
 "no connector is available for Oracle or MS SQL Server."
@@ -4703,7 +4744,7 @@ msgstr ""
 "En este ejemplo, Ghini puede conectar SQLite, PostgreSQL y MySQL, pero "
 "ningún conector está disponible para Oracle o MS SQL Server."
 
-#: ../../started.rst:91
+#: ../../started.rst:122
 msgid ""
 "If you use SQLite, all you really need specify is the connection name. If"
 " you let Ghini use the default filename then Ghini creates a database "
@@ -4719,7 +4760,7 @@ msgstr ""
 "nombre y sin extensión, que se encontrarán en ``~/.bauble`` en "
 "Linux/MacOSX o en ``AppData\\Roaming\\Bauble`` en Windows."
 
-#: ../../started.rst:97
+#: ../../started.rst:128
 msgid ""
 "Still with SQLite, you might have received or downloaded a bauble "
 "database, and you want to connect to it. In this case you do not let "
@@ -4731,7 +4772,7 @@ msgstr ""
 "nombre predeterminado, sino busque en su computadora la ubicación donde "
 "guardó ese archivo SQLite."
 
-#: ../../started.rst:102
+#: ../../started.rst:133
 msgid ""
 "If you use a different database connector, the dialog box will look "
 "different and it will offer you the option to fine tune all parameters "
@@ -4741,7 +4782,7 @@ msgstr ""
 "diferente y le ofrecerá la opción de afinar todos los parámetros "
 "necesarios para conectarse a la base de datos de su elección."
 
-#: ../../started.rst:106
+#: ../../started.rst:137
 msgid ""
 "If you are connecting to an existing database you can continue to :ref"
 ":`editing-and-inserting-data` and subsequently :ref:`searching-in-ghini`,"
@@ -4753,7 +4794,7 @@ msgstr ""
 "ghini`, de lo contrario sigue leyendo la siguiente sección en inicializar"
 " una base de datos de Ghini."
 
-#: ../../started.rst:111
+#: ../../started.rst:142
 msgid ""
 "If you plan to associate pictures to plants, specify also the *pictures "
 "root* folder. The meaning of this is explained in further detail at :ref"
@@ -4763,11 +4804,11 @@ msgstr ""
 "carpeta imágenes. El significado de esto se explica con mayor detalle en:"
 " ref: 'planta-pictures' en: ref: 'edición-y-insertar-data'."
 
-#: ../../started.rst:118
+#: ../../started.rst:149
 msgid "Initialize a database"
 msgstr "Inicializar una base de datos"
 
-#: ../../started.rst:120
+#: ../../started.rst:151
 msgid ""
 "First time you open a connection to a database which had never been seen "
 "by Ghini before, Ghini will first display an alert:"
@@ -4775,11 +4816,11 @@ msgstr ""
 "La primera vez que se abre una conexión a una base de datos, nunca antes "
 "vista con Ghini, el programa presenta el aviso:"
 
-#: ../../started.rst:125
+#: ../../started.rst:156
 msgid "immediately followed by a question:"
 msgstr "e inmediatamente después la pregunta:"
 
-#: ../../started.rst:129
+#: ../../started.rst:160
 msgid ""
 "Be careful when manually specifying the connection parameters: the values"
 " you have entered may refer to an existing database, not intended for use"
@@ -4792,7 +4833,7 @@ msgstr ""
 "base de datos, la base de datos estará vacía y todo su contenido se "
 "pierde."
 
-#: ../../started.rst:134
+#: ../../started.rst:165
 msgid ""
 "If you are sure you want to create a database at this connection then "
 "select \"Yes\". Ghini will then start creating the database tables and "
@@ -4805,7 +4846,7 @@ msgstr ""
 "tardar un minuto o dos así que mientras que todos los datos por defecto "
 "es importado a la base de datos asi que tengan paciencia."
 
-#: ../../started.rst:139
+#: ../../started.rst:170
 msgid ""
 "Once your database has been created, configured, initialized, you are "
 "ready to start :ref:`editing-and-inserting-data` and subsequently :ref"
