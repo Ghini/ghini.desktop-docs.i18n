@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-15 20:42-0500\n"
-"PO-Revision-Date: 2017-10-16 10:49+0000\n"
+"PO-Revision-Date: 2017-11-27 17:51+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
-"Language: uk\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.18-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -3237,13 +3238,12 @@ msgid "Installing on MacOSX"
 msgstr "Установка на MacOSX"
 
 #: ../../installing.rst:143
-#, fuzzy
 msgid ""
 "Being macOS a unix environment, most things will work the same as on "
 "GNU/Linux (sort of)."
 msgstr ""
-"MacOSX являється середовищем unix, більшість речей буде працювати так "
-"само, як і на GNU/Linux (різновид)."
+"Будучи macOS в середовищі unix, більшість речей буде працювати так само, як "
+"на GNU/Linux (різновид)."
 
 #: ../../installing.rst:146
 msgid ""
@@ -3266,9 +3266,8 @@ msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr "менеджер пакетів:  homebrew (tigerbrew для старих версій OSX)."
 
 #: ../../installing.rst:153
-#, fuzzy
 msgid "Installation on older macOS."
-msgstr "Кроки по установці на Windows:"
+msgstr "Встановлення на старіших MacOS."
 
 #: ../../installing.rst:156
 msgid ""
@@ -3277,16 +3276,22 @@ msgid ""
 " and older.  In September 2017 this excluded macOS 10.8 and older.  We "
 "never had a problem with the lastest macOS."
 msgstr ""
+"Кожен раз, коли ми тестували, ми могли вирішувати всі залежності лише за "
+"двома або трьома останніми версіями macOS. У квітні 2015 року виключено "
+"macOS 10.6 та старші. У вересні 2017 року виключено macOS 10.8 і старші. У "
+"нас ніколи не було проблем з останніми macOS."
 
 #: ../../installing.rst:161
 msgid ""
 "The problem lies with homebrew and some of the packages we rely on. The "
 "message you have to fear looks like this::"
 msgstr ""
+"Проблема полягає в доморощених та деяких пакетах, на які ми покладаємось. "
+"Повідомлення, яке ви повинні остерігатися, виглядає так::"
 
 #: ../../installing.rst:166
 msgid "The only solution I can offer is: please update your system."
-msgstr ""
+msgstr "Єдине рішення, яке я можу запропонувати, це: оновіть свою систему."
 
 #: ../../installing.rst:168
 msgid ""
@@ -3294,11 +3299,13 @@ msgid ""
 "ghini.desktop on your older and now unsupported macOS, you will always be"
 " able to update ghini.desktop to the latest version."
 msgstr ""
+"На яскравому боці, якщо в минулому ви встановили ghini.desktop на вашій "
+"застарілій і зараз непідтримуваній macOS, ви завжди зможете оновити "
+"ghini.desktop до останньої версії."
 
 #: ../../installing.rst:172
-#, fuzzy
 msgid "With the above installed, open a terminal window and run::"
-msgstr "з встановленим вище, відкрийте вікно термінала і запустіть::"
+msgstr "З встановленим вище, відкрийте вікно термінала і запустіть::"
 
 #: ../../installing.rst:176
 msgid ""
@@ -4541,7 +4548,7 @@ msgstr ""
 
 #: ../../started.rst:45
 msgid "Some more hints if you need PostgreSQL"
-msgstr ""
+msgstr "Більше інших підказок, якщо вам потрібен PostgreSQL"
 
 #: ../../started.rst:48
 msgid ""
@@ -4550,6 +4557,10 @@ msgid ""
 "and study `the offline version "
 "<https://www.postgresql.org/files/documentation/pdf/9.4/postgresql-9.4-A4.pdf>`_."
 msgstr ""
+"Почніть з простого, не робіть все одночасно. Передивіться `онлайновий "
+"посібник <https://www.postgresql.org/docs/9.4/static/index.html>`_, або "
+"завантажте та використовуйте `оффлайну версію <https://www.postgresql.org/fil"
+"es/documentation/pdf/9.4/postgresql-9.4-A4.pdf>`_."
 
 #: ../../started.rst:53
 msgid ""
@@ -4558,6 +4569,11 @@ msgid ""
 "preferably reserve a user for database and normal user creation. This "
 "super-user should be your only user with ``CREATEROLE`` privilege."
 msgstr ""
+"Як сказано вище, створіть базу даних та користувача, зробить цього "
+"користувача власником бази даних, вирішіть, чи потрібні вам кілька "
+"користувачів?, і бажано залишити користувача для створення бази даних та "
+"звичайного користувача. Цей суперкористувач повинен бути вашим єдиним "
+"користувачем із привілеєм ``CREATEROLE``."
 
 #: ../../started.rst:59
 msgid ""
@@ -4566,6 +4582,10 @@ msgid ""
 "you have any difficulty, please `open an issue "
 "<https://github.com/Ghini/ghini.desktop/issues/new>`_ about it."
 msgstr ""
+"Усім звичайним користувачам потрібні всі привілеї у всіх таблицях і "
+"послідовностях, що ви можете зробити з :menuselection:`Tools-->Users` меню. "
+"Якщо у вас виникли труднощі, будь ласка `відкрийте проблему "
+"<https://github.com/Ghini/ghini.desktop/issues/new>`_ про це."
 
 #: ../../started.rst:65
 msgid ""
@@ -4575,10 +4595,16 @@ msgid ""
 "your ``pg_hba.conf`` and ``postgresql.conf`` files, until you can connect"
 " using the command::"
 msgstr ""
+"З'єднайте, використовуючи інтерактивний термінал ``psql``. Створіть "
+"``~/.pgpass`` файл (докладніше про це в  `посібнику "
+"<https://www.postgresql.org/docs/9.4/static/libpq-pgpass.html>`_), "
+"налаштуйте свої ``pg_hba.conf`` та ``postgresql.conf`` файли, поки ви не "
+"зможете підключитися за допомогою команди::"
 
 #: ../../started.rst:73
 msgid "With the above setup, connecting from ghini will be an obvious task."
 msgstr ""
+"З наведеним вище налаштуванням, з'єднання з ghini стане звичним завданням."
 
 #: ../../started.rst:79
 msgid "Connecting to a database"
@@ -7800,4 +7826,3 @@ msgstr "Ghini дозволяє читати, писати і оформляти 
 
 #~ msgid "and::"
 #~ msgstr ""
-
