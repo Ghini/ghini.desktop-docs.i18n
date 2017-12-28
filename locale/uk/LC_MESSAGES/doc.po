@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-15 20:42-0500\n"
-"PO-Revision-Date: 2017-11-27 17:51+0000\n"
-"Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
+"PO-Revision-Date: 2017-12-28 00:36+0000\n"
+"Last-Translator: Yura <skayt55@gmail.com>\n"
 "Language-Team: Ukrainian "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/uk/>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.18-dev\n"
+"X-Generator: Weblate 2.19-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -6133,31 +6133,26 @@ msgid "Nepenthaceae exibition"
 msgstr "Виявлення непентаних"
 
 #: ../../use_cases-jbq.rst:608
-#, fuzzy
 msgid ""
 "orquidearios de calor en el jardín (1A a 9C son lugares especificos entre"
 " del orquideario)"
-msgstr "теплі сади орхідей (від 1А до 9С є специфічними місцями серед орхідей)"
+msgstr "теплі орхідеї в саду (від 1А до 9С є конкретні місця між орхідею)"
 
 #: ../../use_cases-jbq.rst:611
-#, fuzzy
 msgid ""
 "orquidearios de frío en el jardín (1A a 5I son lugares específicos dentro"
 " del orquideario)"
-msgstr "холодні сади орхідей (1А до 5I конкретні місця в межах orquideario)"
+msgstr "холодні орхідеї в саду (від 1А до 5I - конкретні місця в саду орхідей)"
 
 #: ../../use_cases-jbq.rst:614
-#, fuzzy
 msgid "invernadero 1 (calor)"
 msgstr "теплиця 1 (тепло)"
 
 #: ../../use_cases-jbq.rst:616
-#, fuzzy
 msgid "invernadero 2 (frío)"
 msgstr "теплиця 2 (холодно)"
 
 #: ../../use_cases-jbq.rst:618
-#, fuzzy
 msgid "invernadero 3 (calor)"
 msgstr "теплиця 3 (тепло)"
 
@@ -6222,7 +6217,6 @@ msgid "Location"
 msgstr "Розташування"
 
 #: ../../use_cases-jbq.rst:653
-#, fuzzy
 msgid "Invernadero 1 (calor)"
 msgstr "Теплиця 1 (тепло)"
 
