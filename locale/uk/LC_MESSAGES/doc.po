@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-16 16:11-0500\n"
+"POT-Creation-Date: 2018-01-02 17:00-0500\n"
 "PO-Revision-Date: 2017-09-04 19:49+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -1453,6 +1453,235 @@ msgstr ""
 "і до своїх колег. будь ласка, допоможіть зробити його краще і відповідно "
 "практичним."
 
+#: ../../build_win.rst:2
+msgid "Building a Windows executable and installer"
+msgstr ""
+
+#: ../../build_win.rst:4
+msgid ""
+"For building a Windows installer or executable you will need an "
+"installation of Windows.  The methods described here has been used "
+"successfully on Windows 7, 8 and 10.  Windows Vista should also work but "
+"has not been tested."
+msgstr ""
+
+#: ../../build_win.rst:8
+msgid ""
+"In the remainder of this section we assume you're using a Windows "
+"workstation.  We also assume assume you do not use it as your software "
+"development platform.  All steps described here are very similar to the "
+"steps for a normal Windows :ref:`installation`."
+msgstr ""
+
+#: ../../build_win.rst:13
+msgid "py2exe will not work with eggs"
+msgstr ""
+
+#: ../../build_win.rst:16
+msgid ""
+"Building a Windows executable with py2exe requires packages **not** be "
+"installed as eggs.  There are several methods to accomplish this, "
+"including:"
+msgstr ""
+
+#: ../../build_win.rst:19
+msgid ""
+"Using pip to install.  The easiest method is to install into a virtual "
+"environment that doesn't currently have any modules installed as eggs "
+"using ``pip install .`` as described below.  If you do wish to install "
+"over the top of an install with eggs (e.g. the environment created by "
+"``devinstall.bat``) you can try ``pip install -I .`` but your mileage may"
+" vary."
+msgstr ""
+
+#: ../../build_win.rst:26
+msgid "By adding::"
+msgstr ""
+
+#: ../../build_win.rst:31
+msgid ""
+"to setup.cfg (or similarly ``zip_safe = False`` to ``setuptools.setup()``"
+" in ``setup.py``) you can use ``python setup.py install`` but you will "
+"need to download and install `Microsoft Visual C++ Compiler for Python "
+"2.7 <http://aka.ms/vcpython27>`_ to get any of the C extensions and will "
+"need a fresh virtual environment with no dependent packages installed as "
+"eggs."
+msgstr ""
+
+#: ../../build_win.rst:37
+msgid ""
+"Download and install git, Python 2.7 and PyGTK as outlined in the generic"
+" :ref:`installation` instructions."
+msgstr ""
+
+#: ../../build_win.rst:40
+msgid ""
+"Additionally, download and install `NSIS v3 "
+"<http://nsis.sourceforge.net/Download>`_."
+msgstr ""
+
+#: ../../build_win.rst:42
+msgid "A **reboot** is recommended."
+msgstr ""
+
+#: ../../build_win.rst:44
+msgid "we have a script that automates the remaining steps"
+msgstr ""
+
+#: ../../build_win.rst:47
+msgid ""
+"A batch file is available that can complete the last few steps.  To use "
+"it use this command::"
+msgstr ""
+
+#: ../../build_win.rst:52
+msgid "``build_win.bat`` accepts 2 arguments:"
+msgstr ""
+
+#: ../../build_win.rst:54
+msgid ""
+"``/e`` will produce an executable only, skipping the extra step of "
+"building an installer, and will copy ``win_gtk.bat`` into place."
+msgstr ""
+
+#: ../../build_win.rst:57
+#, python-format
+msgid ""
+"A path to the location for the virtual environment to use. (defaults to "
+"``\"%HOMEDRIVE%%HOMEPATH%\"\\.virtualenvs\\ghi2exe``)"
+msgstr ""
+
+#: ../../build_win.rst:60
+msgid ""
+"e.g. to produce an executable only and use a virtual environment in a "
+"folder beside where you have ghini.desktop you could execute "
+"``scripts\\build_win.bat /e ..\\ghi2exe``"
+msgstr ""
+
+#: ../../build_win.rst:64
+msgid ""
+"Clone ghini.desktop to wherever you want to keep it (replace ``<path-to-"
+"keep-ghini>`` with the path of your choice, e.g. "
+"``Local\\github\\Ghini\\``) and checkout a production branch "
+"(``ghini-1.0`` is recommended as used in the example).  To do this, open "
+"a command prompt and type these commands::"
+msgstr ""
+
+#: ../../build_win.rst:75
+msgid ""
+"Install virtualenv, create a virtual environment and activate it.  With "
+"only Python 2.7 on your system (where ``<path-to-venv>`` is the path to "
+"where you wish to keep the virtual environment) use::"
+msgstr ""
+
+#: ../../build_win.rst:83
+msgid ""
+"On systems where Python 3 is also installed you may need to either call "
+"pip and virtualenv with absolute paths e.g.  "
+"``C:\\Python27\\Scripts\\pip`` or use the Python launcher e.g. ``py -2.7 "
+"-m pip`` (run ``python --version`` first to check.  If you get anything "
+"other than version 2.7 you'll need to use one of these methods.)"
+msgstr ""
+
+#: ../../build_win.rst:89
+msgid "Install dependencies and ghini.desktop into the virtual environment::"
+msgstr ""
+
+#: ../../build_win.rst:94
+msgid "Build the executable::"
+msgstr ""
+
+#: ../../build_win.rst:98
+msgid ""
+"The ``dist`` folder will now contain a full working copy of the software "
+"in a frozen, self contained state, that can be transferred however you "
+"like and will work in place.  (e.g. placed on a USB flash drive for "
+"demonstration purposes or copied manually to ``C:\\Program Files`` with a"
+" shortcut created on the desktop).  To start ghini.desktop double click "
+"``ghini.exe`` in explorer (or create a shortcut to it). If you have "
+"issues with the UI not displaying correctly you need to run the script "
+"``win_gtk.bat`` from the ``dist`` folder to set up paths to the GTK "
+"components correctly.  (Running ``build_win /e`` will place this script "
+"in the dist folder for you or you can copy it from the ``scripts`` folder"
+" yourself.)  You will only need to run this once each time the location "
+"of the folder changes.  Thereafter ``ghini.exe`` will run as expected."
+msgstr ""
+
+#: ../../build_win.rst:111
+msgid "Build the installer::"
+msgstr ""
+
+#: ../../build_win.rst:115
+msgid ""
+"This should leave a file named ``ghini.desktop-<version>-setup.exe`` in "
+"the ``scripts`` folder.  This is your Windows installer."
+msgstr ""
+
+#: ../../build_win.rst:118
+msgid "about the installer"
+msgstr ""
+
+#: ../../build_win.rst:121
+msgid "Capable of single user or global installs."
+msgstr ""
+
+#: ../../build_win.rst:123
+msgid ""
+"At this point in time ghini.desktop installed this way will not check or "
+"or notify you of any updated version.  You will need to check yourself."
+msgstr ""
+
+#: ../../build_win.rst:127
+msgid "Capable of downloading and installing optional extra components:"
+msgstr ""
+
+#: ../../build_win.rst:129
+msgid ""
+"Apache FOP - If you want to use xslt report templates install FOP. FOP "
+"requires Java Runtime. If you do not currently have it installed the "
+"installer will let you know and offer to open the Oracle web site for you"
+" to download and install it from."
+msgstr ""
+
+#: ../../build_win.rst:134
+msgid ""
+"MS Visual C runtime - You most likely don't need this but if you have any"
+" trouble getting ghini.desktop to run try installing the MS Visual C "
+"runtime (e.g. rerun the installer and select this component only)."
+msgstr ""
+
+#: ../../build_win.rst:138
+msgid ""
+"Can be run silently from the commandline (e.g. for remote deployment) "
+"with the following arguments:"
+msgstr ""
+
+#: ../../build_win.rst:141
+msgid "``/S`` for silent;"
+msgstr ""
+
+#: ../../build_win.rst:143
+msgid "``/AllUser`` (when run as administrator) or ``/CurrentUser``"
+msgstr ""
+
+#: ../../build_win.rst:145
+msgid "``/C=[gFC]`` to specify components where:"
+msgstr ""
+
+#: ../../build_win.rst:147
+msgid ""
+"``g`` = Deselect the main ghini.desktop component (useful for adding "
+"optional component after an initial install)"
+msgstr ""
+
+#: ../../build_win.rst:150
+msgid "``F`` = select Apache FOP"
+msgstr ""
+
+#: ../../build_win.rst:152
+msgid "``C`` = select MS Visual C runtime"
+msgstr ""
+
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
 msgstr "Редагування і вставка даних"
@@ -2694,48 +2923,70 @@ msgid "Documentation for Ghini 1.0"
 msgstr "Документація для  Ghini 1.0"
 
 #: ../../index.rst:8
+#, fuzzy
 msgid ""
-"Ghini is an application for managing botanical specimen collections. With"
-" it you can create a searchable database of plant records."
+"Ghini is a suite of applications for managing botanical specimen "
+"collections."
 msgstr ""
 "Ghini являє собою додаток для управління ботанічними колекціями зразків. "
 "З його допомогою ви можете створити базу даних для пошуку записів рослин."
 
-#: ../../index.rst:11
+#: ../../index.rst:10
 msgid ""
-"It is `open <http://www.opensource.org>`_ and `free "
-"<http://www.fsf.org>`_ and is released under the `GNU Public License "
-"<http://www.fsf.org/licensing/licenses/gpl.html>`_"
+"**ghini.desktop** lets you create and query a database representing "
+"objects and events in your plant collection."
+msgstr ""
+
+#: ../../index.rst:11
+msgid "**ghini.pocket** puts a snapshot of your database in your handheld device."
+msgstr ""
+
+#: ../../index.rst:12
+msgid "**ghini.web** helps you publish part of your database on the web."
+msgstr ""
+
+#: ../../index.rst:14
+#, fuzzy
+msgid ""
+"All Ghini software is `open <http://www.opensource.org>`_ and `free "
+"<http://www.fsf.org>`_. Our standalone software is released under the "
+"`GNU Public License <http://www.fsf.org/licensing/licenses/gpl.html>`_. "
+"Our client-server software follows the `GNU Affero Public License "
+"<http://www.fsf.org/licensing/licenses/agpl.html>`_."
 msgstr ""
 "Це `відкритий <http://www.opensource.org>`_ і `безкоштовний "
 "<http://www.fsf.org>`_ і випущений під `GNU Public License "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_"
 
-#: ../../index.rst:17
+#: ../../index.rst:22
 msgid "Statements"
 msgstr "Заяви"
 
-#: ../../index.rst:26
+#: ../../index.rst:31
 msgid "Installing Ghini"
 msgstr "Установка Ghini"
 
-#: ../../index.rst:35
-msgid "Using Ghini"
-msgstr "Використання Ghini"
+#: ../../index.rst:40
+msgid "User's Guide"
+msgstr ""
 
-#: ../../index.rst:51
+#: ../../index.rst:55
+msgid "Cookbook"
+msgstr ""
+
+#: ../../index.rst:63
 msgid "Administration"
 msgstr "Адміністрація"
 
-#: ../../index.rst:60
+#: ../../index.rst:72
 msgid "Ghini Development"
 msgstr "Розвиток Ghini"
 
-#: ../../index.rst:68
+#: ../../index.rst:80
 msgid "Supporting Ghini"
 msgstr "Підтримка Ghini"
 
-#: ../../index.rst:72
+#: ../../index.rst:84
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
@@ -4517,49 +4768,48 @@ msgstr "Хто стоїть за Ghini"
 
 #: ../../statements.rst:10
 msgid ""
-"Ghini started as a one-man project, by Brett Adams. He started this "
-"software as Bauble, for and at the Belize Botanical Garden, and later on "
-"adapted it to the needs of a couple of other users who asked him. Brett "
-"made Bauble a commons, by releasing it under a GPL license."
+"Ghini is a small set of programs, meant to let collection managers manage"
+" their collection also digitally."
 msgstr ""
-"Ghini розпочався, як проект Brett Adams. Він запустив це програмне "
-"забезпечення, як Bauble, для і в ботанічному саду Белізу, а потім "
-"адаптував його до потреб пари інших користувачів, які попросили його. "
-"Brett Adams зробив Bauble загальним, випустивши його за ліцензією GPL."
 
-#: ../../statements.rst:15
+#: ../../statements.rst:13
 msgid ""
-"After some years of stagnation Mario Frasca took responsibility of "
-"updating Bauble, rebranded it to Ghini, in honour of Luca Ghini, started "
-"advocating, travelling, distributing, developing, documenting it, and it "
-"is now Mario Frasca writing this, enhancing the software, looking for "
-"users, requesting feedback..."
+"Ghini was born back in 2004 as Bauble, at the Belize Botanical Garden. It"
+" was later adapted to the needs of a few more gardens. Brett Adams, the "
+"original programmer, made this software a commons, by releasing it under "
+"a GPL license."
 msgstr ""
-"Після декількох років стагнації Mario Frasca взяв на себе "
-"відповідальність за оновлення Bauble, перейменувавши його в Ghini, на "
-"честь  Luca Ghini, почав відстоювати, рухатися, розробляти, документувати"
-" це, і тепер це написано Mario Frasca, покращення програмного "
-"забезпечення, пошук користувачів, запит на зворотній зв'язок..."
 
-#: ../../statements.rst:21
+#: ../../statements.rst:18
 msgid ""
-"So currently behind Ghini there's not only one developer, but much more "
-"importantly, a small but growing global users community."
+"After years of stagnation Mario Frasca revived the project, and rebranded"
+" it as Ghini in honour of Luca Ghini, founder of the first European "
+"botanic garden and herbarium. Mario Frasca started advocating, "
+"travelling, distributing, developing, expanding, redefining, documenting "
+"it, and it is now Mario Frasca writing this, looking for users, "
+"requesting feedback."
+msgstr ""
+
+#: ../../statements.rst:24
+#, fuzzy
+msgid ""
+"Behind Ghini there's not only one developer, but a small but growing "
+"global users community."
 msgstr ""
 "Отже, зараз за Ghini є не лише один розробник, але набагато важливіше - "
 "невелика, але зростаюча глобальна спільнота користувачів."
 
-#: ../../statements.rst:24
+#: ../../statements.rst:27
+#, fuzzy
 msgid ""
 "Translations are provided by volunteers who mostly stay behind the "
-"scenes, translating a couple of missing terms or sentences, and "
-"disappearing again."
+"scenes, translating missing terms or sentences, and disappearing again."
 msgstr ""
 "Переклади надаються добровольцями, які в основному залишаються поза "
 "сценами, перекладаючи пару пропущених термінів або пропозицій і зникаючи "
 "знов."
 
-#: ../../statements.rst:27
+#: ../../statements.rst:30
 msgid ""
 "To make things clearer when we speak of Ghini, but should—and in this "
 "document we will—indicate whether it's Ghini(the software), or Ghini(the "
@@ -4569,53 +4819,42 @@ msgstr ""
 "вказати, чи це Ghini (програмне забезпечення), або Ghini (люди), якщо, "
 "очевидно, ми не маємо на увазі обидві речі."
 
-#: ../../statements.rst:32
+#: ../../statements.rst:35
 msgid "Mission"
 msgstr "Місія"
 
-#: ../../statements.rst:34
+#: ../../statements.rst:37
 msgid ""
-"The Mission Statement is a purpose, it defines the rationale of an entity"
-" and is specific and true. For Ghini, the Mission Statement sets out the "
-"social order to which Ghini is committed, the needs that are satisfied "
-"with Ghini(the software) and with the services of Ghini(the people), the "
-"market in which Ghini develops and its intended public image."
+"Our goal as Ghini Software is to provide free software, of proven "
+"quality, and to let anybody install it if they feel like it.  We also aim"
+" at facilitating access to functional knowledge, in the form of "
+"documentation or by laying the contact among users or between users and "
+"software professionals."
 msgstr ""
-"Місія є метою, вона визначає обґрунтування суб'єкта, і є конкретною та "
-"правдивою. Для Ghini місіонерська заява визначає соціальний порядок, до "
-"якого здійснюється Ghini, потреби, які задовольняються Ghini (програмне "
-"забезпечення) та послуги Ghini (людей), ринок, в якому розвивається "
-"Ghini, та його передбачуваний публічний імідж ."
-
-#: ../../statements.rst:40
-msgid "access to software"
-msgstr "доступ до програмного забезпечення"
-
-#: ../../statements.rst:41
-msgid "access to development"
-msgstr "доступ до розробки"
-
-#: ../../statements.rst:42
-msgid "bundling resources"
-msgstr "комплектація ресурсів"
 
 #: ../../statements.rst:43
-msgid "open source"
-msgstr "відкритий вихідний код"
-
-#: ../../statements.rst:44
-msgid "open data"
-msgstr "відкриті дані"
-
-#: ../../statements.rst:45
-msgid "community forming"
-msgstr "формування спільноти"
+msgid ""
+"All our sources, software and documentation, are open and free, and we "
+"welcome and stimulate people to use and to contribute.  To facilitate "
+"community forming, all our platforms can be consulted without "
+"registration. Registration is obviously required if you want to "
+"contribute."
+msgstr ""
 
 #: ../../statements.rst:48
+msgid ""
+"Ghini welcomes the formation of groups of users, bundling forces to "
+"define and finance further development, and we welcome developers "
+"contributing software, from any corner in the world, and we stimulate and"
+" help them comply with the high quality requirements, before we accept "
+"the contributed code in the software sources."
+msgstr ""
+
+#: ../../statements.rst:55
 msgid "Vision"
 msgstr "Бачення"
 
-#: ../../statements.rst:50
+#: ../../statements.rst:57
 msgid ""
 "The Vision serves to indicate the way ahead and projects a future image "
 "of what we want our organization to be, in a realistic and attractive "
@@ -4627,29 +4866,33 @@ msgstr ""
 "слугує мотивацією, оскільки вона візуалізує виклик і напрямок необхідних "
 "змін, щоб рости і процвітати."
 
-#: ../../statements.rst:55
+#: ../../statements.rst:62
 msgid "by the year 2020"
 msgstr "до 2020 року"
 
-#: ../../statements.rst:56
+#: ../../statements.rst:63
 msgid "reference point"
 msgstr "контрольна точка"
 
-#: ../../statements.rst:57
+#: ../../statements.rst:64
 msgid "community"
 msgstr "спільнота"
 
-#: ../../statements.rst:58
+#: ../../statements.rst:65
 msgid "development"
 msgstr "розвиток"
 
-#: ../../statements.rst:59
+#: ../../statements.rst:66
 msgid "integration with web portal"
 msgstr "інтеграція з веб-порталом"
 
-#: ../../statements.rst:60
+#: ../../statements.rst:67
 msgid "geographic information"
 msgstr "географічна інформація"
+
+#: ../../statements.rst:70
+msgid "The Ghini family"
+msgstr ""
 
 #: ../../tagging.rst:2
 msgid "Tagging"
@@ -4658,32 +4901,101 @@ msgstr "Тегування"
 #: ../../tagging.rst:4
 msgid ""
 "Tagging is an easy way to give context to an object or create a "
-"collection of object that you want to recall later. For example if you "
-"want to collect a bunch of plants that you later want to create a report "
-"from you can tag them with the string \"for that report i was thinking "
-"about\". You can then select \"for that report i was thinking about\" "
-"from the tags menu to show you all the objects you tagged."
+"collection of object that you want to recall later."
 msgstr ""
-"Тегування найпростіший спосіб додати контекст для об'єкта або створити "
-"колекцію об'єктів, до яких ви хочете вернутися пізніше. Наприклад, якщо "
-"ви хочете зібрати групу рослин, з яких пізніше хочете створити звіт, ви "
-"можете позначати їх рядком \"для цього звіту я подумаю пізніше\". Ви "
-"можете вибрати \"для цього звіту я подумаю пізніше\" з меню тег, щоб "
-"показати вам всі об'єкти тегу."
+
+#: ../../tagging.rst:7
+msgid ""
+"The power in this tagging action is that you can share this selection "
+"with colleagues, who can act on it, without the need to redo all your "
+"collecting work."
+msgstr ""
 
 #: ../../tagging.rst:11
 msgid ""
-"Tagging can be done two ways. By selecting one or more items in the "
-"search results and pressing Ctrl-T or by selecting "
-":menuselection:`Tag-->Tag Selection` from the menu. If you have selected "
-"multiple items then only that tags that are common to all the selected "
-"items will have a check next to it."
+"For example if you need to print accession labels of otherwise unrelated "
+"plants, you can group the objects by tagging them with the string "
+"\"relabel\". You or one of your colleagues can then select \"relabel\" "
+"from the tags menu, the search view will show all the objects you tagged,"
+" and performing a report will act on the tagged objects."
 msgstr ""
-"Тегування може бути зроблено двома способами. Вибравши один або більше "
-"даних в результатах пошуку і натиснувши Ctrl-T або вибравши "
-":menuselection:`Tag-->Tag Selection`в меню. Якщо ви вибрали декілька "
-"елементів то тільки ті теги, що загальні для всіх вибрані елементи будуть"
-" мати мітку поруч з ними."
+
+#: ../../tagging.rst:17
+msgid ""
+"Tagging acts on the active selection, that is the items in the search "
+"results which you have selected."
+msgstr ""
+
+#: ../../tagging.rst:20
+msgid ""
+"Please remember: you can select all result rows by pressing ``Ctrl-A``, "
+"you can deselect everything by pressing ``Ctrl-Shift-A``, you can toggle "
+"tagging of a single row by ``Ctrl-Mouse click`` on it."
+msgstr ""
+
+#: ../../tagging.rst:24
+msgid "Once you have an active selection, tagging can be done in two ways:"
+msgstr ""
+
+#: ../../tagging.rst:27
+msgid "dialog box tagging"
+msgstr ""
+
+#: ../../tagging.rst:29
+msgid ""
+"Press ``Ctrl-T`` or select :menuselection:`Tag-->Tag Selection` from the "
+"menu, this activates a window where you can create new tags and apply any"
+" existing tag to the selection."
+msgstr ""
+
+#: ../../tagging.rst:33
+msgid "The tag window is composed of three parts:"
+msgstr ""
+
+#: ../../tagging.rst:35
+msgid ""
+"The upper part mentions the list of objects in your active selection. "
+"This is the list of object of which you are editing the tags;"
+msgstr ""
+
+#: ../../tagging.rst:37
+msgid ""
+"The middle part has a list of all available tags, with a checkbox that "
+"you can activate for applying the tag to or removing the tag from the "
+"selection;"
+msgstr ""
+
+#: ../../tagging.rst:40
+msgid ""
+"The lower part only holds a link to new tag creation, and the Ok button "
+"for closing the dialog box."
+msgstr ""
+
+#: ../../tagging.rst:43
+msgid ""
+"If, when opening the tag dialog box, the active selection holds multiple "
+"items, then only the tags that are common to all the selected items will "
+"have a check next to it.  Tags that only apply to a proper subset of the "
+"active selection will show with an 'undecided' status.  Tags that don't "
+"apply to any object in the active selection will show blank."
+msgstr ""
+
+#: ../../tagging.rst:49
+msgid ""
+"The most recently created tag, or the most recently selected tag becomes "
+"the active tag, and it shows with a check next to it in the tags menu."
+msgstr ""
+
+#: ../../tagging.rst:53
+msgid "windowless tagging"
+msgstr ""
+
+#: ../../tagging.rst:55
+msgid ""
+"Once you have an active tag, pressing ``Ctrl-Y`` applies the active tag "
+"to all objects in the active selection.  ``Ctrl-Shift-Y`` removes the "
+"active tag from all objects in the active selection."
+msgstr ""
 
 #: ../../use_cases-jbq.rst:2
 #, fuzzy
@@ -7464,4 +7776,136 @@ msgstr "гравюрні етикетки"
 #~ "інші доступні коди гілок перейти до "
 #~ "`bauble.classic on github "
 #~ "<http://www.github.com/Bauble/bauble.classic>`_."
+
+#~ msgid "Using Ghini"
+#~ msgstr "Використання Ghini"
+
+#~ msgid ""
+#~ "Ghini started as a one-man "
+#~ "project, by Brett Adams. He started "
+#~ "this software as Bauble, for and "
+#~ "at the Belize Botanical Garden, and "
+#~ "later on adapted it to the needs"
+#~ " of a couple of other users who"
+#~ " asked him. Brett made Bauble a "
+#~ "commons, by releasing it under a "
+#~ "GPL license."
+#~ msgstr ""
+#~ "Ghini розпочався, як проект Brett Adams."
+#~ " Він запустив це програмне забезпечення,"
+#~ " як Bauble, для і в ботанічному "
+#~ "саду Белізу, а потім адаптував його "
+#~ "до потреб пари інших користувачів, які"
+#~ " попросили його. Brett Adams зробив "
+#~ "Bauble загальним, випустивши його за "
+#~ "ліцензією GPL."
+
+#~ msgid ""
+#~ "After some years of stagnation Mario "
+#~ "Frasca took responsibility of updating "
+#~ "Bauble, rebranded it to Ghini, in "
+#~ "honour of Luca Ghini, started "
+#~ "advocating, travelling, distributing, developing,"
+#~ " documenting it, and it is now "
+#~ "Mario Frasca writing this, enhancing the"
+#~ " software, looking for users, requesting"
+#~ " feedback..."
+#~ msgstr ""
+#~ "Після декількох років стагнації Mario "
+#~ "Frasca взяв на себе відповідальність за"
+#~ " оновлення Bauble, перейменувавши його в"
+#~ " Ghini, на честь  Luca Ghini, почав"
+#~ " відстоювати, рухатися, розробляти, документувати"
+#~ " це, і тепер це написано Mario "
+#~ "Frasca, покращення програмного забезпечення, "
+#~ "пошук користувачів, запит на зворотній "
+#~ "зв'язок..."
+
+#~ msgid ""
+#~ "The Mission Statement is a purpose, "
+#~ "it defines the rationale of an "
+#~ "entity and is specific and true. "
+#~ "For Ghini, the Mission Statement sets"
+#~ " out the social order to which "
+#~ "Ghini is committed, the needs that "
+#~ "are satisfied with Ghini(the software) "
+#~ "and with the services of Ghini(the "
+#~ "people), the market in which Ghini "
+#~ "develops and its intended public image."
+#~ msgstr ""
+#~ "Місія є метою, вона визначає "
+#~ "обґрунтування суб'єкта, і є конкретною "
+#~ "та правдивою. Для Ghini місіонерська "
+#~ "заява визначає соціальний порядок, до "
+#~ "якого здійснюється Ghini, потреби, які "
+#~ "задовольняються Ghini (програмне забезпечення) "
+#~ "та послуги Ghini (людей), ринок, в "
+#~ "якому розвивається Ghini, та його "
+#~ "передбачуваний публічний імідж ."
+
+#~ msgid "access to software"
+#~ msgstr "доступ до програмного забезпечення"
+
+#~ msgid "access to development"
+#~ msgstr "доступ до розробки"
+
+#~ msgid "bundling resources"
+#~ msgstr "комплектація ресурсів"
+
+#~ msgid "open source"
+#~ msgstr "відкритий вихідний код"
+
+#~ msgid "open data"
+#~ msgstr "відкриті дані"
+
+#~ msgid "community forming"
+#~ msgstr "формування спільноти"
+
+#~ msgid ""
+#~ "Tagging is an easy way to give "
+#~ "context to an object or create a"
+#~ " collection of object that you want"
+#~ " to recall later. For example if "
+#~ "you want to collect a bunch of "
+#~ "plants that you later want to "
+#~ "create a report from you can tag"
+#~ " them with the string \"for that "
+#~ "report i was thinking about\". You "
+#~ "can then select \"for that report "
+#~ "i was thinking about\" from the "
+#~ "tags menu to show you all the "
+#~ "objects you tagged."
+#~ msgstr ""
+#~ "Тегування найпростіший спосіб додати контекст"
+#~ " для об'єкта або створити колекцію "
+#~ "об'єктів, до яких ви хочете вернутися"
+#~ " пізніше. Наприклад, якщо ви хочете "
+#~ "зібрати групу рослин, з яких пізніше "
+#~ "хочете створити звіт, ви можете "
+#~ "позначати їх рядком \"для цього звіту"
+#~ " я подумаю пізніше\". Ви можете "
+#~ "вибрати \"для цього звіту я подумаю "
+#~ "пізніше\" з меню тег, щоб показати "
+#~ "вам всі об'єкти тегу."
+
+#~ msgid ""
+#~ "Tagging can be done two ways. By"
+#~ " selecting one or more items in "
+#~ "the search results and pressing Ctrl-T"
+#~ " or by selecting :menuselection:`Tag-->Tag "
+#~ "Selection` from the menu. If you "
+#~ "have selected multiple items then only"
+#~ " that tags that are common to "
+#~ "all the selected items will have a"
+#~ " check next to it."
+#~ msgstr ""
+#~ "Тегування може бути зроблено двома "
+#~ "способами. Вибравши один або більше "
+#~ "даних в результатах пошуку і натиснувши"
+#~ " Ctrl-T або вибравши :menuselection:`Tag-->Tag"
+#~ " Selection`в меню. Якщо ви вибрали "
+#~ "декілька елементів то тільки ті теги,"
+#~ " що загальні для всіх вибрані "
+#~ "елементи будуть мати мітку поруч з "
+#~ "ними."
 
