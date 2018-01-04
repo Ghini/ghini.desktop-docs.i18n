@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2017-11-15 20:42-0500\n"
+"POT-Creation-Date: 2018-01-03 19:10-0500\n"
 "PO-Revision-Date: 2017-08-29 22:47+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language: pt\n"
@@ -67,33 +67,23 @@ msgstr ""
 "digite ``%APPDATA%`` e aperte enter."
 
 #: ../../administration.rst:26
-msgid ""
-"Please refer to the `official documentation <https://mariadb.com/kb/en"
-"/the-mariadb-library/documentation/>`_."
+msgid "Please refer to the official documentation."
 msgstr ""
 
-#: ../../administration.rst:28
-msgid ""
-"Backing up and restoring databases is described in breadth and depth "
-"starting at `this page <https://mariadb.com/kb/en/the-mariadb-library"
-"/backing-up-and-restoring-databases/>`_."
-msgstr ""
-
-#: ../../administration.rst:35
+#: ../../administration.rst:31
 #, fuzzy
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
-" your backup options starts at `chapter 24 "
-"<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
+" your backup options starts at `chapter_24`_."
 msgstr ""
 "Por favor, consulte a documentação oficial. Uma discussão muito "
 "aprofundada das suas opções de backup começa no `capítulo 24`_."
 
-#: ../../administration.rst:39
+#: ../../administration.rst:37
 msgid "Ghini Configuration"
 msgstr "Ghini configuração"
 
-#: ../../administration.rst:41
+#: ../../administration.rst:39
 msgid ""
 "Ghini uses a configuration file to store values across invocations. This "
 "file is associated to a user account and every user will have their own "
@@ -103,7 +93,7 @@ msgstr ""
 "invocações. Este arquivo está associado a uma conta de usuário e cada "
 "usuário terá seu próprio arquivo de configuração."
 
-#: ../../administration.rst:45
+#: ../../administration.rst:43
 msgid ""
 "To review the content of the Ghini configuration file, type ``:prefs`` in"
 " the text entry area where you normally type your searches, then hit "
@@ -113,7 +103,7 @@ msgstr ""
 "``:prefs`` na área de entrada de texto onde você normalmente digite suas "
 "pesquisas, em seguida, bateu enter."
 
-#: ../../administration.rst:48
+#: ../../administration.rst:46
 msgid ""
 "You normally do not need tweaking the configuration file, but you can do "
 "so with a normal text editor program. Ghini configuration file is at the "
@@ -123,11 +113,11 @@ msgstr ""
 "pode fazê-lo com um programa de editor de texto normal. Arquivo de "
 "configuração Ghini é o local padrão para bancos de dados SQLite."
 
-#: ../../administration.rst:53
+#: ../../administration.rst:51
 msgid "Reporting Errors"
 msgstr "Relatando erros"
 
-#: ../../administration.rst:55
+#: ../../administration.rst:53
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
@@ -136,7 +126,7 @@ msgstr ""
 "considere a apresentação de um problema no sitio do desenvolvimento do "
 "Ghini."
 
-#: ../../administration.rst:58
+#: ../../administration.rst:56
 msgid "Ghini development site can be accessed via the Help menu."
 msgstr ""
 "O sitio pelo desenvolvimento do Ghini pode ser acessado através do menu "
@@ -374,7 +364,15 @@ msgstr ""
 msgid "branch"
 msgstr ""
 
-#: ../../building.rst:109
+#: ../../building.rst:107
+msgid "Pocket"
+msgstr ""
+
+#: ../../building.rst:107
+msgid "ghini.pocket"
+msgstr ""
+
+#: ../../building.rst:110
 msgid ""
 "To update the ``po`` files relative to the *software*, you set the "
 "working directory to the root of your checkout of *ghini.desktop*, and "
@@ -384,7 +382,7 @@ msgstr ""
 "o diretório de trabalho para a raiz do seu check-out de * ghini.desktop* "
 "e executar o script::"
 
-#: ../../building.rst:115
+#: ../../building.rst:116
 msgid ""
 "To update the ``po`` files relative to the *documentation*, you set the "
 "working directory to the root of your checkout of *ghini.desktop-"
@@ -394,7 +392,7 @@ msgstr ""
 "definir o diretório de trabalho para a raiz do seu check-out de *ghini"
 ".desktop-docs.i18n*, e você executar o script::"
 
-#: ../../building.rst:121
+#: ../../building.rst:122
 msgid ""
 "When you run either of the above mentioned scripts, chances are you need "
 "to commit *all* ``po`` files in the project. You may want to review the "
@@ -409,20 +407,20 @@ msgstr ""
 "marginal para uma sequência de caracteres, como remover um erro de "
 "digitação."
 
-#: ../../building.rst:126
+#: ../../building.rst:127
 msgid ""
 "Something that happens: running into a conflict. Solving conflicts is not"
 " difficult once you know how to do that. First of all, add weblate as "
 "remote::"
 msgstr ""
 
-#: ../../building.rst:131
+#: ../../building.rst:132
 msgid ""
 "Then make sure we are in the correct repository, on the correct branch, "
 "update the remote, merge with it::"
 msgstr ""
 
-#: ../../building.rst:138
+#: ../../building.rst:139
 msgid ""
 "`Our documentation <https://readthedocs.org/projects/ghini/>`_ on "
 "readthedocs has an original English version, and several translations. We"
@@ -436,7 +434,7 @@ msgstr ""
 "<http://docs.readthedocs.io/en/latest/localization.html>`_, não há nada "
 "que nós mesmos inventamos aqui."
 
-#: ../../building.rst:144
+#: ../../building.rst:145
 msgid ""
 "Readthedocs checks the project's *Language* setting, and invokes "
 "``sphinx-intl`` to produce the formatted documentation in the target "
@@ -452,7 +450,7 @@ msgstr ""
 "de origem, e que todos eles residem no diretório ``local / $(LANG) "
 "/LC_MESSAGES/``."
 
-#: ../../building.rst:151
+#: ../../building.rst:152
 msgid ""
 "On the other hand, Weblate (and ourselves) prefers a single ``po`` file "
 "per language, and keeps them all in the same ``/po`` directory, just as "
@@ -462,7 +460,7 @@ msgstr ""
 "idioma e mantém-los todos no mesmo diretório ``/po``, assim como fazemos "
 "para o projeto de software: ``/po/$ (LANG) po``."
 
-#: ../../building.rst:155
+#: ../../building.rst:156
 msgid ""
 "In order not to repeat information, and to let both systems work their "
 "natural way, we have two sets of symbolic links (git honors them)."
@@ -471,7 +469,7 @@ msgstr ""
 "seu caminho natural, temos dois conjuntos de links simbólicos (git "
 "homenageia-los)."
 
-#: ../../building.rst:158
+#: ../../building.rst:159
 msgid ""
 "To summarise: when a file in the documentation is updated, the "
 "``runme.sh`` script will:"
@@ -479,21 +477,21 @@ msgstr ""
 "Para resumir: quando um arquivo na documentação é atualizado, o "
 "``runme.sh`` script será:"
 
-#: ../../building.rst:161
+#: ../../building.rst:162
 msgid "copy the ``rst`` files from the software to the documentation;"
 msgstr "Copie os arquivos de ``rst`` a partir do software, a documentação;"
 
-#: ../../building.rst:162
+#: ../../building.rst:163
 msgid "create a new ``pot`` file for each of the documentation files;"
 msgstr ""
 "criar um novo arquivo de ``pot`` para cada um dos arquivos de "
 "documentação;"
 
-#: ../../building.rst:163
+#: ../../building.rst:164
 msgid "merge all ``pot`` files into one ``doc.pot``;"
 msgstr "mesclar todos os arquivos ``pot`` em um 'doc.pot ';"
 
-#: ../../building.rst:164
+#: ../../building.rst:165
 msgid ""
 "use the updated ``doc.pot`` to update all ``doc.po`` files (one per "
 "language);"
@@ -501,19 +499,19 @@ msgstr ""
 "usar o ``doc.pot`` atualizado para atualizar todos os arquivos ``doc.po``"
 " (um por idioma);"
 
-#: ../../building.rst:165
+#: ../../building.rst:166
 msgid "create all symbolic links:"
 msgstr "Crie todos os links simbólicos:"
 
-#: ../../building.rst:167
+#: ../../building.rst:168
 msgid "those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``"
 msgstr "aqueles esperados pelo 'sphinx-intl ``em`` /local/$ (LANG) /LC_MESSAGES/ '"
 
-#: ../../building.rst:168
+#: ../../building.rst:169
 msgid "those used by weblate in ``/po/$(LANG).po``"
 msgstr "aqueles usados pelo weblate em '/po/$ (LANG) po '"
 
-#: ../../building.rst:170
+#: ../../building.rst:171
 msgid ""
 "We could definitely write the above in a Makefile, or even better include"
 " it in ``/doc/Makefile``. Who knows, maybe we will do that."
@@ -523,10 +521,76 @@ msgstr ""
 "isso."
 
 #: ../../building.rst:175
+msgid "Which way do the translated strings reach our users?"
+msgstr ""
+
+#: ../../building.rst:177
+msgid ""
+"A new translator asked the question, adding: »Is this an automated "
+"process from Weblate --> GIT --> Ghini Desktop installed on users "
+"computers, or does this require manual steps?"
+msgstr ""
+
+#: ../../building.rst:181
+msgid ""
+"The aswer is that the whole interaction is quite complex, and it depends "
+"on the component."
+msgstr ""
+
+#: ../../building.rst:184
+msgid ""
+"When it comes to ``ghini.desktop``, when you do a global installation, "
+"you don't know which language your users will set up their environment, "
+"and a user can change the language configuration any time.  So what we do"
+" is to install the software in English together with a translation table "
+"from English to whatever else, in particular Italian or Hungarian. Then "
+"the GUI libraries (Android or GTK) know where to look for the translation"
+" strings. These translation tables are generated during the installation "
+"or upgrade process, based on the strings you see on Weblate."
+msgstr ""
+
+#: ../../building.rst:193
+msgid ""
+"Before any of the above gets activated, the path followed by your "
+"translations is as you describe: Weblate pushes the strings to github, "
+"directly into the development line `ghini-1.0-dev`; I see them, if I "
+"understand at least the structure of that language I review them, maybe I"
+" look them up in wikipedia or get them translated back to Italian, "
+"Spanish or English by some automatic translation service; sometimes I "
+"need to solve conflicts arising because of changed context, not too often"
+" fortunately; from time to time I publish the development line "
+"`ghini-1.0-dev` to the production line `ghini-1.0`, and this is the "
+"moment when the new translations finally make it to the distributed "
+"software."
+msgstr ""
+
+#: ../../building.rst:204
+msgid ""
+"users will notice a `new version available` warning and can decide to "
+"ignore it, or to update."
+msgstr ""
+
+#: ../../building.rst:207
+msgid ""
+"For ``ghini.pocket``, there is no notification to end users, since we're "
+"not yet using the google app store."
+msgstr ""
+
+#: ../../building.rst:210
+msgid "For ``ghini.web``, we haven't yet defined how to distribute it."
+msgstr ""
+
+#: ../../building.rst:212
+msgid ""
+"For ghini's documentation, it's completely automatic, and all is handled "
+"by readthedocs.org."
+msgstr ""
+
+#: ../../building.rst:217
 msgid "Adding missing unit tests"
 msgstr "Adicionando testes de unidade faltando"
 
-#: ../../building.rst:177
+#: ../../building.rst:219
 msgid ""
 "If you are interested contributing to development of Ghini, a good way to"
 " do so would be by helping us finding and writing the missing unit tests."
@@ -535,7 +599,7 @@ msgstr ""
 "uma boa maneira de fazê-lo seria nos ajudar a encontrar e escrever os "
 "testes de unidade faltando."
 
-#: ../../building.rst:180
+#: ../../building.rst:222
 msgid ""
 "A well tested function is one whose behaviour you cannot change without "
 "breaking at least one unit test."
@@ -543,7 +607,7 @@ msgstr ""
 "Uma função bem testada é aquele cujo comportamento não pode mudar sem "
 "quebrar pelo menos um teste de unidade."
 
-#: ../../building.rst:183
+#: ../../building.rst:225
 msgid ""
 "We all agree that in theory theory and practice match perfectly and that "
 "one first writes the tests, then implements the function. In practice, "
@@ -555,7 +619,7 @@ msgstr ""
 "prática, no entanto, prática não corresponde a teoria e estamos "
 "escrevendo testes depois de escrever e publicar até as funções."
 
-#: ../../building.rst:188
+#: ../../building.rst:230
 msgid ""
 "This section describes the process of adding unit tests for "
 "``bauble.plugins.plants.family.remove_callback``."
@@ -563,11 +627,11 @@ msgstr ""
 "Esta seção descreve o processo de adição de testes unitários para "
 "'bauble.plugins.plants.family.remove_callback '."
 
-#: ../../building.rst:192
+#: ../../building.rst:234
 msgid "What to test"
 msgstr "O que testar"
 
-#: ../../building.rst:194
+#: ../../building.rst:236
 msgid ""
 "First of all, open the coverage report index, and choose a file with low "
 "coverage."
@@ -575,7 +639,7 @@ msgstr ""
 "Primeiro, abra o índice do relatório de cobertura e escolher um arquivo "
 "com baixa cobertura."
 
-#: ../../building.rst:197
+#: ../../building.rst:239
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
@@ -583,7 +647,7 @@ msgstr ""
 "Para este exemplo, execute em outubro de 2015, pousamos na "
 "'bauble.plugins.plants.family ', em 33%."
 
-#: ../../building.rst:202
+#: ../../building.rst:244
 msgid ""
 "The first two functions which need tests, ``edit_callback`` and "
 "``add_genera_callback``, include creation and activation of an object "
@@ -595,7 +659,7 @@ msgstr ""
 "depender de uma caixa de diálogo personalizada. Nós deveríamos realmente "
 "primeiro escrever testes de unidade para essa classe, depois volte aqui."
 
-#: ../../building.rst:207
+#: ../../building.rst:249
 msgid ""
 "The next function, ``remove_callback``, also activates a couple of dialog"
 " and message boxes, but in the form of invoking a function requesting "
@@ -608,11 +672,11 @@ msgstr ""
 "podemos facilmente substituir com uma função de gozar com o "
 "comportamento."
 
-#: ../../building.rst:213
+#: ../../building.rst:255
 msgid "how to test"
 msgstr "Funcionamento"
 
-#: ../../building.rst:215
+#: ../../building.rst:257
 msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
@@ -620,59 +684,59 @@ msgstr ""
 "Então, tendo decidido o que descrevem no teste de unidade, olhamos para o"
 " código e vemos que é necessário discriminar alguns casos:"
 
-#: ../../building.rst:221
+#: ../../building.rst:263
 msgid "**parameter correctness**"
 msgstr "**parâmetro correção**"
 
-#: ../../building.rst:219
+#: ../../building.rst:261
 msgid "the list of families has no elements."
 msgstr "a lista das famílias não tem nenhum elemento."
 
-#: ../../building.rst:220
+#: ../../building.rst:262
 msgid "the list of families has more than one element."
 msgstr "a lista das famílias tem mais de um elemento."
 
-#: ../../building.rst:221
+#: ../../building.rst:263
 msgid "the list of families has exactly one element."
 msgstr "a lista das famílias tem exatamente um elemento."
 
-#: ../../building.rst:225
+#: ../../building.rst:267
 msgid "**cascade**"
 msgstr ""
 
-#: ../../building.rst:224
+#: ../../building.rst:266
 msgid "the family has no genera"
 msgstr "a família não tem nenhum gêneros"
 
-#: ../../building.rst:225
+#: ../../building.rst:267
 msgid "the family has one or more genera"
 msgstr "a família tem um ou mais gêneros"
 
-#: ../../building.rst:229
+#: ../../building.rst:271
 msgid "**confirm**"
 msgstr ""
 
-#: ../../building.rst:228
+#: ../../building.rst:270
 msgid "the user confirms deletion"
 msgstr "o usuário confirma a exclusão"
 
-#: ../../building.rst:229
+#: ../../building.rst:271
 msgid "the user does not confirm deletion"
 msgstr "o usuário não confirma a exclusão"
 
-#: ../../building.rst:233
+#: ../../building.rst:275
 msgid "**deleting**"
 msgstr ""
 
-#: ../../building.rst:232
+#: ../../building.rst:274
 msgid "all goes well when deleting the family"
 msgstr "Tudo vai bem quando a exclusão da família"
 
-#: ../../building.rst:233
+#: ../../building.rst:275
 msgid "there is some error while deleting the family"
 msgstr "Há algum erro ao excluir a família"
 
-#: ../../building.rst:235
+#: ../../building.rst:277
 msgid ""
 "I decide I will only focus on the **cascade** and the **confirm** "
 "aspects. Two binary questions: 4 cases."
@@ -680,11 +744,11 @@ msgstr ""
 "Eu decido só incidirá sobre o **cascata** e o **confirmar** aspectos. "
 "Duas perguntas binárias: 4 casos."
 
-#: ../../building.rst:239
+#: ../../building.rst:281
 msgid "where to put the tests"
 msgstr "onde colocar os testes"
 
-#: ../../building.rst:241
+#: ../../building.rst:283
 msgid ""
 "Locate the test script and choose the class where to put the extra unit "
 "tests."
@@ -692,12 +756,12 @@ msgstr ""
 "Localize o script de teste e escolher a classe onde colocar os testes de "
 "unidade extra."
 
-#: ../../building.rst:245
+#: ../../building.rst:287
 #, fuzzy
 msgid "what about skipped tests"
 msgstr "onde colocar os testes"
 
-#: ../../building.rst:248
+#: ../../building.rst:290
 msgid ""
 "The ``FamilyTests`` class contains a skipped test, implementing it will "
 "be quite a bit of work because we need rewrite the FamilyEditorPresenter,"
@@ -711,11 +775,11 @@ msgstr ""
 "FamilyEditor, que eu acho que deve ser removido e substituído com uma "
 "única função."
 
-#: ../../building.rst:255
+#: ../../building.rst:297
 msgid "writing the tests"
 msgstr "escrevendo os testes"
 
-#: ../../building.rst:257
+#: ../../building.rst:299
 msgid ""
 "After the last test in the FamilyTests class, I add the four cases I want"
 " to describe, and I make sure they fail, and since I'm lazy, I write the "
@@ -725,35 +789,35 @@ msgstr ""
 "quero descrever, e garantir que eles falham, e desde que eu sou "
 "preguiçoso, eu escrevo o código mais compacto sei para gerar um erro::"
 
-#: ../../building.rst:274
+#: ../../building.rst:316
 msgid "One test, step by step"
 msgstr "Um teste, passo a passo"
 
-#: ../../building.rst:276
+#: ../../building.rst:318
 msgid "Let's start with the first test case."
 msgstr "Vamos começar com o primeiro caso de teste."
 
-#: ../../building.rst:278
+#: ../../building.rst:320
 msgid "When writing tests, I generally follow the pattern:"
 msgstr "Ao escrever testes, eu geralmente seguem o padrão:"
 
-#: ../../building.rst:280
+#: ../../building.rst:322
 msgid "T₀ (initial condition),"
 msgstr "T₀ (condição inicial),"
 
-#: ../../building.rst:281
+#: ../../building.rst:323
 msgid "action,"
 msgstr ""
 
-#: ../../building.rst:282
+#: ../../building.rst:324
 msgid "T₁ (testing the result of the action given the initial conditions)"
 msgstr "T₁ (testar o resultado da ação dada as condições iniciais)"
 
-#: ../../building.rst:284
+#: ../../building.rst:326
 msgid "what's in a name — unit tests"
 msgstr ""
 
-#: ../../building.rst:287
+#: ../../building.rst:329
 msgid ""
 "There's a reason why unit tests are called unit tests. Please never test "
 "two actions in one test."
@@ -761,7 +825,7 @@ msgstr ""
 "Há uma razão por que testes de unidade são chamados de testes de unidade."
 " Por favor nunca teste duas ações em um teste."
 
-#: ../../building.rst:290
+#: ../../building.rst:332
 msgid ""
 "So let's describe T₀ for the first test, a database holding a family "
 "without genera::"
@@ -769,7 +833,7 @@ msgstr ""
 "Então, vamos descrever T₀ para o primeiro teste, um banco de dados mantém"
 " uma família sem gêneros::"
 
-#: ../../building.rst:298
+#: ../../building.rst:340
 msgid ""
 "We do not want the function being tested to invoke the interactive "
 "``utils.yes_no_dialog`` function, we want ``remove_callback`` to invoke a"
@@ -785,11 +849,11 @@ msgstr ""
 "de ``lambda`` que, assim como a função original e interativa, aceita um "
 "parâmetro e retorna um valor booleano. Neste caso: ``falso``::"
 
-#: ../../building.rst:316
+#: ../../building.rst:358
 msgid "Next we test the result."
 msgstr "Em seguida, testamos o resultado."
 
-#: ../../building.rst:318
+#: ../../building.rst:360
 msgid ""
 "Well, we don't just want to test whether or not the object Arecaceae was "
 "deleted, we also should test the value returned by ``remove_callback``, "
@@ -800,7 +864,7 @@ msgstr ""
 "também devemos testar o valor retornado por 'remove_callback ', e se "
 "``yes_no_dialog`` e ``message_details_dialog`` foram invocados ou não."
 
-#: ../../building.rst:323
+#: ../../building.rst:365
 msgid ""
 "A ``lambda`` expression is not enough for this. We do something "
 "apparently more complex, which will make life a lot easier."
@@ -808,11 +872,11 @@ msgstr ""
 "Uma expressão de ``lambda`` não é suficiente para isso. Fazemos algo "
 "aparentemente mais complexo, o que tornará a vida mais fácil."
 
-#: ../../building.rst:326
+#: ../../building.rst:368
 msgid "Let's first define a rather generic function::"
 msgstr "Vamos primeiro definir uma função bastante genérica::"
 
-#: ../../building.rst:332
+#: ../../building.rst:374
 msgid ""
 "and we grab ``partial`` from the ``functools`` standard module, to "
 "partially apply the above ``mockfunc``, leaving only ``msg`` unspecified,"
@@ -826,7 +890,7 @@ msgstr ""
 "um parâmetro e retornar um valor, para substituir as duas funções no "
 "'utils '. A função de teste agora se parece com isto::"
 
-#: ../../building.rst:354
+#: ../../building.rst:396
 msgid ""
 "The test section checks that ``message_details_dialog`` was not invoked, "
 "that ``yes_no_dialog`` was invoked, with the correct message parameter, "
@@ -836,11 +900,11 @@ msgstr ""
 "invocado, que foi chamado ``yes_no_dialog``, com o parâmetro mensagem "
 "correta, que Arecaceae ainda está lá::"
 
-#: ../../building.rst:370
+#: ../../building.rst:412
 msgid "And so on"
 msgstr "E assim por diante."
 
-#: ../../building.rst:372
+#: ../../building.rst:414
 msgid ""
 "`there are two kinds of people, those who complete what they start, and "
 "so on`"
@@ -848,7 +912,7 @@ msgstr ""
 "'há dois tipos de pessoas, aqueles que completam o que começam e assim "
 "por diante'"
 
-#: ../../building.rst:375
+#: ../../building.rst:417
 msgid ""
 "Next test is almost the same, with the difference that the "
 "``utils.yes_no_dialog`` should return ``True`` (this we achieve by "
@@ -860,7 +924,7 @@ msgstr ""
 "especificando ``resultado = True`` na aplicação parcial do generic "
 "``mockfunc``)."
 
-#: ../../building.rst:380
+#: ../../building.rst:422
 msgid ""
 "With this action, the value returned by ``remove_callback`` should be "
 "``True``, and there should be no Arecaceae Family in the database any "
@@ -870,7 +934,7 @@ msgstr ""
 "``True``, e não deve haver nenhuma família Arecaceae no banco de dados "
 "mais::"
 
-#: ../../building.rst:410
+#: ../../building.rst:452
 msgid ""
 "have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
 "other two test functions."
@@ -878,11 +942,11 @@ msgstr ""
 "Dê uma olhada no 734f5bb9feffc2f4bd22578fcee1802c8682ca83 de confirmação "
 "para as outras duas funções de teste."
 
-#: ../../building.rst:414
+#: ../../building.rst:456
 msgid "Testing logging"
 msgstr "Log de teste"
 
-#: ../../building.rst:416
+#: ../../building.rst:458
 msgid ""
 "Our ``bauble.test.BaubleTestCase`` objects use handlers of the class "
 "``bauble.test.MockLoggingHandler``.  Every time an individual unit test "
@@ -896,7 +960,7 @@ msgstr ""
 "manipulador de novo e associá-lo para o agente de log de raiz.  O método "
 "``tearDown`` se encarrega de removê-lo."
 
-#: ../../building.rst:421
+#: ../../building.rst:463
 #, python-format
 msgid ""
 "You can check for presence of specific logging messages in "
@@ -915,7 +979,7 @@ msgstr ""
 "mensagens, formatadas de acordo com o formatador você associar ao "
 "manipulador, padronizando a ``log. Formatter(\"%(message)s\")``."
 
-#: ../../building.rst:429
+#: ../../building.rst:471
 msgid ""
 "You can explicitly empty the collected messages by invoking "
 "``self.handler.clear()``."
@@ -923,25 +987,25 @@ msgstr ""
 "Você explicitamente pode esvaziar as mensagens coletadas invocando "
 "``self.handler.clear()``."
 
-#: ../../building.rst:434
+#: ../../building.rst:476
 msgid "Putting all together"
 msgstr "Resumindo tudo"
 
-#: ../../building.rst:436
+#: ../../building.rst:478
 msgid "From time to time you want to activate the test class you're working at::"
 msgstr ""
 "De vez em quando você deseja ativar a classe de teste que você está "
 "trabalhando no::"
 
-#: ../../building.rst:440
+#: ../../building.rst:482
 msgid "And at the end of the process you want to update the statistics::"
 msgstr "E no final do processo que você deseja atualizar as estatísticas::"
 
-#: ../../building.rst:446
+#: ../../building.rst:488
 msgid "Structure of user interface"
 msgstr "Estrutura da interface de usuário"
 
-#: ../../building.rst:448
+#: ../../building.rst:490
 msgid ""
 "The user interface is built according to the **Model** — **View** — "
 "**Presenter** architectural pattern.  For much of the interface, "
@@ -954,7 +1018,7 @@ msgstr ""
 "também temos elementos de interface onde não há nenhum modelo de banco de"
 " dados correspondente.  Em geral:"
 
-#: ../../building.rst:453
+#: ../../building.rst:495
 msgid ""
 "The **View** is described as part of a **glade** file. This should "
 "include the signal-callback and ListStore-TreeView associations. Just "
@@ -970,7 +1034,7 @@ msgstr ""
 "passá-lo a **glade** nome do arquivo e o nome do elemento raiz, então "
 "entregue essa instância para o **apresentador** Construtor."
 
-#: ../../building.rst:460
+#: ../../building.rst:502
 msgid ""
 "In the glade file, in the ``action-widgets`` section closing your "
 "GtkDialog object description, make sure every ``action-widget`` element "
@@ -984,7 +1048,7 @@ msgstr ""
 "<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, por"
 " exemplo:"
 
-#: ../../building.rst:471
+#: ../../building.rst:513
 msgid ""
 "There is no easy way to unit test a subclassed view, so please don't "
 "subclass views, there's really no need to."
@@ -993,7 +1057,7 @@ msgstr ""
 " exibição, então por favor não vistas de subclasse, não há realmente "
 "nenhuma necessidade de."
 
-#: ../../building.rst:474
+#: ../../building.rst:516
 msgid ""
 "In the glade file, every input widget should define which handler is "
 "activated on which signal.  The generic Presenter class offers generic "
@@ -1003,7 +1067,7 @@ msgstr ""
 "ativado na qual sinal.  Classe genérica do apresentador oferece retornos "
 "de chamada genéricos que cobrem os casos mais comuns."
 
-#: ../../building.rst:478
+#: ../../building.rst:520
 msgid ""
 "GtkEntry (one-line text entry) will handle the ``changed`` signal, with "
 "either ``on_text_entry_changed`` or ``on_unique_text_entry_changed``."
@@ -1012,7 +1076,7 @@ msgstr ""
 "``changed``, com ``on_text_entry_changed`` ou "
 "``on_unique_text_entry_changed``."
 
-#: ../../building.rst:480
+#: ../../building.rst:522
 msgid ""
 "GtkTextView: associate it to a GtkTextBuffer. To handle the ``changed`` "
 "signal on the GtkTextBuffer, we have to define a handler which invokes "
@@ -1028,7 +1092,7 @@ msgstr ""
 "de modelo que recebe o troco. Este é um workaroud para um `bug não "
 "resolvido em GTK <http://stackoverflow.com/questions/32106765/>`_."
 
-#: ../../building.rst:486
+#: ../../building.rst:528
 msgid ""
 "GtkComboBox with translated texts can't be easily handled from the glade "
 "file, so we don't even try.  Use the ``init_translatable_combo`` method "
@@ -1040,7 +1104,7 @@ msgstr ""
 "``init_translatable_combo`` da classe genérica ``GenericEditorView``, mas"
 " por favor, invocá-lo do * *. * * apresentador."
 
-#: ../../building.rst:491
+#: ../../building.rst:533
 msgid ""
 "The **Model** is just an object with known attributes. In this "
 "interaction, the **model** is just a passive data container, it does "
@@ -1050,11 +1114,11 @@ msgstr ""
 "é apenas um contêiner de dados passivo, ele não faz nada mais do que "
 "deixar a **apresentador** modificá-lo."
 
-#: ../../building.rst:495
+#: ../../building.rst:537
 msgid "The subclassed **Presenter** defines and implements:"
 msgstr "O que foi feito subclassing **apresentador** define e implementa:"
 
-#: ../../building.rst:497
+#: ../../building.rst:539
 msgid ""
 "``widget_to_field_map``, a dictionary associating widget names to name of"
 " model attributes,"
@@ -1062,7 +1126,7 @@ msgstr ""
 "'widget_to_field_map ', um dicionário associando nomes de widget para "
 "nome de atributos do modelo,"
 
-#: ../../building.rst:499
+#: ../../building.rst:541
 msgid ""
 "``view_accept_buttons``, the list of widget names which, if activated by "
 "the user, mean that the view should be closed,"
@@ -1070,15 +1134,15 @@ msgstr ""
 "'view_accept_buttons ', a lista de nomes de widget que, se ativado pelo "
 "usuário, significa que o modo de exibição deve ser fechado,"
 
-#: ../../building.rst:501
+#: ../../building.rst:543
 msgid "all needed callbacks,"
 msgstr "Tudo o que precisava de retornos de chamada,"
 
-#: ../../building.rst:502
+#: ../../building.rst:544
 msgid "optionally, it plays the **model** role, too."
 msgstr "Opcionalmente, ele joga o papel de **modelo**, também."
 
-#: ../../building.rst:504
+#: ../../building.rst:546
 msgid ""
 "The **presenter** continuously updates the **model** according to changes"
 " in the **view**. If the **model** corresponds to a database object, the "
@@ -1093,7 +1157,7 @@ msgstr ""
 "se o **vista** é cancelada. (este comportamento é influenciado pelo "
 "parâmetro ``do_commit``)"
 
-#: ../../building.rst:510
+#: ../../building.rst:552
 msgid ""
 "If the **model** is something else, then the **presenter** will do "
 "something else."
@@ -1101,7 +1165,7 @@ msgstr ""
 "Se o **modelo** é outra coisa, então o **apresentador** vai fazer outra "
 "coisa."
 
-#: ../../building.rst:515
+#: ../../building.rst:557
 msgid ""
 "A well behaved **presenter** uses the **view** api to query the values "
 "inserted by the user or to forcibly set widget statuses. Please do not "
@@ -1116,7 +1180,7 @@ msgstr ""
 "de 'view.widgets '. Ao fazer isso, esses apresentadores nos impede de "
 "escrever testes de unidade."
 
-#: ../../building.rst:521
+#: ../../building.rst:563
 msgid ""
 "The base class for the presenter, ``GenericEditorPresenter`` defined in "
 "``bauble.editor``, implements many useful generic callbacks.  There is a "
@@ -1128,11 +1192,11 @@ msgstr ""
 "  Há uma classe de ``MockView``, que você pode usar ao escrever testes "
 "para seus apresentadores."
 
-#: ../../building.rst:526
+#: ../../building.rst:568
 msgid "Examples"
 msgstr ""
 
-#: ../../building.rst:528
+#: ../../building.rst:570
 msgid ""
 "``Contact`` and ``ContactPresenter`` are implemented following the above "
 "lines.  The view is defined in the ``contact.glade`` file."
@@ -1140,7 +1204,7 @@ msgstr ""
 "``Contato`` e ``ContactPresenter`` são implementados seguindo as linhas "
 "acima.  A exibição é definida no arquivo ``contact.glade``."
 
-#: ../../building.rst:531
+#: ../../building.rst:573
 msgid ""
 "A good example of Presenter/View pattern (no model) is given by the "
 "connection manager."
@@ -1148,7 +1212,7 @@ msgstr ""
 "Um bom exemplo de padrão de exibição do apresentador (sem modelo) é dado "
 "pelo Gerenciador de conexões."
 
-#: ../../building.rst:534
+#: ../../building.rst:576
 msgid ""
 "We use the same architectural pattern for non-database interaction, by "
 "setting the presenter also as model. We do this, for example, for the "
@@ -1160,11 +1224,11 @@ msgstr ""
 "exemplo, para a caixa de diálogo de exportação JSON. O comando a seguir "
 "lhe dará uma lista de instanciações de ``GenericEditorView``::"
 
-#: ../../building.rst:542
+#: ../../building.rst:584
 msgid "Extending Ghini with Plugins"
 msgstr "Estendendo Ghini com Plugins"
 
-#: ../../building.rst:544
+#: ../../building.rst:586
 #, fuzzy
 msgid ""
 "Nearly everything about Ghini is extensible through plugins. Plugins can "
@@ -1175,7 +1239,7 @@ msgstr ""
 "criar tabelas, definir a busca personalizada, adicionar itens de menu, "
 "criar comandos personalizados e muito mais."
 
-#: ../../building.rst:548
+#: ../../building.rst:590
 msgid ""
 "To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
 "class."
@@ -1183,7 +1247,7 @@ msgstr ""
 "Para criar um novo plugin, você deve estender a classe "
 "``bauble.pluginmgr.Plugin``."
 
-#: ../../building.rst:551
+#: ../../building.rst:593
 msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
@@ -1191,11 +1255,11 @@ msgstr ""
 "O plugin ``Tag`` é um bom exemplo de mínimo, mesmo que o ``TagItemGUI`` "
 "cai fora o padrão arquitetural Model-View-Presenter."
 
-#: ../../building.rst:555
+#: ../../building.rst:597
 msgid "Plugins structure"
 msgstr "Estrutura de plugins"
 
-#: ../../building.rst:557
+#: ../../building.rst:599
 msgid ""
 "Ghini is a framework for handling collections, and is distributed along "
 "with a set of plugins making Ghini a botanical collection manager. But "
@@ -1210,7 +1274,7 @@ msgstr ""
 "escrever seus próprios plugins que estender ou completar o actual "
 "comportamento Ghini."
 
-#: ../../building.rst:563
+#: ../../building.rst:605
 msgid ""
 "Once you have selected and opened a database connection, you land in the "
 "Search window. The Search window is an interaction between two objects: "
@@ -1220,7 +1284,7 @@ msgstr ""
 "pousar na janela de pesquisa. A janela de busca é uma interação entre "
 "dois objetos: SearchPresenter (SP) e SearchView (SV)."
 
-#: ../../building.rst:567
+#: ../../building.rst:609
 msgid ""
 "SV is what you see, SP holds the program status and handles the requests "
 "you express through SV. Handling these requests affect the content of SV "
@@ -1230,7 +1294,7 @@ msgstr ""
 "solicitações que você expressa através de SV. Manipulando essas "
 "solicitações afetam o conteúdo de SV e o status de programa em SP."
 
-#: ../../building.rst:571
+#: ../../building.rst:613
 msgid ""
 "The search results shown in the largest part of SV are rows, objects that"
 " are instances of classes registered in a plugin."
@@ -1238,7 +1302,7 @@ msgstr ""
 "Resultados da pesquisa aparece na parte maior do SV são linhas, objetos "
 "que são instâncias de classes registrados em um plugin."
 
-#: ../../building.rst:574
+#: ../../building.rst:616
 msgid ""
 "Each of these classes must implement an amount of functions in order to "
 "properly behave within the Ghini framework. The Ghini framework reserves "
@@ -1248,7 +1312,7 @@ msgstr ""
 "comportar-se adequadamente no âmbito Ghini. O quadro Ghini reserva espaço"
 " para classes conectáveis."
 
-#: ../../building.rst:578
+#: ../../building.rst:620
 msgid ""
 "SP knows of all registered (plugged in) classes, they are stored in a "
 "dictionary, associating a class to its plugin implementation.  SV has a "
@@ -1261,7 +1325,7 @@ msgstr ""
 "adicionar elementos. A qualquer hora, no máximo apenas um elemento na "
 "ranhura é visível."
 
-#: ../../building.rst:583
+#: ../../building.rst:625
 msgid ""
 "A plugin defines one or more plugin classes. A plugin class plays the "
 "role of a partial presenter (pP - plugin presenter) as it implement the "
@@ -1276,49 +1340,49 @@ msgstr ""
 "MVP é completado pelo apresentador pai (SP), mais uma vez atuando como "
 "modelo. Para resumir e concluir:"
 
-#: ../../building.rst:589
+#: ../../building.rst:631
 msgid "SP acts as model,"
 msgstr "SP atua como modelo,"
 
-#: ../../building.rst:590
+#: ../../building.rst:632
 msgid "the pV partial view is defined in a glade file."
 msgstr "a exibição parcial do pV é definida em um arquivo glade."
 
-#: ../../building.rst:591
+#: ../../building.rst:633
 msgid "the callbacks implemented by pP are referenced by the glade file."
 msgstr ""
 "os retornos de chamada implementados pelo pP são referenciados pelo "
 "arquivo glade."
 
-#: ../../building.rst:592
+#: ../../building.rst:634
 msgid "a context menu for the SP row,"
 msgstr "um menu de contexto para a linha de SP,"
 
-#: ../../building.rst:593
+#: ../../building.rst:635
 msgid "a children property."
 msgstr "uma propriedade de crianças."
 
-#: ../../building.rst:595
+#: ../../building.rst:637
 msgid "when you register a plugin class, the SP:"
 msgstr "Quando você registra uma classe de plugin, o SP:"
 
-#: ../../building.rst:597
+#: ../../building.rst:639
 msgid "adds the pV in the slot and makes it non-visible."
 msgstr "Adiciona o pV no slot e o torna não-visíveis."
 
-#: ../../building.rst:598
+#: ../../building.rst:640
 msgid "adds an instance of pP in the registered plugin classes."
 msgstr "Adiciona uma instância de pP nas classes plugin registrado."
 
-#: ../../building.rst:599
+#: ../../building.rst:641
 msgid "tells the pP that the SP is the model."
 msgstr "diz a pP que o SP é o modelo."
 
-#: ../../building.rst:600
+#: ../../building.rst:642
 msgid "connects all callbacks from pV to pP."
 msgstr "conecta todos os retornos de chamada de pV para pP."
 
-#: ../../building.rst:602
+#: ../../building.rst:644
 msgid ""
 "when an element in pV triggers an action in pP, the pP can forward the "
 "action to SP and can request SP that it updates the model and refreshes "
@@ -1328,7 +1392,7 @@ msgstr ""
 " ação para SP e pode solicitar SP que atualiza o modelo e atualiza a "
 "exibição."
 
-#: ../../building.rst:606
+#: ../../building.rst:648
 msgid ""
 "When the user selects a row in SP, SP hides everything in the pluggable "
 "slot and shows only the single pV relative to the type of the selected "
@@ -1340,7 +1404,7 @@ msgstr ""
 "selecionada e pede o pP para atualizar o pV com tudo o que é relativo a "
 "linha selecionada."
 
-#: ../../building.rst:610
+#: ../../building.rst:652
 msgid ""
 "Apart from setting the visibility of the various pV, nothing needs be "
 "disabled nor removed: an invisible pV cannot trigger events!"
@@ -1348,15 +1412,15 @@ msgstr ""
 "Além de definir a visibilidade de vários pV, nada precisa ser desativado "
 "ou removido: um pV invisível não pode disparar eventos!"
 
-#: ../../building.rst:614
+#: ../../building.rst:656
 msgid "bug solving workflow"
 msgstr "Bug, solução de fluxo de trabalho"
 
-#: ../../building.rst:617
+#: ../../building.rst:659
 msgid "normal development workflow"
 msgstr "fluxo de trabalho de desenvolvimento normal"
 
-#: ../../building.rst:619
+#: ../../building.rst:661
 msgid ""
 "while using the software, you notice a problem, or you get an idea of "
 "something that could be better, you think about it good enough in order "
@@ -1368,11 +1432,11 @@ msgstr ""
 "ideia muito clara do que realmente é, que você notou. Você abre uma "
 "questão e descreve o problema. Alguém pode reagir com dicas."
 
-#: ../../building.rst:623
+#: ../../building.rst:665
 msgid "you open the issues site and choose one you want to tackle."
 msgstr "Você abre o site de problemas e escolher que quer combater."
 
-#: ../../building.rst:624
+#: ../../building.rst:666
 msgid ""
 "assign the issue to yourself, this way you are informing the world that "
 "you have the intention to work at it. someone might react with hints."
@@ -1381,7 +1445,7 @@ msgstr ""
 " que você tem a intenção de trabalhar nisto. Alguém pode reagir com "
 "dicas."
 
-#: ../../building.rst:626
+#: ../../building.rst:668
 msgid ""
 "optionally fork the repository in your account and preferably create a "
 "branch, clearly associated to the issue."
@@ -1389,7 +1453,7 @@ msgstr ""
 "garfo, opcionalmente, o repositório na sua conta e de preferência, criar "
 "uma ramificação, claramente associada à questão."
 
-#: ../../building.rst:628
+#: ../../building.rst:670
 msgid ""
 "write unit tests and commit them to your branch (please do not push "
 "failing unit tests to github, run ``nosetests`` locally first)."
@@ -1398,7 +1462,7 @@ msgstr ""
 "não empurre na ausência de testes de unidade para o github, executar "
 "``nosetests`` localmente primeiro)."
 
-#: ../../building.rst:630
+#: ../../building.rst:672
 msgid ""
 "write more unit tests (ideally, the tests form the complete description "
 "of the feature you are adding or correcting)."
@@ -1406,7 +1470,7 @@ msgstr ""
 "escrever testes de unidade mais (idealmente, os testes de formam a "
 "descrição completa do recurso estiver adicionando ou corrigindo)."
 
-#: ../../building.rst:632
+#: ../../building.rst:674
 msgid ""
 "make sure the feature you are adding or correcting is really completely "
 "described by the unit tests you wrote."
@@ -1415,7 +1479,7 @@ msgstr ""
 "realmente completamente descrito pelos testes de unidade que você "
 "escreveu."
 
-#: ../../building.rst:634
+#: ../../building.rst:676
 msgid ""
 "make sure your unit tests are atomic, that is, that you test variations "
 "on changes along one single variable. do not give complex input to unit "
@@ -1426,15 +1490,15 @@ msgstr ""
 "entrada complexa para testes de unidade ou testes que não cabem em uma "
 "única tela (25 linhas de código)."
 
-#: ../../building.rst:637
+#: ../../building.rst:679
 msgid "write the code that makes your tests succeed."
 msgstr "Escreva o código que faz com que seus testes bem sucedidos."
 
-#: ../../building.rst:638
+#: ../../building.rst:680
 msgid "update the i18n files (run ``./scripts/i18n.sh``)."
 msgstr "Atualize os arquivos de i18n (executados ``./scripts/i18n.sh``)."
 
-#: ../../building.rst:639
+#: ../../building.rst:681
 msgid ""
 "whenever possible, translate the new strings you put in code or glade "
 "files."
@@ -1442,7 +1506,7 @@ msgstr ""
 "sempre que possível, traduza as novas sequências de caracteres que você "
 "colocar arquivos de código ou glade."
 
-#: ../../building.rst:641
+#: ../../building.rst:683
 msgid ""
 "when you change strings, please make sure that old translations get re-"
 "used."
@@ -1450,23 +1514,23 @@ msgstr ""
 "Quando você alterar a cadeia de caracteres, por favor, certifique-se de "
 "que antigas traduções me re-acostumar."
 
-#: ../../building.rst:642
+#: ../../building.rst:684
 msgid "commit your changes."
 msgstr "Confirme as alterações."
 
-#: ../../building.rst:643
+#: ../../building.rst:685
 msgid "push to github."
 msgstr "Empurre para o github."
 
-#: ../../building.rst:644
+#: ../../building.rst:686
 msgid "open a pull request."
 msgstr "Abra uma solicitação de tração."
 
-#: ../../building.rst:647
+#: ../../building.rst:689
 msgid "publishing to production"
 msgstr "publicação a produção"
 
-#: ../../building.rst:649
+#: ../../building.rst:691
 msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``,"
 " compared to ``ghini-x.y-dev``."
@@ -1474,46 +1538,46 @@ msgstr ""
 "Abra o puxar solicitação página usando como base uma linha de produção "
 "'ghini-x. y ', em relação ao 'ghini-x. y-dev '."
 
-#: ../../building.rst:651
+#: ../../building.rst:693
 msgid "make sure a ``bump`` commit is included in the differences."
 msgstr "Certifique-se de que um commit ``galo`` está incluído nas diferenças."
 
-#: ../../building.rst:652
+#: ../../building.rst:694
 msgid "it should be possible to automatically merge the branches."
 msgstr "é possível mesclar automaticamente os ramos."
 
-#: ../../building.rst:653
+#: ../../building.rst:695
 msgid "create the new pull request, call it as “publish to the production line”."
 msgstr ""
 "criar a nova solicitação de tração, chamá-lo como \"publicar para a linha"
 " de produção\"."
 
-#: ../../building.rst:654
+#: ../../building.rst:696
 msgid "you possibly need wait for travis-ci to perform the checks."
 msgstr ""
 "você possivelmente precisar esperar por travis-ci executar as "
 "verificações."
 
-#: ../../building.rst:655
+#: ../../building.rst:697
 msgid "merge the changes."
 msgstr "Mescle as alterações."
 
-#: ../../building.rst:656
+#: ../../building.rst:698
 msgid "tell the world about it: on facebook, the google group, linkedin, ..."
 msgstr "contar ao mundo sobre isso: no facebook, o grupo do google, linkedin,..."
 
-#: ../../building.rst:659
+#: ../../building.rst:701
 msgid "your own fork"
 msgstr ""
 
-#: ../../building.rst:661
+#: ../../building.rst:703
 msgid ""
 "If you want to keep your own fork of the project, keep in mind this is "
 "full force work in progress, so staying up to date will require some "
 "effort from your side."
 msgstr ""
 
-#: ../../building.rst:665
+#: ../../building.rst:707
 msgid ""
 "The best way to keep your own fork is to focus on some specific issue, "
 "work relatively quickly, often open pull requests for your work, make "
@@ -1522,7 +1586,7 @@ msgid ""
 "having your work included in Ghini's upstream."
 msgstr ""
 
-#: ../../building.rst:671
+#: ../../building.rst:713
 msgid ""
 "If your fork got out of sync with Ghini's upstream: read, understand, "
 "follow the github guides `configuring a remote for a fork "
@@ -1530,11 +1594,11 @@ msgid ""
 " `syncing a fork <https://help.github.com/articles/syncing-a-fork/>`_."
 msgstr ""
 
-#: ../../building.rst:677
+#: ../../building.rst:719
 msgid "closing step"
 msgstr "Encerramento"
 
-#: ../../building.rst:679
+#: ../../building.rst:721
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
@@ -1543,33 +1607,234 @@ msgstr ""
 " e aos seus colegas. por favor ajude a torná-lo melhor e a prática de "
 "correspondência."
 
-#: ../../building.rst:683
+#: ../../building.rst:725
 #, fuzzy
 msgid "distributing for windows"
 msgstr "Instalação no Windows"
 
-#: ../../building.rst:685
-msgid "placeholder section"
+#: ../../building.rst:727
+msgid ""
+"For building a Windows installer or executable you will need an "
+"installation of Windows.  The methods described here has been used "
+"successfully on Windows 7, 8 and 10.  Windows Vista should also work but "
+"has not been tested."
 msgstr ""
 
-#: ../../building.rst:687
-msgid "what do you need to produce a NSIS installer?"
+#: ../../building.rst:731
+msgid ""
+"In the remainder of this section we assume you're using a Windows "
+"workstation.  We also assume assume you do not use it as your software "
+"development platform.  All steps described here are very similar to the "
+"steps for a normal Windows :ref:`installation`."
 msgstr ""
 
-#: ../../building.rst:688
-msgid "what dependencies you must satisfy?"
+#: ../../building.rst:736
+msgid "py2exe will not work with eggs"
 msgstr ""
 
-#: ../../building.rst:689
-msgid "how do you install each of them?"
+#: ../../building.rst:739
+msgid ""
+"Building a Windows executable with py2exe requires packages **not** be "
+"installed as eggs.  There are several methods to accomplish this, "
+"including:"
 msgstr ""
 
-#: ../../building.rst:690
-msgid "which is the command to produce the setup.exe?"
+#: ../../building.rst:742
+msgid ""
+"Using pip to install.  The easiest method is to install into a virtual "
+"environment that doesn't currently have any modules installed as eggs "
+"using ``pip install .`` as described below.  If you do wish to install "
+"over the top of an install with eggs (e.g. the environment created by "
+"``devinstall.bat``) you can try ``pip install -I .`` but your mileage may"
+" vary."
 msgstr ""
 
-#: ../../building.rst:691
-msgid "how do you publish the installer?"
+#: ../../building.rst:749
+msgid "By adding::"
+msgstr ""
+
+#: ../../building.rst:754
+msgid ""
+"to setup.cfg (or similarly ``zip_safe = False`` to ``setuptools.setup()``"
+" in ``setup.py``) you can use ``python setup.py install`` but you will "
+"need to download and install `Microsoft Visual C++ Compiler for Python "
+"2.7 <http://aka.ms/vcpython27>`_ to get any of the C extensions and will "
+"need a fresh virtual environment with no dependent packages installed as "
+"eggs."
+msgstr ""
+
+#: ../../building.rst:760
+msgid ""
+"Download and install git, Python 2.7 and PyGTK as outlined in the generic"
+" :ref:`installation` instructions."
+msgstr ""
+
+#: ../../building.rst:763
+msgid ""
+"Additionally, download and install `NSIS v3 "
+"<http://nsis.sourceforge.net/Download>`_."
+msgstr ""
+
+#: ../../building.rst:765
+msgid "A **reboot** is recommended."
+msgstr ""
+
+#: ../../building.rst:767
+msgid "we have a script that automates the remaining steps"
+msgstr ""
+
+#: ../../building.rst:770
+msgid ""
+"A batch file is available that can complete the last few steps.  To use "
+"it use this command::"
+msgstr ""
+
+#: ../../building.rst:775
+msgid "``build_win.bat`` accepts 2 arguments:"
+msgstr ""
+
+#: ../../building.rst:777
+msgid ""
+"``/e`` will produce an executable only, skipping the extra step of "
+"building an installer, and will copy ``win_gtk.bat`` into place."
+msgstr ""
+
+#: ../../building.rst:780
+#, python-format
+msgid ""
+"A path to the location for the virtual environment to use. (defaults to "
+"``\"%HOMEDRIVE%%HOMEPATH%\"\\.virtualenvs\\ghi2exe``)"
+msgstr ""
+
+#: ../../building.rst:783
+msgid ""
+"e.g. to produce an executable only and use a virtual environment in a "
+"folder beside where you have ghini.desktop you could execute "
+"``scripts\\build_win.bat /e ..\\ghi2exe``"
+msgstr ""
+
+#: ../../building.rst:787
+msgid ""
+"Clone ghini.desktop to wherever you want to keep it (replace ``<path-to-"
+"keep-ghini>`` with the path of your choice, e.g. "
+"``Local\\github\\Ghini\\``) and checkout a production branch "
+"(``ghini-1.0`` is recommended as used in the example).  To do this, open "
+"a command prompt and type these commands::"
+msgstr ""
+
+#: ../../building.rst:798
+msgid ""
+"Install virtualenv, create a virtual environment and activate it.  With "
+"only Python 2.7 on your system (where ``<path-to-venv>`` is the path to "
+"where you wish to keep the virtual environment) use::"
+msgstr ""
+
+#: ../../building.rst:806
+msgid ""
+"On systems where Python 3 is also installed you may need to either call "
+"pip and virtualenv with absolute paths e.g.  "
+"``C:\\Python27\\Scripts\\pip`` or use the Python launcher e.g. ``py -2.7 "
+"-m pip`` (run ``python --version`` first to check.  If you get anything "
+"other than version 2.7 you'll need to use one of these methods.)"
+msgstr ""
+
+#: ../../building.rst:812
+msgid "Install dependencies and ghini.desktop into the virtual environment::"
+msgstr ""
+
+#: ../../building.rst:817
+msgid "Build the executable::"
+msgstr ""
+
+#: ../../building.rst:821
+msgid ""
+"The ``dist`` folder will now contain a full working copy of the software "
+"in a frozen, self contained state, that can be transferred however you "
+"like and will work in place.  (e.g. placed on a USB flash drive for "
+"demonstration purposes or copied manually to ``C:\\Program Files`` with a"
+" shortcut created on the desktop).  To start ghini.desktop double click "
+"``ghini.exe`` in explorer (or create a shortcut to it). If you have "
+"issues with the UI not displaying correctly you need to run the script "
+"``win_gtk.bat`` from the ``dist`` folder to set up paths to the GTK "
+"components correctly.  (Running ``build_win /e`` will place this script "
+"in the dist folder for you or you can copy it from the ``scripts`` folder"
+" yourself.)  You will only need to run this once each time the location "
+"of the folder changes.  Thereafter ``ghini.exe`` will run as expected."
+msgstr ""
+
+#: ../../building.rst:834
+msgid "Build the installer::"
+msgstr ""
+
+#: ../../building.rst:838
+msgid ""
+"This should leave a file named ``ghini.desktop-<version>-setup.exe`` in "
+"the ``scripts`` folder.  This is your Windows installer."
+msgstr ""
+
+#: ../../building.rst:841
+msgid "about the installer"
+msgstr ""
+
+#: ../../building.rst:844
+msgid "Capable of single user or global installs."
+msgstr ""
+
+#: ../../building.rst:846
+msgid ""
+"At this point in time ghini.desktop installed this way will not check or "
+"or notify you of any updated version.  You will need to check yourself."
+msgstr ""
+
+#: ../../building.rst:850
+msgid "Capable of downloading and installing optional extra components:"
+msgstr ""
+
+#: ../../building.rst:852
+msgid ""
+"Apache FOP - If you want to use xslt report templates install FOP. FOP "
+"requires Java Runtime. If you do not currently have it installed the "
+"installer will let you know and offer to open the Oracle web site for you"
+" to download and install it from."
+msgstr ""
+
+#: ../../building.rst:857
+msgid ""
+"MS Visual C runtime - You most likely don't need this but if you have any"
+" trouble getting ghini.desktop to run try installing the MS Visual C "
+"runtime (e.g. rerun the installer and select this component only)."
+msgstr ""
+
+#: ../../building.rst:861
+msgid ""
+"Can be run silently from the commandline (e.g. for remote deployment) "
+"with the following arguments:"
+msgstr ""
+
+#: ../../building.rst:864
+msgid "``/S`` for silent;"
+msgstr ""
+
+#: ../../building.rst:866
+msgid "``/AllUser`` (when run as administrator) or ``/CurrentUser``"
+msgstr ""
+
+#: ../../building.rst:868
+msgid "``/C=[gFC]`` to specify components where:"
+msgstr ""
+
+#: ../../building.rst:870
+msgid ""
+"``g`` = Deselect the main ghini.desktop component (useful for adding "
+"optional component after an initial install)"
+msgstr ""
+
+#: ../../building.rst:873
+msgid "``F`` = select Apache FOP"
+msgstr ""
+
+#: ../../building.rst:875
+msgid "``C`` = select MS Visual C runtime"
 msgstr ""
 
 #: ../../editing.rst:4
@@ -2077,17 +2342,11 @@ msgstr ""
 "Esta página mostra como o software Ghini atende às necessidades de um "
 "jardim botânico."
 
-#: ../../goal.rst:10
-msgid ""
-"If you already know, and all you want is to do something practical, check"
-" our `user-contributed recipes <use_cases.html>`_."
-msgstr ""
-
-#: ../../goal.rst:13
+#: ../../goal.rst:11
 msgid "Botanic Garden"
 msgstr "Botanic Garden"
 
-#: ../../goal.rst:15
+#: ../../goal.rst:13
 msgid ""
 "According to the Wikipedia, »A botanic(al) garden is a garden dedicated "
 "to the collection, cultivation and display of a wide range of plants "
@@ -2102,7 +2361,7 @@ msgstr ""
 "espaço planejado, normalmente ao ar livre, reservado para a exposição, "
 "cultivo e apreciação de plantas e outras formas de natureza.« "
 
-#: ../../goal.rst:21
+#: ../../goal.rst:19
 msgid ""
 "So we have in a botanic garden both the physical space, the garden, as "
 "its dynamic, the activities to which the garden is dedicated, activities "
@@ -2112,19 +2371,19 @@ msgstr ""
 " como sua dinámica,  as actividades a que dedica-se ao jardim, atividades"
 " que nos faz chamam o jardim um jardim botânico."
 
-#: ../../goal.rst:27
+#: ../../goal.rst:25
 msgid "**the physical garden**"
 msgstr "* * o jardim física * *"
 
-#: ../../goal.rst:31
+#: ../../goal.rst:29
 msgid "**collection related activities in the garden**"
 msgstr "**coleção relacionadas com actividades no jardim**"
 
-#: ../../goal.rst:36
+#: ../../goal.rst:32
 msgid "Botanic Garden Software"
 msgstr "Jardim botânico de Software"
 
-#: ../../goal.rst:38
+#: ../../goal.rst:34
 msgid ""
 "At the other end of our reasoning we have the application program Ghini, "
 "and again quoting the Wikipedia, »an application program is a computer "
@@ -2138,7 +2397,7 @@ msgstr ""
 "tarefas ou actividades em benefício do usuário «, ou, em suma,» projetado"
 " para ajudar as pessoas a exercer uma actividade «."
 
-#: ../../goal.rst:44
+#: ../../goal.rst:40
 msgid ""
 "Data and algorithms within Ghini have been designed to represent the "
 "physical space and the dynamic of a botanic garden."
@@ -2146,26 +2405,11 @@ msgstr ""
 "Dados e algoritmos dentro Ghini foram concebidos para representar o "
 "espaço físico e a dinâmica de um jardim botânico."
 
-#: ../../goal.rst:49 ../../searching.rst:160
+#: ../../goal.rst:45 ../../searching.rst:160
 msgid "**core structure of Ghini's database**"
 msgstr "**estrutura de banco de dados** do Ghini"
 
-#: ../../goal.rst:51
-msgid ""
-"In the above figure, a simplified view on the database, the highlighted "
-"blocks are those relative to objects you definitely need insert in the "
-"database."
-msgstr ""
-
-#: ../../goal.rst:55
-msgid ""
-"We distinguish three main sections in the database.  Start reading the "
-"graph from the right hand side, with the relevant **Taxonomy** "
-"information, then step to administering your **Collection**, and finally "
-"consider the physical **Garden**."
-msgstr ""
-
-#: ../../goal.rst:60
+#: ../../goal.rst:47
 msgid ""
 "The central element in Ghini's point of view is the ``Accession``. "
 "Following its links to other database objects lets us better understand "
@@ -2175,26 +2419,19 @@ msgstr ""
 "suas ligações a outros objetos de banco de dados permite-nos compreender "
 "melhor a estrutura:"
 
-#: ../../goal.rst:63
-msgid "**Accession links Planting to Species**"
-msgstr ""
-
-#: ../../goal.rst:65
+#: ../../goal.rst:50
 msgid ""
-"An ``Accession`` represents the action of receiving this specific plant "
-"material in the garden. As such, ``Accession`` is an abstract concept, it"
-" links physical living ``Plantings`` —groups of plants placed each at a "
-"``Location`` in the garden— to the corresponding ``Species``. It is not "
-"the same as an acquisition from a source, because in a single acquisition"
-" you can access material of more than one species. In other words: a "
-"single aquisition can embark multiple accessions. An ``Accession`` has "
-"zero or more ``Plantings`` associated to it (0..n), and it is at all "
-"times connected to exactly 1 ``Species``. Each ``Planting`` belongs to "
-"exactly one ``Accession``, each ``Species`` may have multiple "
-"``Accessions`` relating to it."
+"An ``Accession`` represents the action of receiving plant material in the"
+" garden. As such, ``Accession`` is an abstract concept, it links physical"
+" living ``Plantings`` —groups of plants placed each at a ``Location`` in "
+"the garden— to the corresponding ``Species``. An ``Accession`` has zero "
+"or more ``Plantings`` associated to it (0..n), and it is at all times "
+"connected to exactly 1 ``Species``. Each ``Planting`` belongs to exactly "
+"one ``Accession``, each ``Species`` may have multiple ``Accessions`` "
+"relating to it."
 msgstr ""
 
-#: ../../goal.rst:74
+#: ../../goal.rst:59
 msgid ""
 "An ``Accession`` stays in the database even if all of its ``Plantings`` "
 "have been removed, sold, or have died. Identifying the ``Species`` of an "
@@ -2206,11 +2443,7 @@ msgstr ""
 "``Accession`` consistentemente conecta todos os seus ``Plantings`` para o"
 " ``Species``."
 
-#: ../../goal.rst:79
-msgid "**Accession at the base of the history of your plants**"
-msgstr ""
-
-#: ../../goal.rst:81
+#: ../../goal.rst:64
 msgid ""
 "``Propagations`` and ``Contacts`` provide plant material for the garden; "
 "this information is optional and smaller collectors might prefer to leave"
@@ -2228,11 +2461,7 @@ msgstr ""
 "a zero ou mais ``Accession`` por ``Propagation`` (0..n). Também um "
 "'contato ' pode fornecer zero ou mais ``Accession`` (0..n)."
 
-#: ../../goal.rst:88
-msgid "**Accession and Verification opinions**"
-msgstr ""
-
-#: ../../goal.rst:90
+#: ../../goal.rst:71
 msgid ""
 "Specialists may formulate their opinion about the ``Species`` to which an"
 " ``Accession`` belongs, by providing a ``Verification``, signing it, and "
@@ -2242,12 +2471,7 @@ msgstr ""
 "pertence um ``Accession``, fornecendo uma ``Verification``, assiná-lo, e "
 "afirmando o nível aplicável de confiança."
 
-#: ../../goal.rst:94
-#, fuzzy
-msgid "**Accessing your own Propagations**"
-msgstr "Lidando com material de propagação"
-
-#: ../../goal.rst:96
+#: ../../goal.rst:75
 msgid ""
 "If an ``Accession`` was obtained in the garden nursery from a successful "
 "``Propagation``, the ``Propagation`` links the ``Accession`` and all of "
@@ -2259,7 +2483,7 @@ msgstr ""
 "Plantings do ' ' para um único pai ``Planting``, a semente ou o pai "
 "vegetativo."
 
-#: ../../goal.rst:103
+#: ../../goal.rst:80
 msgid ""
 "Even after the above explanation, new users generally still ask why they "
 "need pass through an ``Accession`` screen while all they want is to "
@@ -2279,7 +2503,7 @@ msgstr ""
 msgid "use case"
 msgstr "Caso de uso"
 
-#: ../../goal.rst:110
+#: ../../goal.rst:87
 msgid ""
 "At the beginning of 2007 we got five seedlings of *Heliconia longa* (a "
 "plant ``Species``) from our neighbour (the ``Contact`` source). Since it "
@@ -2295,7 +2519,7 @@ msgstr ""
 "los todos juntos em um 'local ' como um único plantio ' ', também com a "
 "quantidade de 5."
 
-#: ../../goal.rst:118
+#: ../../goal.rst:95
 msgid ""
 "At the time of writing, nine years later, ``Accession`` 2007.0001 has 6 "
 "distinct ``Plantings``, each at a different ``Locations`` in our garden, "
@@ -2309,7 +2533,7 @@ msgstr ""
 "Nossa única intervenção foi dividir, mover e claro, escrevendo esta "
 "informação no banco de dados. Quantidade total da planta é acima de 40."
 
-#: ../../goal.rst:125
+#: ../../goal.rst:102
 msgid ""
 "New ``Plantings`` obtained by (assisted) sexual ``Propagation`` come in "
 "our database under different ``Accession`` codes, where our garden is the"
@@ -2321,11 +2545,11 @@ msgstr ""
 "nosso jardim é a fonte de ' contato ' e nós sabemos qual dos nossos "
 "plantios ' ' é o pai de semente."
 
-#: ../../goal.rst:130
+#: ../../goal.rst:107
 msgid "the above three cases translate into several short usage stories:"
 msgstr "os três casos acima traduzem em várias histórias curtas de uso:"
 
-#: ../../goal.rst:132
+#: ../../goal.rst:109
 msgid ""
 "activate the menu Insert → Accession, verify the existence and "
 "correctness of the ``Species`` *Heliconia longa*, specify the initial "
@@ -2336,7 +2560,7 @@ msgstr ""
 "``Species`` *Heliconia longa*, especificar a quantidade inicial de "
 "``Accession``; Adicione sua ``Plant`` no ``Location`` desejado."
 
-#: ../../goal.rst:136
+#: ../../goal.rst:113
 msgid ""
 "edit ``Planting`` to correct the amount of living plants — repeat this as"
 " often as necessary."
@@ -2344,7 +2568,7 @@ msgstr ""
 "Editar ``Planting`` para corrigir a quantidade de plantas vivas — repeti-"
 "lo sempre que necessário."
 
-#: ../../goal.rst:138
+#: ../../goal.rst:115
 msgid ""
 "edit ``Planting`` to split it at separate ``Locations`` — this produces a"
 " different ``Planting`` under the same ``Accession``."
@@ -2352,15 +2576,15 @@ msgstr ""
 "Editar ``Planting`` para dividi-lo em separado ``Location`` — isso produz"
 " uma ``Planting`` do diferente sob o mesmo ``Accession``."
 
-#: ../../goal.rst:140
+#: ../../goal.rst:117
 msgid "edit ``Planting`` to add a (seed) ``Propagation``."
 msgstr "Edite ``Planting`` para adicionar uma ``Propagation`` (semente)."
 
-#: ../../goal.rst:141
+#: ../../goal.rst:118
 msgid "edit ``Planting`` to update the status of the ``Propagation``."
 msgstr "Edite ``Planting`` para atualizar o status de ``Propagation``."
 
-#: ../../goal.rst:142
+#: ../../goal.rst:119
 msgid ""
 "activate the menu Insert → Accession to associate an accession to a "
 "successful ``Propagation`` trial; add the ``Planting`` at the desired "
@@ -2370,7 +2594,7 @@ msgstr ""
 "processo bem sucedido de ``Propagation``; Adicione a plantação do no "
 "'local ' desejado."
 
-#: ../../goal.rst:146
+#: ../../goal.rst:123
 msgid ""
 "In particular the ability to split a ``Planting`` at several different "
 "``Locations`` and to keep all uniformly associated to one ``Species``, or"
@@ -2384,50 +2608,23 @@ msgstr ""
 "``Plantings`` que foram removidos da coleção, ajudar a justificar a "
 "presença do nível de abstração de ``Accession``."
 
-#: ../../goal.rst:153
-msgid "Hypersimplified view"
+#: ../../goal.rst:131
+msgid "Our User Stories section contains details about the above, and more."
 msgstr ""
 
-#: ../../goal.rst:155
-msgid ""
-"People using Ghini only sporadically may prefer ignoring the database "
-"structure and look at it as two nested sequences of objects, each element"
-" of the sequence being necessary to add element at the next level."
-msgstr ""
-
-#: ../../goal.rst:159
-msgid ""
-"In order to get down to an Accession, you will need four levels, as in "
-"this example:"
-msgstr ""
-
-#: ../../goal.rst:164
-msgid ""
-"A quite complete set of Families and Genera are inserted in your database"
-" at the moment Ghini initializes it. So all you need is adding Species "
-"and Accessions, in this order."
-msgstr ""
-
-#: ../../goal.rst:168
-msgid ""
-"When placing a physical Plant (relative to an Accession) somewhere in the"
-" garden, you need to describe this \"somewhere\" digitally, as a Location"
-" in the garden."
-msgstr ""
-
-#: ../../goal.rst:177
+#: ../../goal.rst:136
 msgid "Highlights"
 msgstr ""
 
-#: ../../goal.rst:178
+#: ../../goal.rst:137
 msgid "not-so-brief list of highlights, meant to whet your appetite."
 msgstr "Não-assim-breve lista de destaques, significado para aguçar o apetite."
 
-#: ../../goal.rst:181
+#: ../../goal.rst:140
 msgid "taxonomic information"
 msgstr "informações taxonômicas"
 
-#: ../../goal.rst:183
+#: ../../goal.rst:142
 msgid ""
 "When you first start Ghini, and connect to a database, Ghini will "
 "initialize the database not only with all tables it needs to run, but it "
@@ -2439,11 +2636,11 @@ msgid ""
 "at the Missouri Botanical Garden - www.tropicos.org” as a source."
 msgstr ""
 
-#: ../../goal.rst:193
+#: ../../goal.rst:152
 msgid "importing data"
 msgstr "A importar dados…"
 
-#: ../../goal.rst:195
+#: ../../goal.rst:154
 msgid ""
 "Ghini will let you import any data you put in an intermediate json "
 "format. What you import will complete what you already have in the "
@@ -2456,11 +2653,11 @@ msgstr ""
 "profissional para ajudá-lo a transformar seus dados em formato json "
 "intermediário do Ghini."
 
-#: ../../goal.rst:201
+#: ../../goal.rst:160
 msgid "synonyms"
 msgstr ""
 
-#: ../../goal.rst:203
+#: ../../goal.rst:162
 msgid ""
 "Ghini will allow you define synonyms for species, genera, families. Also "
 "this information can be represented in its intermediate json format and "
@@ -2470,11 +2667,11 @@ msgstr ""
 "famílias. Também esta informação pode ser representada no formato json "
 "intermediário e ser importada em um banco de dados existente Ghini."
 
-#: ../../goal.rst:208
+#: ../../goal.rst:167
 msgid "scientific responsible"
 msgstr "científico responsável"
 
-#: ../../goal.rst:210
+#: ../../goal.rst:169
 msgid ""
 "Ghini implements the concept of 'accession', intermediate between "
 "physical plant (or a group thereof) and abstract taxon. Each accession "
@@ -2491,11 +2688,11 @@ msgstr ""
 "as verificações podem ser encontradas em banco de dados, com carimbo e "
 "assinatura."
 
-#: ../../goal.rst:218
+#: ../../goal.rst:177
 msgid "helps off-line identification"
 msgstr "ajuda a identificação off-line"
 
-#: ../../goal.rst:220
+#: ../../goal.rst:179
 msgid ""
 "Ghini allows you associate pictures to physical plants, this can help "
 "recognize the plant in case a sticker is lost, or help taxonomic "
@@ -2506,11 +2703,11 @@ msgstr ""
 "identificação taxonômica de ajuda se um taxonomista não está disponível "
 "em todos os tempos."
 
-#: ../../goal.rst:225
+#: ../../goal.rst:184
 msgid "exports and reports"
 msgstr "exportações e relatórios"
 
-#: ../../goal.rst:227
+#: ../../goal.rst:186
 msgid ""
 "Ghini will let you export a report in whatever textual format you need. "
 "It uses a powerful templating engine named 'mako', which will allow you "
@@ -2523,11 +2720,11 @@ msgstr ""
 "qualquer formato que você precisa. Uma vez instalado, alguns exemplos "
 "estão disponíveis no subdiretório de mako."
 
-#: ../../goal.rst:233
+#: ../../goal.rst:192
 msgid "annotate your info"
 msgstr "anotar sua informação"
 
-#: ../../goal.rst:235
+#: ../../goal.rst:194
 msgid ""
 "You can associate notes to plants, accessions, species, .... Notes can be"
 " categorized and used in searches or reports."
@@ -2535,19 +2732,19 @@ msgstr ""
 "Você pode associar notas plantas, accesões, espécie,... Notas podem ser "
 "categorizadas e usadas em pesquisas ou relatórios."
 
-#: ../../goal.rst:239
+#: ../../goal.rst:198
 msgid "garden or herbarium"
 msgstr "jardim ou herbário"
 
-#: ../../goal.rst:241
+#: ../../goal.rst:200
 msgid "Management of plant locations."
 msgstr "Gestão dos locais de planta."
 
-#: ../../goal.rst:244
+#: ../../goal.rst:203
 msgid "database history"
 msgstr "história do banco de dados"
 
-#: ../../goal.rst:246
+#: ../../goal.rst:205
 msgid ""
 "All changes in the database is stored in the database, as history log. "
 "All changes are 'signed' and time-stamped.  Ghini makes it easy to "
@@ -2560,11 +2757,11 @@ msgstr ""
 "alterações no último dia de trabalho ou semana, ou em qualquer período "
 "específico no passado."
 
-#: ../../goal.rst:252
+#: ../../goal.rst:211
 msgid "simple and powerful search"
 msgstr "pesquisa simples e poderosa"
 
-#: ../../goal.rst:254
+#: ../../goal.rst:213
 msgid ""
 "Ghini allows you search the database using simple keywords, e.g.: the "
 "name of the location or a genus name, or you can write more complex "
@@ -2576,11 +2773,11 @@ msgstr ""
 "escrever consultas mais complexas, que não alcançam a complexidade do "
 "SQL, mas permitem um nível decente de detalhe localizando seus dados."
 
-#: ../../goal.rst:260
+#: ../../goal.rst:219
 msgid "database agnostic"
 msgstr "independente de banco de dados"
 
-#: ../../goal.rst:262
+#: ../../goal.rst:221
 msgid ""
 "Ghini is not a database management system, so it does not reinvent the "
 "wheel. It works storing its data in a SQL database, and it will connect "
@@ -2593,37 +2790,24 @@ msgid ""
 "institution web site."
 msgstr ""
 
-#: ../../goal.rst:273
+#: ../../goal.rst:232
 msgid "language agnostic"
 msgstr "independente de idioma"
 
-#: ../../goal.rst:275
+#: ../../goal.rst:234
 msgid ""
 "The program was born in English and all its technical and user "
-"documentation is first written in that language. Both technical and user "
-"documentation use ``gettext``, an advanced tool for semi-automatic "
-"translation."
+"documentation is still only in that language, but the program itself has "
+"been translated and can be used in various other languages, including "
+"Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
+"American languages, as well as Swedish (100%) and Czech (100%)."
 msgstr ""
 
-#: ../../goal.rst:279
-msgid ""
-"The program has been translated and can be used in various other "
-"languages, including Spanish (97%), French (82%), Portuguese (71%), to "
-"name some Southern American languages, as well as Ukrainian (100%) and "
-"Czech (71%)."
-msgstr ""
-
-#: ../../goal.rst:283
-msgid ""
-"Translation of documentation goes a bit slower, with only Ukrainian, "
-"Spanish and Italian at more than 50%."
-msgstr ""
-
-#: ../../goal.rst:287
+#: ../../goal.rst:241
 msgid "platform agnostic"
 msgstr "independente de plataforma"
 
-#: ../../goal.rst:289
+#: ../../goal.rst:243
 msgid ""
 "Installing Ghini on Windows is an easy and linear process, it will not "
 "take longer than 10 minutes. Ghini was born on Linux and installing it on"
@@ -2638,11 +2822,11 @@ msgstr ""
 "instalação do Linux em qualquer computador recente da Apple, após algumas"
 " etapas de preparação."
 
-#: ../../goal.rst:296
+#: ../../goal.rst:250
 msgid "easily updated"
 msgstr "facilmente atualizado"
 
-#: ../../goal.rst:298
+#: ../../goal.rst:252
 msgid ""
 "The installation process will produce an updatable installation, where "
 "updating it will take less than one minute. Depending on the amount of "
@@ -2654,11 +2838,11 @@ msgstr ""
 "feedback que recebemos, nós produziremos atualizações todos os dias ou "
 "uma vez em quando."
 
-#: ../../goal.rst:304
+#: ../../goal.rst:258
 msgid "unit tested"
 msgstr "unidade testada"
 
-#: ../../goal.rst:306
+#: ../../goal.rst:260
 msgid ""
 "Ghini is continuously and extensively unit tested, something that makes "
 "regression of functionality close to impossible. Every update is "
@@ -2674,7 +2858,7 @@ msgstr ""
 "tornará difícil para nós divulgar nada que possui uma única falha unidade"
 " de teste."
 
-#: ../../goal.rst:312
+#: ../../goal.rst:266
 msgid ""
 "Most changes and additions we make, come with some extra unit test, which"
 " defines the behaviour and will make any undesired change easily visible."
@@ -2683,11 +2867,11 @@ msgstr ""
 "extra, que define o comportamento e fará qualquer alteração indesejada "
 "facilmente visível."
 
-#: ../../goal.rst:316
+#: ../../goal.rst:270
 msgid "customizable/extensible"
 msgstr ""
 
-#: ../../goal.rst:318
+#: ../../goal.rst:272
 msgid ""
 "Ghini is extensible through plugins and can be customized to suit the "
 "needs of the institution."
@@ -2863,54 +3047,72 @@ msgid "Documentation for Ghini 1.0"
 msgstr "Documentação para Ghini 1.0"
 
 #: ../../index.rst:8
+#, fuzzy
 msgid ""
-"Ghini is an application for managing botanical specimen collections. With"
-" it you can create a searchable database of plant records."
+"Ghini is a suite of applications for managing botanical specimen "
+"collections."
 msgstr ""
 "Ghini é um aplicativo para gerenciamento de coleções de amostras "
 "botânicas. Com ele você pode criar um banco de dados pesquisável de "
 "registros de planta."
 
-#: ../../index.rst:11
+#: ../../index.rst:10
 msgid ""
-"It is `open <http://www.opensource.org>`_ and `free "
-"<http://www.fsf.org>`_ and is released under the `GNU Public License "
-"<http://www.fsf.org/licensing/licenses/gpl.html>`_"
+"**ghini.desktop** lets you create and query a database representing "
+"objects and events in your plant collection."
+msgstr ""
+
+#: ../../index.rst:11
+msgid "**ghini.pocket** puts a snapshot of your database in your handheld device."
+msgstr ""
+
+#: ../../index.rst:12
+msgid "**ghini.web** helps you publish part of your database on the web."
+msgstr ""
+
+#: ../../index.rst:14
+#, fuzzy
+msgid ""
+"All Ghini software is `open <http://www.opensource.org>`_ and `free "
+"<http://www.fsf.org>`_. Our standalone software is released under the "
+"`GNU Public License <http://www.fsf.org/licensing/licenses/gpl.html>`_. "
+"Our client-server software follows the `GNU Affero Public License "
+"<http://www.fsf.org/licensing/licenses/agpl.html>`_."
 msgstr ""
 "É `aberto <http://www.opensource.org>`_ e `gratuito "
 "<http://www.fsf.org>`_ e está distribuído sob a `Licença Pública GNU "
 "<http://www.fsf.org/licensing/licenses/gpl.html>`_  "
 
-#: ../../index.rst:17
+#: ../../index.rst:22
 msgid "Statements"
 msgstr ""
 
-#: ../../index.rst:26
+#: ../../index.rst:31
 msgid "Installing Ghini"
 msgstr "Instalando o Ghini"
 
-#: ../../index.rst:35
+#: ../../index.rst:40
 msgid "User's Guide"
 msgstr ""
 
-#: ../../index.rst:50
+#: ../../index.rst:55
 msgid "Cookbook"
 msgstr ""
 
-#: ../../index.rst:58
+#: ../../index.rst:63
 msgid "Administration"
 msgstr "Administração"
 
-#: ../../index.rst:67
+#: ../../index.rst:72
 #, fuzzy
 msgid "Ghini Development"
 msgstr "Ghini desenvolvimento"
 
-#: ../../index.rst:75
+#: ../../index.rst:80
 msgid "Supporting Ghini"
 msgstr "Apoio Ghini"
 
-#: ../../index.rst:79
+#: ../../index.rst:84
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
@@ -2931,30 +3133,17 @@ msgstr ""
 "máquinas unix, como GNU/Linux e MacOSX, assim como no Windows."
 
 #: ../../installing.rst:7
-msgid "one-liner for hurried users."
+msgid "one-liner for hurried Linux users."
 msgstr ""
 
 #: ../../installing.rst:10
 msgid ""
-"Linux users just download and run `the installation script "
+"Download and run `the installation script "
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
 " You may read the documentation later."
 msgstr ""
 
-#: ../../installing.rst:14
-msgid ""
-"Windows users, start downloading all external dependencies (`git <Direct "
-"link to download git_>`_, `Python <Direct link to download Python_>`_, "
-"`lxml <Direct link to download lxml_>`_, `PyGTK <Direct link to download "
-"PyGTK_>`_, `psycopg2 <Direct link to download psycopg2_>`_), read the "
-"instructions in the meanwhile."
-msgstr ""
-
-#: ../../installing.rst:21
-msgid "Mac users are never in a hurry, are they?"
-msgstr ""
-
-#: ../../installing.rst:23
+#: ../../installing.rst:13
 msgid ""
 "Ghini is maintained by very few people, who focus on enhancing its "
 "functional parts, more than on writing fancy installers. Instead of "
@@ -2968,11 +3157,11 @@ msgstr ""
 "instalação único multi-plataforma. Isto tem algumas grandes vantagens que"
 " você vai aprender a apreciar a medida que vamos."
 
-#: ../../installing.rst:28
+#: ../../installing.rst:18
 msgid "The installation is based on running a script."
 msgstr "A instalação é baseada em um script em execução."
 
-#: ../../installing.rst:30
+#: ../../installing.rst:20
 #, fuzzy
 msgid ""
 "The GNU/Linux script takes care of everything, from dependecies to "
@@ -2981,11 +3170,11 @@ msgstr ""
 "O script de GNU/Linux cuida de tudo, desde dependecies a instalação para "
 "todos os usuários."
 
-#: ../../installing.rst:32
+#: ../../installing.rst:22
 msgid "The Windows script needs you to first install a couple things."
 msgstr "O script do Windows precisa que primeiro instalar um par de coisas."
 
-#: ../../installing.rst:33
+#: ../../installing.rst:23
 msgid ""
 "On MacOSX we use the same script as on GNU/Linux. Since OSX has no "
 "default package manager, we install one and we use it before we start the"
@@ -2995,7 +3184,7 @@ msgstr ""
 "tem nenhum Gerenciador de pacotes padrão, podemos instalar um e usá-lo "
 "antes de começar o script."
 
-#: ../../installing.rst:36
+#: ../../installing.rst:26
 msgid ""
 "Following our installation procedure, you will end with Ghini running "
 "within a Python virtual environment, all Python dependencies installed "
@@ -3007,7 +3196,7 @@ msgstr ""
 "instalado localmente, não entrar em conflito com qualquer outro programa "
 "Python, você pode ter em seu sistema."
 
-#: ../../installing.rst:40
+#: ../../installing.rst:30
 msgid ""
 "Dependencies that don't fit in a Python virtual environment are: Python, "
 "virtualenv, GTK+, and PyGTK. Their installation varies per platform."
@@ -3015,7 +3204,7 @@ msgstr ""
 "São dependências que não se encaixam em um ambiente virtual de Python: "
 "Python, virtualenv, GTK e PyGTK. Sua instalação varia por plataforma."
 
-#: ../../installing.rst:43
+#: ../../installing.rst:33
 msgid ""
 "If you later choose to remove Ghini, you simply remove the virtual "
 "environment, which is a directory, with all of its content."
@@ -3023,107 +3212,79 @@ msgstr ""
 "Se você mais tarde decidir remover Ghini, você simplesmente remover o "
 "ambiente virtual, que é um diretório, com todo o seu conteúdo."
 
-#: ../../installing.rst:47
+#: ../../installing.rst:37
 msgid "Installing on GNU/Linux"
 msgstr "Instalar no GNU/Linux"
 
-#: ../../installing.rst:49
+#: ../../installing.rst:39
 #, fuzzy
-msgid "Open a shell terminal window, and follow the following instructions."
+msgid "Open a shell terminal window, and follow these instructions."
 msgstr "Abra uma janela de terminal da shell e siga estas instruções."
 
-#: ../../installing.rst:51
+#: ../../installing.rst:41
 #, fuzzy
-msgid "Download the `devinstall.sh` script:"
+msgid "Download the `devinstall.sh` script and run it::"
 msgstr "Baixe o script 'devinstall.sh' e executá-lo::"
 
-#: ../../installing.rst:55
+#: ../../installing.rst:45
 msgid ""
-"Invoke the script from a terminal window, starting at the directory where"
-" you downloaded it, like this::"
+"Please note that the script will not help you install any extra database "
+"connector. This is not strictly necessary and you can do it at any later "
+"moment."
 msgstr ""
 
-#: ../../installing.rst:60
-msgid "The script will produce quite some output, which you can safely ignore."
+#: ../../installing.rst:48
+msgid "If the script ends without error, you can now start ghini::"
+msgstr ""
+
+#: ../../installing.rst:52
+#, fuzzy
+msgid "or update ghini to the latest released production patch::"
+msgstr "ou atualizar ghini para o último patch lançado em produção::"
+
+#: ../../installing.rst:56
+msgid ""
+"The same script you can use to switch to a different production line. At "
+"the moment it's just `ghini-1.0` and `ghini-1.1`."
+msgstr ""
+
+#: ../../installing.rst:59
+msgid ""
+"on Unity, open a terminal, start ghini, its icon will show up in the "
+"launcher, you can now `lock to launcher` it."
 msgstr ""
 
 #: ../../installing.rst:62
-msgid "global installation"
-msgstr ""
-
-#: ../../installing.rst:65
 msgid ""
-"When almost ready, the installation script will ask you for your "
-"password.  This lets it create a ``ghini`` user group, initialise it to "
-"just yourself, make the just created ``ghini`` script available to the "
-"whole ``ghini`` user group."
+"If you would like to use the default `SQLite <http://sqlite.org/>`_ "
+"database or you don't know what this means then you can skip this step. "
+"If you would like to use a database backend other than the default SQLite"
+" backend then you will also need to install a database connector."
 msgstr ""
 
-#: ../../installing.rst:70
+#: ../../installing.rst:67
 msgid ""
-"If feeling paranoid, you can safely not give your password and interrupt "
-"the script there."
+"If you would like to use a `PostgreSQL <http://www.postgresql.org>`_ "
+"database then activate the virtual environment and install psycopg2 with "
+"the following commands::"
 msgstr ""
 
-#: ../../installing.rst:73
-msgid ""
-"Possibly the main advantage of a global installation is being able to "
-"find Ghini in the application menus of your graphic environment."
-msgstr ""
-
-#: ../../installing.rst:77
-msgid "You can now start ghini by invoking the ``ghini`` script::"
-msgstr ""
-
-#: ../../installing.rst:81
+#: ../../installing.rst:74
 #, fuzzy
 msgid ""
-"You use the same ``ghini`` script to update ghini to the latest released "
-"production patch::"
-msgstr "ou atualizar ghini para o último patch lançado em produção::"
-
-#: ../../installing.rst:86
-msgid "This is what you would do when ghini shows you something like this:"
-msgstr ""
-
-#: ../../installing.rst:90
-msgid ""
-"Users of the global installation will also type ``ghini`` to invoke the "
-"program, but they will get to a different script, located in "
-"``/usr/local/bin``. This globally available ``ghini`` script cannot be "
-"used to update a ghini installation."
-msgstr ""
-
-#: ../../installing.rst:95
-msgid ""
-"Again the same ``ghini`` script lets you install the optional database "
-"connectors: option ``-p`` is for PostgreSQL, option ``-m`` is for "
-"MySQL/MariaDB, but you can also install both at the same time::"
-msgstr ""
-
-#: ../../installing.rst:101
-#, fuzzy
-msgid ""
-"Please beware: you might need solve dependencies. How to do so, depends "
-"on which GNU/Linux flavour you are using. Check with your distribution "
+"You might need solve dependencies. How to do so, depends on which "
+"GNU/Linux flavour you are using. Check with your distribution "
 "documentation."
 msgstr ""
 "Você pode precisar resolver dependências. Como fazer isso, depende de "
 "qual sabor de GNU/Linux você está usando. Verifique com sua documentação "
 "de distribuição."
 
-#: ../../installing.rst:105
-msgid ""
-"You can also use the ``ghini`` script to switch to a different production"
-" line.  At the moment ``1.0`` is the stable one, but you can select "
-"``1.1`` if you want to help us with its development::"
-msgstr ""
-
-#: ../../installing.rst:111
+#: ../../installing.rst:77
 msgid "beginner's note"
 msgstr ""
 
-#: ../../installing.rst:114
+#: ../../installing.rst:80
 msgid ""
 "To run a script, first make sure you note down the name of the directory "
 "to which you have downloaded the script, then you open a terminal window "
@@ -3136,49 +3297,50 @@ msgstr ""
 "espaço e o nome completo do script incluindo o nome do diretório e bateu "
 "na tecla enter."
 
-#: ../../installing.rst:120
+#: ../../installing.rst:86
 msgid "technical note"
 msgstr ""
 
-#: ../../installing.rst:123
-msgid "You can study the script to see what steps if runs for you."
-msgstr ""
-
-#: ../../installing.rst:125
+#: ../../installing.rst:89
 msgid ""
-"In short it will install dependencies which can't be satisfied in a "
-"virtual environment, then it will create a virtual environment named "
-"``ghide``, use git to download the sources to a directory named "
+"You can study the script to see what steps if runs for you. In short it "
+"will install dependencies which can't be satisfied in a virtual "
+"environment, then it will create a virtual environment named ``ghide``, "
+"use git to download the sources to a directory named "
 "``~/Local/github/Ghini/ghini.desktop``, and connect this git checkout to "
 "the ``ghini-1.0`` branch (this you can consider a production line), it "
 "then builds ghini, downloading all remaining dependencies in the virtual "
-"environment, and finally it creates the ``ghini`` startup script."
+"environment, and finally it creates a startup script. If you have "
+"``sudo`` permissions, it will be placed in ``/usr/local/bin``, otherwise "
+"in your ``~/bin`` folder. Again if you"
 msgstr ""
 
-#: ../../installing.rst:133
-msgid ""
-"If you have ``sudo`` permissions, it will be placed in "
-"``/usr/local/bin``, otherwise in your ``~/bin`` folder."
-msgstr ""
-
-#: ../../installing.rst:137 ../../installing.rst:215 ../../installing.rst:357
+#: ../../installing.rst:102 ../../installing.rst:156 ../../installing.rst:310
+#: ../../installing.rst:346
 msgid "Next..."
 msgstr ""
 
-#: ../../installing.rst:141
+#: ../../installing.rst:106
 msgid "Installing on MacOSX"
 msgstr "Instalação no MacOSX"
 
-#: ../../installing.rst:143
+#: ../../installing.rst:108
 #, fuzzy
 msgid ""
-"Being macOS a unix environment, most things will work the same as on "
+"Being MacOSX a unix environment, most things will work the same as on "
 "GNU/Linux (sort of)."
 msgstr ""
 "Sendo MacOSX um ambiente unix, a maioria das coisas vai funcionar igual "
 "no GNU/Linux (tipo de)."
 
-#: ../../installing.rst:146
+#: ../../installing.rst:111
+msgid ""
+"Last time we tested, some of the dependencies could not be installed on "
+"MacOSX 10.5 and we assume similar problems would also show on older OSX "
+"versions.  Ghini has been successfully tested with 10.7, 10.9 and 10.12."
+msgstr ""
+
+#: ../../installing.rst:115
 msgid ""
 "First of all, you need things which are an integral part of a unix "
 "environment, but which are missing in a off-the-shelf mac:"
@@ -3186,7 +3348,7 @@ msgstr ""
 "Em primeiro lugar, você precisa de coisas que são parte integrante de um "
 "ambiente unix, mas que estão faltando em um mac de prateleira:"
 
-#: ../../installing.rst:149
+#: ../../installing.rst:118
 msgid ""
 "developers tools: xcode. check the wikipedia page for the version "
 "supported on your mac."
@@ -3194,48 +3356,18 @@ msgstr ""
 "ferramentas de desenvolvedores: xcode. Verifique a página da wikipedia "
 "para a versão suportada no seu mac."
 
-#: ../../installing.rst:151
+#: ../../installing.rst:120
 msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr ""
 "Gerenciador de pacotes: homebrew (tigerbrew para versões mais antigas do "
 "OSX)."
 
-#: ../../installing.rst:153
+#: ../../installing.rst:122
 #, fuzzy
-msgid "Installation on older macOS."
-msgstr "Os passos de instalação no Windows:"
-
-#: ../../installing.rst:156
-msgid ""
-"Every time we tested, we could only solve all dependencies on the two or "
-"three most recent macOS versions.  In April 2015 this excluded macOS 10.6"
-" and older.  In September 2017 this excluded macOS 10.8 and older.  We "
-"never had a problem with the lastest macOS."
-msgstr ""
-
-#: ../../installing.rst:161
-msgid ""
-"The problem lies with homebrew and some of the packages we rely on. The "
-"message you have to fear looks like this::"
-msgstr ""
-
-#: ../../installing.rst:166
-msgid "The only solution I can offer is: please update your system."
-msgstr ""
-
-#: ../../installing.rst:168
-msgid ""
-"On the bright side, if at any time in the past you did install "
-"ghini.desktop on your older and now unsupported macOS, you will always be"
-" able to update ghini.desktop to the latest version."
-msgstr ""
-
-#: ../../installing.rst:172
-#, fuzzy
-msgid "With the above installed, open a terminal window and run::"
+msgid "with the above installed, open a terminal window and run::"
 msgstr "com o acima instalado, abra uma janela de terminal e execute::"
 
-#: ../../installing.rst:176
+#: ../../installing.rst:126
 msgid ""
 "make sure you understand the problems it reports, and correct them. pygtk"
 " will need xquartz and brew will not solve the dependency automatically. "
@@ -3246,31 +3378,25 @@ msgstr ""
 "automaticamente. Instale o xquartz usando poção ou a maneira que você "
 "prefere::"
 
-#: ../../installing.rst:182
+#: ../../installing.rst:132
 msgid "then install the remaining dependencies::"
 msgstr "em seguida, instale as dependências restantes::"
 
-#: ../../installing.rst:187
+#: ../../installing.rst:137
 msgid "follow all instructions on how to activate what you have installed."
 msgstr "Siga todas as instruções sobre como ativar o que você instalou."
 
-#: ../../installing.rst:189
+#: ../../installing.rst:139
+msgid "Mac running OSX 10.12 —Sierra—"
+msgstr ""
+
+#: ../../installing.rst:142
 msgid ""
-"In particular, make sure you read and understand all reports starting "
-"with ``If you need to have this software``."
+"On OSX 10.12, ``brew`` reports that ``gettext`` is already installed, but"
+" then it won't let us find it. A solution is to run the following line::"
 msgstr ""
 
-#: ../../installing.rst:192
-msgid ""
-"You will need at least the following four lines in your "
-"``~/.bash_profile``::"
-msgstr ""
-
-#: ../../installing.rst:199
-msgid "Activate the profile by sourcing it::"
-msgstr ""
-
-#: ../../installing.rst:203
+#: ../../installing.rst:148
 msgid ""
 "Before we can run ``devinstall.sh`` as on GNU/Linux, we still need "
 "installing a couple of python packages, globally. Do this::"
@@ -3278,7 +3404,7 @@ msgstr ""
 "Antes de correr ' devinstall.sh ' como no GNU/Linux, nós ainda precisamos"
 " instalar alguns pacotes python, globalmente. Fazer isso::"
 
-#: ../../installing.rst:208
+#: ../../installing.rst:153
 msgid ""
 "The rest is just as on a normal unix machine. Read the above GNU/Linux "
 "instructions, follow them, enjoy."
@@ -3286,18 +3412,25 @@ msgstr ""
 "O resto é como em uma máquina unix normal. Leia as instruções acima de "
 "GNU/Linux, segui-los, aproveite."
 
-#: ../../installing.rst:210
-msgid ""
-"As an optional aesthetical step, consider packaging your ``~/bin/ghini`` "
-"script in a `platypus <https://github.com/sveinbjornt/Platypus>`_ "
-"application bundle.  The ``images`` directory contains a 128×128 icon."
-msgstr ""
-
-#: ../../installing.rst:219
+#: ../../installing.rst:160
 msgid "Installing on Windows"
 msgstr "Instalação no Windows"
 
-#: ../../installing.rst:221
+#: ../../installing.rst:162
+msgid ""
+"The current maintainer of ghini.desktop has no interest in learning how "
+"to produce Windows installers, so the Windows installation is here "
+"reduced to the same installation procedure as on Unix (GNU/Linux and "
+"MacOSX)."
+msgstr ""
+
+#: ../../installing.rst:166
+msgid ""
+"Please report any trouble. Help with packaging will be very welcome, in "
+"particular by other Windows users."
+msgstr ""
+
+#: ../../installing.rst:169
 msgid ""
 "The steps described here instruct you on how to install Git, Gtk, Python,"
 " and the python database connectors. With this environment correctly set "
@@ -3309,10 +3442,10 @@ msgstr ""
 "corretamente configurado, o procedimento de instalação Ghini corre como "
 "no GNU/Linux. As etapas finais são novamente Windows específicos."
 
-#: ../../installing.rst:226
+#: ../../installing.rst:174
 #, fuzzy
 msgid ""
-"Ghini has been tested with and is known to work on W-XP, W-7 up to W-10. "
+"Ghini has been tested with and is known to work on W-XP, W-7 and W-8. "
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
@@ -3320,21 +3453,32 @@ msgstr ""
 "Embora ele deve funcionar bem em outras versões do Windows não tem sido "
 "exaustivamente testado."
 
-#: ../../installing.rst:236
+#: ../../installing.rst:178
+msgid ""
+"Direct download links are given for all needed components. They have been"
+" tested in September 2015, but things change with time. If any of the "
+"direct download links stops working, please ring the bell, so we can "
+"update the information here."
+msgstr ""
+
+#: ../../installing.rst:189
 msgid "The installation steps on Windows:"
 msgstr "Os passos de instalação no Windows:"
 
-#: ../../installing.rst:238
+#: ../../installing.rst:191
 #, fuzzy
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
-"``vi``). Grab it from `the Git download area <https://git-"
-"scm.com/download/win>`_."
+"``vi``) from::"
 msgstr ""
 "Baixe e instale o ' git ' (vem com um unix-like ' sh ' e inclui ' vi ') "
 "de::"
 
-#: ../../installing.rst:241
+#: ../../installing.rst:196
+msgid "`Direct link to download git`_"
+msgstr ""
+
+#: ../../installing.rst:198
 msgid ""
 "all default options are fine, except we need git to be executable from "
 "the command prompt:"
@@ -3342,143 +3486,144 @@ msgstr ""
 "todas as opções padrão estão bem, exceto que precisamos git ser "
 "executável no prompt de comando:"
 
-#: ../../installing.rst:246
-msgid ""
-"download and install Python 2.x (32bit). Grab it from the `Python "
-"official site <http://www.python.org>`_."
+#: ../../installing.rst:203
+msgid "download and install Python 2.x (32bit) from::"
 msgstr ""
 
-#: ../../installing.rst:249
+#: ../../installing.rst:207
+msgid "`Direct link to download Python`_"
+msgstr ""
+
+#: ../../installing.rst:209
+msgid ""
+"Ghini has been developed and tested using Python 2.x.  It will definitely"
+" **not** run on Python 3.x.  If you are interested in helping port to "
+"Python 3.x, please contact the Ghini maintainers."
+msgstr ""
+
+#: ../../installing.rst:213
 #, fuzzy
-msgid "When installing Python, do put Python in the PATH:"
+msgid "when installing Python, do put Python in the PATH:"
 msgstr "ao instalar o Python, colocar o Python no caminho:"
 
-#: ../../installing.rst:253
+#: ../../installing.rst:217
 #, fuzzy
 msgid ""
-"download ``pygtk`` from `the official source "
-"<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/>`_. (this requires "
-"32bit python). be sure you download the \"all in one\" version."
+"download ``pygtk`` from the following source. (this requires 32bit "
+"python). be sure you download the \"all in one\" version::"
 msgstr ""
 "Baixe ' pygtk ' da fonte de seguir. (isso requer python de 32 bits). "
 "Certifique-se de que você baixar o \"all no one\" versão::"
 
-#: ../../installing.rst:257
-#, fuzzy
-msgid "Make a complete install, selecting everything:"
-msgstr "fazer uma instalação completa, selecionando tudo:"
-
-#: ../../installing.rst:261
-msgid ""
-"(Possibly necessary, maybe superfluous) install lxml, you can grab this "
-"from `the pypi archives <https://pypi.python.org/pypi/lxml/3.4.4>`_"
+#: ../../installing.rst:222
+msgid "`Direct link to download PyGTK`_"
 msgstr ""
 
-#: ../../installing.rst:264
+#: ../../installing.rst:224
+#, fuzzy
+msgid "make a complete install, selecting everything:"
+msgstr "fazer uma instalação completa, selecionando tudo:"
+
+#: ../../installing.rst:228
+msgid ""
+"(Windows 8.x) please consider this additional step. It is possibly "
+"necessary to avoid the following error on Windows 8.1 installations::"
+msgstr ""
+
+#: ../../installing.rst:235
+msgid "If you skip this step and can confirm you get the error, please inform us."
+msgstr ""
+
+#: ../../installing.rst:237
+msgid "You can download lxml from::"
+msgstr ""
+
+#: ../../installing.rst:241
 msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr "Lembre-se de que você precisa da versão de 32 bits, para o Python 2.7."
 
-#: ../../installing.rst:275
+#: ../../installing.rst:243
+msgid "`Direct link to download lxml`_"
+msgstr ""
+
+#: ../../installing.rst:245
 #, fuzzy
 msgid ""
-"(definitely optional) download and install a database connector other "
-"than ``sqlite3``."
+"(optional) download and install a database connector other than "
+"``sqlite3``."
 msgstr ""
 "(opcional) Baixe e instale um conector de banco de dados que não sejam "
 "'sqlite3 '."
 
-#: ../../installing.rst:278
+#: ../../installing.rst:248
 msgid ""
-"If you plan using PostgreSQL, the best Windows binary library for Python "
-"is `psycopg and is Made in Italy "
-"<http://initd.org/psycopg/docs/install.html>`_."
+"On Windows, it is NOT easy to install ``psycopg2`` from sources, using "
+"pip, so \"avoid the gory details\" and use a pre-compiled pagkage from:"
 msgstr ""
 
-#: ../../installing.rst:282
+#: ../../installing.rst:253
+msgid "`Direct link to download psycopg2`_"
+msgstr ""
+
+#: ../../installing.rst:255
 msgid "**REBOOT**"
 msgstr ""
 
-#: ../../installing.rst:284
+#: ../../installing.rst:257
 msgid "hey, this is Windows, you need to reboot for changes to take effect!"
 msgstr ""
 "Ei, isso é Windows, você precisa reiniciar para que as alterações entrem "
 "em vigor!"
 
-#: ../../installing.rst:286
-msgid ""
-"We're done with the dependecies, now we can download and run the batch "
-"file:"
+#: ../../installing.rst:259
+msgid "download and run (from ``\\system32\\cmd.exe``) the batch file:"
 msgstr ""
 
-#: ../../installing.rst:290
+#: ../../installing.rst:263
 msgid ""
-"Please don't just follow the above link.  Instead: right click, save link"
-" as..."
+"right before you hit the enter key to run the script, your screen might "
+"look like something like this:"
 msgstr ""
 
-#: ../../installing.rst:294
-msgid ""
-"Also make sure you don't let Windows convert the script to a text "
-"document."
-msgstr ""
-
-#: ../../installing.rst:298
-msgid ""
-"Now **Open** the script to run it.  Please note: in the below image, we "
-"have saved the file twice, once letting Windows convert it to a text "
-"document, and again as a Windows Batch File.  Opening the batch file will"
-" run the script.  Opening the text document will show you the code of the"
-" batch file, which isn't going to lead us anywhere."
-msgstr ""
-
-#: ../../installing.rst:306
-msgid ""
-"If you installed everything as described here, the first thing you should"
-" see when you start the installation script is a window like this, and "
-"your computer will be busy during a couple of minutes, showing you what "
-"it is doing."
-msgstr ""
-
-#: ../../installing.rst:313
+#: ../../installing.rst:268
 #, fuzzy
 msgid ""
-"Running ``devinstall.bat`` will pull the ``ghini.desktop`` repository "
-"from github to your home directory, under ``Local\\github\\Ghini``, "
-"checkout the ``ghini-1.0`` production line, create a virtual environment "
-"and install ghini into it."
+"this will pull the ``ghini.desktop`` repository on github to your home "
+"directory, under ``Local\\github\\Ghini``, checkout the ``ghini-1.0`` "
+"production line, create a virtual environment and install ghini into it."
 msgstr ""
 "Isto irá puxar o repositório ' ghini.desktop ' no github para seu "
 "diretório home, sob 'Local\\github\\Ghini ', a linha de produção ' "
 "ghini-1.0 ' check-out, criar um ambiente virtual e instalar ghini nele."
 
-#: ../../installing.rst:318
+#: ../../installing.rst:272
 #, fuzzy
 msgid ""
-"You can also run ``devinstall.bat`` passing it as argument the numerical "
+"you can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
 "Você também pode executar ' devinstall.bat ' passando como argumento a "
 "parte numérica da linha de produção, que você quer seguir."
 
-#: ../../installing.rst:321
+#: ../../installing.rst:275
 #, fuzzy
 msgid ""
-"This is the last installation step that depends, heavily, on a working "
+"this is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
 "Esta é a última etapa de instalação que depende, fortemente, um trabalho "
 "conexão de internet."
 
-#: ../../installing.rst:324
+#: ../../installing.rst:278
 #, fuzzy
 msgid ""
-"The operation can take several minutes to complete, depending on the "
+"the operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
 msgstr ""
 "a operação pode levar vários minutos para ser concluída, dependendo da "
 "velocidade da sua conexão de internet."
 
-#: ../../installing.rst:327
+#: ../../installing.rst:281
 msgid ""
 "the last installation step creates the Ghini group and shortcuts in the "
 "Windows Start Menu, for all users. To do so, you need run a script with "
@@ -3492,19 +3637,19 @@ msgstr ""
 "devinstall-finalize.bat ', ele está certo em sua pasta de início e foi "
 "criado na etapa anterior."
 
-#: ../../installing.rst:335
+#: ../../installing.rst:287
 #, fuzzy
 msgid ""
-"Right-click on it, select run as administrator, confirm you want it to "
-"make changes to your computer.  These changes are in the Start Menu only:"
-" create the Ghini group, place the Ghini shortcut."
+"right-click on it, select run as administrator, confirm you want it to "
+"make changes to your computer. These changes are in the Start Menu only: "
+"create the Ghini group, place the Ghini shortcut."
 msgstr ""
 "botão direito do mouse sobre ele, selecione executar como administrador, "
 "confirme que você quer fazer alterações no seu computador. Essas "
 "alterações são apenas do menu iniciar: criar o grupo Ghini, colocar o "
 "atalho Ghini."
 
-#: ../../installing.rst:339
+#: ../../installing.rst:291
 msgid ""
 "download the batch file you will use to stay up-to-date with the "
 "production line you chose to follow:"
@@ -3512,7 +3657,7 @@ msgstr ""
 "Baixe o arquivo batch que você usará para manter-se actualizado com a "
 "linha de produção, que você escolheu a seguir:"
 
-#: ../../installing.rst:344
+#: ../../installing.rst:296
 msgid ""
 "if you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
@@ -3523,28 +3668,75 @@ msgstr ""
 "alerta de qualquer mais recente ghini liberar dentro de sua linha de "
 "produção escolhida."
 
-#: ../../installing.rst:348
+#: ../../installing.rst:300
 #, fuzzy
 msgid ""
 "any time you want to update your installation, just start the command "
-"prompt and run ``ghini-update.bat``, it will hardly take one minute."
+"prompt and run ``ghini-update.bat``"
 msgstr ""
 "sempre que quiser atualizar sua instalação, apenas inicie o prompt de "
 "comando e execute o ' ghini-Update. bat '"
 
-#: ../../installing.rst:351
+#: ../../installing.rst:303
 #, fuzzy
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
-"<http://xmlgraphics.apache.org/fop/>`_.  After extracting the FOP archive"
-" you will need to include the directory you extracted to in your PATH."
+"<http://xmlgraphics.apache.org/fop/>`_. After extracting the FOP archive "
+"you will need to include the directory you extracted to in your PATH."
 msgstr ""
 "Se você gostaria de gerar e imprimir relatórios PDF usando o gerador de "
 "relatórios do Ghini padrão, em seguida, você precisará baixar e instalar "
 "`Apache FOP <http://xmlgraphics.apache.org/fop/>`_. Depois de extrair o "
 "arquivo FOP, você precisará incluir o diretório que você extraiu a em seu"
 " caminho"
+
+#: ../../installing.rst:316
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../installing.rst:318
+msgid "any error related to lxml."
+msgstr ""
+
+#: ../../installing.rst:320
+msgid ""
+"In order to be able to compile lxml, you have to install a C compiler (on"
+" GNU/Linux this would be the ``gcc`` package) and Cython (a Python "
+"specialization, that gets compiled into C code. Note: Cython is not "
+"CPython)."
+msgstr ""
+
+#: ../../installing.rst:325
+msgid ""
+"However, It should not be necessary to compile anything, and ``pip`` "
+"should be able to locate the binary modules in the online libraries."
+msgstr ""
+
+#: ../../installing.rst:328
+msgid "For some reason, this is not the case on Windows 8.1."
+msgstr ""
+
+#: ../../installing.rst:332
+msgid "Please report any other trouble related to the installation of lxml."
+msgstr ""
+
+#: ../../installing.rst:334
+msgid "Couldn't install gdata."
+msgstr ""
+
+#: ../../installing.rst:336
+msgid ""
+"For some reason the Google's gdata package lists itself in the Python "
+"Package Index but doesn't work properly with the easy_install command.  "
+"You can download the latest gdata package from:"
+msgstr ""
+
+#: ../../installing.rst:343
+msgid ""
+"Unzip it and run ``python setup.py installw`` in the folder you unzip it "
+"to."
+msgstr ""
 
 #: ../../propagations.rst:4
 msgid "Dealing with Propagations"
@@ -4340,92 +4532,43 @@ msgstr ""
 #: ../../started.rst:30
 msgid ""
 "When connecting to a database server as one of the above, you have to "
-"manually do the following: Create at least one user; Create your "
-"database; Give at least one user full permissions on your database; If "
-"you plan having more database users: Give one of your users the "
-"``CREATEROLE`` privilege; Consider the user with the ``CREATEROLE`` "
-"privilege as a super-user, not meant to handle data directly; Keep your "
-"super-user credentials in a very safe place."
+"manually create: at least one bauble user, the database you want bauble "
+"to use, and to give at lest one bauble user full permissions on its "
+"database. When this is done, Ghini will be able to proceed, creating the "
+"tables and importing the default data set.  The process is database-"
+"dependent and it falls beyond the scope of this manual."
 msgstr ""
 
-#: ../../started.rst:38
-msgid ""
-"When this is done, Ghini will be able to proceed, creating the tables and"
-" importing the default data set.  The process is database-dependent and "
-"it falls beyond the scope of this manual."
-msgstr ""
-
-#: ../../started.rst:42
+#: ../../started.rst:37
 msgid ""
 "If you already got the chills or sick at your stomach, no need to worry, "
 "just stick with SQLite, you do not miss on features nor performance."
 msgstr ""
 
-#: ../../started.rst:45
-msgid "Some more hints if you need PostgreSQL"
-msgstr ""
-
-#: ../../started.rst:48
-msgid ""
-"Start simple, don't do all at the same time. Review `the online manual "
-"<https://www.postgresql.org/docs/9.4/static/index.html>`_, or download "
-"and study `the offline version "
-"<https://www.postgresql.org/files/documentation/pdf/9.4/postgresql-9.4-A4.pdf>`_."
-msgstr ""
-
-#: ../../started.rst:53
-msgid ""
-"As said above, create a database, a user, make this user the owner of the"
-" database, decide whether you're going to need multiple users, and "
-"preferably reserve a user for database and normal user creation. This "
-"super-user should be your only user with ``CREATEROLE`` privilege."
-msgstr ""
-
-#: ../../started.rst:59
-msgid ""
-"All normal users will need all privileges on all tables and sequences, "
-"something you can do from the :menuselection:`Tools-->Users` menu.  If "
-"you have any difficulty, please `open an issue "
-"<https://github.com/Ghini/ghini.desktop/issues/new>`_ about it."
-msgstr ""
-
-#: ../../started.rst:65
-msgid ""
-"Connect using the ``psql`` interactive terminal.  Create a ``~/.pgpass`` "
-"file (read more about it in `the manual "
-"<https://www.postgresql.org/docs/9.4/static/libpq-pgpass.html>`_), tweak "
-"your ``pg_hba.conf`` and ``postgresql.conf`` files, until you can connect"
-" using the command::"
-msgstr ""
-
-#: ../../started.rst:73
-msgid "With the above setup, connecting from ghini will be an obvious task."
-msgstr ""
-
-#: ../../started.rst:79
+#: ../../started.rst:43
 msgid "Connecting to a database"
 msgstr ""
 
-#: ../../started.rst:81
+#: ../../started.rst:45
 msgid ""
 "When you start Ghini the first thing that comes up is the connection "
 "dialog."
 msgstr ""
 
-#: ../../started.rst:84
+#: ../../started.rst:48
 msgid ""
 "Quite obviously, if this is the first time you start Ghini, you have no "
 "connections yet and Ghini will alert you about it."
 msgstr ""
 
-#: ../../started.rst:89
+#: ../../started.rst:53
 msgid ""
 "This alert will show at first activation and also in the future if your "
 "connections list becomes empty. As it says: click on **Add** to create "
 "your first connection."
 msgstr ""
 
-#: ../../started.rst:95
+#: ../../started.rst:59
 msgid ""
 "Just insert a name for your connection, something meaningful you "
 "associate with the collection to be represented in the database (for "
@@ -4434,41 +4577,41 @@ msgid ""
 "Connection Details will have expanded."
 msgstr ""
 
-#: ../../started.rst:103
+#: ../../started.rst:67
 msgid "**specify the connection details**"
 msgstr ""
 
-#: ../../started.rst:105
+#: ../../started.rst:69
 msgid ""
 "If you do not know what to do here, Ghini will help you stay safe. "
 "Activate the **Use default locations** check box and create your first "
 "connection by clicking on **Connect**."
 msgstr ""
 
-#: ../../started.rst:108
+#: ../../started.rst:72
 msgid ""
 "You may safely skip the remainder of this section for the time being and "
 "continue reading to the following section."
 msgstr ""
 
-#: ../../started.rst:111
+#: ../../started.rst:75
 msgid "**fine-tune the connection details**"
 msgstr ""
 
-#: ../../started.rst:113
+#: ../../started.rst:77
 msgid ""
 "By default Ghini uses the file-based SQLite database.  During the "
 "installation process you had the choice (and you still have after "
 "installation), to add database connectors other than the default SQLite."
 msgstr ""
 
-#: ../../started.rst:117
+#: ../../started.rst:81
 msgid ""
 "In this example, Ghini can connect to SQLite, PostgreSQL and MySQL, but "
 "no connector is available for Oracle or MS SQL Server."
 msgstr ""
 
-#: ../../started.rst:122
+#: ../../started.rst:86
 msgid ""
 "If you use SQLite, all you really need specify is the connection name. If"
 " you let Ghini use the default filename then Ghini creates a database "
@@ -4478,7 +4621,7 @@ msgid ""
 "Windows."
 msgstr ""
 
-#: ../../started.rst:128
+#: ../../started.rst:92
 msgid ""
 "Still with SQLite, you might have received or downloaded a bauble "
 "database, and you want to connect to it. In this case you do not let "
@@ -4486,43 +4629,43 @@ msgid ""
 "location where you saved the Ghini SQLite database file."
 msgstr ""
 
-#: ../../started.rst:133
+#: ../../started.rst:97
 msgid ""
 "If you use a different database connector, the dialog box will look "
 "different and it will offer you the option to fine tune all parameters "
 "needed to connect to the database of your choice."
 msgstr ""
 
-#: ../../started.rst:137
+#: ../../started.rst:101
 msgid ""
 "If you are connecting to an existing database you can continue to :ref"
-":`editing-and-inserting-data` and subsequently :ref:`searching-in-ghini`,"
-" otherwise read on to the following section on initializing a database "
-"for Ghini."
+":`editing-and-inserting-data` and subsequently :ref:`searching-in-"
+"bauble`, otherwise read on to the following section on initializing a "
+"database for Ghini."
 msgstr ""
 
-#: ../../started.rst:142
+#: ../../started.rst:106
 msgid ""
 "If you plan to associate pictures to plants, specify also the *pictures "
 "root* folder. The meaning of this is explained in further detail at :ref"
 ":`plant-pictures` in :ref:`editing-and-inserting-data`."
 msgstr ""
 
-#: ../../started.rst:149
+#: ../../started.rst:113
 msgid "Initialize a database"
 msgstr ""
 
-#: ../../started.rst:151
+#: ../../started.rst:115
 msgid ""
 "First time you open a connection to a database which had never been seen "
 "by Ghini before, Ghini will first display an alert:"
 msgstr ""
 
-#: ../../started.rst:156
+#: ../../started.rst:120
 msgid "immediately followed by a question:"
 msgstr ""
 
-#: ../../started.rst:160
+#: ../../started.rst:124
 msgid ""
 "Be careful when manually specifying the connection parameters: the values"
 " you have entered may refer to an existing database, not intended for use"
@@ -4530,7 +4673,7 @@ msgid ""
 " emptied and all of its content be lost."
 msgstr ""
 
-#: ../../started.rst:165
+#: ../../started.rst:129
 msgid ""
 "If you are sure you want to create a database at this connection then "
 "select \"Yes\". Ghini will then start creating the database tables and "
@@ -4538,7 +4681,7 @@ msgid ""
 " the default data is imported into the database so be patient."
 msgstr ""
 
-#: ../../started.rst:170
+#: ../../started.rst:134
 msgid ""
 "Once your database has been created, configured, initialized, you are "
 "ready to start :ref:`editing-and-inserting-data` and subsequently :ref"
@@ -4563,52 +4706,49 @@ msgstr "Quem está por trás de Ghini"
 
 #: ../../statements.rst:10
 msgid ""
-"Ghini started as a one-man project, by Brett Adams. He started this "
-"software as Bauble, for and at the Belize Botanical Garden, and later on "
-"adapted it to the needs of a couple of other users who asked him. Brett "
-"made Bauble a commons, by releasing it under a GPL license."
+"Ghini is a small set of programs, meant to let collection managers manage"
+" their collection also digitally."
 msgstr ""
-"Ghini começou como um projeto de um homem, por Brett Adams. Ele começou "
-"este software como Bauble, a Belize Jardim Botânico, e, posteriormente, "
-"adaptau-lo às necessidades de um par de outros usuários que perguntou a "
-"ele. Brett fez Bauble uma commons, por liberá-lo sob uma licença GPL."
 
-#: ../../statements.rst:15
+#: ../../statements.rst:13
+msgid ""
+"Ghini was born back in 2004 as Bauble, at the Belize Botanical Garden. It"
+" was later adapted to the needs of a few more gardens. Brett Adams, the "
+"original programmer, made this software a commons, by releasing it under "
+"a GPL license."
+msgstr ""
+
+#: ../../statements.rst:18
+msgid ""
+"After years of stagnation Mario Frasca revived the project, and rebranded"
+" it as Ghini in honour of Luca Ghini, founder of the first European "
+"botanic garden and herbarium. Mario Frasca started advocating, "
+"travelling, distributing, developing, expanding, redefining, documenting "
+"it, and it is now Mario Frasca writing this, looking for users, "
+"requesting feedback."
+msgstr ""
+
+#: ../../statements.rst:24
 #, fuzzy
 msgid ""
-"After some years of stagnation Mario Frasca took responsibility of "
-"updating Bauble, rebranded it to Ghini, in honour of Luca Ghini, started "
-"advocating, travelling, distributing, developing, documenting it, and it "
-"is now Mario Frasca writing this, enhancing the software, looking for "
-"users, requesting feedback..."
-msgstr ""
-"Depois de alguns anos de estagnação Mario Frasca assumiu a "
-"responsabilidade de atualizar Bauble, rebatizada para Ghini, em honra de "
-"Luca Ghini, começou adocating, a viajar, a distribuição, o "
-"desenvolvimento, a documentação, e é agora Mario Frasca escrevendo isso, "
-"melhorar o software, procurando por usuários, solicitando comentários..."
-
-#: ../../statements.rst:21
-msgid ""
-"So currently behind Ghini there's not only one developer, but much more "
-"importantly, a small but growing global users community."
+"Behind Ghini there's not only one developer, but a small but growing "
+"global users community."
 msgstr ""
 "Assim, atualmente, atrás de Ghini não há apenas um programador, mas muito"
 " mais importante, uma pequena comunidade, pequena mas crescente de "
 "usuários globais."
 
-#: ../../statements.rst:24
+#: ../../statements.rst:27
 #, fuzzy
 msgid ""
 "Translations are provided by volunteers who mostly stay behind the "
-"scenes, translating a couple of missing terms or sentences, and "
-"disappearing again."
+"scenes, translating missing terms or sentences, and disappearing again."
 msgstr ""
 "As traduções são fornecidas por voluntários que ficam principalmente do "
 "por trás das cenas, traduzindo algumos termos ou frases faltando e "
 "desaparecer novamente."
 
-#: ../../statements.rst:27
+#: ../../statements.rst:30
 msgid ""
 "To make things clearer when we speak of Ghini, but should—and in this "
 "document we will—indicate whether it's Ghini(the software), or Ghini(the "
@@ -4618,54 +4758,42 @@ msgstr ""
 "neste documento, vamos—indicar se é Ghini(software), ou Ghini(o povo), a "
 "menos que, obviamente, queremos dizer ambas as coisas."
 
-#: ../../statements.rst:32
+#: ../../statements.rst:35
 msgid "Mission"
 msgstr "Missão"
 
-#: ../../statements.rst:34
-#, fuzzy
+#: ../../statements.rst:37
 msgid ""
-"The Mission Statement is a purpose, it defines the rationale of an entity"
-" and is specific and true. For Ghini, the Mission Statement sets out the "
-"social order to which Ghini is committed, the needs that are satisfied "
-"with Ghini(the software) and with the services of Ghini(the people), the "
-"market in which Ghini develops and its intended public image."
+"Our goal as Ghini Software is to provide free software, of proven "
+"quality, and to let anybody install it if they feel like it.  We also aim"
+" at facilitating access to functional knowledge, in the form of "
+"documentation or by laying the contact among users or between users and "
+"software professionals."
 msgstr ""
-"A Declaração de Missão é uma finalidade, ele define a razão de uma "
-"entidade e é específico e verdadeiro. Para Ghini, a Declaração de Missão "
-"define a ordem social a que Ghini está comprometido, as necessidades que "
-"são satisfeitas com Ghini(o software) e com os serviços de Ghini(o povo),"
-" o mercado em que Ghini desenvolve e o seu propósito de imagem pública."
-
-#: ../../statements.rst:40
-msgid "access to software"
-msgstr "acesso ao software"
-
-#: ../../statements.rst:41
-msgid "access to development"
-msgstr "acesso ao desenvolvimento"
-
-#: ../../statements.rst:42
-msgid "bundling resources"
-msgstr "agregação de recursos"
 
 #: ../../statements.rst:43
-msgid "open source"
-msgstr "código-fonte aberto"
-
-#: ../../statements.rst:44
-msgid "open data"
-msgstr "dados abertos"
-
-#: ../../statements.rst:45
-msgid "community forming"
+msgid ""
+"All our sources, software and documentation, are open and free, and we "
+"welcome and stimulate people to use and to contribute.  To facilitate "
+"community forming, all our platforms can be consulted without "
+"registration. Registration is obviously required if you want to "
+"contribute."
 msgstr ""
 
 #: ../../statements.rst:48
+msgid ""
+"Ghini welcomes the formation of groups of users, bundling forces to "
+"define and finance further development, and we welcome developers "
+"contributing software, from any corner in the world, and we stimulate and"
+" help them comply with the high quality requirements, before we accept "
+"the contributed code in the software sources."
+msgstr ""
+
+#: ../../statements.rst:55
 msgid "Vision"
 msgstr "Visão"
 
-#: ../../statements.rst:50
+#: ../../statements.rst:57
 msgid ""
 "The Vision serves to indicate the way ahead and projects a future image "
 "of what we want our organization to be, in a realistic and attractive "
@@ -4677,31 +4805,31 @@ msgstr ""
 "atraente.  Serve como motivação porque ele visualiza o desafio e a "
 "direção das mudanças necessárias a fim de crescer e prosperar."
 
-#: ../../statements.rst:55
+#: ../../statements.rst:62
 msgid "by the year 2020"
 msgstr "até o ano 2020"
 
-#: ../../statements.rst:56
+#: ../../statements.rst:63
 msgid "reference point"
 msgstr "ponto de referência"
 
-#: ../../statements.rst:57
+#: ../../statements.rst:64
 msgid "community"
 msgstr "comunidade"
 
-#: ../../statements.rst:58
+#: ../../statements.rst:65
 msgid "development"
 msgstr "desenvolvimento"
 
-#: ../../statements.rst:59
+#: ../../statements.rst:66
 msgid "integration with web portal"
 msgstr "integração com o portal da web"
 
-#: ../../statements.rst:60
+#: ../../statements.rst:67
 msgid "geographic information"
 msgstr "informação geográfica"
 
-#: ../../statements.rst:63
+#: ../../statements.rst:70
 msgid "The Ghini family"
 msgstr ""
 
@@ -4712,20 +4840,100 @@ msgstr ""
 #: ../../tagging.rst:4
 msgid ""
 "Tagging is an easy way to give context to an object or create a "
-"collection of object that you want to recall later. For example if you "
-"want to collect a bunch of plants that you later want to create a report "
-"from you can tag them with the string \"for that report i was thinking "
-"about\". You can then select \"for that report i was thinking about\" "
-"from the tags menu to show you all the objects you tagged."
+"collection of object that you want to recall later."
+msgstr ""
+
+#: ../../tagging.rst:7
+msgid ""
+"The power in this tagging action is that you can share this selection "
+"with colleagues, who can act on it, without the need to redo all your "
+"collecting work."
 msgstr ""
 
 #: ../../tagging.rst:11
 msgid ""
-"Tagging can be done two ways. By selecting one or more items in the "
-"search results and pressing Ctrl-T or by selecting "
-":menuselection:`Tag-->Tag Selection` from the menu. If you have selected "
-"multiple items then only that tags that are common to all the selected "
-"items will have a check next to it."
+"For example if you need to print accession labels of otherwise unrelated "
+"plants, you can group the objects by tagging them with the string "
+"\"relabel\". You or one of your colleagues can then select \"relabel\" "
+"from the tags menu, the search view will show all the objects you tagged,"
+" and performing a report will act on the tagged objects."
+msgstr ""
+
+#: ../../tagging.rst:17
+msgid ""
+"Tagging acts on the active selection, that is the items in the search "
+"results which you have selected."
+msgstr ""
+
+#: ../../tagging.rst:20
+msgid ""
+"Please remember: you can select all result rows by pressing ``Ctrl-A``, "
+"you can deselect everything by pressing ``Ctrl-Shift-A``, you can toggle "
+"tagging of a single row by ``Ctrl-Mouse click`` on it."
+msgstr ""
+
+#: ../../tagging.rst:24
+msgid "Once you have an active selection, tagging can be done in two ways:"
+msgstr ""
+
+#: ../../tagging.rst:27
+msgid "dialog box tagging"
+msgstr ""
+
+#: ../../tagging.rst:29
+msgid ""
+"Press ``Ctrl-T`` or select :menuselection:`Tag-->Tag Selection` from the "
+"menu, this activates a window where you can create new tags and apply any"
+" existing tag to the selection."
+msgstr ""
+
+#: ../../tagging.rst:33
+msgid "The tag window is composed of three parts:"
+msgstr ""
+
+#: ../../tagging.rst:35
+msgid ""
+"The upper part mentions the list of objects in your active selection. "
+"This is the list of object of which you are editing the tags;"
+msgstr ""
+
+#: ../../tagging.rst:37
+msgid ""
+"The middle part has a list of all available tags, with a checkbox that "
+"you can activate for applying the tag to or removing the tag from the "
+"selection;"
+msgstr ""
+
+#: ../../tagging.rst:40
+msgid ""
+"The lower part only holds a link to new tag creation, and the Ok button "
+"for closing the dialog box."
+msgstr ""
+
+#: ../../tagging.rst:43
+msgid ""
+"If, when opening the tag dialog box, the active selection holds multiple "
+"items, then only the tags that are common to all the selected items will "
+"have a check next to it.  Tags that only apply to a proper subset of the "
+"active selection will show with an 'undecided' status.  Tags that don't "
+"apply to any object in the active selection will show blank."
+msgstr ""
+
+#: ../../tagging.rst:49
+msgid ""
+"The most recently created tag, or the most recently selected tag becomes "
+"the active tag, and it shows with a check next to it in the tags menu."
+msgstr ""
+
+#: ../../tagging.rst:53
+msgid "windowless tagging"
+msgstr ""
+
+#: ../../tagging.rst:55
+msgid ""
+"Once you have an active tag, pressing ``Ctrl-Y`` applies the active tag "
+"to all objects in the active selection.  ``Ctrl-Shift-Y`` removes the "
+"active tag from all objects in the active selection."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:2
@@ -6399,32 +6607,27 @@ msgid "The Ghini users plugin is only available on PostgreSQL based databases."
 msgstr ""
 
 #: ../../users.rst:7
+#, fuzzy
 msgid ""
-"The Ghini Users Plugin will allow you to create and manage the "
+"The Ghini User's Plugin will allow you to create and manage the "
 "permissions of users for your Ghini database."
 msgstr ""
 "O plugin de usuário Ghini permitirá que você crie e gerencie as "
 "permissões de usuários para seu banco de dados Ghini."
 
-#: ../../users.rst:10
-msgid ""
-"You must log in to your database as a user with ``CREATEROLE`` privilege "
-"in order to manage other users."
-msgstr ""
-
-#: ../../users.rst:14
+#: ../../users.rst:11
 msgid "Creating Users"
 msgstr ""
 
-#: ../../users.rst:15
+#: ../../users.rst:12
 msgid "To create a new user..."
 msgstr ""
 
-#: ../../users.rst:19
+#: ../../users.rst:16
 msgid "Permissions"
 msgstr "Permissões"
 
-#: ../../users.rst:20
+#: ../../users.rst:17
 msgid "Ghini allows read, write and execute permissions."
 msgstr ""
 
@@ -7177,5 +7380,598 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "and::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please refer to the `official "
+#~ "documentation <https://mariadb.com/kb/en/the-mariadb-"
+#~ "library/documentation/>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Backing up and restoring databases is"
+#~ " described in breadth and depth "
+#~ "starting at `this page "
+#~ "<https://mariadb.com/kb/en/the-mariadb-library/backing-"
+#~ "up-and-restoring-databases/>`_."
+#~ msgstr ""
+
+#~ msgid "placeholder section"
+#~ msgstr ""
+
+#~ msgid "what do you need to produce a NSIS installer?"
+#~ msgstr ""
+
+#~ msgid "what dependencies you must satisfy?"
+#~ msgstr ""
+
+#~ msgid "how do you install each of them?"
+#~ msgstr ""
+
+#~ msgid "which is the command to produce the setup.exe?"
+#~ msgstr ""
+
+#~ msgid "how do you publish the installer?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you already know, and all you"
+#~ " want is to do something practical,"
+#~ " check our `user-contributed recipes "
+#~ "<use_cases.html>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the above figure, a simplified "
+#~ "view on the database, the highlighted"
+#~ " blocks are those relative to objects"
+#~ " you definitely need insert in the"
+#~ " database."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We distinguish three main sections in"
+#~ " the database.  Start reading the "
+#~ "graph from the right hand side, "
+#~ "with the relevant **Taxonomy** information,"
+#~ " then step to administering your "
+#~ "**Collection**, and finally consider the "
+#~ "physical **Garden**."
+#~ msgstr ""
+
+#~ msgid "**Accession links Planting to Species**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An ``Accession`` represents the action "
+#~ "of receiving this specific plant "
+#~ "material in the garden. As such, "
+#~ "``Accession`` is an abstract concept, it"
+#~ " links physical living ``Plantings`` "
+#~ "—groups of plants placed each at a"
+#~ " ``Location`` in the garden— to the"
+#~ " corresponding ``Species``. It is not "
+#~ "the same as an acquisition from a"
+#~ " source, because in a single "
+#~ "acquisition you can access material of"
+#~ " more than one species. In other "
+#~ "words: a single aquisition can embark"
+#~ " multiple accessions. An ``Accession`` has"
+#~ " zero or more ``Plantings`` associated "
+#~ "to it (0..n), and it is at "
+#~ "all times connected to exactly 1 "
+#~ "``Species``. Each ``Planting`` belongs to "
+#~ "exactly one ``Accession``, each ``Species``"
+#~ " may have multiple ``Accessions`` relating"
+#~ " to it."
+#~ msgstr ""
+
+#~ msgid "**Accession at the base of the history of your plants**"
+#~ msgstr ""
+
+#~ msgid "**Accession and Verification opinions**"
+#~ msgstr ""
+
+#~ msgid "**Accessing your own Propagations**"
+#~ msgstr "Lidando com material de propagação"
+
+#~ msgid "Hypersimplified view"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "People using Ghini only sporadically may"
+#~ " prefer ignoring the database structure "
+#~ "and look at it as two nested "
+#~ "sequences of objects, each element of"
+#~ " the sequence being necessary to add"
+#~ " element at the next level."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In order to get down to an "
+#~ "Accession, you will need four levels,"
+#~ " as in this example:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A quite complete set of Families "
+#~ "and Genera are inserted in your "
+#~ "database at the moment Ghini initializes"
+#~ " it. So all you need is adding"
+#~ " Species and Accessions, in this "
+#~ "order."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When placing a physical Plant (relative"
+#~ " to an Accession) somewhere in the"
+#~ " garden, you need to describe this"
+#~ " \"somewhere\" digitally, as a Location "
+#~ "in the garden."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The program was born in English "
+#~ "and all its technical and user "
+#~ "documentation is first written in that"
+#~ " language. Both technical and user "
+#~ "documentation use ``gettext``, an advanced "
+#~ "tool for semi-automatic translation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The program has been translated and "
+#~ "can be used in various other "
+#~ "languages, including Spanish (97%), French "
+#~ "(82%), Portuguese (71%), to name some"
+#~ " Southern American languages, as well "
+#~ "as Ukrainian (100%) and Czech (71%)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Translation of documentation goes a bit"
+#~ " slower, with only Ukrainian, Spanish "
+#~ "and Italian at more than 50%."
+#~ msgstr ""
+
+#~ msgid "one-liner for hurried users."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Linux users just download and run "
+#~ "`the installation script "
+#~ "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
+#~ " You may read the documentation "
+#~ "later."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Windows users, start downloading all "
+#~ "external dependencies (`git <Direct link "
+#~ "to download git_>`_, `Python <Direct "
+#~ "link to download Python_>`_, `lxml "
+#~ "<Direct link to download lxml_>`_, "
+#~ "`PyGTK <Direct link to download "
+#~ "PyGTK_>`_, `psycopg2 <Direct link to "
+#~ "download psycopg2_>`_), read the instructions"
+#~ " in the meanwhile."
+#~ msgstr ""
+
+#~ msgid "Mac users are never in a hurry, are they?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Invoke the script from a terminal "
+#~ "window, starting at the directory where"
+#~ " you downloaded it, like this::"
+#~ msgstr ""
+
+#~ msgid "The script will produce quite some output, which you can safely ignore."
+#~ msgstr ""
+
+#~ msgid "global installation"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When almost ready, the installation "
+#~ "script will ask you for your "
+#~ "password.  This lets it create a "
+#~ "``ghini`` user group, initialise it to"
+#~ " just yourself, make the just created"
+#~ " ``ghini`` script available to the "
+#~ "whole ``ghini`` user group."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If feeling paranoid, you can safely "
+#~ "not give your password and interrupt "
+#~ "the script there."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Possibly the main advantage of a "
+#~ "global installation is being able to "
+#~ "find Ghini in the application menus "
+#~ "of your graphic environment."
+#~ msgstr ""
+
+#~ msgid "You can now start ghini by invoking the ``ghini`` script::"
+#~ msgstr ""
+
+#~ msgid "This is what you would do when ghini shows you something like this:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Users of the global installation will"
+#~ " also type ``ghini`` to invoke the"
+#~ " program, but they will get to "
+#~ "a different script, located in "
+#~ "``/usr/local/bin``. This globally available "
+#~ "``ghini`` script cannot be used to "
+#~ "update a ghini installation."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Again the same ``ghini`` script lets "
+#~ "you install the optional database "
+#~ "connectors: option ``-p`` is for "
+#~ "PostgreSQL, option ``-m`` is for "
+#~ "MySQL/MariaDB, but you can also install"
+#~ " both at the same time::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also use the ``ghini`` "
+#~ "script to switch to a different "
+#~ "production line.  At the moment ``1.0``"
+#~ " is the stable one, but you can"
+#~ " select ``1.1`` if you want to "
+#~ "help us with its development::"
+#~ msgstr ""
+
+#~ msgid "You can study the script to see what steps if runs for you."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In short it will install dependencies"
+#~ " which can't be satisfied in a "
+#~ "virtual environment, then it will create"
+#~ " a virtual environment named ``ghide``, "
+#~ "use git to download the sources to"
+#~ " a directory named "
+#~ "``~/Local/github/Ghini/ghini.desktop``, and connect "
+#~ "this git checkout to the ``ghini-1.0``"
+#~ " branch (this you can consider a "
+#~ "production line), it then builds ghini,"
+#~ " downloading all remaining dependencies in"
+#~ " the virtual environment, and finally "
+#~ "it creates the ``ghini`` startup script."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you have ``sudo`` permissions, it "
+#~ "will be placed in ``/usr/local/bin``, "
+#~ "otherwise in your ``~/bin`` folder."
+#~ msgstr ""
+
+#~ msgid "Installation on older macOS."
+#~ msgstr "Os passos de instalação no Windows:"
+
+#~ msgid ""
+#~ "Every time we tested, we could "
+#~ "only solve all dependencies on the "
+#~ "two or three most recent macOS "
+#~ "versions.  In April 2015 this excluded"
+#~ " macOS 10.6 and older.  In September"
+#~ " 2017 this excluded macOS 10.8 and"
+#~ " older.  We never had a problem "
+#~ "with the lastest macOS."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The problem lies with homebrew and "
+#~ "some of the packages we rely on."
+#~ " The message you have to fear "
+#~ "looks like this::"
+#~ msgstr ""
+
+#~ msgid "The only solution I can offer is: please update your system."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the bright side, if at any "
+#~ "time in the past you did install"
+#~ " ghini.desktop on your older and now"
+#~ " unsupported macOS, you will always "
+#~ "be able to update ghini.desktop to "
+#~ "the latest version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In particular, make sure you read "
+#~ "and understand all reports starting with"
+#~ " ``If you need to have this "
+#~ "software``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You will need at least the "
+#~ "following four lines in your "
+#~ "``~/.bash_profile``::"
+#~ msgstr ""
+
+#~ msgid "Activate the profile by sourcing it::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As an optional aesthetical step, "
+#~ "consider packaging your ``~/bin/ghini`` script"
+#~ " in a `platypus "
+#~ "<https://github.com/sveinbjornt/Platypus>`_ application "
+#~ "bundle.  The ``images`` directory contains "
+#~ "a 128×128 icon."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "download and install Python 2.x (32bit)."
+#~ " Grab it from the `Python official"
+#~ " site <http://www.python.org>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(Possibly necessary, maybe superfluous) "
+#~ "install lxml, you can grab this "
+#~ "from `the pypi archives "
+#~ "<https://pypi.python.org/pypi/lxml/3.4.4>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you plan using PostgreSQL, the "
+#~ "best Windows binary library for Python"
+#~ " is `psycopg and is Made in "
+#~ "Italy <http://initd.org/psycopg/docs/install.html>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We're done with the dependecies, now "
+#~ "we can download and run the batch"
+#~ " file:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please don't just follow the above "
+#~ "link.  Instead: right click, save link"
+#~ " as..."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Also make sure you don't let "
+#~ "Windows convert the script to a "
+#~ "text document."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Now **Open** the script to run it."
+#~ "  Please note: in the below image,"
+#~ " we have saved the file twice, "
+#~ "once letting Windows convert it to "
+#~ "a text document, and again as a"
+#~ " Windows Batch File.  Opening the "
+#~ "batch file will run the script.  "
+#~ "Opening the text document will show "
+#~ "you the code of the batch file,"
+#~ " which isn't going to lead us "
+#~ "anywhere."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you installed everything as described"
+#~ " here, the first thing you should "
+#~ "see when you start the installation "
+#~ "script is a window like this, and"
+#~ " your computer will be busy during"
+#~ " a couple of minutes, showing you "
+#~ "what it is doing."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When connecting to a database server "
+#~ "as one of the above, you have "
+#~ "to manually do the following: Create "
+#~ "at least one user; Create your "
+#~ "database; Give at least one user "
+#~ "full permissions on your database; If"
+#~ " you plan having more database users:"
+#~ " Give one of your users the "
+#~ "``CREATEROLE`` privilege; Consider the user"
+#~ " with the ``CREATEROLE`` privilege as "
+#~ "a super-user, not meant to handle"
+#~ " data directly; Keep your super-user"
+#~ " credentials in a very safe place."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When this is done, Ghini will be"
+#~ " able to proceed, creating the tables"
+#~ " and importing the default data set."
+#~ "  The process is database-dependent "
+#~ "and it falls beyond the scope of"
+#~ " this manual."
+#~ msgstr ""
+
+#~ msgid "Some more hints if you need PostgreSQL"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Start simple, don't do all at the"
+#~ " same time. Review `the online manual"
+#~ " <https://www.postgresql.org/docs/9.4/static/index.html>`_, "
+#~ "or download and study `the offline "
+#~ "version "
+#~ "<https://www.postgresql.org/files/documentation/pdf/9.4/postgresql-9.4-A4.pdf>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As said above, create a database, "
+#~ "a user, make this user the owner"
+#~ " of the database, decide whether "
+#~ "you're going to need multiple users, "
+#~ "and preferably reserve a user for "
+#~ "database and normal user creation. This"
+#~ " super-user should be your only "
+#~ "user with ``CREATEROLE`` privilege."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All normal users will need all "
+#~ "privileges on all tables and sequences,"
+#~ " something you can do from the "
+#~ ":menuselection:`Tools-->Users` menu.  If you "
+#~ "have any difficulty, please `open an "
+#~ "issue <https://github.com/Ghini/ghini.desktop/issues/new>`_ "
+#~ "about it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Connect using the ``psql`` interactive "
+#~ "terminal.  Create a ``~/.pgpass`` file "
+#~ "(read more about it in `the manual"
+#~ " <https://www.postgresql.org/docs/9.4/static/libpq-"
+#~ "pgpass.html>`_), tweak your ``pg_hba.conf`` "
+#~ "and ``postgresql.conf`` files, until you "
+#~ "can connect using the command::"
+#~ msgstr ""
+
+#~ msgid "With the above setup, connecting from ghini will be an obvious task."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are connecting to an "
+#~ "existing database you can continue to"
+#~ " :ref:`editing-and-inserting-data` and "
+#~ "subsequently :ref:`searching-in-ghini`, "
+#~ "otherwise read on to the following "
+#~ "section on initializing a database for"
+#~ " Ghini."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Ghini started as a one-man "
+#~ "project, by Brett Adams. He started "
+#~ "this software as Bauble, for and "
+#~ "at the Belize Botanical Garden, and "
+#~ "later on adapted it to the needs"
+#~ " of a couple of other users who"
+#~ " asked him. Brett made Bauble a "
+#~ "commons, by releasing it under a "
+#~ "GPL license."
+#~ msgstr ""
+#~ "Ghini começou como um projeto de "
+#~ "um homem, por Brett Adams. Ele "
+#~ "começou este software como Bauble, a "
+#~ "Belize Jardim Botânico, e, posteriormente, "
+#~ "adaptau-lo às necessidades de um "
+#~ "par de outros usuários que perguntou "
+#~ "a ele. Brett fez Bauble uma "
+#~ "commons, por liberá-lo sob uma licença"
+#~ " GPL."
+
+#~ msgid ""
+#~ "After some years of stagnation Mario "
+#~ "Frasca took responsibility of updating "
+#~ "Bauble, rebranded it to Ghini, in "
+#~ "honour of Luca Ghini, started "
+#~ "advocating, travelling, distributing, developing,"
+#~ " documenting it, and it is now "
+#~ "Mario Frasca writing this, enhancing the"
+#~ " software, looking for users, requesting"
+#~ " feedback..."
+#~ msgstr ""
+#~ "Depois de alguns anos de estagnação "
+#~ "Mario Frasca assumiu a responsabilidade "
+#~ "de atualizar Bauble, rebatizada para "
+#~ "Ghini, em honra de Luca Ghini, "
+#~ "começou adocating, a viajar, a "
+#~ "distribuição, o desenvolvimento, a "
+#~ "documentação, e é agora Mario Frasca "
+#~ "escrevendo isso, melhorar o software, "
+#~ "procurando por usuários, solicitando "
+#~ "comentários..."
+
+#~ msgid ""
+#~ "The Mission Statement is a purpose, "
+#~ "it defines the rationale of an "
+#~ "entity and is specific and true. "
+#~ "For Ghini, the Mission Statement sets"
+#~ " out the social order to which "
+#~ "Ghini is committed, the needs that "
+#~ "are satisfied with Ghini(the software) "
+#~ "and with the services of Ghini(the "
+#~ "people), the market in which Ghini "
+#~ "develops and its intended public image."
+#~ msgstr ""
+#~ "A Declaração de Missão é uma "
+#~ "finalidade, ele define a razão de "
+#~ "uma entidade e é específico e "
+#~ "verdadeiro. Para Ghini, a Declaração de"
+#~ " Missão define a ordem social a "
+#~ "que Ghini está comprometido, as "
+#~ "necessidades que são satisfeitas com "
+#~ "Ghini(o software) e com os serviços "
+#~ "de Ghini(o povo), o mercado em que"
+#~ " Ghini desenvolve e o seu propósito"
+#~ " de imagem pública."
+
+#~ msgid "access to software"
+#~ msgstr "acesso ao software"
+
+#~ msgid "access to development"
+#~ msgstr "acesso ao desenvolvimento"
+
+#~ msgid "bundling resources"
+#~ msgstr "agregação de recursos"
+
+#~ msgid "open source"
+#~ msgstr "código-fonte aberto"
+
+#~ msgid "open data"
+#~ msgstr "dados abertos"
+
+#~ msgid "community forming"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tagging is an easy way to give "
+#~ "context to an object or create a"
+#~ " collection of object that you want"
+#~ " to recall later. For example if "
+#~ "you want to collect a bunch of "
+#~ "plants that you later want to "
+#~ "create a report from you can tag"
+#~ " them with the string \"for that "
+#~ "report i was thinking about\". You "
+#~ "can then select \"for that report "
+#~ "i was thinking about\" from the "
+#~ "tags menu to show you all the "
+#~ "objects you tagged."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Tagging can be done two ways. By"
+#~ " selecting one or more items in "
+#~ "the search results and pressing Ctrl-T"
+#~ " or by selecting :menuselection:`Tag-->Tag "
+#~ "Selection` from the menu. If you "
+#~ "have selected multiple items then only"
+#~ " that tags that are common to "
+#~ "all the selected items will have a"
+#~ " check next to it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You must log in to your database"
+#~ " as a user with ``CREATEROLE`` "
+#~ "privilege in order to manage other "
+#~ "users."
 #~ msgstr ""
 
