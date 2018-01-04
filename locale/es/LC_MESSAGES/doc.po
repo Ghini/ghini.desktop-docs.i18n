@@ -17,6 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.19-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -3281,7 +3283,7 @@ msgstr "Abra una ventana de terminal, y siga las instrucciones siguientes."
 
 #: ../../installing.rst:41
 msgid "Download the `devinstall.sh` script and run it::"
-msgstr "Bajar el archivo `devinstall.sh` y ejecutarlo::"
+msgstr "Bajar el archivo `devinstall.sh` y ejecutarlo:"
 
 #: ../../installing.rst:45
 #, fuzzy
@@ -3398,7 +3400,7 @@ msgid ""
 "Being MacOSX a unix environment, most things will work the same as on "
 "GNU/Linux (sort of)."
 msgstr ""
-"Siendo MacOSX una versión de unix, todo funciona como en Linux, pues más "
+"Siendo macOS una versión de unix, todo funciona como en GNU/Linux, pues más "
 "o menos."
 
 #: ../../installing.rst:111
@@ -3434,7 +3436,8 @@ msgstr ""
 
 #: ../../installing.rst:122
 msgid "with the above installed, open a terminal window and run::"
-msgstr "siendo instalado lo de arriba, ejecutar::"
+msgstr ""
+"siendo instalado lo de arriba, abrir una ventana de terminal y ejecutar::"
 
 #: ../../installing.rst:126
 msgid ""
@@ -3552,7 +3555,8 @@ msgstr "Los pasos de instalación en Windows:"
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``) from::"
-msgstr "baje e instale ``git`` desde::"
+msgstr ""
+"descargue e instale ``git` (contiene ``sh`` y ``vi`` como en unix), desde::"
 
 #: ../../installing.rst:196
 msgid "`Direct link to download git`_"
@@ -3585,7 +3589,7 @@ msgstr ""
 
 #: ../../installing.rst:213
 msgid "when installing Python, do put Python in the PATH:"
-msgstr "Cuando instala Python, ponga sus programas en el PATH:"
+msgstr "Cuando instala Python, acuérdese de poner Python en el PATH:"
 
 #: ../../installing.rst:217
 msgid ""
@@ -3601,7 +3605,7 @@ msgstr "_ 'Directo el link para bajarlo de PyGTK'"
 
 #: ../../installing.rst:224
 msgid "make a complete install, selecting everything:"
-msgstr "hágase una instalación completa, incluyéndolo absolutamente todo:"
+msgstr "Hágase una instalación completa, incluyéndolo absolutamente todo:"
 
 #: ../../installing.rst:228
 msgid ""
@@ -3634,7 +3638,7 @@ msgid ""
 "(optional) download and install a database connector other than "
 "``sqlite3``."
 msgstr ""
-"(opcional) descargar e instalar un conector de base de datos además que "
+"(opcional) descargar e instalar un conector de base de datos que no sea "
 "``sqlite3``."
 
 #: ../../installing.rst:248
