@@ -3251,7 +3251,6 @@ msgid ""
 msgstr ""
 
 #: ../../imex.rst:119
-#, fuzzy
 msgid ""
 "In the \"parameter definition\" pane you: select the directory from which"
 " you intend to import pictures; indicate whether to import pictures "
@@ -3265,7 +3264,6 @@ msgstr ""
 "piante; descrivere la regola seguita nel dare nome ai file delle foto."
 
 #: ../../imex.rst:127
-#, fuzzy
 msgid ""
 "In the \"data revision\" pane you are shown a table with as many rows as "
 "the pictures you are importing.  Each row holds as much information as "
@@ -3274,8 +3272,8 @@ msgid ""
 "should be imported."
 msgstr ""
 "La fase di revisione consiste nel visionare una tabella con tante righe "
-"quante le foto da importare.  Ogni riga contiene quanta informazione il "
-"tool ha potuto estrarre dal nome di ciascuna foto.  Si può accettare "
+"quante le foto da importare.  Ogni riga contiene tanta informazione quanto il "
+"tool avrà potuto estrarre dal nome di ciascuna foto.  Si può accettare "
 "ciascun campo così come definito dal tool, e si può indicare se ciascuna "
 "riga va importata o meno."
 
@@ -3284,7 +3282,7 @@ msgid ""
 "In the final \"commit or rollback\" pane you read the logs relative to "
 "your data import, and decide whether to keep them (commit them to the "
 "database), or undo them (rollback the transaction)."
-msgstr ""
+msgstr "la fase finale di \"commit or rollback\" consiste nel visionare il rapporto dell'importazione e decidere se mantenere i cambi (commit), o rifiutarli in blocck (rollback)."
 
 #: ../../imex.rst:139
 msgid ""
@@ -5149,13 +5147,12 @@ msgid ""
 msgstr ""
 
 #: ../../statements.rst:24
-#, fuzzy
 msgid ""
 "Behind Ghini there's not only one developer, but a small but growing "
 "global users community."
 msgstr ""
 "Quindi attualmente dietro Ghini c'è molto di più che solo uno "
-"sviluppatore, cè una piccola ma crescente comunità globale di utenti."
+"sviluppatore, c'è una piccola ma crescente comunità globale di utenti."
 
 #: ../../statements.rst:27
 #, fuzzy
@@ -5164,7 +5161,7 @@ msgid ""
 "scenes, translating missing terms or sentences, and disappearing again."
 msgstr ""
 "Le traduzioni sono fornite da volontari che per lo più rimangono dietro "
-"le quinte, traducendo un paio di termini o di frasi mancanti e scompaiono"
+"le quinte, traducendo termini o frasi mancanti e scompaiono"
 " nuovamente."
 
 #: ../../statements.rst:30
@@ -5391,7 +5388,6 @@ msgid "How to start a program"
 msgstr "Come avviare un programma"
 
 #: ../../use_cases-jbq.rst:19
-#, fuzzy
 msgid ""
 "To start a program given its name, hit the |loose_png| key next to Alt, "
 "or click on |10000000000000300000002F89E0224ADF9EC09E_png|, then start "
@@ -5491,9 +5487,8 @@ msgid "These are the steps to add system users::"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:76
-#, fuzzy
 msgid "— adding a new database user"
-msgstr "Creare un nuovo utente"
+msgstr "— aggiungere un utente del database"
 
 #: ../../use_cases-jbq.rst:79
 msgid ""
@@ -5527,9 +5522,8 @@ msgid "Understanding when to update"
 msgstr "Capire quando aggiornare"
 
 #: ../../use_cases-jbq.rst:111
-#, fuzzy
 msgid "Updating the system"
-msgstr "le prove di scrittura"
+msgstr "Aggiornare il sistema"
 
 #: ../../use_cases-jbq.rst:114
 msgid ""
@@ -5539,9 +5533,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:119
-#, fuzzy
 msgid "Updating ghini"
-msgstr "Appoggiare Ghini"
+msgstr "Aggiornare Ghini"
 
 #: ../../use_cases-jbq.rst:122
 msgid ""
@@ -5657,14 +5650,13 @@ msgstr ""
 "freccia, è possibile tornare alla ultima ricerca."
 
 #: ../../use_cases-jbq.rst:184
-#, fuzzy
 msgid ""
 "With the |100000000000001C0000001FB8A1F75F7A5EF877_png| button, in the "
 "form of a gear, you can start the \"Query Builder\", which helps you "
 "compose complex searches in a simple, graphical way."
 msgstr ""
 "Con il pulsante |100000000000001C0000001FB8A1F75F7A5EF877_png|, un "
-"ingranaggio, è possibile avviare il \"generatore di Query\", che ti aiuta"
+"ingranaggio, è possibile avviare il \"Generatore di Query\", che ti aiuta"
 " a comporre ricerche complesse in modo semplice, grafico."
 
 #: ../../use_cases-jbq.rst:189
@@ -6705,9 +6697,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:852
-#, fuzzy
 msgid "purchase"
-msgstr "caso d'uso"
+msgstr "acquisto"
 
 #: ../../use_cases-jbq.rst:853
 msgid "optional, free text"
