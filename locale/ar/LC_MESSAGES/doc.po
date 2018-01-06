@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-01-06 11:35-0500\n"
+"POT-Creation-Date: 2018-01-06 13:51-0500\n"
 "PO-Revision-Date: 2017-07-02 20:20+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: ar\n"
@@ -2350,6 +2350,15 @@ msgid ""
 "piante; descrivere la regola seguita nel dare nome ai file delle foto."
 msgstr ""
 
+#: ../../imex-it.rst:49
+msgid ""
+"La fase di revisione consiste nel visionare una tabella con tante righe "
+"quante le foto da importare.  Ogni riga contiene quanta informazione il "
+"tool ha potuto estrarre dal nome di ciascuna foto.  Si può accettare "
+"ciascun campo così come definito dal tool, e si può indicare se ciascuna "
+"riga va importata o meno."
+msgstr ""
+
 #: ../../imex.rst:2
 msgid "Importing and Exporting Data"
 msgstr ""
@@ -2514,12 +2523,12 @@ msgstr ""
 
 #: ../../imex.rst:104
 msgid ""
-"The functionality described here can help you using an ordered collection"
-" of plant pictures either to initialize a ghini database, but also for "
-"periodically adding to it."
+"The :menuselection:`Tools-->Import-->Pictures` functionality here "
+"described is meant for importing an ordered collection of plant pictures "
+"either to initialize a ghini database, or for periodically adding to it."
 msgstr ""
 
-#: ../../imex.rst:108
+#: ../../imex.rst:109
 msgid ""
 "Use :menuselection:`Tools-->Import-->Pictures` to activate this import "
 "tool.  The tool is made up of several steps: parameter definition; data "
@@ -2531,7 +2540,7 @@ msgid ""
 "abort— the whole transaction"
 msgstr ""
 
-#: ../../imex.rst:118
+#: ../../imex.rst:119
 msgid ""
 "In the parameter definition pane you: select the directory from which you"
 " are to import pictures; indicate whether to import pictures recursively,"
@@ -2540,7 +2549,7 @@ msgid ""
 "naming picture files."
 msgstr ""
 
-#: ../../imex.rst:124
+#: ../../imex.rst:125
 msgid ""
 "In the data revision pane you are shown a table with as many rows as the "
 "pictures you are importing.  Each row holds as much information as the "
@@ -7363,5 +7372,13 @@ msgstr ""
 #~ "associated to the plants in the "
 #~ "highlighted accession are displayed in "
 #~ "the pictures pane."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The functionality described here can "
+#~ "help you using an ordered collection "
+#~ "of plant pictures either to initialize"
+#~ " a ghini database, but also for "
+#~ "periodically adding to it."
 #~ msgstr ""
 
