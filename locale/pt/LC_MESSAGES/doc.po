@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2018-01-03 19:10-0500\n"
+"POT-Creation-Date: 2018-01-06 11:35-0500\n"
 "PO-Revision-Date: 2017-08-29 22:47+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language: pt\n"
@@ -2236,11 +2236,13 @@ msgid "Pictures"
 msgstr ""
 
 #: ../../editing.rst:195
+#, fuzzy
 msgid ""
 "Just as almost all objects in the Ghini database can have *Notes* "
-"associated to them, Plants can have *Pictures*: next to the tab for "
-"Notes, the Plants editor contains an extra tab called \"Pictures\". You "
-"can associate as many pictures as you might need to a plant."
+"associated to them, Plants and Species can also have *Pictures*: next to "
+"the tab for Notes, the Plant and the Species editors contain an extra tab"
+" called \"Pictures\". You can associate as many pictures as you might "
+"need to a plant and to a species object."
 msgstr ""
 "Assim como quase todos os objetos no Ghini banco de dados pode ter * "
 "notas * associados a eles, as plantas podem ter * fotos *: ao lado do "
@@ -2248,9 +2250,10 @@ msgstr ""
 "\"Pictures\". Você pode associar fotos como muitos como você pode "
 "precisar de uma planta."
 
-#: ../../editing.rst:200
+#: ../../editing.rst:201
+#, fuzzy
 msgid ""
-"When you associate a picture to a plant, the file is copied in the "
+"When you associate a picture to an object, the file is copied in the "
 "*pictures* folder, and a miniature (500x500) is generated and copied in "
 "the `thumbnails` folder inside of the pictures folder."
 msgstr ""
@@ -2258,7 +2261,7 @@ msgstr ""
 "fotos * pasta e uma miniatura (500 x 500) é gerado e copiado na pasta "
 "'Miniaturas' dentro da pasta imagens."
 
-#: ../../editing.rst:204
+#: ../../editing.rst:205
 msgid ""
 "As of Ghini-1.0.62, Pictures are not kept in the database. To ensure "
 "pictures are available on all terminals where you have installed and "
@@ -2270,7 +2273,7 @@ msgstr ""
 "instalado e configurado Ghini, você pode usar uma unidade de rede, ou um "
 "serviço como o Tresorit ou o Dropbox de compartilhamento de arquivos."
 
-#: ../../editing.rst:209
+#: ../../editing.rst:210
 msgid ""
 "Remember that you have configured the pictures root folder when you "
 "specified the details of your database connection. Again, you should make"
@@ -2282,32 +2285,58 @@ msgstr ""
 "certifique-se que a pasta de raiz de fotos é compartilhada com seu "
 "serviço de escolha de compartilhamento de arquivos."
 
-#: ../../editing.rst:214
+#: ../../editing.rst:215
+#, fuzzy
 msgid ""
-"When a Plant in the current selection is highlighted, its pictures are "
-"displayed in the pictures pane, the pane left of the information pane. "
-"When an accession in the selection is highlighted, any picture associated"
-" to the plants in the highlighted accession are displayed in the pictures"
-" pane."
+"When a Plant or a Species in the current selection is highlighted, its "
+"pictures are displayed in the pictures pane, the pane left of the "
+"information pane. When an Accession in the selection is highlighted, any "
+"picture associated to the plants in the highlighted accession are "
+"displayed in the pictures pane."
 msgstr ""
 "Quando uma planta na seleção atual é realçada, suas fotos são exibidas no"
 " painel de fotos, painel da esquerda do painel de informações. Quando uma"
 " accesão na seleção é destacada, qualquer imagem associada às plantas na "
 "accesão de destaque são exibidos no painel de fotos."
 
-#: ../../editing.rst:220
+#: ../../editing.rst:221
+msgid ""
+"In Ghini-1.0, pictures are special notes, with category \"<picture>\", "
+"and text the path to the file, relative to the pictures root folder.  In "
+"the Notes tab, Picture notes will show as normal notes, and you can edit "
+"them without limitations."
+msgstr ""
+
+#: ../../editing.rst:226
+msgid ""
+"A Plant is a physical object, so you associate to it pictures taken of "
+"that individual plant, taken at any relevant development stage of the "
+"plant, possibly helping its identification."
+msgstr ""
+
+#: ../../editing.rst:230
+msgid ""
+"Species are abstract objects, so you would associate to it pictures "
+"showing the characteristic elements of the species, so it makes sense to "
+"associate a flora illustration to it. You can also do that by reference: "
+"go to the Notes tab, add a note and specify as category \"<picture>\", "
+"then in the text field you type the URL for the illustration of your "
+"choice."
+msgstr ""
+
+#: ../../editing.rst:238
 msgid "Locations"
 msgstr ""
 
-#: ../../editing.rst:222
+#: ../../editing.rst:240
 msgid "The Location editor"
 msgstr "O editor de localização"
 
-#: ../../editing.rst:225
+#: ../../editing.rst:243
 msgid "danger zone"
 msgstr ""
 
-#: ../../editing.rst:227
+#: ../../editing.rst:245
 msgid ""
 "The location editor contains an initially hidden section named *danger "
 "zone*. The widgets contained in this section allow the user to merge the "
@@ -2879,6 +2908,75 @@ msgstr ""
 "Ghini é extensível através de plugins e pode ser personalizado para "
 "atender às necessidades da instituição."
 
+#: ../../imex-it.rst:2
+msgid "importare da una base dati generica"
+msgstr ""
+
+#: ../../imex-it.rst:4
+msgid ""
+"Questa funzionalità è oggetto della `issue #127 "
+"<https://github.com/Ghini/ghini.desktop/issues/127>`_, per la quale non "
+"abbiamo ancora una soluzione generica."
+msgstr ""
+
+#: ../../imex-it.rst:8
+msgid ""
+"Dovendo importare dati da una tabella, da un foglio di calcolo, o da un "
+"database non compatibile con ghini, contattare un programmatore."
+msgstr ""
+
+#: ../../imex-it.rst:14
+msgid "importare una collezione di immagini"
+msgstr ""
+
+#: ../../imex-it.rst:16
+msgid ""
+"Una particolare forma di base dati botanica è una collezione di "
+"fotografie, ciascuna chiaramente associata ad una specifica pianta."
+msgstr ""
+
+#: ../../imex-it.rst:20
+msgid ""
+"Anche senza utilizzare un software disegnato per collezioni di foto, è "
+"possibile associare foto ad accessioni attenendosi ad una stessa regola "
+"nel dare nome ai file delle foto."
+msgstr ""
+
+#: ../../imex-it.rst:24
+msgid ""
+"Per esempio, ``2018.0020.1 (4).jpg`` potrebbe essere il nome della quarta"
+" fotografia associata alla pianta numero 1 della ventesima accessione "
+"dell'anno 2018."
+msgstr ""
+
+#: ../../imex-it.rst:28
+msgid ""
+"La funzione qui descritta permette di utilizzare una collezione di foto "
+"per inizializzare una base dati ghini, o per aggiungere dati "
+"periodicamente."
+msgstr ""
+
+#: ../../imex-it.rst:32
+msgid ""
+"Usare il :menuselection:`Tools-->Import-->Pictures` per attivare questo "
+"tool di importazione.  Il tool si compone di più passi: definizione "
+"parametri, revisione e conferma dati, l'azione vera e propria di "
+"importazione, e finalmente la presa visione delle azioni effettuate "
+"durante l'importazione. Nei passi iniziali di definizione e revisione "
+"puoi passare dall'uno all'altro utilizzando i bottoni ``precedente`` o "
+"``seguente``. Una volta effettuata l'importazione, e quindi durante la "
+"revisione delle azioni effettuate, si può solo confermare —o rifiutare— "
+"in blocco la transazione."
+msgstr ""
+
+#: ../../imex-it.rst:43
+msgid ""
+"Nella fase di definizione parametri puoi: selezionare la directory da cui"
+" importare le foto; indicare se l'importazione va effettuata in modo "
+"ricursivo; selezionare o creare l'ubicazione da usare per le nuove "
+"piante; descrivere la regola seguita nel dare nome ai file delle foto."
+msgstr ""
+
 #: ../../imex.rst:2
 msgid "Importing and Exporting Data"
 msgstr "Importar e Exportar Dados"
@@ -3028,7 +3126,7 @@ msgstr ""
 "completo de um domínio, a ser escolhido entre espécies, a accesão, a "
 "planta."
 
-#: ../../imex.rst:70
+#: ../../imex.rst:71
 msgid ""
 "Exporting *Species* will only export the complete taxonomic information "
 "in your database. *Accession* will export all your accessions plus all "
@@ -3041,6 +3139,85 @@ msgstr ""
 "disso, toda a informação taxonômica refere-se: unreferred de táxons não "
 "serão exportados. * Planta * exportará todos os que vivem plantas "
 "(algumas accesão não pode ser incluído), todos referidos locais e táxons."
+
+#: ../../imex.rst:79
+msgid "Importing from a Generic Database"
+msgstr ""
+
+#: ../../imex.rst:81
+msgid ""
+"This functionality is the object of `issue #127 "
+"<https://github.com/Ghini/ghini.desktop/issues/127>`_, for which we have "
+"no generic solution yet."
+msgstr ""
+
+#: ../../imex.rst:85
+msgid ""
+"If you're interested in importing data from some flat file (e.g.: Excel "
+"spreadsheet) or from any database, contact the developers."
+msgstr ""
+
+#: ../../imex.rst:90
+msgid "Importing a Pictures Collection"
+msgstr ""
+
+#: ../../imex.rst:92
+msgid ""
+"We can consider a collection of plant pictures as a particular form of "
+"botanical database, in which each picture is clearly associated with one "
+"specific plant."
+msgstr ""
+
+#: ../../imex.rst:96
+msgid ""
+"Even without using a photo collection software, you can associate "
+"pictures to accessions by following one and the same clear rule when "
+"naming picture files."
+msgstr ""
+
+#: ../../imex.rst:100
+msgid ""
+"For example, ``2018.0020.1 (4) Epidendrum.jpg`` would be the name of the "
+"fourth picture for plant number 1 within accession 2018.0020, identified "
+"to rank genus as an Epidendrum."
+msgstr ""
+
+#: ../../imex.rst:104
+msgid ""
+"The functionality described here can help you using an ordered collection"
+" of plant pictures either to initialize a ghini database, but also for "
+"periodically adding to it."
+msgstr ""
+
+#: ../../imex.rst:108
+msgid ""
+"Use :menuselection:`Tools-->Import-->Pictures` to activate this import "
+"tool.  The tool is made up of several steps: parameter definition; data "
+"revision and confirmation; the import step proper; finally review the "
+"import log.  At the first two steps you can confirm the data and go to "
+"the next step by clicking on the ``next`` button, or you can go back to "
+"the previous step by clicking on the ``prev`` button.  Once the import is"
+" done and you're reviewing the log, you can only either confirm —or "
+"abort— the whole transaction"
+msgstr ""
+
+#: ../../imex.rst:118
+msgid ""
+"In the parameter definition pane you: select the directory from which you"
+" are to import pictures; indicate whether to import pictures recursively,"
+" select or create a location which will be used as default location for "
+"new plants, inform the tool about the rule you've been following when "
+"naming picture files."
+msgstr ""
+
+#: ../../imex.rst:124
+msgid ""
+"In the data revision pane you are shown a table with as many rows as the "
+"pictures you are importing.  Each row holds as much information as the "
+"tool managed to extract from the picture name.  You can review the "
+"information, correct or confirm, and indicate whether or not the row "
+"should be imported."
+msgstr ""
 
 #: ../../index.rst:2
 msgid "Documentation for Ghini 1.0"
