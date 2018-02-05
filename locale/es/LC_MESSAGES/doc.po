@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-03 17:37-0500\n"
-"PO-Revision-Date: 2018-01-08 14:42+0000\n"
+"PO-Revision-Date: 2018-02-06 21:40+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/es/>\n"
@@ -364,7 +364,7 @@ msgstr "rama"
 
 #: ../../building.rst:107
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: ../../building.rst:107
 msgid "ghini.pocket"
@@ -516,7 +516,7 @@ msgstr ""
 
 #: ../../building.rst:175
 msgid "Which way do the translated strings reach our users?"
-msgstr ""
+msgstr "Como hacen nuestras cadenas de texto para llegar a los usuarios?"
 
 #: ../../building.rst:177
 msgid ""
@@ -524,12 +524,17 @@ msgid ""
 "process from Weblate --> GIT --> Ghini Desktop installed on users "
 "computers, or does this require manual steps?"
 msgstr ""
+"Hace poco un traductor me puso esta pregunta, añadiendo: »se trata de un "
+"proceso automático de Weblate a Git al Ghini desktop ya instalado, o "
+"requiere intervención manual?"
 
 #: ../../building.rst:181
 msgid ""
 "The aswer is that the whole interaction is quite complex, and it depends "
 "on the component."
 msgstr ""
+"Es que la interacción es algo más compleja, y depende de cuál componente "
+"estamos considerando."
 
 #: ../../building.rst:184
 msgid ""
@@ -542,6 +547,14 @@ msgid ""
 " strings. These translation tables are generated during the installation "
 "or upgrade process, based on the strings you see on Weblate."
 msgstr ""
+"Hablando de ``ghini.desktop``, cuando haces una instalación global, no sabes "
+"en cual idioma cada usuario utilizará el programa, y cada usuario puede "
+"decidir cambiar su configuración de idioma en cada momento. Por lo tanto, lo "
+"que hacemos es instalar el software en inglés, y a su lado una tabla de "
+"traducción a cada otro idioma, entre que el castellano. Las librerías de "
+"sistema (Android o gtk) saben donde buscar las tablas de las traducciones, "
+"que son generadas durante la instalación o puesta al día, basado en las "
+"cadenas presentes en Weblate."
 
 #: ../../building.rst:193
 msgid ""
@@ -563,6 +576,8 @@ msgid ""
 "users will notice a `new version available` warning and can decide to "
 "ignore it, or to update."
 msgstr ""
+"los usuarios verán el aviso `nueva versión disponible` y deciden si ignorar, "
+"o poner al día."
 
 #: ../../building.rst:207
 msgid ""
@@ -579,6 +594,8 @@ msgid ""
 "For ghini's documentation, it's completely automatic, and all is handled "
 "by readthedocs.org."
 msgstr ""
+"Para la documentación de ghini, el proceso es totalmente automático, "
+"manejado por readthedocs.org."
 
 #: ../../building.rst:217
 msgid "Adding missing unit tests"
@@ -2449,14 +2466,13 @@ msgid ""
 "one ``Accession``, each ``Species`` may have multiple ``Accessions`` "
 "relating to it."
 msgstr ""
-"Una ``Accession`` representa el haber recibido material botánico en el "
-"jardín. Por eso, ``Accession`` es un concepto abstracto, conecta las "
-"``Plantings`` vivas —grupos de plantas puestas en la misma ``Location`` "
-"en el jardín— a la ``Species`` correspondiente. A una ``Accession`` se le"
-" asocian cero o más (0..n) ``Plantings``, y en todo momento está asociada"
-" a exactamente una ``Species``. Cada ``Planting`` pertenece a exactamente"
-" una ``Accession``, cada ``Species`` puede tener cero o más "
-"``Accessions``."
+"Una ``Accession`` representa el evento, abstracto, de la recepción de "
+"material botánico en el jardín, y conecta la ``Plant`` —grupo de plantas "
+"físicas ubicadas en una ``Location`` en el jardín— con la ``Species``. De "
+"una ``Accession`` dependen cero o más ``Plant`` (0..n) y siempre está "
+"conectada a exactamente 1 ``Species``. Cada ``Plant`` pertenece a una sola "
+"``Accession``, cada ``Species`` puede tener asociadas múltiples "
+"``Accession``."
 
 #: ../../goal.rst:59
 msgid ""
@@ -2852,12 +2868,10 @@ msgid ""
 "Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
 "American languages, as well as Swedish (100%) and Czech (100%)."
 msgstr ""
-"El programa Ghini tuvo origen en Ingles y toda su documentación nace en "
-"ese idioma. Sin embargo, tanto el programa cuanto la documentación "
-"utilizan `gettext`, la tecnología más avanzada y difundida para la "
-"traducción del software y de la documentación. Al momento de escribir, la"
-" traducción del programa al castellano está al 86%, la documentación algo"
-" menos que el 20%."
+"El programa nació en inglés y toda su documentación técnica sólo está en ese "
+"idioma. Sin embargo, el programa y su manual del usuario están traducidos en "
+"varios igiomas, entre que el castellano, el portugués y el francés (quedando "
+"en ámbito caribeño), pero también al sueco y el ucraniano."
 
 #: ../../goal.rst:241
 msgid "platform agnostic"
@@ -3116,14 +3130,18 @@ msgid ""
 "**ghini.desktop** lets you create and query a database representing "
 "objects and events in your plant collection."
 msgstr ""
+"**ghini.desktop** le permite crear y consultar una base de datos que "
+"representa objetos y eventos en su colección de plantas."
 
 #: ../../index.rst:11
 msgid "**ghini.pocket** puts a snapshot of your database in your handheld device."
 msgstr ""
+"**ghini.pocket** coloca una instantánea de su base de datos en su "
+"dispositivo de mano."
 
 #: ../../index.rst:12
 msgid "**ghini.web** helps you publish part of your database on the web."
-msgstr ""
+msgstr "**ghini.web** le ayuda a publicar partes de la base datos en el web."
 
 #: ../../index.rst:14
 #, fuzzy
@@ -3285,15 +3303,14 @@ msgid "Download the `devinstall.sh` script and run it::"
 msgstr "Bajar el archivo `devinstall.sh` y ejecutarlo:"
 
 #: ../../installing.rst:45
-#, fuzzy
 msgid ""
 "Please note that the script will not help you install any extra database "
 "connector. This is not strictly necessary and you can do it at any later "
 "moment."
 msgstr ""
-"Nota: El archivo de instalación no bajará ningún conector de base de "
-"datos. Si quiere utilizar otra base de datos diferente que SQLite, tendrá"
-" que instalar un conector extra."
+"Tenga en cuenta que el script no se ocupa de instalar los conectores "
+"opcionales de bases de datos. Estos no son estrictamente necesarios y que "
+"puede hacer en cualquier momento posterior."
 
 #: ../../installing.rst:48
 msgid "If the script ends without error, you can now start ghini::"
