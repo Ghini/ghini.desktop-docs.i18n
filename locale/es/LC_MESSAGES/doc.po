@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-06 16:20-0500\n"
-"PO-Revision-Date: 2018-01-08 14:42+0000\n"
+"PO-Revision-Date: 2018-02-05 21:37+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -363,7 +363,7 @@ msgstr "rama"
 
 #: ../../building.rst:107
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: ../../building.rst:107
 msgid "ghini.pocket"
@@ -520,7 +520,7 @@ msgstr ""
 
 #: ../../building.rst:175
 msgid "Which way do the translated strings reach our users?"
-msgstr ""
+msgstr "Como hacen nuestras cadenas de texto para llegar a los usuarios?"
 
 #: ../../building.rst:177
 msgid ""
@@ -528,12 +528,17 @@ msgid ""
 "process from Weblate --> GIT --> Ghini Desktop installed on users "
 "computers, or does this require manual steps?"
 msgstr ""
+"Hace poco un traductor me puso esta pregunta, añadiendo: »se trata de un "
+"proceso automático de Weblate a Git al Ghini desktop ya instalado, o "
+"requiere intervención manual?"
 
 #: ../../building.rst:181
 msgid ""
 "The aswer is that the whole interaction is quite complex, and it depends "
 "on the component."
 msgstr ""
+"Es que la interacción es algo más compleja, y depende de cuál componente "
+"estamos considerando."
 
 #: ../../building.rst:184
 msgid ""
@@ -546,6 +551,14 @@ msgid ""
 " strings. These translation tables are generated during the installation "
 "or upgrade process, based on the strings you see on Weblate."
 msgstr ""
+"Hablando de ``ghini.desktop``, cuando haces una instalación global, no sabes "
+"en cual idioma cada usuario utilizará el programa, y cada usuario puede "
+"decidir cambiar su configuración de idioma en cada momento. Por lo tanto, lo "
+"que hacemos es instalar el software en inglés, y a su lado una tabla de "
+"traducción a cada otro idioma, entre que el castellano. Las librerías de "
+"sistema (Android o gtk) saben donde buscar las tablas de las traducciones, "
+"que son generadas durante la instalación o puesta al día, basado en las "
+"cadenas presentes en Weblate."
 
 #: ../../building.rst:193
 msgid ""
@@ -567,6 +580,8 @@ msgid ""
 "users will notice a `new version available` warning and can decide to "
 "ignore it, or to update."
 msgstr ""
+"los usuarios verán el aviso `nueva versión disponible` y deciden si ignorar, "
+"o poner al día."
 
 #: ../../building.rst:207
 msgid ""
@@ -583,6 +598,8 @@ msgid ""
 "For ghini's documentation, it's completely automatic, and all is handled "
 "by readthedocs.org."
 msgstr ""
+"Para la documentación de ghini, el proceso es totalmente automático, "
+"manejado por readthedocs.org."
 
 #: ../../building.rst:217
 msgid "Adding missing unit tests"
@@ -2490,6 +2507,13 @@ msgid ""
 "one ``Accession``, each ``Species`` may have multiple ``Accessions`` "
 "relating to it."
 msgstr ""
+"Una ``Accession`` representa el evento, abstracto, de la recepción de "
+"material botánico en el jardín, y conecta la ``Plant`` —grupo de plantas "
+"físicas ubicadas en una ``Location`` en el jardín— con la ``Species``. De "
+"una ``Accession`` dependen cero o más ``Plant`` (0..n) y siempre está "
+"conectada a exactamente 1 ``Species``. Cada ``Plant`` pertenece a una sola "
+"``Accession``, cada ``Species`` puede tener asociadas múltiples "
+"``Accession``."
 
 #: ../../goal.rst:59
 msgid ""
@@ -2882,6 +2906,10 @@ msgid ""
 "Spanish (86%), Portuguese (100%), French (42%), to name some Southern "
 "American languages, as well as Swedish (100%) and Czech (100%)."
 msgstr ""
+"El programa nació en inglés y toda su documentación técnica sólo está en ese "
+"idioma. Sin embargo, el programa y su manual del usuario están traducidos en "
+"varios igiomas, entre que el castellano, el portugués y el francés (quedando "
+"en ámbito caribeño), pero también al sueco y el ucraniano."
 
 #: ../../goal.rst:241
 msgid "platform agnostic"
@@ -3133,6 +3161,9 @@ msgid ""
 "<https://github.com/Ghini/ghini.desktop/issues/127>`_, for which we have "
 "no generic solution yet."
 msgstr ""
+"Esta funcionalidad es objeto de la `issue #127 "
+"<https://github.com/Ghini/ghini.desktop/issues/127>`_, para que todavía no "
+"tenemos solución genérica."
 
 #: ../../imex.rst:85
 msgid ""
@@ -3142,7 +3173,7 @@ msgstr ""
 
 #: ../../imex.rst:90
 msgid "Importing a Pictures Collection"
-msgstr ""
+msgstr "Importar una colección de imágenes"
 
 #: ../../imex.rst:92
 msgid ""
@@ -3150,6 +3181,9 @@ msgid ""
 "botanical database, in which each picture is clearly associated with one "
 "specific plant."
 msgstr ""
+"Podemos mirara a una colección de fotografías de plantas, en que cada una es "
+"claramente asociada a una sola planta, como una forma particular de base de "
+"datos botánicos."
 
 #: ../../imex.rst:96
 msgid ""
@@ -3157,6 +3191,9 @@ msgid ""
 "pictures to accessions by following one and the same clear rule when "
 "naming picture files."
 msgstr ""
+"Aún sin utilizar un software específico para colecciones de fotos, es "
+"posible asociar fotos a accesiones, respetando un mismo estilo en dar nombre "
+"a los archivos."
 
 #: ../../imex.rst:100
 msgid ""
@@ -3164,6 +3201,9 @@ msgid ""
 "fourth picture for plant number 1 within accession 2018.0020, identified "
 "to rank genus as an Epidendrum."
 msgstr ""
+"Por ejemplo, ``2018.0020.1 (4) Epidendrum.jpg`` podría ser el nombre de la "
+"cuarta foto asociada a la planta número 1 de la accesión veinte del año "
+"2018, y está identificada a rango género como Epidendrum."
 
 #: ../../imex.rst:104
 msgid ""
@@ -3171,6 +3211,9 @@ msgid ""
 "described is meant for importing an ordered collection of plant pictures "
 "either to initialize a ghini database, or for periodically adding to it."
 msgstr ""
+"La función :menuselection:`Herramienta-->Importar-->Fotos` aquí descrita "
+"permite de utilizar una colección de fotos para inicializar una base de "
+"datos ghini, o para añadir información de forma periódica."
 
 #: ../../imex.rst:109
 msgid ""
@@ -3183,6 +3226,14 @@ msgid ""
 "you're reviewing the log, you can only either confirm —or abort— the "
 "whole transaction"
 msgstr ""
+"Utilice menuselection:`Herramienta-->Importar-->Fotos` para activar esta "
+"funcionalidad. Una importación se articula en varios pasos: definición de "
+"los parámetros; revisión datos y confirma; el paso de importación mismo; "
+"revisión del informe de importación y confirma. En los dos primeros pasos "
+"puede confirmar los datos e ir al paso siguiente haciendo clic en el botón "
+"``siguiente``, o devolverse al paso anterior oprimiendo el botón ``anterior``"
+".  Una vez realizada la importación y usted está revisando el registro, sólo "
+"puede confirmar, o cancelar, toda la transacción"
 
 #: ../../imex.rst:119
 msgid ""
@@ -3192,6 +3243,11 @@ msgid ""
 "location for new plants; inform the tool about the rule you've been "
 "following when naming picture files."
 msgstr ""
+"En el panel \"definición parámetros\" usted puede: seleccionar el directorio "
+"de que desea importar fotografías; indicar si desea importar fotos de forma "
+"recursiva; seleccionar o crear una ubicación que se utilizará como ubicación "
+"predeterminada para nuevas plantas; describir el estilo seguido para dar "
+"nombre a los archivos."
 
 #: ../../imex.rst:127
 msgid ""
@@ -3234,14 +3290,18 @@ msgid ""
 "**ghini.desktop** lets you create and query a database representing "
 "objects and events in your plant collection."
 msgstr ""
+"**ghini.desktop** le permite crear y consultar una base de datos que "
+"representa objetos y eventos en su colección de plantas."
 
 #: ../../index.rst:11
 msgid "**ghini.pocket** puts a snapshot of your database in your handheld device."
 msgstr ""
+"**ghini.pocket** coloca una instantánea de su base de datos en su "
+"dispositivo de mano."
 
 #: ../../index.rst:12
 msgid "**ghini.web** helps you publish part of your database on the web."
-msgstr ""
+msgstr "**ghini.web** le ayuda a publicar partes de la base datos en el web."
 
 #: ../../index.rst:14
 #, fuzzy
@@ -3410,6 +3470,9 @@ msgid ""
 "connector. This is not strictly necessary and you can do it at any later "
 "moment."
 msgstr ""
+"Tenga en cuenta que el script no se ocupa de instalar los conectores "
+"opcionales de bases de datos. Estos no son estrictamente necesarios y que "
+"puede hacer en cualquier momento posterior."
 
 #: ../../installing.rst:48
 msgid "If the script ends without error, you can now start ghini::"
