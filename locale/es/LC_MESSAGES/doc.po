@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-06 16:20-0500\n"
-"PO-Revision-Date: 2018-02-05 21:37+0000\n"
+"PO-Revision-Date: 2018-02-22 18:53+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-10/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 2.20-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -71,13 +71,12 @@ msgid "Please refer to the official documentation."
 msgstr "Por favor, consulte la documentación oficial."
 
 #: ../../administration.rst:31
-#, fuzzy
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
 " your backup options starts at `chapter_24`_."
 msgstr ""
-"Por favor, consulte la documentación oficial. Una discusión muy completa "
-"de las opciones de copia de seguridad inicia al `capítulo 24 "
+"Por favor, consulte la documentación oficial. Una discusión muy completa de "
+"las opciones de copia de seguridad inicia al `capítulo 24 "
 "<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 
 #: ../../administration.rst:37
@@ -1643,6 +1642,9 @@ msgid ""
 "successfully on Windows 7, 8 and 10.  Windows Vista should also work but "
 "has not been tested."
 msgstr ""
+"Para producir un ejecutable Windows, necesitas Windows.  El metodo aquí "
+"presentado ha sido testado en Windows 7, 8 y 10.  Seguramente también "
+"funciona en Windows Vista pero no lo intentamos."
 
 #: ../../building.rst:731
 msgid ""
@@ -1654,7 +1656,7 @@ msgstr ""
 
 #: ../../building.rst:736
 msgid "py2exe will not work with eggs"
-msgstr ""
+msgstr "py2exe no funciona con eggs"
 
 #: ../../building.rst:739
 msgid ""
@@ -1662,6 +1664,8 @@ msgid ""
 "installed as eggs.  There are several methods to accomplish this, "
 "including:"
 msgstr ""
+"Para producir un ejecutable Windows no debes instalar los paquetes como "
+"eggs.  Hay varios métodos para alcanzarlo, por ejemplo:"
 
 #: ../../building.rst:742
 msgid ""
