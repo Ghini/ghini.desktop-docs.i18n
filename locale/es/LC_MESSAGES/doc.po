@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-03 17:37-0500\n"
-"PO-Revision-Date: 2018-02-06 21:40+0000\n"
+"PO-Revision-Date: 2018-02-23 19:40+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish "
 "<https://hosted.weblate.org/projects/ghini/documentation-11/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.19-dev\n"
+"X-Generator: Weblate 2.20-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -75,9 +75,9 @@ msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
 " your backup options starts at `chapter_24`_."
 msgstr ""
-"Por favor, consulte la documentación oficial. Una discusión muy completa "
-"de las opciones de copia de seguridad inicia \n"
-" en el 'capítulo_24' _."
+"Por favor, consulte la documentación oficial. Una discusión muy completa de "
+"las opciones de copia de seguridad inicia al `capítulo 24 "
+"<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 
 #: ../../administration.rst:37
 msgid "Ghini Configuration"
@@ -1628,6 +1628,9 @@ msgid ""
 "successfully on Windows 7, 8 and 10.  Windows Vista should also work but "
 "has not been tested."
 msgstr ""
+"Para producir un ejecutable Windows, necesitas Windows.  El metodo aquí "
+"presentado ha sido testado en Windows 7, 8 y 10.  Seguramente también "
+"funciona en Windows Vista pero no lo intentamos."
 
 #: ../../building.rst:731
 msgid ""
@@ -1639,7 +1642,7 @@ msgstr ""
 
 #: ../../building.rst:736
 msgid "py2exe will not work with eggs"
-msgstr ""
+msgstr "py2exe no funciona con eggs"
 
 #: ../../building.rst:739
 msgid ""
@@ -1647,6 +1650,8 @@ msgid ""
 "installed as eggs.  There are several methods to accomplish this, "
 "including:"
 msgstr ""
+"Para producir un ejecutable Windows no debes instalar los paquetes como "
+"eggs.  Hay varios métodos para alcanzarlo, por ejemplo:"
 
 #: ../../building.rst:742
 msgid ""
@@ -3117,13 +3122,11 @@ msgid "Documentation for Ghini 1.0"
 msgstr "Documentación de Ghini 1.0"
 
 #: ../../index.rst:8
-#, fuzzy
 msgid ""
 "Ghini is a suite of applications for managing botanical specimen "
 "collections."
 msgstr ""
-"Ghini es un programa para manejar una base de datos que represente una "
-"colección botánica: inserción, búsquedas, informes, et cetera."
+"Ghini es un conjunto de programas para manejar una base de datos botánicas."
 
 #: ../../index.rst:10
 msgid ""
@@ -3144,7 +3147,6 @@ msgid "**ghini.web** helps you publish part of your database on the web."
 msgstr "**ghini.web** le ayuda a publicar partes de la base datos en el web."
 
 #: ../../index.rst:14
-#, fuzzy
 msgid ""
 "All Ghini software is `open <http://www.opensource.org>`_ and `free "
 "<http://www.fsf.org>`_. Our standalone software is released under the "
@@ -3153,8 +3155,10 @@ msgid ""
 "<http://www.fsf.org/licensing/licenses/agpl.html>`_."
 msgstr ""
 "Ghini es `codigo abierto <http://www.opensource.org>`_ y `libre "
-"<http://www.fsf.org>`_ y es distribuido bajo la `GPL, Licencia Pública "
-"GNU <http://www.fsf.org/licensing/licenses/gpl.html>`_"
+"<http://www.fsf.org>`_ y es distribuido bajo la `GPL, Licencia Pública GNU "
+"<http://www.fsf.org/licensing/licenses/gpl.html>`_.  Además, todo el "
+"software que ofrecemos como servicio, está cubierto por la licencia `GNU "
+"Affero <http://www.fsf.org/licensing/licenses/agpl.html>`_."
 
 #: ../../index.rst:22
 msgid "Statements"
