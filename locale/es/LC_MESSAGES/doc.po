@@ -3372,13 +3372,11 @@ msgid "Documentation for Ghini 1.0"
 msgstr "Documentación de Ghini 1.0"
 
 #: ../../index.rst:8
-#, fuzzy
 msgid ""
 "Ghini is a suite of applications for managing botanical specimen "
 "collections."
 msgstr ""
-"Ghini es un programa para manejar una base de datos que represente una "
-"colección botánica: inserción, búsquedas, informes, et cetera."
+"Ghini es un conjunto de programas para manejar una base de datos botánicas."
 
 #: ../../index.rst:10
 msgid ""
@@ -3405,8 +3403,7 @@ msgid ""
 "panels."
 msgstr ""
 
-#: ../../index.rst:17
-#, fuzzy
+#: ../../index.rst:14
 msgid ""
 "All Ghini software is `open <http://www.opensource.org>`_ and `free "
 "<http://www.fsf.org>`_. Our standalone software is released under the "
@@ -3415,8 +3412,10 @@ msgid ""
 "<http://www.fsf.org/licensing/licenses/agpl.html>`_."
 msgstr ""
 "Ghini es `codigo abierto <http://www.opensource.org>`_ y `libre "
-"<http://www.fsf.org>`_ y es distribuido bajo la `GPL, Licencia Pública "
-"GNU <http://www.fsf.org/licensing/licenses/gpl.html>`_"
+"<http://www.fsf.org>`_ y es distribuido bajo la `GPL, Licencia Pública GNU "
+"<http://www.fsf.org/licensing/licenses/gpl.html>`_.  Además, todo el "
+"software que ofrecemos como servicio, está cubierto por la licencia `GNU "
+"Affero <http://www.fsf.org/licensing/licenses/agpl.html>`_."
 
 #: ../../index.rst:24
 msgid "Statements"
