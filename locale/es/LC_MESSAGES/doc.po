@@ -3505,6 +3505,7 @@ msgid ""
 "**ghini.tour** assists garden visitors with a map and spoken virtual "
 "panels."
 msgstr ""
+"**ghini.tour** ofrece al visitante un mapa del jardín, y paneles informativos virtuales."
 
 #: ../../index.rst:17
 msgid ""
