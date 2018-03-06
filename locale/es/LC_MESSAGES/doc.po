@@ -1285,9 +1285,8 @@ msgid ""
 msgstr ""
 
 #: ../../building.rst:606
-#, fuzzy
 msgid "Stream role description"
-msgstr "descripción"
+msgstr "Flujos de datos y sus relevancias"
 
 #: ../../building.rst:611 ../../searching.rst:49 ../../searching.rst:50
 #: ../../searching.rst:54 ../../searching.rst:56
@@ -2405,7 +2404,6 @@ msgid "Pictures"
 msgstr "Fotos"
 
 #: ../../editing.rst:195
-#, fuzzy
 msgid ""
 "Just as almost all objects in the Ghini database can have *Notes* "
 "associated to them, Plants and Species can also have *Pictures*: next to "
@@ -2413,20 +2411,19 @@ msgid ""
 " called \"Pictures\". You can associate as many pictures as you might "
 "need to a plant and to a species object."
 msgstr ""
-"Como casi todos los objetos en el Ghini puede tener base de datos * notas"
-" * asociados a ellos, las plantas pueden tener * fotos *: junto a la "
-"ficha de notas, el editor de plantas contiene una ficha adicional llamada"
-" \"Pictures\". Puede asociar tantos cuadros como necesitará una planta."
+"Como a casi todos los objetos en la basedatos Ghini pueden ser asociadas *notas*,"
+"a plantas y alas especies se pueden asociar *fotos*: al lado de la "
+"ficha de notas, el editor de plantas contiene una ficha adicional "
+" para las fotos. Se pueden asociar tantas fotos quantas usted quiera."
 
 #: ../../editing.rst:201
-#, fuzzy
 msgid ""
 "When you associate a picture to an object, the file is copied in the "
 "*pictures* folder, and a miniature (500x500) is generated and copied in "
 "the `thumbnails` folder inside of the pictures folder."
 msgstr ""
-"Cuando se asocia una imagen a una planta, el archivo se copia en las * "
-"fotos * carpeta, una miniatura (500 x 500) es generado y copiado en la "
+"Al momento de asociar una imagen a una planta, el software copia el archivo en la carpeta de "
+"fotos, mientras una miniatura (500x500) es generada y copiada en la "
 "carpeta 'miniaturas' dentro de la carpeta de fotos."
 
 #: ../../editing.rst:205
@@ -3494,7 +3491,6 @@ msgstr ""
 "representa objetos y eventos en su colección de plantas."
 
 #: ../../index.rst:11
-#, fuzzy
 msgid "**ghini.web** publishes highlights from your database on the web."
 msgstr "**ghini.web** le ayuda a publicar partes de la base datos en el web."
 
