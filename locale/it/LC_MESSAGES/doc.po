@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-05 21:03-0500\n"
+"POT-Creation-Date: 2018-03-05 21:54-0500\n"
 "PO-Revision-Date: 2017-08-16 14:44+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: it\n"
@@ -3449,7 +3449,13 @@ msgid ""
 "panels."
 msgstr ""
 
-#: ../../index.rst:17
+#: ../../index.rst:15
+msgid ""
+"This documentation focuses on ghini.desktop, but it also contains pages "
+"dedicated to using the other components, and to their mutual interaction."
+msgstr ""
+
+#: ../../index.rst:20
 msgid ""
 "All Ghini software is `open <http://www.opensource.org>`_ and `free "
 "<http://www.fsf.org>`_. Our standalone software is released under the "
@@ -3464,35 +3470,35 @@ msgstr ""
 "la licenza `GNU Affero Public License "
 "<http://www.fsf.org/licensing/licenses/agpl.html>`_."
 
-#: ../../index.rst:24
+#: ../../index.rst:27
 msgid "Statements"
 msgstr ""
 
-#: ../../index.rst:33
+#: ../../index.rst:36
 msgid "Installing Ghini"
 msgstr "Istallare Ghini"
 
-#: ../../index.rst:42
+#: ../../index.rst:45
 msgid "User's Guide"
 msgstr ""
 
-#: ../../index.rst:57
+#: ../../index.rst:60
 msgid "Cookbook"
 msgstr ""
 
-#: ../../index.rst:65
+#: ../../index.rst:68
 msgid "Administration"
 msgstr "Amministrazione"
 
-#: ../../index.rst:74
+#: ../../index.rst:77
 msgid "Ghini Development"
 msgstr "Sviluppo di Ghini"
 
-#: ../../index.rst:82
+#: ../../index.rst:85
 msgid "Supporting Ghini"
 msgstr "Appoggiare Ghini"
 
-#: ../../index.rst:86
+#: ../../index.rst:89
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"

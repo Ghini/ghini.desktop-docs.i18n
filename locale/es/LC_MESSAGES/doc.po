@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-05 21:03-0500\n"
+"POT-Creation-Date: 2018-03-05 21:54-0500\n"
 "PO-Revision-Date: 2018-02-05 21:37+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: es\n"
@@ -2411,10 +2411,10 @@ msgid ""
 " called \"Pictures\". You can associate as many pictures as you might "
 "need to a plant and to a species object."
 msgstr ""
-"Como a casi todos los objetos en la basedatos Ghini pueden ser asociadas *notas*,"
-"a plantas y alas especies se pueden asociar *fotos*: al lado de la "
-"ficha de notas, el editor de plantas contiene una ficha adicional "
-" para las fotos. Se pueden asociar tantas fotos quantas usted quiera."
+"Como a casi todos los objetos en la basedatos Ghini pueden ser asociadas "
+"*notas*,a plantas y alas especies se pueden asociar *fotos*: al lado de "
+"la ficha de notas, el editor de plantas contiene una ficha adicional  "
+"para las fotos. Se pueden asociar tantas fotos quantas usted quiera."
 
 #: ../../editing.rst:201
 msgid ""
@@ -2422,9 +2422,10 @@ msgid ""
 "*pictures* folder, and a miniature (500x500) is generated and copied in "
 "the `thumbnails` folder inside of the pictures folder."
 msgstr ""
-"Al momento de asociar una imagen a una planta, el software copia el archivo en la carpeta de "
-"fotos, mientras una miniatura (500x500) es generada y copiada en la "
-"carpeta 'miniaturas' dentro de la carpeta de fotos."
+"Al momento de asociar una imagen a una planta, el software copia el "
+"archivo en la carpeta de fotos, mientras una miniatura (500x500) es "
+"generada y copiada en la carpeta 'miniaturas' dentro de la carpeta de "
+"fotos."
 
 #: ../../editing.rst:205
 msgid ""
@@ -3505,9 +3506,16 @@ msgid ""
 "**ghini.tour** assists garden visitors with a map and spoken virtual "
 "panels."
 msgstr ""
-"**ghini.tour** ofrece al visitante un mapa del jardín, y paneles informativos virtuales."
+"**ghini.tour** ofrece al visitante un mapa del jardín, y paneles "
+"informativos virtuales."
 
-#: ../../index.rst:17
+#: ../../index.rst:15
+msgid ""
+"This documentation focuses on ghini.desktop, but it also contains pages "
+"dedicated to using the other components, and to their mutual interaction."
+msgstr ""
+
+#: ../../index.rst:20
 msgid ""
 "All Ghini software is `open <http://www.opensource.org>`_ and `free "
 "<http://www.fsf.org>`_. Our standalone software is released under the "
@@ -3521,35 +3529,35 @@ msgstr ""
 "software que ofrecemos como servicio, está cubierto por la licencia `GNU "
 "Affero <http://www.fsf.org/licensing/licenses/agpl.html>`_."
 
-#: ../../index.rst:24
+#: ../../index.rst:27
 msgid "Statements"
 msgstr "Declaraciones"
 
-#: ../../index.rst:33
+#: ../../index.rst:36
 msgid "Installing Ghini"
 msgstr "Instalar Ghini"
 
-#: ../../index.rst:42
+#: ../../index.rst:45
 msgid "User's Guide"
 msgstr "Manual del usuario"
 
-#: ../../index.rst:57
+#: ../../index.rst:60
 msgid "Cookbook"
 msgstr "Recetario"
 
-#: ../../index.rst:65
+#: ../../index.rst:68
 msgid "Administration"
 msgstr "Administración"
 
-#: ../../index.rst:74
+#: ../../index.rst:77
 msgid "Ghini Development"
 msgstr "Desarrollo de Ghini"
 
-#: ../../index.rst:82
+#: ../../index.rst:85
 msgid "Supporting Ghini"
 msgstr "Apoyar Ghini"
 
-#: ../../index.rst:86
+#: ../../index.rst:89
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
