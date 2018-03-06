@@ -3514,6 +3514,7 @@ msgid ""
 "This documentation focuses on ghini.desktop, but it also contains pages "
 "dedicated to using the other components, and to their mutual interaction."
 msgstr ""
+"El enfoque de estas páginas es ghini.desktop, pero también encontrarás información sobre las otras componentes, y sobre el flujo de datos entre ellas.
 
 #: ../../index.rst:20
 msgid ""
