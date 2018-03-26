@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-03-05 21:54-0500\n"
+"POT-Creation-Date: 2018-03-26 08:26-0500\n"
 "PO-Revision-Date: 2017-07-02 20:20+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: ar\n"
@@ -284,7 +284,7 @@ msgstr ""
 msgid "Pocket"
 msgstr ""
 
-#: ../../building.rst:107
+#: ../../building.rst:107 ../../ghini-family.rst:15
 msgid "ghini.pocket"
 msgstr ""
 
@@ -946,140 +946,33 @@ msgid ""
 msgstr ""
 
 #: ../../building.rst:584
-msgid "Data streams between software components"
-msgstr ""
-
-#: ../../building.rst:586
-msgid ""
-"Let's start by recalling the composition of the Ghini family, as shown in"
-" the diagram:"
-msgstr ""
-
-#: ../../building.rst:590
-msgid ""
-"When we first introduced the diagram, we did not explain the reason why "
-"different arrows representing different data flows, had different "
-"colours: some are deep green, some in a lighter tint.  If you suspected "
-"this bore a meaning then you were quite right:"
-msgstr ""
-
-#: ../../building.rst:595
-msgid ""
-"Deeper green streams are constant flows of data, representing the core "
-"activity of a component, eg: the interaction between ghini.desktop and "
-"its database server, or your internet browser and ghini.web."
-msgstr ""
-
-#: ../../building.rst:599
-msgid ""
-"Lighter green streams are import/export actions, initiated by the user at"
-" the command panel of ghini.desktop, or in the ghini.tour settings page."
-msgstr ""
-
-#: ../../building.rst:602
-msgid ""
-"This is the same graph, in which all import data streams have been given "
-"an identifier."
-msgstr ""
-
-#: ../../building.rst:606
-msgid "Stream role description"
-msgstr ""
-
-#: ../../building.rst:611 ../../searching.rst:49 ../../searching.rst:50
-#: ../../searching.rst:54 ../../searching.rst:56
-msgid "name"
-msgstr ""
-
-#: ../../building.rst:612 ../../use_cases-jbq.rst:601
-msgid "description"
-msgstr ""
-
-#: ../../building.rst:613
-msgid "**d2p**"
-msgstr ""
-
-#: ../../building.rst:614
-msgid ""
-"This is ghini.desktop's :menuselection:`Tools-->Export-->export to "
-"pocket`."
-msgstr ""
-
-#: ../../building.rst:616
-msgid "**p2d**"
-msgstr ""
-
-#: ../../building.rst:617
-msgid ""
-"Import from the ghini.pocket log file and pictures into the central "
-"database."
-msgstr ""
-
-#: ../../building.rst:619
-msgid "**d2w**"
-msgstr ""
-
-#: ../../building.rst:620
-msgid ""
-"Offer a selection of your garden data to a central ghini.web site, so "
-"online virtual visitors can browse it.  This includes plant "
-"identification and their geographic location."
-msgstr ""
-
-#: ../../building.rst:623
-msgid "**g2w**"
-msgstr ""
-
-#: ../../building.rst:624
-msgid ""
-"Write geographic information about non-botanic data (ie: point of "
-"interest within the garden, required by ghini.tour) in the central "
-"ghini.web site."
-msgstr ""
-
-#: ../../building.rst:627
-msgid "**w2t**"
-msgstr ""
-
-#: ../../building.rst:628
-msgid "Importing locations and points of interest from ghini.web to tour."
-msgstr ""
-
-#: ../../building.rst:630
-msgid ""
-"We formally define all named streams, so our we know we are talking "
-"about. Moreover, streams impacting the desktop and web databases require "
-"extra thought and attention from your database manager."
-msgstr ""
-
-#: ../../building.rst:635
 msgid "Extending Ghini with Plugins"
 msgstr ""
 
-#: ../../building.rst:637
+#: ../../building.rst:586
 msgid ""
 "Nearly everything about Ghini is extensible through plugins. Plugins can "
 "create tables, define custom searchs, add menu items, create custom "
 "commands and more."
 msgstr ""
 
-#: ../../building.rst:641
+#: ../../building.rst:590
 msgid ""
 "To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
 "class."
 msgstr ""
 
-#: ../../building.rst:644
+#: ../../building.rst:593
 msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
 msgstr ""
 
-#: ../../building.rst:648
+#: ../../building.rst:597
 msgid "Plugins structure"
 msgstr ""
 
-#: ../../building.rst:650
+#: ../../building.rst:599
 msgid ""
 "Ghini is a framework for handling collections, and is distributed along "
 "with a set of plugins making Ghini a botanical collection manager. But "
@@ -1088,34 +981,34 @@ msgid ""
 "complete the current Ghini behaviour."
 msgstr ""
 
-#: ../../building.rst:656
+#: ../../building.rst:605
 msgid ""
 "Once you have selected and opened a database connection, you land in the "
 "Search window. The Search window is an interaction between two objects: "
 "SearchPresenter (SP) and SearchView (SV)."
 msgstr ""
 
-#: ../../building.rst:660
+#: ../../building.rst:609
 msgid ""
 "SV is what you see, SP holds the program status and handles the requests "
 "you express through SV. Handling these requests affect the content of SV "
 "and the program status in SP."
 msgstr ""
 
-#: ../../building.rst:664
+#: ../../building.rst:613
 msgid ""
 "The search results shown in the largest part of SV are rows, objects that"
 " are instances of classes registered in a plugin."
 msgstr ""
 
-#: ../../building.rst:667
+#: ../../building.rst:616
 msgid ""
 "Each of these classes must implement an amount of functions in order to "
 "properly behave within the Ghini framework. The Ghini framework reserves "
 "space to pluggable classes."
 msgstr ""
 
-#: ../../building.rst:671
+#: ../../building.rst:620
 msgid ""
 "SP knows of all registered (plugged in) classes, they are stored in a "
 "dictionary, associating a class to its plugin implementation.  SV has a "
@@ -1123,7 +1016,7 @@ msgid ""
 "one element in the slot is visible."
 msgstr ""
 
-#: ../../building.rst:676
+#: ../../building.rst:625
 msgid ""
 "A plugin defines one or more plugin classes. A plugin class plays the "
 "role of a partial presenter (pP - plugin presenter) as it implement the "
@@ -1132,54 +1025,54 @@ msgid ""
 "(SP), again acting as model. To summarize and complete:"
 msgstr ""
 
-#: ../../building.rst:682
+#: ../../building.rst:631
 msgid "SP acts as model,"
 msgstr ""
 
-#: ../../building.rst:683
+#: ../../building.rst:632
 msgid "the pV partial view is defined in a glade file."
 msgstr ""
 
-#: ../../building.rst:684
+#: ../../building.rst:633
 msgid "the callbacks implemented by pP are referenced by the glade file."
 msgstr ""
 
-#: ../../building.rst:685
+#: ../../building.rst:634
 msgid "a context menu for the SP row,"
 msgstr ""
 
-#: ../../building.rst:686
+#: ../../building.rst:635
 msgid "a children property."
 msgstr ""
 
-#: ../../building.rst:688
+#: ../../building.rst:637
 msgid "when you register a plugin class, the SP:"
 msgstr ""
 
-#: ../../building.rst:690
+#: ../../building.rst:639
 msgid "adds the pV in the slot and makes it non-visible."
 msgstr ""
 
-#: ../../building.rst:691
+#: ../../building.rst:640
 msgid "adds an instance of pP in the registered plugin classes."
 msgstr ""
 
-#: ../../building.rst:692
+#: ../../building.rst:641
 msgid "tells the pP that the SP is the model."
 msgstr ""
 
-#: ../../building.rst:693
+#: ../../building.rst:642
 msgid "connects all callbacks from pV to pP."
 msgstr ""
 
-#: ../../building.rst:695
+#: ../../building.rst:644
 msgid ""
 "when an element in pV triggers an action in pP, the pP can forward the "
 "action to SP and can request SP that it updates the model and refreshes "
 "the view."
 msgstr ""
 
-#: ../../building.rst:699
+#: ../../building.rst:648
 msgid ""
 "When the user selects a row in SP, SP hides everything in the pluggable "
 "slot and shows only the single pV relative to the type of the selected "
@@ -1187,21 +1080,21 @@ msgid ""
 "selected row."
 msgstr ""
 
-#: ../../building.rst:703
+#: ../../building.rst:652
 msgid ""
 "Apart from setting the visibility of the various pV, nothing needs be "
 "disabled nor removed: an invisible pV cannot trigger events!"
 msgstr ""
 
-#: ../../building.rst:707
+#: ../../building.rst:656
 msgid "bug solving workflow"
 msgstr ""
 
-#: ../../building.rst:710
+#: ../../building.rst:659
 msgid "normal development workflow"
 msgstr ""
 
-#: ../../building.rst:712
+#: ../../building.rst:661
 msgid ""
 "while using the software, you notice a problem, or you get an idea of "
 "something that could be better, you think about it good enough in order "
@@ -1209,125 +1102,125 @@ msgid ""
 "open an issue and describe the problem. someone might react with hints."
 msgstr ""
 
-#: ../../building.rst:716
+#: ../../building.rst:665
 msgid "you open the issues site and choose one you want to tackle."
 msgstr ""
 
-#: ../../building.rst:717
+#: ../../building.rst:666
 msgid ""
 "assign the issue to yourself, this way you are informing the world that "
 "you have the intention to work at it. someone might react with hints."
 msgstr ""
 
-#: ../../building.rst:719
+#: ../../building.rst:668
 msgid ""
 "optionally fork the repository in your account and preferably create a "
 "branch, clearly associated to the issue."
 msgstr ""
 
-#: ../../building.rst:721
+#: ../../building.rst:670
 msgid ""
 "write unit tests and commit them to your branch (please do not push "
 "failing unit tests to github, run ``nosetests`` locally first)."
 msgstr ""
 
-#: ../../building.rst:723
+#: ../../building.rst:672
 msgid ""
 "write more unit tests (ideally, the tests form the complete description "
 "of the feature you are adding or correcting)."
 msgstr ""
 
-#: ../../building.rst:725
+#: ../../building.rst:674
 msgid ""
 "make sure the feature you are adding or correcting is really completely "
 "described by the unit tests you wrote."
 msgstr ""
 
-#: ../../building.rst:727
+#: ../../building.rst:676
 msgid ""
 "make sure your unit tests are atomic, that is, that you test variations "
 "on changes along one single variable. do not give complex input to unit "
 "tests or tests that do not fit on one screen (25 lines of code)."
 msgstr ""
 
-#: ../../building.rst:730
+#: ../../building.rst:679
 msgid "write the code that makes your tests succeed."
 msgstr ""
 
-#: ../../building.rst:731
+#: ../../building.rst:680
 msgid "update the i18n files (run ``./scripts/i18n.sh``)."
 msgstr ""
 
-#: ../../building.rst:732
+#: ../../building.rst:681
 msgid ""
 "whenever possible, translate the new strings you put in code or glade "
 "files."
 msgstr ""
 
-#: ../../building.rst:734
+#: ../../building.rst:683
 msgid ""
 "when you change strings, please make sure that old translations get re-"
 "used."
 msgstr ""
 
-#: ../../building.rst:735
+#: ../../building.rst:684
 msgid "commit your changes."
 msgstr ""
 
-#: ../../building.rst:736
+#: ../../building.rst:685
 msgid "push to github."
 msgstr ""
 
-#: ../../building.rst:737
+#: ../../building.rst:686
 msgid "open a pull request."
 msgstr ""
 
-#: ../../building.rst:740
+#: ../../building.rst:689
 msgid "publishing to production"
 msgstr ""
 
-#: ../../building.rst:742
+#: ../../building.rst:691
 msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``,"
 " compared to ``ghini-x.y-dev``."
 msgstr ""
 
-#: ../../building.rst:744
+#: ../../building.rst:693
 msgid "make sure a ``bump`` commit is included in the differences."
 msgstr ""
 
-#: ../../building.rst:745
+#: ../../building.rst:694
 msgid "it should be possible to automatically merge the branches."
 msgstr ""
 
-#: ../../building.rst:746
+#: ../../building.rst:695
 msgid "create the new pull request, call it as “publish to the production line”."
 msgstr ""
 
-#: ../../building.rst:747
+#: ../../building.rst:696
 msgid "you possibly need wait for travis-ci to perform the checks."
 msgstr ""
 
-#: ../../building.rst:748
+#: ../../building.rst:697
 msgid "merge the changes."
 msgstr ""
 
-#: ../../building.rst:749
+#: ../../building.rst:698
 msgid "tell the world about it: on facebook, the google group, linkedin, ..."
 msgstr ""
 
-#: ../../building.rst:752
+#: ../../building.rst:701
 msgid "your own fork"
 msgstr ""
 
-#: ../../building.rst:754
+#: ../../building.rst:703
 msgid ""
 "If you want to keep your own fork of the project, keep in mind this is "
 "full force work in progress, so staying up to date will require some "
 "effort from your side."
 msgstr ""
 
-#: ../../building.rst:758
+#: ../../building.rst:707
 msgid ""
 "The best way to keep your own fork is to focus on some specific issue, "
 "work relatively quickly, often open pull requests for your work, make "
@@ -1336,7 +1229,7 @@ msgid ""
 "having your work included in Ghini's upstream."
 msgstr ""
 
-#: ../../building.rst:764
+#: ../../building.rst:713
 msgid ""
 "If your fork got out of sync with Ghini's upstream: read, understand, "
 "follow the github guides `configuring a remote for a fork "
@@ -1344,21 +1237,21 @@ msgid ""
 " `syncing a fork <https://help.github.com/articles/syncing-a-fork/>`_."
 msgstr ""
 
-#: ../../building.rst:770
+#: ../../building.rst:719
 msgid "closing step"
 msgstr ""
 
-#: ../../building.rst:772
+#: ../../building.rst:721
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
 msgstr ""
 
-#: ../../building.rst:776
+#: ../../building.rst:725
 msgid "distributing for windows"
 msgstr ""
 
-#: ../../building.rst:778
+#: ../../building.rst:727
 msgid ""
 "For building a Windows installer or executable you will need an "
 "installation of Windows.  The methods described here has been used "
@@ -1366,7 +1259,7 @@ msgid ""
 "has not been tested."
 msgstr ""
 
-#: ../../building.rst:782
+#: ../../building.rst:731
 msgid ""
 "In the remainder of this section we assume you're using a Windows "
 "workstation.  We also assume assume you do not use it as your software "
@@ -1374,18 +1267,18 @@ msgid ""
 "steps for a normal Windows :ref:`installation`."
 msgstr ""
 
-#: ../../building.rst:787
+#: ../../building.rst:736
 msgid "py2exe will not work with eggs"
 msgstr ""
 
-#: ../../building.rst:790
+#: ../../building.rst:739
 msgid ""
 "Building a Windows executable with py2exe requires packages **not** be "
 "installed as eggs.  There are several methods to accomplish this, "
 "including:"
 msgstr ""
 
-#: ../../building.rst:793
+#: ../../building.rst:742
 msgid ""
 "Using pip to install.  The easiest method is to install into a virtual "
 "environment that doesn't currently have any modules installed as eggs "
@@ -1395,11 +1288,11 @@ msgid ""
 " vary."
 msgstr ""
 
-#: ../../building.rst:800
+#: ../../building.rst:749
 msgid "By adding::"
 msgstr ""
 
-#: ../../building.rst:805
+#: ../../building.rst:754
 msgid ""
 "to setup.cfg (or similarly ``zip_safe = False`` to ``setuptools.setup()``"
 " in ``setup.py``) you can use ``python setup.py install`` but you will "
@@ -1409,57 +1302,57 @@ msgid ""
 "eggs."
 msgstr ""
 
-#: ../../building.rst:811
+#: ../../building.rst:760
 msgid ""
 "Download and install git, Python 2.7 and PyGTK as outlined in the generic"
 " :ref:`installation` instructions."
 msgstr ""
 
-#: ../../building.rst:814
+#: ../../building.rst:763
 msgid ""
 "Additionally, download and install `NSIS v3 "
 "<http://nsis.sourceforge.net/Download>`_."
 msgstr ""
 
-#: ../../building.rst:816
+#: ../../building.rst:765
 msgid "A **reboot** is recommended."
 msgstr ""
 
-#: ../../building.rst:818
+#: ../../building.rst:767
 msgid "we have a script that automates the remaining steps"
 msgstr ""
 
-#: ../../building.rst:821
+#: ../../building.rst:770
 msgid ""
 "A batch file is available that can complete the last few steps.  To use "
 "it use this command::"
 msgstr ""
 
-#: ../../building.rst:826
+#: ../../building.rst:775
 msgid "``build_win.bat`` accepts 2 arguments:"
 msgstr ""
 
-#: ../../building.rst:828
+#: ../../building.rst:777
 msgid ""
 "``/e`` will produce an executable only, skipping the extra step of "
 "building an installer, and will copy ``win_gtk.bat`` into place."
 msgstr ""
 
-#: ../../building.rst:831
+#: ../../building.rst:780
 #, python-format
 msgid ""
 "A path to the location for the virtual environment to use. (defaults to "
 "``\"%HOMEDRIVE%%HOMEPATH%\"\\.virtualenvs\\ghi2exe``)"
 msgstr ""
 
-#: ../../building.rst:834
+#: ../../building.rst:783
 msgid ""
 "e.g. to produce an executable only and use a virtual environment in a "
 "folder beside where you have ghini.desktop you could execute "
 "``scripts\\build_win.bat /e ..\\ghi2exe``"
 msgstr ""
 
-#: ../../building.rst:838
+#: ../../building.rst:787
 msgid ""
 "Clone ghini.desktop to wherever you want to keep it (replace ``<path-to-"
 "keep-ghini>`` with the path of your choice, e.g. "
@@ -1468,14 +1361,14 @@ msgid ""
 "a command prompt and type these commands::"
 msgstr ""
 
-#: ../../building.rst:849
+#: ../../building.rst:798
 msgid ""
 "Install virtualenv, create a virtual environment and activate it.  With "
 "only Python 2.7 on your system (where ``<path-to-venv>`` is the path to "
 "where you wish to keep the virtual environment) use::"
 msgstr ""
 
-#: ../../building.rst:857
+#: ../../building.rst:806
 msgid ""
 "On systems where Python 3 is also installed you may need to either call "
 "pip and virtualenv with absolute paths e.g.  "
@@ -1484,15 +1377,15 @@ msgid ""
 "other than version 2.7 you'll need to use one of these methods.)"
 msgstr ""
 
-#: ../../building.rst:863
+#: ../../building.rst:812
 msgid "Install dependencies and ghini.desktop into the virtual environment::"
 msgstr ""
 
-#: ../../building.rst:868
+#: ../../building.rst:817
 msgid "Build the executable::"
 msgstr ""
 
-#: ../../building.rst:872
+#: ../../building.rst:821
 msgid ""
 "The ``dist`` folder will now contain a full working copy of the software "
 "in a frozen, self contained state, that can be transferred however you "
@@ -1508,35 +1401,35 @@ msgid ""
 "of the folder changes.  Thereafter ``ghini.exe`` will run as expected."
 msgstr ""
 
-#: ../../building.rst:885
+#: ../../building.rst:834
 msgid "Build the installer::"
 msgstr ""
 
-#: ../../building.rst:889
+#: ../../building.rst:838
 msgid ""
 "This should leave a file named ``ghini.desktop-<version>-setup.exe`` in "
 "the ``scripts`` folder.  This is your Windows installer."
 msgstr ""
 
-#: ../../building.rst:892
+#: ../../building.rst:841
 msgid "about the installer"
 msgstr ""
 
-#: ../../building.rst:895
+#: ../../building.rst:844
 msgid "Capable of single user or global installs."
 msgstr ""
 
-#: ../../building.rst:897
+#: ../../building.rst:846
 msgid ""
 "At this point in time ghini.desktop installed this way will not check or "
 "or notify you of any updated version.  You will need to check yourself."
 msgstr ""
 
-#: ../../building.rst:901
+#: ../../building.rst:850
 msgid "Capable of downloading and installing optional extra components:"
 msgstr ""
 
-#: ../../building.rst:903
+#: ../../building.rst:852
 msgid ""
 "Apache FOP - If you want to use xslt report templates install FOP. FOP "
 "requires Java Runtime. If you do not currently have it installed the "
@@ -1544,42 +1437,42 @@ msgid ""
 " to download and install it from."
 msgstr ""
 
-#: ../../building.rst:908
+#: ../../building.rst:857
 msgid ""
 "MS Visual C runtime - You most likely don't need this but if you have any"
 " trouble getting ghini.desktop to run try installing the MS Visual C "
 "runtime (e.g. rerun the installer and select this component only)."
 msgstr ""
 
-#: ../../building.rst:912
+#: ../../building.rst:861
 msgid ""
 "Can be run silently from the commandline (e.g. for remote deployment) "
 "with the following arguments:"
 msgstr ""
 
-#: ../../building.rst:915
+#: ../../building.rst:864
 msgid "``/S`` for silent;"
 msgstr ""
 
-#: ../../building.rst:917
+#: ../../building.rst:866
 msgid "``/AllUser`` (when run as administrator) or ``/CurrentUser``"
 msgstr ""
 
-#: ../../building.rst:919
+#: ../../building.rst:868
 msgid "``/C=[gFC]`` to specify components where:"
 msgstr ""
 
-#: ../../building.rst:921
+#: ../../building.rst:870
 msgid ""
 "``g`` = Deselect the main ghini.desktop component (useful for adding "
 "optional component after an initial install)"
 msgstr ""
 
-#: ../../building.rst:924
+#: ../../building.rst:873
 msgid "``F`` = select Apache FOP"
 msgstr ""
 
-#: ../../building.rst:926
+#: ../../building.rst:875
 msgid "``C`` = select MS Visual C runtime"
 msgstr ""
 
@@ -1970,6 +1863,343 @@ msgid ""
 "zone*. The widgets contained in this section allow the user to merge the "
 "current location into a different location, letting the user correct "
 "spelling mistakes or implement policy changes."
+msgstr ""
+
+#: ../../ghini-family.rst:3
+msgid "the Ghini family"
+msgstr ""
+
+#: ../../ghini-family.rst:5
+msgid ""
+"Let's start by recalling the composition of the Ghini family, as shown in"
+" the diagram:"
+msgstr ""
+
+#: ../../ghini-family.rst:9
+msgid ""
+"You have learned how to use ghini.desktop, here we introduce the other "
+"members of the family, and their interaction."
+msgstr ""
+
+#: ../../ghini-family.rst:20
+msgid ""
+"ghini.pocket is an Android app which you can install from the `play store"
+" <https://play.google.com/store/apps/details?id=me.ghini.pocket>`_. "
+"ghini.pocket is definitely the tool you will use most, next to "
+"ghini.desktop."
+msgstr ""
+
+#: ../../ghini-family.rst:26
+msgid ""
+"With ghini.pocket you always have the latest snapshot of your database "
+"with you."
+msgstr ""
+
+#: ../../ghini-family.rst:29
+msgid "Type an accession number, or scan its barcode or QR label, and you know:"
+msgstr ""
+
+#: ../../ghini-family.rst:31
+msgid "the identification of the plant,"
+msgstr ""
+
+#: ../../ghini-family.rst:32
+msgid "whether it already has pictures,"
+msgstr ""
+
+#: ../../ghini-family.rst:33
+msgid "when it entered the garden and"
+msgstr ""
+
+#: ../../ghini-family.rst:34
+msgid "from which source."
+msgstr ""
+
+#: ../../ghini-family.rst:36
+msgid "Apart as a quick data viewer, you can use ghini.pocket for..."
+msgstr ""
+
+#: ../../ghini-family.rst:38
+msgid "data correction"
+msgstr ""
+
+#: ../../ghini-family.rst:41
+msgid ""
+"If by your judgement, some of the information is incorrect, or if the "
+"plant is flowering and you want to immediately take a picture and store "
+"it in the database, you do not need take notes on paper, nor follow "
+"convolute procedures: ghini.pocket lets you write your corrections in a "
+"log file, take pictures associated to the plant, and you will import this"
+" information straight into the database, with further minimal user "
+"intervention."
+msgstr ""
+
+#: ../../ghini-family.rst:49
+msgid "inventory review"
+msgstr ""
+
+#: ../../ghini-family.rst:52
+msgid ""
+"The initial idea on which we based ghini.pocket is still one of its "
+"functionalities: inventory review."
+msgstr ""
+
+#: ../../ghini-family.rst:55
+msgid ""
+"Using ghini.pocket, reviewing the inventory of a greenhouse, in "
+"particular if you have QR codes on plant labels, goes as fast as you can "
+"walk: simply enter the location code of your greenhouse, reset the log, "
+"then one by one scan the plant codes of the plants in the greenhouse.  No"
+" further data collection action is required."
+msgstr ""
+
+#: ../../ghini-family.rst:61
+msgid ""
+"When you're done, import the log in ghini.desktop.  The procedure "
+"available in ghini.desktop includes adding unknown but labelled plants in"
+" the database, marking as lost/dead all plants that the database reports "
+"as alive and present in the inventoried location, but were not found "
+"during the inventory."
+msgstr ""
+
+#: ../../ghini-family.rst:67
+msgid "taxonomic support"
+msgstr ""
+
+#: ../../ghini-family.rst:70
+msgid ""
+"As a bonus, ghini.pocket contains a phonetic genus search, and a quite "
+"complete database of botanic taxa with rank between order and genus, "
+"including tribes, and synonymies."
+msgstr ""
+
+#: ../../ghini-family.rst:74 ../../ghini-family.rst:92
+#: ../../ghini-family.rst:122
+msgid "check further :any:`interaction among components`."
+msgstr ""
+
+#: ../../ghini-family.rst:84
+msgid "ghini.web is a web server, written in nodejs."
+msgstr ""
+
+#: ../../ghini-family.rst:86
+msgid ""
+"Its most visible part runs at http://gardens.ghini.me and shows as a map "
+"of the world, where you browse gardens and search their published "
+"collection."
+msgstr ""
+
+#: ../../ghini-family.rst:90
+msgid "It also serves configuration data to ghini.tour instances."
+msgstr ""
+
+#: ../../ghini-family.rst:98
+msgid "ghini.tour"
+msgstr ""
+
+#: ../../ghini-family.rst:103
+msgid ""
+"ghini.tour is an Android app which you can install from the `play store "
+"<https://play.google.com/store/apps/details?id=me.ghini.tour>`_."
+msgstr ""
+
+#: ../../ghini-family.rst:107
+msgid ""
+"People visiting your garden will install ghini.tour on their phone or "
+"tablet, enjoy having a map of the garden, knowing where they are, and "
+"will be able to listen to audio files that you have placed as virtual "
+"information panels in strategic spots in your garden."
+msgstr ""
+
+#: ../../ghini-family.rst:112
+msgid "world view"
+msgstr ""
+
+#: ../../ghini-family.rst:115
+msgid "at startup, you see the world and gardens.  select a garden, and enter."
+msgstr ""
+
+#: ../../ghini-family.rst:117
+msgid "garden view"
+msgstr ""
+
+#: ../../ghini-family.rst:120
+msgid "when viewing at garden level, you see panels.  select a panel, and listen."
+msgstr ""
+
+#: ../../ghini-family.rst:128
+msgid "data streams between software components"
+msgstr ""
+
+#: ../../ghini-family.rst:130
+msgid ""
+"This section contains technical information for database managers and "
+"software developers."
+msgstr ""
+
+#: ../../ghini-family.rst:136
+msgid ""
+"In the diagram showing the composition of the Ghini family, the alert "
+"reader noticed how different arrows representing different data flows, "
+"had different colours: some are deep green, some have a lighter tint."
+msgstr ""
+
+#: ../../ghini-family.rst:142
+msgid ""
+"Deeper green streams are constant flows of data, representing the core "
+"activity of a component, eg: the interaction between ghini.desktop and "
+"its database server, or your internet browser and ghini.web."
+msgstr ""
+
+#: ../../ghini-family.rst:146
+msgid ""
+"Lighter green streams are import/export actions, initiated by the user at"
+" the command panel of ghini.desktop, or in the ghini.tour settings page."
+msgstr ""
+
+#: ../../ghini-family.rst:149
+msgid ""
+"This is the same graph, in which all import data streams have been given "
+"an identifier."
+msgstr ""
+
+#: ../../ghini-family.rst:154
+msgid "d2p: copy a snapshot of the desktop database to ghini.pocket"
+msgstr ""
+
+#: ../../ghini-family.rst:157
+msgid "export the desktop database to a pocket snapshot"
+msgstr ""
+
+#: ../../ghini-family.rst:158
+msgid "copy the snapshot to the handheld device"
+msgstr ""
+
+#: ../../ghini-family.rst:160
+msgid ""
+"ghini.pocket integrates closely with ghini.desktop, and it's not a tool "
+"for the casual nor the external user.  One task of your garden database "
+"manager is to regularly copy an updated database snapshot to your Android"
+" device."
+msgstr ""
+
+#: ../../ghini-family.rst:165
+msgid ""
+"We advise enabling USB debugging on the device.  In perspective, this "
+"will allow ghini.desktop writing directily into the ghini.pocket device."
+msgstr ""
+
+#: ../../ghini-family.rst:168
+msgid ""
+"Export the file from ghini.desktop, call the file pocket.db, copy it to "
+"the phone::"
+msgstr ""
+
+#: ../../ghini-family.rst:172
+msgid ""
+"The above location is valid even if your phone does not have a memory "
+"card."
+msgstr ""
+
+#: ../../ghini-family.rst:174
+msgid ""
+"Other options include bluetooth, or whatever other way you normally use "
+"to copy regular files into your Android device."
+msgstr ""
+
+#: ../../ghini-family.rst:179
+msgid ""
+"p2d: import from the ghini.pocket log file and pictures into the central "
+"database"
+msgstr ""
+
+#: ../../ghini-family.rst:182
+msgid ""
+"even if we're still calling it “inventory log”, ghini.pocket's log "
+"contains more than just inventory corrections."
+msgstr ""
+
+#: ../../ghini-family.rst:185
+msgid "produce a log on the handheld device"
+msgstr ""
+
+#: ../../ghini-family.rst:186
+msgid "import the log in the desktop database"
+msgstr ""
+
+#: ../../ghini-family.rst:188
+msgid ""
+"first of all, copy the collected information from ghini.pocket into your "
+"computer::"
+msgstr ""
+
+#: ../../ghini-family.rst:194
+msgid "then use ghini.desktop to import this information into your database."
+msgstr ""
+
+#: ../../ghini-family.rst:197
+msgid "d2w: send a selection of your garden data to ghini.web"
+msgstr ""
+
+#: ../../ghini-family.rst:200
+msgid ""
+"Offer a selection of your garden data to a central ghini.web site, so "
+"online virtual visitors can browse it.  This includes plant "
+"identification and their geographic location."
+msgstr ""
+
+#: ../../ghini-family.rst:204 ../../ghini-family.rst:219
+#: ../../ghini-family.rst:231
+msgid "content of this flow:"
+msgstr ""
+
+#: ../../ghini-family.rst:206
+msgid "garden: coords, name, zoom level (for initial view)"
+msgstr ""
+
+#: ../../ghini-family.rst:207
+msgid "plants: coords, identification, zoom level (for visibility)"
+msgstr ""
+
+#: ../../ghini-family.rst:208
+msgid "species: binomial, phonetic approximation"
+msgstr ""
+
+#: ../../ghini-family.rst:212
+msgid "g2w: add geographic non-botanic data to ghini.web"
+msgstr ""
+
+#: ../../ghini-family.rst:215
+msgid ""
+"Write geographic information about non-botanic data (ie: point of "
+"interest within the garden, required by ghini.tour) in the central "
+"ghini.web site."
+msgstr ""
+
+#: ../../ghini-family.rst:221
+msgid "virtual panels: coords, title, audio file"
+msgstr ""
+
+#: ../../ghini-family.rst:222
+msgid "photos: coords, title, picture"
+msgstr ""
+
+#: ../../ghini-family.rst:224
+msgid ""
+"virtual panels don't necessarily have an associated photo, photos don't "
+"necessarily have an associated audio file."
+msgstr ""
+
+#: ../../ghini-family.rst:228
+msgid "w2t: importing locations and POIs from ghini.web to tour"
+msgstr ""
+
+#: ../../ghini-family.rst:233
+msgid "Garden (coords, name, zoom level)"
+msgstr ""
+
+#: ../../ghini-family.rst:234
+msgid "Points of Interest (coords, title, audio file, photo)"
 msgstr ""
 
 #: ../../goal.rst:2
@@ -2722,13 +2952,15 @@ msgid ""
 "panels."
 msgstr ""
 
-#: ../../index.rst:15
+#: ../../index.rst:17
 msgid ""
-"This documentation focuses on ghini.desktop, but it also contains pages "
-"dedicated to using the other components, and to their mutual interaction."
+"The bulk of this documentation focuses on ghini.desktop.  One final "
+"chapter presents the rest of the Ghini family: :any:`ghini.pocket`, "
+":any:`ghini.web`, :any:`ghini.tour`, and the :any:`interaction among "
+"components`."
 msgstr ""
 
-#: ../../index.rst:20
+#: ../../index.rst:21
 msgid ""
 "All Ghini software is `open <http://www.opensource.org>`_ and `free "
 "<http://www.fsf.org>`_. Our standalone software is released under the "
@@ -2737,35 +2969,39 @@ msgid ""
 "<http://www.fsf.org/licensing/licenses/agpl.html>`_."
 msgstr ""
 
-#: ../../index.rst:27
+#: ../../index.rst:28
 msgid "Statements"
 msgstr ""
 
-#: ../../index.rst:36
+#: ../../index.rst:37
 msgid "Installing Ghini"
 msgstr ""
 
-#: ../../index.rst:45
+#: ../../index.rst:46
 msgid "User's Guide"
 msgstr ""
 
-#: ../../index.rst:60
+#: ../../index.rst:61
 msgid "Cookbook"
 msgstr ""
 
-#: ../../index.rst:68
+#: ../../index.rst:69
 msgid "Administration"
 msgstr ""
 
 #: ../../index.rst:77
-msgid "Ghini Development"
+msgid "Ghini Family"
 msgstr ""
 
 #: ../../index.rst:85
+msgid "Ghini Development"
+msgstr ""
+
+#: ../../index.rst:93
 msgid "Supporting Ghini"
 msgstr ""
 
-#: ../../index.rst:89
+#: ../../index.rst:97
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
@@ -3620,6 +3856,11 @@ msgstr ""
 
 #: ../../searching.rst:44
 msgid "result type"
+msgstr ""
+
+#: ../../searching.rst:49 ../../searching.rst:50 ../../searching.rst:54
+#: ../../searching.rst:56
+msgid "name"
 msgstr ""
 
 #: ../../searching.rst:59
@@ -5245,6 +5486,10 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:595
 msgid "Naming convention in garden locations"
+msgstr ""
+
+#: ../../use_cases-jbq.rst:601
+msgid "description"
 msgstr ""
 
 #: ../../use_cases-jbq.rst:603
@@ -8045,5 +8290,67 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "The Ghini family"
+#~ msgstr ""
+
+#~ msgid "Data streams between software components"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When we first introduced the diagram,"
+#~ " we did not explain the reason "
+#~ "why different arrows representing different"
+#~ " data flows, had different colours: "
+#~ "some are deep green, some in a "
+#~ "lighter tint.  If you suspected this "
+#~ "bore a meaning then you were quite"
+#~ " right:"
+#~ msgstr ""
+
+#~ msgid "Stream role description"
+#~ msgstr ""
+
+#~ msgid "**d2p**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is ghini.desktop's "
+#~ ":menuselection:`Tools-->Export-->export to pocket`."
+#~ msgstr ""
+
+#~ msgid "**p2d**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Import from the ghini.pocket log file"
+#~ " and pictures into the central "
+#~ "database."
+#~ msgstr ""
+
+#~ msgid "**d2w**"
+#~ msgstr ""
+
+#~ msgid "**g2w**"
+#~ msgstr ""
+
+#~ msgid "**w2t**"
+#~ msgstr ""
+
+#~ msgid "Importing locations and points of interest from ghini.web to tour."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We formally define all named streams,"
+#~ " so our we know we are talking"
+#~ " about. Moreover, streams impacting the "
+#~ "desktop and web databases require extra"
+#~ " thought and attention from your "
+#~ "database manager."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This documentation focuses on ghini.desktop,"
+#~ " but it also contains pages dedicated"
+#~ " to using the other components, and"
+#~ " to their mutual interaction."
 #~ msgstr ""
 
