@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-14 08:29-0500\n"
+"POT-Creation-Date: 2018-05-10 11:38-0500\n"
 "PO-Revision-Date: 2018-03-04 02:35+0000\n"
 "Last-Translator: ZeroAurora <zeroaurora@qq.com>\n"
 "Language: zh\n"
@@ -3023,7 +3023,7 @@ msgstr ""
 #: ../../installing.rst:10
 msgid ""
 "Linux users just download and run `the installation script "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
+"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh>`_."
 " You may read the documentation later."
 msgstr ""
 
@@ -3100,6 +3100,12 @@ msgstr ""
 
 #: ../../installing.rst:51
 msgid "Download the `devinstall.sh` script:"
+msgstr ""
+
+#: ../../installing.rst:53
+msgid ""
+"`devinstall.sh "
+"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh>`_"
 msgstr ""
 
 #: ../../installing.rst:55
@@ -3216,7 +3222,7 @@ msgid ""
 "``/usr/local/bin``, otherwise in your ``~/bin`` folder."
 msgstr ""
 
-#: ../../installing.rst:137 ../../installing.rst:215 ../../installing.rst:357
+#: ../../installing.rst:137 ../../installing.rst:215 ../../installing.rst:359
 msgid "Next..."
 msgstr ""
 
@@ -3495,25 +3501,36 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:339
-msgid ""
-"download the batch file you will use to stay up-to-date with the "
-"production line you chose to follow:"
+msgid "download the batch file, it will help you staying up-to-date:"
 msgstr ""
 
-#: ../../installing.rst:344
+#: ../../installing.rst:341
 msgid ""
-"if you are on a recent Ghini installation, each time you start the "
+"`ghini-update.bat "
+"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts"
+"/ghini-update.bat>`_"
+msgstr ""
+
+#: ../../installing.rst:343
+msgid ""
+"If you are on a recent Ghini installation, each time you start the "
 "program, Ghini will check on the development site and alert you of any "
 "newer ghini release within your chosen production line."
 msgstr ""
 
-#: ../../installing.rst:348
+#: ../../installing.rst:347
 msgid ""
-"any time you want to update your installation, just start the command "
-"prompt and run ``ghini-update.bat``, it will hardly take one minute."
+"Any time you want to update your installation, just run the ``ghini-"
+"update.bat`` script, it will hardly take one minute."
 msgstr ""
 
-#: ../../installing.rst:351
+#: ../../installing.rst:350
+msgid ""
+"How to save a batch file, and how to run it: check the the quite detailed"
+" instructions given for ``devinstall.bat``."
+msgstr ""
+
+#: ../../installing.rst:353
 msgid ""
 "If you would like to generate and print PDF reports using Ghini's default"
 " report generator then you will need to download and install `Apache FOP "
@@ -3521,35 +3538,335 @@ msgid ""
 " you will need to include the directory you extracted to in your PATH."
 msgstr ""
 
-#: ../../installing.rst:361
+#: ../../installing.rst:363
 msgid "Installing on Android"
 msgstr ""
 
-#: ../../installing.rst:363
+#: ../../installing.rst:365
 msgid ""
 "``ghini.desktop`` is a desktop program, obviously you don't install it on"
 " a handheld device, but we do offer the option, for your Android phone or"
 " tablet, to install ``ghini.pocket``."
 msgstr ""
 
-#: ../../installing.rst:366
+#: ../../installing.rst:368
 msgid ""
 "``ghini.pocket`` is a small data viewer, it comes handy if you want to "
 "have a quick idea of a plant species, its source, and date it entered the"
 " garden, just by scanning a plant label."
 msgstr ""
 
-#: ../../installing.rst:369
+#: ../../installing.rst:371
 msgid ""
 "Installation is as easy as it can be: just `look for it in Google Play "
 "<https://play.google.com/store/apps/details?id=me.ghini.pocket>`_, and "
 "install it."
 msgstr ""
 
-#: ../../installing.rst:372
+#: ../../installing.rst:374
 msgid ""
 "Export the data from ``ghini.desktop`` to pocket format, copy it to your "
 "device, enjoy."
+msgstr ""
+
+#: ../../open-invitation.rst:2
+msgid "Dear conservator or scientist,"
+msgstr ""
+
+#: ../../open-invitation.rst:4
+msgid ""
+"You are reading Ghini's presentation letter. Ghini is a libre software "
+"project on GitHub, focusing on botany. Brought to you by a small "
+"community of coders, botanists, translators, and supported by a few "
+"institutions around the world, among which, gardens that have adopted it "
+"for all their collection management needs."
+msgstr ""
+
+#: ../../open-invitation.rst:9
+msgid ""
+"The Ghini family is a software suite composed of standalone programs, "
+"data servers and handheld clients, for data management, and publication:"
+msgstr ""
+
+#: ../../open-invitation.rst:14
+msgid "Ghini's core, ``ghini.desktop``, lets you"
+msgstr ""
+
+#: ../../open-invitation.rst:16
+msgid "enter and correct your data"
+msgstr ""
+
+#: ../../open-invitation.rst:17
+msgid "navigate its links,"
+msgstr ""
+
+#: ../../open-invitation.rst:18
+msgid "produce reports"
+msgstr ""
+
+#: ../../open-invitation.rst:19
+msgid "import and or export using several standard or ad-hoc formats"
+msgstr ""
+
+#: ../../open-invitation.rst:20
+msgid "review your taxonomy using online sources"
+msgstr ""
+
+#: ../../open-invitation.rst:22
+msgid ""
+"all according best practices suggested by top gardens, formalized in "
+"standard formats like ABCD, ITF2, but also as elaborated by our "
+"developers, based on the feedback of Ghini users."
+msgstr ""
+
+#: ../../open-invitation.rst:26
+msgid ""
+"``ghini.desktop`` is developed and continously tested on GNU/Linux, but "
+"runs equally well on Windows, or OSX. [1]"
+msgstr ""
+
+#: ../../open-invitation.rst:29
+msgid ""
+"``ghini.pocket`` is your full time garden companion, an Android app "
+"installed from the Play Store,"
+msgstr ""
+
+#: ../../open-invitation.rst:32
+msgid "assisting you in collecting or correcting data while in the field,"
+msgstr ""
+
+#: ../../open-invitation.rst:33
+msgid "associate pictures to your plants, and verify taxonomic information."
+msgstr ""
+
+#: ../../open-invitation.rst:34
+msgid ""
+"Import your collected data into the desktop client when back in the "
+"office,"
+msgstr ""
+
+#: ../../open-invitation.rst:36
+msgid ""
+"``ghini.pocket`` reduces the time spent in front of your desktop PC to a "
+"true minimum."
+msgstr ""
+
+#: ../../open-invitation.rst:38
+msgid ""
+"``ghini.web`` is a web server and a courtesy data hub service, offering "
+"you world wide visibility: Export a selection of your data from your "
+"desktop database, and handle it for publication to the Ghini project, and"
+" we will include it at http://gardens.ghini.me/, at no cost while we're "
+"able to do that, or for a guaranteed minimal amount of time if you are "
+"able to support our hosting costs. ``ghini.web`` serves a world map to "
+"help locate participating gardens, and within each garden, its "
+"contributed georeferenced plants."
+msgstr ""
+
+#: ../../open-invitation.rst:46
+msgid ""
+"``ghini.tour``, a geographic tour Android app aimed at visitors, using "
+"OpenStreetMap as a base map, retrieving its data, gardens and virtual "
+"panels, from the web data aggregator ``ghini.web``."
+msgstr ""
+
+#: ../../open-invitation.rst:50
+msgid ""
+"All software within the Ghini family is either licensed GNU Public "
+"License v2+ or v3+. It is a strong copyleft license.  In short, the GPL "
+"translates the ethical scientific need to share knowledge, into legal "
+"terms. If you want to read more about it, please refer to "
+"https://www.gnu.org/licenses/copyleft.html"
+msgstr ""
+
+#: ../../open-invitation.rst:55
+msgid ""
+"Ghini's idea about knowledge and software ownership is that software is "
+"procedural knowledge and as such, should be made a \"commons\": With "
+"software as a commons, \"libre software\" and more specifically "
+"\"Copylefted software\", you not only get the source code, you receive "
+"the right to adapt it, and the invitation to study and learn from it, and"
+" to share it, both share forward to colleagues, and share back to the "
+"source.  With proprietary software, you are buying your own ignorance, "
+"and with that, your dependency."
+msgstr ""
+
+#: ../../open-invitation.rst:62
+msgid ""
+"This fancy term \"copyleft\" instead of just \"libre software\", means "
+"the software you received is libre software with one extra freedom, "
+"guaranteeing every right you were granted upon receiving the software is "
+"never lost."
+msgstr ""
+
+#: ../../open-invitation.rst:66
+msgid ""
+"With copylefted software you are free —actually welcome— to employ local "
+"software developers in your neighbourhood to alter the software according"
+" to your needs, please do this on GitHub, fork the code, develop just as "
+"openly as the common practice within Ghini, and whenever you want, open a"
+" pull request so your edits can be considered for inclusion in the main "
+"branch. Ghini is mostly continuously unit tested, so before your code is "
+"added to the main branch, it should follow our quality guidelines for "
+"contributions. With libre software you acquire freedom and contribute to "
+"it, something that earns you visibility: Your additions stays yours, you "
+"share them back to the community, and will see them completed and made "
+"better by others. Having your code added to the main branch simplifies "
+"your upgrade procedure."
+msgstr ""
+
+#: ../../open-invitation.rst:76
+msgid ""
+"You can also contribute to the software by helping translate it into your"
+" native language. [5]"
+msgstr ""
+
+#: ../../open-invitation.rst:78
+msgid ""
+"Some videos are published on YouTube, highlighting some of the software "
+"capabilities. [6]"
+msgstr ""
+
+#: ../../open-invitation.rst:80
+msgid ""
+"Share back with the community. Several developers have spent cumulatively"
+" many thousand hours developing this software, and we're sharing with the"
+" community. We hope by this to stimulate a community sentiment in whoever"
+" starts using what we have produced."
+msgstr ""
+
+#: ../../open-invitation.rst:84
+msgid ""
+"Thanks for your consideration; please let me know if you have any "
+"questions,"
+msgstr ""
+
+#: ../../open-invitation.rst:86
+msgid "Mario Frasca MSc"
+msgstr ""
+
+#: ../../open-invitation.rst:89
+msgid ""
+"Many institutions still consider software an investment, an asset that is"
+" not to be shared with others, as if it was some economic good that can't"
+" be duplicated, like gold. As of right now, very few copylefted programs "
+"exist for botanic data management:"
+msgstr ""
+
+#: ../../open-invitation.rst:93
+msgid ""
+"``ghini.desktop``, born as ``bauble.classic`` and made a commons by the "
+"Belize Botanical Garden.  ``ghini.desktop`` has three more components, a "
+"pocket data collecting Android app, a Node.js web server, aggregating "
+"data from different gardens and presenting it geographically, again a "
+"geographic tour app aimed at visitors using the web data aggregator as "
+"its data source. You can find every Ghini component on GitHub: "
+"http://github.com/Ghini"
+msgstr ""
+
+#: ../../open-invitation.rst:100
+msgid ""
+"Specify 6 and 7, made a Commons by the Kansas University. A bit complex "
+"to set up, very difficult to configure and tricky to update. The "
+"institutions I've met who tried it, only the bigger ones, with in-house "
+"software management capabilities manage to successfully use it. They use "
+"it for very large collections. Specify is extremely generic, it adapts to"
+" herbaria, seed collections, but also to collections of eggs, organic "
+"material, fossils, preserved dead animals, possibly even viruses, I'm not"
+" sure. It is this extreme flexibility that makes its configuration such a"
+" complex task. Specify is also on GitHub: https://github.com/specify and "
+"is licensed as GPLv2+."
+msgstr ""
+
+#: ../../open-invitation.rst:109
+msgid ""
+"Botalista, a French/Swiss cooperation, is GPL as far as rumours go. Its "
+"development has yet to go public."
+msgstr ""
+
+#: ../../open-invitation.rst:112
+#, python-format
+msgid ""
+"``bauble.web`` is an experimental web server by the author of "
+"``bauble.classic``. ``bauble.classic`` has been included into Ghini, to "
+"become ``ghini.desktop``. Bauble uses a very permissive license, making "
+"it libre, but not copylefted. As much as 50% of bauble.web and possibly "
+"30% of ghini.desktop is shared between the two projects. Bauble seems to "
+"be stagnating, and has not yet reached a production-ready stage."
+msgstr ""
+
+#: ../../open-invitation.rst:118
+msgid ""
+"``Taxasoft-BG``, by Eric Gouda, a Dutch botanist, specialist in "
+"Bromeliaceae, collection manager at the Utrecht botanical garden. It was "
+"Mario Frasca who convinced Eric to publish what he was doing, licensing "
+"it under the GPL, but the repository was not updated after 2016, April "
+"13th and Eric forgot to explicitly specify the license.  You find it on "
+"github: https://github.com/Ejgouda/Taxasoft-BG"
+msgstr ""
+
+#: ../../open-invitation.rst:124
+msgid ""
+"Of the above, only ``ghini.desktop`` satisfies these conditions: "
+"Copylefted, available, documented, maintained, easy to install and "
+"configure.  Moreover: Cross platform and internationalized."
+msgstr ""
+
+#: ../../open-invitation.rst:131
+msgid ""
+"*Ghini*, in honour of Luca Ghini, founder of the first botanical garden "
+"in Europe, and I've broadened the family with a hand-held inventory "
+"reviewing tool, a data aggregator which I'm running as a service at "
+"http://gardens.ghini.me/, and a hand-held app for garden visitors."
+msgstr ""
+
+#: ../../open-invitation.rst:137
+msgid ""
+"In case you're interested in publishing your tree collection on the net, "
+"I would be happy to include your plants, species, coordinates to "
+"http://gardens.ghini.me. Georeferenced textual information panels are "
+"also very welcome, all offered as a courtesy: We're still defining the "
+"offer. The idea behind this is allowing visitors to explore aggregated "
+"garden collections, and the current focus is on trees."
+msgstr ""
+
+#: ../../open-invitation.rst:144
+#, python-format
+msgid "A small example: http://gardens.ghini.me/#garden=Jardín%20el%20Cuchubo"
+msgstr ""
+
+#: ../../open-invitation.rst:146
+msgid "Best regards,"
+msgstr ""
+
+#: ../../open-invitation.rst:148
+msgid "Mario Frasca"
+msgstr ""
+
+#: ../../open-invitation.rst:151
+msgid "[1] http://ghini.readthedocs.io/ - http://ghini.github.io/"
+msgstr ""
+
+#: ../../open-invitation.rst:153
+msgid "[2] https://play.google.com/store/apps/details?id=me.ghini.pocket"
+msgstr ""
+
+#: ../../open-invitation.rst:155
+msgid "[3] http://gardens.ghini.me/"
+msgstr ""
+
+#: ../../open-invitation.rst:157
+msgid "[4] https://play.google.com/store/apps/details?id=me.ghini.tour"
+msgstr ""
+
+#: ../../open-invitation.rst:159
+msgid "[5] https://hosted.weblate.org/projects/ghini/#languages"
+msgstr ""
+
+#: ../../open-invitation.rst:161
+msgid ""
+"[6] "
+"https://www.youtube.com/playlist?list=PLtYRCnAxpinU_8WEDuRlgsYnNVe4J_4kv"
 msgstr ""
 
 #: ../../propagations.rst:4
@@ -6380,18 +6697,18 @@ msgstr ""
 
 #: ../../use_cases-zadenbank.rst:65
 msgid ""
-"One possibility, the one described here, is based on notes.  (Ghini does "
-"not, as yet, implement the concept \"Acquisition\". There is an issue "
-"related to the Acquisition and Donation objects, but we haven't quite "
-"formalized things yet.)"
+"One possibility, the one described here, is based on ›Notes‹.  (Ghini "
+"does not, as yet, implement the concept \"Acquisition\". There is an "
+"issue related to the Acquisition and Donation objects, but we haven't "
+"quite formalized things yet.)"
 msgstr ""
 
 #: ../../use_cases-zadenbank.rst:70
 msgid ""
 "You surely already use codes to identify a batch of seeds entering the "
-"seed bank.  Just copy this code in a note, category 'received', to each "
-"accession in the received batch.  This will let you select the accessions"
-" by the query::"
+"seed bank.  Just copy this code in a ›Note‹, category 'received', to each"
+" ›Accession‹ in the received batch.  This will let you select the "
+"›Accessions‹ by the query::"
 msgstr ""
 
 #: ../../use_cases-zadenbank.rst:77
@@ -6429,7 +6746,7 @@ msgid "put the seeds in an ›Envelope‹ (yes, that's a database object)."
 msgstr ""
 
 #: ../../use_cases-zadenbank.rst:94
-msgid "send the envelope (but keep track of it)."
+msgid "send the envelope (but keep it in the database)."
 msgstr ""
 
 #: ../../use_cases-zadenbank.rst:96
@@ -6450,7 +6767,7 @@ msgstr ""
 
 #: ../../use_cases-zadenbank.rst:105
 msgid ""
-"While preparing the sending, we advise you use a temporary tag on the "
+"While preparing the sending, we advise you use a temporary ›Tag‹ on the "
 "objects being edited."
 msgstr ""
 
@@ -6470,17 +6787,22 @@ msgstr ""
 
 #: ../../use_cases-zadenbank.rst:116
 msgid ""
-"Say you were requested to deliver 50 seeds of Urtica dioica, 30 of Zea "
-"mays 'Red Marvel', 80 of Oryza sativa, and 30 of Panicum maximum."
+"Say you were requested to deliver 50 seeds of Parnassia palustris, 30 of "
+"Gentiana pneumonanthe, 80 of Fritillaria meleagris, and 30 of Hypericum "
+"pulchrum."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:121
+#: ../../use_cases-zadenbank.rst:120
+msgid "**step 1**"
+msgstr ""
+
+#: ../../use_cases-zadenbank.rst:122
 msgid ""
 "The first step is to check the quantities you have in house, and if you "
 "do have enough, where you have them.  You do this per requested species::"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:127
+#: ../../use_cases-zadenbank.rst:128
 msgid ""
 "Expand in the results pane the ›Accession‹ from which you want to grab "
 "the seeds, so you see the corresponding ›Jars‹, highlight one, and tag it"
@@ -6490,11 +6812,13 @@ msgid ""
 " that's only for ease of exposition and further completely irrelevant."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:135
-msgid "Repeat the task for Urtica dioica, Oryza sativa, Panicum maximum::"
+#: ../../use_cases-zadenbank.rst:136
+msgid ""
+"Repeat the task for Gentiana pneumonanthe, Fritillaria meleagris, "
+"Hypericum pulchrum::"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:141
+#: ../../use_cases-zadenbank.rst:143
 msgid ""
 "Again highilight the accession from which you can grab seeds, and hit "
 "Ctrl-Y (this tags the highighted row with the active tag).  Don't worry "
@@ -6503,12 +6827,16 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-zadenbank.rst:148
+msgid "**step 2**"
+msgstr ""
+
+#: ../../use_cases-zadenbank.rst:150
 msgid ""
 "Now we prepare to go to the seeds bank, with the envelopes we want to "
 "fill."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:151
+#: ../../use_cases-zadenbank.rst:153
 msgid ""
 "Select the ›sending‹ ›Tag‹ from the tags menu, this will bring back in "
 "the results pane all the tagged ›Plants‹ (›Jars‹ or ›Envelopes‹), and "
@@ -6517,55 +6845,63 @@ msgid ""
 "also the ›Species‹ name, and the quantity you can provide."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:157
+#: ../../use_cases-zadenbank.rst:159
 msgid ""
 "Walk now to your seeds bank and, for each of the envelopes you just "
-"prepared, open the Location, grab the Plant, extract the correct amount "
-"of seeds, put them in your physical envelope."
+"prepared, open the ›Location‹, grab the ›Plant‹, extract the correct "
+"amount of seeds, put them in your physical envelope."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:161
+#: ../../use_cases-zadenbank.rst:163
 msgid "And back to the database!"
 msgstr ""
 
 #: ../../use_cases-zadenbank.rst:165
+msgid "**step 3**"
+msgstr ""
+
+#: ../../use_cases-zadenbank.rst:167
 msgid ""
 "If nobody used your workstation, you still have the Tag in the results "
 "pane, and it's expanded so you see all the individual plants you tagged."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:169
+#: ../../use_cases-zadenbank.rst:171
 msgid ""
 "One by one, you have to ›split‹ the plant.  This is a standard operation "
 "that you activate by right-clicking on the plant."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:172
+#: ../../use_cases-zadenbank.rst:174
 msgid "A plant editor window comes in view, in 'split mode'."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:174
+#: ../../use_cases-zadenbank.rst:176
 msgid ""
 "Splitting a plant lets you create a database image of the plant group you"
-" just physically created, eg: it lets you subtract 30 items from the Zea "
-"mayx plant (group number one, that is the one in the jar), and create a "
-"new plant group for the same accession.  A good practice would be to "
-"specify as ›Location‹ for this new plant the 'out box', that is, the "
-"envelope is on its way to leave the garden."
+" just physically created, eg: it lets you subtract 30 items from the "
+"Gentiana pneumonanthe plant (group number one, that is the one in the "
+"jar), and create a new plant group for the same accession.  A good "
+"practice would be to specify as ›Location‹ for this new plant the 'out "
+"box', that is, the envelope is on its way to leave the garden."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:181
+#: ../../use_cases-zadenbank.rst:183
 msgid "Don't forget to delete the temporary 'sending' ›Tag‹."
 msgstr ""
 
 #: ../../use_cases-zadenbank.rst:185
+msgid "**step 4**"
+msgstr ""
+
+#: ../../use_cases-zadenbank.rst:187
 msgid ""
 "Final step, it represents the physical step of sending the envelope, "
 "possibly together with several other envelopes, in a single sending, "
 "which should have a code."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:189
+#: ../../use_cases-zadenbank.rst:191
 msgid ""
 "Just as you did when you received a batch of plants, you work with notes,"
 " this time the category is 'sent', and the note text is whatever you "
@@ -6574,22 +6910,28 @@ msgid ""
 "envelopes: category 'sent', text: '2018-pino-002'."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:195
+#: ../../use_cases-zadenbank.rst:197
 msgid ""
 "When you finally do send the envelopes, these stop being part of your "
 "collection.  You still want to know that they have existed, but you do "
 "not want to count them among the seeds that are available to you."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:199
+#: ../../use_cases-zadenbank.rst:201
 msgid "Bring back all the plants in the sending '2018-pino-002'::"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst:203
+#: ../../use_cases-zadenbank.rst:205
 msgid ""
-"You now need to edit them one by one, mark the quantity to zero, and "
+"You now need to edit them one by one, mark the ›quantity‹ to zero, and "
 "optionally specify the reason of the change, which would be ›given away‹,"
-" and the recipient is already specified in the 'sent' note.."
+" and the recipient is already specified in the 'sent' ›Note‹."
+msgstr ""
+
+#: ../../use_cases-zadenbank.rst:209
+msgid ""
+"This last operation could be automated, we're thinking of it, it would "
+"become a script, acting on a selection.  Stay tuned."
 msgstr ""
 
 #: ../../users.rst:2
@@ -6626,6 +6968,94 @@ msgstr ""
 
 #: ../../users.rst:20
 msgid "Ghini allows read, write and execute permissions."
+msgstr ""
+
+#: ../../welcome-letter.rst:1
+msgid "subject: Welcome to Ghini/Bauble"
+msgstr ""
+
+#: ../../welcome-letter.rst:3
+msgid "Dear new user,"
+msgstr ""
+
+#: ../../welcome-letter.rst:5
+msgid "Welcome to Ghini/Bauble."
+msgstr ""
+
+#: ../../welcome-letter.rst:7
+msgid ""
+"As the maintainer, I have received your registration for "
+"bauble.classic/ghini.desktop, many thanks for taking your time to fill in"
+" the form."
+msgstr ""
+
+#: ../../welcome-letter.rst:10
+msgid ""
+"I see you are using bauble.classic-1.0.55, whereas 1.0.55 is the last "
+"released version of bauble.classic, however, bauble.classic is now "
+"unmaintained and superseded by the fully compatible, but slightly "
+"aesthetically different ghini.desktop. Install it following the "
+"instructions found at http://ghini.rtfd.io"
+msgstr ""
+
+#: ../../welcome-letter.rst:13
+msgid ""
+"The registration service says you're not yet using the newest Python2 "
+"version available. As of 2018-05-01, that is 2.7.15. Using any older "
+"version does not necessitate problems, but in case anything strange "
+"happens, please update your Python (and PyGTK) before reporting any "
+"errors."
+msgstr ""
+
+#: ../../welcome-letter.rst:15
+msgid ""
+"Also thank you for enabling the \"sentry\" errors and warnings handler. "
+"With that enabled, Ghini/Bauble will send any error or warning you might "
+"encounter to a central server, where a developer will be able to examine "
+"it. If the warning was caused by an error in the software, its solution "
+"will be present in a subsequent release of the software"
+msgstr ""
+
+#: ../../welcome-letter.rst:18
+msgid ""
+"If you haven't already, to enable the sentry and warnings handler, open "
+"the \":config\" page in Ghini and double click on the row "
+"\"bauble.use_sentry_client\"."
+msgstr ""
+
+#: ../../welcome-letter.rst:20
+msgid ""
+"I hope Ghini already matches your expectations, if this is not the case, "
+"the whole Ghini community would be very thankful if you took the time to "
+"report your experience with it."
+msgstr ""
+
+#: ../../welcome-letter.rst:24
+msgid ""
+"The above is one way to contribute to Ghini's development. Others are: - "
+"contribute ideas, writing on the bauble google forum "
+"(https://groups.google.com/forum/#!forum/bauble), - contribute "
+"documentation, or translations "
+"(https://hosted.weblate.org/projects/ghini/), - give private feedback, "
+"writing to ghini@anche.no, - rate and discuss Ghini openly, and promote "
+"its adoption by other institutions, - open an issue on GitHub "
+"(https://github.com/Ghini/ghini.desktop/issues/), - contribute code on "
+"GitHub (fork the project on (https://github.com/Ghini/ghini.desktop/), - "
+"hire a developer and have a set of GitHub issues solved, per-haps your "
+"own - let me include your garden on the still experimental worldmap "
+"(http://gardens.ghini.me)"
+msgstr ""
+
+#: ../../welcome-letter.rst:34
+msgid "I sincerely hope you will enjoy using this copylefted, libre software"
+msgstr ""
+
+#: ../../welcome-letter.rst:36
+msgid "Best regards, Mario Frasca"
+msgstr ""
+
+#: ../../welcome-letter.rst:39
+msgid "https://ghini.github.io https://github.com/Ghini/ghini.desktop/issues/"
 msgstr ""
 
 #~ msgid "rank genus"
@@ -8659,5 +9089,95 @@ msgstr ""
 #~ " but it also contains pages dedicated"
 #~ " to using the other components, and"
 #~ " to their mutual interaction."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "download the batch file you will "
+#~ "use to stay up-to-date with "
+#~ "the production line you chose to "
+#~ "follow:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "if you are on a recent Ghini "
+#~ "installation, each time you start the"
+#~ " program, Ghini will check on the "
+#~ "development site and alert you of "
+#~ "any newer ghini release within your "
+#~ "chosen production line."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "One possibility, the one described here,"
+#~ " is based on notes.  (Ghini does "
+#~ "not, as yet, implement the concept "
+#~ "\"Acquisition\". There is an issue "
+#~ "related to the Acquisition and Donation"
+#~ " objects, but we haven't quite "
+#~ "formalized things yet.)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You surely already use codes to "
+#~ "identify a batch of seeds entering "
+#~ "the seed bank.  Just copy this "
+#~ "code in a note, category 'received', "
+#~ "to each accession in the received "
+#~ "batch.  This will let you select "
+#~ "the accessions by the query::"
+#~ msgstr ""
+
+#~ msgid "send the envelope (but keep track of it)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While preparing the sending, we advise"
+#~ " you use a temporary tag on the"
+#~ " objects being edited."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Say you were requested to deliver "
+#~ "50 seeds of Urtica dioica, 30 of"
+#~ " Zea mays 'Red Marvel', 80 of "
+#~ "Oryza sativa, and 30 of Panicum "
+#~ "maximum."
+#~ msgstr ""
+
+#~ msgid "Repeat the task for Urtica dioica, Oryza sativa, Panicum maximum::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Walk now to your seeds bank and,"
+#~ " for each of the envelopes you "
+#~ "just prepared, open the Location, grab"
+#~ " the Plant, extract the correct "
+#~ "amount of seeds, put them in your"
+#~ " physical envelope."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Splitting a plant lets you create "
+#~ "a database image of the plant "
+#~ "group you just physically created, eg:"
+#~ " it lets you subtract 30 items "
+#~ "from the Zea mayx plant (group "
+#~ "number one, that is the one in "
+#~ "the jar), and create a new plant"
+#~ " group for the same accession.  A "
+#~ "good practice would be to specify "
+#~ "as ›Location‹ for this new plant "
+#~ "the 'out box', that is, the "
+#~ "envelope is on its way to leave"
+#~ " the garden."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You now need to edit them one "
+#~ "by one, mark the quantity to zero,"
+#~ " and optionally specify the reason of"
+#~ " the change, which would be ›given"
+#~ " away‹, and the recipient is already"
+#~ " specified in the 'sent' note.."
 #~ msgstr ""
 

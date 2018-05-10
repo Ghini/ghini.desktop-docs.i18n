@@ -62,15 +62,15 @@ directions on how to develop their own database.
       follow the same convention when doing so, you will be able to write
       and execute such queries using ghini.
 
-      One possibility, the one described here, is based on notes.  (Ghini
+      One possibility, the one described here, is based on ›Notes‹.  (Ghini
       does not, as yet, implement the concept "Acquisition". There is an
       issue related to the Acquisition and Donation objects, but we haven't
       quite formalized things yet.)
 
       You surely already use codes to identify a batch of seeds entering the
-      seed bank.  Just copy this code in a note, category 'received', to
-      each accession in the received batch.  This will let you select the
-      accessions by the query::
+      seed bank.  Just copy this code in a ›Note‹, category 'received', to
+      each ›Accession‹ in the received batch.  This will let you select the
+      ›Accessions‹ by the query::
 
         accession where notes[category='received'].note='<your code>'
 
@@ -91,7 +91,7 @@ directions on how to develop their own database.
         of the right seeds.
       * remove that amount of seeds from the ›Jar‹ (decrement the quantity),
       * put the seeds in an ›Envelope‹ (yes, that's a database object).
-      * send the envelope (but keep track of it).
+      * send the envelope (but keep it in the database).
       
       this in short.
 
@@ -102,7 +102,7 @@ directions on how to develop their own database.
       There's two levels of keeping things together: one is while you're
       preparing the sending, and then for later reference.
 
-      While preparing the sending, we advise you use a temporary tag on the
+      While preparing the sending, we advise you use a temporary ›Tag‹ on the
       objects being edited.
 
       For later reference, you will have common ›Note‹ texts, to identify
@@ -113,16 +113,17 @@ directions on how to develop their own database.
 
       Right.  Quite fair.  Let's see…
 
-      Say you were requested to deliver 50 seeds of Urtica dioica, 30 of Zea
-      mays 'Red Marvel', 80 of Oryza sativa, and 30 of Panicum maximum.
+      Say you were requested to deliver 50 seeds of Parnassia palustris, 30
+      of Gentiana pneumonanthe, 80 of Fritillaria meleagris, and 30 of
+      Hypericum pulchrum.
 
-      -------------------------
+      **step 1**
 
       The first step is to check the quantities you have in house, and if
       you do have enough, where you have them.  You do this per requested
       species::
 
-        accession where species.genus.epithet=Zea and species.epithet=mays and sum(plants.quantity)>0
+        accession where species.genus.epithet=Parnassia and species.epithet=palustris and sum(plants.quantity)>0
 
       Expand in the results pane the ›Accession‹ from which you want to grab
       the seeds, so you see the corresponding ›Jars‹, highlight one, and tag
@@ -132,18 +133,19 @@ directions on how to develop their own database.
       ›sending‹, but that's only for ease of exposition and further
       completely irrelevant.
 
-      Repeat the task for Urtica dioica, Oryza sativa, Panicum maximum::
+      Repeat the task for Gentiana pneumonanthe, Fritillaria meleagris,
+      Hypericum pulchrum::
 
-        accession where species.genus.epithet=Urtica and species.epithet=dioica and sum(plants.quantity)>0
-        accession where species.genus.epithet=Oryza and species.epithet=sativa and sum(plants.quantity)>0
-        accession where species.genus.epithet=Panicum and species.epithet=maximum and sum(plants.quantity)>0
+        accession where species.genus.epithet=Gentiana and species.epithet=pneumonanthe and sum(plants.quantity)>0
+        accession where species.genus.epithet=Fritillaria and species.epithet=meleagris and sum(plants.quantity)>0
+        accession where species.genus.epithet=Hypericum and species.epithet=pulchrum and sum(plants.quantity)>0
 
       Again highilight the accession from which you can grab seeds, and hit
       Ctrl-Y (this tags the highighted row with the active tag).  Don't
       worry if nothing seems to happen when you hit Ctrl-Y, this is a silent
       operation.
 
-      -------------------------
+      **step 2**
 
       Now we prepare to go to the seeds bank, with the envelopes we want to
       fill.
@@ -155,12 +157,12 @@ directions on how to develop their own database.
       Write also the ›Species‹ name, and the quantity you can provide.
 
       Walk now to your seeds bank and, for each of the envelopes you just
-      prepared, open the Location, grab the Plant, extract the correct
+      prepared, open the ›Location‹, grab the ›Plant‹, extract the correct
       amount of seeds, put them in your physical envelope.
 
       And back to the database!
 
-      -------------------------
+      **step 3**
 
       If nobody used your workstation, you still have the Tag in the results
       pane, and it's expanded so you see all the individual plants you
@@ -173,14 +175,14 @@ directions on how to develop their own database.
       
       Splitting a plant lets you create a database image of the plant group
       you just physically created, eg: it lets you subtract 30 items from
-      the Zea mayx plant (group number one, that is the one in the jar),
-      and create a new plant group for the same accession.  A good practice
-      would be to specify as ›Location‹ for this new plant the 'out box',
-      that is, the envelope is on its way to leave the garden.
+      the Gentiana pneumonanthe plant (group number one, that is the one in
+      the jar), and create a new plant group for the same accession.  A good
+      practice would be to specify as ›Location‹ for this new plant the 'out
+      box', that is, the envelope is on its way to leave the garden.
 
       Don't forget to delete the temporary 'sending' ›Tag‹.
 
-      -------------------------
+      **step 4**
 
       Final step, it represents the physical step of sending the envelope,
       possibly together with several other envelopes, in a single sending,
@@ -200,7 +202,9 @@ directions on how to develop their own database.
 
         plant where notes[category='sent'].note = '2018-pino-002'
 
-      You now need to edit them one by one, mark the quantity to zero, and
+      You now need to edit them one by one, mark the ›quantity‹ to zero, and
       optionally specify the reason of the change, which would be ›given
-      away‹, and the recipient is already specified in the 'sent' note..
-       
+      away‹, and the recipient is already specified in the 'sent' ›Note‹.
+
+      This last operation could be automated, we're thinking of it, it would
+      become a script, acting on a selection.  Stay tuned.
