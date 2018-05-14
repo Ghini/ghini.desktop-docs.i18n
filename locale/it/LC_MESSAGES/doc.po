@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-10 11:38-0500\n"
+"POT-Creation-Date: 2018-05-14 08:36-0500\n"
 "PO-Revision-Date: 2017-08-16 14:44+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language: it\n"
@@ -1534,50 +1534,66 @@ msgstr "pubblicazione in produzione"
 
 #: ../../building.rst:691
 msgid ""
+"please use the ``publish.sh`` script, in the ``scritps`` directory.  This"
+" one takes care of every single step, and produces recognizable commit "
+"comments, it publishes the release on pypi, and in perspective it will "
+"contain all steps for producing a ``deb`` file, and a windows executable."
+msgstr ""
+
+#: ../../building.rst:696
+msgid "you can also do this by hand:"
+msgstr ""
+
+#: ../../building.rst:698
+msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``,"
 " compared to ``ghini-x.y-dev``."
 msgstr ""
 "Aprire il pull richiesta pagina utilizzando come base una linea di "
 "produzione ``ghini-x.y``, rispetto al ``ghini-x.y-dev``."
 
-#: ../../building.rst:693
+#: ../../building.rst:700
 msgid "make sure a ``bump`` commit is included in the differences."
 msgstr "Assicurarsi che un commit ``bump`` è incluso nelle differenze."
 
-#: ../../building.rst:694
+#: ../../building.rst:701
 msgid "it should be possible to automatically merge the branches."
 msgstr "dovrebbe essere possibile unire automaticamente i rami."
 
-#: ../../building.rst:695
+#: ../../building.rst:702
 msgid "create the new pull request, call it as “publish to the production line”."
 msgstr ""
 "creare la nuova richiesta di pull, lo chiamano come \"pubblica la linea "
 "di produzione\"."
 
-#: ../../building.rst:696
+#: ../../building.rst:703
 msgid "you possibly need wait for travis-ci to perform the checks."
 msgstr "Forse devi aspettare per travis-ci eseguire i controlli."
 
-#: ../../building.rst:697
+#: ../../building.rst:704
 msgid "merge the changes."
 msgstr "unire le modifiche."
 
-#: ../../building.rst:698
-msgid "tell the world about it: on facebook, the google group, linkedin, ..."
-msgstr "raccontare al mondo: su facebook, il gruppo google, linkedin,..."
+#: ../../building.rst:706
+msgid ""
+"don't forget to tell the world about the new release: on `facebook "
+"<https://www.facebook.com/bauble.thesoftware/>`_, the `google group "
+"<https://groups.google.com/forum/#!forum/bauble>`_, in any relevant "
+"linkedin group, and on `our web page <http://ghini.github.io/>`_."
+msgstr ""
 
-#: ../../building.rst:701
+#: ../../building.rst:712
 msgid "your own fork"
 msgstr ""
 
-#: ../../building.rst:703
+#: ../../building.rst:714
 msgid ""
 "If you want to keep your own fork of the project, keep in mind this is "
 "full force work in progress, so staying up to date will require some "
 "effort from your side."
 msgstr ""
 
-#: ../../building.rst:707
+#: ../../building.rst:718
 msgid ""
 "The best way to keep your own fork is to focus on some specific issue, "
 "work relatively quickly, often open pull requests for your work, make "
@@ -1586,7 +1602,7 @@ msgid ""
 "having your work included in Ghini's upstream."
 msgstr ""
 
-#: ../../building.rst:713
+#: ../../building.rst:724
 msgid ""
 "If your fork got out of sync with Ghini's upstream: read, understand, "
 "follow the github guides `configuring a remote for a fork "
@@ -1594,11 +1610,11 @@ msgid ""
 " `syncing a fork <https://help.github.com/articles/syncing-a-fork/>`_."
 msgstr ""
 
-#: ../../building.rst:719
+#: ../../building.rst:730
 msgid "closing step"
 msgstr "Fase di"
 
-#: ../../building.rst:721
+#: ../../building.rst:732
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
@@ -1607,11 +1623,11 @@ msgstr ""
 " una linea guida, a voi stessi e ai vostri colleghi. si prega di "
 "contribuire a rendere migliore e la pratica di corrispondenza."
 
-#: ../../building.rst:725
+#: ../../building.rst:736
 msgid "distributing for windows"
 msgstr "creare una distribuzione Windows"
 
-#: ../../building.rst:727
+#: ../../building.rst:738
 msgid ""
 "For building a Windows installer or executable you will need an "
 "installation of Windows.  The methods described here has been used "
@@ -1619,7 +1635,7 @@ msgid ""
 "has not been tested."
 msgstr ""
 
-#: ../../building.rst:731
+#: ../../building.rst:742
 msgid ""
 "In the remainder of this section we assume you're using a Windows "
 "workstation.  We also assume assume you do not use it as your software "
@@ -1627,18 +1643,18 @@ msgid ""
 "steps for a normal Windows :ref:`installation`."
 msgstr ""
 
-#: ../../building.rst:736
+#: ../../building.rst:747
 msgid "py2exe will not work with eggs"
 msgstr ""
 
-#: ../../building.rst:739
+#: ../../building.rst:750
 msgid ""
 "Building a Windows executable with py2exe requires packages **not** be "
 "installed as eggs.  There are several methods to accomplish this, "
 "including:"
 msgstr ""
 
-#: ../../building.rst:742
+#: ../../building.rst:753
 msgid ""
 "Using pip to install.  The easiest method is to install into a virtual "
 "environment that doesn't currently have any modules installed as eggs "
@@ -1648,11 +1664,11 @@ msgid ""
 " vary."
 msgstr ""
 
-#: ../../building.rst:749
+#: ../../building.rst:760
 msgid "By adding::"
 msgstr ""
 
-#: ../../building.rst:754
+#: ../../building.rst:765
 msgid ""
 "to setup.cfg (or similarly ``zip_safe = False`` to ``setuptools.setup()``"
 " in ``setup.py``) you can use ``python setup.py install`` but you will "
@@ -1662,57 +1678,57 @@ msgid ""
 "eggs."
 msgstr ""
 
-#: ../../building.rst:760
+#: ../../building.rst:771
 msgid ""
 "Download and install git, Python 2.7 and PyGTK as outlined in the generic"
 " :ref:`installation` instructions."
 msgstr ""
 
-#: ../../building.rst:763
+#: ../../building.rst:774
 msgid ""
 "Additionally, download and install `NSIS v3 "
 "<http://nsis.sourceforge.net/Download>`_."
 msgstr ""
 
-#: ../../building.rst:765
+#: ../../building.rst:776
 msgid "A **reboot** is recommended."
 msgstr ""
 
-#: ../../building.rst:767
+#: ../../building.rst:778
 msgid "we have a script that automates the remaining steps"
 msgstr ""
 
-#: ../../building.rst:770
+#: ../../building.rst:781
 msgid ""
 "A batch file is available that can complete the last few steps.  To use "
 "it use this command::"
 msgstr ""
 
-#: ../../building.rst:775
+#: ../../building.rst:786
 msgid "``build_win.bat`` accepts 2 arguments:"
 msgstr ""
 
-#: ../../building.rst:777
+#: ../../building.rst:788
 msgid ""
 "``/e`` will produce an executable only, skipping the extra step of "
 "building an installer, and will copy ``win_gtk.bat`` into place."
 msgstr ""
 
-#: ../../building.rst:780
+#: ../../building.rst:791
 #, python-format
 msgid ""
 "A path to the location for the virtual environment to use. (defaults to "
 "``\"%HOMEDRIVE%%HOMEPATH%\"\\.virtualenvs\\ghi2exe``)"
 msgstr ""
 
-#: ../../building.rst:783
+#: ../../building.rst:794
 msgid ""
 "e.g. to produce an executable only and use a virtual environment in a "
 "folder beside where you have ghini.desktop you could execute "
 "``scripts\\build_win.bat /e ..\\ghi2exe``"
 msgstr ""
 
-#: ../../building.rst:787
+#: ../../building.rst:798
 msgid ""
 "Clone ghini.desktop to wherever you want to keep it (replace ``<path-to-"
 "keep-ghini>`` with the path of your choice, e.g. "
@@ -1721,14 +1737,14 @@ msgid ""
 "a command prompt and type these commands::"
 msgstr ""
 
-#: ../../building.rst:798
+#: ../../building.rst:809
 msgid ""
 "Install virtualenv, create a virtual environment and activate it.  With "
 "only Python 2.7 on your system (where ``<path-to-venv>`` is the path to "
 "where you wish to keep the virtual environment) use::"
 msgstr ""
 
-#: ../../building.rst:806
+#: ../../building.rst:817
 msgid ""
 "On systems where Python 3 is also installed you may need to either call "
 "pip and virtualenv with absolute paths e.g.  "
@@ -1737,15 +1753,15 @@ msgid ""
 "other than version 2.7 you'll need to use one of these methods.)"
 msgstr ""
 
-#: ../../building.rst:812
+#: ../../building.rst:823
 msgid "Install dependencies and ghini.desktop into the virtual environment::"
 msgstr ""
 
-#: ../../building.rst:817
+#: ../../building.rst:828
 msgid "Build the executable::"
 msgstr ""
 
-#: ../../building.rst:821
+#: ../../building.rst:832
 msgid ""
 "The ``dist`` folder will now contain a full working copy of the software "
 "in a frozen, self contained state, that can be transferred however you "
@@ -1761,35 +1777,35 @@ msgid ""
 "of the folder changes.  Thereafter ``ghini.exe`` will run as expected."
 msgstr ""
 
-#: ../../building.rst:834
+#: ../../building.rst:845
 msgid "Build the installer::"
 msgstr ""
 
-#: ../../building.rst:838
+#: ../../building.rst:849
 msgid ""
 "This should leave a file named ``ghini.desktop-<version>-setup.exe`` in "
 "the ``scripts`` folder.  This is your Windows installer."
 msgstr ""
 
-#: ../../building.rst:841
+#: ../../building.rst:852
 msgid "about the installer"
 msgstr ""
 
-#: ../../building.rst:844
+#: ../../building.rst:855
 msgid "Capable of single user or global installs."
 msgstr ""
 
-#: ../../building.rst:846
+#: ../../building.rst:857
 msgid ""
 "At this point in time ghini.desktop installed this way will not check or "
 "or notify you of any updated version.  You will need to check yourself."
 msgstr ""
 
-#: ../../building.rst:850
+#: ../../building.rst:861
 msgid "Capable of downloading and installing optional extra components:"
 msgstr ""
 
-#: ../../building.rst:852
+#: ../../building.rst:863
 msgid ""
 "Apache FOP - If you want to use xslt report templates install FOP. FOP "
 "requires Java Runtime. If you do not currently have it installed the "
@@ -1797,42 +1813,42 @@ msgid ""
 " to download and install it from."
 msgstr ""
 
-#: ../../building.rst:857
+#: ../../building.rst:868
 msgid ""
 "MS Visual C runtime - You most likely don't need this but if you have any"
 " trouble getting ghini.desktop to run try installing the MS Visual C "
 "runtime (e.g. rerun the installer and select this component only)."
 msgstr ""
 
-#: ../../building.rst:861
+#: ../../building.rst:872
 msgid ""
 "Can be run silently from the commandline (e.g. for remote deployment) "
 "with the following arguments:"
 msgstr ""
 
-#: ../../building.rst:864
+#: ../../building.rst:875
 msgid "``/S`` for silent;"
 msgstr ""
 
-#: ../../building.rst:866
+#: ../../building.rst:877
 msgid "``/AllUser`` (when run as administrator) or ``/CurrentUser``"
 msgstr ""
 
-#: ../../building.rst:868
+#: ../../building.rst:879
 msgid "``/C=[gFC]`` to specify components where:"
 msgstr ""
 
-#: ../../building.rst:870
+#: ../../building.rst:881
 msgid ""
 "``g`` = Deselect the main ghini.desktop component (useful for adding "
 "optional component after an initial install)"
 msgstr ""
 
-#: ../../building.rst:873
+#: ../../building.rst:884
 msgid "``F`` = select Apache FOP"
 msgstr ""
 
-#: ../../building.rst:875
+#: ../../building.rst:886
 msgid "``C`` = select MS Visual C runtime"
 msgstr ""
 
@@ -3731,11 +3747,11 @@ msgstr ""
 msgid "Ghini Development"
 msgstr "Sviluppo di Ghini"
 
-#: ../../index.rst:93
+#: ../../index.rst:94
 msgid "Supporting Ghini"
 msgstr "Appoggiare Ghini"
 
-#: ../../index.rst:97
+#: ../../index.rst:98
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider `donating <https://pledgie.com/campaigns/29188>`_"
@@ -4432,11 +4448,11 @@ msgid ""
 "device, enjoy."
 msgstr ""
 
-#: ../../open-invitation.rst:2
+#: ../../open-invitation.rst:2 ../../template-letters.rst:12
 msgid "Dear conservator or scientist,"
 msgstr ""
 
-#: ../../open-invitation.rst:4
+#: ../../open-invitation.rst:4 ../../template-letters.rst:14
 msgid ""
 "You are reading Ghini's presentation letter. Ghini is a libre software "
 "project on GitHub, focusing on botany. Brought to you by a small "
@@ -4445,77 +4461,77 @@ msgid ""
 "for all their collection management needs."
 msgstr ""
 
-#: ../../open-invitation.rst:9
+#: ../../open-invitation.rst:9 ../../template-letters.rst:19
 msgid ""
 "The Ghini family is a software suite composed of standalone programs, "
 "data servers and handheld clients, for data management, and publication:"
 msgstr ""
 
-#: ../../open-invitation.rst:14
+#: ../../open-invitation.rst:14 ../../template-letters.rst:24
 msgid "Ghini's core, ``ghini.desktop``, lets you"
 msgstr ""
 
-#: ../../open-invitation.rst:16
+#: ../../open-invitation.rst:16 ../../template-letters.rst:26
 msgid "enter and correct your data"
 msgstr ""
 
-#: ../../open-invitation.rst:17
+#: ../../open-invitation.rst:17 ../../template-letters.rst:27
 msgid "navigate its links,"
 msgstr ""
 
-#: ../../open-invitation.rst:18
+#: ../../open-invitation.rst:18 ../../template-letters.rst:28
 #, fuzzy
 msgid "produce reports"
 msgstr "Generare relazioni"
 
-#: ../../open-invitation.rst:19
+#: ../../open-invitation.rst:19 ../../template-letters.rst:29
 msgid "import and or export using several standard or ad-hoc formats"
 msgstr ""
 
-#: ../../open-invitation.rst:20
+#: ../../open-invitation.rst:20 ../../template-letters.rst:30
 msgid "review your taxonomy using online sources"
 msgstr ""
 
-#: ../../open-invitation.rst:22
+#: ../../open-invitation.rst:22 ../../template-letters.rst:32
 msgid ""
 "all according best practices suggested by top gardens, formalized in "
 "standard formats like ABCD, ITF2, but also as elaborated by our "
 "developers, based on the feedback of Ghini users."
 msgstr ""
 
-#: ../../open-invitation.rst:26
+#: ../../open-invitation.rst:26 ../../template-letters.rst:36
 msgid ""
 "``ghini.desktop`` is developed and continously tested on GNU/Linux, but "
 "runs equally well on Windows, or OSX. [1]"
 msgstr ""
 
-#: ../../open-invitation.rst:29
+#: ../../open-invitation.rst:29 ../../template-letters.rst:39
 msgid ""
 "``ghini.pocket`` is your full time garden companion, an Android app "
 "installed from the Play Store,"
 msgstr ""
 
-#: ../../open-invitation.rst:32
+#: ../../open-invitation.rst:32 ../../template-letters.rst:42
 msgid "assisting you in collecting or correcting data while in the field,"
 msgstr ""
 
-#: ../../open-invitation.rst:33
+#: ../../open-invitation.rst:33 ../../template-letters.rst:43
 msgid "associate pictures to your plants, and verify taxonomic information."
 msgstr ""
 
-#: ../../open-invitation.rst:34
+#: ../../open-invitation.rst:34 ../../template-letters.rst:44
 msgid ""
 "Import your collected data into the desktop client when back in the "
 "office,"
 msgstr ""
 
-#: ../../open-invitation.rst:36
+#: ../../open-invitation.rst:36 ../../template-letters.rst:46
 msgid ""
 "``ghini.pocket`` reduces the time spent in front of your desktop PC to a "
 "true minimum."
 msgstr ""
 
-#: ../../open-invitation.rst:38
+#: ../../open-invitation.rst:38 ../../template-letters.rst:48
 msgid ""
 "``ghini.web`` is a web server and a courtesy data hub service, offering "
 "you world wide visibility: Export a selection of your data from your "
@@ -4527,14 +4543,14 @@ msgid ""
 "contributed georeferenced plants."
 msgstr ""
 
-#: ../../open-invitation.rst:46
+#: ../../open-invitation.rst:46 ../../template-letters.rst:56
 msgid ""
 "``ghini.tour``, a geographic tour Android app aimed at visitors, using "
 "OpenStreetMap as a base map, retrieving its data, gardens and virtual "
 "panels, from the web data aggregator ``ghini.web``."
 msgstr ""
 
-#: ../../open-invitation.rst:50
+#: ../../open-invitation.rst:50 ../../template-letters.rst:60
 msgid ""
 "All software within the Ghini family is either licensed GNU Public "
 "License v2+ or v3+. It is a strong copyleft license.  In short, the GPL "
@@ -4543,7 +4559,7 @@ msgid ""
 "https://www.gnu.org/licenses/copyleft.html"
 msgstr ""
 
-#: ../../open-invitation.rst:55
+#: ../../open-invitation.rst:55 ../../template-letters.rst:65
 msgid ""
 "Ghini's idea about knowledge and software ownership is that software is "
 "procedural knowledge and as such, should be made a \"commons\": With "
@@ -4555,7 +4571,7 @@ msgid ""
 "and with that, your dependency."
 msgstr ""
 
-#: ../../open-invitation.rst:62
+#: ../../open-invitation.rst:62 ../../template-letters.rst:72
 msgid ""
 "This fancy term \"copyleft\" instead of just \"libre software\", means "
 "the software you received is libre software with one extra freedom, "
@@ -4563,7 +4579,7 @@ msgid ""
 "never lost."
 msgstr ""
 
-#: ../../open-invitation.rst:66
+#: ../../open-invitation.rst:66 ../../template-letters.rst:76
 msgid ""
 "With copylefted software you are free —actually welcome— to employ local "
 "software developers in your neighbourhood to alter the software according"
@@ -4579,19 +4595,19 @@ msgid ""
 "your upgrade procedure."
 msgstr ""
 
-#: ../../open-invitation.rst:76
+#: ../../open-invitation.rst:76 ../../template-letters.rst:86
 msgid ""
 "You can also contribute to the software by helping translate it into your"
 " native language. [5]"
 msgstr ""
 
-#: ../../open-invitation.rst:78
+#: ../../open-invitation.rst:78 ../../template-letters.rst:88
 msgid ""
 "Some videos are published on YouTube, highlighting some of the software "
 "capabilities. [6]"
 msgstr ""
 
-#: ../../open-invitation.rst:80
+#: ../../open-invitation.rst:80 ../../template-letters.rst:90
 msgid ""
 "Share back with the community. Several developers have spent cumulatively"
 " many thousand hours developing this software, and we're sharing with the"
@@ -4599,17 +4615,17 @@ msgid ""
 " starts using what we have produced."
 msgstr ""
 
-#: ../../open-invitation.rst:84
+#: ../../open-invitation.rst:84 ../../template-letters.rst:94
 msgid ""
 "Thanks for your consideration; please let me know if you have any "
 "questions,"
 msgstr ""
 
-#: ../../open-invitation.rst:86
+#: ../../open-invitation.rst:86 ../../template-letters.rst:105
 msgid "Mario Frasca MSc"
 msgstr ""
 
-#: ../../open-invitation.rst:89
+#: ../../open-invitation.rst:89 ../../template-letters.rst:117
 msgid ""
 "Many institutions still consider software an investment, an asset that is"
 " not to be shared with others, as if it was some economic good that can't"
@@ -4617,7 +4633,7 @@ msgid ""
 "exist for botanic data management:"
 msgstr ""
 
-#: ../../open-invitation.rst:93
+#: ../../open-invitation.rst:93 ../../template-letters.rst:121
 msgid ""
 "``ghini.desktop``, born as ``bauble.classic`` and made a commons by the "
 "Belize Botanical Garden.  ``ghini.desktop`` has three more components, a "
@@ -4628,7 +4644,7 @@ msgid ""
 "http://github.com/Ghini"
 msgstr ""
 
-#: ../../open-invitation.rst:100
+#: ../../open-invitation.rst:100 ../../template-letters.rst:128
 msgid ""
 "Specify 6 and 7, made a Commons by the Kansas University. A bit complex "
 "to set up, very difficult to configure and tricky to update. The "
@@ -4642,13 +4658,13 @@ msgid ""
 "is licensed as GPLv2+."
 msgstr ""
 
-#: ../../open-invitation.rst:109
+#: ../../open-invitation.rst:109 ../../template-letters.rst:137
 msgid ""
 "Botalista, a French/Swiss cooperation, is GPL as far as rumours go. Its "
 "development has yet to go public."
 msgstr ""
 
-#: ../../open-invitation.rst:112
+#: ../../open-invitation.rst:112 ../../template-letters.rst:140
 #, python-format
 msgid ""
 "``bauble.web`` is an experimental web server by the author of "
@@ -4659,7 +4675,7 @@ msgid ""
 "be stagnating, and has not yet reached a production-ready stage."
 msgstr ""
 
-#: ../../open-invitation.rst:118
+#: ../../open-invitation.rst:118 ../../template-letters.rst:146
 msgid ""
 "``Taxasoft-BG``, by Eric Gouda, a Dutch botanist, specialist in "
 "Bromeliaceae, collection manager at the Utrecht botanical garden. It was "
@@ -4669,7 +4685,7 @@ msgid ""
 "github: https://github.com/Ejgouda/Taxasoft-BG"
 msgstr ""
 
-#: ../../open-invitation.rst:124
+#: ../../open-invitation.rst:124 ../../template-letters.rst:152
 msgid ""
 "Of the above, only ``ghini.desktop`` satisfies these conditions: "
 "Copylefted, available, documented, maintained, easy to install and "
@@ -4684,7 +4700,7 @@ msgid ""
 "http://gardens.ghini.me/, and a hand-held app for garden visitors."
 msgstr ""
 
-#: ../../open-invitation.rst:137
+#: ../../open-invitation.rst:137 ../../template-letters.rst:96
 msgid ""
 "In case you're interested in publishing your tree collection on the net, "
 "I would be happy to include your plants, species, coordinates to "
@@ -4694,7 +4710,7 @@ msgid ""
 "garden collections, and the current focus is on trees."
 msgstr ""
 
-#: ../../open-invitation.rst:144
+#: ../../open-invitation.rst:144 ../../template-letters.rst:103
 #, python-format
 msgid "A small example: http://gardens.ghini.me/#garden=Jardín%20el%20Cuchubo"
 msgstr ""
@@ -4703,31 +4719,31 @@ msgstr ""
 msgid "Best regards,"
 msgstr ""
 
-#: ../../open-invitation.rst:148
+#: ../../open-invitation.rst:148 ../../template-letters.rst:229
 msgid "Mario Frasca"
 msgstr ""
 
-#: ../../open-invitation.rst:151
+#: ../../open-invitation.rst:151 ../../template-letters.rst:107
 msgid "[1] http://ghini.readthedocs.io/ - http://ghini.github.io/"
 msgstr ""
 
-#: ../../open-invitation.rst:153
+#: ../../open-invitation.rst:153 ../../template-letters.rst:108
 msgid "[2] https://play.google.com/store/apps/details?id=me.ghini.pocket"
 msgstr ""
 
-#: ../../open-invitation.rst:155
+#: ../../open-invitation.rst:155 ../../template-letters.rst:109
 msgid "[3] http://gardens.ghini.me/"
 msgstr ""
 
-#: ../../open-invitation.rst:157
+#: ../../open-invitation.rst:157 ../../template-letters.rst:110
 msgid "[4] https://play.google.com/store/apps/details?id=me.ghini.tour"
 msgstr ""
 
-#: ../../open-invitation.rst:159
+#: ../../open-invitation.rst:159 ../../template-letters.rst:111
 msgid "[5] https://hosted.weblate.org/projects/ghini/#languages"
 msgstr ""
 
-#: ../../open-invitation.rst:161
+#: ../../open-invitation.rst:161 ../../template-letters.rst:112
 msgid ""
 "[6] "
 "https://www.youtube.com/playlist?list=PLtYRCnAxpinU_8WEDuRlgsYnNVe4J_4kv"
@@ -6133,6 +6149,175 @@ msgid ""
 "Once you have an active tag, pressing ``Ctrl-Y`` applies the active tag "
 "to all objects in the active selection.  ``Ctrl-Shift-Y`` removes the "
 "active tag from all objects in the active selection."
+msgstr ""
+
+#: ../../template-letters.rst:2
+msgid "Template Letters"
+msgstr ""
+
+#: ../../template-letters.rst:4
+msgid ""
+"The reader getting to this point in the documentation probably understood"
+" that this Ghini project is above all a very open and collaborative "
+"project."
+msgstr ""
+
+#: ../../template-letters.rst:7
+msgid ""
+"Here in this page you find some template letters, used to welcome new "
+"users, or that you can correct, print, and go with it to a garden, and "
+"propose them to adopt Ghini, or share with a group of your local friends,"
+" so you can make Ghini become a (voluntary, or paid) part-time job for "
+"you."
+msgstr ""
+
+#: ../../template-letters.rst:115
+msgid "What other botanic data management systems are available"
+msgstr ""
+
+#: ../../template-letters.rst:158
+msgid "Welcome to Ghini/Bauble"
+msgstr ""
+
+#: ../../template-letters.rst:160 ../../welcome-letter.rst:3
+#, fuzzy
+msgid "Dear new user,"
+msgstr "Creare un nuovo utente"
+
+#: ../../template-letters.rst:162 ../../welcome-letter.rst:5
+msgid "Welcome to Ghini/Bauble."
+msgstr ""
+
+#: ../../template-letters.rst:164 ../../welcome-letter.rst:7
+msgid ""
+"As the maintainer, I have received your registration for "
+"bauble.classic/ghini.desktop, many thanks for taking your time to fill in"
+" the form."
+msgstr ""
+
+#: ../../template-letters.rst:167 ../../welcome-letter.rst:10
+msgid ""
+"I see you are using bauble.classic-1.0.55, whereas 1.0.55 is the last "
+"released version of bauble.classic, however, bauble.classic is now "
+"unmaintained and superseded by the fully compatible, but slightly "
+"aesthetically different ghini.desktop. Install it following the "
+"instructions found at http://ghini.rtfd.io"
+msgstr ""
+
+#: ../../template-letters.rst:170 ../../welcome-letter.rst:13
+msgid ""
+"The registration service says you're not yet using the newest Python2 "
+"version available. As of 2018-05-01, that is 2.7.15. Using any older "
+"version does not necessitate problems, but in case anything strange "
+"happens, please update your Python (and PyGTK) before reporting any "
+"errors."
+msgstr ""
+
+#: ../../template-letters.rst:172 ../../welcome-letter.rst:15
+msgid ""
+"Also thank you for enabling the \"sentry\" errors and warnings handler. "
+"With that enabled, Ghini/Bauble will send any error or warning you might "
+"encounter to a central server, where a developer will be able to examine "
+"it. If the warning was caused by an error in the software, its solution "
+"will be present in a subsequent release of the software"
+msgstr ""
+
+#: ../../template-letters.rst:175 ../../welcome-letter.rst:18
+msgid ""
+"If you haven't already, to enable the sentry and warnings handler, open "
+"the \":config\" page in Ghini and double click on the row "
+"\"bauble.use_sentry_client\"."
+msgstr ""
+
+#: ../../template-letters.rst:177 ../../welcome-letter.rst:20
+msgid ""
+"I hope Ghini already matches your expectations, if this is not the case, "
+"the whole Ghini community would be very thankful if you took the time to "
+"report your experience with it."
+msgstr ""
+
+#: ../../template-letters.rst:181 ../../welcome-letter.rst:24
+msgid ""
+"The above is one way to contribute to Ghini's development. Others are: - "
+"contribute ideas, writing on the bauble google forum "
+"(https://groups.google.com/forum/#!forum/bauble), - contribute "
+"documentation, or translations "
+"(https://hosted.weblate.org/projects/ghini/), - give private feedback, "
+"writing to ghini@anche.no, - rate and discuss Ghini openly, and promote "
+"its adoption by other institutions, - open an issue on GitHub "
+"(https://github.com/Ghini/ghini.desktop/issues/), - contribute code on "
+"GitHub (fork the project on (https://github.com/Ghini/ghini.desktop/), - "
+"hire a developer and have a set of GitHub issues solved, per-haps your "
+"own - let me include your garden on the still experimental worldmap "
+"(http://gardens.ghini.me)"
+msgstr ""
+
+#: ../../template-letters.rst:191 ../../welcome-letter.rst:34
+msgid "I sincerely hope you will enjoy using this copylefted, libre software"
+msgstr ""
+
+#: ../../template-letters.rst:193 ../../welcome-letter.rst:36
+msgid "Best regards, Mario Frasca"
+msgstr ""
+
+#: ../../template-letters.rst:196 ../../welcome-letter.rst:39
+msgid "https://ghini.github.io https://github.com/Ghini/ghini.desktop/issues/"
+msgstr ""
+
+#: ../../template-letters.rst:200
+msgid "Do you want to join Ghini?"
+msgstr ""
+
+#: ../../template-letters.rst:202
+msgid ""
+"I generally send a note similar to the following, to GitHub members who "
+"\"star\" the project, or to WebLate contributors doing more than one "
+"line, and at different occasions.  If it's from GitHub, and if they "
+"stated their geographic location in their profile, I alter the letter by "
+"first looking on `institutos botánicos "
+"<http://umap.openstreetmap.fr/en/map/institutos-"
+"botanicos_47038#2/18.0/12.0>`_ if there's any relevant garden in their "
+"neighbourhood."
+msgstr ""
+
+#: ../../template-letters.rst:209
+msgid "Dear GitHub member, student, colleague, translator, botanist,"
+msgstr ""
+
+#: ../../template-letters.rst:211
+msgid "Thank you warmly for your interest in the Ghini project!"
+msgstr ""
+
+#: ../../template-letters.rst:213
+msgid ""
+"From your on-line profile on github, I see you're located in Xxxx, is "
+"that correct?"
+msgstr ""
+
+#: ../../template-letters.rst:215
+msgid ""
+"If you are indeed in Xxxx, you live very close to gardens Yyyy and Zzzz."
+"  Maybe you would consider the following proposition?  All would start by"
+" contacting the botanical garden there, and get to know what software "
+"they use (what it offers, and at which price) and if they're interested "
+"in switching to ghini.desktop+pocket+tour+web."
+msgstr ""
+
+#: ../../template-letters.rst:220
+msgid ""
+"The business model within Ghini is that the software is free and you get "
+"it for free, but time is precious and if a garden needs help, they should"
+" be ready to contribute.  Maybe you already have a full-time job and "
+"don't need more things to do, but in case you're interested, or you have "
+"friends who would be, I'm sure we can work something out."
+msgstr ""
+
+#: ../../template-letters.rst:225
+msgid "Let me know where you stand."
+msgstr ""
+
+#: ../../template-letters.rst:227
+msgid "best regards, and again thanks for all your contributed translations."
 msgstr ""
 
 #: ../../use_cases-jbq.rst:2
@@ -8240,91 +8425,6 @@ msgstr "Ghini consente lettura, scrittura ed esecuzione autorizzazioni."
 msgid "subject: Welcome to Ghini/Bauble"
 msgstr ""
 
-#: ../../welcome-letter.rst:3
-#, fuzzy
-msgid "Dear new user,"
-msgstr "Creare un nuovo utente"
-
-#: ../../welcome-letter.rst:5
-msgid "Welcome to Ghini/Bauble."
-msgstr ""
-
-#: ../../welcome-letter.rst:7
-msgid ""
-"As the maintainer, I have received your registration for "
-"bauble.classic/ghini.desktop, many thanks for taking your time to fill in"
-" the form."
-msgstr ""
-
-#: ../../welcome-letter.rst:10
-msgid ""
-"I see you are using bauble.classic-1.0.55, whereas 1.0.55 is the last "
-"released version of bauble.classic, however, bauble.classic is now "
-"unmaintained and superseded by the fully compatible, but slightly "
-"aesthetically different ghini.desktop. Install it following the "
-"instructions found at http://ghini.rtfd.io"
-msgstr ""
-
-#: ../../welcome-letter.rst:13
-msgid ""
-"The registration service says you're not yet using the newest Python2 "
-"version available. As of 2018-05-01, that is 2.7.15. Using any older "
-"version does not necessitate problems, but in case anything strange "
-"happens, please update your Python (and PyGTK) before reporting any "
-"errors."
-msgstr ""
-
-#: ../../welcome-letter.rst:15
-msgid ""
-"Also thank you for enabling the \"sentry\" errors and warnings handler. "
-"With that enabled, Ghini/Bauble will send any error or warning you might "
-"encounter to a central server, where a developer will be able to examine "
-"it. If the warning was caused by an error in the software, its solution "
-"will be present in a subsequent release of the software"
-msgstr ""
-
-#: ../../welcome-letter.rst:18
-msgid ""
-"If you haven't already, to enable the sentry and warnings handler, open "
-"the \":config\" page in Ghini and double click on the row "
-"\"bauble.use_sentry_client\"."
-msgstr ""
-
-#: ../../welcome-letter.rst:20
-msgid ""
-"I hope Ghini already matches your expectations, if this is not the case, "
-"the whole Ghini community would be very thankful if you took the time to "
-"report your experience with it."
-msgstr ""
-
-#: ../../welcome-letter.rst:24
-msgid ""
-"The above is one way to contribute to Ghini's development. Others are: - "
-"contribute ideas, writing on the bauble google forum "
-"(https://groups.google.com/forum/#!forum/bauble), - contribute "
-"documentation, or translations "
-"(https://hosted.weblate.org/projects/ghini/), - give private feedback, "
-"writing to ghini@anche.no, - rate and discuss Ghini openly, and promote "
-"its adoption by other institutions, - open an issue on GitHub "
-"(https://github.com/Ghini/ghini.desktop/issues/), - contribute code on "
-"GitHub (fork the project on (https://github.com/Ghini/ghini.desktop/), - "
-"hire a developer and have a set of GitHub issues solved, per-haps your "
-"own - let me include your garden on the still experimental worldmap "
-"(http://gardens.ghini.me)"
-msgstr ""
-
-#: ../../welcome-letter.rst:34
-msgid "I sincerely hope you will enjoy using this copylefted, libre software"
-msgstr ""
-
-#: ../../welcome-letter.rst:36
-msgid "Best regards, Mario Frasca"
-msgstr ""
-
-#: ../../welcome-letter.rst:39
-msgid "https://ghini.github.io https://github.com/Ghini/ghini.desktop/issues/"
-msgstr ""
-
 #~ msgid ""
 #~ "In these cases, we work with "
 #~ "notes. In the accession \"notes\" tab"
@@ -9785,4 +9885,7 @@ msgstr ""
 #~ " away‹, and the recipient is already"
 #~ " specified in the 'sent' note.."
 #~ msgstr ""
+
+#~ msgid "tell the world about it: on facebook, the google group, linkedin, ..."
+#~ msgstr "raccontare al mondo: su facebook, il gruppo google, linkedin,..."
 
