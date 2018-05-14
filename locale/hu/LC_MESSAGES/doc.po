@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-14 08:36-0500\n"
+"POT-Creation-Date: 2018-05-14 09:32-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3760,7 +3760,7 @@ msgstr ""
 msgid "Mario Frasca MSc"
 msgstr ""
 
-#: ../../open-invitation.rst:89 ../../template-letters.rst:117
+#: ../../open-invitation.rst:89
 msgid ""
 "Many institutions still consider software an investment, an asset that is"
 " not to be shared with others, as if it was some economic good that can't"
@@ -3768,7 +3768,7 @@ msgid ""
 "exist for botanic data management:"
 msgstr ""
 
-#: ../../open-invitation.rst:93 ../../template-letters.rst:121
+#: ../../open-invitation.rst:93 ../../template-letters.rst:122
 msgid ""
 "``ghini.desktop``, born as ``bauble.classic`` and made a commons by the "
 "Belize Botanical Garden.  ``ghini.desktop`` has three more components, a "
@@ -3779,7 +3779,7 @@ msgid ""
 "http://github.com/Ghini"
 msgstr ""
 
-#: ../../open-invitation.rst:100 ../../template-letters.rst:128
+#: ../../open-invitation.rst:100 ../../template-letters.rst:129
 msgid ""
 "Specify 6 and 7, made a Commons by the Kansas University. A bit complex "
 "to set up, very difficult to configure and tricky to update. The "
@@ -3793,13 +3793,13 @@ msgid ""
 "is licensed as GPLv2+."
 msgstr ""
 
-#: ../../open-invitation.rst:109 ../../template-letters.rst:137
+#: ../../open-invitation.rst:109 ../../template-letters.rst:138
 msgid ""
 "Botalista, a French/Swiss cooperation, is GPL as far as rumours go. Its "
 "development has yet to go public."
 msgstr ""
 
-#: ../../open-invitation.rst:112 ../../template-letters.rst:140
+#: ../../open-invitation.rst:112 ../../template-letters.rst:141
 #, python-format
 msgid ""
 "``bauble.web`` is an experimental web server by the author of "
@@ -3810,7 +3810,7 @@ msgid ""
 "be stagnating, and has not yet reached a production-ready stage."
 msgstr ""
 
-#: ../../open-invitation.rst:118 ../../template-letters.rst:146
+#: ../../open-invitation.rst:118
 msgid ""
 "``Taxasoft-BG``, by Eric Gouda, a Dutch botanist, specialist in "
 "Bromeliaceae, collection manager at the Utrecht botanical garden. It was "
@@ -3820,7 +3820,7 @@ msgid ""
 "github: https://github.com/Ejgouda/Taxasoft-BG"
 msgstr ""
 
-#: ../../open-invitation.rst:124 ../../template-letters.rst:152
+#: ../../open-invitation.rst:124 ../../template-letters.rst:158
 msgid ""
 "Of the above, only ``ghini.desktop`` satisfies these conditions: "
 "Copylefted, available, documented, maintained, easy to install and "
@@ -3854,7 +3854,7 @@ msgstr ""
 msgid "Best regards,"
 msgstr ""
 
-#: ../../open-invitation.rst:148 ../../template-letters.rst:229
+#: ../../open-invitation.rst:148 ../../template-letters.rst:235
 msgid "Mario Frasca"
 msgstr ""
 
@@ -4982,29 +4982,61 @@ msgid ""
 msgstr ""
 
 #: ../../template-letters.rst:115
-msgid "What other botanic data management systems are available"
+msgid "free botanic data management systems"
 msgstr ""
 
-#: ../../template-letters.rst:158
+#: ../../template-letters.rst:117
+msgid ""
+"Many institutions still consider software an investment, an asset that is"
+" not to be shared with others, as if it was some economic good that can't"
+" be duplicated, like gold."
+msgstr ""
+
+#: ../../template-letters.rst:120
+msgid ""
+"As of right now, very few copylefted programs exist for botanic data "
+"management:"
+msgstr ""
+
+#: ../../template-letters.rst:147
+msgid ""
+"``Taxasoft-BG``, by Eric Gouda, a Dutch botanist, specialist in "
+"Bromeliaceae, collection manager at the Utrecht botanical garden.  It was"
+" Mario Frasca who convinced Eric to publish what he was doing, licensing "
+"it under the GPL, but the repository was not updated after 2016, April "
+"13th and Eric forgot to explicitly specify the license.  You find it on "
+"github: https://github.com/Ejgouda/Taxasoft-BG"
+msgstr ""
+
+#: ../../template-letters.rst:153
+msgid ""
+"``BG-Recorder``, by the BGCI, runs on Windows, and requires Access.  "
+"Developed mostly between 1997 and 2003, it has not been maintained ever "
+"since and isn't actively distributed by the BGCI.  I've not managed to "
+"find a download link nor its license statement.  It is still mentioned as"
+" *the free option* for botanic database management."
+msgstr ""
+
+#: ../../template-letters.rst:164
 msgid "Welcome to Ghini/Bauble"
 msgstr ""
 
-#: ../../template-letters.rst:160 ../../welcome-letter.rst:3
+#: ../../template-letters.rst:166 ../../welcome-letter.rst:3
 msgid "Dear new user,"
 msgstr ""
 
-#: ../../template-letters.rst:162 ../../welcome-letter.rst:5
+#: ../../template-letters.rst:168 ../../welcome-letter.rst:5
 msgid "Welcome to Ghini/Bauble."
 msgstr ""
 
-#: ../../template-letters.rst:164 ../../welcome-letter.rst:7
+#: ../../template-letters.rst:170 ../../welcome-letter.rst:7
 msgid ""
 "As the maintainer, I have received your registration for "
 "bauble.classic/ghini.desktop, many thanks for taking your time to fill in"
 " the form."
 msgstr ""
 
-#: ../../template-letters.rst:167 ../../welcome-letter.rst:10
+#: ../../template-letters.rst:173 ../../welcome-letter.rst:10
 msgid ""
 "I see you are using bauble.classic-1.0.55, whereas 1.0.55 is the last "
 "released version of bauble.classic, however, bauble.classic is now "
@@ -5013,7 +5045,7 @@ msgid ""
 "instructions found at http://ghini.rtfd.io"
 msgstr ""
 
-#: ../../template-letters.rst:170 ../../welcome-letter.rst:13
+#: ../../template-letters.rst:176 ../../welcome-letter.rst:13
 msgid ""
 "The registration service says you're not yet using the newest Python2 "
 "version available. As of 2018-05-01, that is 2.7.15. Using any older "
@@ -5022,7 +5054,7 @@ msgid ""
 "errors."
 msgstr ""
 
-#: ../../template-letters.rst:172 ../../welcome-letter.rst:15
+#: ../../template-letters.rst:178 ../../welcome-letter.rst:15
 msgid ""
 "Also thank you for enabling the \"sentry\" errors and warnings handler. "
 "With that enabled, Ghini/Bauble will send any error or warning you might "
@@ -5031,21 +5063,21 @@ msgid ""
 "will be present in a subsequent release of the software"
 msgstr ""
 
-#: ../../template-letters.rst:175 ../../welcome-letter.rst:18
+#: ../../template-letters.rst:181 ../../welcome-letter.rst:18
 msgid ""
 "If you haven't already, to enable the sentry and warnings handler, open "
 "the \":config\" page in Ghini and double click on the row "
 "\"bauble.use_sentry_client\"."
 msgstr ""
 
-#: ../../template-letters.rst:177 ../../welcome-letter.rst:20
+#: ../../template-letters.rst:183 ../../welcome-letter.rst:20
 msgid ""
 "I hope Ghini already matches your expectations, if this is not the case, "
 "the whole Ghini community would be very thankful if you took the time to "
 "report your experience with it."
 msgstr ""
 
-#: ../../template-letters.rst:181 ../../welcome-letter.rst:24
+#: ../../template-letters.rst:187 ../../welcome-letter.rst:24
 msgid ""
 "The above is one way to contribute to Ghini's development. Others are: - "
 "contribute ideas, writing on the bauble google forum "
@@ -5061,23 +5093,23 @@ msgid ""
 "(http://gardens.ghini.me)"
 msgstr ""
 
-#: ../../template-letters.rst:191 ../../welcome-letter.rst:34
+#: ../../template-letters.rst:197 ../../welcome-letter.rst:34
 msgid "I sincerely hope you will enjoy using this copylefted, libre software"
 msgstr ""
 
-#: ../../template-letters.rst:193 ../../welcome-letter.rst:36
+#: ../../template-letters.rst:199 ../../welcome-letter.rst:36
 msgid "Best regards, Mario Frasca"
 msgstr ""
 
-#: ../../template-letters.rst:196 ../../welcome-letter.rst:39
+#: ../../template-letters.rst:202 ../../welcome-letter.rst:39
 msgid "https://ghini.github.io https://github.com/Ghini/ghini.desktop/issues/"
 msgstr ""
 
-#: ../../template-letters.rst:200
+#: ../../template-letters.rst:206
 msgid "Do you want to join Ghini?"
 msgstr ""
 
-#: ../../template-letters.rst:202
+#: ../../template-letters.rst:208
 msgid ""
 "I generally send a note similar to the following, to GitHub members who "
 "\"star\" the project, or to WebLate contributors doing more than one "
@@ -5089,21 +5121,21 @@ msgid ""
 "neighbourhood."
 msgstr ""
 
-#: ../../template-letters.rst:209
+#: ../../template-letters.rst:215
 msgid "Dear GitHub member, student, colleague, translator, botanist,"
 msgstr ""
 
-#: ../../template-letters.rst:211
+#: ../../template-letters.rst:217
 msgid "Thank you warmly for your interest in the Ghini project!"
 msgstr ""
 
-#: ../../template-letters.rst:213
+#: ../../template-letters.rst:219
 msgid ""
 "From your on-line profile on github, I see you're located in Xxxx, is "
 "that correct?"
 msgstr ""
 
-#: ../../template-letters.rst:215
+#: ../../template-letters.rst:221
 msgid ""
 "If you are indeed in Xxxx, you live very close to gardens Yyyy and Zzzz."
 "  Maybe you would consider the following proposition?  All would start by"
@@ -5112,7 +5144,7 @@ msgid ""
 "in switching to ghini.desktop+pocket+tour+web."
 msgstr ""
 
-#: ../../template-letters.rst:220
+#: ../../template-letters.rst:226
 msgid ""
 "The business model within Ghini is that the software is free and you get "
 "it for free, but time is precious and if a garden needs help, they should"
@@ -5121,11 +5153,11 @@ msgid ""
 "friends who would be, I'm sure we can work something out."
 msgstr ""
 
-#: ../../template-letters.rst:225
+#: ../../template-letters.rst:231
 msgid "Let me know where you stand."
 msgstr ""
 
-#: ../../template-letters.rst:227
+#: ../../template-letters.rst:233
 msgid "best regards, and again thanks for all your contributed translations."
 msgstr ""
 
@@ -7158,5 +7190,8 @@ msgid "subject: Welcome to Ghini/Bauble"
 msgstr ""
 
 #~ msgid "tell the world about it: on facebook, the google group, linkedin, ..."
+#~ msgstr ""
+
+#~ msgid "What other botanic data management systems are available"
 #~ msgstr ""
 
