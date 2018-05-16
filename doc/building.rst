@@ -4,11 +4,10 @@ Developer's Manual
 Helping Ghini development
 --------------------------
 
-Installing Ghini always includes downloading the sources, connected to the
-github repository. This is so because in our eyes, every user is always
-potentially also a developer.
+Installing Ghini always includes downloading the sources, from the
+GitHub repository. Every user is a potential developer.
 
-If you want to contribute to Ghini, you can do so in quite a few different ways:
+There are many ways to contribute to Ghini:
 
  * Use the software, note the things you don't like, `open an issue
    <http://github.com/Ghini/ghini.desktop/issues/new>`_ for each of them. A
@@ -16,46 +15,43 @@ If you want to contribute to Ghini, you can do so in quite a few different ways:
  * If you have an idea of what you miss in the software but can't quite
    formalize it into separate issues, you could consider hiring a
    professional. This is the best way to make sure that something happens
-   quickly on Ghini. Do make sure the developer opens issues and publishes
-   their contribution on github.
- * Translate! Any help with translations will be welcome, so please do! you
-   can do this without installing anything on your computer, just using the
-   on-line translation service offered by http://hosted.weblate.org/
- * fork the respository, choose an issue, solve it, open a pull request. See
+   quickly. Do make sure the developer opens issues and publishes
+   their contribution on GitHub.
+ * Translations can be made  without installing anything, by using the
+   online translation service offered by http://hosted.weblate.org/
+ * Fork the respository, choose an issue, solve it, open a pull request. See
    the `bug solving workflow`_ below.
 
 If you haven't yet installed Ghini, and want to have a look at its code
-history, you can open our `github project page
+history, you can open the `GitHub project page
 <http://github.com/Ghini/ghini.desktop>`_ and see all that has been going on
-around Ghini since its inception as Bauble, back in the year 2004.
+since its inception as Bauble, back in 2004.
 
 Software source, versions, branches
 -------------------------------------------------------------
 
-If you want a particular version of Ghini, we release and maintain versions
-as branches. You should ``git checkout`` the branch corresponding to the
+Versions are released and maintained as branches,
+``git checkout`` the_branch_name corresponding to the
 version of your choice.
 
 production line
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Branch names for Ghini stable (production) versions are of the form
-``ghini-x.y`` (eg: ghini-1.0); branch names where Ghini testing versions are
-published are of the form ``ghini-x.y-dev`` (eg: ghini-1.0-dev).
+Branch names of stable versions of Ghini (production), follow the pattern of
+``ghini-x.y`` (eg: ghini-1.0); test versions have -dev appended to the branch
+name: ``ghini-x.y-dev`` (eg: ghini-1.0-dev).
 
 Development Workflow
 -------------------------------------------------------------
 
-Our workflow is to continuously commit to the testing branch, to often push
-them to github, to let travis-ci and coveralls.io check the quality of the
-pushed testing branches, finally, from time to time, to merge the testing
-branch into the corresponding release.
+Commits continuously land in the testing branch, to often push
+them to GitHub, letting travis-ci and coveralls.io check the quality of the
+pushed testing branches. From time to time, the testing branch is merged
+into a branch which name corresponds with the release name.
 
-When working at larger issues, which seem to take longer than a couple of
-days, I might open a branch associated to the issue. I don't do this very
-often.
+Seldomly, larger issues taking more than a couple of days, might be branched out.
 
-larger issues
+Larger issues
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 When facing a single larger issue, create a branch tag at the tip of a main
@@ -70,30 +66,30 @@ in short::
     git checkout -b issue-xxxx
     git push origin issue-xxxx
 
-Work on the new temporary branch. When ready, go to github, merge the branch
-with the main development line from which you branched, solve conflicts
-where necessary, delete the temporary branch.
+Work on the new temporary branch. When ready, go to GitHub, merge the branch
+with the main development branch (the one you breanched out from), solve conflicts
+where necessary, then delete the temporary branch.
 
-When ready for publication, merge the development line into the
-corresponding production line.
+When ready for publication, merge the development branch into the
+corresponding production branch.
 
 Updating the set of translatable strings
 -------------------------------------------------------------
 
 From time to time, during the process of updating the software, you will be
-adding or modifying strings in the python sources, in the documentation, in
-the glade sources. Most of our strings are translatable, and are offered to
-weblate for people to contribute, in the form of several ``.po`` files.
+adding or modifying strings in the Python sources, in the documentation, in
+the Glade sources. Most of the strings are translatable, and are offered on
+Weblate for people to contribute, in the form of several ``.po`` files.
 
-A ``po`` is mostly composed of pairs of text portions, original and
-translation, and is specific to a target language. When a translator adds a
-translation on weblate, this reaches our repository on github. When a
-programmer adds a string to the software, this reaches weblate as "to be
-translated".
+A ``PO`` file is mostly composed of pairs of text portions, the original and
+corresponding translation, which is specific to a target language.
+When translating a string on Weblate, this reaches our repository on GitHub.
+When a programmer adds a string to the software, this reaches Weblate as
+"To be translated".
 
 Weblate hosts the `Ghini <https://hosted.weblate.org/projects/ghini/>`_
-project. Within this project we have components, each of which corresponds
-to a branch of a repository on github. Each component accepts translations
+project. Within this project you will find components, each of which corresponds
+to a branch of a repository on GitHub. Each component accepts translations
 in several languages.
 
 ================== =========================== ==================
@@ -106,72 +102,70 @@ Documentation 1.1  ghini.desktop-docs.i18n     ghini-1.1-dev
 Web 1.2            ghini.web                   master
 ================== =========================== ==================
 
-To update the ``po`` files relative to the *software*, you set the working
+To update the ``PO`` files relative to the *software*, you set the working
 directory to the root of your checkout of *ghini.desktop*, and you run the
 script::
 
   ./scripts/i18n.sh
 
-To update the ``po`` files relative to the *documentation*, you set the
+To update the ``PO`` files relative to the *documentation*, you set the
 working directory to the root of your checkout of *ghini.desktop-docs.i18n*,
 and you run the script::
 
   ./doc/runme.sh
 
 When you run either of the above mentioned scripts, chances are you need to
-commit *all* ``po`` files in the project. You may want to review the changes
+commit *all* ``PO`` files in the project. You may want to review the changes
 before committing them to the respository. This is most important when you
 perform a marginal correction to a string, like removing a typo.
 
 `Our documentation <https://readthedocs.org/projects/ghini/>`_ on
-readthedocs has an original English version, and several translations. We
-just follow the `description of localisation
-<http://docs.readthedocs.io/en/latest/localization.html>`_, there's nothing
-that we invented ourselves here.
+readthedocs has an original English version, and several translations.
+It is a copy of `description of localisation
+<http://docs.readthedocs.io/en/latest/localization.html>`_.
 
-Readthedocs checks the project's *Language* setting, and invokes
+Read the Docs checks the project's *Language* setting, and invokes
 ``sphinx-intl`` to produce the formatted documentation in the target
-language. With the default configuration —which we did not alter—
+language. With the default configuration—which we did not alter—
 ``sphinx-intl`` expects one ``po`` file per source document, named as the
 source document, and that they all reside in the directory
 ``local/$(LANG)/LC_MESSAGES/``.
 
-On the other hand, Weblate (and ourselves) prefers a single ``po`` file per
-language, and keeps them all in the same ``/po`` directory, just as we do
+On the other hand, both Weblate and us alike,  prefer a single ``PO`` file per
+language, and WL keeps them all in the same ``/po`` directory, just as we do
 for the software project: ``/po/$(LANG).po``.
 
-In order not to repeat information, and to let both systems work their
-natural way, we have two sets of symbolic links (git honors them).
+In order not to repeat info, and to let both systems work their
+natural way, there are two sets of symbolic links (git honors them).
 
 To summarise: when a file in the documentation is updated, the ``runme.sh``
 script will:
 
-1. copy the ``rst`` files from the software to the documentation;
-2. create a new ``pot`` file for each of the documentation files;
-3. merge all ``pot`` files into one ``doc.pot``;
-4. use the updated ``doc.pot`` to update all ``doc.po`` files (one per language);
-5. create all symbolic links:
+1. Copy the ``rst`` files from the software to the documentation;
+2. Create a new ``POT`` file for each of the documentation files;
+3. Merge all ``POT`` files into one ``doc.pot``;
+4. Use the updated ``doc.pot`` to update all ``doc.po`` files (one per language);
+5. Create all the symbolic links:
       
-   a. those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``
-   b. those used by weblate in ``/po/$(LANG).po``
+   a. Those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``
+   b. Those used by weblate in ``/po/$(LANG).po``
 
-We could definitely write the above in a Makefile, or even better include it
-in ``/doc/Makefile``. Who knows, maybe we will do that.
+The above could, but has yet to, be made into a Makefile, or even better included
+in ``/doc/Makefile``.
 
 
 Adding missing unit tests
 -------------------------------------------------------------
 
-If you are interested contributing to development of Ghini, a good way to
+If you are interested in contributing to the development of Ghini, a good way to
 do so would be by helping us finding and writing the missing unit tests.
 
 A well tested function is one whose behaviour you cannot change without
 breaking at least one unit test.
 
-We all agree that in theory theory and practice match perfectly and that one
+We all agree that ideally theory and practice match perfectly and that one
 first writes the tests, then implements the function. In practice, however,
-practice does not match theory and we have been writing tests after writing
-and even publishing the functions.
+it is the other way around.
 
 This section describes the process of adding unit tests for
 ``bauble.plugins.plants.family.remove_callback``.
@@ -182,69 +176,69 @@ What to test
 First of all, open the coverage report index, and choose a file with low
 coverage.
 
-For this example, run in October 2015, we landed on
+For this example, ran in October 2015, we landed on
 ``bauble.plugins.plants.family``, at 33%.
 
 https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ffamily.py
 
 The first two functions which need tests, ``edit_callback`` and
 ``add_genera_callback``, include creation and activation of an object
-relying on a custom dialog box. We should really first write unit tests for
+relying on a custom dialog box. One should really first write unit tests for
 that class, then come back here.
 
 The next function, ``remove_callback``, also activates a couple of dialog
 and message boxes, but in the form of invoking a function requesting user
-input via yes-no-ok boxes. These functions we can easily replace with a
-function mocking the behaviour.
+input via Yes-No-OK boxen. These functions can easily be replaced with a
+function simulating the behaviour.
 
-how to test
+How to test
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-So, having decided what to describe in unit test, we look at the code and we
-see it needs discriminate a couple of cases:
+Having decided what to describe in unit test, we look at the code and
+see it needs to discriminate a couple of cases:
 
-**parameter correctness**
-  * the list of families has no elements.
-  * the list of families has more than one element.
-  * the list of families has exactly one element.
+**Parameter correctness**
+  * The list of families has no elements.
+  * The list of families has more than one element.
+  * The list of families has exactly one element.
 
-**cascade**
-  * the family has no genera
-  * the family has one or more genera
+**Cascade**
+  * The family has no genera
+  * The family has one or more genera
 
-**confirm**
-  * the user confirms deletion
-  * the user does not confirm deletion
+**Confirm**
+  * The user confirms deletion
+  * The user does not confirm deletion
 
-**deleting**
-  * all goes well when deleting the family
-  * there is some error while deleting the family
+**Deleting**
+  * All goes well when deleting the family
+  * There is some error while deleting the family
 
-I decide I will only focus on the **cascade** and the **confirm**
+The decision is made to only focus on the **cascade** and the **confirm**
 aspects. Two binary questions: 4 cases.
 
-where to put the tests
+Where to put the tests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Locate the test script and choose the class where to put the extra unit tests.
+Locate the test script and choose the class to put the extra unit tests in.
 
 https://coveralls.io/builds/3741152/source?filename=bauble%2Fplugins%2Fplants%2Ftest.py#L273
 
-.. admonition:: what about skipped tests
-   :class: note
+.. Admonition: What about skipped tests
+   :Class: Note
 
            The ``FamilyTests`` class contains a skipped test, implementing
-           it will be quite a bit of work because we need rewrite the
-           FamilyEditorPresenter, separate it from the FamilyEditorView and
-           reconsider what to do with the FamilyEditor class, which I think
+           it will be quite a bit of work because it means rewriting the
+           FamilyEditorPresenter, separating it from the FamilyEditorView and
+           reconsidering what to do with the FamilyEditor class, which possibly
            should be removed and replaced with a single function.
 
-writing the tests
+Writing the tests
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-After the last test in the FamilyTests class, I add the four cases I want to
-describe, and I make sure they fail, and since I'm lazy, I write the most
-compact code I know for generating an error::
+After the last test in the FamilyTests class, the four cases I want to
+describe are added, making sure they fail. In the aid of laziness, by writing
+the most compact code I know for generating an error:
 
         def test_remove_callback_no_genera_no_confirm(self):
             1/0
@@ -275,7 +269,7 @@ When writing tests, I generally follow the pattern:
            There's a reason why unit tests are called unit tests. Please
            never test two actions in one test.
 
-So let's describe T₀ for the first test, a database holding a family without
+Let's describe T₀ for the first test, a database holding a family without
 genera::
 
         def test_remove_callback_no_genera_no_confirm(self):
@@ -311,13 +305,13 @@ not.
 A ``lambda`` expression is not enough for this. We do something apparently
 more complex, which will make life a lot easier.
 
-Let's first define a rather generic function::
+Let's first define a rather generic function:
 
     def mockfunc(msg=None, name=None, caller=None, result=None):
         caller.invoked.append((name, msg))
         return result
 
-and we grab ``partial`` from the ``functools`` standard module, to partially
+And we grab ``partial`` from the ``functools`` standard module, to partially
 apply the above ``mockfunc``, leaving only ``msg`` unspecified, and use this
 partial application, which is a function accepting one parameter and
 returning a value, to replace the two functions in ``utils``. The test
@@ -360,13 +354,13 @@ And so on
     `there are two kinds of people, those who complete what they start, and
     so on`
 
-Next test is almost the same, with the difference that the
-``utils.yes_no_dialog`` should return ``True`` (this we achieve by
+The next test is almost the same, with the difference that the
+``utils.yes_no_dialog`` should return ``True`` (this is achieved by
 specifying ``result=True`` in the partial application of the generic
 ``mockfunc``). 
 
 With this action, the value returned by ``remove_callback`` should be
-``True``, and there should be no Arecaceae Family in the database any more::
+``True``, and there should be no Arecaceae Family in the database anymore::
 
     def test_remove_callback_no_genera_confirm(self):
         # T_0
@@ -395,16 +389,16 @@ With this action, the value returned by ``remove_callback`` should be
         matching = q.all()
         self.assertEquals(matching, [])
 
-have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the other
+Have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the other
 two test functions.
 
 Testing logging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Our ``bauble.test.BaubleTestCase`` objects use handlers of the class
-``bauble.test.MockLoggingHandler``.  Every time an individual unit test is
+``bauble.test.MockLoggingHandler``. Every time an individual unit test is
 started, the ``setUp`` method will create a new ``handler`` and associate it
-to the root logger.  The ``tearDown`` method takes care of removing it.
+to the root logger. The ``tearDown`` method takes care of removing it.
 
 You can check for presence of specific logging messages in
 ``self.handler.messages``. ``messages`` is a dictionary, initially empty,
@@ -421,11 +415,11 @@ You can explicitly empty the collected messages by invoking
 Putting all together
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-From time to time you want to activate the test class you're working at::
+From time to time you want to activate the test class you're working at:
 
     nosetests bauble/plugins/plants/test.py:FamilyTests
 
-And at the end of the process you want to update the statistics::
+And at the end of the process you want to update the statistics:
 
     ./scripts/update-coverage.sh
 
@@ -438,14 +432,14 @@ The user interface is built according to the **Model** — **View** —
 is a SQLAlchemy database object, but we also have interface elements where
 there is no corresponding database model.  In general:
 
-* The **View** is described as part of a **glade** file. This should include
+* The **View** is described as part of a **Glade** file. This should include
   the signal-callback and ListStore-TreeView associations. Just reuse the
   base class ``GenericEditorView`` defined in ``bauble.editor``. When you
-  create your instance of this generic class, pass it the **glade** file
+  create your instance of this generic class, pass it the **Glade** file
   name and the root widget name, then hand this instance over to the
   **presenter** constructor.
 
-  In the glade file, in the ``action-widgets`` section closing your
+  In the Glade file, in the ``action-widgets`` section closing your
   GtkDialog object description, make sure every ``action-widget`` element
   has a valid ``response`` value.  Use `valid GtkResponseType values
   <http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, for
@@ -459,7 +453,7 @@ there is no corresponding database model.  In general:
   There is no easy way to unit test a subclassed view, so please don't
   subclass views, there's really no need to.
 
-  In the glade file, every input widget should define which handler is
+  In the Glade file, every input widget should define which handler is
   activated on which signal.  The generic Presenter class offers generic
   callbacks which cover the most common cases.
 
@@ -471,7 +465,7 @@ there is no corresponding database model.  In general:
     is to pass our generic handler the name of the model attribute that
     receives the change. This is a workaroud for an `unresolved bug in GTK
     <http://stackoverflow.com/questions/32106765/>`_.
-  * GtkComboBox with translated texts can't be easily handled from the glade
+  * GtkComboBox with translated texts can't be easily handled from the Glade
     file, so we don't even try.  Use the ``init_translatable_combo`` method
     of the generic ``GenericEditorView`` class, but please invoke it from
     the **presenter**.
@@ -486,13 +480,13 @@ there is no corresponding database model.  In general:
     of model attributes,
   * ``view_accept_buttons``, the list of widget names which, if
     activated by the user, mean that the view should be closed,
-  * all needed callbacks,
-  * optionally, it plays the **model** role, too.
+  * All needed callbacks,
+  * Optionally, it plays the **model** role, too.
 
   The **presenter** continuously updates the **model** according to changes
   in the **view**. If the **model** corresponds to a database object, the
   **presenter** commits all **model** updates to the database when the
-  **view** is closed successfully, or rolls them back if the **view** is
+  **view** is closed, or rolls them back if the **view** is
   canceled. (this behaviour is influenced by the parameter ``do_commit``)
 
   If the **model** is something else, then the **presenter** will do
@@ -500,21 +494,21 @@ there is no corresponding database model.  In general:
 
   .. note::
      
-     A well behaved **presenter** uses the **view** api to query the values
+     A well behaved **presenter** uses the **view** API to query the values
      inserted by the user or to forcibly set widget statuses. Please do not
      learn from the practice of our misbehaving presenters, some of which
      directly handle fields of ``view.widgets``. By doing so, these
      presenters prevents us from writing unit tests.
 
 The base class for the presenter, ``GenericEditorPresenter`` defined in
-``bauble.editor``, implements many useful generic callbacks.  There is a
+``bauble.editor``, implements many useful generic callbacks. There is a
 ``MockView`` class, that you can use when writing tests for your presenters.
 
 Examples
 ^^^^^^^^^^^^^
 
 ``Contact`` and ``ContactPresenter`` are implemented following the above
-lines.  The view is defined in the ``contact.glade`` file.
+lines. The view is defined in the ``contact.glade`` file.
 
 A good example of Presenter/View pattern (no model) is given by the
 connection manager.
@@ -529,7 +523,7 @@ export dialog box. The following command will give you a list of
 Extending Ghini with Plugins
 -----------------------------
 
-Nearly everything about Ghini is extensible through plugins. Plugins
+Nearly everything about Ghini is extensible through plugins. They
 can create tables, define custom searchs, add menu items, create
 custom commands and more.
 
@@ -575,19 +569,19 @@ view), and the MVP pattern is completed by the parent presenter (SP), again
 acting as model. To summarize and complete:
 
 * SP acts as model,
-* the pV partial view is defined in a glade file.
-* the callbacks implemented by pP are referenced by the glade file.
-* a context menu for the SP row,
-* a children property.
+* The pV partial view is defined in a Glade file.
+* The callbacks implemented by pP are referenced by the Glade file.
+* A context menu for the SP row,
+* A children property.
 
-when you register a plugin class, the SP:
+When you register a plugin class, the SP:
 
-* adds the pV in the slot and makes it non-visible.
-* adds an instance of pP in the registered plugin classes.
-* tells the pP that the SP is the model.
-* connects all callbacks from pV to pP.
+* Adds the pV in the slot and makes it non-visible.
+* Adds an instance of pP in the registered plugin classes.
+* Tells the pP that the SP is the model.
+* Connects all callbacks from pV to pP.
 
-when an element in pV triggers an action in pP, the pP can forward the
+When an element in pV triggers an action in pP, the pP can forward the
 action to SP and can request SP that it updates the model and refreshes the
 view.
 
@@ -596,55 +590,55 @@ and shows only the single pV relative to the type of the selected row, and
 asks the pP to refresh the pV with whatever is relative to the selected row.
 
 Apart from setting the visibility of the various pV, nothing needs be
-disabled nor removed: an invisible pV cannot trigger events!
+disabled nor removed: An invisible pV cannot trigger events!
 
-bug solving workflow
+Bug solving workflow
 --------------------
 
-normal development workflow
+Normal development workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* while using the software, you notice a problem, or you get an idea of
+* While using the software, you notice a problem, or you get an idea of
   something that could be better, you think about it good enough in order to
   have a very clear idea of what it really is, that you noticed. you open an
   issue and describe the problem. someone might react with hints.
-* you open the issues site and choose one you want to tackle.
-* assign the issue to yourself, this way you are informing the world that
+* You open the issues site and choose one you want to tackle.
+* Assign the issue to yourself, this way you are informing the world that
   you have the intention to work at it. someone might react with hints.
-* optionally fork the repository in your account and preferably create a
+* Optionally fork the repository in your account and preferably create a
   branch, clearly associated to the issue.
-* write unit tests and commit them to your branch (please do not push
-  failing unit tests to github, run ``nosetests`` locally first).
-* write more unit tests (ideally, the tests form the complete description of
+* Write unit tests and commit them to your branch (please do not push
+  failing unit tests to GitHub, run ``nosetests`` locally first).
+* Write more unit tests (ideally, the tests form the complete description of
   the feature you are adding or correcting).
-* make sure the feature you are adding or correcting is really completely
+* Make sure the feature you are adding or correcting is really completely
   described by the unit tests you wrote.
-* make sure your unit tests are atomic, that is, that you test variations on
-  changes along one single variable. do not give complex input to unit
+* Make sure your unit tests are atomic, that is, that you test variations on
+  changes along one single variable. Do not give complex input to unit
   tests or tests that do not fit on one screen (25 lines of code).
-* write the code that makes your tests succeed.
-* update the i18n files (run ``./scripts/i18n.sh``).
-* whenever possible, translate the new strings you put in code or glade
+* Write the code that makes your tests succeed.
+* Update the i18n files (run ``./scripts/i18n.sh``).
+* Whenever possible, translate the new strings you put in code or Glade
   files.
-* when you change strings, please make sure that old translations get re-used.
-* commit your changes.
-* push to github.
-* open a pull request.
+* When you change strings, please make sure that old translations get re-used.
+* Commit your changes.
+* Push to GitHub.
+* Open a pull request.
 
-publishing to production
+Publishing to production
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* open the pull request page using as base a production line ``ghini-x.y``,
+* Open the pull request page using as base a production line ``ghini-x.y``,
   compared to ``ghini-x.y-dev``.
-* make sure a ``bump`` commit is included in the differences.
-* it should be possible to automatically merge the branches.
-* create the new pull request, call it as “publish to the production line”.
-* you possibly need wait for travis-ci to perform the checks.
-* merge the changes.
-* tell the world about it: on facebook, the google group, linkedin, ...
+* Make sure a ``bump`` commit is included in the differences.
+* It should be possible to automatically merge the branches.
+* Create the new pull request, call it as “publish to the production line”.
+* You possibly need wait for travis-ci to perform the checks.
+* Merge the changes.
+* Tell the world about it: on IRC, the forum, diaspora*, …
 
-closing step
+Closing step
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* review this workflow. consider this as a guideline, to yourself and to
-  your colleagues. please help make it better and matching the practice.
+* Review this workflow. Consider this as a guideline, to yourself and to
+  your colleagues. Please help make it better, and match its practice in doing so.
