@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-03 17:37-0500\n"
-"PO-Revision-Date: 2017-09-04 19:49+0000\n"
+"PO-Revision-Date: 2018-09-17 19:31+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/ghini/"
+"documentation-11/uk/>\n"
 "Language: uk\n"
-"Language-Team: Ukrainian "
-"<https://hosted.weblate.org/projects/ghini/documentation-11/uk/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -404,12 +405,16 @@ msgid ""
 " difficult once you know how to do that. First of all, add weblate as "
 "remote::"
 msgstr ""
+"Те, що відбувається: вступ у конфлікт. Вирішити конфлікти не складно, коли "
+"ви знаєте, як це зробити. Перш за все, додати weblate як віддалений::"
 
 #: ../../building.rst:132
 msgid ""
 "Then make sure we are in the correct repository, on the correct branch, "
 "update the remote, merge with it::"
 msgstr ""
+"Потім переконайтеся, що ми знаходимося в правильному сховищі, на правильній "
+"гілці, оновіть дистанційне керування, злийте з ним::"
 
 #: ../../building.rst:139
 msgid ""
@@ -1529,7 +1534,7 @@ msgstr "розповісти світові про це: на Facebook, груп
 
 #: ../../building.rst:701
 msgid "your own fork"
-msgstr ""
+msgstr "ваша власна гілка"
 
 #: ../../building.rst:703
 msgid ""
@@ -1537,6 +1542,9 @@ msgid ""
 "full force work in progress, so staying up to date will require some "
 "effort from your side."
 msgstr ""
+"Якщо ви хочете зберегти власну гілку проекту, майте на увазі, що це робота в "
+"повну силу над результатом, і щоб бути в курсі, потрібні певні зусилля з "
+"вашої сторони."
 
 #: ../../building.rst:707
 msgid ""
@@ -1546,6 +1554,11 @@ msgid ""
 "unit tests, concise and abundant, and there should be no problem in "
 "having your work included in Ghini's upstream."
 msgstr ""
+"Найкращий спосіб зберегти власну гілку полягає в тому, щоб сфокусуватися на "
+"певній конкретній проблемі, часто відкривають тягові запити для вашої "
+"роботи, переконайтеся, що ви це приймаєте. Просто дотримуйтесь стилю "
+"кодування Ghini, пишіть одиничні тести, лаконічні та ясні, і не повинно бути "
+"ніяких проблем в тому, щоб ваша робота була включена до Ghini."
 
 #: ../../building.rst:713
 msgid ""
@@ -1554,6 +1567,10 @@ msgid ""
 "<https://help.github.com/articles/configuring-a-remote-for-a-fork/>`_ and"
 " `syncing a fork <https://help.github.com/articles/syncing-a-fork/>`_."
 msgstr ""
+"Якщо гілка вийшла з синхронізації з Ghini вгору: читати, зрозуміти, "
+"слідкувати за github  довідниками `configuring a remote for a fork "
+"<https://help.github.com/articles/configuring-a-remote-for-a-fork/>`_ і `"
+"syncing a fork <https://help.github.com/articles/syncing-a-fork/>`_."
 
 #: ../../building.rst:719
 msgid "closing step"
@@ -1569,9 +1586,8 @@ msgstr ""
 "практичним."
 
 #: ../../building.rst:725
-#, fuzzy
 msgid "distributing for windows"
-msgstr "Установка на Windows"
+msgstr "розповсюдження для windows"
 
 #: ../../building.rst:727
 msgid ""
@@ -3084,11 +3100,11 @@ msgstr "Установка Ghini"
 
 #: ../../index.rst:40
 msgid "User's Guide"
-msgstr ""
+msgstr "Керівництво користувача"
 
 #: ../../index.rst:55
 msgid "Cookbook"
-msgstr ""
+msgstr "Довідник програмних рішень"
 
 #: ../../index.rst:63
 msgid "Administration"
@@ -5114,9 +5130,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:2
-#, fuzzy
 msgid "Quito Botanical Garden"
-msgstr "Ботанічний сад"
+msgstr "Ботанічний сад Кіто"
 
 #: ../../use_cases-jbq.rst:4
 msgid ""
@@ -5125,11 +5140,14 @@ msgid ""
 "program, and we are ourselves in need to document it, in order to secure "
 "the knowledge to the institution. We are happy to share it."
 msgstr ""
+"У квітні 2015 року у JBQ, Ботанічний сад Кіто, ми прийняли програмне "
+"забезпечення Ghini. З того часу ми накопичили досвід роботи з програмою, і "
+"ми самі повинні його документувати, щоб забезпечити знання в установі. Ми з "
+"радістю поділяємо це."
 
 #: ../../use_cases-jbq.rst:10
-#, fuzzy
 msgid "Technical"
-msgstr "технічна примітка"
+msgstr "Технічний"
 
 #: ../../use_cases-jbq.rst:12
 msgid ""
@@ -5137,10 +5155,14 @@ msgid ""
 "database is inside of a remote database management system. This implies "
 "steps that are not obvious to the casual end user."
 msgstr ""
+"Ми працюємо над GNU/Linux, платформою, якою багато користувачів не "
+"оволодіють, і наша база даних знаходиться всередині віддаленої системи "
+"управління базами даних. Це означає кроки, які не є очевидними для звичайних "
+"кінцевих користувачів."
 
 #: ../../use_cases-jbq.rst:16
 msgid "How to start a program"
-msgstr ""
+msgstr "Як запустити програму"
 
 #: ../../use_cases-jbq.rst:19
 msgid ""
@@ -5150,11 +5172,16 @@ msgid ""
 "program symbol |100000000000003100000031BB54CBDFA885EBAC_png|, appearing "
 "near the left margin of your display."
 msgstr ""
+"Щоб запустити програму із зазначенням її назви, натисніть |loose_png | "
+"Клавіша поруч з Alt або клацніть на "
+"|10000000000000300000002F89E0224ADF9EC09E_png|, після чого почніть вводити "
+"назву програми, у нашому випадку “Ghini” або просто натиснути символ "
+"програми |100000000000003100000031BB54CBDFA885EBAC_png|, що з'являється біля "
+"лівих крапок вашого дисплея."
 
 #: ../../use_cases-jbq.rst:25
-#, fuzzy
 msgid "Database server"
-msgstr "історія бази даних"
+msgstr "Сервер баз даних"
 
 #: ../../use_cases-jbq.rst:28
 msgid ""
@@ -5163,11 +5190,14 @@ msgid ""
 "simultaneously available on all ghini clients.  We did need to outsource "
 "database server management."
 msgstr ""
+"Ми обрали для централізованого сервера баз даних PostgreSQL. Таким чином, ми "
+"захищені від одночасних конфліктуючих змін, і всі зміни одночасно доступні "
+"для всіх клієнтів ghini. Нам потрібно було використовувати аутсорсинг "
+"керування сервером бази даних."
 
 #: ../../use_cases-jbq.rst:33
-#, fuzzy
 msgid "adding a new user"
-msgstr "Для створення нового користувача ..."
+msgstr "додавання нового користувача"
 
 #: ../../use_cases-jbq.rst:36
 msgid ""
@@ -5176,12 +5206,18 @@ msgid ""
 "sorts of temporary users writing to the database, that we decided we "
 "would let Ghini help us keep track of database events."
 msgstr ""
+"Ghini відстежує користувача, який виконує всі види редагування в базі даних, "
+"і в саду, крім постійних користувачів, у нас є всілякі тимчасові "
+"користувачі, які пишуть в базу даних, і ми вирішили дозволити Ghini "
+"допомогти нам стежити за подіями бази даних."
 
 #: ../../use_cases-jbq.rst:41
 msgid ""
 "Since we work using PostgreSQL, the users that Ghini stores in the "
 "database history are the database users, not the system users."
 msgstr ""
+"Оскільки ми працюємо з PostgreSQL, користувачі, яких зберігає Ghini в "
+"історії бази даних, є користувачі бази даних, а не користувачі системи."
 
 #: ../../use_cases-jbq.rst:44
 msgid ""
@@ -5189,16 +5225,22 @@ msgid ""
 "user, responsible for the database content, also has the ``bauble`` "
 "fictional user password, which we only only use to create other users."
 msgstr ""
+"Кожен користувач знає свій пароль, і тільки він знає його. Наш "
+"суперкористувач, який відповідає за вміст бази даних, також має ``bauble`` "
+"вигаданий пароль користувача, який ми використовуємо лише для створення "
+"інших користувачів."
 
 #: ../../use_cases-jbq.rst:49
 msgid ""
 "We do not use account names like ``voluntario``, because such accounts do"
 " not help us associate the name to the person."
 msgstr ""
+"Ми не використовуємо назви облікових записів, як ``voluntario``, оскільки "
+"такі облікові записи не допомагають нам пов'язувати ім'я з особами."
 
 #: ../../use_cases-jbq.rst:52
 msgid "— adding a new system user (linux/osx)"
-msgstr ""
+msgstr "— додавання нового користувача системи (linux/osx)"
 
 #: ../../use_cases-jbq.rst:55
 msgid ""
@@ -5208,6 +5250,12 @@ msgid ""
 "systems we have a single shared account with several configured "
 "connections, on other systems we have one account per user."
 msgstr ""
+"Додавання системного користувача не є обов'язково необхідним, оскільки ghini "
+"не використовує його в журналах, однак додавши, що системний користувач "
+"дозволяє розділити налаштування, налаштовані з'єднання, історію пошуку. У "
+"деяких наших системах ми маємо єдиний загальний обліковий запис з кількома "
+"налаштованими з'єднаннями, в інших системах ми маємо один обліковий запис "
+"для кожного користувача."
 
 #: ../../use_cases-jbq.rst:62
 msgid ""
@@ -5216,20 +5264,26 @@ msgid ""
 "``/home/<account>/.pgpass`` file.  This file is only readable for the "
 "``<account>`` owner."
 msgstr ""
+"На системах з одним обліковим записом для кожного користувача наші "
+"користувачі мають одне налаштоване з'єднання, і ми зберігаємо пароль бази "
+"даних у файлі ``/home/<account>/.pgpass``. Цей файл є лише читабельним для "
+"власника ``<account>``."
 
 #: ../../use_cases-jbq.rst:67
 msgid ""
 "On systems with a shared account, the user must select their own "
 "connection and type the corresponding password."
 msgstr ""
+"У системах із загальним обліковим записом користувач повинен вибрати своє "
+"власне з'єднання та ввести відповідний пароль."
 
 #: ../../use_cases-jbq.rst:70
 msgid "These are the steps to add system users::"
-msgstr ""
+msgstr "Ось кроки для додавання користувачів системи::"
 
 #: ../../use_cases-jbq.rst:76
 msgid "— adding a new database user"
-msgstr ""
+msgstr "— додавання нового користувача бази даних"
 
 #: ../../use_cases-jbq.rst:79
 msgid ""
@@ -5238,18 +5292,27 @@ msgid ""
 "that will allow us use it, for the time being we use the ``create-"
 "role.sh`` script::"
 msgstr ""
+"Ghini має дуже мінімальний інтерфейс для управління користувачами, він "
+"працює тільки з postgresql, і його дуже не вистачає. Ми відкрили питання, "
+"які дозволять нам використовувати його, поки що ми використовуємо сценарій "
+"``create-role.sh``::"
 
 #: ../../use_cases-jbq.rst:96
 msgid ""
 "The redundant ``alter role`` following the ``create role`` lets us apply "
 "the same script also for correcting existing accounts."
 msgstr ""
+"Надлишкова ``alter role`` після `` create role`` дозволяє застосовувати один "
+"і той же сценарій для виправлення існуючих облікових записів."
 
 #: ../../use_cases-jbq.rst:99
 msgid ""
 "Our ghini database is called ``bauble``, and ``bauble`` is also the name "
 "of our database super user, the only user with ``CREATEROLE`` privilege."
 msgstr ""
+"Наша база даних ghini називається ``bauble``, і ``bauble`` також ім'я "
+"суперкористувача нашої бази даних, єдиного користувача з ``CREATEROLE`` "
+"привілеєм."
 
 #: ../../use_cases-jbq.rst:103
 msgid ""
@@ -5257,15 +5320,16 @@ msgid ""
 "with password ``orange``, on the ``bauble`` database hosted at "
 "192.168.5.6::"
 msgstr ""
+"Наприклад, наступний виклик створить користувача ``willem`` з паролем "
+"``orange`` у базі ``bauble``, розміщених на 192.168.5.6::"
 
 #: ../../use_cases-jbq.rst:109
 msgid "Understanding when to update"
-msgstr ""
+msgstr "Розуміння того, коли оновлювати"
 
 #: ../../use_cases-jbq.rst:111
-#, fuzzy
 msgid "Updating the system"
-msgstr "написання тестів"
+msgstr "Оновлення системи"
 
 #: ../../use_cases-jbq.rst:114
 msgid ""
@@ -5273,11 +5337,13 @@ msgid ""
 "whenever the system suggests an update, we let it do that. Generally, "
 "there's no need to wait during the update nor to reboot after it's done."
 msgstr ""
+"Оновлення Ubuntu набагато легше і простіше, ніж у Windows. Тому коли система "
+"пропонує оновлення, ми дозволимо це зробити. Як правило, не потрібно чекати "
+"під час оновлення, ані перезавантажувати після завершення."
 
 #: ../../use_cases-jbq.rst:119
-#, fuzzy
 msgid "Updating ghini"
-msgstr "Підтримка Ghini"
+msgstr "Оновлення ghini"
 
 #: ../../use_cases-jbq.rst:122
 msgid ""
@@ -5285,59 +5351,69 @@ msgid ""
 "need do anything in this window, just press enter and get into the main "
 "program screen."
 msgstr ""
+"Перше вікно, представлене Ghini, виглядає так. Зазвичай у цьому вікні вам "
+"нічого не потрібно робити, просто натисніть клавішу Enter і потрапите у "
+"головний екран програми."
 
 #: ../../use_cases-jbq.rst:126
 msgid "|10000000000001290000011FEE16D735EB3DBF67_png|"
-msgstr ""
+msgstr "|10000000000001290000011FEE16D735EB3DBF67_png|"
 
 #: ../../use_cases-jbq.rst:128
 msgid ""
 "Occasionally, at the top of the screen an information text will appear, "
 "telling you that a newer version is available on-line."
 msgstr ""
+"Іноді у верхній частині екрана з'являється інформаційний текст, в якому "
+"повідомляється, що нова версія доступна в режимі онлайн."
 
 #: ../../use_cases-jbq.rst:131
 msgid "|10000000000001290000011FEE16D735EB3DBF66_png|"
-msgstr ""
+msgstr "|10000000000001290000011FEE16D735EB3DBF66_png|"
 
 #: ../../use_cases-jbq.rst:133
 msgid ""
 "The update procedure is simple, and it depends on the operating system "
 "you use, we're not explaining here again."
 msgstr ""
+"Процедура оновлення проста, і це залежить від використовуваної вами "
+"операційної системи, ми не пояснюємо тут ще раз."
 
 #: ../../use_cases-jbq.rst:136
 msgid ""
 "It is generally a good idea updating the software.  If in doubt, contact "
 "the author, or write to the group."
 msgstr ""
+"Як правило, хороша ідея оновлення програмного забезпечення. Якщо у вас "
+"сумніви, зв'яжіться з автором або напишіть у групу."
 
 #: ../../use_cases-jbq.rst:139
 msgid "understanding ghini initial screen"
-msgstr ""
+msgstr "розуміння початкового екрану ghini"
 
 #: ../../use_cases-jbq.rst:141
 msgid "Complete screen"
-msgstr ""
+msgstr "Повний екран"
 
 #: ../../use_cases-jbq.rst:144
 msgid "At the moment of writing, our initial screen looked like this:"
-msgstr ""
+msgstr "На момент написання наш початковий екран виглядав так:"
 
 #: ../../use_cases-jbq.rst:146
 msgid "|100000000000063F00000383F7EAFB008DE6E4E2_png|"
-msgstr ""
+msgstr "|100000000000063F00000383F7EAFB008DE6E4E2_png|"
 
 #: ../../use_cases-jbq.rst:148
 msgid ""
 "Apart from the main application menu, Ghini offers three special "
 "interface sections with information and tools to explore the database."
 msgstr ""
+"Крім основного меню додатків, Ghini пропонує три розділи спеціального "
+"інтерфейсу з інформацією та інструментами для вивчення бази даних."
 
 #: ../../use_cases-jbq.rst:152
-#, fuzzy
 msgid "Numeric overview"
-msgstr "огляд пошукового домену"
+msgstr "Числовий огляд"
 
 #: ../../use_cases-jbq.rst:155
 msgid ""
@@ -5345,14 +5421,17 @@ msgid ""
 "registered plants can be observed.  Each entry printed in bold is a link "
 "to the query selecting the corresponding objects."
 msgstr ""
+"Таблиця у правій половині екрана, яка містить зведення всіх зареєстрованих "
+"рослин, можна спостерігати. Кожна запис, надрукований жирним шрифтом, є "
+"посиланням на запит, вибравши відповідні об'єкти."
 
 #: ../../use_cases-jbq.rst:159
 msgid "|100000000000018700000173222371085C3C68FE_png|"
-msgstr ""
+msgstr "|100000000000018700000173222371085C3C68FE_png|"
 
 #: ../../use_cases-jbq.rst:161
 msgid "Stored queries"
-msgstr ""
+msgstr "Збережені запити"
 
 #: ../../use_cases-jbq.rst:164
 msgid ""
@@ -5361,36 +5440,46 @@ msgid ""
 " accessions that have not been identified at rank species.  And one for "
 "the database history."
 msgstr ""
+"Нижня половина правої сторони містить набір збережених запитів. Хоча ви "
+"можете редагувати їх за вашим бажанням, наші підказки включають вибір тих "
+"приєднань, які не були ідентифіковані за категоріями видів. І один для "
+"історії бази даних."
 
 #: ../../use_cases-jbq.rst:169
 msgid "|100000000000018700000173222371085C3C68FF_png|"
-msgstr ""
+msgstr "|100000000000018700000173222371085C3C68FF_png|"
 
 #: ../../use_cases-jbq.rst:171
 msgid "Query and action buttons"
-msgstr ""
+msgstr "Кнопки запиту та дії"
 
 #: ../../use_cases-jbq.rst:174
 msgid ""
 "At the top of this screen you can find the field in which you would enter"
 " your searches."
 msgstr ""
+"У верхній частині цього екрана ви можете знайти поле, в яке потрібно ввести "
+"ваші пошуки."
 
 #: ../../use_cases-jbq.rst:177 ../../use_cases-jbq.rst:1009
 msgid "|10000000000006090000001FA253BB9470AD4994_png|"
-msgstr ""
+msgstr "|10000000000006090000001FA253BB9470AD4994_png|"
 
 #: ../../use_cases-jbq.rst:179
 msgid ""
 "With the |100000000000001C00000020F4C7873186014F2F_png| button, in the "
 "form of a house, you can return from your searches to the main screen."
 msgstr ""
+"З |100000000000001C00000020F4C7873186014F2F_png| кнопки, у вигляді будинку, "
+"ви можете повернутися з ваших пошуків на головний екран."
 
 #: ../../use_cases-jbq.rst:182
 msgid ""
 "With the |100000000000001B000000207EC6F9075C9D3669_png| button, in the "
 "form of an arrow, you can return to your last search."
 msgstr ""
+"З |100000000000001B000000207EC6F9075C9D3669_png| кнопки, у формі стрілки, ви "
+"можете повернутися до вашого останнього пошуку."
 
 #: ../../use_cases-jbq.rst:184
 msgid ""
@@ -5398,6 +5487,9 @@ msgid ""
 "form of a gear, you can start the \"Query Builder\", which helps you "
 "compose complex searches in a simple, graphical way."
 msgstr ""
+"З |100000000000001C0000001FB8A1F75F7A5EF877_png| кнопки, у формі передач, ви "
+"можете запустити \"Query Builder\", який допоможе вам скласти складні пошуки "
+"в простий, графічний спосіб."
 
 #: ../../use_cases-jbq.rst:189
 msgid ""
@@ -5405,35 +5497,40 @@ msgid ""
 "time. It was with them in mind that we have developed a `hyper-simplified"
 " view <goal.html#hypersimplified-view>`_ on the ghini database structure."
 msgstr ""
+"У нас часто є добровольці, які працюють тільки в саду дуже короткий час. "
+"Саме це маючи на увазі, ми розробили `hyper-simplified view <goal.html"
+"#hypersimplified-view>`_ на Ghini структури бази даних."
 
 #: ../../use_cases-jbq.rst:193 ../../use_cases-jbq.rst:597
 msgid "Details"
-msgstr ""
+msgstr "Деталі"
 
 #: ../../use_cases-jbq.rst:196
 msgid ""
 "The two figures here show all that our temporary collaborators need to "
 "know."
 msgstr ""
+"Дві цифри тут показують все, що наші тимчасові співробітники повинні знати."
 
 #: ../../use_cases-jbq.rst:199
-#, fuzzy
 msgid "Taxonomy & Collection"
-msgstr "класифікаційна інформації"
+msgstr "Таксономія та колекція"
 
 #: ../../use_cases-jbq.rst:199
 msgid "Garden"
-msgstr ""
+msgstr "Сад"
 
 #: ../../use_cases-jbq.rst:204
 msgid ""
 "At times, the program gives error messages. |dontpanic_png|, retry, or "
 "report to the developers."
 msgstr ""
+"Іноді програма повідомляє про помилку. |dontpanic_png|, повторіть спробу або "
+"повідомте розробникам."
 
 #: ../../use_cases-jbq.rst:207
 msgid "Network problems"
-msgstr ""
+msgstr "Мережеві проблеми"
 
 #: ../../use_cases-jbq.rst:210
 msgid ""
@@ -5442,6 +5539,10 @@ msgid ""
 "connect to our database server. You would then get a rather explicit but "
 "very badly typeset error message."
 msgstr ""
+"Для роботи програма потребує стабільного мережевого підключення до сервера "
+"баз даних. Це може статися: ви запускаєте програму, і вона не може "
+"підключитися до нашого сервера баз даних. Потім ви отримаєте досить явне, "
+"але дуже погано набираєме повідомлення про помилку."
 
 #: ../../use_cases-jbq.rst:215
 msgid "|100000000000020B000000FBCAB1860DB92DF14A_png|"
@@ -5449,11 +5550,11 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:217
 msgid "Just ignore it and try again."
-msgstr ""
+msgstr "Просто ігноруйте його і повторіть спробу."
 
 #: ../../use_cases-jbq.rst:219
 msgid "Search fails with error"
-msgstr ""
+msgstr "Пошук не вдається з помилкою"
 
 #: ../../use_cases-jbq.rst:222
 msgid ""
@@ -5461,10 +5562,13 @@ msgid ""
 "successfully, and a window with an error message will be displayed. In "
 "this case you only have to try to perform the same search again."
 msgstr ""
+"Іноді і без будь-якої очевидної причини пошук не буде успішно виконуватися, "
+"і з'явиться вікно з повідомленням про помилку. У цьому випадку вам "
+"доведеться спробувати виконати той самий пошук ще раз."
 
 #: ../../use_cases-jbq.rst:227
 msgid "An example of such an error message:"
-msgstr ""
+msgstr "Приклад такого повідомлення про помилку:"
 
 #: ../../use_cases-jbq.rst:229
 msgid "|10000000000002140000014D050A059AC7EE948A_png|"
@@ -5472,7 +5576,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:231
 msgid "Search does not return something I just inserted"
-msgstr ""
+msgstr "Пошук не повертає те, що я щойно вставив"
 
 #: ../../use_cases-jbq.rst:234
 msgid ""
@@ -5481,18 +5585,24 @@ msgid ""
 "don't enclose the search string in quotes, any leading 0 will be stripped"
 " and the value will not be found."
 msgstr ""
+"Коди приєднання, що починаються з нуля і складаються з чисел, наприклад, "
+"``016489`` розглядаються програмним забезпеченням як числа, тому якщо ви не "
+"вкладете рядок пошуку в лапки, будь-який провідний 0 буде знятий і значення "
+"буде не знайдено."
 
 #: ../../use_cases-jbq.rst:239
 msgid "Try again, but enclose your search string in single or double quotes."
 msgstr ""
+"Спробуйте ще раз, але додайте свій пошуковий рядок в одинарні або подвійні "
+"лапки."
 
 #: ../../use_cases-jbq.rst:243
 msgid "Number on the label"
-msgstr ""
+msgstr "Номер на етикетці"
 
 #: ../../use_cases-jbq.rst:243
 msgid "corresponding search"
-msgstr ""
+msgstr "відповідний пошук"
 
 #: ../../use_cases-jbq.rst:245
 msgid "16489"
@@ -5508,6 +5618,9 @@ msgid ""
 "leading zero becomes optional, so in the above example it's maybe easier "
 "to type ``16489.1``."
 msgstr ""
+"Будь ласка, зверніть увагу: коли ви шукаєте код рослини, а не приєднання, "
+"провідний нуль стає необов'язковим, тому в наведеному вище прикладі може "
+"бути простіше вводити ``16489.1``."
 
 #: ../../use_cases-jbq.rst:252
 msgid ""
@@ -5515,28 +5628,34 @@ msgid ""
 "from happening again: a user deleted a genus, with everything that was "
 "below it, species and accessions, and synonyms."
 msgstr ""
+"Серйозна ситуація трапляється один раз, і ми абсолютно хочемо запобігти "
+"цьому: знову користувач видалив рід, все, що було нижче, види і приєднання "
+"та синоніми."
 
 #: ../../use_cases-jbq.rst:256
 msgid "Solving it with user permissions"
-msgstr ""
+msgstr "Вирішення з правами користувачів"
 
 #: ../../use_cases-jbq.rst:259
 msgid ""
 "We propose to have different connection profiles, associated to different"
 " database users, each user with all needed permissions."
 msgstr ""
+"Ми пропонуємо мати різні профілі з'єднання, пов'язані з різними "
+"користувачами баз даних, кожен користувач із усіма необхідними правами "
+"доступу."
 
 #: ../../use_cases-jbq.rst:263
 msgid "Full permission (BD-JBQ)"
-msgstr ""
+msgstr "Повний дозвіл (BD-JBQ)"
 
 #: ../../use_cases-jbq.rst:263
 msgid "Only qualified personnel get this kind of access."
-msgstr ""
+msgstr "Тільки кваліфікований персонал отримує такий доступ."
 
 #: ../../use_cases-jbq.rst:268
 msgid "Insert and update (BD-JBQ-limitado)"
-msgstr ""
+msgstr "Вставити та оновити (BD-JBQ-limitado)"
 
 #: ../../use_cases-jbq.rst:266
 msgid ""
@@ -5544,20 +5663,25 @@ msgid ""
 "who did not get a complete introduction to database concepts. It is meant"
 " to prevent costly mistakes."
 msgstr ""
+"Ми використовуємо цю програму для тих користувачів, які нам допомагають "
+"протягом обмеженого часу, і які не отримали повного введення в концепції "
+"бази даних. Вона призначена для запобігання серйозних помилок."
 
 #: ../../use_cases-jbq.rst:271
 msgid "Read only (BD-JBQ-lectura)"
-msgstr ""
+msgstr "Тільки для читання (BD-JBQ-lectura)"
 
 #: ../../use_cases-jbq.rst:271
 msgid "it can be shared with anyone visiting the garden"
-msgstr ""
+msgstr "це може бути доступним для всіх, хто відвідує сад"
 
 #: ../../use_cases-jbq.rst:273
 msgid ""
 "You select the connection at start-up, and the software asks you for the "
 "password corresponding to the connection you selected."
 msgstr ""
+"Ви вибираєте підключення під час запуску, а програма запитає вас про пароль, "
+"що відповідає обраному вами з'єднанню."
 
 #: ../../use_cases-jbq.rst:276
 msgid "|10000000000000FE00000065C64D791B5CA0099D_png|"
@@ -5569,6 +5693,9 @@ msgid ""
 "to 'Connection Details', it will change to ▼, and the connection window "
 "will be displayed as one of the following:"
 msgstr ""
+"Якщо ви хочете переглянути деталі підключення, натисніть кнопку ▶ поруч із "
+"пунктом «Подробиці підключення», вона змінюється на ▼, і вікно з'єднання "
+"відображатиметься як одне з наступних:"
 
 #: ../../use_cases-jbq.rst:283
 msgid "|100000000000012F000001A611615FB62F2D003B_png|"
@@ -5587,10 +5714,12 @@ msgid ""
 "As you can see, we are connecting to the same database server, each "
 "connection uses the same database on the server, but with different user."
 msgstr ""
+"Як бачимо, ми підключаємося до того ж сервера баз даних, кожен зв'язок "
+"використовує ту саму базу даних на сервері, але з іншим користувачем."
 
 #: ../../use_cases-jbq.rst:290
 msgid "Thinking further about it"
-msgstr ""
+msgstr "Думаю далі про це"
 
 #: ../../use_cases-jbq.rst:293
 msgid ""
@@ -5599,6 +5728,9 @@ msgid ""
 "genus, or, for that matters, of anything connected to accessions in the "
 "collection."
 msgstr ""
+"З іншого боку, ми ставимо під сумнів, чи це взагалі доречно, дозволяючи будь-"
+"якому користувачеві видалити щось на такому високому рівні, як сім'я або "
+"рід, або, у зв'язку з цим, щось пов'язане з приєднаннями до колекції."
 
 #: ../../use_cases-jbq.rst:298
 msgid ""
@@ -5606,16 +5738,21 @@ msgid ""
 "`corresponding issue "
 "<https://github.com/Ghini/ghini.desktop/issues/218>`_."
 msgstr ""
+"Спосіб, за допомогою якого ghini поставив запитання про функції програмного "
+"забезпечення, полягає у відкритті відповідної проблеми <https://github.com/"
+"Ghini/ghini.desktop/issues/218> `_."
 
 #: ../../use_cases-jbq.rst:302
 msgid ""
 "When contacting the developers, they will definitely ask for technical "
 "information, or at least to see a screen-shot.  Help them help you."
 msgstr ""
+"При зверненні до розробників вони обов'язково просять технічну інформацію "
+"або, принаймні, побачити екранний знімок. Допоможіть їм допомогти вам."
 
 #: ../../use_cases-jbq.rst:305
 msgid "Taking a screen-shot"
-msgstr ""
+msgstr "Зйомка екрану"
 
 #: ../../use_cases-jbq.rst:308
 msgid ""
@@ -5626,11 +5763,16 @@ msgid ""
 "copied in the clipboard.  Paste it in the email you're writing, or in the"
 " chat line where the developers are trying to help you."
 msgstr ""
+"У Linux існує три способи створення знімка екрана, все включається "
+"натисканням клавіші 'PrtSc'. Найбільш практичний варіант, можливо, "
+"комбінація клавіш 'PrtSc' з Ctrl і Shift. Запуститься інтерактивний "
+"інструмент копіювання екрана. Ви вибираєте прямокутник і область буде "
+"скопійована в буфер обміну. Вставте його в електронний лист, який ви пишете, "
+"або в чаті, де розробники намагатимуться вам допомогти."
 
 #: ../../use_cases-jbq.rst:316
-#, fuzzy
 msgid "Where are the logs"
-msgstr "де поставити тести"
+msgstr "Де знаходяться журнали"
 
 #: ../../use_cases-jbq.rst:319
 msgid ""
@@ -5638,10 +5780,13 @@ msgid ""
 "``~/.bauble/bauble.log`` file.  Don't bother opening it, just send it "
 "over.  It contains loads of technical information."
 msgstr ""
+"Ghini постійно зберігає дуже інформативний файл журналу у файлі ``~/.bauble/"
+"bauble.log``. Не хвилюйтеся відкриваючи його, просто надішліть його. Він "
+"містить багато технічної інформації."
 
 #: ../../use_cases-jbq.rst:323
 msgid "Continuous unmanned alerting"
-msgstr ""
+msgstr "Безперервне безпілотне оповіщення"
 
 #: ../../use_cases-jbq.rst:326
 msgid ""
@@ -5649,12 +5794,18 @@ msgid ""
 "sentry server of any serious situations in the software.  If you "
 "registered, the developers will know how to contact you if necessary."
 msgstr ""
+"Інший варіант - активувати обробник sentry. Він повідомить наш сторожовий "
+"сервер про будь-які серйозні ситуації в програмному забезпеченні. Якщо ви "
+"зареєструвалися, розробники будуть знати, як з вами зв'язуватися, якщо це "
+"необхідно."
 
 #: ../../use_cases-jbq.rst:331
 msgid ""
 "To the healthy paranoid: we're not monitoring what you're doing, we're "
 "monitoring how our software works.  You can always opt out."
 msgstr ""
+"Для здорових песимістів: ми не стежимо за тим, що ви робите, ми стежимо за "
+"тим, як працює наше програмне забезпечення. Ви завжди можете відмовитися."
 
 #: ../../use_cases-jbq.rst:334
 msgid ""
@@ -5662,19 +5813,21 @@ msgid ""
 "with name ``bauble.use_sentry_handler``, if the value is not what you "
 "wish, double click on the line and it will change to the other value."
 msgstr ""
+"Ви активуєте обробник Sentry на сторінці ``: prefs``: шукайте рядок з назвою "
+"``bauble.use_sentry_handler``, якщо значення не є тим, що ви хочете, двічі "
+"натисніть по лінії, і вона зміниться на інше значення."
 
 #: ../../use_cases-jbq.rst:340
 msgid "Taxonomy"
-msgstr ""
+msgstr "Таксономія"
 
 #: ../../use_cases-jbq.rst:342
-#, fuzzy
 msgid "Introduction"
-msgstr "публікація продукту"
+msgstr "Введення"
 
 #: ../../use_cases-jbq.rst:344
 msgid "Orchidaceae taxonomic complexity"
-msgstr ""
+msgstr "Таксономічна складність орхідей"
 
 #: ../../use_cases-jbq.rst:347
 msgid ""
@@ -6043,7 +6196,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:601
 msgid "description"
-msgstr ""
+msgstr "опис"
 
 #: ../../use_cases-jbq.rst:603
 msgid "CAC-B *x*"
@@ -6146,14 +6299,12 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:651
-#, fuzzy
 msgid "Accession"
-msgstr "Приєднань"
+msgstr "Приєднання"
 
 #: ../../use_cases-jbq.rst:651
-#, fuzzy
 msgid "Species"
-msgstr "Види/Таксон"
+msgstr "Вид"
 
 #: ../../use_cases-jbq.rst:651
 #, fuzzy
@@ -6187,9 +6338,8 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:667 ../../use_cases-jbq.rst:702
-#, fuzzy
 msgid "Accession ID"
-msgstr "Приєднань"
+msgstr "ID приєднання"
 
 #: ../../use_cases-jbq.rst:667 ../../use_cases-jbq.rst:702
 msgid "Type of Material"
@@ -6197,11 +6347,11 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:667 ../../use_cases-jbq.rst:702
 msgid "Quantity"
-msgstr ""
+msgstr "Кількість"
 
 #: ../../use_cases-jbq.rst:667
 msgid "Provenance"
-msgstr ""
+msgstr "Походження"
 
 #: ../../use_cases-jbq.rst:669 ../../use_cases-jbq.rst:704
 msgid "1"
@@ -6209,7 +6359,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:669
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомо"
 
 #: ../../use_cases-jbq.rst:672 ../../use_cases-jbq.rst:707
 msgid ""
@@ -6264,31 +6414,32 @@ msgid ""
 msgstr ""
 
 #: ../../use_cases-jbq.rst:702
-#, fuzzy
 msgid "Source"
-msgstr "відкритий вихідний код"
+msgstr "Джерело"
 
 #: ../../use_cases-jbq.rst:704
 msgid "033724"
-msgstr ""
+msgstr "033724"
 
 #: ../../use_cases-jbq.rst:704
 msgid "specified"
-msgstr ""
+msgstr "точно визначений"
 
 #: ../../use_cases-jbq.rst:710
 msgid "In the Plant Editor, we insert the Quantity and the Location."
-msgstr ""
+msgstr "У редакторі рослин ми вставляємо кількість та місце."
 
 #: ../../use_cases-jbq.rst:712
 msgid ""
 "Please note that the plant may be initially placed in a greenhouse, "
 "before it reaches its intended location in the garden."
 msgstr ""
+"Зверніть увагу, що рослина може бути спочатку розміщена у теплиці, перш ніж "
+"вона досягне передбачуваного місця розташування в саду."
 
 #: ../../use_cases-jbq.rst:715
 msgid "Existing plant, found in the garden without its label"
-msgstr ""
+msgstr "Існуюча рослина, знайдена в саду без етикетки"
 
 #: ../../use_cases-jbq.rst:718
 msgid ""
@@ -6297,6 +6448,9 @@ msgid ""
 "discussed in the next section, but we fall back to the case of a new "
 "accession."
 msgstr ""
+"Коли це станеться, ми не можемо бути впевненими, що рослина ніколи не була в "
+"колекції, тому ми діємо так, наче ми переписали рослину. Це обговорюється в "
+"наступному розділі, але ми повернемося до випадку нового приєднання."
 
 #: ../../use_cases-jbq.rst:723
 msgid ""
@@ -6305,10 +6459,14 @@ msgid ""
 "label (it may become unreadable), or to the association (they may be "
 "separated). We have software-aided protocols for these events."
 msgstr ""
+"Коли ми фізично пов'язуємо етикетку на рослину, завжди існує шанс, що щось "
+"трапиться або з рослиною (вона може зів'янути), або на етикетці (може стати "
+"нечитабельною) або з асоціацію (її можна розділити). У нас є програмні "
+"протоколи для цих подій."
 
 #: ../../use_cases-jbq.rst:728
 msgid "We find a dead plant"
-msgstr ""
+msgstr "Ми знаходимо мертву рослину"
 
 #: ../../use_cases-jbq.rst:731
 msgid ""
@@ -8027,4 +8185,3 @@ msgstr "гравюрні етикетки"
 
 #~ msgid "Building a Windows executable and installer"
 #~ msgstr ""
-
