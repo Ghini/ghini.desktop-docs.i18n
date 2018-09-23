@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-14 09:32-0500\n"
-"PO-Revision-Date: 2018-09-17 19:31+0000\n"
+"PO-Revision-Date: 2018-09-28 11:38+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ghini/"
 "documentation-10/uk/>\n"
@@ -73,6 +73,8 @@ msgid ""
 "Please refer to the `official documentation <https://mariadb.com/kb/en"
 "/the-mariadb-library/documentation/>`_."
 msgstr ""
+"Будь ласка зверніться до `офіційної документації <https://mariadb.com/kb/en/"
+"the-mariadb-library/documentation/>`_."
 
 #: ../../administration.rst:28
 msgid ""
@@ -80,16 +82,18 @@ msgid ""
 "starting at `this page <https://mariadb.com/kb/en/the-mariadb-library"
 "/backing-up-and-restoring-databases/>`_."
 msgstr ""
+"Резервне копіювання та відновлення баз даних широко і глибоко описано "
+"починаючи з `цієї сторінки <https://mariadb.com/kb/en/the-mariadb-library/"
+"backing-up-and-restoring-databases/>`_."
 
 #: ../../administration.rst:35
-#, fuzzy
 msgid ""
 "Please refer to the official documentation. A very thorough discussion of"
 " your backup options starts at `chapter 24 "
 "<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 msgstr ""
-"Будь ласка, зверніться до офіційної документації. Дуже докладне "
-"обговорення налаштувань резервного копіювання починається на `chapter 24 "
+"Будь ласка, зверніться до офіційної документації. Дуже ретельне обговорення "
+"варіантів резервного копіювання починається з `розділу 24 "
 "<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 
 #: ../../administration.rst:39
@@ -373,11 +377,11 @@ msgstr "гілка"
 
 #: ../../building.rst:107
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: ../../building.rst:107 ../../ghini-family.rst:15
 msgid "ghini.pocket"
-msgstr ""
+msgstr "ghini.pocket"
 
 #: ../../building.rst:110
 msgid ""
@@ -526,7 +530,7 @@ msgstr ""
 
 #: ../../building.rst:175
 msgid "Which way do the translated strings reach our users?"
-msgstr ""
+msgstr "Яким чином перекладені рядки досягають наших користувачів?"
 
 #: ../../building.rst:177
 msgid ""
@@ -534,12 +538,16 @@ msgid ""
 "process from Weblate --> GIT --> Ghini Desktop installed on users "
 "computers, or does this require manual steps?"
 msgstr ""
+"Новий перекладач поставив запитання, додавши: «Чи це автоматичний процес від "
+"Weblate --> GIT --> Ghini Desktop встановлений на комп'ютерах користувачів, "
+"чи це вимагає ручних кроків?"
 
 #: ../../building.rst:181
 msgid ""
 "The aswer is that the whole interaction is quite complex, and it depends "
 "on the component."
 msgstr ""
+"Вважається, що вся взаємодія досить складна, і це залежить від компонента."
 
 #: ../../building.rst:184
 msgid ""
@@ -552,6 +560,14 @@ msgid ""
 " strings. These translation tables are generated during the installation "
 "or upgrade process, based on the strings you see on Weblate."
 msgstr ""
+"Коли мова йде про ``ghini.desktop``, коли ви робите глобальну інсталяцію, ви "
+"не знаєте, якою мовою ваші користувачі налаштують навколишнє середовище, і "
+"користувач може будь-коли змінювати конфігурацію мови. Отже, що ми робимо, "
+"це встановлюємо програмне забезпечення англійською мовою разом із таблицею "
+"перекладу з англійської на будь-яку іншу, зокрема італійську чи угорську. "
+"Потім бібліотеки графічного інтерфейсу (Android або GTK) знають, де шукати "
+"перекладацькі рядки. Ці таблиці перекладів створюються під час процесу "
+"встановлення або оновлення, виходячи з рядків, які ви бачите на Weblate."
 
 #: ../../building.rst:193
 msgid ""
@@ -567,28 +583,44 @@ msgid ""
 "moment when the new translations finally make it to the distributed "
 "software."
 msgstr ""
+"Перед тим, як будь-який з перелічених вище буде активізований, шлях, який "
+"слідує за вашими перекладами, описаний так: Weblate виводить рядки на github "
+"безпосередньо в лінію розробки `ghini-1.0-dev`; Я бачу їх, якщо я розумію "
+"принаймні структуру цієї мови, я переглядаю їх, можливо, я їх дивлюся на "
+"вікіпедії або їх переводять на італійську, іспанську чи англійську мови "
+"службою автоматичного перекладу; іноді мені треба вирішувати конфлікти, що "
+"виникають внаслідок зміненого контексту, не надто часто, на щастя; час від "
+"часу я публікую лінію розробки `ghini-1.0-dev` на виробничу лінію` ghini-1.0`"
+", і це момент, коли нові переклади, нарешті, перетворюють його в розподілене "
+"програмне забезпечення."
 
 #: ../../building.rst:204
 msgid ""
 "users will notice a `new version available` warning and can decide to "
 "ignore it, or to update."
 msgstr ""
+"користувачі помітять попередження про `наявність нової версії` та можуть "
+"вирішити його проігнорувати або оновити."
 
 #: ../../building.rst:207
 msgid ""
 "For ``ghini.pocket``, there is no notification to end users, since we're "
 "not yet using the google app store."
 msgstr ""
+"Для ``ghini.pocket`` не повідомляється кінцевим користувачам, оскільки ми ще "
+"не використовуємо магазин Google Apps."
 
 #: ../../building.rst:210
 msgid "For ``ghini.web``, we haven't yet defined how to distribute it."
-msgstr ""
+msgstr "Для ``ghini.web`` ми ще не визначили, як його розповсюджувати."
 
 #: ../../building.rst:212
 msgid ""
 "For ghini's documentation, it's completely automatic, and all is handled "
 "by readthedocs.org."
 msgstr ""
+"Для документації ghini вона повністю автоматична, і все це обробляється  "
+"readthedocs.org."
 
 #: ../../building.rst:217
 msgid "Adding missing unit tests"
@@ -1510,16 +1542,21 @@ msgid "publishing to production"
 msgstr "публікація продукту"
 
 #: ../../building.rst:691
+#, fuzzy
 msgid ""
 "please use the ``publish.sh`` script, in the ``scritps`` directory.  This"
 " one takes care of every single step, and produces recognizable commit "
 "comments, it publishes the release on pypi, and in perspective it will "
 "contain all steps for producing a ``deb`` file, and a windows executable."
 msgstr ""
+"скористайтеся сценарієм ``publish.sh``, в каталозі ``scritps``. Це бере на "
+"себе кожен крок, і видає впізнавані коментарі, публікує реліз на pypi, і в "
+"перспективі він буде містити всі кроки для створення файлу ``deb``, and a "
+"windows executable."
 
 #: ../../building.rst:696
 msgid "you can also do this by hand:"
-msgstr ""
+msgstr "Ви також можете це зробити вручну:"
 
 #: ../../building.rst:698
 msgid ""
@@ -1558,6 +1595,10 @@ msgid ""
 "<https://groups.google.com/forum/#!forum/bauble>`_, in any relevant "
 "linkedin group, and on `our web page <http://ghini.github.io/>`_."
 msgstr ""
+"не забудьте розповісти світові про новий випуск: на facebook "
+"<https://www.facebook.com/bauble.thesoftware/>`_, the `google group "
+"<https://groups.google.com/forum/#!forum/bauble>`_, у будь-якій відповідній "
+"пов'язаній групі на нашій веб-сторінці <http://ghini.github.io/>`_."
 
 #: ../../building.rst:712
 msgid "your own fork"
@@ -1623,6 +1664,9 @@ msgid ""
 "successfully on Windows 7, 8 and 10.  Windows Vista should also work but "
 "has not been tested."
 msgstr ""
+"Для створення інсталятора Windows або виконуваного файлу вам знадобиться "
+"інсталяція Windows. Описані тут методи були успішно використані в Windows 7, "
+"8 і 10. Windows Vista також повинна працювати, але не була протестована."
 
 #: ../../building.rst:742
 msgid ""
@@ -1631,10 +1675,14 @@ msgid ""
 "development platform.  All steps described here are very similar to the "
 "steps for a normal Windows :ref:`installation`."
 msgstr ""
+"У решті частини цього розділу ми припускаємо, що ви використовуєте робочу "
+"станцію Windows. Ми також припустимо, що ви не використовуєте її як "
+"платформу розробки програмного забезпечення. Всі описані тут кроки дуже "
+"схожі на кроки для звичайної Windows :ref:`installation`."
 
 #: ../../building.rst:747
 msgid "py2exe will not work with eggs"
-msgstr ""
+msgstr "py2exe не буде працювати з eggs"
 
 #: ../../building.rst:750
 msgid ""
@@ -1642,6 +1690,8 @@ msgid ""
 "installed as eggs.  There are several methods to accomplish this, "
 "including:"
 msgstr ""
+"Створення виконуваного файлу Windows із py2exe вимагає встановлення пакетів "
+"** не** як eggs. Для цього є кілька методів, зокрема:"
 
 #: ../../building.rst:753
 msgid ""
@@ -1652,10 +1702,16 @@ msgid ""
 "``devinstall.bat``) you can try ``pip install -I .`` but your mileage may"
 " vary."
 msgstr ""
+"Використовуйте pip для встановлення. Найпростіший спосіб - встановити у "
+"віртуальне середовище, в якому в даний час не встановлено жодного модуля як "
+"eggs з використанням ``pip install``, як описано нижче. Якщо ви хочете "
+"встановити поверх версії встановлення з eggs (наприклад, середовище, "
+"створене за допомогою ``devinstall.bat``), ви можете спробувати ``pip "
+"install -I.` ', але ваш пробіг може відрізнятися."
 
 #: ../../building.rst:760
 msgid "By adding::"
-msgstr ""
+msgstr "Додавши:"
 
 #: ../../building.rst:765
 msgid ""
@@ -1666,42 +1722,56 @@ msgid ""
 "need a fresh virtual environment with no dependent packages installed as "
 "eggs."
 msgstr ""
+"до setup.cfg (або аналогічним чином ``zip_safe = False`` до "
+"``setuptools.setup()`` в ``setup.py``) можна використовувати ``python "
+"setup.py install``, але вам необхідно завантажити та встановити `Microsoft "
+"Visual C++ Compiler для Python 2.7 <http://aka.ms/vcpython27>`_щоб отримати "
+"будь-яке розширення C, і йому буде потрібно свіже віртуальне середовище без "
+"залежних пакетів, встановлених як eggs."
 
 #: ../../building.rst:771
 msgid ""
 "Download and install git, Python 2.7 and PyGTK as outlined in the generic"
 " :ref:`installation` instructions."
 msgstr ""
+"Завантажте та встановіть git, Python 2.7 та PyGTK, як описано в загальній "
+"інструкції :ref:`installation`."
 
 #: ../../building.rst:774
 msgid ""
 "Additionally, download and install `NSIS v3 "
 "<http://nsis.sourceforge.net/Download>`_."
 msgstr ""
+"Окрім того, завантажте та встановіть `NSIS v3 <http://nsis.sourceforge.net/"
+"Download>`_."
 
 #: ../../building.rst:776
 msgid "A **reboot** is recommended."
-msgstr ""
+msgstr "Рекомендується **перезавантажити**."
 
 #: ../../building.rst:778
 msgid "we have a script that automates the remaining steps"
-msgstr ""
+msgstr "ми маємо скрипт, який автоматизує залишкові кроки"
 
 #: ../../building.rst:781
 msgid ""
 "A batch file is available that can complete the last few steps.  To use "
 "it use this command::"
 msgstr ""
+"Доступний пакетний файл, який може завершити останні кілька кроків. Для його "
+"використання скористайтеся цією командою:"
 
 #: ../../building.rst:786
 msgid "``build_win.bat`` accepts 2 arguments:"
-msgstr ""
+msgstr "``build_win.bat`` приймає 2 аргументи:"
 
 #: ../../building.rst:788
 msgid ""
 "``/e`` will produce an executable only, skipping the extra step of "
 "building an installer, and will copy ``win_gtk.bat`` into place."
 msgstr ""
+"``/e`` створить лише виконуваний файл, пропустивши додатковий крок побудови "
+"інсталятора, і копіює ``win_gtk.bat`` на місце."
 
 #: ../../building.rst:791
 #, python-format
@@ -1709,6 +1779,8 @@ msgid ""
 "A path to the location for the virtual environment to use. (defaults to "
 "``\"%HOMEDRIVE%%HOMEPATH%\"\\.virtualenvs\\ghi2exe``)"
 msgstr ""
+"Шлях до місця розташування віртуального середовища для використання. (за "
+"замовчуванням ``\"%HOMEDRIVE%%HOMEPATH%\"\\.virtualenvs\\ghi2exe``)"
 
 #: ../../building.rst:794
 msgid ""
@@ -1716,6 +1788,9 @@ msgid ""
 "folder beside where you have ghini.desktop you could execute "
 "``scripts\\build_win.bat /e ..\\ghi2exe``"
 msgstr ""
+"наприклад, щоб створити тільки виконуваний файл і використовувати віртуальне "
+"середовище у папці біля місця, де ви маєте ghini.desktop, ви можете виконати "
+"``scripts\\build_win.bat /e ..\\ghi2exe``"
 
 #: ../../building.rst:798
 msgid ""
@@ -1725,6 +1800,10 @@ msgid ""
 "(``ghini-1.0`` is recommended as used in the example).  To do this, open "
 "a command prompt and type these commands::"
 msgstr ""
+"Клонувати ghini.desktop де ви хочете зберегти його (замініть ``<path-to-keep-"
+"ghini>`` на потрібний вам шлях, наприклад, ``Local\\github\\Ghini\\``) та "
+"перевірте виробничу гілку (``ghini-1.0`` рекомендується, як використовується "
+"в прикладі). Для цього відкрийте командний рядок і введіть такі команди:"
 
 #: ../../building.rst:809
 msgid ""
@@ -1732,6 +1811,9 @@ msgid ""
 "only Python 2.7 on your system (where ``<path-to-venv>`` is the path to "
 "where you wish to keep the virtual environment) use::"
 msgstr ""
+"Встановіть virtualenv, створіть віртуальне середовище та активуйте його. "
+"Використовуючи тільки Python 2.7 у вашій системі (де ``<path-to-venv>`` це "
+"шлях до того, де ви хочете зберегти віртуальне середовище), використовуйте :"
 
 #: ../../building.rst:817
 msgid ""
@@ -1741,14 +1823,19 @@ msgid ""
 "-m pip`` (run ``python --version`` first to check.  If you get anything "
 "other than version 2.7 you'll need to use one of these methods.)"
 msgstr ""
+"На системах, де встановлено Python 3, вам може знадобитися або називати pip "
+"і virtualenv з абсолютними шляхами, наприклад ``C:\\Python27\\Scripts\\pip``"
+"або використовуйте панель запуску Python, наприклад ``py -2.7 -m pip`` ("
+"спершу перевірте ``python --version``. Якщо ви отримаєте щось інше, ніж "
+"версія 2.7, вам потрібно буде скористатись одним із цих методів.)"
 
 #: ../../building.rst:823
 msgid "Install dependencies and ghini.desktop into the virtual environment::"
-msgstr ""
+msgstr "Встановити залежності та ghini.desktop у віртуальне середовище:"
 
 #: ../../building.rst:828
 msgid "Build the executable::"
-msgstr ""
+msgstr "Створіть виконуваний файл:"
 
 #: ../../building.rst:832
 msgid ""
@@ -1765,35 +1852,54 @@ msgid ""
 " yourself.)  You will only need to run this once each time the location "
 "of the folder changes.  Thereafter ``ghini.exe`` will run as expected."
 msgstr ""
+"Папка ``dist`` тепер міститиме повну робочу копію програмного забезпечення у "
+"замороженому, автономному стані, який може бути розміщений, як вам "
+"подобається і буде працювати на місці. (наприклад, розміщено на флеш-пам'ять "
+"USB для демонстраційних цілей або скопійовано вручну в ``C:\\Program Files`` "
+"за допомогою ярлика, створеного на робочому столі). Щоб запустити "
+"ghini.desktop, двічі клацніть ``ghini.exe`` у провіднику (або створіть ярлик "
+"для нього). Якщо у вас виникли проблеми з тим, що користувацький інтерфейс "
+"не відображається правильно, вам слід запустити скрипт ``win_gtk.bat`` з "
+"папки ``dist`` для правильного налаштування шляхів до компонентів GTK. ("
+"Запуск ``build_win / e`` помістить цей скрипт у папку dist для себе або ви "
+"можете скопіювати його з папки ``scripts`` самі.) Вам потрібно буде "
+"запускати це лише один раз при кожній зміні розташування папки. Після цього "
+"``ghini.exe`` буде працювати, як очікувалося."
 
 #: ../../building.rst:845
 msgid "Build the installer::"
-msgstr ""
+msgstr "Створіть встановлювач:"
 
 #: ../../building.rst:849
 msgid ""
 "This should leave a file named ``ghini.desktop-<version>-setup.exe`` in "
 "the ``scripts`` folder.  This is your Windows installer."
 msgstr ""
+"Слід залишити файл з іменем ``ghini.desktop-<version>-setup.exe`` в папці "
+"``scripts``. Це ваш інсталятор Windows."
 
 #: ../../building.rst:852
-#, fuzzy
 msgid "about the installer"
-msgstr "як ви публікуєте інсталятор?"
+msgstr "про програму установки"
 
 #: ../../building.rst:855
 msgid "Capable of single user or global installs."
-msgstr ""
+msgstr "Можливість однокористувацької або глобальної інсталяції."
 
 #: ../../building.rst:857
 msgid ""
 "At this point in time ghini.desktop installed this way will not check or "
 "or notify you of any updated version.  You will need to check yourself."
 msgstr ""
+"На даний момент ghini.desktop, встановлений таким чином, що не буде "
+"перевіряти або повідомляти вам про оновлену версію. Вам потрібно буде "
+"перевірити це самому."
 
 #: ../../building.rst:861
 msgid "Capable of downloading and installing optional extra components:"
 msgstr ""
+"Можливість завантаження та встановлення необов'язкових додаткових "
+"компонентів:"
 
 #: ../../building.rst:863
 msgid ""
@@ -1802,6 +1908,10 @@ msgid ""
 "installer will let you know and offer to open the Oracle web site for you"
 " to download and install it from."
 msgstr ""
+"Apache FOP - Якщо ви хочете використовувати шаблони звітів xslt, встановіть "
+"FOP. FOP вимагає Java Runtime. Якщо у вас цього не встановлено, програма "
+"установки повідомить вас і запропонує відкрити веб-сайт Oracle для "
+"завантаження та встановлення з нього."
 
 #: ../../building.rst:868
 msgid ""
@@ -1809,38 +1919,47 @@ msgid ""
 " trouble getting ghini.desktop to run try installing the MS Visual C "
 "runtime (e.g. rerun the installer and select this component only)."
 msgstr ""
+"MS Visual C runtime - Ви, швидше за все, цього не потребуєте, але якщо у вас "
+"виникли проблеми з запуском ghini.desktop, спробуйте встановити час "
+"виконання MS Visual C (наприклад, перезапустити програму встановлення та "
+"вибрати лише цей компонент)."
 
 #: ../../building.rst:872
 msgid ""
 "Can be run silently from the commandline (e.g. for remote deployment) "
 "with the following arguments:"
 msgstr ""
+"Може бути запущено без використання командного рядка (наприклад, для "
+"віддаленого розгортання) з наступними аргументами:"
 
 #: ../../building.rst:875
 msgid "``/S`` for silent;"
-msgstr ""
+msgstr "``/S`` для тихого;"
 
 #: ../../building.rst:877
 msgid "``/AllUser`` (when run as administrator) or ``/CurrentUser``"
 msgstr ""
+"``/ AllUser`` (при запуску від імені адміністратора) або ``/CurrentUser``"
 
 #: ../../building.rst:879
 msgid "``/C=[gFC]`` to specify components where:"
-msgstr ""
+msgstr "``/C = [gFC]``, щоб вказати компоненти, де:"
 
 #: ../../building.rst:881
 msgid ""
 "``g`` = Deselect the main ghini.desktop component (useful for adding "
 "optional component after an initial install)"
 msgstr ""
+"``g`` = Скасувати вибір основного компонента ghini.desktop (корисний для "
+"додавання додаткового компонента після первинної установки)"
 
 #: ../../building.rst:884
 msgid "``F`` = select Apache FOP"
-msgstr ""
+msgstr "``F`` = вибрати Apache FOP"
 
 #: ../../building.rst:886
 msgid "``C`` = select MS Visual C runtime"
-msgstr ""
+msgstr "``C`` = вибрати MS Visual C runtime"
 
 #: ../../editing.rst:4
 msgid "Editing and Inserting Data"
@@ -2246,7 +2365,6 @@ msgid "Pictures"
 msgstr "Зображення"
 
 #: ../../editing.rst:195
-#, fuzzy
 msgid ""
 "Just as almost all objects in the Ghini database can have *Notes* "
 "associated to them, Plants and Species can also have *Pictures*: next to "
@@ -2254,22 +2372,21 @@ msgid ""
 " called \"Pictures\". You can associate as many pictures as you might "
 "need to a plant and to a species object."
 msgstr ""
-"Так само, як майже всі об'єкти в базі даних Ghini можуть мати пов'язані з"
-" ними *Примітки*, рослини можуть мати *Зображення*: поруч із закладкою "
-"Примітки, редактор рослин містить додаткову вкладку під назвою "
-"\"Зображення\". Ви можете пов'язати стільки зображень, скільки може "
-"знадобитися для рослини."
+"Так само, як майже всі об'єкти в базі даних Ghini можуть мати пов'язані з "
+"ними *Примітки*, рослини можуть мати *Зображення*: поруч із закладкою "
+"Примітки, редактор рослин містить додаткову вкладку під назвою \"Зображення\""
+". Ви можете пов'язати стільки зображень, скільки може знадобитися для "
+"рослини та виду об'єкта."
 
 #: ../../editing.rst:201
-#, fuzzy
 msgid ""
 "When you associate a picture to an object, the file is copied in the "
 "*pictures* folder, and a miniature (500x500) is generated and copied in "
 "the `thumbnails` folder inside of the pictures folder."
 msgstr ""
-"Коли ви пов'язуєте зображення до рослини, файл копіюється в папку "
-"*зображення*, і мініатюра (500x500) генерується і копіюється в папку "
-"`thumbnails` всередині папки зображень."
+"Коли ви асоціюєте зображення до об'єкта, файл копіюється в папку *pictures*, "
+"а мініатюра (500x500) створюється та копіюється в папку `thumbnails` "
+"всередині папки зображень."
 
 #: ../../editing.rst:205
 msgid ""
@@ -2296,7 +2413,6 @@ msgstr ""
 "використання файлів сервіс вибору."
 
 #: ../../editing.rst:215
-#, fuzzy
 msgid ""
 "When a Plant or a Species in the current selection is highlighted, its "
 "pictures are displayed in the pictures pane, the pane left of the "
@@ -2304,10 +2420,10 @@ msgid ""
 "picture associated to the plants in the highlighted accession are "
 "displayed in the pictures pane."
 msgstr ""
-"Коли рослину в поточному відборі буде виділено, її зображення "
-"відображається в панелі зображень, панель зліва від інформаційної панелі."
-" При приєднанні вибір підсвічуються, будь-яке зображення пов'язане з "
-"рослинами в підсвічених приєднаннях відображається в панелі зображеннях."
+"Коли рослину або вид в поточному відборі буде виділено, її зображення "
+"відображається в панелі зображень, панель зліва від інформаційної панелі. "
+"При приєднанні вибір підсвічуються, будь-яке зображення пов'язане з "
+"рослинами в підсвічених приєднаннях відображається в панелі зображень."
 
 #: ../../editing.rst:221
 msgid ""
@@ -2316,6 +2432,10 @@ msgid ""
 "the Notes tab, Picture notes will show as normal notes, and you can edit "
 "them without limitations."
 msgstr ""
+"У Ghini-1.0 зображення є спеціальними нотатками, з категорією \"<picture>\" "
+"і текстом шляху до файлу, відносно кореневої папки зображень. На вкладці "
+"Нотатки, нотатки з зображеннями відображатимуться як звичайні нотатки, і ви "
+"можете редагувати їх без обмежень."
 
 #: ../../editing.rst:226
 msgid ""
@@ -2323,8 +2443,12 @@ msgid ""
 "that individual plant, taken at any relevant development stage of the "
 "plant, possibly helping its identification."
 msgstr ""
+"Рослина є фізичним об'єктом, тому ви можете приєднати до неї зображення, "
+"взяті цієї індивідуальної рослини, взяті на будь-якій відповідній стадії "
+"розвитку рослини, можливо, допомагаючи її ідентифікувати."
 
 #: ../../editing.rst:230
+#, fuzzy
 msgid ""
 "Species are abstract objects, so you would associate to it pictures "
 "showing the characteristic elements of the species, so it makes sense to "
@@ -2333,6 +2457,11 @@ msgid ""
 "then in the text field you type the URL for the illustration of your "
 "choice."
 msgstr ""
+"Види є абстрактними об'єктами, тому ви можете приєднати до неї зображення, "
+"що відображають характерні елементи виду, тому має сенс пов'язати з нею "
+"флоричну ілюстрацію. Ви також можете зробити це за посиланням: перейдіть на "
+"вкладку «Нотатки», додайте нотатку та вкажіть як категорію «<picture>», "
+"потім у текстове поле введіть URL-адресу для ілюстрації за вашим вибором."
 
 #: ../../editing.rst:238
 msgid "Locations"
@@ -2359,21 +2488,22 @@ msgstr ""
 "виправляти орфографічні помилки або здійснювати зміну політики."
 
 #: ../../ghini-family.rst:3
-#, fuzzy
 msgid "the Ghini family"
-msgstr "По сімейному рангу"
+msgstr "Сім'я Ghini"
 
 #: ../../ghini-family.rst:5
 msgid ""
 "Let's start by recalling the composition of the Ghini family, as shown in"
 " the diagram:"
-msgstr ""
+msgstr "Почнемо з нагадування про склад сім'ї Ghini, як показано на схемі:"
 
 #: ../../ghini-family.rst:9
 msgid ""
 "You have learned how to use ghini.desktop, here we introduce the other "
 "members of the family, and their interaction."
 msgstr ""
+"Ви навчилися використовувати ghini.desktop, тут ми вводимо інших членів "
+"сім'ї та їх взаємодію."
 
 #: ../../ghini-family.rst:20
 msgid ""
@@ -2382,43 +2512,50 @@ msgid ""
 "ghini.pocket is definitely the tool you will use most, next to "
 "ghini.desktop."
 msgstr ""
+"ghini.pocket - це програма для Android, яку ви можете встановити з `play "
+"store <https://play.google.com/store/apps/details?id=me.ghini.pocket>`_. "
+"ghini.pocket, безумовно, інструмент, який ви будете використовувати "
+"найчастіше, поряд з ghini.desktop."
 
 #: ../../ghini-family.rst:26
 msgid ""
 "With ghini.pocket you always have the latest snapshot of your database "
 "with you."
-msgstr ""
+msgstr "З ghini.pocket у вас завжди є останній знімок вашої бази даних з вами."
 
 #: ../../ghini-family.rst:29
 msgid "Type an accession number, or scan its barcode or QR label, and you know:"
 msgstr ""
+"Введіть номер приєднання або скануйте його штрих-код або мітку QR, і ви "
+"взнаєте:"
 
 #: ../../ghini-family.rst:31
 msgid "the identification of the plant,"
-msgstr ""
+msgstr "ідентифікацію рослини,"
 
 #: ../../ghini-family.rst:32
 msgid "whether it already has pictures,"
-msgstr ""
+msgstr "чи має зображення,"
 
 #: ../../ghini-family.rst:33
 msgid "when it entered the garden and"
-msgstr ""
+msgstr "коли увійшов до саду і"
 
 #: ../../ghini-family.rst:34
 msgid "from which source."
-msgstr ""
+msgstr "з якого джерела."
 
 #: ../../ghini-family.rst:36
 msgid "Apart as a quick data viewer, you can use ghini.pocket for..."
 msgstr ""
+"Крім швидкого перегляду даних, ви можете використовувати ghini.pocket для..."
 
 #: ../../ghini-family.rst:38
-#, fuzzy
 msgid "data correction"
-msgstr "Фактична корекція"
+msgstr "корекції даних"
 
 #: ../../ghini-family.rst:41
+#, fuzzy
 msgid ""
 "If by your judgement, some of the information is incorrect, or if the "
 "plant is flowering and you want to immediately take a picture and store "
@@ -2428,17 +2565,24 @@ msgid ""
 " information straight into the database, with further minimal user "
 "intervention."
 msgstr ""
+"Якщо за вашою думкою некоректна інформація, або якщо рослина розквітає, і ви "
+"хочете негайно сфотографувати і зберегти його в базі даних, вам не потрібно "
+"робити нотатки на папері, ані слідувати за звичними процедурами: "
+"ghini.pocket дозволяє писати ваші виправлення в файл журналу, робити знімки, "
+"пов'язані з заводом, і ви імпортуєте цю інформацію безпосередньо в базу "
+"даних, з подальшим мінімальним втручанням користувача."
 
 #: ../../ghini-family.rst:49
-#, fuzzy
 msgid "inventory review"
-msgstr "Процедури інвентаризації"
+msgstr "перегляду інвентаризації"
 
 #: ../../ghini-family.rst:52
 msgid ""
 "The initial idea on which we based ghini.pocket is still one of its "
 "functionalities: inventory review."
 msgstr ""
+"Початкова ідея, на якій ми заснували ghini.pocket, як і раніше є однією з "
+"його функціональних можливостей: перевірка інвентаризації."
 
 #: ../../ghini-family.rst:55
 msgid ""
@@ -2448,6 +2592,11 @@ msgid ""
 "then one by one scan the plant codes of the plants in the greenhouse.  No"
 " further data collection action is required."
 msgstr ""
+"Використовуючи ghini.pocket, перегляд інвентаризації теплиці, зокрема, якщо "
+"у вас є QR-коди на етикетках рослин, проходить так само швидко, як ви можете "
+"йти: просто введіть код місцеположення вашої теплиці, скиньте журнал, потім "
+"один за одним скануйте рослинні коди рослин у теплиці. Немає необхідності в "
+"подальшому зборі даних."
 
 #: ../../ghini-family.rst:61
 msgid ""
@@ -2457,11 +2606,15 @@ msgid ""
 "as alive and present in the inventoried location, but were not found "
 "during the inventory."
 msgstr ""
+"Коли ви закінчите, імпортуйте журнал у ghini.desktop. Процедура, доступна в "
+"ghini.desktop, включає в себе додавання невідомих, але позначених рослин в "
+"базу даних, позначення як загублених / загиблих всіх рослин, що базуються в "
+"звітах як живі та присутні в інвентарі, але не були знайдені під час "
+"інвентаризації."
 
 #: ../../ghini-family.rst:67
-#, fuzzy
 msgid "taxonomic support"
-msgstr "класифікаційна інформації"
+msgstr "таксономічної підтримки"
 
 #: ../../ghini-family.rst:70
 msgid ""
@@ -2469,15 +2622,18 @@ msgid ""
 "complete database of botanic taxa with rank between order and genus, "
 "including tribes, and synonymies."
 msgstr ""
+"Як бонус, ghini.pocket містить пошук фонетичного роду та цілком повну базу "
+"даних ботанічних таксонів з рангом між порядком і родом, у тому числі "
+"поколінням, та синонімами."
 
 #: ../../ghini-family.rst:74 ../../ghini-family.rst:92
 #: ../../ghini-family.rst:122
 msgid "check further :any:`interaction among components`."
-msgstr ""
+msgstr "подальшої перевірки :будь-якої: `взаємодії між компонентами`."
 
 #: ../../ghini-family.rst:84
 msgid "ghini.web is a web server, written in nodejs."
-msgstr ""
+msgstr "ghini.web - це веб-сервер, написаний на nodejs."
 
 #: ../../ghini-family.rst:86
 msgid ""
@@ -2485,20 +2641,24 @@ msgid ""
 "of the world, where you browse gardens and search their published "
 "collection."
 msgstr ""
+"Його найбільш помітна частина працює на http://gardens.ghini.me та показує "
+"як карту світу, де ви переглядаєте сади та шукаєте їх опубліковану колекцію."
 
 #: ../../ghini-family.rst:90
 msgid "It also serves configuration data to ghini.tour instances."
-msgstr ""
+msgstr "Він також надає дані конфігурації для екземплярів ghini.tour."
 
 #: ../../ghini-family.rst:98
 msgid "ghini.tour"
-msgstr ""
+msgstr "ghini.tour"
 
 #: ../../ghini-family.rst:103
 msgid ""
 "ghini.tour is an Android app which you can install from the `play store "
 "<https://play.google.com/store/apps/details?id=me.ghini.tour>`_."
 msgstr ""
+"ghini.tour - це програма для Android, яку ви можете встановити з `play store "
+"<https://play.google.com/store/apps/details?id=me.ghini.tour>`_."
 
 #: ../../ghini-family.rst:107
 msgid ""
@@ -2507,32 +2667,39 @@ msgid ""
 "will be able to listen to audio files that you have placed as virtual "
 "information panels in strategic spots in your garden."
 msgstr ""
+"Люди, які відвідують ваш сад, встановлюють ghini.tour на свій телефон або "
+"планшет, насолоджуються картою саду, знаючи, де вони знаходяться, і зможуть "
+"слухати аудіофайли, які ви розмістили у вигляді віртуальних інформаційних "
+"панелей у стратегічних місцях у вашому саді."
 
 #: ../../ghini-family.rst:112
 msgid "world view"
-msgstr ""
+msgstr "світогляд"
 
 #: ../../ghini-family.rst:115
 msgid "at startup, you see the world and gardens.  select a garden, and enter."
-msgstr ""
+msgstr "при запуску ви бачите світ і сади. виберіть сад і введіть."
 
 #: ../../ghini-family.rst:117
 msgid "garden view"
-msgstr ""
+msgstr "огляд саду"
 
 #: ../../ghini-family.rst:120
 msgid "when viewing at garden level, you see panels.  select a panel, and listen."
 msgstr ""
+"під час перегляду на рівні саду ви бачите панелі. виберіть панель і слухайте."
 
 #: ../../ghini-family.rst:128
 msgid "data streams between software components"
-msgstr ""
+msgstr "потоки даних між програмними компонентами"
 
 #: ../../ghini-family.rst:130
 msgid ""
 "This section contains technical information for database managers and "
 "software developers."
 msgstr ""
+"Цей розділ містить технічну інформацію для менеджерів баз даних та "
+"розробників програмного забезпечення."
 
 #: ../../ghini-family.rst:136
 msgid ""
@@ -2547,30 +2714,38 @@ msgid ""
 "activity of a component, eg: the interaction between ghini.desktop and "
 "its database server, or your internet browser and ghini.web."
 msgstr ""
+"Більш глибокі зелені потоки - це постійні потоки даних, що представляють "
+"основну активність компонента, наприклад: взаємодія між ghini.desktop і його "
+"сервером баз даних або вашим інтернет-браузером та ghini.web."
 
 #: ../../ghini-family.rst:146
 msgid ""
 "Lighter green streams are import/export actions, initiated by the user at"
 " the command panel of ghini.desktop, or in the ghini.tour settings page."
 msgstr ""
+"Більш світлі зелені потоки - це дії імпорту експорту, ініційовані "
+"користувачем на панелі команд ghini.desktop або на сторінці налаштувань "
+"ghini.tour."
 
 #: ../../ghini-family.rst:149
 msgid ""
 "This is the same graph, in which all import data streams have been given "
 "an identifier."
 msgstr ""
+"Це той самий графік, в якому всі потоки імпорту даних отримано на "
+"ідентифікатор."
 
 #: ../../ghini-family.rst:154
 msgid "d2p: copy a snapshot of the desktop database to ghini.pocket"
-msgstr ""
+msgstr "d2p: скопіювати знімок настільної бази до ghini.pocke"
 
 #: ../../ghini-family.rst:157
 msgid "export the desktop database to a pocket snapshot"
-msgstr ""
+msgstr "експортувати настільну базу даних до pocket знімка"
 
 #: ../../ghini-family.rst:158
 msgid "copy the snapshot to the handheld device"
-msgstr ""
+msgstr "скопіювати знімок на портативний пристрій"
 
 #: ../../ghini-family.rst:160
 msgid ""
@@ -2889,9 +3064,8 @@ msgstr ""
 "встановлення відповідного рівня довіри."
 
 #: ../../goal.rst:94
-#, fuzzy
 msgid "**Accessing your own Propagations**"
-msgstr "Робота з розповсюдженням"
+msgstr "**Доступ до власних розповсюджень**"
 
 #: ../../goal.rst:96
 msgid ""
@@ -3517,9 +3691,8 @@ msgstr ""
 "невключені), всі зазначені місця і класифіковані."
 
 #: ../../imex.rst:79
-#, fuzzy
 msgid "Importing from a Generic Database"
-msgstr "Підключення до бази даних"
+msgstr "Імпортування з загальної бази даних"
 
 #: ../../imex.rst:81
 msgid ""
@@ -3615,19 +3788,19 @@ msgid "Documentation for Ghini 1.0"
 msgstr "Документація для  Ghini 1.0"
 
 #: ../../index.rst:8
-#, fuzzy
 msgid ""
 "Ghini is a suite of applications for managing botanical specimen "
 "collections."
 msgstr ""
-"Ghini являє собою додаток для управління ботанічними колекціями зразків. "
-"З його допомогою ви можете створити базу даних для пошуку записів рослин."
+"Ghini - це набір застосунків для управління колекціями ботанічних зразків."
 
 #: ../../index.rst:10
 msgid ""
 "**ghini.desktop** lets you create and query a database representing "
 "objects and events in your plant collection."
 msgstr ""
+"**ghini.desktop ** дозволяє створювати та запитувати базу даних, що "
+"представляє об'єкти та події у вашій колекції рослин."
 
 #: ../../index.rst:11
 msgid "**ghini.web** publishes highlights from your database on the web."
@@ -3636,6 +3809,8 @@ msgstr ""
 #: ../../index.rst:12
 msgid "**ghini.pocket** puts a snapshot of your database in your handheld device."
 msgstr ""
+"**ghini.pocket ** робить знімок вашої бази даних у вашому портативному "
+"пристрої."
 
 #: ../../index.rst:13
 msgid ""
@@ -3652,7 +3827,6 @@ msgid ""
 msgstr ""
 
 #: ../../index.rst:21
-#, fuzzy
 msgid ""
 "All Ghini software is `open <http://www.opensource.org>`_ and `free "
 "<http://www.fsf.org>`_. Our standalone software is released under the "
@@ -3660,9 +3834,10 @@ msgid ""
 "Our client-server software follows the `GNU Affero Public License "
 "<http://www.fsf.org/licensing/licenses/agpl.html>`_."
 msgstr ""
-"Це `відкритий <http://www.opensource.org>`_ і `безкоштовний "
-"<http://www.fsf.org>`_ і випущений під `GNU Public License "
-"<http://www.fsf.org/licensing/licenses/gpl.html>`_"
+"Все програмне забезпечення Ghini `відкрите <http://www.opensource.org>`_ і `"
+"безкоштовне <http://www.fsf.org>`_ . Наше автономне програмне забезпечення "
+"випускається під `GNU Public License <http://www.fsf.org/licensing/licenses/"
+"agpl.html>`_."
 
 #: ../../index.rst:28
 msgid "Statements"
@@ -3685,9 +3860,8 @@ msgid "Administration"
 msgstr "Адміністрація"
 
 #: ../../index.rst:77
-#, fuzzy
 msgid "Ghini Family"
-msgstr "По сімейному рангу"
+msgstr "Сім'я Ghini"
 
 #: ../../index.rst:85
 msgid "Ghini Development"
@@ -3719,21 +3893,18 @@ msgstr ""
 "Unix-машинах, таких як GNU/Linux і MacOSX, а також у Windows."
 
 #: ../../installing.rst:7
-#, fuzzy
 msgid "one-liner for hurried users."
 msgstr "одним рядком для поспішних користувачів."
 
 #: ../../installing.rst:10
-#, fuzzy
 msgid ""
 "Linux users just download and run `the installation script "
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh>`_."
 " You may read the documentation later."
 msgstr ""
-"Користувачі Linux просто завантажують і запускають `the installation "
-"script "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
-" Ви можете ознайомитися з документацією пізніше."
+"Користувачі Linux просто завантажують і запускають `інсталяційний скрипт "
+"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/"
+"devinstall.sh>`_. Ви можете ознайомитися з документацією пізніше."
 
 #: ../../installing.rst:14
 msgid ""
@@ -3822,25 +3993,21 @@ msgid "Installing on GNU/Linux"
 msgstr "Встановлення на GNU/Linux"
 
 #: ../../installing.rst:49
-#, fuzzy
 msgid "Open a shell terminal window, and follow the following instructions."
-msgstr "Відкрийте вікно оболонки терміналу та виконайте наступні інструкції."
+msgstr ""
+"Відкрийте вікно терміналу оболонки та виконайте наведені нижче інструкції."
 
 #: ../../installing.rst:51
-#, fuzzy
 msgid "Download the `devinstall.sh` script:"
-msgstr "Завантажити `devinstall.sh` скрипт:"
+msgstr "Завантажте `devinstall.sh` скрипт:"
 
 #: ../../installing.rst:53
-#, fuzzy
 msgid ""
 "`devinstall.sh "
 "<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh>`_"
 msgstr ""
-"Користувачі Linux просто завантажують і запускають `the installation "
-"script "
-"<https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0/scripts/devinstall.sh>`_."
-" Ви можете ознайомитися з документацією пізніше."
+"`devinstall.sh <https://raw.githubusercontent.com/Ghini/ghini.desktop/"
+"ghini-1.0-dev/scripts/devinstall.sh>`_"
 
 #: ../../installing.rst:55
 msgid ""
@@ -3853,9 +4020,8 @@ msgid "The script will produce quite some output, which you can safely ignore."
 msgstr ""
 
 #: ../../installing.rst:62
-#, fuzzy
 msgid "global installation"
-msgstr "Установка"
+msgstr "глобальна установка"
 
 #: ../../installing.rst:65
 msgid ""
@@ -3910,15 +4076,14 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:101
-#, fuzzy
 msgid ""
 "Please beware: you might need solve dependencies. How to do so, depends "
 "on which GNU/Linux flavour you are using. Check with your distribution "
 "documentation."
 msgstr ""
 "Будьте обережні: може знадобитися вирішувати залежності. Як це зробити, "
-"залежить від того, який аромат GNU/Linux ви використовуєте. Перевірте "
-"свою документацію про розповсюдження."
+"залежить від того, який GNU/Linux ви використовуєте. Перевірте свою "
+"документацію про розповсюдження."
 
 #: ../../installing.rst:105
 msgid ""
@@ -3952,7 +4117,6 @@ msgid "You can study the script to see what steps if runs for you."
 msgstr ""
 
 #: ../../installing.rst:125
-#, fuzzy
 msgid ""
 "In short it will install dependencies which can't be satisfied in a "
 "virtual environment, then it will create a virtual environment named "
@@ -3962,13 +4126,13 @@ msgid ""
 "then builds ghini, downloading all remaining dependencies in the virtual "
 "environment, and finally it creates the ``ghini`` startup script."
 msgstr ""
-"Коротше кажучи, він встановить залежності, які не можуть бути задоволені "
-"в віртуальному середовищі, то він створить віртуальне середовище з ім'ям "
-"``ghide``, використовуйте git для завантаження джерел до каталогу з "
-"назвою ``~/Local/github/Ghini/ghini.desktop``, і підключіть git до гілки "
-"``ghini-1.0`` (це ви можете розглянути виробничу лінію), він створює "
-"ghini, завантажує всі залишки залежностей у віртуальне середовище і, "
-"нарешті, створює сценарій запуску ``ghini``."
+"Коротше кажучи, він встановить залежності, які не можуть бути задоволені в "
+"віртуальному середовищі, то він створить віртуальне середовище з ім'ям "
+"``ghide``, використовуйте git для завантаження джерел до каталогу з назвою "
+"``~/Local/github/Ghini/ghini.desktop``, і підключіть git до гілки "
+"``ghini-1.0`` (це ви можете розглянути виробничу лінію), він створює ghini, "
+"завантажує всі залишки залежностей у віртуальне середовище і, нарешті, "
+"створює сценарій запуску ``ghini``."
 
 #: ../../installing.rst:133
 msgid ""
@@ -3985,13 +4149,12 @@ msgid "Installing on MacOSX"
 msgstr "Установка на MacOSX"
 
 #: ../../installing.rst:143
-#, fuzzy
 msgid ""
 "Being macOS a unix environment, most things will work the same as on "
 "GNU/Linux (sort of)."
 msgstr ""
-"Будучи macOS в середовищі unix, більшість речей буде працювати так само, "
-"як на GNU/Linux (різновид)."
+"Будучи macOS в середовищі unix, більшість речей буде працювати так само, як "
+"на GNU/Linux (різновид)."
 
 #: ../../installing.rst:146
 msgid ""
@@ -4014,9 +4177,8 @@ msgid "package manager: homebrew (tigerbrew for older OSX versions)."
 msgstr "менеджер пакетів:  homebrew (tigerbrew для старих версій OSX)."
 
 #: ../../installing.rst:153
-#, fuzzy
 msgid "Installation on older macOS."
-msgstr "Кроки по установці на Windows:"
+msgstr "Встановлення на старіші MacOS."
 
 #: ../../installing.rst:156
 msgid ""
@@ -4044,9 +4206,8 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:172
-#, fuzzy
 msgid "With the above installed, open a terminal window and run::"
-msgstr "З встановленим вище, відкрийте вікно термінала і запустіть::"
+msgstr "З встановленим вище, відкрийте вікно термінала і запустіть:"
 
 #: ../../installing.rst:176
 msgid ""
@@ -4122,14 +4283,13 @@ msgstr ""
 "знов є специфічними для Windows."
 
 #: ../../installing.rst:226
-#, fuzzy
 msgid ""
 "Ghini has been tested with and is known to work on W-XP, W-7 up to W-10. "
 "Although it should work fine on other versions Windows it has not been "
 "thoroughly tested."
 msgstr ""
-"Ghini був протестований і, як відомо, працює на W-XP, W-7 до W-10. Хоча "
-"це має працювати чудово на інших версіях Windows, він не був ретельно "
+"Ghini був протестований і, як відомо, працює на W-XP, W-7 до W-10. Хоча це "
+"має працювати чудово на інших версіях Windows, він не був ретельно "
 "протестований."
 
 #: ../../installing.rst:236
@@ -4137,15 +4297,14 @@ msgid "The installation steps on Windows:"
 msgstr "Кроки по установці на Windows:"
 
 #: ../../installing.rst:238
-#, fuzzy
 msgid ""
 "download and install ``git`` (comes with a unix-like ``sh`` and includes "
 "``vi``). Grab it from `the Git download area <https://git-"
 "scm.com/download/win>`_."
 msgstr ""
-"загрузити і встановити ``git`` (поставляється з unix-like ``sh`` і "
-"включає ``vi``). Візьміть його з `області завантаження Git <https://git-"
-"scm.com/download/win>`_."
+"завантажити і встановити ``git`` (поставляється з unix-like ``sh`` і включає "
+"``vi``). Візьміть його з `Git завантаження <https://git-scm.com/download/"
+"win>`_."
 
 #: ../../installing.rst:241
 msgid ""
@@ -4162,24 +4321,20 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:249
-#, fuzzy
 msgid "When installing Python, do put Python in the PATH:"
 msgstr "Під час встановлення Python вставте Python в PATH:"
 
 #: ../../installing.rst:253
-#, fuzzy
 msgid ""
 "download ``pygtk`` from `the official source "
 "<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/>`_. (this requires "
 "32bit python). be sure you download the \"all in one\" version."
 msgstr ""
-"завантажити ``pygtk`` з `офіційного джерела "
-"<http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/>`_. (для цього "
-"потрібно 32-бітний python). Переконайтеся що завантажте версію \"все в "
-"одній\"."
+"завантажити ``pygtk`` з `офіційного джерела <http://ftp.gnome.org/pub/GNOME/"
+"binaries/win32/pygtk/>`_. (для цього потрібно 32-бітний python). "
+"Переконайтеся що завантажте версію \"все в одній\"."
 
 #: ../../installing.rst:257
-#, fuzzy
 msgid "Make a complete install, selecting everything:"
 msgstr "Зробіть повну установку, вибравши все:"
 
@@ -4194,13 +4349,12 @@ msgid "Remember you need the 32 bit version, for Python 2.7."
 msgstr "Пам'ятайте, вам потрібна 32-бітова версія для Python 2.7."
 
 #: ../../installing.rst:275
-#, fuzzy
 msgid ""
 "(definitely optional) download and install a database connector other "
 "than ``sqlite3``."
 msgstr ""
-"(за бажанням), завантажити і встановити з'єднувач бази даних, окрім `` "
-"sqlite3``."
+"(за бажанням), завантажте та встановіть конектор бази даних, відмінний від "
+"``sqlite3``."
 
 #: ../../installing.rst:278
 msgid ""
@@ -4253,38 +4407,33 @@ msgid ""
 msgstr ""
 
 #: ../../installing.rst:313
-#, fuzzy
 msgid ""
 "Running ``devinstall.bat`` will pull the ``ghini.desktop`` repository "
 "from github to your home directory, under ``Local\\github\\Ghini``, "
 "checkout the ``ghini-1.0`` production line, create a virtual environment "
 "and install ghini into it."
 msgstr ""
-"Запуск ``devinstall.bat`` перетягне сховище ``ghini.desktop`` з github у "
-"ваш домашній каталог, під ``Local\\github\\Ghini``, перевірте виробничу "
-"лінію ``ghini-1.0``, створіть віртуальне середовище і встановіть в нього "
-"ghini."
+"Запуск ``devinstall.bat`` перетягне сховище ``ghini.desktop`` з github у ваш "
+"домашній каталог, під ``Local\\github\\Ghini``, перевірте виробничу лінію "
+"``ghini-1.0``, створіть віртуальне середовище і встановіть в нього ghini."
 
 #: ../../installing.rst:318
-#, fuzzy
 msgid ""
 "You can also run ``devinstall.bat`` passing it as argument the numerical "
 "part of the production line you want to follow."
 msgstr ""
 "Ви також можете запустити ``devinstall.bat``, передаючи його як аргумент "
-"числовій частині виробничої лінії, яку ви хочете дотримуватися."
+"числовій частині виробничої лінії, якої ви хочете дотримуватися."
 
 #: ../../installing.rst:321
-#, fuzzy
 msgid ""
 "This is the last installation step that depends, heavily, on a working "
 "internet connection."
 msgstr ""
-"Це останній етап інсталяції, який сильно залежить від робочого "
-"підключення до Інтернету."
+"Це останній етап інсталяції, який сильно залежить від робочого підключення "
+"до Інтернету."
 
 #: ../../installing.rst:324
-#, fuzzy
 msgid ""
 "The operation can take several minutes to complete, depending on the "
 "speed of your internet connection."
@@ -4306,16 +4455,14 @@ msgstr ""
 "прямо в папці HOME, і був створений на попередньому кроці."
 
 #: ../../installing.rst:335
-#, fuzzy
 msgid ""
 "Right-click on it, select run as administrator, confirm you want it to "
 "make changes to your computer.  These changes are in the Start Menu only:"
 " create the Ghini group, place the Ghini shortcut."
 msgstr ""
-"Клацніть правою кнопкою миші на ньому, виберіть запустити як "
-"адміністратор, підтвердити, що хочете внести зміни в свій комп'ютер. Ці "
-"зміни знаходяться тільки в меню Пуск: створіть групу Ghini, помістіть "
-"ярлик Ghini."
+"Клацніть правою кнопкою миші на ньому, виберіть запустити як адміністратор, "
+"підтвердити, що хочете внести зміни в свій комп'ютер. Ці зміни знаходяться "
+"тільки в меню Пуск: створіть групу Ghini, помістіть ярлик Ghini."
 
 #: ../../installing.rst:339
 msgid "download the batch file, it will help you staying up-to-date:"
@@ -5863,6 +6010,8 @@ msgid ""
 "Ghini is a small set of programs, meant to let collection managers manage"
 " their collection also digitally."
 msgstr ""
+"Ghini - це невеликий набір програм, призначених для того, щоб розпорядники "
+"колекцій могли керувати своєю колекцією також у цифровій формі."
 
 #: ../../statements.rst:13
 msgid ""
@@ -5871,6 +6020,10 @@ msgid ""
 "original programmer, made this software a commons, by releasing it under "
 "a GPL license."
 msgstr ""
+"Ghini народився ще в 2004 році як Bauble, в Ботанічному саду Белізу. Пізніше "
+"вона була адаптована до потреб ще декількох садів. Оригінальний програміст "
+"Brett Adams зробив це програмне забезпечення загальним, випустивши його за "
+"ліцензією GPL."
 
 #: ../../statements.rst:18
 msgid ""
@@ -5881,25 +6034,28 @@ msgid ""
 "it, and it is now Mario Frasca writing this, looking for users, "
 "requesting feedback."
 msgstr ""
+"Після багатьох років застою Mario Frasca відновив цей проект і назвав його "
+"як Ghini на честь Luca Ghini, засновника першого європейського ботанічного "
+"саду та гербарію. Mario Frasca почав захищати, подорожувати, "
+"розповсюджувати, розвивати, розширювати, перевизначати, документувати, і "
+"зараз Mario Frasca це написав, шукаючи користувачів, з проханням зворотного "
+"зв'язку."
 
 #: ../../statements.rst:24
-#, fuzzy
 msgid ""
 "Behind Ghini there's not only one developer, but a small but growing "
 "global users community."
 msgstr ""
-"Отже, зараз за Ghini є не лише один розробник, але набагато важливіше - "
-"невелика, але зростаюча глобальна спільнота користувачів."
+"Отже, зараз на Ghini не один розробник, але невелика, але зростаюча "
+"глобальна спільнота користувачів."
 
 #: ../../statements.rst:27
-#, fuzzy
 msgid ""
 "Translations are provided by volunteers who mostly stay behind the "
 "scenes, translating missing terms or sentences, and disappearing again."
 msgstr ""
-"Переклади надаються добровольцями, які в основному залишаються поза "
-"сценами, перекладаючи пару пропущених термінів або пропозицій і зникаючи "
-"знов."
+"Переклади надаються добровольцями, які в більшості своїй залишаються поза "
+"сценами, перекладаючи відсутні терміни або пропозиції, і знову зникають."
 
 #: ../../statements.rst:30
 msgid ""
@@ -5923,6 +6079,12 @@ msgid ""
 "documentation or by laying the contact among users or between users and "
 "software professionals."
 msgstr ""
+"Наша мета, як Ghini Software, - забезпечити безкоштовне програмне "
+"забезпечення, що має перевірену якість, і дозволити кожному встановити його, "
+"якщо вони прагнуть цього. Ми також прагнемо полегшити доступ до "
+"функціональних знань у формі документації або шляхом встановлення контактів "
+"між користувачами або між користувачами та професіоналами програмного "
+"забезпечення."
 
 #: ../../statements.rst:43
 msgid ""
@@ -5932,6 +6094,11 @@ msgid ""
 "registration. Registration is obviously required if you want to "
 "contribute."
 msgstr ""
+"Усі наші джерела, програмне забезпечення та документація є відкритими та "
+"вільними, і ми вітаємо і стимулюємо людей використовувати та надавати свої "
+"послуги. Для полегшення формування спільноти, всі наші платформи можна "
+"протестувати без реєстрації. Реєстрація потрібна, якщо ви хочете внести свій "
+"внесок."
 
 #: ../../statements.rst:48
 msgid ""
@@ -5941,6 +6108,11 @@ msgid ""
 " help them comply with the high quality requirements, before we accept "
 "the contributed code in the software sources."
 msgstr ""
+"Ghini вітає формування груп користувачів, згрупування сил для визначення та "
+"фінансування подальшого розвитку, і ми вітаємо розробників, що надають "
+"програмне забезпечення, з будь-якого куточка світу, і ми стимулюємо та "
+"допомагаємо їм дотримуватися вимог високої якості, перш ніж ми приймемо "
+"внесок код у джерелах програмного забезпечення."
 
 #: ../../statements.rst:55
 msgid "Vision"
@@ -5991,6 +6163,8 @@ msgid ""
 "Tagging is an easy way to give context to an object or create a "
 "collection of object that you want to recall later."
 msgstr ""
+"Тегування - це простий спосіб надати контекст об'єкту або створити колекцію "
+"об'єктів, які ви хочете згадати пізніше."
 
 #: ../../tagging.rst:7
 msgid ""
@@ -5998,6 +6172,9 @@ msgid ""
 "with colleagues, who can act on it, without the need to redo all your "
 "collecting work."
 msgstr ""
+"Потужність цієї дії з тегами полягає в тому, що ви можете поділитися цим "
+"вибором із колегами, які можуть діяти на ньому, без необхідності повторювати "
+"всю вашу колективну роботу."
 
 #: ../../tagging.rst:11
 msgid ""
@@ -6007,12 +6184,19 @@ msgid ""
 "from the tags menu, the search view will show all the objects you tagged,"
 " and performing a report will act on the tagged objects."
 msgstr ""
+"Наприклад, якщо вам потрібно надрукувати прикріплені етикетки інших не "
+"пов'язаних рослин, ви можете об'єднати об'єкти, позначивши їх рядком \""
+"relabel\". Ви або один з ваших колег може вибрати \"relabel\" з меню тегів, "
+"у вікні пошуку відображатимуться всі об'єкти, які ви позначили, а виконання "
+"звіту буде діяти на позначених об'єктах."
 
 #: ../../tagging.rst:17
 msgid ""
 "Tagging acts on the active selection, that is the items in the search "
 "results which you have selected."
 msgstr ""
+"Позначення діє на активний вибір, тобто елементи в результатах пошуку, які "
+"ви вибрали."
 
 #: ../../tagging.rst:20
 msgid ""
@@ -6020,14 +6204,18 @@ msgid ""
 "you can deselect everything by pressing ``Ctrl-Shift-A``, you can toggle "
 "tagging of a single row by ``Ctrl-Mouse click`` on it."
 msgstr ""
+"Будь ласка, пам'ятайте: ви можете вибрати всі рядки результатів, натиснувши "
+"``Ctrl-A``, ви можете скасувати вибір, натиснувши ``Ctrl-Shift-A``, ви "
+"можете змінити позначення одного рядка за допомогою ``Ctrl-Клік мишкою `на "
+"ньому."
 
 #: ../../tagging.rst:24
 msgid "Once you have an active selection, tagging can be done in two ways:"
-msgstr ""
+msgstr "Після активного вибору, тегування може здійснюватися двома способами:"
 
 #: ../../tagging.rst:27
 msgid "dialog box tagging"
-msgstr ""
+msgstr "діалогове вікно тегування"
 
 #: ../../tagging.rst:29
 msgid ""
@@ -6035,16 +6223,21 @@ msgid ""
 "menu, this activates a window where you can create new tags and apply any"
 " existing tag to the selection."
 msgstr ""
+"Натисніть клавішу ``Ctrl-T`` або виберіть :menuselection:`Tag-->Tag "
+"Selection` з меню, це активує вікно, в якому ви можете створювати нові теги "
+"і застосовувати будь-який існуючий тег до вибору."
 
 #: ../../tagging.rst:33
 msgid "The tag window is composed of three parts:"
-msgstr ""
+msgstr "Вікно тегів складається з трьох частин:"
 
 #: ../../tagging.rst:35
 msgid ""
 "The upper part mentions the list of objects in your active selection. "
 "This is the list of object of which you are editing the tags;"
 msgstr ""
+"У верхній частині згадується список об'єктів у вашому активному виборі. Це "
+"список об'єкта, якому ви редагуєте теги;"
 
 #: ../../tagging.rst:37
 msgid ""
@@ -6052,12 +6245,16 @@ msgid ""
 "you can activate for applying the tag to or removing the tag from the "
 "selection;"
 msgstr ""
+"У середній частині є список всіх доступних тегів, а також прапорець, який ви "
+"можете активувати для застосування тегу або вилучення тегу з вибору;"
 
 #: ../../tagging.rst:40
 msgid ""
 "The lower part only holds a link to new tag creation, and the Ok button "
 "for closing the dialog box."
 msgstr ""
+"Нижня частина містить лише посилання на створення нового тегу, а кнопка ОК "
+"для закриття діалогового вікна."
 
 #: ../../tagging.rst:43
 msgid ""
@@ -6067,16 +6264,24 @@ msgid ""
 "active selection will show with an 'undecided' status.  Tags that don't "
 "apply to any object in the active selection will show blank."
 msgstr ""
+"Якщо, відкриваючи діалогове вікно тегу, активний вибір містить кілька "
+"елементів, тоді біля нього буде встановлено лише теги, які є загальними для "
+"всіх вибраних елементів. Теги, які застосовуються лише до відповідної "
+"підмножини активного вибору, відображатимуться з статусом 'не визначено'. "
+"Теги, які не застосовуються до жодного об'єкта в активному виборі, будуть "
+"відображатися пустими."
 
 #: ../../tagging.rst:49
 msgid ""
 "The most recently created tag, or the most recently selected tag becomes "
 "the active tag, and it shows with a check next to it in the tags menu."
 msgstr ""
+"Нещодавно створений тег або найновіший вибраний тег стає активним тегом, і "
+"він з'являється з позначкою поруч із ним в меню тегів."
 
 #: ../../tagging.rst:53
 msgid "windowless tagging"
-msgstr ""
+msgstr "тегування без вікна"
 
 #: ../../tagging.rst:55
 msgid ""
@@ -6084,6 +6289,9 @@ msgid ""
 "to all objects in the active selection.  ``Ctrl-Shift-Y`` removes the "
 "active tag from all objects in the active selection."
 msgstr ""
+"Після того як у вас є активна тег, натискання клавіші `` Ctrl-Y`` застосовує "
+"активний тег до всіх об'єктів активного вибору. `Ctrl-Shift-Y`` видаляє "
+"активний тег з усіх об'єктів у активному виділенні."
 
 #: ../../template-letters.rst:2
 msgid "Template Letters"
@@ -8715,11 +8923,11 @@ msgstr ""
 
 #: ../../use_cases-zadenbank.rst:183
 msgid "Don't forget to delete the temporary 'sending' ›Tag‹."
-msgstr ""
+msgstr "Не забудьте видалити тимчасове 'sending' ›Tag‹."
 
 #: ../../use_cases-zadenbank.rst:185
 msgid "**step 4**"
-msgstr ""
+msgstr "**крок 4**"
 
 #: ../../use_cases-zadenbank.rst:187
 msgid ""
@@ -8746,7 +8954,7 @@ msgstr ""
 
 #: ../../use_cases-zadenbank.rst:201
 msgid "Bring back all the plants in the sending '2018-pino-002'::"
-msgstr ""
+msgstr "Поверніть всі рослини у відправленні '2018-pino-002' :"
 
 #: ../../use_cases-zadenbank.rst:205
 msgid ""
@@ -8760,6 +8968,8 @@ msgid ""
 "This last operation could be automated, we're thinking of it, it would "
 "become a script, acting on a selection.  Stay tuned."
 msgstr ""
+"Ця остання операція може бути автоматизованою, ми маємо на увазі, що це "
+"стане скриптом, який діє на вибір. Залишайтеся на зв'язку."
 
 #: ../../users.rst:2
 msgid "Managing Users"
@@ -8783,6 +8993,8 @@ msgid ""
 "You must log in to your database as a user with ``CREATEROLE`` privilege "
 "in order to manage other users."
 msgstr ""
+"Ви повинні входити до своєї бази даних як користувач із привілеєм "
+"``CREATEROLE`` для керування іншими користувачами."
 
 #: ../../users.rst:14
 msgid "Creating Users"
@@ -8802,7 +9014,7 @@ msgstr "Ghini дозволяє читати, писати і оформляти 
 
 #: ../../welcome-letter.rst:1
 msgid "subject: Welcome to Ghini/Bauble"
-msgstr ""
+msgstr "Тема: Ласкаво просимо до Ghini/Bauble"
 
 #~ msgid "rank genus"
 #~ msgstr ""
