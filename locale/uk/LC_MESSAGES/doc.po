@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-14 09:32-0500\n"
-"PO-Revision-Date: 2018-09-28 11:38+0000\n"
+"PO-Revision-Date: 2018-09-30 16:37+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/ghini/"
 "documentation-10/uk/>\n"
@@ -2707,6 +2707,9 @@ msgid ""
 "reader noticed how different arrows representing different data flows, "
 "had different colours: some are deep green, some have a lighter tint."
 msgstr ""
+"На діаграмі, що показує склад сім'ї Ghini, читач помітив попередження, як "
+"різні стрілки представляють різні потоки даних, мають різні кольори: деякі - "
+"глибоко зелені, інші - світліші відтінки."
 
 #: ../../ghini-family.rst:142
 msgid ""
@@ -2754,64 +2757,83 @@ msgid ""
 "manager is to regularly copy an updated database snapshot to your Android"
 " device."
 msgstr ""
+"ghini.pocket тісно інтегрується з ghini.desktop, і це не інструмент для "
+"випадкового, ані зовнішнього користувача. Одним з завдань вашого менеджера "
+"баз даних для садів є регулярне копіювання оновленого знімка бази даних на "
+"ваш пристрій Android."
 
 #: ../../ghini-family.rst:165
 msgid ""
 "We advise enabling USB debugging on the device.  In perspective, this "
 "will allow ghini.desktop writing directily into the ghini.pocket device."
 msgstr ""
+"Ми радимо ввімкнути налагодження USB на пристрої. У перспективі це дозволить "
+"писати ghini.desktop безпосередньо в пристрій ghini.pocket."
 
 #: ../../ghini-family.rst:168
 msgid ""
 "Export the file from ghini.desktop, call the file pocket.db, copy it to "
 "the phone::"
 msgstr ""
+"Експортуйте файл з ghini.desktop, викликавши файл pocket.db, скопіюйте його "
+"на телефон:"
 
 #: ../../ghini-family.rst:172
 msgid ""
 "The above location is valid even if your phone does not have a memory "
 "card."
 msgstr ""
+"Вище вказане місце дійсне, навіть якщо на вашому телефоні немає картки "
+"пам'яті."
 
 #: ../../ghini-family.rst:174
 msgid ""
 "Other options include bluetooth, or whatever other way you normally use "
 "to copy regular files into your Android device."
 msgstr ""
+"Інші параметри включають Bluetooth або будь-який інший спосіб, який ви "
+"зазвичай використовуєте для копіювання звичайних файлів на своєму пристрої "
+"Android."
 
 #: ../../ghini-family.rst:179
 msgid ""
 "p2d: import from the ghini.pocket log file and pictures into the central "
 "database"
 msgstr ""
+"p2d: імпорт з файлу журналу ghini.pocket та зображень у центральну базу даних"
 
 #: ../../ghini-family.rst:182
 msgid ""
 "even if we're still calling it “inventory log”, ghini.pocket's log "
 "contains more than just inventory corrections."
 msgstr ""
+"навіть якщо ми як і раніше називаємо це журналом інвентаризації, журнал "
+"ghini.pocket містить більше, ніж просто виправлення інвентаризації."
 
 #: ../../ghini-family.rst:185
 msgid "produce a log on the handheld device"
-msgstr ""
+msgstr "зробіть журнал на портативному пристрої"
 
 #: ../../ghini-family.rst:186
 msgid "import the log in the desktop database"
-msgstr ""
+msgstr "імпортувати журнал у настільну базу даних"
 
 #: ../../ghini-family.rst:188
 msgid ""
 "first of all, copy the collected information from ghini.pocket into your "
 "computer::"
 msgstr ""
+"перш за все скопіюйте зібрану інформацію з ghini.pocket у свій комп'ютер:"
 
 #: ../../ghini-family.rst:194
 msgid "then use ghini.desktop to import this information into your database."
 msgstr ""
+"потім використовуйте ghini.desktop, щоб імпортувати цю інформацію у свою "
+"базу даних."
 
 #: ../../ghini-family.rst:197
 msgid "d2w: send a selection of your garden data to ghini.web"
-msgstr ""
+msgstr "d2w: відправте вибрані дані вашого саду на ghini.web"
 
 #: ../../ghini-family.rst:200
 msgid ""
@@ -2819,27 +2841,31 @@ msgid ""
 "online virtual visitors can browse it.  This includes plant "
 "identification and their geographic location."
 msgstr ""
+"Пропонуйте вибрані дані вашого саду на центральний сайт ghini.web, щоб "
+"онлайн-відвідувачі могли переглядати його. Це включає в себе ідентифікацію "
+"рослин та їх географічне розташування."
 
 #: ../../ghini-family.rst:204 ../../ghini-family.rst:219
 #: ../../ghini-family.rst:231
 msgid "content of this flow:"
-msgstr ""
+msgstr "вміст цього потоку:"
 
 #: ../../ghini-family.rst:206
 msgid "garden: coords, name, zoom level (for initial view)"
 msgstr ""
+"сад: координати, назва, рівень масштабування (для початкового перегляду)"
 
 #: ../../ghini-family.rst:207
 msgid "plants: coords, identification, zoom level (for visibility)"
-msgstr ""
+msgstr "рослини: координати, ідентифікація, рівень масштабування (за видимості)"
 
 #: ../../ghini-family.rst:208
 msgid "species: binomial, phonetic approximation"
-msgstr ""
+msgstr "види: біноміальне, фонетичне наближення"
 
 #: ../../ghini-family.rst:212
 msgid "g2w: add geographic non-botanic data to ghini.web"
-msgstr ""
+msgstr "g2w: додати географічні не-ботанічні дані до ghini.web"
 
 #: ../../ghini-family.rst:215
 msgid ""
@@ -2847,32 +2873,36 @@ msgid ""
 "interest within the garden, required by ghini.tour) in the central "
 "ghini.web site."
 msgstr ""
+"Напишіть географічну інформацію про не-ботанічні дані (тобто: визначну "
+"пам'ятку в саду, потрібну ghini.tour) на веб-сайті ghini.web."
 
 #: ../../ghini-family.rst:221
 msgid "virtual panels: coords, title, audio file"
-msgstr ""
+msgstr "віртуальні панелі: координати, заголовок, аудіофайл"
 
 #: ../../ghini-family.rst:222
 msgid "photos: coords, title, picture"
-msgstr ""
+msgstr "фотографії: координати, назва, зображення"
 
 #: ../../ghini-family.rst:224
 msgid ""
 "virtual panels don't necessarily have an associated photo, photos don't "
 "necessarily have an associated audio file."
 msgstr ""
+"віртуальні панелі не обов'язково мають пов'язану фотографію, фотографії не "
+"обов'язково мають пов'язаний звуковий файл."
 
 #: ../../ghini-family.rst:228
 msgid "w2t: importing locations and POIs from ghini.web to tour"
-msgstr ""
+msgstr "w2t: імпортування місць розташування та POI з ghini.web до екскурсії"
 
 #: ../../ghini-family.rst:233
 msgid "Garden (coords, name, zoom level)"
-msgstr ""
+msgstr "Сад (координати, назва, рівень масштабування)"
 
 #: ../../ghini-family.rst:234
 msgid "Points of Interest (coords, title, audio file, photo)"
-msgstr ""
+msgstr "Цікаві місця (координати, назва, аудіофайл, фото)"
 
 #: ../../goal.rst:2
 msgid "Ghini's goals and highlights"
@@ -2903,6 +2933,9 @@ msgid ""
 "  `install the software <installing.html>`_, then check our `user-"
 "contributed recipes <use_cases.html>`_."
 msgstr ""
+"Якщо ви вже знаєте, і все, що ви хочете, це зробити щось практичне, просто `"
+"встановіть програмне забезпечення <installing.html>`_, а потім перевірте "
+"наші `користувацькі рецепти <use_cases.html>`_."
 
 #: ../../goal.rst:13
 msgid "Botanic Garden"
@@ -2977,6 +3010,9 @@ msgid ""
 "blocks are those relative to objects you definitely need insert in the "
 "database."
 msgstr ""
+"На вищезгаданому малюнку, спрощений погляд на базу даних, виділені блоки є "
+"тими, що відносяться до об'єктів, які ви обов'язково повинні внести в базу "
+"даних."
 
 #: ../../goal.rst:55
 msgid ""
@@ -2985,6 +3021,9 @@ msgid ""
 "information, then step to administering your **Collection**, and finally "
 "consider the physical **Garden**."
 msgstr ""
+"Ми виділяємо три основні розділи в базі даних. Почніть читання графіка з "
+"правої сторони, з відповідною інформацією **Таксономія**, потім крок до "
+"адміністрування вашої **Колекції ** і, нарешті, розгляньте фізичний **Сад**."
 
 #: ../../goal.rst:60
 msgid ""
@@ -2998,7 +3037,7 @@ msgstr ""
 
 #: ../../goal.rst:63
 msgid "**Accession links Planting to Species**"
-msgstr ""
+msgstr "**Приєднання зв'язків Посадка до Видів **"
 
 #: ../../goal.rst:65
 msgid ""
