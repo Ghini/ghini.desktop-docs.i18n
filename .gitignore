@@ -1,3 +1,4 @@
 *~
 *.mo
 doc/_build/
+doc/.build/
