@@ -1,64 +1,83 @@
+.. |ghini.pocket| replace:: :py:mod:`ghini.pocket`
+.. |ghini.desktop| replace:: :py:mod:`ghini.desktop`
+.. |verify| replace:: :py:obj:`verify`
+.. |register| replace:: :py:obj:`register`
+.. |push| replace:: :py:obj:`push`
+.. |pull| replace:: :py:obj:`pull`
+.. |desktop| replace:: :py:obj:`connect to g.desktop`
+.. |OK| replace:: :py:obj:`OK`
+
+
 Importing and Exporting Data
 ============================
 
-Although Ghini can be extended through plugins to support alternate
-import and export formats, by default it can only import and export
-comma separated values files or CSV.
+Ghini offers several formats for exchanging data with other systems, while additional
+formats may be provided in the form of plug-ins.
 
-There is some support for exporting to the Access for Biological
-Collections Data it is limited.
+For two formats (CSV and JSON) Ghini offers both import and export.  CSV aims at saving and
+restoring whole tables.  JSON is mostly meant for selections, for non-destructive updating
+existing data, for combining selections from different databases.
+
+A special case of import-export is handling |ghini.pocket| snapshots, and accepting collected
+updates from |ghini.pocket| instances.
+
+There is some support for exporting in Access for Biological Collections Data (ABCD) format,
+while export in BGCI format is provided by the Report plug-in in the form of a Mako
+Template.
 
 There is also limited support for exporting to an XML format that more
 or less reflects exactly the tables and row of the database.
 
 Exporting ABCD and XML will not be covered here.
 
-.. warning:: Importing files will most likely destroy any data you
-  have in the database so make sure you have backed up your data.
+Backup as Flat-files / CSV
+------------------------------
 
-Importing from CSV
-------------------
-In general it is best to only import CSV files into Ghini that were
-previously exported from Ghini. It is possible to import any CSV file
-but that is more advanced that this doc will cover.
+This section is about exporting the complete database as CSV files, one file per table.
+These files can be later used to restore your database, to initialize an other Ghini
+instance, as a base for migrating your data to a newer Ghini version.
 
-To import CSV files into Ghini select
-:menuselection:`Tools-->Export-->Comma Separated Values` from the
+Please note that we also have a QuickCSV reporter, able to produce a single CSV file, where
+the user decides, on-the-fly, which fields have to be included in the report.  Here we talk
+about creating and (partially) restoring databases.
+
+Creating a backup
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+To export the Ghini data to CSV select :menuselection:`Tools-->Backup-->Create` from the
 menu.
-
-After clicking OK on the dialog that ask if you are sure you know what
-you're doing a file chooser will open.  In the file chooser select the
-files you want to import.  
-
-
-Exporting to CSV
-----------------
-
-To export the Ghini data to CSV select
-:menuselection:`Tools-->Export-->Comma Separated Values` from the menu.
 
 This tool will ask you to select a directory to export the CSV data.
 All of the tables in Ghini will be exported to files in the format
-tablename.txt where tablename is the name of the table where the data
+``table_name.txt`` if ``TableName`` is the name of the table where the data
 was exported from.
 
-Importing from JSON
--------------------
+Restoring a backup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This is *the* way to import data into an existing database, without
-destroying previous content. A typical example of this functionality would
-be importing your digital collection into a fresh, just initialized Ghini
-database. Converting a database into bauble json interchange format is
-beyond the scope of this manual, please contact one of the authors if you
-need any further help.
+In general it is best to only import CSV files into Ghini that were
+previously exported from Ghini.  It is possible to import any CSV file
+but that is more advanced that this doc will cover.
 
-Using the Ghini json interchange format, you can import data which you have
-exported from a different Ghini installation.
+To import CSV files into Ghini select :menuselection:`Tools-->Backup-->Restore` from the
+menu.
+
+After clicking |OK| on the dialog that ask if you are sure you know what
+you're doing a file chooser will open.  In the file chooser select the
+files you want to import.
+
+Restoring a backup deletes all previous content from restored tables.
+
+JSON - JavaScript Object Notation
+-----------------------------------------
+
+This feature has being developed when a user asked for it.  Their request was quite simple,
+but we preferred anyway to lay down the bases for a more generic solution.  At the moment,
+everything we ever needed is in place.  Even so, this feature is still quite far from
+complete, so if it does not satisfy your needs, please contact the maintainers.
 
 Exporting to JSON
------------------
-
-This feature is still under development.
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/screenshots/export-to-json.png
 
@@ -75,16 +94,18 @@ unreferred to taxa will not be exported. *Plant* will export all
 living plants (some accession might not be included), all
 referred to locations and taxa.
 
-Importing from a Generic Database
-----------------------------------
+Importing from JSON
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-This functionality is the object of `issue #127
-<https://github.com/Ghini/ghini.desktop/issues/127>`_, for which
-we have no generic solution yet.
+This is *the* way to import data into an existing database, without
+destroying previous content. A typical example of this functionality would
+be importing your digital collection into a fresh, just initialized Ghini
+database. Converting a database into bauble json interchange format is
+beyond the scope of this manual, please contact one of the authors if you
+need any further help.
 
-If you're interested in importing data from some flat file
-(e.g.: Excel spreadsheet) or from any database, contact the
-developers.
+Using the Ghini json interchange format, you can import data which you have
+exported from a different Ghini installation.
 
 Importing a Pictures Collection
 ----------------------------------
@@ -111,8 +132,8 @@ import tool.  Import goes in several steps: parameter
 definition; data revision and confirmation; the import step
 proper; finally review the import log.  At the first two steps
 you can confirm the data and go to the next step by clicking on
-the ``next`` button, or you can go back to the previous step by
-clicking on the ``prev`` button.  Once the import is done and
+the |next| button, or you can go back to the previous step by
+clicking on the |prev| button.  Once the import is done and
 you're reviewing the log, you can only either confirm —or abort—
 the whole transaction.
 
@@ -141,4 +162,15 @@ them to the database), or undo them (rollback the transaction).
 When the Picture Collection importer creates or updates objects,
 it also sets a Note that you can use for selecting the objects
 involved in the import, and for reviewing if needed.
+
+Importing from a Generic Database
+----------------------------------
+
+This functionality is the object of `issue #127
+<https://github.com/Ghini/|ghini.desktop|/issues/127>`_, for which
+we have no generic solution yet.
+
+If you're interested in importing data from some flat file
+(e.g.: Excel spreadsheet) or from any database, contact the
+developers.
 
