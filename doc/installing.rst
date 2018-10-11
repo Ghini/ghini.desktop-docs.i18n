@@ -7,18 +7,15 @@ like GNU/Linux and MacOSX, as well as on Windows.
 .. admonition:: one-liner for hurried users.
    :class: note
 
-           Linux users just download and run `the installation script
-           <https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh>`_.
-           You may read the documentation later.
+      Linux users just download and run `the installation script
+      <https://raw.githubusercontent.com/Ghini/ghini.desktop/ghini-1.0-dev/scripts/devinstall.sh>`_.
+      You may read the documentation later.
 
-           Windows users, start downloading all external dependencies (`git
-           <Direct link to download git_>`_, `Python <Direct link to
-           download Python_>`_, `lxml <Direct link to download lxml_>`_,
-           `PyGTK <Direct link to download PyGTK_>`_, `psycopg2 <Direct link
-           to download psycopg2_>`_), read the instructions in the
-           meanwhile.
+      Windows users in a real hurry don't the instructions and use a recent `Windows installer
+      <https://github.com/Ghini/ghini.desktop/releases/>`_.  You do not miss any functional feature, but
+      you have less chances to contribute to development.
 
-           Mac users are never in a hurry, are they?
+      Mac users are never in a hurry, are they?
 
 Ghini is maintained by very few people, who focus on enhancing its
 functional parts, more than on writing fancy installers. Instead of several
@@ -350,10 +347,13 @@ The installation steps on Windows:
    How to save a batch file, and how to run it: check the the quite detailed
    instructions given for ``devinstall.bat``.
 
-If you would like to generate and print PDF reports using Ghini's default
-report generator then you will need to download and install `Apache FOP
+If you need to generate PDF reports, you can use the XLS based report
+generator and you will need to download and install `Apache FOP
 <http://xmlgraphics.apache.org/fop/>`_.  After extracting the FOP archive
 you will need to include the directory you extracted to in your PATH.
+
+If you choose for PostScript reports, you can use the Mako based report
+generator and there are no further dependencies.
 
 .. rubric:: Next...
 
