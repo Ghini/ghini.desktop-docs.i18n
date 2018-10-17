@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
-"POT-Creation-Date: 2018-10-11 18:10-0500\n"
+"POT-Creation-Date: 2018-10-17 08:50-0500\n"
 "PO-Revision-Date: 2017-08-29 22:47+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language: pt\n"
@@ -2738,7 +2738,7 @@ msgid ""
 "Interaction between |ghini.pocket| and |ghini.desktop| is handled "
 "following a client server scheme.  When you need to export a new database"
 " snapshot to pocket, or import the pocket log into the main database, you"
-" put |ghini.desktop| in server mode, so that it awaits for requests from "
+" put |ghini.desktop| in server mode, so that it awaits requests from "
 "registered |ghini.pocket| clients."
 msgstr ""
 
@@ -2749,7 +2749,8 @@ msgstr ""
 #: ../../ghini-family.rst:229
 msgid ""
 "Select :menuselection:`Tools-->Pocket Server..` to activate server mode "
-"on |ghini.desktop|. This is the Pocket Server console:"
+"on |ghini.desktop|. The Pocket Server console looks roughly like this, "
+"where it is creating a \"snapshot\":"
 msgstr ""
 
 #: ../../ghini-family.rst:234
@@ -2759,13 +2760,7 @@ msgid ""
 "snapshots, or send collected updates."
 msgstr ""
 
-#: ../../ghini-family.rst:239
-msgid ""
-"The above is how |ghini.pocket| looks on my virtual phone, and "
-"192.168.43.226 is the IP address of my laptop in my local network.  YMMV."
-msgstr ""
-
-#: ../../ghini-family.rst:242
+#: ../../ghini-family.rst:237
 msgid ""
 "|ghini.pocket| works with a reduced database snapshot, containing only "
 "the most significant elements, under a simplified schema.  "
@@ -2776,7 +2771,7 @@ msgid ""
 "to each of your clients."
 msgstr ""
 
-#: ../../ghini-family.rst:248
+#: ../../ghini-family.rst:243
 msgid ""
 "Production of a snapshot is generally fast, surely for collections below "
 "the ten thousand plants, so you may prefer to keep the automatic refresh "
@@ -2787,7 +2782,7 @@ msgid ""
 "identity, push updates, pull the new snapshot."
 msgstr ""
 
-#: ../../ghini-family.rst:254
+#: ../../ghini-family.rst:249
 msgid ""
 "|ghini.desktop| and |ghini.pocket| need to be connected to the same "
 "(local) network.  The server GUI includes an informative entry for the "
@@ -2799,49 +2794,187 @@ msgid ""
 "to the port on which the server will be listening."
 msgstr ""
 
+#: ../../ghini-family.rst:258
+msgid "I understand beans, what should I do?"
+msgstr ""
+
+#: ../../ghini-family.rst:261
+msgid ""
+"Right, you're a botanist, with little interest in learning network "
+"management, quite fair."
+msgstr ""
+
 #: ../../ghini-family.rst:263
+msgid ""
+"Here are my three guesses for getting ghini.desktop (running on your "
+"computer) and ghini.pocket (running on your Android phone) to see each "
+"other:"
+msgstr ""
+
+#: ../../ghini-family.rst:266
+msgid ""
+"Easiest case: you have a local network at home, to which you connect both"
+" your phone and your computer.  Just make sure both your phone and "
+"computer are connected, and read further.  In most cases, it will just "
+"work."
+msgstr ""
+
+#: ../../ghini-family.rst:270
+msgid ""
+"Beware: there's routers that will not let you talk from one system to the"
+" other, or that leave only a few ports open.  If your router has a "
+"'guest' and a 'home' SSID, do use the 'home' signal for both systems.  "
+"But it all depends, and you should check with your router.  If you are "
+"using your home router and you still can't quite connect pocket to "
+"desktop, try the next option."
+msgstr ""
+
+#: ../../ghini-family.rst:276
+msgid ""
+"Next easiest: configure a WiFi hotspot on your Android phone, and connect"
+" your computer to it."
+msgstr ""
+
+#: ../../ghini-family.rst:279
+msgid ""
+"Make sure your ghini.desktop computer has no other active network "
+"connection.  You might want to disable mobile data on the phone, to avoid"
+" your computer to consume bandwith and make you incur in costs.  Without "
+"mobile data, Android might warn you that the hotspot will not be "
+"functional.  Ignore that: you're using the hotspot for local connections,"
+" not for getting on internet."
+msgstr ""
+
+#: ../../ghini-family.rst:285
+msgid ""
+"Still easy enough: connect your Android phone to your computer using a "
+"USB cable, and activate USB tethering on the phone."
+msgstr ""
+
+#: ../../ghini-family.rst:288
+msgid ""
+"Again, make sure your computer has no other active network connection, "
+"and again consider disabling mobile data on the phone."
+msgstr ""
+
+#: ../../ghini-family.rst:291
+msgid ""
+"Any of the above three will put your two devices on the same network "
+"segment, and enable communication.  Minimal terminology you might still "
+"check: IP Address; IP Port; Network Segment."
+msgstr ""
+
+#: ../../ghini-family.rst:295
+msgid ""
+"Check your phone IP address in :menuselection:`Settings --> About device "
+"--> Status`, no more to make sure that both addresses, desktop and "
+"pocket, belong to the same segment, roughly true if the first three of "
+"those four numbers are equal."
+msgstr ""
+
+#: ../../ghini-family.rst:299
+msgid "Port Number, GHINI/44464?  What is that?"
+msgstr ""
+
+#: ../../ghini-family.rst:302
+msgid ""
+"44464 is a port number and a port, think of it like of a virtual plug "
+"that a server program can enable and listen to, and to which client "
+"programs may attach and speak into. This port number, 44464 makes some "
+"sense because it's like GHINI on a phone keyboard. There is nothing "
+"special with this 44464, you can choose just about any number from 1025 "
+"to 65535, as long as it's `not already in use "
+"<https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers>`_ by "
+"other programs and it's the same on both ghini.desktop and ghini.pocket."
+msgstr ""
+
+#: ../../ghini-family.rst:310
+msgid "localhost and your local network"
+msgstr ""
+
+#: ../../ghini-family.rst:313
+msgid ""
+"Is your ghini.desktop showing the ``127.0.0.1`` address, that means that "
+"it is not connected to any network.  That address is the numeric form of "
+"``localhost``, and only useful for local connections.  You will **not** "
+"be able to connect pocket to desktop if this is what desktop reports as "
+"server IP address."
+msgstr ""
+
+#: ../../ghini-family.rst:318
+msgid ""
+"Your local IP address is something starting with ``192.168.`` followed by"
+" two more numbers between 0 and 255, or maybe ``10.`` followed by three "
+"more such numbers, or still ``172.`` followed by a number in the range 16"
+" to 31, and again two more numbers between 0 and 255."
+msgstr ""
+
+#: ../../ghini-family.rst:322
+msgid ""
+"Anything else is something else, not your local IP address, and will not "
+"work."
+msgstr ""
+
+#: ../../ghini-family.rst:325
 msgid ""
 "|ghini.desktop| holds a list of registered |ghini.pocket| clients.  "
 "(Check the below section on the client user interface, for how to "
-"register a phone.)  When |ghini.desktop| receives a valid registration "
-"request for a specific IMEI number, the specified IMEI is added to the "
-"list of registered clients and associated to the remote user name.  The "
-"registration is persistent, and is used as a basic identity check for all"
-" client-server interaction.  If you need to use the same phone with a "
-"different user name, you must overrule the existing registration, and to "
-"do so, you need the security code as shown in the desktop server "
-"settings."
+"register a phone.)  The first time you activate |ghini.pocket|, it will "
+"create a persistent custom phone code, high chance it is a unique code, "
+"and this code will be used by both pocket and desktop to identify your "
+"phones.  The chance that two of your 40 phones share the same code is "
+"smaller than a 2cm meteorite to strike your house within the next 5 "
+"minutes.  Maybe not precisely this small, but definitely very small.  "
+"When |ghini.desktop| receives a valid registration request for a phone "
+"code, the code is added to the list of registered clients and associated "
+"to the remote user name."
 msgstr ""
 
-#: ../../ghini-family.rst:272
+#: ../../ghini-family.rst:334
+msgid ""
+"The client registration is persistent, and is used as a basic identity "
+"check for all client-server interaction.  If you need to use the same "
+"phone with a different user name, you must overrule the existing "
+"registration, and to do so, you need the security code as shown in the "
+"desktop server settings."
+msgstr ""
+
+#: ../../ghini-family.rst:339
 msgid ""
 "Start the server on |ghini.desktop| by clicking on that thick square push"
-" button: it will stay pushed and slowly spinning while the server is "
-"active.  Possibly enable automatic refresh, then move your attention "
-"focus to your |ghini.pocket| client.  It is from the |ghini.pocket| "
-"clients that you handle the communication.  After accepting updates from "
-"your |ghini.pocket| clients, refresh the snapshot and update it on all "
-"your clients."
+" button with the diagonal arrow: the button will stay pushed, the arrow "
+"slowly spinning, while the server is active.  Decide if you prefer to "
+"enable automatic refresh, then move your attention focus to your "
+"|ghini.pocket| client.  It is from the |ghini.pocket| clients that you "
+"handle the communication.  After accepting updates from your "
+"|ghini.pocket| clients, refresh the snapshot and update it on all your "
+"clients."
 msgstr ""
 
-#: ../../ghini-family.rst:278
+#: ../../ghini-family.rst:346
 msgid ""
 "When done, stop the server, review the logs, close the Pocket Server "
 "window."
 msgstr ""
 
-#: ../../ghini-family.rst:281
+#: ../../ghini-family.rst:349
 msgid "|ghini.pocket| user interface"
 msgstr ""
 
-#: ../../ghini-family.rst:283
+#: ../../ghini-family.rst:351
+msgid ""
+"With the pocket server running on ghini.desktop, grab now your Android "
+"phone with the latest ghini.pocket version."
+msgstr ""
+
+#: ../../ghini-family.rst:354
 msgid ""
 "|ghini.pocket| options menu has a |desktop| item.  Use it to activate the"
 " \"desktop-client\" window, which implements all interaction with the "
 "|ghini.desktop| server."
 msgstr ""
 
-#: ../../ghini-family.rst:286
+#: ../../ghini-family.rst:357
 msgid ""
 "The \"desktop-client\" window contains data fields you have to edit in "
 "order to gain access to the server, and buttons for server communication."
@@ -2849,7 +2982,14 @@ msgid ""
 " register, or verify if already registered) your identity."
 msgstr ""
 
-#: ../../ghini-family.rst:292
+#: ../../ghini-family.rst:363
+msgid ""
+"The above is |ghini.pocket|'s \"desktop-client\" on my virtual phone.  "
+"192.168.43.226 is my laptop's IP address in my local network.  Please "
+"replace that with your own computer address as previously explained."
+msgstr ""
+
+#: ../../ghini-family.rst:367
 msgid ""
 "|ghini.pocket| implements a very basic authentication check, trusting "
 "that your local network is secure.  In fact the main goal of "
@@ -2858,7 +2998,7 @@ msgid ""
 "pocket."
 msgstr ""
 
-#: ../../ghini-family.rst:297
+#: ../../ghini-family.rst:372
 msgid ""
 "|verify| to check the communication parameters and the registered user "
 "name for your phone. Enter the server IP address, edit if necessary the "
@@ -2870,7 +3010,7 @@ msgid ""
 "you to please register."
 msgstr ""
 
-#: ../../ghini-family.rst:304
+#: ../../ghini-family.rst:379
 msgid ""
 "|register|, to associate your new user name to your phone IMEI code.  "
 "Enter both a User Name, a Security Code, and press on |register|.  This "
@@ -2882,7 +3022,7 @@ msgid ""
 "different user."
 msgstr ""
 
-#: ../../ghini-family.rst:311
+#: ../../ghini-family.rst:386
 msgid ""
 "|pull| to refresh the |ghini.pocket| database with the snapshot from the "
 "server.  This also resets the log, which gets anyway overruled by the new"
@@ -2890,7 +3030,7 @@ msgid ""
 "to confirm you really mean it."
 msgstr ""
 
-#: ../../ghini-family.rst:315
+#: ../../ghini-family.rst:390
 msgid ""
 "|push| to send your collected information: inventory log, corrections, "
 "pictures.  In particular if you are sending pictures, this operation will"
@@ -2899,17 +3039,17 @@ msgid ""
 "you wait a couple of minutes: it's the sum that makes the total."
 msgstr ""
 
-#: ../../ghini-family.rst:321
+#: ../../ghini-family.rst:396
 msgid "Exposed API"
 msgstr ""
 
-#: ../../ghini-family.rst:323
+#: ../../ghini-family.rst:398
 msgid ""
 "This is a technical reference section, you may safely ignore it if you "
 "aren't sure what it is about."
 msgstr ""
 
-#: ../../ghini-family.rst:326
+#: ../../ghini-family.rst:401
 msgid ""
 "|ghini.desktop| runs an XML-RPC server, exposing the following API1.  All"
 " functions but ``verify`` and ``get_snapshot`` return 0 on success; "
@@ -2917,66 +3057,66 @@ msgid ""
 "functions, if the result is numeric, it is an error code."
 msgstr ""
 
-#: ../../ghini-family.rst:330
+#: ../../ghini-family.rst:405
 msgid "verify(client_id)"
 msgstr ""
 
-#: ../../ghini-family.rst:333
+#: ../../ghini-family.rst:408
 msgid ""
 "Return the user name associated to the client.  The result is either a "
 "non-empty string, or a numeric error code."
 msgstr ""
 
-#: ../../ghini-family.rst:336
+#: ../../ghini-family.rst:411
 msgid "register(client_id, user_name, security_code)"
 msgstr ""
 
-#: ../../ghini-family.rst:339
+#: ../../ghini-family.rst:414
 msgid ""
 "Register the client on the server, associating it to the given user_name,"
 " given that the provided security_code matches the expected one."
 msgstr ""
 
-#: ../../ghini-family.rst:342
+#: ../../ghini-family.rst:417
 msgid "Overwrite any previous registration of the same client."
 msgstr ""
 
-#: ../../ghini-family.rst:344
+#: ../../ghini-family.rst:419
 msgid "Return 0 if successful, otherwise a numeric error code."
 msgstr ""
 
-#: ../../ghini-family.rst:346
+#: ../../ghini-family.rst:421
 msgid "get_snapshot(client_id)"
 msgstr ""
 
-#: ../../ghini-family.rst:349
+#: ../../ghini-family.rst:424
 msgid "Return the current ``pocket.db`` snapshot of the database."
 msgstr ""
 
-#: ../../ghini-family.rst:351 ../../ghini-family.rst:371
-#: ../../ghini-family.rst:386
+#: ../../ghini-family.rst:426 ../../ghini-family.rst:446
+#: ../../ghini-family.rst:461
 msgid "If client is not registered, return a numeric error code."
 msgstr ""
 
-#: ../../ghini-family.rst:353
+#: ../../ghini-family.rst:428
 msgid "put_change(client_id, content, baseline)"
 msgstr ""
 
-#: ../../ghini-family.rst:356
+#: ../../ghini-family.rst:431
 msgid ""
 "Update the ghini database with the content of the collected pocket client"
 " logs."
 msgstr ""
 
-#: ../../ghini-family.rst:358
+#: ../../ghini-family.rst:433
 msgid "Content is a complete log file, to be handled as a block."
 msgstr ""
 
-#: ../../ghini-family.rst:360
+#: ../../ghini-family.rst:435
 msgid "Baseline is a timestamp, expressed as seconds since the Unix Epoch."
 msgstr ""
 
-#: ../../ghini-family.rst:362
+#: ../../ghini-family.rst:437
 msgid ""
 "Each change line applies to a single plant or accession.  Change lines "
 "are composed of change atoms, and atoms come in two flavours: additions "
@@ -2990,25 +3130,25 @@ msgid ""
 "action."
 msgstr ""
 
-#: ../../ghini-family.rst:373
+#: ../../ghini-family.rst:448
 msgid ""
 "Returns a list of numeric values, each corresponding to a log line, "
 "indicating whether the line was successfully applied, or (partially) "
 "rejected."
 msgstr ""
 
-#: ../../ghini-family.rst:376
+#: ../../ghini-family.rst:451
 msgid "put_picture(client_id, name, base64)"
 msgstr ""
 
-#: ../../ghini-family.rst:379
+#: ../../ghini-family.rst:454
 msgid ""
 "Add a picture to the collection.  These are sent after the textual data "
 "has been updated.  There is no check whether or not the picture is indeed"
 " referred to in the database."
 msgstr ""
 
-#: ../../ghini-family.rst:383
+#: ../../ghini-family.rst:458
 msgid ""
 "If a picture by the same name already exists, the action fails with a "
 "numeric error code."
@@ -12292,5 +12432,68 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "subject: Welcome to Ghini/Bauble"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Interaction between |ghini.pocket| and "
+#~ "|ghini.desktop| is handled following a "
+#~ "client server scheme.  When you need "
+#~ "to export a new database snapshot "
+#~ "to pocket, or import the pocket "
+#~ "log into the main database, you "
+#~ "put |ghini.desktop| in server mode, so"
+#~ " that it awaits for requests from "
+#~ "registered |ghini.pocket| clients."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select :menuselection:`Tools-->Pocket Server..` to"
+#~ " activate server mode on |ghini.desktop|."
+#~ " This is the Pocket Server console:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The above is how |ghini.pocket| looks"
+#~ " on my virtual phone, and "
+#~ "192.168.43.226 is the IP address of "
+#~ "my laptop in my local network.  "
+#~ "YMMV."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "|ghini.desktop| holds a list of "
+#~ "registered |ghini.pocket| clients.  (Check the"
+#~ " below section on the client user "
+#~ "interface, for how to register a "
+#~ "phone.)  When |ghini.desktop| receives a "
+#~ "valid registration request for a "
+#~ "specific IMEI number, the specified IMEI"
+#~ " is added to the list of "
+#~ "registered clients and associated to the"
+#~ " remote user name.  The registration "
+#~ "is persistent, and is used as a"
+#~ " basic identity check for all "
+#~ "client-server interaction.  If you need "
+#~ "to use the same phone with a "
+#~ "different user name, you must overrule"
+#~ " the existing registration, and to do"
+#~ " so, you need the security code "
+#~ "as shown in the desktop server "
+#~ "settings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Start the server on |ghini.desktop| by"
+#~ " clicking on that thick square push"
+#~ " button: it will stay pushed and "
+#~ "slowly spinning while the server is "
+#~ "active.  Possibly enable automatic refresh,"
+#~ " then move your attention focus to"
+#~ " your |ghini.pocket| client.  It is "
+#~ "from the |ghini.pocket| clients that you"
+#~ " handle the communication.  After accepting"
+#~ " updates from your |ghini.pocket| clients,"
+#~ " refresh the snapshot and update it"
+#~ " on all your clients."
 #~ msgstr ""
 
