@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
 "POT-Creation-Date: 2018-05-14 09:32-0500\n"
-"PO-Revision-Date: 2018-11-19 08:07+0000\n"
+"PO-Revision-Date: 2020-07-20 16:41+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/ghini/"
 "documentation-10/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.3-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../administration.rst:2
@@ -101,8 +101,8 @@ msgid ""
 "configuration file."
 msgstr ""
 "Ghini usa um ficheiro de configuração para armazenar valores através de "
-"invocações. Este ficheiro está associado a uma conta de usuário e cada "
-"usuário terá seu próprio ficheiro de configuração."
+"invocações. Este ficheiro está associado a uma conta de utilizador e cada "
+"utilizador terá o seu próprio ficheiro de configuração."
 
 #: ../../administration.rst:45
 msgid ""
@@ -1355,7 +1355,7 @@ msgstr "SP atua como modelo,"
 
 #: ../../building.rst:632
 msgid "the pV partial view is defined in a glade file."
-msgstr "a exibição parcial do pV é definida em um ficheiro glade."
+msgstr "a exibição parcial do pV é definida num ficheiro glade."
 
 #: ../../building.rst:633
 msgid "the callbacks implemented by pP are referenced by the glade file."
@@ -4949,8 +4949,8 @@ msgid ""
 "renderer and is recommended."
 msgstr ""
 "O formatador de relatório XSL requer um XSL para processador PDF para "
-"converter os dados em um ficheiro PDF. Apache FOP é um processador livre e "
-"open-source XSL ->  PDF e é recomendado."
+"converter os dados num ficheiro PDF. Apache FOP é um processador livre e de "
+"código aberto XSL ->  PDF e é recomendado."
 
 #: ../../report.rst:52
 msgid ""
