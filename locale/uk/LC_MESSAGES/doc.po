@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-17 08:50-0500\n"
+"POT-Creation-Date: 2021-01-19 14:01-0500\n"
 "PO-Revision-Date: 2018-09-30 16:37+0000\n"
 "Last-Translator: Володимир Бриняк <bardvv@gmail.com>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../administration.rst:2
 msgid "Database Administration"
@@ -2130,11 +2130,12 @@ msgstr ""
 "може мати *широке тлумачення*, *вузьке тлумачення* або ніякого."
 
 #: ../../editing.rst:48
+#, fuzzy
 msgid ""
 "*Synonyms* allow you to add other families that are synonyms with the "
 "family you are currently editing.  To add a new synonyms type in a family"
 " name in the entry.  You must select a family name from the list of "
-"completions. Once you have selected a family name that you want to add as "
+"completions. Once you have selcted a family name that you want to add as "
 "a synonym click on the Add button next to the synonym list and the "
 "software adds the selected synonym to the list.  To remove a synonym, "
 "select the synonym from the list and click on the Remove button."
@@ -2204,11 +2205,12 @@ msgid ""
 msgstr "Поле *Автор* дозволяє задати ім'я або абревіатуру автора (ів) для роду."
 
 #: ../../editing.rst:83
+#, fuzzy
 msgid ""
 "*Synonyms* allow you to add other genera that are synonyms with the genus"
 " you are currently editing.  To add a new synonyms type in a genus name "
 "in the entry.  You must select a genus name from the list of completions."
-"  Once you have selected a genus name that you want to add as a synonym "
+"  Once you have selcted a genus name that you want to add as a synonym "
 "click on the Add button next to the synonym list and it will add the "
 "selected synonym to the list.  To remove a synonym select the synonym "
 "from the list and click on the Remove button."
@@ -2376,11 +2378,8 @@ msgstr ""
 "кількість (у випадку, якщо не всі рослини переходять до одного "
 "приєднання). Тип матеріалу, що випливає з типу розповсюдження."
 
-#: ../../editing.rst:170 ../../use_cases-jbq.rst ../../use_cases-jbq.rst:669
+#: ../../editing.rst:170 ../../use_cases-jbq.rst:669
 #: ../../use_cases-jbq.rst:704
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:669
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:704
-#: <included from
 msgid "Plant"
 msgstr "Рослина"
 
@@ -7036,28 +7035,18 @@ msgstr ""
 msgid "cut-cut-cut"
 msgstr ""
 
-#: ../../template-letters.rst:55
+#: ../../template-letters.rst:54
 msgid ""
 "*The remainder is even more a template than the above, please cut and "
-"reduce, but make sure that you"
+"reduce, but make sure that you convey the below message, which is about "
+"feedom, sharing, community forming.*"
 msgstr ""
 
-#: ../../template-letters.rst:55
-msgid ""
-"convey the below message, which is about feedom, sharing, community "
-"forming.*"
-msgstr ""
-
-#: ../../template-letters.rst:58
+#: ../../template-letters.rst:57
 msgid ""
 "*You also want to add a few lines about yourself, or you can keep it to "
-"the talk you hope to have"
-msgstr ""
-
-#: ../../template-letters.rst:58
-msgid ""
-"with the conservator, scientific director, or garden manager once you get"
-" invited.*"
+"the talk you hope to have with the conservator, scientific director, or "
+"garden manager once you get invited.*"
 msgstr ""
 
 #: ../../template-letters.rst:60
@@ -7092,7 +7081,7 @@ msgstr ""
 #: ../../template-letters.rst:76
 msgid ""
 "In short: you can consider any GPL licensed software as your own, but "
-"*not* your *exclusive* own."
+"**not** your *exclusive* own."
 msgstr ""
 
 #: ../../template-letters.rst:78
@@ -7190,48 +7179,50 @@ msgstr ""
 msgid ""
 "Many institutions still consider software an investment, an asset that is"
 " not to be shared with others, as if it was some economic good that can't"
-" be duplicated, like gold."
+" be duplicated, like gold, or cryptocurrencies."
 msgstr ""
 
-#: ../../template-letters.rst:126
+#: ../../template-letters.rst:127
 msgid ""
 "As of right now, very few copylefted programs exist for botanic data "
 "management:"
 msgstr ""
 
-#: ../../template-letters.rst:128
+#: ../../template-letters.rst:129
 msgid ""
 "``ghini.desktop``, born as ``bauble.classic`` and made a commons by the "
-"Belize Botanical Garden.  ``ghini.desktop`` has three more components, a "
-"pocket data collecting Android app, a Node.js web server, aggregating "
-"data from different gardens and presenting it geographically, again a "
-"geographic tour app aimed at visitors using the web data aggregator as "
-"its data source.  You can find every Ghini component on GitHub: "
-"http://github.com/Ghini"
+"Belize Botanical Garden.  Next to the bauble-derived ``desktop`` program,"
+" Ghini offers three more components: a ``pocket`` data collecting Android"
+" app, a Node.js ``web`` server, aggregating data from different gardens "
+"and presenting it geographically, finally a geographic ``tour`` app aimed"
+" at visitors using the web data aggregator as its data source.  You can "
+"find every Ghini component on GitHub: http://github.com/Ghini"
 msgstr ""
 
-#: ../../template-letters.rst:135
+#: ../../template-letters.rst:136
 msgid ""
 "Specify 6 and 7, made a Commons by the Kansas University.  A bit complex "
 "to set up, very difficult to configure and tricky to update.  The "
 "institutions I've met who tried it, only the bigger ones, with in-house "
 "software management capabilities manage to successfully use it.  They use"
-" it for very large collections.  Specify is extremely generic, it adapts "
-"to herbaria, seed collections, but also to collections of eggs, organic "
-"material, fossils, preserved dead animals, possibly even viruses, I'm not"
-" sure.  It is this extreme flexibility that makes its configuration such "
-"a complex task.  Specify is also on GitHub: https://github.com/specify "
-"and is licensed as GPLv2+.  I had no luck with their support. Try yours."
+" it for very large collections (millions of elements).  Specify targets "
+"naturaly history rather than living collections, but in this it is "
+"extremely generic: it adapts to herbaria, seed collections, but also to "
+"collections of eggs, organic material, fossils, preserved dead animals, "
+"possibly even viruses, I'm not sure.  It is this extreme flexibility that"
+" makes its configuration a bit of a complex task.  Specify is also on "
+"GitHub: https://github.com/specify and is licensed as GPLv2+.  Support is"
+" provided to US institutions."
 msgstr ""
 
-#: ../../template-letters.rst:145
+#: ../../template-letters.rst:147
 msgid ""
 "Botalista, a French/Swiss cooperation, is GPL as far as rumours go.  Its "
 "development has yet to go public.  It was most active in early 2016, by "
 "end 2018 it seems to have faded away."
 msgstr ""
 
-#: ../../template-letters.rst:148
+#: ../../template-letters.rst:150
 #, python-format
 msgid ""
 "``bauble.web`` is an experimental web server by the author of "
@@ -7242,17 +7233,19 @@ msgid ""
 " be stagnating, and has not yet reached a production-ready stage."
 msgstr ""
 
-#: ../../template-letters.rst:154
+#: ../../template-letters.rst:156
 msgid ""
 "``Taxasoft-BG``, by Eric Gouda, a Dutch botanist, specialist in "
-"Bromeliaceae, collection manager at the Utrecht botanical garden.  It was"
-" Mario Frasca who convinced Eric to publish what he was doing, licensing "
-"it under the GPL, but the repository was not updated after 2016, April "
-"13th and Eric forgot to explicitly specify the license.  You find it on "
-"github: https://github.com/Ejgouda/Taxasoft-BG"
+"Bromeliaceae, collection manager at the Utrecht botanical garden.  "
+"Taxasoft-BG is a typical LAMP (Linux-Apache-MySql-Php) program.  It was "
+"Mario Frasca who convinced Eric to publish what he is doing, to license "
+"it under the AGPL, and to publish as far as possible the most current "
+"version of the program.  Not yet \"production ready\", you find it on "
+"github: https://github.com/Taxasoft/Taxasoft-BG and "
+"https://github.com/Ejgouda/Taxasoft-BG"
 msgstr ""
 
-#: ../../template-letters.rst:160
+#: ../../template-letters.rst:163
 msgid ""
 "``BG-Recorder``, by the BGCI, runs on Windows, and requires Access.  "
 "Developed mostly between 1997 and 2003, it has not been maintained ever "
@@ -7261,34 +7254,34 @@ msgid ""
 " *the free option* for botanic database management."
 msgstr ""
 
-#: ../../template-letters.rst:165
+#: ../../template-letters.rst:168
 msgid ""
 "Of the above, only ``ghini.desktop`` satisfies these conditions: "
 "Copylefted, available, documented, maintained, easy to install and "
 "configure.  Moreover: Cross platform and internationalized."
 msgstr ""
 
-#: ../../template-letters.rst:171
+#: ../../template-letters.rst:174
 msgid "Welcome to Ghini/Bauble"
 msgstr ""
 
-#: ../../template-letters.rst:173
+#: ../../template-letters.rst:176
 #, fuzzy
 msgid "Dear new user,"
 msgstr "додавання нового користувача"
 
-#: ../../template-letters.rst:175
+#: ../../template-letters.rst:178
 msgid "Welcome to Ghini/Bauble."
 msgstr ""
 
-#: ../../template-letters.rst:177
+#: ../../template-letters.rst:180
 msgid ""
 "As the maintainer, I have received your registration for "
 "bauble.classic/ghini.desktop, many thanks for taking your time to fill in"
 " the form."
 msgstr ""
 
-#: ../../template-letters.rst:180
+#: ../../template-letters.rst:183
 msgid ""
 "I see you are using bauble.classic-1.0.55, whereas 1.0.55 is the last "
 "released version of bauble.classic, however, bauble.classic is now "
@@ -7297,7 +7290,7 @@ msgid ""
 "instructions found at http://ghini.rtfd.io"
 msgstr ""
 
-#: ../../template-letters.rst:183
+#: ../../template-letters.rst:186
 msgid ""
 "The registration service says you're not yet using the newest Python2 "
 "version available.  As of 2018-05-01, that is 2.7.15.  Using any older "
@@ -7306,7 +7299,7 @@ msgid ""
 "errors."
 msgstr ""
 
-#: ../../template-letters.rst:185
+#: ../../template-letters.rst:188
 msgid ""
 "Also thank you for enabling the \"sentry\" errors and warnings handler. "
 "With that enabled, Ghini/Bauble will send any error or warning you might "
@@ -7315,21 +7308,21 @@ msgid ""
 "will be present in a subsequent release of the software"
 msgstr ""
 
-#: ../../template-letters.rst:188
+#: ../../template-letters.rst:191
 msgid ""
 "If you haven't already, to enable the sentry and warnings handler, open "
 "the \":config\" page in Ghini and double click on the row "
 "\"bauble.use_sentry_client\"."
 msgstr ""
 
-#: ../../template-letters.rst:190
+#: ../../template-letters.rst:193
 msgid ""
 "I hope Ghini already matches your expectations, if this is not the case, "
 "the whole Ghini community would be very thankful if you took the time to "
 "report your experience with it."
 msgstr ""
 
-#: ../../template-letters.rst:194
+#: ../../template-letters.rst:197
 msgid ""
 "The above is one way to contribute to Ghini's development.  Others are: -"
 " contribute ideas, writing on the bauble google forum "
@@ -7345,23 +7338,23 @@ msgid ""
 "(http://gardens.ghini.me)"
 msgstr ""
 
-#: ../../template-letters.rst:204
+#: ../../template-letters.rst:207
 msgid "I sincerely hope you will enjoy using this copylefted, libre software"
 msgstr ""
 
-#: ../../template-letters.rst:206
+#: ../../template-letters.rst:209
 msgid "Best regards, Mario Frasca"
 msgstr ""
 
-#: ../../template-letters.rst:209
+#: ../../template-letters.rst:212
 msgid "https://ghini.github.io https://github.com/Ghini/ghini.desktop/issues/"
 msgstr ""
 
-#: ../../template-letters.rst:213
+#: ../../template-letters.rst:216
 msgid "Do you want to join Ghini?"
 msgstr ""
 
-#: ../../template-letters.rst:215
+#: ../../template-letters.rst:218
 msgid ""
 "I generally send a note similar to the following, to GitHub members who "
 "\"star\" the project, or to WebLate contributors doing more than one "
@@ -7373,21 +7366,21 @@ msgid ""
 "neighbourhood."
 msgstr ""
 
-#: ../../template-letters.rst:222
+#: ../../template-letters.rst:225
 msgid "Dear GitHub member, student, colleague, translator, botanist,"
 msgstr ""
 
-#: ../../template-letters.rst:224
+#: ../../template-letters.rst:227
 msgid "Thank you warmly for your interest in the Ghini project!"
 msgstr ""
 
-#: ../../template-letters.rst:226
+#: ../../template-letters.rst:229
 msgid ""
 "From your on-line profile on github, I see you're located in Xxxx, is "
 "that correct?"
 msgstr ""
 
-#: ../../template-letters.rst:228
+#: ../../template-letters.rst:231
 msgid ""
 "If you are indeed in Xxxx, you live very close to gardens Yyyy and Zzzz."
 "  Maybe you would consider the following proposition?  All would start by"
@@ -7396,7 +7389,7 @@ msgid ""
 "in switching to ghini.desktop+pocket+tour+web."
 msgstr ""
 
-#: ../../template-letters.rst:233
+#: ../../template-letters.rst:236
 msgid ""
 "The business model within Ghini is that the software is free and you get "
 "it for free, but time is precious and if a garden needs help, they should"
@@ -7405,27 +7398,27 @@ msgid ""
 "friends who would be, I'm sure we can work something out."
 msgstr ""
 
-#: ../../template-letters.rst:238
+#: ../../template-letters.rst:241
 msgid "Let me know where you stand."
 msgstr ""
 
-#: ../../template-letters.rst:240
+#: ../../template-letters.rst:243
 msgid "best regards, and again thanks for all your contributed translations."
 msgstr ""
 
-#: ../../template-letters.rst:242 ../../template-letters.rst:309
+#: ../../template-letters.rst:245 ../../template-letters.rst:312
 msgid "Mario Frasca"
 msgstr ""
 
-#: ../../template-letters.rst:246
+#: ../../template-letters.rst:249
 msgid "Letter to garden network"
 msgstr ""
 
-#: ../../template-letters.rst:248
+#: ../../template-letters.rst:251
 msgid "good morning,"
 msgstr ""
 
-#: ../../template-letters.rst:250
+#: ../../template-letters.rst:253
 msgid ""
 "I wish to establish contact with people within the (eg: council of "
 "botanic gardens), who could be open for examining a proposal.  I am the "
@@ -7437,7 +7430,7 @@ msgid ""
 "to further help develop it, for your and our use."
 msgstr ""
 
-#: ../../template-letters.rst:257
+#: ../../template-letters.rst:260
 msgid ""
 "The Ghini software is software made into a commons, meaning you can "
 "freely copy it, learn from it, and you may enhance it, but you can't "
@@ -7445,15 +7438,15 @@ msgid ""
 " not just discouraged but strictly prohibited."
 msgstr ""
 
-#: ../../template-letters.rst:262
+#: ../../template-letters.rst:265
 msgid "Letter to botanic institution developing proprietary software"
 msgstr ""
 
-#: ../../template-letters.rst:264
+#: ../../template-letters.rst:267
 msgid "Dear Peter, John, James, good morning.  (names of your contact people)"
 msgstr ""
 
-#: ../../template-letters.rst:266
+#: ../../template-letters.rst:269
 msgid ""
 "this is (you), of the Ghini Organization (maybe you want to get in touch "
 "with me before you say this), (introduce how you know each other, you "
@@ -7467,7 +7460,7 @@ msgid ""
 "its development."
 msgstr ""
 
-#: ../../template-letters.rst:274
+#: ../../template-letters.rst:277
 msgid ""
 "Unfortunately most institutions consider software an investment, not to "
 "be shared with others, as if it was an economic good that can't be "
@@ -7475,7 +7468,7 @@ msgid ""
 " copylefted programs for botanic data management:"
 msgstr ""
 
-#: ../../template-letters.rst:279
+#: ../../template-letters.rst:282
 msgid ""
 "ghini.desktop, born as bauble.classic and made a Commons by the Belize "
 "Botanical Garden.  (more recently Bauble regressed to 2008, chose for a "
@@ -7487,7 +7480,7 @@ msgid ""
 "source.  Every Ghini component is on GitHub: http://github.com/Ghini"
 msgstr ""
 
-#: ../../template-letters.rst:286
+#: ../../template-letters.rst:289
 msgid ""
 "specify 6 and 7, made a Commons by the Kansas University. A bit complex "
 "to set up, and very difficult to configure, tricky to update.  the "
@@ -7496,14 +7489,14 @@ msgid ""
 "is also on GitHub: https://github.com/specify"
 msgstr ""
 
-#: ../../template-letters.rst:291
+#: ../../template-letters.rst:294
 msgid ""
 "botalista, a French/Swiss cooperation, is GPL as far as I know, but it "
 "wasn't yet released for public download.  very active around 2016, now "
 "stagnating."
 msgstr ""
 
-#: ../../template-letters.rst:294
+#: ../../template-letters.rst:297
 msgid ""
 "Taxasoft-BG, from Eric Gouda, a Dutch botanist, specialist in "
 "Bromeliaceae, collection manager at the Utrecht botanical garden. it was "
@@ -7515,32 +7508,28 @@ msgid ""
 "/Taxasoft-BG"
 msgstr ""
 
-#: ../../template-letters.rst:301
+#: ../../template-letters.rst:304
 msgid ""
 "Of the above, only ghini.desktop satisfies the conditions: Copylefted, "
 "available, documented, maintained, easy to install and configure.  "
 "moreover: Cross platform, internationalized."
 msgstr ""
 
-#: ../../template-letters.rst:304
+#: ../../template-letters.rst:307
 msgid ""
 "Maybe you can add yourself to the list?  Or your decision makers could "
 "even add your own system? Peter, what's your opinion in this?"
 msgstr ""
 
-#: ../../template-letters.rst:307
+#: ../../template-letters.rst:310
 msgid "Friendly regards,"
 msgstr ""
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:2
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:2
-#: <included from
+#: ../../use_cases-jbq.rst:2
 msgid "Quito Botanical Garden"
 msgstr "Ботанічний сад Кіто"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:4
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:4
-#: <included from
+#: ../../use_cases-jbq.rst:4
 msgid ""
 "At the JBQ, Quito Botanical Garden, we have adopted the Ghini software in"
 " April 2015. Since that time, we have accumulated experience with the "
@@ -7552,15 +7541,11 @@ msgstr ""
 "і ми самі повинні його документувати, щоб забезпечити знання в установі. "
 "Ми з радістю поділяємо це."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:10
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:10
-#: <included from
+#: ../../use_cases-jbq.rst:10
 msgid "Technical"
 msgstr "Технічний"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:12
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:12
-#: <included from
+#: ../../use_cases-jbq.rst:12
 msgid ""
 "We work on GNU/Linux, a platform that many users don't master, and our "
 "database is inside of a remote database management system. This implies "
@@ -7571,15 +7556,11 @@ msgstr ""
 "управління базами даних. Це означає кроки, які не є очевидними для "
 "звичайних кінцевих користувачів."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:16
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:16
-#: <included from
+#: ../../use_cases-jbq.rst:16
 msgid "How to start a program"
 msgstr "Як запустити програму"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:19
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:19
-#: <included from
+#: ../../use_cases-jbq.rst:19
 msgid ""
 "To start a program given its name, hit the |loose_png| key next to Alt, "
 "or click on |10000000000000300000002F89E0224ADF9EC09E_png|, then start "
@@ -7594,15 +7575,11 @@ msgstr ""
 "символ програми |100000000000003100000031BB54CBDFA885EBAC_png|, що "
 "з'являється біля лівих крапок вашого дисплея."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:25
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:25
-#: <included from
+#: ../../use_cases-jbq.rst:25
 msgid "Database server"
 msgstr "Сервер баз даних"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:28
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:28
-#: <included from
+#: ../../use_cases-jbq.rst:28
 msgid ""
 "We chose for a centralised PostgreSQL database server. This way we are "
 "protected from concurrent conflicting changes, and all changes are "
@@ -7614,15 +7591,11 @@ msgstr ""
 "доступні для всіх клієнтів ghini. Нам потрібно було використовувати "
 "аутсорсинг керування сервером бази даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:33
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:33
-#: <included from
+#: ../../use_cases-jbq.rst:33
 msgid "adding a new user"
 msgstr "додавання нового користувача"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:36
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:36
-#: <included from
+#: ../../use_cases-jbq.rst:36
 msgid ""
 "Ghini keeps track of the user performing all sort of edits to the "
 "database, and at the garden, apart from the stable users, we have all "
@@ -7634,9 +7607,7 @@ msgstr ""
 "користувачі, які пишуть в базу даних, і ми вирішили дозволити Ghini "
 "допомогти нам стежити за подіями бази даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:41
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:41
-#: <included from
+#: ../../use_cases-jbq.rst:41
 msgid ""
 "Since we work using PostgreSQL, the users that Ghini stores in the "
 "database history are the database users, not the system users."
@@ -7644,9 +7615,7 @@ msgstr ""
 "Оскільки ми працюємо з PostgreSQL, користувачі, яких зберігає Ghini в "
 "історії бази даних, є користувачі бази даних, а не користувачі системи."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:44
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:44
-#: <included from
+#: ../../use_cases-jbq.rst:44
 msgid ""
 "Each user knows their own password, and only knows that one. Our super-"
 "user, responsible for the database content, also has the ``bauble`` "
@@ -7657,9 +7626,7 @@ msgstr ""
 "``bauble`` вигаданий пароль користувача, який ми використовуємо лише для "
 "створення інших користувачів."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:49
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:49
-#: <included from
+#: ../../use_cases-jbq.rst:49
 msgid ""
 "We do not use account names like ``voluntario``, because such accounts do"
 " not help us associate the name to the person."
@@ -7667,15 +7634,11 @@ msgstr ""
 "Ми не використовуємо назви облікових записів, як ``voluntario``, оскільки"
 " такі облікові записи не допомагають нам пов'язувати ім'я з особами."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:52
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:52
-#: <included from
+#: ../../use_cases-jbq.rst:52
 msgid "— adding a new system user (linux/osx)"
 msgstr "— додавання нового користувача системи (linux/osx)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:55
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:55
-#: <included from
+#: ../../use_cases-jbq.rst:55
 msgid ""
 "Adding a system user is not strictly necessary, as ghini does not use it "
 "in the logs, however, adding a system user allows for separation of "
@@ -7690,9 +7653,7 @@ msgstr ""
 "обліковий запис з кількома налаштованими з'єднаннями, в інших системах ми"
 " маємо один обліковий запис для кожного користувача."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:62
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:62
-#: <included from
+#: ../../use_cases-jbq.rst:62
 msgid ""
 "On systems with one account per user, our users have a single configured "
 "connection, and we hold the database password in the "
@@ -7704,9 +7665,7 @@ msgstr ""
 " даних у файлі ``/home/<account>/.pgpass``. Цей файл є лише читабельним "
 "для власника ``<account>``."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:67
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:67
-#: <included from
+#: ../../use_cases-jbq.rst:67
 msgid ""
 "On systems with a shared account, the user must select their own "
 "connection and type the corresponding password."
@@ -7714,21 +7673,15 @@ msgstr ""
 "У системах із загальним обліковим записом користувач повинен вибрати своє"
 " власне з'єднання та ввести відповідний пароль."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:70
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:70
-#: <included from
+#: ../../use_cases-jbq.rst:70
 msgid "These are the steps to add system users::"
 msgstr "Ось кроки для додавання користувачів системи::"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:76
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:76
-#: <included from
+#: ../../use_cases-jbq.rst:76
 msgid "— adding a new database user"
 msgstr "— додавання нового користувача бази даних"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:79
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:79
-#: <included from
+#: ../../use_cases-jbq.rst:79
 msgid ""
 "Ghini has a very minimal interface to user management, it only works with"
 " postgresql and it very much lacks maintainance.  We have opened issues "
@@ -7740,9 +7693,7 @@ msgstr ""
 " які дозволять нам використовувати його, поки що ми використовуємо "
 "сценарій ``create-role.sh``::"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:96
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:96
-#: <included from
+#: ../../use_cases-jbq.rst:96
 msgid ""
 "The redundant ``alter role`` following the ``create role`` lets us apply "
 "the same script also for correcting existing accounts."
@@ -7750,9 +7701,7 @@ msgstr ""
 "Надлишкова ``alter role`` після `` create role`` дозволяє застосовувати "
 "один і той же сценарій для виправлення існуючих облікових записів."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:99
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:99
-#: <included from
+#: ../../use_cases-jbq.rst:99
 msgid ""
 "Our ghini database is called ``bauble``, and ``bauble`` is also the name "
 "of our database super user, the only user with ``CREATEROLE`` privilege."
@@ -7761,9 +7710,7 @@ msgstr ""
 "суперкористувача нашої бази даних, єдиного користувача з ``CREATEROLE`` "
 "привілеєм."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:103
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:103
-#: <included from
+#: ../../use_cases-jbq.rst:103
 msgid ""
 "For example, the following invocation would create the user ``willem`` "
 "with password ``orange``, on the ``bauble`` database hosted at "
@@ -7772,21 +7719,15 @@ msgstr ""
 "Наприклад, наступний виклик створить користувача ``willem`` з паролем "
 "``orange`` у базі ``bauble``, розміщених на 192.168.5.6::"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:109
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:109
-#: <included from
+#: ../../use_cases-jbq.rst:109
 msgid "Understanding when to update"
 msgstr "Розуміння того, коли оновлювати"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:111
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:111
-#: <included from
+#: ../../use_cases-jbq.rst:111
 msgid "Updating the system"
 msgstr "Оновлення системи"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:114
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:114
-#: <included from
+#: ../../use_cases-jbq.rst:114
 msgid ""
 "Ubuntu updates are a lot lighter and easier than with Windows. So "
 "whenever the system suggests an update, we let it do that. Generally, "
@@ -7797,15 +7738,11 @@ msgstr ""
 "потрібно чекати під час оновлення, ані перезавантажувати після "
 "завершення."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:119
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:119
-#: <included from
+#: ../../use_cases-jbq.rst:119
 msgid "Updating ghini"
 msgstr "Оновлення ghini"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:122
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:122
-#: <included from
+#: ../../use_cases-jbq.rst:122
 msgid ""
 "The first window presented by Ghini looks like this. Normally, you don't "
 "need do anything in this window, just press enter and get into the main "
@@ -7815,9 +7752,7 @@ msgstr ""
 " нічого не потрібно робити, просто натисніть клавішу Enter і потрапите у "
 "головний екран програми."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:128
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:128
-#: <included from
+#: ../../use_cases-jbq.rst:128
 msgid ""
 "Occasionally, at the top of the screen an information text will appear, "
 "telling you that a newer version is available on-line."
@@ -7825,9 +7760,7 @@ msgstr ""
 "Іноді у верхній частині екрана з'являється інформаційний текст, в якому "
 "повідомляється, що нова версія доступна в режимі онлайн."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:133
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:133
-#: <included from
+#: ../../use_cases-jbq.rst:133
 msgid ""
 "The update procedure is simple, and it depends on the operating system "
 "you use, we're not explaining here again."
@@ -7835,9 +7768,7 @@ msgstr ""
 "Процедура оновлення проста, і це залежить від використовуваної вами "
 "операційної системи, ми не пояснюємо тут ще раз."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:136
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:136
-#: <included from
+#: ../../use_cases-jbq.rst:136
 msgid ""
 "It is generally a good idea updating the software.  If in doubt, contact "
 "the author, or write to the group."
@@ -7845,27 +7776,19 @@ msgstr ""
 "Як правило, хороша ідея оновлення програмного забезпечення. Якщо у вас "
 "сумніви, зв'яжіться з автором або напишіть у групу."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:139
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:139
-#: <included from
+#: ../../use_cases-jbq.rst:139
 msgid "understanding ghini initial screen"
 msgstr "розуміння початкового екрану ghini"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:141
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:141
-#: <included from
+#: ../../use_cases-jbq.rst:141
 msgid "Complete screen"
 msgstr "Повний екран"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:144
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:144
-#: <included from
+#: ../../use_cases-jbq.rst:144
 msgid "At the moment of writing, our initial screen looked like this:"
 msgstr "На момент написання наш початковий екран виглядав так:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:148
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:148
-#: <included from
+#: ../../use_cases-jbq.rst:148
 msgid ""
 "Apart from the main application menu, Ghini offers three special "
 "interface sections with information and tools to explore the database."
@@ -7873,15 +7796,11 @@ msgstr ""
 "Крім основного меню додатків, Ghini пропонує три розділи спеціального "
 "інтерфейсу з інформацією та інструментами для вивчення бази даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:152
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:152
-#: <included from
+#: ../../use_cases-jbq.rst:152
 msgid "Numeric overview"
 msgstr "Числовий огляд"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:155
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:155
-#: <included from
+#: ../../use_cases-jbq.rst:155
 msgid ""
 "The table in the right half of the screen presents a summary of all the "
 "registered plants can be observed.  Each entry printed in bold is a link "
@@ -7891,15 +7810,11 @@ msgstr ""
 "зареєстрованих рослин, можна спостерігати. Кожна запис, надрукований "
 "жирним шрифтом, є посиланням на запит, вибравши відповідні об'єкти."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:161
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:161
-#: <included from
+#: ../../use_cases-jbq.rst:161
 msgid "Stored queries"
 msgstr "Збережені запити"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:164
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:164
-#: <included from
+#: ../../use_cases-jbq.rst:164
 msgid ""
 "The lower half of the right hand side contains a set of stored queries.  "
 "While you can edit them to your liking, our hints include selecting those"
@@ -7911,15 +7826,11 @@ msgstr ""
 " приєднань, які не були ідентифіковані за категоріями видів. І один для "
 "історії бази даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:171
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:171
-#: <included from
+#: ../../use_cases-jbq.rst:171
 msgid "Query and action buttons"
 msgstr "Кнопки запиту та дії"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:174
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:174
-#: <included from
+#: ../../use_cases-jbq.rst:174
 msgid ""
 "At the top of this screen you can find the field in which you would enter"
 " your searches."
@@ -7927,9 +7838,7 @@ msgstr ""
 "У верхній частині цього екрана ви можете знайти поле, в яке потрібно "
 "ввести ваші пошуки."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:179
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:179
-#: <included from
+#: ../../use_cases-jbq.rst:179
 msgid ""
 "With the |100000000000001C00000020F4C7873186014F2F_png| button, in the "
 "form of a house, you can return from your searches to the main screen."
@@ -7937,9 +7846,7 @@ msgstr ""
 "З |100000000000001C00000020F4C7873186014F2F_png| кнопки, у вигляді "
 "будинку, ви можете повернутися з ваших пошуків на головний екран."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:182
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:182
-#: <included from
+#: ../../use_cases-jbq.rst:182
 msgid ""
 "With the |100000000000001B000000207EC6F9075C9D3669_png| button, in the "
 "form of an arrow, you can return to your last search."
@@ -7947,9 +7854,7 @@ msgstr ""
 "З |100000000000001B000000207EC6F9075C9D3669_png| кнопки, у формі стрілки,"
 " ви можете повернутися до вашого останнього пошуку."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:184
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:184
-#: <included from
+#: ../../use_cases-jbq.rst:184
 msgid ""
 "With the |100000000000001C0000001FB8A1F75F7A5EF877_png| button, in the "
 "form of a gear, you can start the \"Query Builder\", which helps you "
@@ -7959,9 +7864,7 @@ msgstr ""
 " ви можете запустити \"Query Builder\", який допоможе вам скласти складні"
 " пошуки в простий, графічний спосіб."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:189
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:189
-#: <included from
+#: ../../use_cases-jbq.rst:189
 msgid ""
 "We often have volunteers who only work at the garden for a very short "
 "time. It was with them in mind that we have developed a `hyper-simplified"
@@ -7971,17 +7874,11 @@ msgstr ""
 "Саме це маючи на увазі, ми розробили `hyper-simplified view <goal.html"
 "#hypersimplified-view>`_ на Ghini структури бази даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:193
-#: ../../use_cases-jbq.rst:597
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:193
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:597
-#: <included from
+#: ../../use_cases-jbq.rst:193 ../../use_cases-jbq.rst:597
 msgid "Details"
 msgstr "Деталі"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:196
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:196
-#: <included from
+#: ../../use_cases-jbq.rst:196
 msgid ""
 "The two figures here show all that our temporary collaborators need to "
 "know."
@@ -7989,21 +7886,15 @@ msgstr ""
 "Дві цифри тут показують все, що наші тимчасові співробітники повинні "
 "знати."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:199
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:199
-#: <included from
+#: ../../use_cases-jbq.rst:199
 msgid "Taxonomy & Collection"
 msgstr "Таксономія та колекція"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:199
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:199
-#: <included from
+#: ../../use_cases-jbq.rst:199
 msgid "Garden"
 msgstr "Сад"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:204
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:204
-#: <included from
+#: ../../use_cases-jbq.rst:204
 msgid ""
 "At times, the program gives error messages. |dontpanic_png|, retry, or "
 "report to the developers."
@@ -8011,15 +7902,11 @@ msgstr ""
 "Іноді програма повідомляє про помилку. |dontpanic_png|, повторіть спробу "
 "або повідомте розробникам."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:207
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:207
-#: <included from
+#: ../../use_cases-jbq.rst:207
 msgid "Network problems"
 msgstr "Мережеві проблеми"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:210
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:210
-#: <included from
+#: ../../use_cases-jbq.rst:210
 msgid ""
 "In order to work, the program needs a stable network connection to the "
 "database server. It can happen: you start the program, and it can't "
@@ -8031,21 +7918,15 @@ msgstr ""
 "може підключитися до нашого сервера баз даних. Потім ви отримаєте досить "
 "явне, але дуже погано набираєме повідомлення про помилку."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:217
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:217
-#: <included from
+#: ../../use_cases-jbq.rst:217
 msgid "Just ignore it and try again."
 msgstr "Просто ігноруйте його і повторіть спробу."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:219
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:219
-#: <included from
+#: ../../use_cases-jbq.rst:219
 msgid "Search fails with error"
 msgstr "Пошук не вдається з помилкою"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:222
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:222
-#: <included from
+#: ../../use_cases-jbq.rst:222
 msgid ""
 "Sometimes and without any apparent cause, a search will not run "
 "successfully, and a window with an error message will be displayed. In "
@@ -8055,21 +7936,15 @@ msgstr ""
 "виконуватися, і з'явиться вікно з повідомленням про помилку. У цьому "
 "випадку вам доведеться спробувати виконати той самий пошук ще раз."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:227
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:227
-#: <included from
+#: ../../use_cases-jbq.rst:227
 msgid "An example of such an error message:"
 msgstr "Приклад такого повідомлення про помилку:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:231
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:231
-#: <included from
+#: ../../use_cases-jbq.rst:231
 msgid "Search does not return something I just inserted"
 msgstr "Пошук не повертає те, що я щойно вставив"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:234
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:234
-#: <included from
+#: ../../use_cases-jbq.rst:234
 msgid ""
 "Accession codes starting with zero and composed of just numbers, as for "
 "example ``016489`` are considered by the software as numbers, so if you "
@@ -8081,29 +7956,21 @@ msgstr ""
 "не вкладете рядок пошуку в лапки, будь-який провідний 0 буде знятий і "
 "значення буде не знайдено."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:239
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:239
-#: <included from
+#: ../../use_cases-jbq.rst:239
 msgid "Try again, but enclose your search string in single or double quotes."
 msgstr ""
 "Спробуйте ще раз, але додайте свій пошуковий рядок в одинарні або "
 "подвійні лапки."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:243
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:243
-#: <included from
+#: ../../use_cases-jbq.rst:243
 msgid "Number on the label"
 msgstr "Номер на етикетці"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:243
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:243
-#: <included from
+#: ../../use_cases-jbq.rst:243
 msgid "corresponding search"
 msgstr "відповідний пошук"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:248
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:248
-#: <included from
+#: ../../use_cases-jbq.rst:248
 msgid ""
 "Please note: when you look for a Plant code, not an Accession, the "
 "leading zero becomes optional, so in the above example it's maybe easier "
@@ -8113,9 +7980,7 @@ msgstr ""
 " провідний нуль стає необов'язковим, тому в наведеному вище прикладі може"
 " бути простіше вводити ``16489.1``."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:252
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:252
-#: <included from
+#: ../../use_cases-jbq.rst:252
 msgid ""
 "A serious situation happened once, and we absolutely want to prevent it "
 "from happening again: a user deleted a genus, with everything that was "
@@ -8125,15 +7990,11 @@ msgstr ""
 "цьому: знову користувач видалив рід, все, що було нижче, види і "
 "приєднання та синоніми."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:256
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:256
-#: <included from
+#: ../../use_cases-jbq.rst:256
 msgid "Solving it with user permissions"
 msgstr "Вирішення з правами користувачів"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:259
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:259
-#: <included from
+#: ../../use_cases-jbq.rst:259
 msgid ""
 "We propose to have different connection profiles, associated to different"
 " database users, each user with all needed permissions."
@@ -8142,27 +8003,19 @@ msgstr ""
 "користувачами баз даних, кожен користувач із усіма необхідними правами "
 "доступу."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:263
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:263
-#: <included from
+#: ../../use_cases-jbq.rst:263
 msgid "Full permission (BD-JBQ)"
 msgstr "Повний дозвіл (BD-JBQ)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:263
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:263
-#: <included from
+#: ../../use_cases-jbq.rst:263
 msgid "Only qualified personnel get this kind of access."
 msgstr "Тільки кваліфікований персонал отримує такий доступ."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:268
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:268
-#: <included from
+#: ../../use_cases-jbq.rst:268
 msgid "Insert and update (BD-JBQ-limitado)"
 msgstr "Вставити та оновити (BD-JBQ-limitado)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:266
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:266
-#: <included from
+#: ../../use_cases-jbq.rst:266
 msgid ""
 "We use this one for those users who come help us for a limited time, and "
 "who did not get a complete introduction to database concepts. It is meant"
@@ -8172,21 +8025,15 @@ msgstr ""
 "протягом обмеженого часу, і які не отримали повного введення в концепції "
 "бази даних. Вона призначена для запобігання серйозних помилок."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:271
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:271
-#: <included from
+#: ../../use_cases-jbq.rst:271
 msgid "Read only (BD-JBQ-lectura)"
 msgstr "Тільки для читання (BD-JBQ-lectura)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:271
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:271
-#: <included from
+#: ../../use_cases-jbq.rst:271
 msgid "it can be shared with anyone visiting the garden"
 msgstr "це може бути доступним для всіх, хто відвідує сад"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:273
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:273
-#: <included from
+#: ../../use_cases-jbq.rst:273
 msgid ""
 "You select the connection at start-up, and the software asks you for the "
 "password corresponding to the connection you selected."
@@ -8194,9 +8041,7 @@ msgstr ""
 "Ви вибираєте підключення під час запуску, а програма запитає вас про "
 "пароль, що відповідає обраному вами з'єднанню."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:278
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:278
-#: <included from
+#: ../../use_cases-jbq.rst:278
 msgid ""
 "If you want to review the details of the connection, click on the ▶ next "
 "to 'Connection Details', it will change to ▼, and the connection window "
@@ -8206,9 +8051,7 @@ msgstr ""
 "із пунктом «Подробиці підключення», вона змінюється на ▼, і вікно "
 "з'єднання відображатиметься як одне з наступних:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:286
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:286
-#: <included from
+#: ../../use_cases-jbq.rst:286
 msgid ""
 "As you can see, we are connecting to the same database server, each "
 "connection uses the same database on the server, but with different user."
@@ -8216,15 +8059,11 @@ msgstr ""
 "Як бачимо, ми підключаємося до того ж сервера баз даних, кожен зв'язок "
 "використовує ту саму базу даних на сервері, але з іншим користувачем."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:290
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:290
-#: <included from
+#: ../../use_cases-jbq.rst:290
 msgid "Thinking further about it"
 msgstr "Думаю далі про це"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:293
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:293
-#: <included from
+#: ../../use_cases-jbq.rst:293
 msgid ""
 "On the other hand, we are questioning if it is at all appropriate, "
 "letting any user delete something at such high level as a family, or a "
@@ -8236,9 +8075,7 @@ msgstr ""
 " або рід, або, у зв'язку з цим, щось пов'язане з приєднаннями до "
 "колекції."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:298
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:298
-#: <included from
+#: ../../use_cases-jbq.rst:298
 msgid ""
 "The ghini way to question the software features, is by opening a "
 "`corresponding issue "
@@ -8248,9 +8085,7 @@ msgstr ""
 "програмного забезпечення, полягає у відкритті відповідної проблеми "
 "<https://github.com/Ghini/ghini.desktop/issues/218> `_."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:302
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:302
-#: <included from
+#: ../../use_cases-jbq.rst:302
 msgid ""
 "When contacting the developers, they will definitely ask for technical "
 "information, or at least to see a screen-shot.  Help them help you."
@@ -8258,15 +8093,11 @@ msgstr ""
 "При зверненні до розробників вони обов'язково просять технічну інформацію"
 " або, принаймні, побачити екранний знімок. Допоможіть їм допомогти вам."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:305
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:305
-#: <included from
+#: ../../use_cases-jbq.rst:305
 msgid "Taking a screen-shot"
 msgstr "Зйомка екрану"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:308
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:308
-#: <included from
+#: ../../use_cases-jbq.rst:308
 msgid ""
 "On Linux there are three ways to create a screen-shot, all involve "
 "hitting the 'PrtSc' key.  The most practical one is possibly hitting the "
@@ -8282,15 +8113,11 @@ msgstr ""
 "скопійована в буфер обміну. Вставте його в електронний лист, який ви "
 "пишете, або в чаті, де розробники намагатимуться вам допомогти."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:316
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:316
-#: <included from
+#: ../../use_cases-jbq.rst:316
 msgid "Where are the logs"
 msgstr "Де знаходяться журнали"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:319
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:319
-#: <included from
+#: ../../use_cases-jbq.rst:319
 msgid ""
 "Ghini continuously saves a very informative log file, in the "
 "``~/.bauble/bauble.log`` file.  Don't bother opening it, just send it "
@@ -8300,15 +8127,11 @@ msgstr ""
 "``~/.bauble/bauble.log``. Не хвилюйтеся відкриваючи його, просто "
 "надішліть його. Він містить багато технічної інформації."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:323
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:323
-#: <included from
+#: ../../use_cases-jbq.rst:323
 msgid "Continuous unmanned alerting"
 msgstr "Безперервне безпілотне оповіщення"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:326
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:326
-#: <included from
+#: ../../use_cases-jbq.rst:326
 msgid ""
 "An other option is to activate the sentry handler. It will notify our "
 "sentry server of any serious situations in the software.  If you "
@@ -8319,9 +8142,7 @@ msgstr ""
 "ви зареєструвалися, розробники будуть знати, як з вами зв'язуватися, якщо"
 " це необхідно."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:331
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:331
-#: <included from
+#: ../../use_cases-jbq.rst:331
 msgid ""
 "To the healthy paranoid: we're not monitoring what you're doing, we're "
 "monitoring how our software works.  You can always opt out."
@@ -8330,9 +8151,7 @@ msgstr ""
 "за тим, як працює наше програмне забезпечення. Ви завжди можете "
 "відмовитися."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:334
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:334
-#: <included from
+#: ../../use_cases-jbq.rst:334
 msgid ""
 "You activate the Sentry handler in the ``:prefs`` page: look for the row "
 "with name ``bauble.use_sentry_handler``, if the value is not what you "
@@ -8342,27 +8161,19 @@ msgstr ""
 "назвою ``bauble.use_sentry_handler``, якщо значення не є тим, що ви "
 "хочете, двічі натисніть по лінії, і вона зміниться на інше значення."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:340
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:340
-#: <included from
+#: ../../use_cases-jbq.rst:340
 msgid "Taxonomy"
 msgstr "Таксономія"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:342
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:342
-#: <included from
+#: ../../use_cases-jbq.rst:342
 msgid "Introduction"
 msgstr "Введення"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:344
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:344
-#: <included from
+#: ../../use_cases-jbq.rst:344
 msgid "Orchidaceae taxonomic complexity"
 msgstr "Таксономічна складність орхідей"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:347
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:347
-#: <included from
+#: ../../use_cases-jbq.rst:347
 msgid ""
 "At the JBQ, we work most of all with orchids, family Orchidaceae, one of "
 "the largest plant families, with no less than 850 genera, organized "
@@ -8375,9 +8186,7 @@ msgstr ""
 "згідно з Dressler - приблизно 70 субтрибами, 22 трибами, 5 підродин. Як "
 "ми представляємо цю інформацію, це не є очевидним і потребує пояснення."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:352
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:352
-#: <included from
+#: ../../use_cases-jbq.rst:352
 msgid ""
 "The taxonomy of the Orchidaceae family is continuously being reviewed. "
 "Genera get added, refused, reorganized, recognized as synonyms, some "
@@ -8395,21 +8204,15 @@ msgstr ""
 "спеціально, але це є частиною нашої повсякденної роботи, і все це можна "
 "зберегти в нашій базі даних Ghini."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:360
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:360
-#: <included from
+#: ../../use_cases-jbq.rst:360
 msgid "Identifying at rank Genus, or Family"
 msgstr "Визначення по рангу роду або сім'ї"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:362
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:362
-#: <included from
+#: ../../use_cases-jbq.rst:362
 msgid "At rank genus"
 msgstr "По родовому рангу"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:365
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:365
-#: <included from
+#: ../../use_cases-jbq.rst:365
 #, fuzzy
 msgid ""
 "Ghini-3.1 prescribes that an accession is identified at rank species, in "
@@ -8424,9 +8227,7 @@ msgstr ""
 "забезпеченням. Доки це не буде зафіксовано, ми покладаємось на "
 "встановлені практики."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:371
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:371
-#: <included from
+#: ../../use_cases-jbq.rst:371
 msgid ""
 "If an accession is identified at rank genus, we add a fictive species in "
 "that genus, we don't specify its species epithet (we don't know that) and"
@@ -8438,21 +8239,15 @@ msgstr ""
 " додаємо незареєстрований епітет у розділі інфрачервоної інформації, як "
 "це:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:378
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:378
-#: <included from
+#: ../../use_cases-jbq.rst:378
 msgid "When displayed in a search result, it shows like this:"
 msgstr "Коли він відображається в результатах пошуку, він виглядає так:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:382
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:382
-#: <included from
+#: ../../use_cases-jbq.rst:382
 msgid "At rank family"
 msgstr "По сімейному рангу"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:385
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:385
-#: <included from
+#: ../../use_cases-jbq.rst:385
 msgid ""
 "If an accession is only identified at rank family, we need a fictive "
 "genus, to which we can add the fictive species. Since our garden is "
@@ -8464,9 +8259,7 @@ msgstr ""
 "чергу орієнтується на Orchidaceae, ми використовуємо дуже коротке ім'я "
 "**Zzz** для вигаданого роду в сім'ї, як це:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:392
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:392
-#: <included from
+#: ../../use_cases-jbq.rst:392
 msgid ""
 "The current maintainer suggests to use the prefix **Zzz-** and behind the"
 " prefix to write the family name, possibly removing the trailing **e**.  "
@@ -8479,9 +8272,7 @@ msgstr ""
 "які містять назви родів, коли ви, як для речовини, що закінчується "
 "**aceae**."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:398
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:398
-#: <included from
+#: ../../use_cases-jbq.rst:398
 msgid ""
 "Apart from the aforementioned **Zzz** genus in the Orchidaceae family, we"
 " follow this suggested practice, so for example our collection would "
@@ -8491,9 +8282,7 @@ msgstr ""
 "запропонованої практики, тому, наприклад, наша колекція включатиме *Zzz-"
 "cactacea* або *Zzz-bromeliacea*."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:402
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:402
-#: <included from
+#: ../../use_cases-jbq.rst:402
 msgid ""
 "Remember: our **Zzz** genus is a fictive genus in the **Orchidaceae** "
 "family, do not use it as unspecified genus in other families."
@@ -8501,9 +8290,7 @@ msgstr ""
 "Пам'ятайте: наш **Zzz** рід є вигаданим родом у сім'ї **Orchidaceae**, не"
 " використовуйте його як невизначений рід в інших сім'ях."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:406
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:406
-#: <included from
+#: ../../use_cases-jbq.rst:406
 msgid ""
 "Identifying at a rank that is not allowed by the software (eg: Subtribe, "
 "or Subfamily)"
@@ -8511,15 +8298,11 @@ msgstr ""
 "Визначення за рангом, яке не дозволено програмним забезпеченням "
 "(наприклад: Subtribe або підсемейство)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:408
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:408
-#: <included from
+#: ../../use_cases-jbq.rst:408
 msgid "At rank subtribe"
 msgstr "По рангу субтриб"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:411
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:411
-#: <included from
+#: ../../use_cases-jbq.rst:411
 msgid ""
 "We sometimes can't identify a taxon at rank genus, but we do manage to be"
 " more precise than just \"it's an orchid\". Quite often we are able to "
@@ -8529,9 +8312,7 @@ msgstr ""
 "бути точнішим, ніж просто \"це орхідея\". Часто ми можемо вказати "
 "субтриб, це корисно, коли ви хочете виготовити гібриди."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:416
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:416
-#: <included from
+#: ../../use_cases-jbq.rst:416
 msgid ""
 "The software does not let us store ranks which are intermediate between "
 "family and genus, so we need to invent something, and this is what we do:"
@@ -8539,9 +8320,7 @@ msgstr ""
 "Програмне забезпечення не дозволяє нам зберігати ряди, які є проміжними "
 "між сім'єю та родом, тому нам потрібно щось винайти, і це ми робимо:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:420
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:420
-#: <included from
+#: ../../use_cases-jbq.rst:420
 msgid ""
 "We insert a fictive genus, naming it as the subtribe, prefixing it with "
 "'Zzx-', like in this example:"
@@ -8549,15 +8328,11 @@ msgstr ""
 "Ми вставляємо вигаданий рід, називаючи його сабтриб, передусім називаючи "
 "його 'Zzx-', як у цьому прикладі:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:425
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:425
-#: <included from
+#: ../../use_cases-jbq.rst:425
 msgid "This Zzx-Laeliinae is some genus in the Laeliinae subtribe."
 msgstr "Це Zzx-Laeliinae є деяким родом в Laeliinae субтрибу."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:427
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:427
-#: <included from
+#: ../../use_cases-jbq.rst:427
 msgid ""
 "In order to be able to select genera by subtribe, we also add a note to "
 "the Zzx-Laeliinae fictive genus as well as for all real genera in that "
@@ -8568,15 +8343,11 @@ msgstr ""
 "родів у цьому підзаголовоку, примітку категорії subtribus, відзначимо "
 "значення імені субтиба."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:432
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:432
-#: <included from
+#: ../../use_cases-jbq.rst:432
 msgid "This allows for queries like:"
 msgstr "Це дозволяє виконувати такі запити, як:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:436
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:436
-#: <included from
+#: ../../use_cases-jbq.rst:436
 msgid ""
 "We are very much looking forward to seeing that `issue-9 "
 "<https://github.com/Bauble/bauble.classic/issues/9>`_ solved!"
@@ -8584,15 +8355,11 @@ msgstr ""
 "Ми дуже з нетерпінням чекаємо цього `issue-9 "
 "<https://github.com/Bauble/bauble.classic/issues/9>`_ вирішено!"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:439
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:439
-#: <included from
+#: ../../use_cases-jbq.rst:439
 msgid "At rank subfamily, tribe"
 msgstr "По рангу підродини, триба"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:442
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:442
-#: <included from
+#: ../../use_cases-jbq.rst:442
 msgid ""
 "Just as we reserved the prefix Zzx- for subtribe, we reserve the prefixes"
 " Zzy- for tribe, Zzw- for subfamily."
@@ -8600,9 +8367,7 @@ msgstr ""
 "Оскільки ми зарезервували префікс Zzx- для субтрибу, ми зберігаємо "
 "префікси Zzy для трибу, Zzw- для підродини."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:445
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:445
-#: <included from
+#: ../../use_cases-jbq.rst:445
 msgid ""
 "In particular, the subfamily information is relevant, because there are "
 "subfamilies within the Orchidaceae family which are not further "
@@ -8611,21 +8376,15 @@ msgstr ""
 "Зокрема інформація підродини є актуальною, оскільки в сімействах "
 "Orchidaceae є підродини, які ще не розділені."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:449
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:449
-#: <included from
+#: ../../use_cases-jbq.rst:449
 msgid "Editing the Accession identification - the Species details"
 msgstr "Редагування ідентифікації приєднання - відомості виду"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:451
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:451
-#: <included from
+#: ../../use_cases-jbq.rst:451
 msgid "Placeholder species for individual accessions"
 msgstr "Покажчик місця заповнення видів для окремих приєднань"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:454
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:454
-#: <included from
+#: ../../use_cases-jbq.rst:454
 msgid ""
 "Scenario one describes the identification of a single accession, which "
 "had been associated to a \"generic\", placeholder species, something like"
@@ -8634,9 +8393,7 @@ msgstr ""
 "Сценарій описує ідентифікацію єдиного приєднання, яке було пов'язане з "
 "\"родовим\", заповнювачем видів, щось типу “*Zzz* sp” або “*Vanda* sp”;"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:458
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:458
-#: <included from
+#: ../../use_cases-jbq.rst:458
 msgid ""
 "In this case, when the plant species becomes known, we change the "
 "association in the accession, selecting a different species."
@@ -8644,9 +8401,7 @@ msgstr ""
 "У цьому випадку, коли виявляється вид рослини, ми змінюємо асоціацію при "
 "приєднанні, вибираючи інший вид."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:463
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:463
-#: <included from
+#: ../../use_cases-jbq.rst:463
 msgid ""
 "We do not edit the species, because there might be totally unrelated "
 "accessions connected to the same placeholder species."
@@ -8654,15 +8409,11 @@ msgstr ""
 "Ми не редагуємо види, оскільки можуть бути абсолютно незв'язані "
 "приєднання, пов'язані з тими ж типами заповнювачів."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:466
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:466
-#: <included from
+#: ../../use_cases-jbq.rst:466
 msgid "Unknown species for multiple accessions"
 msgstr "Невідомі види для численних приєднань"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:469
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:469
-#: <included from
+#: ../../use_cases-jbq.rst:469
 msgid ""
 "A different case is when we have a whole batch of accessions, all "
 "obviously the same species, but we haven't been able to identify it. In "
@@ -8676,9 +8427,7 @@ msgstr ""
 "кшталт “*Zzz* sp-59”, бажано додати ім'я таксономіста, який створив "
 "асоціацію."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:475
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:475
-#: <included from
+#: ../../use_cases-jbq.rst:475
 msgid ""
 "A species like “*Vanda* sp-018599” is not a placeholder species, it is a "
 "very concrete species, which we haven't yet identified."
@@ -8686,9 +8435,7 @@ msgstr ""
 "Вид, як  “*Vanda* sp-018599”, не є заповнювачем, це дуже конкретний вид, "
 "який ми ще не визначили."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:480
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:480
-#: <included from
+#: ../../use_cases-jbq.rst:480
 msgid ""
 "In this case, when the species gets identified (and it could even be a "
 "species nova), we directly edit the species, so all accessions that refer"
@@ -8698,21 +8445,15 @@ msgstr ""
 "nova), ми безпосередньо редагуємо вид, тому всі приєднання, які належать "
 "до нього, отримують зміни."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:484
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:484
-#: <included from
+#: ../../use_cases-jbq.rst:484
 msgid "A new plants is relative to a species not yet in our collection."
 msgstr "Нові рослини відносяться до виду, ще не в нашій колекції."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:486
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:486
-#: <included from
+#: ../../use_cases-jbq.rst:486
 msgid "Last minute species"
 msgstr "Остання хвилина видів"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:489
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:489
-#: <included from
+#: ../../use_cases-jbq.rst:489
 msgid ""
 "We start this from the Accession window and it's very simple, just click "
 "on the **+** next to the species name, we get into the Species window."
@@ -8720,21 +8461,15 @@ msgstr ""
 "Ми починаємо це з вікна приєднання, і це дуже просто, просто натисніть "
 "**+** поруч із назвою виду, ми потрапляємо у вікно види."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:493
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:493
-#: <included from
+#: ../../use_cases-jbq.rst:493
 msgid "Adding a species and using online taxonomic services"
 msgstr "Додавання виду та використання онлайн-таксономічних послуг"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:495
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:495
-#: <included from
+#: ../../use_cases-jbq.rst:495
 msgid "Adding a new species — the plant list."
 msgstr "Додавання нового виду - список рослин."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:498
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:498
-#: <included from
+#: ../../use_cases-jbq.rst:498
 msgid ""
 "We start the obvious way: type the genus epithet, possibly select it from"
 " the completion list, then type the species epithet, or at least your "
@@ -8744,9 +8479,7 @@ msgstr ""
 "його з списку завершень, потім введіть епітет виду або, принаймні, "
 "найкращий припущення."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:504
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:504
-#: <included from
+#: ../../use_cases-jbq.rst:504
 msgid ""
 "Next to the species epithet field there's a small button, |green_ball|, "
 "which connects us to the plant list.  Click on it, a message area appears"
@@ -8756,9 +8489,7 @@ msgstr ""
 "з'єднує нас із списком рослин. Натисніть на неї, у верхній частині вікна "
 "з'явиться повідомлення."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:510
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:510
-#: <included from
+#: ../../use_cases-jbq.rst:510
 msgid ""
 "Depending on the speed of your internet connection, but also on how close"
 " your best guess is to a correct published name, the top area will change"
@@ -8768,35 +8499,25 @@ msgstr ""
 "наскільки правильно опубліковане ім'я, верхня область зміниться на щось "
 "подібне:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:516
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:516
-#: <included from
+#: ../../use_cases-jbq.rst:516
 msgid "Accept the hint and it will be as if you had typed the data yourself."
 msgstr "Прийміть підказку, і це буде так, ніби ви самі набрали дані."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:520
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:520
-#: <included from
+#: ../../use_cases-jbq.rst:520
 msgid "Reviewing a whole selection — TNRS."
 msgstr "Перегляд цілого вибору - TNRS."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:523
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:523
-#: <included from
+#: ../../use_cases-jbq.rst:523
 msgid ""
 "This is described in the manual, it's extremely useful, don't forget "
 "about it."
 msgstr "Це описано в посібнику, це надзвичайно корисно, не забувайте про це."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:528
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:528
-#: <included from
+#: ../../use_cases-jbq.rst:528
 msgid "Let the database fit the garden"
 msgstr "Нехай база даних підходить до саду"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:530
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:530
-#: <included from
+#: ../../use_cases-jbq.rst:530
 msgid ""
 "A never-ending task is reviewing what we have in the garden and have it "
 "match what we have in the database."
@@ -8804,15 +8525,11 @@ msgstr ""
 "Невичерпне завдання - переглянути те, що ми маємо в саду, і поєднати його"
 " з базами."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:533
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:533
-#: <included from
+#: ../../use_cases-jbq.rst:533
 msgid "Initial status and variable resources"
 msgstr "Початковий статус і змінні ресурси"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:536
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:536
-#: <included from
+#: ../../use_cases-jbq.rst:536
 msgid ""
 "When we adopted ghini, we imported into it all that was properly "
 "described in a filemaker database. That database focused solely on "
@@ -8826,9 +8543,7 @@ msgstr ""
 "зустрічаємо помічені рослини в саду, які ніколи не були вставлені в базу "
 "даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:542
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:542
-#: <included from
+#: ../../use_cases-jbq.rst:542
 msgid ""
 "From time to time, we manage to get resources to review the garden, "
 "comparing it to the collection in the database, and the main activity is "
@@ -8842,9 +8557,7 @@ msgstr ""
 "помітити її місце розташування, Всі завдання, описані в решті частини "
 "цього розділу."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:548
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:548
-#: <included from
+#: ../../use_cases-jbq.rst:548
 msgid ""
 "The small Android app ghini.pocket was added to the Ghini family while a "
 "Ghini programmer was here in Quito.  It helps us take a snapshot of the "
@@ -8856,15 +8569,11 @@ msgstr ""
 "бази даних на місці під час прогулянки в саду, також це дозволяє дуже "
 "швидку інвентаризацію."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:553
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:553
-#: <included from
+#: ../../use_cases-jbq.rst:553
 msgid "Inventory procedure"
 msgstr "Процедури інвентаризації"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:556
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:556
-#: <included from
+#: ../../use_cases-jbq.rst:556
 msgid ""
 "We start ghini.pocket, we write down the name of the location where we "
 "will be conducting the inventory, for example (INV 1) for greenhouse 1.  "
@@ -8876,9 +8585,7 @@ msgstr ""
 "сканування, якщо на рослині є штрих-код або QR-код) код приєднання, і ми "
 "розглянемо його в ghini.pocket."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:561
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:561
-#: <included from
+#: ../../use_cases-jbq.rst:561
 msgid ""
 "A side effect of performing the search is that ghini.pocket writes the "
 "date with time, location and the code looked for in a text file that can "
@@ -8888,9 +8595,7 @@ msgstr ""
 "часом, розташуванням та пошуковим кодом у текстовому файлі, який пізніше "
 "можна буде імпортувати до бази даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:565
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:565
-#: <included from
+#: ../../use_cases-jbq.rst:565
 msgid ""
 "For a greenhouse with around 1000 plants our estimates suggest you will "
 "need two days, working at relaxed pace, from 8:00 am to 5:00 pm."
@@ -8898,9 +8603,7 @@ msgstr ""
 "Для оранжереї приблизно з 1000 рослин наші оцінки вказують на те, що вам "
 "доведеться спокійно працювати два дні з 8:00 до 17:00."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:569
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:569
-#: <included from
+#: ../../use_cases-jbq.rst:569
 msgid ""
 "After having imported the file generated by ghini.pocket, it is easy to "
 "reveal which plants are missing. For example: If we did the inventory of "
@@ -8910,9 +8613,7 @@ msgstr ""
 "рослини відсутні. Наприклад: якщо ми провели інвентаризацію INV3 з 4 по 5"
 " вересня, це відповідний пошук::"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:576
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:576
-#: <included from
+#: ../../use_cases-jbq.rst:576
 msgid ""
 "All of these plants can be marked as dead, or lost, according to garden "
 "policy."
@@ -8920,15 +8621,11 @@ msgstr ""
 "Усі ці рослини можуть бути позначені як мертві або втрачені відповідно до"
 " садової політики."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:579
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:579
-#: <included from
+#: ../../use_cases-jbq.rst:579
 msgid "Visualizing the need of taxonomic attention"
 msgstr "Візуалізуючи потребу таксономічної уваги"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:582
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:582
-#: <included from
+#: ../../use_cases-jbq.rst:582
 msgid ""
 "Our protocol includes one more detail intended to visually highlight "
 "plants that need the attention of a taxonomist."
@@ -8936,9 +8633,7 @@ msgstr ""
 "Наш протокол містить ще одну деталь, призначену для візуального виділення"
 " рослин, які потребують уваги таксономіста."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:587
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:587
-#: <included from
+#: ../../use_cases-jbq.rst:587
 msgid ""
 "A plant that only appears in our data base identified at family level or "
 "that wasn't yet the database receives a visual signal (e.g.: a wooden or "
@@ -8954,73 +8649,51 @@ msgstr ""
 "таксоном, під час екскурсії по оранжереї, може швидко їх помістити і, "
 "можливо, продовжувати додавати свою ідентифікацію в базу даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:595
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:595
-#: <included from
+#: ../../use_cases-jbq.rst:595
 msgid "Naming convention in garden locations"
 msgstr "Найменування конвенції в місцях саду"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:601
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:601
-#: <included from
+#: ../../use_cases-jbq.rst:601
 msgid "description"
 msgstr "опис"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:603
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:603
-#: <included from
+#: ../../use_cases-jbq.rst:603
 msgid "Reserved to cactus plants next to the orchids exposition glasshouses."
 msgstr "Резервний для рослин кактуса поряд з експозицією орхідей теплиць."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:606
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:606
-#: <included from
+#: ../../use_cases-jbq.rst:606
 msgid "Nepenthaceae exibition"
 msgstr "Виявлення непентаних"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:608
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:608
-#: <included from
+#: ../../use_cases-jbq.rst:608
 msgid ""
 "orquidearios de calor en el jardín (1A a 9C son lugares especificos entre"
 " del orquideario)"
 msgstr "теплі орхідеї в саду (від 1А до 9С є конкретні місця між орхідею)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:611
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:611
-#: <included from
+#: ../../use_cases-jbq.rst:611
 msgid ""
 "orquidearios de frío en el jardín (1A a 5I son lugares específicos dentro"
 " del orquideario)"
 msgstr "холодні орхідеї в саду (від 1А до 5I - конкретні місця в саду орхідей)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:614
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:614
-#: <included from
+#: ../../use_cases-jbq.rst:614
 msgid "invernadero 1 (calor)"
 msgstr "теплиця 1 (тепло)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:616
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:616
-#: <included from
+#: ../../use_cases-jbq.rst:616
 msgid "invernadero 2 (frío)"
 msgstr "теплиця 2 (холодно)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:618
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:618
-#: <included from
+#: ../../use_cases-jbq.rst:618
 msgid "invernadero 3 (calor)"
 msgstr "теплиця 3 (тепло)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:621
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:621
-#: <included from
+#: ../../use_cases-jbq.rst:621
 msgid "Adding an Accession for a Plant"
 msgstr "Додавання приєднання для рослини"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:623
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:623
-#: <included from
+#: ../../use_cases-jbq.rst:623
 msgid ""
 "Obviously we keep increasing our collection, with plants coming from "
 "commercial sources, or collected from the wild, more rarely coming from "
@@ -9032,9 +8705,7 @@ msgstr ""
 "виходять з експедицій у віддалені райони нашої країни, або ми отримуємо "
 "рослини, які були незаконно зібрані."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:628
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:628
-#: <included from
+#: ../../use_cases-jbq.rst:628
 msgid ""
 "Sometimes we have to add plants to the digital collection, just because "
 "we have them physically, found in the garden, with or without its label, "
@@ -9044,15 +8715,11 @@ msgstr ""
 "їх фізично знаходимо в саду з міткою або без неї, але без їхнього "
 "цифрового аналога."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:632
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:632
-#: <included from
+#: ../../use_cases-jbq.rst:632
 msgid "Existing plant, found in the garden with its own label"
 msgstr "Існуюча рослина, знайдена в саду з власною етикеткою"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:635
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:635
-#: <included from
+#: ../../use_cases-jbq.rst:635
 msgid ""
 "This activity starts with a plant, which was found at a specific garden "
 "location, an accession label, and the knowledge that the accession code "
@@ -9062,9 +8729,7 @@ msgstr ""
 "саду, а також знак приєднання та знання про те, що код входження не "
 "знаходиться в базі даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:647
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:647
-#: <included from
+#: ../../use_cases-jbq.rst:647
 msgid ""
 "For this example, let's assume we are going to insert this information in"
 " the database."
@@ -9072,33 +8737,23 @@ msgstr ""
 "Для цього прикладу, припустимо, ми будемо вставляти цю інформацію в базу "
 "даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:651
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:651
-#: <included from
+#: ../../use_cases-jbq.rst:651
 msgid "Accession"
 msgstr "Приєднання"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:651
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:651
-#: <included from
+#: ../../use_cases-jbq.rst:651
 msgid "Species"
 msgstr "Вид"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:651
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:651
-#: <included from
+#: ../../use_cases-jbq.rst:651
 msgid "Location"
 msgstr "Розташування"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:653
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:653
-#: <included from
+#: ../../use_cases-jbq.rst:653
 msgid "Invernadero 1 (calor)"
 msgstr "Теплиця 1 (тепло)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:656
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:656
-#: <included from
+#: ../../use_cases-jbq.rst:656
 msgid ""
 "We go straight into the Accession Editor, start typing the species name "
 "in the corresponding field.  Luckily, the species was already in the "
@@ -9109,9 +8764,7 @@ msgstr ""
 "відповідному полі. На щастя, цей вид вже був у базі даних, інакше ми "
 "використали б кнопку **Додати** біля поля введення."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:663
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:663
-#: <included from
+#: ../../use_cases-jbq.rst:663
 msgid ""
 "We select the correct species, and we fill in a couple more fields, "
 "leaving the rest to the default values:"
@@ -9119,47 +8772,27 @@ msgstr ""
 "Ми вибираємо правильний вид, і ми заповнюємо ще пару полів, залишивши "
 "решту до значень за замовчуванням:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:667
-#: ../../use_cases-jbq.rst:702
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:667
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:702
-#: <included from
+#: ../../use_cases-jbq.rst:667 ../../use_cases-jbq.rst:702
 msgid "Accession ID"
 msgstr "ID приєднання"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:667
-#: ../../use_cases-jbq.rst:702
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:667
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:702
-#: <included from
+#: ../../use_cases-jbq.rst:667 ../../use_cases-jbq.rst:702
 msgid "Type of Material"
 msgstr "Тип матеріалу"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:667
-#: ../../use_cases-jbq.rst:702
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:667
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:702
-#: <included from
+#: ../../use_cases-jbq.rst:667 ../../use_cases-jbq.rst:702
 msgid "Quantity"
 msgstr "Кількість"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:667
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:667
-#: <included from
+#: ../../use_cases-jbq.rst:667
 msgid "Provenance"
 msgstr "Походження"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:669
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:669
-#: <included from
+#: ../../use_cases-jbq.rst:669
 msgid "Unknown"
 msgstr "Невідомо"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:672
-#: ../../use_cases-jbq.rst:707
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:672
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:707
-#: <included from
+#: ../../use_cases-jbq.rst:672 ../../use_cases-jbq.rst:707
 msgid ""
 "After this, we continue to the Plant editor, by clicking on **Add "
 "Plants**."
@@ -9167,9 +8800,7 @@ msgstr ""
 "Після цього ми продовжуємо в редакторі рослин, натиснувши кнопку **Додати"
 " рослини**."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:675
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:675
-#: <included from
+#: ../../use_cases-jbq.rst:675
 msgid ""
 "We do not fill in the Accession's \"**Intended Locations**\", because we "
 "don't know what was the original intention when the plant was first "
@@ -9179,29 +8810,21 @@ msgstr ""
 "що ми не знаємо, що було первісним наміром, коли рослина була вперше "
 "придбана."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:679
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:679
-#: <included from
+#: ../../use_cases-jbq.rst:679
 msgid ""
 "In the Plant Editor, we insert the Quantity and the Location.  And we're "
 "done."
 msgstr "У редакторі рослин ми вставляємо кількість та місце. І ми закінчили."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:682
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:682
-#: <included from
+#: ../../use_cases-jbq.rst:682
 msgid "The plant is now part of the database:"
 msgstr "Рослина тепер є частиною бази даних:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:686
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:686
-#: <included from
+#: ../../use_cases-jbq.rst:686
 msgid "New accession: plant just entering the garden"
 msgstr "Нове приєднання: рослина просто входить у сад"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:689
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:689
-#: <included from
+#: ../../use_cases-jbq.rst:689
 msgid ""
 "This activity starts with a new Plant, just acquired from a known Source,"
 " a plant label, and an intended Location in the garden."
@@ -9209,9 +8832,7 @@ msgstr ""
 "Ця діяльність починається з нової рослини, яка тільки що придбана від "
 "відомого джерела, ярлик рослини та передбачуваного розташування в саду."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:692
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:692
-#: <included from
+#: ../../use_cases-jbq.rst:692
 msgid ""
 "We mostly do the same as for the case that a plant is found in the "
 "garden, there are two differences: (1) we know the source of the plant; "
@@ -9223,9 +8844,7 @@ msgstr ""
 " придбання цієї рослини було планованим заходом, і ми маємо намір "
 "розмістити його в певному місці в саду."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:697
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:697
-#: <included from
+#: ../../use_cases-jbq.rst:697
 msgid ""
 "Again, we go straight into the Accession Editor, start typing the species"
 " and we either select if from the completion list or we add it on the "
@@ -9234,27 +8853,19 @@ msgstr ""
 "Знову ж таки ми йдемо прямо в редактор приєднання, починаємо вводити вид,"
 " і ми обираємо з списку завершень або додаємо його на льоту."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:702
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:702
-#: <included from
+#: ../../use_cases-jbq.rst:702
 msgid "Source"
 msgstr "Джерело"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:704
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:704
-#: <included from
+#: ../../use_cases-jbq.rst:704
 msgid "specified"
 msgstr "точно визначений"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:710
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:710
-#: <included from
+#: ../../use_cases-jbq.rst:710
 msgid "In the Plant Editor, we insert the Quantity and the Location."
 msgstr "У редакторі рослин ми вставляємо кількість та місце."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:712
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:712
-#: <included from
+#: ../../use_cases-jbq.rst:712
 msgid ""
 "Please note that the plant may be initially placed in a greenhouse, "
 "before it reaches its intended location in the garden."
@@ -9262,15 +8873,11 @@ msgstr ""
 "Зверніть увагу, що рослина може бути спочатку розміщена у теплиці, перш "
 "ніж вона досягне передбачуваного місця розташування в саду."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:715
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:715
-#: <included from
+#: ../../use_cases-jbq.rst:715
 msgid "Existing plant, found in the garden without its label"
 msgstr "Існуюча рослина, знайдена в саду без етикетки"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:718
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:718
-#: <included from
+#: ../../use_cases-jbq.rst:718
 msgid ""
 "When this happens, we can't be sure the plant had never been in the "
 "collection, so we act as if we were re-labeling the plant.  This is "
@@ -9282,9 +8889,7 @@ msgstr ""
 "обговорюється в наступному розділі, але ми повернемося до випадку нового "
 "приєднання."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:723
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:723
-#: <included from
+#: ../../use_cases-jbq.rst:723
 msgid ""
 "When we physically associate a label to a plant, there's always the "
 "chance that something happens either to the plant (it may die) or to the "
@@ -9296,15 +8901,11 @@ msgstr ""
 "(може стати нечитабельною) або з асоціацію (її можна розділити). У нас є "
 "програмні протоколи для цих подій."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:728
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:728
-#: <included from
+#: ../../use_cases-jbq.rst:728
 msgid "We find a dead plant"
 msgstr "Ми знаходимо мертву рослину"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:731
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:731
-#: <included from
+#: ../../use_cases-jbq.rst:731
 msgid ""
 "Whenever a plant is found dead, we collect its label and put it in a box "
 "next to the main data insertion terminal, the box is marked “dead "
@@ -9314,9 +8915,7 @@ msgstr ""
 "поміщаємо її в поле поруч із основним терміналом введення даних, поле "
 "позначено як “мертві рослини”."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:734
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:734
-#: <included from
+#: ../../use_cases-jbq.rst:734
 msgid ""
 "Definitely at least once a week, the box is emptied and the database is "
 "updated with this information."
@@ -9324,9 +8923,7 @@ msgstr ""
 "Безумовно, щонайменше раз на тиждень, бокс вичерпується, а база даних "
 "оновлюється з цією інформацією."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:737
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:737
-#: <included from
+#: ../../use_cases-jbq.rst:737
 msgid ""
 "Dead plants aren't *removed* from the database, they stay there but get a"
 " **quantity** zero. If the cause of death is known, this is also written "
@@ -9336,9 +8933,7 @@ msgstr ""
 "отримують **кількість** нуль. Якщо відомо про причину смерті, це також "
 "написано в базі даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:741
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:741
-#: <included from
+#: ../../use_cases-jbq.rst:741
 msgid ""
 "Please once again remember that a **Plant** is not an **Accession** and "
 "please remember we do not remove objects from the database, we just add "
@@ -9348,9 +8943,7 @@ msgstr ""
 "будь ласка, пам'ятайте, що ми не видаляємо об'єкти з бази даних, ми "
 "просто додаємо їхню історію."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:745
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:745
-#: <included from
+#: ../../use_cases-jbq.rst:745
 msgid ""
 "Insert the complete plant code (something like ``012345.1``, or "
 "``2017.0001.3``, and you don't need leading zeros nor quotes), right "
@@ -9362,9 +8955,7 @@ msgstr ""
 "правою кнопкою миші на відповідному рядку та натисніть **змінити** . "
 "Змінити кількість на 0, вказати причину і, бажано, також дату зміни."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:750
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:750
-#: <included from
+#: ../../use_cases-jbq.rst:750
 msgid ""
 "If you need add any details about the plant death, please use a **note**,"
 " and re-use the note category \"death_cause\"."
@@ -9373,9 +8964,7 @@ msgstr ""
 "будь-ласка, використовуйте **примітку** та повторно використовуйте "
 "категорію примітки \"death_cause\"."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:753
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:753
-#: <included from
+#: ../../use_cases-jbq.rst:753
 msgid ""
 "Plants with **quantity** zero are shown with a different colour in the "
 "results view.  This helps distinguish them from live plants."
@@ -9383,15 +8972,11 @@ msgstr ""
 "Рослини з **кількістю** нуль показані у різному кольорі у вікні "
 "результатів. Це допомагає відрізняти їх від живих рослин."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:756
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:756
-#: <included from
+#: ../../use_cases-jbq.rst:756
 msgid "We find a plant without a label"
 msgstr "Ми знаходимо рослину без етикетки"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:759
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:759
-#: <included from
+#: ../../use_cases-jbq.rst:759
 msgid ""
 "We can't be sure the plant had ever been in the collection or not. We "
 "assume it had, and that its label was lost."
@@ -9399,9 +8984,7 @@ msgstr ""
 "Ми не можемо бути впевнені, що рослина коли-набудь була в колекції чи ні."
 " Ми припускаємо, що це було, і що її етикетка була втрачена."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:762
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:762
-#: <included from
+#: ../../use_cases-jbq.rst:762
 msgid ""
 "Losing a plant label is unfortunate, but it just sometimes happens. What "
 "we do is to put a new label to the plant, and to clearly state that the "
@@ -9411,9 +8994,7 @@ msgstr ""
 " ставимо на рослину нову етикетку і чітко говоримо, що етикетка є заміною"
 " оригіналу."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:766
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:766
-#: <included from
+#: ../../use_cases-jbq.rst:766
 msgid ""
 "We then handle the case as if it was a new accession, plus we add a note "
 "to the accession, category “label”, text “relabeled”."
@@ -9422,21 +9003,15 @@ msgstr ""
 " додали примітку до приєднання, категорію “етикетка”, текст "
 "“перемарковані”."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:770
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:770
-#: <included from
+#: ../../use_cases-jbq.rst:770
 msgid "Keeping track of different sources of plant material"
 msgstr "Слідкуйте за різними джерелами рослинного матеріалу"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:772
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:772
-#: <included from
+#: ../../use_cases-jbq.rst:772
 msgid "What different sources we can have"
 msgstr "Які різні джерела ми можемо мати"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:775
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:775
-#: <included from
+#: ../../use_cases-jbq.rst:775
 msgid ""
 "In this botanical garden, we receive plants from different types of "
 "origin. It could be from expeditions (plants coming from nature, "
@@ -9452,15 +9027,11 @@ msgstr ""
 "колекціонерів або орхідеї комерціалізації підприємств, придбаних або "
 "конфіскованих рослин (зазвичай відбуваються з МАЕ рейди по всій країні)."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:783
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:783
-#: <included from
+#: ../../use_cases-jbq.rst:783
 msgid "If the plant comes from a wild source"
 msgstr "Якщо рослина походить з дикоростучого джерела"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:786
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:786
-#: <included from
+#: ../../use_cases-jbq.rst:786
 #, fuzzy
 msgid ""
 "The accession editor offers the option \"origin\" option. When a plant is"
@@ -9473,33 +9044,23 @@ msgstr ""
 "походження. Ми хочемо дотримуватися ITF2, і ghini-1.0 лише частково "
 "дотримується цього стандарту. Параметри, що відповідають ITF2, такі:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:791
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:791
-#: <included from
+#: ../../use_cases-jbq.rst:791
 msgid "Wild: Accession of wild source."
 msgstr "Дикоростучі: приєднання дикоростучого джерела."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:792
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:792
-#: <included from
+#: ../../use_cases-jbq.rst:792
 msgid "Cultivated: Propagule(s) from a wild source plant."
 msgstr "Культивовані: Росток (-и) з рослини дикоростучого джерела."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:793
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:793
-#: <included from
+#: ../../use_cases-jbq.rst:793
 msgid "Not Wild: Accession not traceable to a wild source."
 msgstr "Не дикоростучі: приєднання неможливо відстежити до дикоростучого джерела."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:794
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:794
-#: <included from
+#: ../../use_cases-jbq.rst:794
 msgid "Insufficient data"
 msgstr "Недостатньо даних"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:796
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:796
-#: <included from
+#: ../../use_cases-jbq.rst:796
 msgid ""
 "In the case of a donated plant, it is better to put detail information "
 "just as a note in the plant accession; in the case of a plant with an "
@@ -9509,15 +9070,11 @@ msgstr ""
 "записку на приєднання рослини; У випадку з рослиною з невідомим джерелом,"
 " ми обираємо параметр недостатньо даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:800
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:800
-#: <included from
+#: ../../use_cases-jbq.rst:800
 msgid "Using the source tab in the accession editor"
 msgstr "Використання вкладки вихідного коду в редакторі приєднання"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:803
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:803
-#: <included from
+#: ../../use_cases-jbq.rst:803
 msgid ""
 "In this section we can create or use a contact, our source of plant "
 "material. It could be from an expedition to a collecting place, and in "
@@ -9531,9 +9088,7 @@ msgstr ""
 "можемо назвати особу чи підприємство, що пожертвувало певну партію "
 "рослин."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:811
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:811
-#: <included from
+#: ../../use_cases-jbq.rst:811
 msgid ""
 "Once you choose or create the contact information, this section deploys "
 "more options, here you can specify the region, where you can choose the "
@@ -9550,15 +9105,11 @@ msgstr ""
 "написати конкретну дату поруч із назвою колекціонера (наприклад, Луїсом "
 "Бакеро, 10.11.2016 р.)."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:819
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:819
-#: <included from
+#: ../../use_cases-jbq.rst:819
 msgid "Donated, bought or confiscated plants"
 msgstr "Пожертвувані, куплені чи конфісковані рослини"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:822
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:822
-#: <included from
+#: ../../use_cases-jbq.rst:822
 msgid ""
 "However useful for expeditions or for donors where the main information "
 "is geographic, this source tab is not very practical in our remaining "
@@ -9572,21 +9123,15 @@ msgstr ""
 "пожертвувати, для цих категорій параметри, доступні на вкладці вихідного "
 "коду, не застосовуються: занадто багато інформації і не до речі."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:828
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:828
-#: <included from
+#: ../../use_cases-jbq.rst:828
 msgid "In these cases, we add a set of notes, according to the case."
 msgstr "У цих випадках ми додаємо набір нотаток, відповідно до справи."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:830
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:830
-#: <included from
+#: ../../use_cases-jbq.rst:830
 msgid "— Donated plants"
 msgstr "— Пожертвувані рослини"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:833
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:833
-#: <included from
+#: ../../use_cases-jbq.rst:833
 msgid ""
 "If the plant was donated by individual, we add the individual among our "
 "contacts and specify it as source, then we add the notes:"
@@ -9594,45 +9139,29 @@ msgstr ""
 "Якщо рослина була подарована індивідуумом, ми додаємо індивідуум серед "
 "наших контактів і вказуємо його як джерело, потім додаємо примітки:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:837
-#: ../../use_cases-jbq.rst:850 ../../use_cases-jbq.rst:864
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:837
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:850
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:864
-#: <included from
+#: ../../use_cases-jbq.rst:837 ../../use_cases-jbq.rst:850
+#: ../../use_cases-jbq.rst:864
 msgid "category"
 msgstr "категорія"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:837
-#: ../../use_cases-jbq.rst:850 ../../use_cases-jbq.rst:864
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:837
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:850
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:864
-#: <included from
+#: ../../use_cases-jbq.rst:837 ../../use_cases-jbq.rst:850
+#: ../../use_cases-jbq.rst:864
 msgid "text"
 msgstr "текст"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:839
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:839
-#: <included from
+#: ../../use_cases-jbq.rst:839
 msgid "gift"
 msgstr "подарунок"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:840
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:840
-#: <included from
+#: ../../use_cases-jbq.rst:840
 msgid "Contribución científica al JBQ"
 msgstr "Науковий внесок у JBQ"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:843
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:843
-#: <included from
+#: ../../use_cases-jbq.rst:843
 msgid "— Bought plants"
 msgstr "— Купили рослини"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:846
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:846
-#: <included from
+#: ../../use_cases-jbq.rst:846
 msgid ""
 "If the plant was bought, we add the previous owner among our contacts and"
 " specify it as source, then we add the notes:"
@@ -9640,33 +9169,23 @@ msgstr ""
 "Якщо рослина була куплена, ми додаємо попереднього власника серед наших "
 "контактів і вказуємо його як джерело, потім додаємо примітки:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:852
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:852
-#: <included from
+#: ../../use_cases-jbq.rst:852
 msgid "purchase"
 msgstr "придбання"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:853
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:853
-#: <included from
+#: ../../use_cases-jbq.rst:853
 msgid "optional, free text"
 msgstr "необов'язковий, вільний текст"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:854
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:854
-#: <included from
+#: ../../use_cases-jbq.rst:854
 msgid "the invoice number"
 msgstr "номер рахунку-фактури"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:857
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:857
-#: <included from
+#: ../../use_cases-jbq.rst:857
 msgid "— Confiscated plants"
 msgstr "— Конфісковані рослини"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:860
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:860
-#: <included from
+#: ../../use_cases-jbq.rst:860
 msgid ""
 "If the plant was confiscated, we add the previous owner among our "
 "contacts and specify it as source, then we add the notes:"
@@ -9674,33 +9193,23 @@ msgstr ""
 "Якщо рослина була конфіскована, ми додаємо попереднього власника серед "
 "наших контактів і вказуємо його як джерело, потім додаємо примітки:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:866
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:866
-#: <included from
+#: ../../use_cases-jbq.rst:866
 msgid "confiscated"
 msgstr "конфіскований"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:867
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:867
-#: <included from
+#: ../../use_cases-jbq.rst:867
 msgid "possibly, legal details, law number ..."
 msgstr "можливо, юридичні деталі, номер закону ..."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:871
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:871
-#: <included from
+#: ../../use_cases-jbq.rst:871
 msgid "Producing or reproducing labels"
 msgstr "Виробництво або відтворення етикеток"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:873
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:873
-#: <included from
+#: ../../use_cases-jbq.rst:873
 msgid "Refreshing plant labels"
 msgstr "Оновлення етикеток рослин"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:876
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:876
-#: <included from
+#: ../../use_cases-jbq.rst:876
 msgid ""
 "Sometimes we refresh the labels, for example all that is in a greenhouse,"
 " or maybe just a set of plants because their labels risk becoming "
@@ -9710,9 +9219,7 @@ msgstr ""
 "можливо, просто набір рослин, тому що їх етикетки ризикують стати "
 "нечитабельними."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:880
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:880
-#: <included from
+#: ../../use_cases-jbq.rst:880
 msgid ""
 "In the first case it's easy selecting all plants in the Location, we just"
 " type the location name, or give the search ``location like <location "
@@ -9722,9 +9229,7 @@ msgstr ""
 " введемо назву місцезнаходження або надамо пошук  ``location like "
 "<location name>``."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:884
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:884
-#: <included from
+#: ../../use_cases-jbq.rst:884
 msgid ""
 "The second case it's a bit trickier.  What we do is to create a temporary"
 " **Tag**, and use it to tag all plants that were found in need for a new "
@@ -9734,9 +9239,7 @@ msgstr ""
 "**Тег** і використовуємо його для позначення всіх рослин, які були "
 "знайдені в необхідності для нової мітки."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:888
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:888
-#: <included from
+#: ../../use_cases-jbq.rst:888
 msgid ""
 "Given the selection, we start the report tool, using the mako "
 "``accession-label.svg`` template.  We reset its options to default "
@@ -9749,15 +9252,11 @@ msgstr ""
 "ми встановлюємо колір на ``чорний`` замість ``синій``, який призначений "
 "для гравюри."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:893
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:893
-#: <included from
+#: ../../use_cases-jbq.rst:893
 msgid "Preparing labels for non-database plants"
 msgstr "Підготовка етикеток для не базових рослин"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:896
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:896
-#: <included from
+#: ../../use_cases-jbq.rst:896
 msgid ""
 "To prepare the batch of 72 labels, we use a mako report template, named "
 "``accession-label.svg``.  This template accepts parameters, this is an "
@@ -9767,9 +9266,7 @@ msgstr ""
 "ім'ям ``accession-label.svg``. Цей шаблон приймає параметри, це приклад, "
 "який буде містити мітки від 025801 до 025872."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:903
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:903
-#: <included from
+#: ../../use_cases-jbq.rst:903
 msgid ""
 "Labels come for us in two flavours: (1) either new plants just being "
 "acquired by the garden; (2) or plants in the garden, found without a "
@@ -9781,15 +9278,11 @@ msgstr ""
 "Ми розрізняємо два випадки, додавши 'ret' додатковий текст для "
 "перемаркованих рослин."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:908
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:908
-#: <included from
+#: ../../use_cases-jbq.rst:908
 msgid "We keep two boxes with labels of the two types, ready to be used."
 msgstr "Ми зберігаємо два бокси з мітками двох типів, готових до використання."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:910
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:910
-#: <included from
+#: ../../use_cases-jbq.rst:910
 msgid ""
 "Our garden has two exposition greenhouses, and several warm and cold "
 "greenhouses where we keep the largest part of our collection.  Plants are"
@@ -9804,15 +9297,11 @@ msgstr ""
 "\"сховище\", коли менш цікаві для експозиції. Для кожної рослини в нашій "
 "колекції нам потрібно знати його поточні розташування та історію рухів."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:916
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:916
-#: <included from
+#: ../../use_cases-jbq.rst:916
 msgid "Planned action"
 msgstr "Плановані дії"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:919
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:919
-#: <included from
+#: ../../use_cases-jbq.rst:919
 msgid ""
 "The action starts by moving the plants around, and collecting the plant "
 "code either on paper, or in our mobile app, if we had one."
@@ -9820,9 +9309,7 @@ msgstr ""
 "Дія починається з переміщення рослин навколо та збирання коду рослин на "
 "папері або у нашому мобільному додатку, якщо така була."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:922
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:922
-#: <included from
+#: ../../use_cases-jbq.rst:922
 msgid ""
 "We then go to the desktop terminal and revise all plants one by one "
 "changing their location in the database.  It is important that the date "
@@ -9834,9 +9321,7 @@ msgstr ""
 "місцезнаходження була правильно збережена, оскільки це говорить нам, як "
 "довго рослина залишається в експозиції."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:927
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:927
-#: <included from
+#: ../../use_cases-jbq.rst:927
 msgid ""
 "If we had a mobile app, we would just upload the info to the server and "
 "we would be done."
@@ -9844,15 +9329,11 @@ msgstr ""
 "Якщо б ми мали мобільний додаток, ми просто завантажили би інформацію на "
 "сервер, і ми зробимо це."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:930
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:930
-#: <included from
+#: ../../use_cases-jbq.rst:930
 msgid "Ex-post correction"
 msgstr "Фактична корекція"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:933
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:933
-#: <included from
+#: ../../use_cases-jbq.rst:933
 msgid ""
 "While revising the garden, we find a plant at a location that is not what"
 " the database says.  We update the database information."
@@ -9860,9 +9341,7 @@ msgstr ""
 "Під час перегляду саду ми знаходимо рослину в місці, де не базується база"
 " даних. Ми оновлюємо інформацію бази даних."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:936
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:936
-#: <included from
+#: ../../use_cases-jbq.rst:936
 msgid ""
 "For example, the plant belonging to accession “012142”, species "
 "“*Acineta* sp”, was found in “Invernadero 1”, while the database says it "
@@ -9872,9 +9351,7 @@ msgstr ""
 "sp” був знайдений в “Invernadero 1”, тоді як база даних говорить, що вона"
 " знаходиться в “ICAlm3”."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:939
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:939
-#: <included from
+#: ../../use_cases-jbq.rst:939
 msgid ""
 "All we do is find the Plant in the database and update its information.  "
 "We do not change anything in the initial Accession information, just the "
@@ -9884,9 +9361,7 @@ msgstr ""
 "інформацію. Ми не змінюємо нічого в початковій інформації про приєднання,"
 " а саме про поточну інформацію про рослину."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:943
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:943
-#: <included from
+#: ../../use_cases-jbq.rst:943
 msgid ""
 "We type the accession code in the search entry field, with quotes, hit "
 "enter. The search results now shows the accession, and it tells us how "
@@ -9899,9 +9374,7 @@ msgstr ""
 "результатів, так що тепер ми також бачимо рядок для рослини, що належить "
 "до приєднання."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:948
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:948
-#: <included from
+#: ../../use_cases-jbq.rst:948
 msgid ""
 "Right click on the Plant row, the three options will show: “Edit, Split, "
 "Delete”, select Edit, you land in the Plant Editor."
@@ -9910,21 +9383,15 @@ msgstr ""
 "Редагувати, Розділити, Видалити, виберіть Редагувати, ви  потрапляєте в "
 "редактор рослин."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:951
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:951
-#: <included from
+#: ../../use_cases-jbq.rst:951
 msgid "Just correct the Location field, and click on OK."
 msgstr "Просто скопіюйте поле розташування та натисніть OK."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:953
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:953
-#: <included from
+#: ../../use_cases-jbq.rst:953
 msgid "The InfoBox contains information about the last change to the object:"
 msgstr "InfoBox містить інформацію про останню зміну об'єкта:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:958
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:958
-#: <included from
+#: ../../use_cases-jbq.rst:958
 msgid ""
 "For plants, even more interesting, it builds a history of changes, list "
 "that includes Location changes, or Quantity changes."
@@ -9932,9 +9399,7 @@ msgstr ""
 "Для рослин, ще цікавіше, він створює історію змін, список яких включає в "
 "себе зміни місцезнаходження або кількість змін."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:963
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:963
-#: <included from
+#: ../../use_cases-jbq.rst:963
 msgid ""
 "As plants enter the flowering stage, we can review their identification "
 "directly, or we take pictures of details of the flower, hoping that a "
@@ -9945,15 +9410,11 @@ msgstr ""
 "сподіваючись, що спеціаліст-відвідувач може допомогти завершити "
 "ідентифікацію."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:967
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:967
-#: <included from
+#: ../../use_cases-jbq.rst:967
 msgid "Adding pictures"
 msgstr "Додавання зображень"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:970
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:970
-#: <included from
+#: ../../use_cases-jbq.rst:970
 msgid ""
 "We are practicing with ODK Collect, a small program running on hand-held "
 "android devices.  Ghini's use of ODK Collect hasn't yet frozen to a best "
@@ -9965,9 +9426,7 @@ msgstr ""
 "до кращої практики. Погляньте на `відповідний випуск "
 "<https://github.com/Ghini/ghini.desktop/issues/243>`_ на github."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:976
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:976
-#: <included from
+#: ../../use_cases-jbq.rst:976
 msgid ""
 "Regularly, we need producing reports about our collection that the "
 "Ecuadorian Environment Ministry (MAE) requires and that justify the very "
@@ -9976,15 +9435,11 @@ msgstr ""
 "Регулярно нам потрібні звіти про нашу колекцію, які вимагає Міністерство "
 "екології Республіки Еквадор (MAE), і це виправдовує саме існування саду."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:980
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:980
-#: <included from
+#: ../../use_cases-jbq.rst:980
 msgid "Producing reports"
 msgstr "Створення звітів"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:983
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:983
-#: <included from
+#: ../../use_cases-jbq.rst:983
 msgid ""
 "Each year the botanic garden has to submit a report (annual report of "
 "management and maintenance of orchids collection) complying to the "
@@ -9994,9 +9449,7 @@ msgstr ""
 "управління та підтримці колекції орхідей), що відповідає вимогам "
 "Міністерства навколишнього середовища Еквадору."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:987
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:987
-#: <included from
+#: ../../use_cases-jbq.rst:987
 msgid ""
 "To this end, we start selecting the plants we have to include in the "
 "report. It might be all acquisition in the past year::"
@@ -10004,9 +9457,7 @@ msgstr ""
 "З цією метою ми починаємо вибирати рослини, які ми повинні включити до "
 "звіту. Це може бути все придбання в минулому році:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:992
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:992
-#: <included from
+#: ../../use_cases-jbq.rst:992
 msgid ""
 "or all plants within a location, or all plants belonging to a species, or"
 " just everything (but this will take time)::"
@@ -10014,9 +9465,7 @@ msgstr ""
 "або всі рослини в межах місця, або всі рослини, що належать до певного "
 "виду, або просто все (але це займе час)::"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:999
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:999
-#: <included from
+#: ../../use_cases-jbq.rst:999
 msgid ""
 "Having selected the database objects which we want in the report, we "
 "start the report tool, which acts on the selection."
@@ -10024,15 +9473,11 @@ msgstr ""
 "Вибравши у звіті об'єкти бази даних, ми запускаємо інструмент звітування,"
 " який діє на вибір."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1003
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1003
-#: <included from
+#: ../../use_cases-jbq.rst:1003
 msgid "Searching the database"
 msgstr "Пошук в базі даних"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1005
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1005
-#: <included from
+#: ../../use_cases-jbq.rst:1005
 msgid ""
 "You search the database in order to edit the data further, or because you"
 " want to produce a report. Anyway you start with typing something in the "
@@ -10041,23 +9486,17 @@ msgstr ""
 "Ви шукаєте в базі даних, щоб змінити дані далі, або тому, що хочете "
 "створити звіт. Так чи інакше, ви починаєте щось набирати в полі пошуку"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1011
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1011
-#: <included from
+#: ../../use_cases-jbq.rst:1011
 msgid "and you hope to see your result in the search result view."
 msgstr ""
 "і ви сподіваєтеся побачити свій результат у представленні результатів "
 "пошуку."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1013
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1013
-#: <included from
+#: ../../use_cases-jbq.rst:1013
 msgid "Search in order to edit (plant or accession)"
 msgstr "Пошук для редагування (рослина або приєднання)"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1016
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1016
-#: <included from
+#: ../../use_cases-jbq.rst:1016
 msgid ""
 "When searching in order to edit, you want to be very specific, and select"
 " as few objects as possible. The most fine-tuned search is the one based "
@@ -10067,21 +9506,15 @@ msgstr ""
 " якомога менше об'єктів. Найточніший пошук на основі номера рослини: ви "
 "знаєте код, ви отримуєте один об'єкт."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1020
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1020
-#: <included from
+#: ../../use_cases-jbq.rst:1020
 msgid "If your plant is not there, the screen would look like this:"
 msgstr "Якщо вашої рослини там немає, екран виглядатиме так:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1024
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1024
-#: <included from
+#: ../../use_cases-jbq.rst:1024
 msgid "Other example, plant ``007701.1`` is in the database:"
 msgstr "Інший приклад, в базі даних знаходиться рослина ``007701.1``:"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1028
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1028
-#: <included from
+#: ../../use_cases-jbq.rst:1028
 msgid ""
 "All fields with a darker background in the infobox on the right hand side"
 " are hyperlinks to other objects in the database. Clicking on them will "
@@ -10093,15 +9526,11 @@ msgstr ""
 " замінити текст у полі пошуку і виконувати запит, або просто додавати "
 "об'єкт до результатів."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1033
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1033
-#: <included from
+#: ../../use_cases-jbq.rst:1033
 msgid "Clicking on the accession does the latter."
 msgstr "Натискання на приєднання робить останній."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1037
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1037
-#: <included from
+#: ../../use_cases-jbq.rst:1037
 msgid ""
 "We now have both Plant or Accession in the search result view and we can "
 "now edit either or both."
@@ -10109,15 +9538,11 @@ msgstr ""
 "Тепер у представленні результатів пошуку є як Рослина, так і Приєднання, "
 "і тепер ми можемо редагувати одне або обидва."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1040
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1040
-#: <included from
+#: ../../use_cases-jbq.rst:1040
 msgid "Search in order to report"
 msgstr "Пошук з звітом"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1043
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1043
-#: <included from
+#: ../../use_cases-jbq.rst:1043
 msgid ""
 "When searching in order to create a report, you want to be both specific "
 "(you don't want to report about irrelevant objects) and broad (you don't "
@@ -10127,9 +9552,7 @@ msgstr ""
 "не хочете повідомляти про невідповідні об'єкти) та широкі (ви не хочете "
 "повідомляти про один об'єкт)."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1047
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1047
-#: <included from
+#: ../../use_cases-jbq.rst:1047
 msgid ""
 "Sometimes the report itself suggests the query, as for example: all "
 "plants in greenhouse 3; or: all plants belonging to endangered species "
@@ -10141,21 +9564,15 @@ msgstr ""
 "інформацію у примітці, пов'язаної з цим видом); або: всі рослини додані "
 "до колекції цього року; ::"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1056
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1056
-#: <included from
+#: ../../use_cases-jbq.rst:1056
 msgid "Otherwise a flexible way to achieve this is to work with **Tags**."
 msgstr "Інший гнучкий спосіб досягти цього - працювати з **Тегами**."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1058
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1058
-#: <included from
+#: ../../use_cases-jbq.rst:1058
 msgid "Using **Tags** as enhanced searching"
 msgstr "Використовуйте **Теги** як розширений пошук"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1061
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1061
-#: <included from
+#: ../../use_cases-jbq.rst:1061
 msgid ""
 "Sometimes we have to take the same action on objects of the same type, "
 "but we don't manage to quickly think of a search query that would group "
@@ -10165,9 +9582,7 @@ msgstr ""
 " вдається швидко подумати про пошуковий запит, який буде групувати все, "
 "що нам потрібно, і виключити все, що нам не потрібне."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1065
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1065
-#: <included from
+#: ../../use_cases-jbq.rst:1065
 msgid ""
 "This is one possible use of **Tags**.  We start with a selection, we tag "
 "all objects in the selection under a new temporary tag. Let's say we call"
@@ -10177,9 +9592,7 @@ msgstr ""
 "всі об'єкти у виборі під новим тимчасовим тегом. Скажімо, ми називаємо це"
 " \"тимчасовий\"."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1069
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1069
-#: <included from
+#: ../../use_cases-jbq.rst:1069
 msgid ""
 "We continue searching and adding objects to the temporary tag until the "
 "tag identifies all that we need."
@@ -10187,9 +9600,7 @@ msgstr ""
 "Ми продовжуємо пошук і додавання об'єктів до тимчасового тегу, доки тег "
 "не визначить всього, що нам потрібно."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1072
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1072
-#: <included from
+#: ../../use_cases-jbq.rst:1072
 msgid ""
 "Finally from the Tags menu we select the one we just created (in our "
 "example this corresponds to the search ``tag=\"temporary\"``) and we can "
@@ -10199,9 +9610,7 @@ msgstr ""
 "прикладі це відповідає пошуку ``tag = 'тимчасовий'``), і ми можемо "
 "викликати звіт."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1076
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1076
-#: <included from
+#: ../../use_cases-jbq.rst:1076
 msgid ""
 "When we're done with a temporary tag, there's no point in leaving it "
 "around, so we just delete it."
@@ -10209,15 +9618,11 @@ msgstr ""
 "Коли ми закінчимо тимчасовий тег, немає сенсу залишити його надалі, тому "
 "ми просто видалимо його."
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1081
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1081
-#: <included from
+#: ../../use_cases-jbq.rst:1081
 msgid "Be aware of the available search strategies"
 msgstr "Будьте обізнані про наявні стратегії пошуку"
 
-#: ../../use_cases-jbq.rst ../../use_cases-jbq.rst:1084
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:1084
-#: <included from
+#: ../../use_cases-jbq.rst:1084
 msgid ""
 "This is nicely documented, \"più non dimandare\" and `read the docs "
 "<searching.html>`_."
@@ -10255,24 +9660,18 @@ msgstr ""
 msgid "The authors of the software wish to thank all dearly."
 msgstr "Автори програмного забезпечення хочуть всім щиро подякувати."
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:2
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:2
-#: <included from
+#: ../../use_cases-zadenbank.rst:2
 msgid "using ghini for a seed database"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:4
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:4
-#: <included from
+#: ../../use_cases-zadenbank.rst:4
 msgid ""
 "We keep getting involved in groups focusing on endagered plant seeds.  "
 "They want to note down when seeds come in, but also when they go out to "
 "people that order the seed."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:8
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:8
-#: <included from
+#: ../../use_cases-zadenbank.rst:8
 msgid ""
 "In ghini, we keep speaking of ›Plants‹, ›Locations‹, while such user "
 "groups focus on ›Seeds‹ and ›Jars‹ and ›Drawers‹ and ›Boxes‹ and "
@@ -10280,31 +9679,23 @@ msgid ""
 "use case, or for directions on how to develop their own database."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:13
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:13
-#: <included from
+#: ../../use_cases-zadenbank.rst:13
 msgid "Does ghini need being adapted for such a seed database?"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:16
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:16
-#: <included from
+#: ../../use_cases-zadenbank.rst:16
 msgid ""
 "no it doesn't need any adaptation, it's just that you need to read some "
 "of its terms differently."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:19
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:19
-#: <included from
+#: ../../use_cases-zadenbank.rst:19
 msgid ""
 "the taxonomy part is just taxonomy, plant species information, no need to"
 " explain that, no way to interpret it otherwise."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:22
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:22
-#: <included from
+#: ../../use_cases-zadenbank.rst:22
 msgid ""
 "›Accessions‹ and ›Plants‹, you know what an ›Accession‹ is, but since "
 "you're consistently handling ›Plants‹ still only in seed form, the "
@@ -10314,9 +9705,7 @@ msgid ""
 " same time."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:29
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:29
-#: <included from
+#: ../../use_cases-zadenbank.rst:29
 msgid ""
 "If you hold seeds in jars, or in other sort of containers that is able to"
 " hold hundreds of seeds, please make sure that a jar contains seeds of "
@@ -10324,9 +9713,7 @@ msgid ""
 "source, same time."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:34
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:34
-#: <included from
+#: ../../use_cases-zadenbank.rst:34
 msgid ""
 "Each one of your ›Jars‹ of seeds is in ghini speak a ›Plant‹, and the "
 "amount of seeds in the ›Jar‹ is the ›Plant‹ ›quantity‹.  An ›Envelope‹ is"
@@ -10334,17 +9721,13 @@ msgid ""
 "›Accession‹, just presumably smaller."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:39
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:39
-#: <included from
+#: ../../use_cases-zadenbank.rst:39
 msgid ""
 "A ›Box‹ (where you keep several ›Envelopes‹) or a ›Drawer‹ (where you "
 "keep several ›Jars‹) are in ghini speak a ›Location‹."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:42
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:42
-#: <included from
+#: ../../use_cases-zadenbank.rst:42
 msgid ""
 "Since a ›Jar‹ or an ›Envelope‹ contains seeds from an ›Accession‹, you "
 "will clearly label it with its ›Accession‹ code (and trailing ›Plant‹ "
@@ -10353,15 +9736,11 @@ msgid ""
 "introduces an inconsistency risk factor."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:48
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:48
-#: <included from
+#: ../../use_cases-zadenbank.rst:48
 msgid "How do I handle receiving a batch of seeds?"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:51
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:51
-#: <included from
+#: ../../use_cases-zadenbank.rst:51
 msgid ""
 "When we receive seeds, we either collect them ourselves, or we receive it"
 " from an other seed collector.  We handle receiving them possibly on the "
@@ -10369,27 +9748,21 @@ msgid ""
 "other batches of seeds we received, each batch keeps its individuality."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:57
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:57
-#: <included from
+#: ../../use_cases-zadenbank.rst:57
 msgid ""
 "We want to be later able to find back, for example, how many seeds we "
 "still have from a specific batch, or when we last received seeds from a "
 "specific source."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:61
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:61
-#: <included from
+#: ../../use_cases-zadenbank.rst:61
 msgid ""
 "As long as you put this information in the database, as long as you "
 "follow the same convention when doing so, you will be able to write and "
 "execute such queries using ghini."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:65
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:65
-#: <included from
+#: ../../use_cases-zadenbank.rst:65
 msgid ""
 "One possibility, the one described here, is based on ›Notes‹.  (Ghini "
 "does not, as yet, implement the concept \"Acquisition\". There is an "
@@ -10397,9 +9770,7 @@ msgid ""
 "quite formalized things yet.)"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:70
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:70
-#: <included from
+#: ../../use_cases-zadenbank.rst:70
 msgid ""
 "You surely already use codes to identify a batch of seeds entering the "
 "seed bank.  Just copy this code in a ›Note‹, category 'received', to each"
@@ -10407,9 +9778,7 @@ msgid ""
 "›Accessions‹ by the query::"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:77
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:77
-#: <included from
+#: ../../use_cases-zadenbank.rst:77
 msgid ""
 "Use the 'Source' tab if you think so, it offers space for indicating an "
 "external source, or an expedition.  When receiving from an external "
@@ -10417,15 +9786,11 @@ msgid ""
 "will be useful when requesting an extra batch."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:82
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:82
-#: <included from
+#: ../../use_cases-zadenbank.rst:82
 msgid "How do I handle sending seeds?"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:85
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:85
-#: <included from
+#: ../../use_cases-zadenbank.rst:85
 msgid ""
 "what you physically do is to grab the desired amount of seeds of the "
 "indicated species from a jar, put it in an envelope and send it.  what "
@@ -10433,109 +9798,79 @@ msgid ""
 "precisely described in a protocol:"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:90
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:90
-#: <included from
+#: ../../use_cases-zadenbank.rst:90
 msgid ""
 "Use the database to identify the ›Jar‹ containing the desired amount of "
 "the right seeds."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:92
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:92
-#: <included from
+#: ../../use_cases-zadenbank.rst:92
 msgid "remove that amount of seeds from the ›Jar‹ (decrement the quantity),"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:93
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:93
-#: <included from
+#: ../../use_cases-zadenbank.rst:93
 msgid "put the seeds in an ›Envelope‹ (yes, that's a database object)."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:94
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:94
-#: <included from
+#: ../../use_cases-zadenbank.rst:94
 msgid "send the envelope (but keep it in the database)."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:96
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:96
-#: <included from
+#: ../../use_cases-zadenbank.rst:96
 #, fuzzy
 msgid "this in short."
 msgstr "коротко::"
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:98
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:98
-#: <included from
+#: ../../use_cases-zadenbank.rst:98
 msgid ""
 "When I send seeds, it's not just one bag, how does ghini              "
 "help me keeping things together?"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:102
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:102
-#: <included from
+#: ../../use_cases-zadenbank.rst:102
 msgid ""
 "There's two levels of keeping things together: one is while you're "
 "preparing the sending, and then for later reference."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:105
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:105
-#: <included from
+#: ../../use_cases-zadenbank.rst:105
 msgid ""
 "While preparing the sending, we advise you use a temporary ›Tag‹ on the "
 "objects being edited."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:108
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:108
-#: <included from
+#: ../../use_cases-zadenbank.rst:108
 msgid ""
 "For later reference, you will have common ›Note‹ texts, to identify "
 "received and sent batches."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:111
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:111
-#: <included from
+#: ../../use_cases-zadenbank.rst:111
 msgid "Can you give a complete example?"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:114
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:114
-#: <included from
+#: ../../use_cases-zadenbank.rst:114
 msgid "Right.  Quite fair.  Let's see…"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:116
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:116
-#: <included from
+#: ../../use_cases-zadenbank.rst:116
 msgid ""
 "Say you were requested to deliver 50 seeds of Parnassia palustris, 30 of "
 "Gentiana pneumonanthe, 80 of Fritillaria meleagris, and 30 of Hypericum "
 "pulchrum."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:120
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:120
-#: <included from
+#: ../../use_cases-zadenbank.rst:120
 msgid "**step 1**"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:122
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:122
-#: <included from
+#: ../../use_cases-zadenbank.rst:122
 msgid ""
 "The first step is to check the quantities you have in house, and if you "
 "do have enough, where you have them.  You do this per requested species::"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:128
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:128
-#: <included from
+#: ../../use_cases-zadenbank.rst:128
 msgid ""
 "Expand in the results pane the ›Accession‹ from which you want to grab "
 "the seeds, so you see the corresponding ›Jars‹, highlight one, and tag it"
@@ -10545,17 +9880,13 @@ msgid ""
 " that's only for ease of exposition and further completely irrelevant."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:136
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:136
-#: <included from
+#: ../../use_cases-zadenbank.rst:136
 msgid ""
 "Repeat the task for Gentiana pneumonanthe, Fritillaria meleagris, "
 "Hypericum pulchrum::"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:143
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:143
-#: <included from
+#: ../../use_cases-zadenbank.rst:143
 msgid ""
 "Again highilight the accession from which you can grab seeds, and hit "
 "Ctrl-Y (this tags the highighted row with the active tag).  Don't worry "
@@ -10563,23 +9894,17 @@ msgid ""
 "operation."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:148
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:148
-#: <included from
+#: ../../use_cases-zadenbank.rst:148
 msgid "**step 2**"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:150
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:150
-#: <included from
+#: ../../use_cases-zadenbank.rst:150
 msgid ""
 "Now we prepare to go to the seeds bank, with the envelopes we want to "
 "fill."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:153
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:153
-#: <included from
+#: ../../use_cases-zadenbank.rst:153
 msgid ""
 "Select the ›sending‹ ›Tag‹ from the tags menu, this will bring back in "
 "the results pane all the tagged ›Plants‹ (›Jars‹ or ›Envelopes‹), and "
@@ -10588,53 +9913,39 @@ msgid ""
 "also the ›Species‹ name, and the quantity you can provide."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:159
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:159
-#: <included from
+#: ../../use_cases-zadenbank.rst:159
 msgid ""
 "Walk now to your seeds bank and, for each of the envelopes you just "
 "prepared, open the ›Location‹, grab the ›Plant‹, extract the correct "
 "amount of seeds, put them in your physical envelope."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:163
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:163
-#: <included from
+#: ../../use_cases-zadenbank.rst:163
 #, fuzzy
 msgid "And back to the database!"
 msgstr "Пошук в базі даних"
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:165
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:165
-#: <included from
+#: ../../use_cases-zadenbank.rst:165
 msgid "**step 3**"
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:167
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:167
-#: <included from
+#: ../../use_cases-zadenbank.rst:167
 msgid ""
 "If nobody used your workstation, you still have the Tag in the results "
 "pane, and it's expanded so you see all the individual plants you tagged."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:171
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:171
-#: <included from
+#: ../../use_cases-zadenbank.rst:171
 msgid ""
 "One by one, you have to ›split‹ the plant.  This is a standard operation "
 "that you activate by right-clicking on the plant."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:174
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:174
-#: <included from
+#: ../../use_cases-zadenbank.rst:174
 msgid "A plant editor window comes in view, in 'split mode'."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:176
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:176
-#: <included from
+#: ../../use_cases-zadenbank.rst:176
 msgid ""
 "Splitting a plant lets you create a database image of the plant group you"
 " just physically created, eg: it lets you subtract 30 items from the "
@@ -10644,30 +9955,22 @@ msgid ""
 "box', that is, the envelope is on its way to leave the garden."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:183
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:183
-#: <included from
+#: ../../use_cases-zadenbank.rst:183
 msgid "Don't forget to delete the temporary 'sending' ›Tag‹."
 msgstr "Не забудьте видалити тимчасове 'sending' ›Tag‹."
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:185
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:185
-#: <included from
+#: ../../use_cases-zadenbank.rst:185
 msgid "**step 4**"
 msgstr "**крок 4**"
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:187
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:187
-#: <included from
+#: ../../use_cases-zadenbank.rst:187
 msgid ""
 "Final step, it represents the physical step of sending the envelope, "
 "possibly together with several other envelopes, in a single sending, "
 "which should have a code."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:191
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:191
-#: <included from
+#: ../../use_cases-zadenbank.rst:191
 msgid ""
 "Just as you did when you received a batch of plants, you work with notes,"
 " this time the category is 'sent', and the note text is whatever you "
@@ -10676,33 +9979,25 @@ msgid ""
 "envelopes: category 'sent', text: '2018-pino-002'."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:197
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:197
-#: <included from
+#: ../../use_cases-zadenbank.rst:197
 msgid ""
 "When you finally do send the envelopes, these stop being part of your "
 "collection.  You still want to know that they have existed, but you do "
 "not want to count them among the seeds that are available to you."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:201
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:201
-#: <included from
+#: ../../use_cases-zadenbank.rst:201
 msgid "Bring back all the plants in the sending '2018-pino-002'::"
 msgstr "Поверніть всі рослини у відправленні '2018-pino-002' :"
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:205
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:205
-#: <included from
+#: ../../use_cases-zadenbank.rst:205
 msgid ""
 "You now need to edit them one by one, mark the ›quantity‹ to zero, and "
 "optionally specify the reason of the change, which would be ›given away‹,"
 " and the recipient is already specified in the 'sent' ›Note‹."
 msgstr ""
 
-#: ../../use_cases-zadenbank.rst ../../use_cases-zadenbank.rst:209
-#: /home/mario/Local/github/Ghini/ghini.desktop-docs.i18n/doc/use_cases.rst>:209
-#: <included from
+#: ../../use_cases-zadenbank.rst:209
 msgid ""
 "This last operation could be automated, we're thinking of it, it would "
 "become a script, acting on a selection.  Stay tuned."
@@ -13447,3 +12742,94 @@ msgstr "Ghini дозволяє читати, писати і оформляти 
 #~ " refresh the snapshot and update it"
 #~ " on all your clients."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "*The remainder is even more a "
+#~ "template than the above, please cut "
+#~ "and reduce, but make sure that you"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "convey the below message, which is "
+#~ "about feedom, sharing, community forming.*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*You also want to add a few "
+#~ "lines about yourself, or you can "
+#~ "keep it to the talk you hope "
+#~ "to have"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "with the conservator, scientific director, "
+#~ "or garden manager once you get "
+#~ "invited.*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In short: you can consider any GPL"
+#~ " licensed software as your own, but"
+#~ " *not* your *exclusive* own."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Many institutions still consider software "
+#~ "an investment, an asset that is "
+#~ "not to be shared with others, as"
+#~ " if it was some economic good "
+#~ "that can't be duplicated, like gold."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``ghini.desktop``, born as ``bauble.classic`` "
+#~ "and made a commons by the Belize"
+#~ " Botanical Garden.  ``ghini.desktop`` has "
+#~ "three more components, a pocket data "
+#~ "collecting Android app, a Node.js web"
+#~ " server, aggregating data from different"
+#~ " gardens and presenting it geographically,"
+#~ " again a geographic tour app aimed"
+#~ " at visitors using the web data "
+#~ "aggregator as its data source.  You "
+#~ "can find every Ghini component on "
+#~ "GitHub: http://github.com/Ghini"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Specify 6 and 7, made a Commons"
+#~ " by the Kansas University.  A bit "
+#~ "complex to set up, very difficult "
+#~ "to configure and tricky to update.  "
+#~ "The institutions I've met who tried "
+#~ "it, only the bigger ones, with "
+#~ "in-house software management capabilities "
+#~ "manage to successfully use it.  They "
+#~ "use it for very large collections.  "
+#~ "Specify is extremely generic, it adapts"
+#~ " to herbaria, seed collections, but "
+#~ "also to collections of eggs, organic "
+#~ "material, fossils, preserved dead animals, "
+#~ "possibly even viruses, I'm not sure."
+#~ "  It is this extreme flexibility that"
+#~ " makes its configuration such a "
+#~ "complex task.  Specify is also on "
+#~ "GitHub: https://github.com/specify and is "
+#~ "licensed as GPLv2+.  I had no luck"
+#~ " with their support. Try yours."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``Taxasoft-BG``, by Eric Gouda, a "
+#~ "Dutch botanist, specialist in Bromeliaceae,"
+#~ " collection manager at the Utrecht "
+#~ "botanical garden.  It was Mario Frasca"
+#~ " who convinced Eric to publish what"
+#~ " he was doing, licensing it under "
+#~ "the GPL, but the repository was "
+#~ "not updated after 2016, April 13th "
+#~ "and Eric forgot to explicitly specify"
+#~ " the license.  You find it on "
+#~ "github: https://github.com/Ejgouda/Taxasoft-BG"
+#~ msgstr ""
+

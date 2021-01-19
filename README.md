@@ -64,7 +64,7 @@ ghini.desktop-docs.i18n (this project) doesn't exactly contain the
 translated documentation, it just contains all that Readthedocs needs to
 generate it.  ghini.desktop-docs.i18n is the place where we keep a verbatim
 copy of the Ghini documentation, from ghini.desktop, plus all corresponding
-``po`` files.  As explainde above, Readthedocs runs ``sphinx`` to generate
+``po`` files.  As explained above, Readthedocs runs ``sphinx`` to generate
 the ``mo`` translation tables, and the translated documentation sites,
 Weblate helps translators contribute their translations.
 ghini.desktop-docs.i18n is also the place where we keep a script that
