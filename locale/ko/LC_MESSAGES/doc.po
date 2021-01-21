@@ -4,21 +4,18 @@
 # This file is distributed under the same license as the Ghini package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-19 14:42-0500\n"
-"PO-Revision-Date: 2021-01-21 00:16+0000\n"
-"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/ghini/"
-"documentation-10/ko/>\n"
-"Language: ko\n"
+"POT-Creation-Date: 2021-01-21 14:08-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../administration.rst:2
@@ -31,8 +28,7 @@ msgid ""
 "something about database administration. While database administration is"
 " far beyond the scope of this document, we make our users aware of it."
 msgstr ""
-"실제 DBMS를 사용하여 플랜트 데이터를 저장하는 경우 데이터베이스 관리를 수행해야합니다. 데이터베이스 관리는이 문서의 범위를 훨씬 "
-"벗어납니다. 사용자가 추가 작업을 알고 있어야하기 때문에 여기서 언급합니다."
+"실제 DBMS를 사용하여 플랜트 데이터를 저장하는 경우 데이터베이스 관리를 수행해야합니다. 데이터베이스 관리는이 문서의 범위를 훨씬 벗어납니다. 사용자가 추가 작업을 알고 있어야하기 때문에 여기서 언급합니다."
 
 #: ../../administration.rst:11
 msgid ""
@@ -41,9 +37,7 @@ msgid ""
 "don't know where to look for your database files, consider that, per "
 "default, bauble puts its data in the ``~/.bauble/`` directory."
 msgstr ""
-"SQLite는 DBMS로 간주 할 수있는 것이 아닙니다. 각 SQLite 데이터베이스는 파일 일뿐입니다. 백업 복사본을 만들면 모든 것이 "
-"정상입니다. 데이터베이스 파일을 찾을 위치를 모르는 경우 기본적으로 Ghini가 데이터를 ``~ / .bauble /``디렉토리에 "
-"저장한다는 점을 고려하십시오."
+"SQLite는 DBMS로 간주 할 수있는 것이 아닙니다. 각 SQLite 데이터베이스는 파일 일뿐입니다. 백업 복사본을 만들면 모든 것이 정상입니다. 데이터베이스 파일을 찾을 위치를 모르는 경우 기본적으로 Ghini가 데이터를 ``~ / .bauble /``디렉토리에 저장한다는 점을 고려하십시오."
 
 #: ../../administration.rst:16
 msgid ""
@@ -51,14 +45,14 @@ msgid ""
 "``AppData\\Roaming\\Bauble``. Do keep in mind that Windows does its best "
 "to hide the ``AppData`` directory structure to normal users."
 msgstr ""
-"Windows에서는 ``AppData``'디렉토리, 아마도 ``AppData\\Roaming\\Bauble``에 있습니다. "
-"Windows는 일반 사용자를 위해 ``AppData``디렉터리 구조를 숨기기 위해 최선을 다하고 있습니다."
+"Windows에서는 ``AppData`` 디렉토리, 아마도 ``AppData\Roaming\Bauble`` 에 있습니다. Windows는 일반 사용자를 위해 ``AppData`` 디렉터리 구조를 숨기기 위해 최선을 다하고 있습니다."
 
 #: ../../administration.rst:20
 msgid ""
 "The fastest way to open it is with the file explorer: type ``%APPDATA%`` "
 "and hit enter."
-msgstr "파일을 여는 가장 빠른 방법은 파일 관리자를 사용하는 것입니다 :``%APPDATA%``를 입력하고 엔터를 누르세요."
+msgstr ""
+"파일을 여는 가장 빠른 방법은 파일 관리자를 사용하는 것입니다 :``%APPDATA%``​를 입력하고 엔터를 누르세요."
 
 #: ../../administration.rst:26
 msgid ""
@@ -3237,22 +3231,22 @@ msgstr "Ghini는 식물 표본 수집을 관리하기위한 응용 프로그램 
 msgid ""
 "**ghini.desktop** lets you create and query a database representing "
 "objects and events in your plant collection."
-msgstr "**ghini.desktop** 를 사용하면 플랜트 컬렉션의 개체및 이벤트를 나타내는 데이터베이스를 만들고 쿼리할 수 있습니다."
+msgstr ""
+"**ghini.desktop** 를 사용하면 플랜트 컬렉션의 개체및 이벤트를 나타내는 데이터베이스를 만들고 쿼리할 수 있습니다."
 
 #: ../../index.rst:11
-#, fuzzy
 msgid "**ghini.web** publishes highlights from your database on the web."
-msgstr "**ghini.web**는 웹에 데이터베이스의 하이라이트를 게시합니다."
+msgstr ""
 
 #: ../../index.rst:12
 msgid "**ghini.pocket** puts a snapshot of your database in your handheld device."
-msgstr "**ghini.pocket**는 핸드헬드 장치에 데이터베이스의 스냅샷을 넣습니다."
+msgstr "**ghini.pocket** 는 핸드헬드 장치에 데이터베이스의 스냅샷을 넣습니다."
 
 #: ../../index.rst:13
 msgid ""
 "**ghini.tour** assists garden visitors with a map and spoken virtual "
 "panels."
-msgstr "**ghini.tour**는 정원 방문객을 지도와 음성 가상 패널로 지원합니다."
+msgstr "**ghini.tour** 는 정원 방문객을 지도와 음성 가상 패널로 지원합니다."
 
 #: ../../index.rst:17
 msgid ""
@@ -7522,3 +7516,4 @@ msgstr ""
 #: ../../users.rst:20
 msgid "Ghini allows read, write and execute permissions."
 msgstr ""
+
