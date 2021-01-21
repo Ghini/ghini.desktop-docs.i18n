@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-21 14:08-0500\n"
-"PO-Revision-Date: 2021-01-21 19:56+0000\n"
+"PO-Revision-Date: 2021-01-21 20:31+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/ghini/"
 "documentation-10/ko/>\n"
@@ -54,14 +54,15 @@ msgstr ""
 msgid ""
 "The fastest way to open it is with the file explorer: type ``%APPDATA%`` "
 "and hit enter."
-msgstr ""
-"파일을 여는 가장 빠른 방법은 파일 관리자를 사용하는 것입니다 :``%APPDATA%``​를 입력하고 엔터를 누르세요."
+msgstr "파일을 여는 가장 빠른 방법은 파일 관리자를 사용하는 것입니다 :``%APPDATA%``를 입력하고 엔터를 누르세요."
 
 #: ../../administration.rst:26
 msgid ""
 "Please refer to the `official documentation <https://mariadb.com/kb/en"
 "/the-mariadb-library/documentation/>`_."
 msgstr ""
+"마이그레이션이 필요하면 `페이지를 <https://mariadb.com/kb/en/the-mariadb-library/"
+"documentation/>`_ 참조하세요."
 
 #: ../../administration.rst:28
 msgid ""
@@ -70,7 +71,7 @@ msgid ""
 "/backing-up-and-restoring-databases/>`_."
 msgstr ""
 "데이터베이스의 백업과 복원은 `다음페이지<https://mariadb.com/kb/en/the-mariadb-library/"
-"backing-up-and-restoring-databases/>`_에 자세히 설명되어 있으니 활용하세요"
+"backing-up-and-restoring-databases/>`_에 자세히 설명되어 있으니 활용하세요."
 
 #: ../../administration.rst:35
 msgid ""
@@ -78,10 +79,12 @@ msgid ""
 " your backup options starts at `chapter 24 "
 "<http://www.postgresql.org/docs/9.1/static/backup.html>`_."
 msgstr ""
+"백업 옵션에 대한 `설명은24 장 <http://www.postgresql.org/docs/9.1/static/backup.html>`"
+"_으로 넘어갑니다."
 
 #: ../../administration.rst:39
 msgid "Ghini Configuration"
-msgstr ""
+msgstr "Ghini의 구성"
 
 #: ../../administration.rst:41
 msgid ""
@@ -3243,7 +3246,7 @@ msgstr ""
 
 #: ../../index.rst:11
 msgid "**ghini.web** publishes highlights from your database on the web."
-msgstr ""
+msgstr "**ghini.web는** 웹에 데이터베이스의 하이라이트를 게시합니다."
 
 #: ../../index.rst:12
 msgid "**ghini.pocket** puts a snapshot of your database in your handheld device."
