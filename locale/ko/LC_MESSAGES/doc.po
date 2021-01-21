@@ -4,18 +4,21 @@
 # This file is distributed under the same license as the Ghini package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-21 14:08-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-01-21 19:56+0000\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/ghini/"
+"documentation-10/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.5-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../administration.rst:2
@@ -66,6 +69,8 @@ msgid ""
 "starting at `this page <https://mariadb.com/kb/en/the-mariadb-library"
 "/backing-up-and-restoring-databases/>`_."
 msgstr ""
+"데이터베이스의 백업과 복원은 `다음페이지<https://mariadb.com/kb/en/the-mariadb-library/"
+"backing-up-and-restoring-databases/>`_에 자세히 설명되어 있으니 활용하세요"
 
 #: ../../administration.rst:35
 msgid ""
@@ -91,6 +96,8 @@ msgid ""
 " the text entry area where you normally type your searches, then hit "
 "enter."
 msgstr ""
+"Ghini 구성 파일의 내용을 검토하려면 일반적으로 검색을 입력하는 텍스트 항목 영역에 `:prefs` 를 입력한 다음 enter를 "
+"누르십시오."
 
 #: ../../administration.rst:48
 msgid ""
@@ -101,17 +108,17 @@ msgstr ""
 
 #: ../../administration.rst:53
 msgid "Reporting Errors"
-msgstr ""
+msgstr "오류보고"
 
 #: ../../administration.rst:55
 msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
-msgstr ""
+msgstr "Ghini를 활용하면서 발생하는 예상치 못한 오류는 Ghini개발자에게 문제를 보내주세요."
 
 #: ../../administration.rst:58
 msgid "Ghini development site can be accessed via the Help menu."
-msgstr ""
+msgstr "Ghini는 도움말 메뉴를 통해 액세스 할 수 있습니다."
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
@@ -7516,4 +7523,3 @@ msgstr ""
 #: ../../users.rst:20
 msgid "Ghini allows read, write and execute permissions."
 msgstr ""
-
