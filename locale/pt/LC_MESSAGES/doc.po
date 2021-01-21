@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
 "POT-Creation-Date: 2021-01-19 14:42-0500\n"
-"PO-Revision-Date: 2018-11-19 08:07+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2021-01-21 16:23+0000\n"
+"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/ghini/"
+"documentation-10/pt/>\n"
 "Language: pt\n"
-"Language-Team: Portuguese "
-"<https://hosted.weblate.org/projects/ghini/documentation-10/pt/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5-dev\n"
 "Generated-By: Babel 2.9.0\n"
-"X-Generator: Weblate 4.3-dev\n"
 
 #: ../../administration.rst:2
 msgid "Database Administration"
@@ -5965,7 +5965,7 @@ msgstr ""
 
 #: ../../template-letters.rst:2
 msgid "Template Letters"
-msgstr ""
+msgstr "Cartas-modelo"
 
 #: ../../template-letters.rst:4
 msgid ""
@@ -5973,6 +5973,8 @@ msgid ""
 " that this Ghini project is above all a very open and collaborative "
 "project."
 msgstr ""
+"O leitor chegando a esse ponto na documentação provavelmente entendeu que o "
+"projeto Ghini é, acima de tudo, um projeto muito aberto e colaborativo."
 
 #: ../../template-letters.rst:7
 msgid ""
@@ -5982,6 +5984,11 @@ msgid ""
 " so you can make Ghini become a (voluntary, or paid) part-time job for "
 "you."
 msgstr ""
+"Aqui nesta página você encontra algumas cartas modelo, usadas para dar as "
+"boas-vindas a novos usuários, carts que você pode corrigir, imprimir e ir "
+"com elas para um jardim, e propor a adoção do Ghini, ou compartilhar com um "
+"grupo de seus amigos locais, para que você possa fazer Ghini se torne um "
+"trabalho (voluntário, ou pago) em tempo parcial para você."
 
 #: ../../template-letters.rst:12
 msgid "Dear conservator or scientist,"
@@ -10575,4 +10582,3 @@ msgstr ""
 
 #~ msgid "subject: Welcome to Ghini/Bauble"
 #~ msgstr ""
-
