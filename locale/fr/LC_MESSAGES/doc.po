@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-19 14:42-0500\n"
-"PO-Revision-Date: 2021-01-21 15:45+0000\n"
+"PO-Revision-Date: 2021-01-21 16:02+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/ghini/"
 "documentation-10/fr/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../administration.rst:2
 msgid "Database Administration"
-msgstr "Administrateur de bases de données"
+msgstr "Administration de bases de données"
 
 #: ../../administration.rst:4
 msgid ""
@@ -72,6 +72,8 @@ msgid ""
 "Please refer to the `official documentation <https://mariadb.com/kb/en"
 "/the-mariadb-library/documentation/>`_."
 msgstr ""
+"Veuillez vous référer à la `documentation officielle <https://mariadb.com/kb/"
+"en/the-mariadb-library/documentation/>`_."
 
 #: ../../administration.rst:28
 msgid ""
@@ -80,7 +82,7 @@ msgid ""
 "/backing-up-and-restoring-databases/>`_."
 msgstr ""
 "La sauvegarde et la restauration des bases de données sont décrites en "
-"détail à partir de la page <https://mariadb.com/kb/en/the-mariadb-library/"
+"détail à partir de `la page <https://mariadb.com/kb/en/the-mariadb-library/"
 "backing-up-and-restoring-databases/>`_."
 
 #: ../../administration.rst:35
@@ -157,6 +159,11 @@ msgid ""
 "the ideal situation to start looking into the software, understand how it"
 " works, contribute to ghini.desktop's development."
 msgstr ""
+"Si vous avez exécuté les instructions d'installation ``devinstall``, vous "
+"avez téléchargé les sources, et elles sont maintenant connectées au dépôt "
+"github.  Vous êtes donc dans la situation la plus idéale pour commencer à "
+"examiner le logiciel, comprendre son fonctionnement, contribuer au "
+"développement de ghini.desktop."
 
 #: ../../building.rst:10
 msgid "Helping Ghini development"
@@ -232,6 +239,8 @@ msgid ""
 "If you install the software according to the ``devinstall`` instructions,"
 " you have the whole history in your local git clone."
 msgstr ""
+"Si vous installez le logiciel en suivant les instructions ``devinstall``, "
+"vous avez l'historique complet dans votre clone git local."
 
 #: ../../building.rst:37
 msgid "Software source, versions, branches"
@@ -364,18 +373,22 @@ msgid ""
 "corresponds to a branch of a repository on github. Each component accepts"
 " translations in several languages."
 msgstr ""
+"Weblate héberge le projet `Ghini <https://hosted.weblate.org/projects/ghini/"
+">`_. Dans ce projet, nous avons des composants, dont chacun correspond à une "
+"branche d'un dépôt sur github. Chaque composant accepte des traductions en "
+"plusieurs langues."
 
 #: ../../building.rst:104
 msgid "component"
-msgstr ""
+msgstr "composant"
 
 #: ../../building.rst:104
 msgid "repository"
-msgstr ""
+msgstr "dépôt"
 
 #: ../../building.rst:104
 msgid "branch"
-msgstr ""
+msgstr "branche"
 
 #: ../../building.rst:107
 msgid "Desktop 3.1"
@@ -445,12 +458,17 @@ msgid ""
 " difficult once you know how to do that. First of all, add weblate as "
 "remote::"
 msgstr ""
+"Quelque chose qui se passe: se présenter à un conflit. Résoudre les conflits "
+"n’est pas difficile une fois que vous savez comment le faire. Tout d’abord, "
+"ajouter weblate comme remote::"
 
 #: ../../building.rst:137
 msgid ""
 "Then make sure we are in the correct repository, on the correct branch, "
 "update the remote, merge with it::"
 msgstr ""
+"Ensuite, assurez-vous que nous sommes dans le dépôt correct, sur la branche "
+"correcte, mettre à jour le remote, fusionner avec elle ::"
 
 #: ../../building.rst:144
 msgid ""
@@ -546,10 +564,13 @@ msgid ""
 "We could definitely write the above in a Makefile, or even better include"
 " it in ``/doc/Makefile``. Who knows, maybe we will do that."
 msgstr ""
+"Nous pourrions certainement écrire ce qui précède dans un Makefile, ou mieux "
+"encore l'inclure dans ``/doc/Makefile``. Qui sait, peut-être que nous le "
+"ferons."
 
 #: ../../building.rst:180
 msgid "Producing the docs locally"
-msgstr ""
+msgstr "Produire les documents localement"
 
 #: ../../building.rst:182
 msgid ""
@@ -3962,7 +3983,7 @@ msgstr ""
 
 #: ../../index.rst:69
 msgid "Administration"
-msgstr ""
+msgstr "Administration"
 
 #: ../../index.rst:77
 msgid "Ghini Family"
@@ -5239,6 +5260,11 @@ msgid ""
 "probably better stick with SQLite, the easy, fast, zero-administration "
 "file-based database."
 msgstr ""
+"Est-ce la première fois que vous utilisez Ghini, allez-vous travailler dans "
+"un environnement autonome, vous n'avez pas la moindre idée de comment gérer "
+"un système de gestion de base de données ? Si vous avez répondu oui à l'une "
+"des précédentes, vous feriez probablement mieux de vous en tenir à SQLite, "
+"la base de données de fichiers simple, rapide et sans administration."
 
 #: ../../started.rst:20
 msgid ""
