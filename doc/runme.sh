@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # configure languages
-LANGUAGES='ar es fr hu it ko nb pt ru uk zh'
+LANGUAGES='ar es fr hu it ko no pt ru uk zh'
 
 # configure locations, don't incude the final slash
 SOURCEDOCDIR=$HOME/Local/github/Ghini/ghini.desktop/doc
