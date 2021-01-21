@@ -3239,7 +3239,7 @@ msgid ""
 "**ghini.desktop** lets you create and query a database representing "
 "objects and events in your plant collection."
 msgstr ""
-"**ghini.desktop** 를 사용하면 플랜트 컬렉션의 개체및 이벤트를 나타내는 데이터베이스를 만들고 쿼리할 수 있습니다."
+"**ghini.desktop를** 사용하면 플랜트 컬렉션의 개체및 이벤트를 나타내는 데이터베이스를 만들고 쿼리할 수 있습니다."
 
 #: ../../index.rst:11
 msgid "**ghini.web** publishes highlights from your database on the web."
@@ -3247,13 +3247,13 @@ msgstr ""
 
 #: ../../index.rst:12
 msgid "**ghini.pocket** puts a snapshot of your database in your handheld device."
-msgstr "**ghini.pocket** 는 핸드헬드 장치에 데이터베이스의 스냅샷을 넣습니다."
+msgstr "**ghini.pocket는** 핸드헬드 장치에 데이터베이스의 스냅샷을 넣습니다."
 
 #: ../../index.rst:13
 msgid ""
 "**ghini.tour** assists garden visitors with a map and spoken virtual "
 "panels."
-msgstr "**ghini.tour** 는 정원 방문객을 지도와 음성 가상 패널로 지원합니다."
+msgstr "**ghini.tour는** 정원 방문객을 지도와 음성 가상 패널로 지원합니다."
 
 #: ../../index.rst:17
 msgid ""

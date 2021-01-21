@@ -82,7 +82,7 @@ sphinx-intl build
 # 2) use the updated mo files to build the local html files
 for i in $LANGUAGES
 do
-    make -e SPHINXOPTS="-D language='"$i"'" html
+    make -e SPHINXOPTS="-D language=$i" html
     mkdir -p ../translated/$i
     cp -a _build/html ../translated/$i
 done
