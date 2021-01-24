@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-19 14:42-0500\n"
-"PO-Revision-Date: 2021-01-21 01:46+0000\n"
+"PO-Revision-Date: 2021-01-24 15:30+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ghini/"
 "documentation-10/es/>\n"
@@ -42,9 +42,9 @@ msgid ""
 "don't know where to look for your database files, consider that, per "
 "default, bauble puts its data in the ``~/.bauble/`` directory."
 msgstr ""
-"SQLite no es lo que se podría considerar un DBMS real: cada base de datos"
-" SQLite está en un archivo. Haga copias de seguridad y estará bien. Si no"
-" sabe dónde buscar los archivos de base de datos, considere que, por "
+"SQLite no es lo que se podría considerar un DBMS real: cada base de datos "
+"SQLite está en un archivo. Haga copias de seguridad y todo estará bien. Si "
+"no sabe dónde buscar los archivos de base de datos, considere que, por "
 "defecto, bauble coloca sus datos en el directorio ``~/.bauble/``."
 
 #: ../../administration.rst:16
@@ -71,6 +71,8 @@ msgid ""
 "Please refer to the `official documentation <https://mariadb.com/kb/en"
 "/the-mariadb-library/documentation/>`_."
 msgstr ""
+"Haga referencia a la `documentación oficial <https://mariadb.com/kb/en/"
+"the-mariadb-library/documentation/>`_."
 
 #: ../../administration.rst:28
 msgid ""
@@ -78,6 +80,9 @@ msgid ""
 "starting at `this page <https://mariadb.com/kb/en/the-mariadb-library"
 "/backing-up-and-restoring-databases/>`_."
 msgstr ""
+"Encontrará documentación detallada sobre cómo realizar copias de seguridad y "
+"cómo restaurar bases de datos a partir de `esta página <https://mariadb.com/"
+"kb/en/the-mariadb-library/backing-up-and-restoring -base de datos /> `_."
 
 #: ../../administration.rst:35
 msgid ""
@@ -133,8 +138,8 @@ msgid ""
 "Should you notice anything unexpected in Ghini's behaviour, please "
 "consider filing an issue on the Ghini development site."
 msgstr ""
-"Si nota algo inesperado en el comportamiento de Ghini que no le parezca "
-"adecuado, por favor abra un ``issue`` en el sitio de desarrollo de Ghini."
+"Si nota algo inesperado en el comportamiento de Ghini, que no le parezca "
+"adecuado, por favor abra un *issue* en el sitio de desarrollo de Ghini."
 
 #: ../../administration.rst:58
 msgid "Ghini development site can be accessed via the Help menu."
@@ -151,6 +156,10 @@ msgid ""
 "the ideal situation to start looking into the software, understand how it"
 " works, contribute to ghini.desktop's development."
 msgstr ""
+"Si usó las instrucciones de instalación de ``devinstall``, ha descargado las "
+"fuentes conectadas al repositorio de github. Se encuentra en la situación "
+"ideal para comenzar a investigar el software, comprender cómo funciona y "
+"contribuir al desarrollo de ghini.desktop."
 
 #: ../../building.rst:10
 msgid "Helping Ghini development"
@@ -160,7 +169,8 @@ msgstr "Ayuda al desarrollo de Ghini"
 msgid ""
 "If you want to contribute to Ghini, you can do so in quite a few "
 "different ways:"
-msgstr "Si desea contribuir al Ghini, puede hacerlo de diferentes maneras:"
+msgstr ""
+"Si desea contribuir al Ghini, puede hacerlo de varias diferentes maneras:"
 
 #: ../../building.rst:14
 msgid ""
@@ -180,11 +190,11 @@ msgid ""
 "quickly on Ghini. Do make sure the developer opens issues and publishes "
 "their contribution on github."
 msgstr ""
-"Si tienes una idea de lo que le hace falta en el software pero no piensa "
-"saberlo formalizar en cuestiones separadas, podría considerar contratar a"
-" un profesional. Se trata de la mejor manera de asegurarse de que algo "
-"ocurra rápido en Ghini. Asegúrese de que el desarrollador abra issues y "
-"publique sus contribuciones en github."
+"Si opina que algo le hace falta al software pero no cree poderlo formalizar "
+"en cuestiones separadas, podría considerar contratar a un profesional. Se "
+"trata de la mejor manera de asegurarse de que algo ocurra rápido en Ghini. "
+"Asegúrese de que el desarrollador abra issues y publique sus contribuciones "
+"en github."
 
 #: ../../building.rst:22
 msgid ""
@@ -212,10 +222,10 @@ msgid ""
 "<http://github.com/Ghini/ghini.desktop>`_ and see all that has been going"
 " on around Ghini since its inception as Bauble, back in the year 2004."
 msgstr ""
-"Si todavía no has instalado Ghini y quiere echar un vistazo a la historia"
-" de su código y documentación, puede abrir nuestra `página de github "
+"Si todavía no has instalado Ghini y quiere echar un vistazo a la historia de "
+"su código y documentación, puede abrir nuestra `página de github "
 "<http://github.com/ghini/ghini.desktop>`_ y ver todo lo que ha estado "
-"sucediendo con Ghini desde sus inicios en el año 2004 bajo el nombre de "
+"sucediendo con Ghini, desde sus inicios en el año 2004 bajo el nombre de "
 "Bauble."
 
 #: ../../building.rst:33
@@ -223,6 +233,8 @@ msgid ""
 "If you install the software according to the ``devinstall`` instructions,"
 " you have the whole history in your local git clone."
 msgstr ""
+"Si instaló el software según las instrucciones ``devinstall``, ya tiene todo "
+"el historial completo en el clone git local."
 
 #: ../../building.rst:37
 msgid "Software source, versions, branches"
@@ -240,7 +252,7 @@ msgstr ""
 
 #: ../../building.rst:44
 msgid "production line"
-msgstr "cadena de producción"
+msgstr "línea de producción"
 
 #: ../../building.rst:46
 msgid ""
@@ -303,10 +315,9 @@ msgid ""
 "branch with the main development line from which you branched, solve "
 "conflicts where necessary, delete the temporary branch."
 msgstr ""
-"Trabajar en la nueva sucursal de temporal. Cuando esté listo, vaya a "
-"github, fusionar la rama con la línea principal de desarrollo de que "
-"ramificó, resolver conflictos en caso necesario, eliminar la rama "
-"temporal."
+"Trabajar en la nueva rama temporal. Cuando esté listo, vaya a github, "
+"fusione la rama con la línea principal de desarrollo de que ramificó, "
+"resuelva los conflictos si necesario, elimine la rama temporal."
 
 #: ../../building.rst:81
 msgid ""
@@ -344,10 +355,9 @@ msgid ""
 " translated\"."
 msgstr ""
 "Un archivo ``po`` está asociado a un idioma y contiene texto en pares: "
-"original y traducción. Cuando un traductor añade una traducción en "
-"weblate, eso es copiado a nuestro repositorio en github. cuando un "
-"programador añade un texto en el software, esto es copiado a weblate para"
-" ser traducido."
+"original y traducción. Cuando un traductor añade una traducción en weblate, "
+"eso es copiado a nuestro repositorio en github. Cuando un programador añade "
+"un texto en el software, esto es copiado a weblate para ser traducido."
 
 #: ../../building.rst:98
 msgid ""
@@ -383,27 +393,24 @@ msgid "ghini-3.1-dev"
 msgstr ""
 
 #: ../../building.rst:109
-#, fuzzy
 msgid "Documentation 3.1"
 msgstr "Documentación de Ghini 1.0"
 
 #: ../../building.rst:111
 msgid "Pocket"
-msgstr "Pocket"
+msgstr ""
 
 #: ../../building.rst:111 ../../ghini-family.rst:15
 msgid "ghini.pocket"
-msgstr "ghini.pocket"
+msgstr ""
 
 #: ../../building.rst:112
-#, fuzzy
 msgid "Tour"
-msgstr "Fuente"
+msgstr ""
 
 #: ../../building.rst:112 ../../ghini-family.rst:98
-#, fuzzy
 msgid "ghini.tour"
-msgstr "ghini.pocket"
+msgstr ""
 
 #: ../../building.rst:115
 msgid ""
