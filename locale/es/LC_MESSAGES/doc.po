@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-19 14:42-0500\n"
-"PO-Revision-Date: 2021-01-24 15:30+0000\n"
+"PO-Revision-Date: 2021-01-24 15:53+0000\n"
 "Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/ghini/"
 "documentation-10/es/>\n"
@@ -3073,6 +3073,9 @@ msgid ""
 "  `install the software <installing.html>`_, then check our `user-"
 "contributed recipes <use_cases.html>`_."
 msgstr ""
+"Si ya está convencido y todo lo que quiere es empezar, no más `instale el "
+"software <install.html>` _ y revise nuestras `recetas aportadas por los "
+"usuarios <use_cases.html>` _."
 
 #: ../../goal.rst:13
 msgid "Botanic Garden"
@@ -3087,10 +3090,10 @@ msgid ""
 "the display, cultivation, and enjoyment of plants and other forms of "
 "nature.«"
 msgstr ""
-"Según la Wikipedia, »un jardín botánico es un jardín dedicado a la "
+"Según la Wikipedia, »un jardín *botánico* es un jardín dedicado a la "
 "recolección, cultivo y exhibición de una amplia gama de plantas, "
 "identificadas con sus nombres botánicos« y todavía según la Wikipedia, »un "
-"jardín es un espacio planeado, generalmente al aire libre, destinado a la "
+"*jardín* es un espacio planeado, generalmente al aire libre, destinado a la "
 "exhibición, cultivo y disfrute de las plantas y otras formas de la "
 "naturaleza.«"
 
@@ -3124,10 +3127,10 @@ msgid ""
 "activities for the benefit of the user«, or, in short, »designed to help "
 "people perform an activity«."
 msgstr ""
-"En el otro extremo de nuestro razonamiento tenemos el programa aplicativo"
-" Ghini y nuevamente citando la Wikipedia, »un programa aplicativo es un "
-"programa diseñado para realizar un grupo coordinato de funciones, tareas "
-"o actividades a beneficio del usuario«, o, en definitiva, »diseñado para "
+"En el otro extremo de nuestro razonamiento tenemos el *programa aplicativo* "
+"Ghini y nuevamente citando la Wikipedia, »un programa aplicativo es un "
+"programa diseñado para realizar un grupo coordinato de funciones, tareas o "
+"actividades a beneficio del usuario«, o, en definitiva, »diseñado para "
 "ayudar a las personas a realizar una actividad«."
 
 #: ../../goal.rst:44
@@ -3176,10 +3179,9 @@ msgstr ""
 
 #: ../../goal.rst:63
 msgid "**Accession links Planting to Species**"
-msgstr ""
+msgstr "**Accesión conecta Planting a Species**"
 
 #: ../../goal.rst:65
-#, fuzzy
 msgid ""
 "An ``Accession`` represents the action of receiving this specific plant "
 "material in the garden. As such, ``Accession`` is an abstract concept, it"
@@ -3195,10 +3197,10 @@ msgid ""
 msgstr ""
 "Una ``Accession`` representa el evento, abstracto, de la recepción de "
 "material botánico en el jardín, y conecta la ``Plant`` —grupo de plantas "
-"físicas ubicadas en una ``Location`` en el jardín— con la ``Species``. De"
-" una ``Accession`` dependen cero o más ``Plant`` (0..n) y siempre está "
-"conectada a exactamente 1 ``Species``. Cada ``Plant`` pertenece a una "
-"sola ``Accession``, cada ``Species`` puede tener asociadas múltiples "
+"físicas ubicadas en una ``Location`` en el jardín— con la ``Species``. De "
+"una ``Accession`` dependen cero o más ``Plant`` (0..n) y siempre está "
+"conectada a exactamente 1 ``Species``. Cada ``Plant`` pertenece a una sola "
+"``Accession``, cada ``Species`` puede tener asociadas múltiples "
 "``Accession``."
 
 #: ../../goal.rst:74
@@ -3215,7 +3217,7 @@ msgstr ""
 
 #: ../../goal.rst:79
 msgid "**Accession at the base of the history of your plants**"
-msgstr ""
+msgstr "**Accesiones como base de la historia de las plantas**"
 
 #: ../../goal.rst:81
 msgid ""
@@ -3237,7 +3239,7 @@ msgstr ""
 
 #: ../../goal.rst:88
 msgid "**Accession and Verification opinions**"
-msgstr ""
+msgstr "**Accesiones y Verificas como opiniones informatas**"
 
 #: ../../goal.rst:90
 msgid ""
@@ -3250,9 +3252,8 @@ msgstr ""
 " firma, y afirmando el nivel de confianza a aplicar."
 
 #: ../../goal.rst:94
-#, fuzzy
 msgid "**Accessing your own Propagations**"
-msgstr "Tratar con propagaciones"
+msgstr "**Propagaciones como fuentes de Accesiones**"
 
 #: ../../goal.rst:96
 msgid ""
@@ -4053,6 +4054,10 @@ msgid ""
 ":any:`ghini.web`, :any:`ghini.tour`, and the :any:`interaction among "
 "components`."
 msgstr ""
+"Esta documentación tiene como enfoque central ghini.desktop. Un capítulo "
+"final está dedicado al resto de la familia Ghini: :any:`ghini.pocket`, "
+":any:`ghini.web`, :any:`ghini.tour`, y la :any:`interaction among "
+"components`."
 
 #: ../../index.rst:21
 msgid ""
@@ -4062,11 +4067,11 @@ msgid ""
 "Our client-server software follows the `GNU Affero Public License "
 "<http://www.fsf.org/licensing/licenses/agpl.html>`_."
 msgstr ""
-"Ghini es `codigo abierto <http://www.opensource.org>`_ y `libre "
-"<http://www.fsf.org>`_ y es distribuido bajo la `GPL, Licencia Pública "
-"GNU <http://www.fsf.org/licensing/licenses/gpl.html>`_.  Además, todo el "
-"software que ofrecemos como servicio, está cubierto por la licencia `GNU "
-"Affero <http://www.fsf.org/licensing/licenses/agpl.html>`_."
+"Ghini es `codigo abierto <http://www.opensource.org>`_ y `libre <http://www."
+"fsf.org>`_ y es distribuido bajo la `GPL, Licencia Pública GNU <http://www."
+"fsf.org/licensing/licenses/gpl.html>`_. Además, todo el software que "
+"ofrecemos como servicio, está cubierto por la licencia `GNU Affero "
+"<http://www.fsf.org/licensing/licenses/agpl.html>`_."
 
 #: ../../index.rst:28
 msgid "Statements"
@@ -4089,9 +4094,8 @@ msgid "Administration"
 msgstr "Administración"
 
 #: ../../index.rst:77
-#, fuzzy
 msgid "Ghini Family"
-msgstr "Al rango familia"
+msgstr "La familia Ghini"
 
 #: ../../index.rst:85
 msgid "Ghini Development"
@@ -4102,13 +4106,12 @@ msgid "Supporting Ghini"
 msgstr "Apoyar Ghini"
 
 #: ../../index.rst:96
-#, fuzzy
 msgid ""
 "If you're using Ghini, or if you feel like helping its development "
 "anyway, please consider donating."
 msgstr ""
-"Si usted utiliza Ghini, o si le parece poder apoyar su desarrollo, por "
-"favor considere una `donación <https://pledgie.com/campaigns/29188>`_"
+"Si usted utiliza Ghini, o si le parece poder apoyar su desarrollo, por favor "
+"considere una donación."
 
 #: ../../installing.rst:2
 msgid "Installation"
