@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-21 14:08-0500\n"
-"PO-Revision-Date: 2021-01-21 20:31+0000\n"
-"Last-Translator: Mario Frasca <mariotomo@gmail.com>\n"
+"PO-Revision-Date: 2021-04-29 13:32+0000\n"
+"Last-Translator: 김주열 <quick3377@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/ghini/"
 "documentation-10/ko/>\n"
 "Language: ko\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../administration.rst:2
@@ -92,6 +92,8 @@ msgid ""
 "file is associated to a user account and every user will have their own "
 "configuration file."
 msgstr ""
+"Ghini는 구성 파일을 사용하여 호출간에 값을 저장합니다. 이 파일은 사용자 계정에 연결되며 모든 사용자는 고유 한 구성 파일을 "
+"갖게됩니다."
 
 #: ../../administration.rst:45
 msgid ""
@@ -108,6 +110,8 @@ msgid ""
 "so with a normal text editor program. Ghini configuration file is at the "
 "default location for SQLite databases."
 msgstr ""
+"일반적으로 구성 파일을 조정할 필요가 없지만 일반 텍스트 편집기 프로그램을 사용하여 조정할 수 있습니다. Ghini 구성 파일은 "
+"SQLite 데이터베이스의 기본 위치에 있습니다."
 
 #: ../../administration.rst:53
 msgid "Reporting Errors"
@@ -125,7 +129,7 @@ msgstr "Ghini는 도움말 메뉴를 통해 액세스 할 수 있습니다."
 
 #: ../../building.rst:2
 msgid "Developer's Manual"
-msgstr ""
+msgstr "개발자 매뉴얼"
 
 #: ../../building.rst:4
 msgid ""
@@ -134,16 +138,18 @@ msgid ""
 "the ideal situation to start looking into the software, understand how it"
 " works, contribute to ghini.desktop's development."
 msgstr ""
+"``devinstall ''설치 지침을 실행했다면 github 저장소에 연결된 소스를 다운로드 한 것입니다. 소프트웨어 조사를 시작하고 "
+"작동 방식을 이해하고 ghini.desktop의 개발에 기여할 수있는 이상적인 상황입니다."
 
 #: ../../building.rst:10
 msgid "Helping Ghini development"
-msgstr ""
+msgstr "Ghini 개발 지원"
 
 #: ../../building.rst:12
 msgid ""
 "If you want to contribute to Ghini, you can do so in quite a few "
 "different ways:"
-msgstr ""
+msgstr "Ghini에 기여하고 싶다면 다음과 같은 여러 가지 방법으로 기여할 수 있습니다:"
 
 #: ../../building.rst:14
 msgid ""
@@ -151,6 +157,8 @@ msgid ""
 "<http://github.com/Ghini/ghini.desktop/issues/new>`_ for each of them. A "
 "developer will react sooner than you can imagine."
 msgstr ""
+"소프트웨어를 사용하고 마음에 들지 않는 부분을 확인하고 각각에 대해`<http://github.com/Ghini/ghini.desktop/"
+"issues/new>`_ 문제를 엽니 다. 개발자는 상상할 수 있는 것보다 빨리 반응 할 것입니다."
 
 #: ../../building.rst:17
 msgid ""
@@ -160,6 +168,8 @@ msgid ""
 "quickly on Ghini. Do make sure the developer opens issues and publishes "
 "their contribution on github."
 msgstr ""
+"소프트웨어에서 놓친 부분에 대한 아이디어가 있지만 이를 별도의 문제로 공식화 할 수 없는 경우 전문가를 고용하는 것이 좋습니다. 이것은 "
+"Ghini에서 어떤 일이 빠르게 발생하도록 하는 가장 좋은 방법입니다. 개발자가 이슈를 열고 github에 기여를 게시하는지 확인하십시오."
 
 #: ../../building.rst:22
 msgid ""
@@ -167,12 +177,14 @@ msgid ""
 "can do this without installing anything on your computer, just using the "
 "on-line translation service offered by http://hosted.weblate.org/"
 msgstr ""
+"번역하다! 번역에 대한 모든 도움을 환영합니다. http://hosted.weblate.org/에서 제공하는 온라인 번역 서비스를 "
+"사용하면 컴퓨터에 아무것도 설치하지 않고도 이 작업을 수행 할 수 있습니다"
 
 #: ../../building.rst:25
 msgid ""
 "fork the respository, choose an issue, solve it, open a pull request. See"
 " the `bug solving workflow`_ below."
-msgstr ""
+msgstr "리포지토리를 포크하고, 문제를 선택하고, 해결하고, 풀 요청을 엽니다. 아래의`버그 해결 워크플로우`_를 참조하십시오."
 
 #: ../../building.rst:28
 msgid ""
@@ -181,16 +193,18 @@ msgid ""
 "<http://github.com/Ghini/ghini.desktop>`_ and see all that has been going"
 " on around Ghini since its inception as Bauble, back in the year 2004."
 msgstr ""
+"아직 Ghini를 설치하지 않았고 코드 기록을 보고 싶다면`github 프로젝트 페이지 <http://github.com/Ghini/"
+"ghini.desktop>`_를 열고 2004 년에 Bauble로 시작된 이래 Ghini를 둘러 보았습니다."
 
 #: ../../building.rst:33
 msgid ""
 "If you install the software according to the ``devinstall`` instructions,"
 " you have the whole history in your local git clone."
-msgstr ""
+msgstr "``devinstall ''지침에 따라 소프트웨어를 설치하면 로컬 git 클론에 전체 기록이 있습니다."
 
 #: ../../building.rst:37
 msgid "Software source, versions, branches"
-msgstr ""
+msgstr "소프트웨어 소스, 버전, 분기"
 
 #: ../../building.rst:39
 msgid ""
@@ -198,10 +212,12 @@ msgid ""
 "versions as branches. You should ``git checkout`` the branch "
 "corresponding to the version of your choice."
 msgstr ""
+"특정 버전의 Ghini를 원하면 버전을 브랜치로 출시하고 유지합니다. 선택한 버전에 해당하는 브랜치를``git checkout ''해야 "
+"합니다."
 
 #: ../../building.rst:44
 msgid "production line"
-msgstr ""
+msgstr "생산 라인"
 
 #: ../../building.rst:46
 msgid ""
@@ -209,10 +225,12 @@ msgid ""
 "``ghini-x.y`` (eg: ghini-1.0); branch names where Ghini testing versions "
 "are published are of the form ``ghini-x.y-dev`` (eg: ghini-1.0-dev)."
 msgstr ""
+"Ghini 안정 (프로덕션) 버전의 브랜치 이름은``ghini-x.y ''형식입니다 (예 : ghini-1.0). Ghini 테스트 "
+"버전이 게시 된 브랜치 이름은``ghini-x.y-dev ''형식입니다 (예 : ghini-1.0-dev)."
 
 #: ../../building.rst:51
 msgid "Development Workflow"
-msgstr ""
+msgstr "개발 워크 플로"
 
 #: ../../building.rst:53
 msgid ""
@@ -221,6 +239,8 @@ msgid ""
 "of the pushed testing branches, finally, from time to time, to merge the "
 "testing branch into the corresponding release."
 msgstr ""
+"우리의 워크플로우는 테스트 브랜치에 지속적으로 커밋하고, 종종 github로 푸시하고, travis-ci 및 coveralls.io가 "
+"푸시 된 테스트 브랜치의 품질을 확인하고, 마지막으로 테스트 브랜치를 수시로 병합하도록 하는 것입니다. 해당 릴리스."
 
 #: ../../building.rst:58
 msgid ""
@@ -228,10 +248,11 @@ msgid ""
 " days, I might open a branch associated to the issue. I don't do this "
 "very often."
 msgstr ""
+"며칠 이상 걸리는 것처럼 보이는 더 큰 문제에 대해 작업 할 때 문제와 관련된 분기를 열 수 있습니다. 나는 이것을 자주 하지 않는다."
 
 #: ../../building.rst:63
 msgid "larger issues"
-msgstr ""
+msgstr "더 큰 문제"
 
 #: ../../building.rst:65
 msgid ""
@@ -239,10 +260,12 @@ msgid ""
 "main development line (e.g.: ``ghini-1.0-dev``), and follow the workflow "
 "described at"
 msgstr ""
+"하나의 더 큰 문제가 발생하면 기본 개발 라인의 끝에 브랜치 태그 (예 :``ghini-1.0-dev '')를 만들고에 설명 된 워크 "
+"플로를 따릅니다"
 
 #: ../../building.rst:71
 msgid "in short::"
-msgstr ""
+msgstr "요컨대 ::"
 
 #: ../../building.rst:77
 msgid ""
@@ -250,16 +273,18 @@ msgid ""
 "branch with the main development line from which you branched, solve "
 "conflicts where necessary, delete the temporary branch."
 msgstr ""
+"새 임시 브랜치에서 작업하십시오. 준비가 되면 github로 이동하여 분기 한 기본 개발 라인과 분기를 병합하고 필요한 경우 충돌을 "
+"해결하고 임시 분기를 삭제하십시오."
 
 #: ../../building.rst:81
 msgid ""
 "When ready for publication, merge the development line into the "
 "corresponding production line."
-msgstr ""
+msgstr "게시 할 준비가 되면 개발 라인을 해당 생산 라인에 병합합니다."
 
 #: ../../building.rst:85
 msgid "Updating the set of translatable strings"
-msgstr ""
+msgstr "번역 가능한 문자열 집합 업데이트"
 
 #: ../../building.rst:87
 msgid ""
@@ -269,6 +294,8 @@ msgid ""
 "translatable, and are offered to weblate for people to contribute, in the"
 " form of several ``.po`` files."
 msgstr ""
+"때때로 소프트웨어를 업데이트하는 과정에서 파이썬 소스, 문서, glade 소스의 문자열을 추가하거나 수정합니다. 대부분의 문자열은 번역이 "
+"가능하며 여러``.po ''파일 형식으로 사람들이 기여할 수 있도록 웨블레이트에 제공됩니다."
 
 #: ../../building.rst:92
 msgid ""
@@ -278,6 +305,9 @@ msgid ""
 "programmer adds a string to the software, this reaches weblate as \"to be"
 " translated\"."
 msgstr ""
+"``po ''는 대부분 원본과 번역의 텍스트 부분 쌍으로 구성되며 대상 언어에 따라 다릅니다. 번역가가 weblate에 번역을 추가하면 "
+"github의 저장소에 도달합니다. 프로그래머가 소프트웨어에 문자열을 추가하면 \"to be translation\"으로 weblate에 "
+"도달합니다."
 
 #: ../../building.rst:98
 msgid ""
@@ -286,46 +316,54 @@ msgid ""
 "corresponds to a branch of a repository on github. Each component accepts"
 " translations in several languages."
 msgstr ""
+"Weblate는`Ghini <https://hosted.weblate.org/projects/ghini/>`_ 프로젝트를 호스팅합니다. "
+"이 프로젝트에는 github의 저장소 브랜치에 해당하는 구성 요소가 있습니다. 각 구성 요소는 여러 언어로 번역을 허용합니다."
 
 #: ../../building.rst:104
 msgid "component"
-msgstr ""
+msgstr "구성 요소"
 
 #: ../../building.rst:104
 msgid "repository"
-msgstr ""
+msgstr "저장소"
 
 #: ../../building.rst:104
 msgid "branch"
-msgstr ""
+msgstr "분기"
 
 #: ../../building.rst:107
+#, fuzzy
 msgid "Desktop 3.1"
-msgstr ""
+msgstr "Desktop 3.1"
 
 #: ../../building.rst:107 ../../building.rst:109
+#, fuzzy
 msgid "ghini-3.1-dev"
-msgstr ""
+msgstr "ghini-3.1-dev"
 
 #: ../../building.rst:109
+#, fuzzy
 msgid "Documentation 3.1"
-msgstr ""
+msgstr "Documentation 3.1"
 
 #: ../../building.rst:111
 msgid "Pocket"
-msgstr ""
+msgstr "포켓"
 
 #: ../../building.rst:111 ../../ghini-family.rst:15
+#, fuzzy
 msgid "ghini.pocket"
-msgstr ""
+msgstr "ghini.pocket"
 
 #: ../../building.rst:112
+#, fuzzy
 msgid "Tour"
-msgstr ""
+msgstr "Tour"
 
 #: ../../building.rst:112 ../../ghini-family.rst:98
+#, fuzzy
 msgid "ghini.tour"
-msgstr ""
+msgstr "ghini.tour"
 
 #: ../../building.rst:115
 msgid ""
@@ -333,6 +371,8 @@ msgid ""
 "working directory to the root of your checkout of *ghini.desktop*, and "
 "you run the script::"
 msgstr ""
+"* software *와 관련된``po ''파일을 업데이트하려면 작업 디렉토리를 * ghini.desktop * 체크 아웃 루트로 "
+"설정하고 스크립트를 실행합니다::"
 
 #: ../../building.rst:121
 msgid ""
@@ -340,6 +380,8 @@ msgid ""
 "working directory to the root of your checkout of *ghini.desktop-"
 "docs.i18n*, and you run the script::"
 msgstr ""
+"* documentation *과 관련된``po ''파일을 업데이트하려면 작업 디렉토리를 * ghini.desktop-docs.i18n *"
+" 체크 아웃 루트로 설정하고 다음 스크립트를 실행합니다::"
 
 #: ../../building.rst:127
 msgid ""
@@ -349,19 +391,21 @@ msgid ""
 " when you perform a marginal correction to a string, like removing a "
 "typo."
 msgstr ""
+"위에서 언급 한 스크립트 중 하나를 실행할 때 프로젝트에서 * 모든 *``po ''파일을 커밋해야 할 가능성이 있습니다. 저장소에 "
+"커밋하기 전에 변경 사항을 검토 할 수 있습니다. 이것은 오타 제거와 같이 문자열에 대한 한계 수정을 수행 할 때 가장 중요합니다."
 
 #: ../../building.rst:132
 msgid ""
 "Something that happens: running into a conflict. Solving conflicts is not"
 " difficult once you know how to do that. First of all, add weblate as "
 "remote::"
-msgstr ""
+msgstr "일어나는 일 : 갈등에 빠진다. 갈등을 해결하는 방법을 알면 어렵지 않습니다. 먼저 weblate를 원격으로 추가하십시오::"
 
 #: ../../building.rst:137
 msgid ""
 "Then make sure we are in the correct repository, on the correct branch, "
 "update the remote, merge with it::"
-msgstr ""
+msgstr "일어나는 일 : 갈등에 빠진다. 갈등을 해결하는 방법을 알면 어렵지 않습니다. 먼저 weblate를 원격으로 추가하십시오::"
 
 #: ../../building.rst:144
 msgid ""
@@ -371,6 +415,9 @@ msgid ""
 "<http://docs.readthedocs.io/en/latest/localization.html>`_, there's "
 "nothing that we invented ourselves here."
 msgstr ""
+"`readthedocs의 문서 <https://readthedocs.org/projects/ghini/>`_에는 원본 영어 버전과 여러 "
+"번역이 있습니다. 우리는`현지화 설명 <http://docs.readthedocs.io/en/latest/localization."
+"html>`_을 따를뿐입니다. 여기서 우리가 스스로 발명 한 것은 없습니다."
 
 #: ../../building.rst:150
 msgid ""
@@ -381,6 +428,9 @@ msgid ""
 " source document, and that they all reside in the directory "
 "``local/$(LANG)/LC_MESSAGES/``."
 msgstr ""
+"Readthedocs는 프로젝트의 * Language * 설정을 확인하고``sphinx-intl``을 호출하여 대상 언어로 형식화 된 "
+"문서를 생성합니다. 우리가 변경하지 않은 기본 구성을 사용하면``sphinx-intl``은 소스 문서 당 하나의``po ''파일을 "
+"예상하며 소스 문서로 명명되며 모두``local / $ ( LANG) / LC_MESSAGES /``."
 
 #: ../../building.rst:157
 msgid ""
@@ -388,58 +438,62 @@ msgid ""
 "per language, and keeps them all in the same ``/po`` directory, just as "
 "we do for the software project: ``/po/$(LANG).po``."
 msgstr ""
+"반면에 웨블 레이트 (그리고 우리 자신)는 언어 당 하나의``po ''파일을 선호하며, 소프트웨어 프로젝트에서와 마찬가지로 모두 "
+"동일한``/ po ''디렉토리에 보관합니다 :``/ po /$(LANG).po ''."
 
 #: ../../building.rst:161
 msgid ""
 "In order not to repeat information, and to let both systems work their "
 "natural way, we have two sets of symbolic links (git honors them)."
-msgstr ""
+msgstr "정보를 반복하지 않고 두 시스템이 자연스럽게 작동하도록하기 위해 두 세트의 심볼릭 링크가 있습니다 (git이이를 존중합니다)."
 
 #: ../../building.rst:164
 msgid ""
 "To summarise: when a file in the documentation is updated, the "
 "``runme.sh`` script will:"
-msgstr ""
+msgstr "요약하자면, 문서의 파일이 업데이트되면``runme.sh ''스크립트는 다음을 수행합니다.:"
 
 #: ../../building.rst:167
 msgid "copy the ``rst`` files from the software to the documentation;"
-msgstr ""
+msgstr "소프트웨어에서 문서로``rst ''파일을 복사합니다;"
 
 #: ../../building.rst:168
 msgid "create a new ``pot`` file for each of the documentation files;"
-msgstr ""
+msgstr "각 문서 파일에 대해 새``pot ''파일을 만듭니다;"
 
 #: ../../building.rst:169
 msgid "merge all ``pot`` files into one ``doc.pot``;"
-msgstr ""
+msgstr "모든``pot ''파일을 하나의``doc.pot ''으로 병합합니다;"
 
 #: ../../building.rst:170
 msgid ""
 "use the updated ``doc.pot`` to update all ``doc.po`` files (one per "
 "language);"
-msgstr ""
+msgstr "업데이트 된``doc.pot``을 사용하여 모든``doc.po ''파일을 업데이트합니다 (언어 당 하나씩);"
 
 #: ../../building.rst:171
 msgid "create all symbolic links:"
-msgstr ""
+msgstr "모든 심볼릭 링크를 만듭니다:"
 
 #: ../../building.rst:173
 msgid "those expected by ``sphinx-intl`` in ``/local/$(LANG)/LC_MESSAGES/``"
-msgstr ""
+msgstr "``/ local / $ (LANG) / LC_MESSAGES /``의``sphinx-intl``에 의해 예상되는 것"
 
 #: ../../building.rst:174
 msgid "those used by weblate in ``/po/$(LANG).po``"
-msgstr ""
+msgstr "weblate에서 사용하는``/ po / $ (LANG) .po``"
 
 #: ../../building.rst:176
 msgid ""
 "We could definitely write the above in a Makefile, or even better include"
 " it in ``/doc/Makefile``. Who knows, maybe we will do that."
 msgstr ""
+"위의 내용을 Makefile에 작성하거나``/ doc / Makefile``에 포함하는 것이 더 좋습니다. 누가 알겠습니까, 아마도 "
+"우리가 그렇게 할 것입니다."
 
 #: ../../building.rst:180
 msgid "Producing the docs locally"
-msgstr ""
+msgstr "로컬에서 문서 생성"
 
 #: ../../building.rst:182
 msgid ""
@@ -448,6 +502,8 @@ msgid ""
 "to have the documentation locally, for example if you want to edit and "
 "review before pushing your commits to the cloud?"
 msgstr ""
+"위의 설명은 모든 사람이 볼 수 있도록 외부 사이트에서 문서를 생성하는 데 도움이 되는 방법에 대한 것입니다. 그러나 예를 들어 커밋을 "
+"클라우드로 푸시하기 전에 편집하고 검토하려는 경우와 같이 문서를 로컬로 갖고 싶다면 어떻게 해야 할까요?"
 
 #: ../../building.rst:187
 msgid ""
@@ -456,10 +512,12 @@ msgid ""
 "have a sphinx version whose dependencies don not conflict with "
 "ghini.desktop's dependecies."
 msgstr ""
+"sphinx를 로컬에서 실행하려면 ghini와 동일한 가상 환경 ** 내 **에 설치해야 하며, 여기에 설치하려면 종속성이 "
+"ghini.desktop의 종속성과 충돌하지 않는 sphinx 버전이 있어야 합니다."
 
 #: ../../building.rst:192
 msgid "What we do to keep this in order?"
-msgstr ""
+msgstr "이것을 순서대로 유지하려면 어떻게해야합니까?"
 
 #: ../../building.rst:194
 msgid ""
@@ -468,6 +526,9 @@ msgid ""
 "then run ``easy_install ghini.desktop[docs]``.  This gets you the sphinx "
 "version as declared in the ``setup.py`` file."
 msgstr ""
+"이 추가 종속성은``setup.py ''파일에``extras_require ''항목으로 명시합니다. 가상 환경을 생성하고 활성화 한 "
+"다음``easy_install ghini.desktop [docs]``를 실행합니다. 이렇게 하면``setup.py ''파일에 선언 된 "
+"스핑크스 버전이 표시됩니다."
 
 #: ../../building.rst:199
 msgid ""
@@ -475,10 +536,12 @@ msgid ""
 " install docs``.  For more options, enter the ``doc`` directory and run "
 "``make``."
 msgstr ""
+"로컬에서 빌드 된 html 문서 만 원하는 경우``./setup.py install docs``를 실행하십시오. 더 많은 옵션을 보려면``"
+"doc ''디렉토리를 입력하고``make ''를 실행하십시오."
 
 #: ../../building.rst:204
 msgid "Which way do the translated strings reach our users?"
-msgstr ""
+msgstr "번역 된 문자열은 어떤 방식으로 사용자에게 전달됩니까?"
 
 #: ../../building.rst:206
 msgid ""
@@ -486,12 +549,14 @@ msgid ""
 "process from Weblate --> GIT --> Ghini Desktop installed on users "
 "computers, or does this require manual steps?"
 msgstr ""
+"새로운 번역가가 다음과 같이 질문했습니다.»Weblate-> GIT-> 사용자 컴퓨터에 설치된 Ghini Desktop의 자동화 된 "
+"프로세스입니까, 아니면 수동 단계가 필요합니까?"
 
 #: ../../building.rst:210
 msgid ""
 "The aswer is that the whole interaction is quite complex, and it depends "
 "on the component."
-msgstr ""
+msgstr "문제는 전체 상호 작용이 매우 복잡하고 구성 요소에 따라 다르다는 것입니다."
 
 #: ../../building.rst:213
 msgid ""
@@ -501,6 +566,8 @@ msgid ""
 "install the software in English together with a translation table from "
 "English to whatever else."
 msgstr ""
+"``ghini.desktop ''또는 Android 앱 중 하나를 설치할 때 설치는 특정 런타임 언어를 가정하지 않습니다. 사용자는 "
+"언제든지 언어 구성을 변경할 수 있습니다. 그래서 우리가하는 일은 영어로 된 번역 표와 함께 영어로 된 소프트웨어를 설치하는 것입니다."
 
 #: ../../building.rst:219
 msgid ""
@@ -508,6 +575,8 @@ msgid ""
 " translation strings.  These translation tables are generated during the "
 "installation or upgrade process, based on the strings you see on Weblate."
 msgstr ""
+"런타임에 GUI 라이브러리 (Android 또는 GTK)는 번역 문자열을 찾을 위치를 알고 있습니다. 이러한 번역 테이블은 "
+"Weblate에 표시되는 문자열을 기반으로 설치 또는 업그레이드 프로세스 중에 생성됩니다."
 
 #: ../../building.rst:223
 msgid ""
@@ -523,12 +592,18 @@ msgid ""
 "publish to the production line ``ghini-1.0``, and this is the moment when"
 " the new translations finally make it to the distributed software."
 msgstr ""
+"번역이 뒤 따르는 경로는 다음과 같습니다. Weblate에서 문자열을 편집하거나, Weblate가 완료 될 때까지 문자열을 계속 "
+"축적하거나, Weblate와 오랫동안 상호 작용하지 않습니다. Weblate는 문자열을 github에 직접 푸시하여 개발 "
+"라인``ghini-1.0-dev ''로 보냅니다. 나는 그들을 보고 맹목적으로 신뢰하거나 검토하는 것을 선호 할 수 있습니다. "
+"위키피디아에서 찾아 보거나 자동 번역 서비스를 통해 이탈리아어, 스페인어 또는 영어로 다시 번역 할 수도 있습니다. 때로는 상황이 "
+"변경되어 발생하는 갈등을 해결해야 합니다. 말했듯이 이것은 개발 라인``ghini-1.0-dev ''에 도착하며, 저는 정기적으로 생산 "
+"라인``ghini-1.0 ''에 게시하고 있으며, 이것은 새로운 번역이 마침내 배포 된 소프트웨어."
 
 #: ../../building.rst:235
 msgid ""
 "Users will notice a *new version available* warning and can decide to "
 "ignore it, or to update."
-msgstr ""
+msgstr "사용자는 * 사용 가능한 새 버전 * 경고를보고 무시하거나 업데이트 할 수 있습니다."
 
 #: ../../building.rst:238
 msgid ""
@@ -538,32 +613,35 @@ msgid ""
 "notify you, or do nothing.  It depends on how you configured automatic "
 "updates."
 msgstr ""
+"``ghini.pocket``의 경우 비슷하지만 Android 시스템에서 알림을 처리합니다. Google은 Play 스토어에 게시하며 "
+"설정에 따라 휴대 전화가 소프트웨어를 자동으로 업데이트하거나 알림 만 보내거나 아무것도 하지 않습니다. 자동 업데이트를 구성한 방법에 "
+"따라 다릅니다."
 
 #: ../../building.rst:243
 msgid "For ``ghini.web``, we haven't yet defined how to distribute it."
-msgstr ""
+msgstr "``ghini.web``의 경우 배포 방법을 아직 정의하지 않았습니다."
 
 #: ../../building.rst:245
 msgid ""
 "For ghini's documentation, it's completely automatic, and all is handled "
 "by readthedocs.org."
-msgstr ""
+msgstr "ghini 문서의 경우 완전히 자동이며 모두 readthedocs.org에서 처리합니다."
 
 #: ../../building.rst:250
 msgid "Adding missing unit tests"
-msgstr ""
+msgstr "누락 된 단위 테스트 추가"
 
 #: ../../building.rst:252
 msgid ""
 "If you are interested contributing to development of Ghini, a good way to"
 " do so would be by helping us finding and writing the missing unit tests."
-msgstr ""
+msgstr "Ghini 개발에 관심이 있으시다면, 누락 된 단위 테스트를 찾고 작성하도록 도와 주시면 좋은 방법이 될 것입니다."
 
 #: ../../building.rst:255
 msgid ""
 "A well tested function is one whose behaviour you cannot change without "
 "breaking at least one unit test."
-msgstr ""
+msgstr "잘 테스트 된 함수는 적어도 하나의 단위 테스트를 위반하지 않고는 동작을 변경할 수 없는 함수입니다."
 
 #: ../../building.rst:258
 msgid ""
@@ -572,28 +650,33 @@ msgid ""
 "however, practice does not match theory and we have been writing tests "
 "after writing and even publishing the functions."
 msgstr ""
+"우리 모두는 이론과 실습에서 완벽하게 일치하고 먼저 테스트를 작성한 다음 기능을 구현한다는 데 동의합니다. 그러나 실제로 실습은 이론과 "
+"일치하지 않으며 함수를 작성하고 게시 한 후 테스트를 작성했습니다."
 
 #: ../../building.rst:263
 msgid ""
 "This section describes the process of adding unit tests for "
 "``bauble.plugins.plants.family.remove_callback``."
 msgstr ""
+"이 섹션에서는``bauble.plugins.plants.family.remove_callback``에 대한 단위 테스트를 추가하는 "
+"프로세스를 설명합니다."
 
 #: ../../building.rst:267
 msgid "What to test"
-msgstr ""
+msgstr "테스트 할 내용"
 
 #: ../../building.rst:269
 msgid ""
 "First of all, open the coverage report index, and choose a file with low "
 "coverage."
-msgstr ""
+msgstr "먼저 커버리지 보고서 색인을 열고 커버리지가 낮은 파일을 선택합니다."
 
 #: ../../building.rst:272
 msgid ""
 "For this example, run in October 2015, we landed on "
 "``bauble.plugins.plants.family``, at 33%."
 msgstr ""
+"2015 년 10 월에 실행 된 이 예제의 경우 33 %로``bauble.plugins.plants.family``에 도달했습니다."
 
 #: ../../building.rst:277
 msgid ""
@@ -602,6 +685,8 @@ msgid ""
 "relying on a custom dialog box. We should really first write unit tests "
 "for that class, then come back here."
 msgstr ""
+"테스트가 필요한 처음 두 함수 인``edit_callback ''및``add_genera_callback ''에는 사용자 지정 대화 "
+"상자에 의존하는 개체의 생성 및 활성화가 포함됩니다. 먼저 해당 클래스에 대한 단위 테스트를 작성한 다음 여기로 돌아와야합니다."
 
 #: ../../building.rst:282
 msgid ""
@@ -610,88 +695,90 @@ msgid ""
 "user input via yes-no-ok boxes. These functions we can easily replace "
 "with a function mocking the behaviour."
 msgstr ""
+"다음 기능인``remove_callback ''은 대화 상자와 메시지 상자 두 개를 활성화하지만 예-아니오 상자를 통해 사용자 입력을 "
+"요청하는 기능을 호출하는 형태입니다. 이러한 함수는 동작을 조롱하는 함수로 쉽게 대체 할 수 있습니다."
 
 #: ../../building.rst:288
 msgid "how to test"
-msgstr ""
+msgstr "테스트 방법"
 
 #: ../../building.rst:290
 msgid ""
 "So, having decided what to describe in unit test, we look at the code and"
 " we see it needs discriminate a couple of cases:"
-msgstr ""
+msgstr "따라서 단위 테스트에서 무엇을 설명할지 결정한 후 코드를 살펴보면 몇 가지 경우를 구별해야합니다:"
 
 #: ../../building.rst:296
 msgid "**parameter correctness**"
-msgstr ""
+msgstr "** 매개 변수 정확성 **"
 
 #: ../../building.rst:294
 msgid "the list of families has no elements."
-msgstr ""
+msgstr "과 목록에는 요소가 없습니다."
 
 #: ../../building.rst:295
 msgid "the list of families has more than one element."
-msgstr ""
+msgstr "과 목록에는 요소가 없습니다."
 
 #: ../../building.rst:296
 msgid "the list of families has exactly one element."
-msgstr ""
+msgstr "과 목록에는 정확히 하나의 요소가 있습니다."
 
 #: ../../building.rst:300
 msgid "**cascade**"
-msgstr ""
+msgstr "**종속**"
 
 #: ../../building.rst:299
 msgid "the family has no genera"
-msgstr ""
+msgstr "과는 속이 없다"
 
 #: ../../building.rst:300
 msgid "the family has one or more genera"
-msgstr ""
+msgstr "과에 하나 이상의 속이 있습니다"
 
 #: ../../building.rst:304
 msgid "**confirm**"
-msgstr ""
+msgstr "** 확인 **"
 
 #: ../../building.rst:303
 msgid "the user confirms deletion"
-msgstr ""
+msgstr "사용자가 삭제를 확인"
 
 #: ../../building.rst:304
 msgid "the user does not confirm deletion"
-msgstr ""
+msgstr "사용자가 삭제를 확인하지 않음"
 
 #: ../../building.rst:308
 msgid "**deleting**"
-msgstr ""
+msgstr "** 삭제 **"
 
 #: ../../building.rst:307
 msgid "all goes well when deleting the family"
-msgstr ""
+msgstr "속을 삭제할 때 모든 것이 잘됩니다"
 
 #: ../../building.rst:308
 msgid "there is some error while deleting the family"
-msgstr ""
+msgstr "과를 삭제하는 동안 약간의 오류가 있습니다"
 
 #: ../../building.rst:310
 msgid ""
 "I decide I will only focus on the **cascade** and the **confirm** "
 "aspects. Two binary questions: 4 cases."
-msgstr ""
+msgstr "** 캐스케이드 ** 및 ** 확인 ** 측면에만 집중하기로 결정했습니다. 2 개의 이진 질문 : 4 개의 경우."
 
 #: ../../building.rst:314
 msgid "where to put the tests"
-msgstr ""
+msgstr "테스트를 둘 위치"
 
 #: ../../building.rst:316
 msgid ""
 "Locate the test script and choose the class where to put the extra unit "
 "tests."
-msgstr ""
+msgstr "테스트 스크립트를 찾고 추가 단위 테스트를 넣을 클래스를 선택합니다."
 
 #: ../../building.rst:320
 msgid "what about skipped tests"
-msgstr ""
+msgstr "건너 뛴 테스트는 어떻습니까"
 
 #: ../../building.rst:323
 msgid ""
@@ -701,10 +788,13 @@ msgid ""
 " FamilyEditor class, which I think should be removed and replaced with a "
 "single function."
 msgstr ""
+"``Family Tests ''클래스에는 건너 뛴 테스트가 포함되어 있습니다. Family Editor Presenter를 다시 "
+"작성하고이를 Family Editor View에서 분리하고 제거해야 한다고 생각하는 Family Editor 클래스로 수행 할 작업을 "
+"다시 고려해야 하기 때문에 구현하는 작업이 상당히 많을 것입니다. 단일 기능으로 대체되었습니다."
 
 #: ../../building.rst:330
 msgid "writing the tests"
-msgstr ""
+msgstr "테스트 작성"
 
 #: ../../building.rst:332
 msgid ""
@@ -712,46 +802,48 @@ msgid ""
 " to describe, and I make sure they fail, and since I'm lazy, I write the "
 "most compact code I know for generating an error::"
 msgstr ""
+"FamilyTests 클래스의 마지막 테스트 후에 설명하고 싶은 네 가지 사례를 추가하고 실패하는지 확인하고 게으르기 때문에 오류 생성에 "
+"대해 알고 있는 가장 간단한 코드를 작성합니다::"
 
 #: ../../building.rst:349
 msgid "One test, step by step"
-msgstr ""
+msgstr "단계별 테스트"
 
 #: ../../building.rst:351
 msgid "Let's start with the first test case."
-msgstr ""
+msgstr "첫 번째 테스트 케이스부터 시작하겠습니다."
 
 #: ../../building.rst:353
 msgid "When writing tests, I generally follow the pattern:"
-msgstr ""
+msgstr "테스트를 작성할 때 일반적으로 다음 패턴을 따릅니다:"
 
 #: ../../building.rst:355
 msgid "T₀ (initial condition),"
-msgstr ""
+msgstr "T₀ (초기 조건),"
 
 #: ../../building.rst:356
 msgid "action,"
-msgstr ""
+msgstr "동작,"
 
 #: ../../building.rst:357
 msgid "T₁ (testing the result of the action given the initial conditions)"
-msgstr ""
+msgstr "T₁ (초기 조건이 주어진 경우 작업 결과 테스트)"
 
 #: ../../building.rst:359
 msgid "what's in a name — unit tests"
-msgstr ""
+msgstr "이름에있는 것 — 단위 테스트"
 
 #: ../../building.rst:362
 msgid ""
 "There's a reason why unit tests are called unit tests. Please never test "
 "two actions in one test."
-msgstr ""
+msgstr "단위 테스트를 단위 테스트라고 부르는 데에는 이유가 있습니다. 한 번의 테스트에서 두 가지 작업을 테스트하지 마십시오."
 
 #: ../../building.rst:365
 msgid ""
 "So let's describe T₀ for the first test, a database holding a family "
 "without genera::"
-msgstr ""
+msgstr "그럼 첫 번째 테스트의 T₀에 대해 설명해 봅시다. 속이없는 가족을 포함하는 데이터베이스 :"
 
 #: ../../building.rst:373
 msgid ""
@@ -762,10 +854,13 @@ msgid ""
 "original interactive function, accepts one parameter and returns a "
 "boolean. In this case: ``False``::"
 msgstr ""
+"테스트중인 함수가 대화 형``utils.yes_no_dialog ''함수를 호출하는 것을 원하지 않고,``remove_callback``"
+"이 비대화 형 대체 함수를 호출하도록합니다. ``utils.yes_no_dialog``가 원래의 대화 형 함수와 마찬가지로 하나의 매개 "
+"변수를 받아들이고 부울을 반환하는``람다 ''표현식을 가리 키도록 만들기 만하면됩니다. 이 경우 :``False ''::"
 
 #: ../../building.rst:391
 msgid "Next we test the result."
-msgstr ""
+msgstr "다음으로 결과를 테스트합니다."
 
 #: ../../building.rst:393
 msgid ""
@@ -774,16 +869,18 @@ msgid ""
 "and whether ``yes_no_dialog`` and ``message_details_dialog`` were invoked"
 " or not."
 msgstr ""
+"음, 우리는 Arecaceae 개체가 삭제되었는지 여부를 테스트하는 것이 아니라``remove_callback ''에서 반환 된 값과``"
+"yes_no_dialog ''및``message_details_dialog ''가 호출되었는지 여부도 테스트해야합니다. ."
 
 #: ../../building.rst:398
 msgid ""
 "A ``lambda`` expression is not enough for this. We do something "
 "apparently more complex, which will make life a lot easier."
-msgstr ""
+msgstr "``람다 ''표현만으로는 충분하지 않습니다. 우리는 분명히 더 복잡한 일을하여 삶을 훨씬 더 쉽게 만듭니다."
 
 #: ../../building.rst:401
 msgid "Let's first define a rather generic function::"
-msgstr ""
+msgstr "먼저 다소 일반적인 함수를 정의 해 보겠습니다::"
 
 #: ../../building.rst:407
 msgid ""
@@ -793,6 +890,9 @@ msgid ""
 "parameter and returning a value, to replace the two functions in "
 "``utils``. The test function now looks like this::"
 msgstr ""
+"그리고 우리는``functools ''표준 모듈에서``partial ''을 가져 와서 위의``mockfunc ''를 부분적으로 적용하고``"
+"msg ''만 지정하지 않고이 부분 응용 프로그램을 사용합니다. 매개 변수와 값을 반환하여``utils ''의 두 함수를 대체합니다. "
+"이제 테스트 기능은 다음과 같습니다::"
 
 #: ../../building.rst:429
 msgid ""
@@ -800,16 +900,18 @@ msgid ""
 "that ``yes_no_dialog`` was invoked, with the correct message parameter, "
 "that Arecaceae is still there::"
 msgstr ""
+"테스트 섹션은``message_details_dialog``가 호출되지 않았는지,``yes_no_dialog``가 올바른 메시지 매개 "
+"변수와 함께 호출되었는지, Arecaceae가 아직 거기에 있는지 확인합니다::"
 
 #: ../../building.rst:445
 msgid "And so on"
-msgstr ""
+msgstr "등등"
 
 #: ../../building.rst:447
 msgid ""
 "`there are two kinds of people, those who complete what they start, and "
 "so on`"
-msgstr ""
+msgstr "`시작한 것을 완수하는 두 종류의 사람들이있다`"
 
 #: ../../building.rst:450
 msgid ""
@@ -818,6 +920,8 @@ msgid ""
 "specifying ``result=True`` in the partial application of the generic "
 "``mockfunc``)."
 msgstr ""
+"다음 테스트는``utils.yes_no_dialog``가``True ''를 반환해야한다는 차이점을 제외하면 거의 동일합니다 (일반``"
+"mockfunc ''의 부분 응용 프로그램에서``result = True``를 지정하여 달성합니다. `)."
 
 #: ../../building.rst:455
 msgid ""
@@ -825,16 +929,18 @@ msgid ""
 "``True``, and there should be no Arecaceae Family in the database any "
 "more::"
 msgstr ""
+"이 작업을 통해``remove_callback``에서 반환 된 값은``True ''여야하며 데이터베이스에 Arecaceae Family가 "
+"더 이상 없어야합니다::"
 
 #: ../../building.rst:485
 msgid ""
 "have a look at commit 734f5bb9feffc2f4bd22578fcee1802c8682ca83 for the "
 "other two test functions."
-msgstr ""
+msgstr "다른 두 테스트 기능에 대한 커밋 734f5bb9feffc2f4bd22578fcee1802c8682ca83을 살펴보십시오."
 
 #: ../../building.rst:489
 msgid "Testing logging"
-msgstr ""
+msgstr "로깅 테스트"
 
 #: ../../building.rst:491
 msgid ""
@@ -844,6 +950,9 @@ msgid ""
 "associate it to the root logger.  The ``tearDown`` method takes care of "
 "removing it."
 msgstr ""
+"우리의``bauble.test.BaubleTestCase ''객체는``bauble.test.MockLoggingHandler`` 클래스의 "
+"핸들러를 사용합니다. 개별 단위 테스트가 시작될 때마다``setUp ''메소드는 새로운``핸들러 ''를 생성하고이를 루트 로거에 "
+"연결합니다. ``tearDown ''메소드가이를 제거합니다."
 
 #: ../../building.rst:496
 #, python-format
@@ -856,28 +965,32 @@ msgid ""
 "according to whatever formatter you associate to the handler, defaulting "
 "to ``logging.Formatter(\"%(message)s\")``."
 msgstr ""
+"``self.handler.messages``에서 특정 로깅 메시지의 존재 여부를 확인할 수 있습니다. ``messages``는 두 가지 "
+"수준의 인덱싱이있는 사전이며 처음에는 비어 있습니다. 먼저 로깅 레코드를 발행하는 로거의 이름, 그 다음 로깅 레코드의 레벨 이름입니다. "
+"필요한 경우 키가 생성됩니다. 값은 핸들러에 연결하는 포맷터에 따라 형식이 지정된 메시지 목록을 보유하며 기본값은``"
+"logging.Formatter ( \"% (message) s\")``입니다."
 
 #: ../../building.rst:504
 msgid ""
 "You can explicitly empty the collected messages by invoking "
 "``self.handler.clear()``."
-msgstr ""
+msgstr "``self.handler.clear ()``를 호출하여 수집 된 메시지를 명시 적으로 비울 수 있습니다."
 
 #: ../../building.rst:509
 msgid "Putting all together"
-msgstr ""
+msgstr "모두 합치기"
 
 #: ../../building.rst:511
 msgid "From time to time you want to activate the test class you're working at::"
-msgstr ""
+msgstr "때때로 작업중인 테스트 클래스를 활성화하고 싶습니다::"
 
 #: ../../building.rst:515
 msgid "And at the end of the process you want to update the statistics::"
-msgstr ""
+msgstr "프로세스가 끝나면 통계를 업데이트 할 수 있습니다::"
 
 #: ../../building.rst:521
 msgid "Structure of user interface"
-msgstr ""
+msgstr "사용자 인터페이스 구조"
 
 #: ../../building.rst:523
 msgid ""
@@ -886,6 +999,8 @@ msgid ""
 "**Model** is a SQLAlchemy database object, but we also have interface "
 "elements where there is no corresponding database model.  In general:"
 msgstr ""
+"사용자 인터페이스는 ** 모델 ** — **보기 ** — ** 발표자 ** 아키텍처 패턴에 따라 구축됩니다. 대부분의 인터페이스에서 ** "
+"Model **은 SQLAlchemy 데이터베이스 개체이지만 해당 데이터베이스 모델이없는 인터페이스 요소도 있습니다. 일반적으로 :"
 
 #: ../../building.rst:528
 msgid ""
@@ -896,6 +1011,10 @@ msgid ""
 "**glade** file name and the root widget name, then hand this instance "
 "over to the **presenter** constructor."
 msgstr ""
+"**보기 **는 ** glade ** 파일의 일부로 설명됩니다. 여기에는 신호 콜백 및 ListStore-TreeView 연결이 "
+"포함되어야합니다. ``bauble.editor``에 정의 된 기본 클래스``GenericEditorView ''를 재사용하면됩니다. 이 "
+"일반 클래스의 인스턴스를 만들 때 ** glade ** 파일 이름과 루트 위젯 이름을 전달한 다음이 인스턴스를 ** presenter **"
+" 생성자에게 넘깁니다."
 
 #: ../../building.rst:535
 msgid ""
@@ -905,12 +1024,15 @@ msgid ""
 "<http://gtk.php.net/manual/en/html/gtk/gtk.enum.responsetype.html>`_, for"
 " example:"
 msgstr ""
+"glade 파일의``action-widgets ''섹션에서 GtkDialog 객체 설명을 닫고 모든``action-widget ''요소에 "
+"유효한``response ''값이 있는지 확인합니다. `유효한 GtkResponseType 값 <http://gtk.php.net/"
+"manual/en/html/gtk/gtk.enum.responsetype.html>`_을 사용합니다. 예를 들면 다음과 같습니다:"
 
 #: ../../building.rst:546
 msgid ""
 "There is no easy way to unit test a subclassed view, so please don't "
 "subclass views, there's really no need to."
-msgstr ""
+msgstr "하위 클래스 뷰를 단위 테스트하는 쉬운 방법이 없으므로 뷰를 하위 클래스로 만들지 마십시오. 실제로 그럴 필요가 없습니다."
 
 #: ../../building.rst:549
 msgid ""
@@ -918,12 +1040,16 @@ msgid ""
 "activated on which signal.  The generic Presenter class offers generic "
 "callbacks which cover the most common cases."
 msgstr ""
+"glade 파일에서 모든 입력 위젯은 어떤 신호에서 어떤 핸들러가 활성화되는지 정의해야합니다. 일반 Presenter 클래스는 가장 "
+"일반적인 경우를 다루는 일반 콜백을 제공합니다."
 
 #: ../../building.rst:553
 msgid ""
 "GtkEntry (one-line text entry) will handle the ``changed`` signal, with "
 "either ``on_text_entry_changed`` or ``on_unique_text_entry_changed``."
 msgstr ""
+"GtkEntry (한 줄 텍스트 항목)는``on_text_entry_changed "
+"''또는``on_unique_text_entry_changed``와 함께``changed ''신호를 처리합니다."
 
 #: ../../building.rst:555
 msgid ""
@@ -934,6 +1060,10 @@ msgid ""
 "receives the change. This is a workaroud for an `unresolved bug in GTK "
 "<http://stackoverflow.com/questions/32106765/>`_."
 msgstr ""
+"GtkTextView : GtkTextBuffer에 연결합니다. GtkTextBuffer에서``changed ''신호를 처리하려면 "
+"일반``on_textbuffer_changed``를 호출하는 핸들러를 정의해야합니다.이 함수의 유일한 역할은 일반 핸들러에 수신되는 모델 "
+"속성의 이름을 전달하는 것입니다. 변화. 이것은 GTK <http://stackoverflow.com/questions/32106765/"
+">`_의 해결되지 않은 버그에 대한 해결 방법입니다."
 
 #: ../../building.rst:561
 msgid ""
@@ -942,6 +1072,9 @@ msgid ""
 "of the generic ``GenericEditorView`` class, but please invoke it from the"
 " **presenter**."
 msgstr ""
+"번역 된 텍스트가있는 GtkComboBox는 glade 파일에서 쉽게 처리 할 수 없으므로 시도조차하지 않습니다. 일반``"
+"GenericEditorView ''클래스의``init_translatable_combo ''메소드를 사용하되 ** presenter **"
+"에서 호출하십시오."
 
 #: ../../building.rst:566
 msgid ""
@@ -949,30 +1082,32 @@ msgid ""
 "interaction, the **model** is just a passive data container, it does "
 "nothing more than to let the **presenter** modify it."
 msgstr ""
+"** 모델 **은 알려진 속성을 가진 개체입니다. 이 상호 작용에서 ** 모델 **은 단지 수동적 인 데이터 컨테이너 일 뿐이며 ** "
+"발표자 **가 수정하도록하는 것 이상을 수행하지 않습니다."
 
 #: ../../building.rst:570
 msgid "The subclassed **Presenter** defines and implements:"
-msgstr ""
+msgstr "서브 클래 싱 된 ** Presenter **는 다음을 정의하고 구현합니다:"
 
 #: ../../building.rst:572
 msgid ""
 "``widget_to_field_map``, a dictionary associating widget names to name of"
 " model attributes,"
-msgstr ""
+msgstr "``widget_to_field_map '', 위젯 이름을 모델 속성 이름에 연결하는 사전,"
 
 #: ../../building.rst:574
 msgid ""
 "``view_accept_buttons``, the list of widget names which, if activated by "
 "the user, mean that the view should be closed,"
-msgstr ""
+msgstr "``view_accept_buttons``, 사용자가 활성화하면 뷰를 닫아야 함을 의미하는 위젯 이름 목록,"
 
 #: ../../building.rst:576
 msgid "all needed callbacks,"
-msgstr ""
+msgstr "필요한 모든 콜백,"
 
 #: ../../building.rst:577
 msgid "optionally, it plays the **model** role, too."
-msgstr ""
+msgstr "선택적으로 ** 모델 ** 역할도 수행합니다."
 
 #: ../../building.rst:579
 msgid ""
@@ -982,12 +1117,15 @@ msgid ""
 "**view** is closed successfully, or rolls them back if the **view** is "
 "canceled. (this behaviour is influenced by the parameter ``do_commit``)"
 msgstr ""
+"** 발표자 **는 **보기 **의 변경 사항에 따라 ** 모델 **을 지속적으로 업데이트합니다. ** 모델 **이 데이터베이스 개체에 "
+"해당하는 경우 ** 발표자 **는 **보기 **가 성공적으로 닫힐 때 모든 ** 모델 ** 업데이트를 데이터베이스에 커밋하거나 **보기 "
+"**가 ** 취소됩니다. (이 동작은``do_commit ''매개 변수의 영향을받습니다)"
 
 #: ../../building.rst:585
 msgid ""
 "If the **model** is something else, then the **presenter** will do "
 "something else."
-msgstr ""
+msgstr "** 모델 **이 다른 경우 ** 발표자 **가 다른 작업을 수행합니다."
 
 #: ../../building.rst:590
 msgid ""
@@ -997,6 +1135,9 @@ msgid ""
 "directly handle fields of ``view.widgets``. By doing so, these presenters"
 " prevents us from writing unit tests."
 msgstr ""
+"잘 작동하는 ** 발표자 **는 ** view ** API를 사용하여 사용자가 삽입 한 값을 쿼리하거나 위젯 상태를 강제로 설정합니다. "
+"일부는``view.widgets`` 필드를 직접 처리하는 오작동하는 발표자의 관행에서 배우지 마십시오. 그렇게함으로써 이러한 발표자는 "
+"우리가 단위 테스트를 작성하지 못하게합니다."
 
 #: ../../building.rst:596
 msgid ""
@@ -1005,22 +1146,26 @@ msgid ""
 "``MockView`` class, that you can use when writing tests for your "
 "presenters."
 msgstr ""
+"발표자의 기본 클래스 인``bauble.editor``에 정의 된``Generic Editor Presenter``는 많은 유용한 일반 "
+"콜백을 구현합니다. 발표자를위한 테스트를 작성할 때 사용할 수 있는``MockView ''클래스가 있습니다."
 
 #: ../../building.rst:601
 msgid "Examples"
-msgstr ""
+msgstr "예"
 
 #: ../../building.rst:603
 msgid ""
 "``Contact`` and ``ContactPresenter`` are implemented following the above "
 "lines.  The view is defined in the ``contact.glade`` file."
 msgstr ""
+"``Contact ''및``ContactPresenter``는 위의 줄에 따라 구현됩니다. 보기는``contact.glade`` 파일에 "
+"정의되어 있습니다."
 
 #: ../../building.rst:606
 msgid ""
 "A good example of Presenter/View pattern (no model) is given by the "
 "connection manager."
-msgstr ""
+msgstr "발표자 /보기 패턴 (모델 없음)의 좋은 예는 연결 관리자에 의해 제공됩니다."
 
 #: ../../building.rst:609
 msgid ""
@@ -1029,10 +1174,12 @@ msgid ""
 "JSON export dialog box. The following command will give you a list of "
 "``GenericEditorView`` instantiations::"
 msgstr ""
+"발표자를 모델로 설정하여 데이터베이스가 아닌 상호 작용에 동일한 아키텍처 패턴을 사용합니다. 예를 들어 JSON 내보내기 대화 상자에 "
+"대해이 작업을 수행합니다. 다음 명령은``GenericEditorView ''인스턴스화 목록을 제공합니다."
 
 #: ../../building.rst:617
 msgid "Extending Ghini with Plugins"
-msgstr ""
+msgstr "플러그인으로 Ghini 확장"
 
 #: ../../building.rst:619
 msgid ""
@@ -1040,22 +1187,26 @@ msgid ""
 "create tables, define custom searchs, add menu items, create custom "
 "commands and more."
 msgstr ""
+"Ghini에 관한 거의 모든 것은 플러그인을 통해 확장 할 수 있습니다. 플러그인은 테이블 생성, 사용자 지정 검색 정의, 메뉴 항목 "
+"추가, 사용자 지정 명령 생성 등을 수행 할 수 있습니다."
 
 #: ../../building.rst:623
 msgid ""
 "To create a new plugin you must extend the ``bauble.pluginmgr.Plugin`` "
 "class."
-msgstr ""
+msgstr "새 플러그인을 생성하려면``bauble.pluginmgr.Plugin ''클래스를 확장해야합니다."
 
 #: ../../building.rst:626
 msgid ""
 "The ``Tag`` plugin is a good minimal example, even if the ``TagItemGUI`` "
 "falls outside the Model-View-Presenter architectural pattern."
 msgstr ""
+"``Tag ''플러그인은``TagItemGUI``가 Model-View-Presenter 아키텍처 패턴을 벗어나더라도 좋은 최소한의 "
+"예입니다."
 
 #: ../../building.rst:630
 msgid "Plugins structure"
-msgstr ""
+msgstr "플러그인 구조"
 
 #: ../../building.rst:632
 msgid ""
@@ -1065,6 +1216,9 @@ msgid ""
 "distribute and write your own, or write your own plugins that extend or "
 "complete the current Ghini behaviour."
 msgstr ""
+"Ghini는 컬렉션을 처리하기위한 프레임 워크이며 Ghini를 식물 컬렉션 관리자로 만드는 플러그인 세트와 함께 배포됩니다. 그러나 "
+"Ghini는 프레임 워크로 남아 있으며 이론적으로 우리가 배포하는 모든 플러그인을 제거하고 직접 작성하거나 현재 Ghini 동작을 "
+"확장하거나 완료하는 자체 플러그인을 작성할 수 있습니다."
 
 #: ../../building.rst:638
 msgid ""
@@ -1072,6 +1226,8 @@ msgid ""
 "Search window. The Search window is an interaction between two objects: "
 "SearchPresenter (SP) and SearchView (SV)."
 msgstr ""
+"데이터베이스 연결을 선택하고 열면 검색 창으로 이동합니다. 검색 창은 SearchPresenter (SP)와 SearchView (SV)"
+"라는 두 개체 간의 상호 작용입니다."
 
 #: ../../building.rst:642
 msgid ""
@@ -1079,12 +1235,14 @@ msgid ""
 "you express through SV. Handling these requests affect the content of SV "
 "and the program status in SP."
 msgstr ""
+"SV는 당신이 보는 것, SP는 프로그램 상태를 보유하고 SV를 통해 표현한 요청을 처리합니다. 이러한 요청을 처리하면 SV의 내용과 "
+"SP의 프로그램 상태에 영향을줍니다."
 
 #: ../../building.rst:646
 msgid ""
 "The search results shown in the largest part of SV are rows, objects that"
 " are instances of classes registered in a plugin."
-msgstr ""
+msgstr "SV의 가장 큰 부분에 표시되는 검색 결과는 플러그인에 등록 된 클래스의 인스턴스 인 행, 객체입니다."
 
 #: ../../building.rst:649
 msgid ""
@@ -1092,6 +1250,8 @@ msgid ""
 "properly behave within the Ghini framework. The Ghini framework reserves "
 "space to pluggable classes."
 msgstr ""
+"이러한 각 클래스는 Ghini 프레임 워크 내에서 제대로 작동하기 위해 많은 기능을 구현해야합니다. Ghini 프레임 워크는 플러그 "
+"가능한 클래스를위한 공간을 예약합니다."
 
 #: ../../building.rst:653
 msgid ""
@@ -1100,6 +1260,8 @@ msgid ""
 "slot (a gtk.Box) where you can add elements. At any time, at most only "
 "one element in the slot is visible."
 msgstr ""
+"SP는 등록 된 (플러그인 된) 모든 클래스를 알고 있으며 사전에 저장되어 클래스를 플러그인 구현에 연결합니다. SV에는 요소를 추가 할 "
+"수있는 슬롯 (gtk.Box)이 있습니다. 언제든지 슬롯에서 최대 하나의 요소 만 표시됩니다."
 
 #: ../../building.rst:658
 msgid ""
@@ -1109,46 +1271,49 @@ msgid ""
 " plugin view), and the MVP pattern is completed by the parent presenter "
 "(SP), again acting as model. To summarize and complete:"
 msgstr ""
+"플러그인은 하나 이상의 플러그인 클래스를 정의합니다. 플러그인 클래스는 슬롯 (pV-플러그인보기)에 맞는 관련 부분보기에 필요한 콜백을 "
+"구현하므로 부분 발표자 (pP-플러그인 발표자)의 역할을하며 MVP 패턴은 상위 발표자 (SP ), 다시 모델 역할을합니다. 요약하고 "
+"완료하려면 :"
 
 #: ../../building.rst:664
 msgid "SP acts as model,"
-msgstr ""
+msgstr "SP는 모델 역할을하며"
 
 #: ../../building.rst:665
 msgid "the pV partial view is defined in a glade file."
-msgstr ""
+msgstr "pV 부분보기는 glade 파일에 정의되어 있습니다."
 
 #: ../../building.rst:666
 msgid "the callbacks implemented by pP are referenced by the glade file."
-msgstr ""
+msgstr "pP에 의해 구현 된 콜백은 glade 파일에 의해 참조됩니다."
 
 #: ../../building.rst:667
 msgid "a context menu for the SP row,"
-msgstr ""
+msgstr "SP 행에 대한 컨텍스트 메뉴"
 
 #: ../../building.rst:668
 msgid "a children property."
-msgstr ""
+msgstr "어린이 재산."
 
 #: ../../building.rst:670
 msgid "when you register a plugin class, the SP:"
-msgstr ""
+msgstr "플러그인 클래스를 등록하면 SP :"
 
 #: ../../building.rst:672
 msgid "adds the pV in the slot and makes it non-visible."
-msgstr ""
+msgstr "슬롯에 pV를 추가하고 보이지 않게 만듭니다."
 
 #: ../../building.rst:673
 msgid "adds an instance of pP in the registered plugin classes."
-msgstr ""
+msgstr "등록 된 플러그인 클래스에 pP 인스턴스를 추가합니다."
 
 #: ../../building.rst:674
 msgid "tells the pP that the SP is the model."
-msgstr ""
+msgstr "SP가 모델임을 pP에 알립니다."
 
 #: ../../building.rst:675
 msgid "connects all callbacks from pV to pP."
-msgstr ""
+msgstr "pV에서 pP로 모든 콜백을 연결합니다."
 
 #: ../../building.rst:677
 msgid ""
@@ -1156,6 +1321,8 @@ msgid ""
 "action to SP and can request SP that it updates the model and refreshes "
 "the view."
 msgstr ""
+"pV의 요소가 pP에서 작업을 트리거하면 pP는 작업을 SP로 전달할 수 있으며 SP에 모델을 업데이트하고보기를 새로 고치도록 요청할 수 "
+"있습니다."
 
 #: ../../building.rst:681
 msgid ""
@@ -1164,20 +1331,23 @@ msgid ""
 "row, and asks the pP to refresh the pV with whatever is relative to the "
 "selected row."
 msgstr ""
+"사용자가 SP에서 행을 선택하면 SP는 플러그 형 슬롯의 모든 항목을 숨기고 선택한 행의 유형과 관련된 단일 pV 만 표시하고 선택한 "
+"행과 관련된 항목으로 pV를 새로 고치도록 pP에 요청합니다."
 
 #: ../../building.rst:685
 msgid ""
 "Apart from setting the visibility of the various pV, nothing needs be "
 "disabled nor removed: an invisible pV cannot trigger events!"
 msgstr ""
+"다양한 pV의 가시성을 설정하는 것 외에는 비활성화하거나 제거 할 필요가 없습니다. 보이지 않는 pV는 이벤트를 트리거 할 수 없습니다!"
 
 #: ../../building.rst:689
 msgid "bug solving workflow"
-msgstr ""
+msgstr "버그 해결 워크 플로우"
 
 #: ../../building.rst:692
 msgid "normal development workflow"
-msgstr ""
+msgstr "정상적인 개발 워크 플로우"
 
 #: ../../building.rst:694
 msgid ""
@@ -1186,40 +1356,44 @@ msgid ""
 "to have a very clear idea of what it really is, that you noticed. you "
 "open an issue and describe the problem. someone might react with hints."
 msgstr ""
+"소프트웨어를 사용하는 동안 문제를 발견하거나 더 나을 수있는 것에 대한 아이디어를 얻었을 때, 당신이 발견 한 것이 실제로 무엇인지에 "
+"대한 매우 명확한 아이디어를 얻기 위해 충분히 좋은 생각을합니다. 문제를 열고 문제를 설명합니다. 누군가 힌트로 반응 할 수 있습니다."
 
 #: ../../building.rst:698
 msgid "you open the issues site and choose one you want to tackle."
-msgstr ""
+msgstr "문제 사이트를 열고 해결하려는 사이트를 선택합니다."
 
 #: ../../building.rst:699
 msgid ""
 "assign the issue to yourself, this way you are informing the world that "
 "you have the intention to work at it. someone might react with hints."
-msgstr ""
+msgstr "문제를 자신에게 할당하면 문제를 해결할 의사가 있음을 세상에 알릴 수 있습니다. 누군가 힌트로 반응 할 수 있습니다."
 
 #: ../../building.rst:701
 msgid ""
 "optionally fork the repository in your account and preferably create a "
 "branch, clearly associated to the issue."
-msgstr ""
+msgstr "선택적으로 계정에서 저장소를 포크하고 문제와 명확하게 관련된 브랜치를 만드는 것이 좋습니다."
 
 #: ../../building.rst:703
 msgid ""
 "write unit tests and commit them to your branch (please do not push "
 "failing unit tests to github, run ``nosetests`` locally first)."
 msgstr ""
+"단위 테스트를 작성하고 브랜치에 커밋하십시오 (실패한 단위 테스트를 github에 푸시하지 말고 로컬에서 먼저``nosetests``를 "
+"실행하십시오)."
 
 #: ../../building.rst:705
 msgid ""
 "write more unit tests (ideally, the tests form the complete description "
 "of the feature you are adding or correcting)."
-msgstr ""
+msgstr "더 많은 단위 테스트를 작성합니다 (이상적으로는 테스트가 추가하거나 수정하는 기능에 대한 완전한 설명을 형성합니다)."
 
 #: ../../building.rst:707
 msgid ""
 "make sure the feature you are adding or correcting is really completely "
 "described by the unit tests you wrote."
-msgstr ""
+msgstr "추가하거나 수정하는 기능이 작성한 단위 테스트에서 완전히 설명되었는지 확인하십시오."
 
 #: ../../building.rst:709
 msgid ""
@@ -1227,42 +1401,44 @@ msgid ""
 "on changes along one single variable. do not give complex input to unit "
 "tests or tests that do not fit on one screen (25 lines of code)."
 msgstr ""
+"단위 테스트가 원자 적이어야합니다. 즉, 하나의 단일 변수를 따라 변경 사항에 대한 변형을 테스트해야합니다. 한 화면 (코드 25 줄)에 "
+"맞지 않는 단위 테스트 또는 테스트에 복잡한 입력을 제공하지 마십시오."
 
 #: ../../building.rst:712
 msgid "write the code that makes your tests succeed."
-msgstr ""
+msgstr "테스트를 성공시키는 코드를 작성하십시오."
 
 #: ../../building.rst:713
 msgid "update the i18n files (run ``./scripts/i18n.sh``)."
-msgstr ""
+msgstr "i18n 파일을 업데이트합니다 (``. / scripts / i18n.sh`` 실행)."
 
 #: ../../building.rst:714
 msgid ""
 "whenever possible, translate the new strings you put in code or glade "
 "files."
-msgstr ""
+msgstr "가능하면 코드 또는 glade 파일에 넣은 새 문자열을 번역하십시오."
 
 #: ../../building.rst:716
 msgid ""
 "when you change strings, please make sure that old translations get re-"
 "used."
-msgstr ""
+msgstr "문자열을 변경할 때 이전 번역이 다시 사용되는지 확인하십시오."
 
 #: ../../building.rst:717
 msgid "commit your changes."
-msgstr ""
+msgstr "변경 사항을 커밋하십시오."
 
 #: ../../building.rst:718
 msgid "push to github."
-msgstr ""
+msgstr "github로 푸시하십시오."
 
 #: ../../building.rst:719
 msgid "open a pull request."
-msgstr ""
+msgstr "풀 리퀘스트를 엽니다."
 
 #: ../../building.rst:722
 msgid "publishing to production"
-msgstr ""
+msgstr "프로덕션에 게시"
 
 #: ../../building.rst:724
 msgid ""
@@ -1271,36 +1447,38 @@ msgid ""
 "comments, it publishes the release on pypi, and in perspective it will "
 "contain all steps for producing a ``deb`` file, and a windows executable."
 msgstr ""
+"``scritps ''디렉토리에있는``publish.sh ''스크립트를 사용하십시오. 이것은 모든 단일 단계를 처리하고 인식 가능한 커밋 "
+"주석을 생성하고 pypi에 릴리스를 게시하며 관점에서``deb ''파일 및 Windows 실행 파일을 생성하는 모든 단계를 포함합니다."
 
 #: ../../building.rst:729
 msgid "you can also do this by hand:"
-msgstr ""
+msgstr "이 작업을 직접 수행 할 수도 있습니다.:"
 
 #: ../../building.rst:731
 msgid ""
 "open the pull request page using as base a production line ``ghini-x.y``,"
 " compared to ``ghini-x.y-dev``."
-msgstr ""
+msgstr "``ghini-x.y-dev ''와 비교하여``ghini-x.y ''생산 라인을 기본으로 사용하여 풀 요청 페이지를 엽니 다."
 
 #: ../../building.rst:733
 msgid "make sure a ``bump`` commit is included in the differences."
-msgstr ""
+msgstr "차이점에``범프 ''커밋이 포함되어 있는지 확인하십시오."
 
 #: ../../building.rst:734
 msgid "it should be possible to automatically merge the branches."
-msgstr ""
+msgstr "분기를 자동으로 병합 할 수 있어야합니다."
 
 #: ../../building.rst:735
 msgid "create the new pull request, call it as “publish to the production line”."
-msgstr ""
+msgstr "새로운 풀 리퀘스트를 생성하고이를 \"생산 라인에 게시\"라고합니다."
 
 #: ../../building.rst:736
 msgid "you possibly need wait for travis-ci to perform the checks."
-msgstr ""
+msgstr "travis-ci가 검사를 수행 할 때까지 기다려야 할 수도 있습니다."
 
 #: ../../building.rst:737
 msgid "merge the changes."
-msgstr ""
+msgstr "변경 사항을 병합하십시오."
 
 #: ../../building.rst:739
 msgid ""
@@ -1309,17 +1487,20 @@ msgid ""
 "<https://groups.google.com/forum/#!forum/bauble>`_, in any relevant "
 "linkedin group, and on `our web page <http://ghini.github.io/>`_."
 msgstr ""
+"새로운 릴리스에 대해 전 세계에 알리는 것을 잊지 마십시오.`facebook <https://www.facebook.com/bauble."
+"thesoftware/>`_,`google 그룹 <https://groups.google.com/ forum / #! forum / "
+"bauble>`_, 관련 링크드 인 그룹 및`우리 웹 페이지 <http://ghini.github.io/>`_."
 
 #: ../../building.rst:745
 msgid "your own fork"
-msgstr ""
+msgstr "자신의 포크"
 
 #: ../../building.rst:747
 msgid ""
 "If you want to keep your own fork of the project, keep in mind this is "
 "full force work in progress, so staying up to date will require some "
 "effort from your side."
-msgstr ""
+msgstr "자신의 프로젝트 포크를 유지하고 싶다면 이것이 진행중인 작업이므로 최신 정보를 유지하려면 약간의 노력이 필요합니다."
 
 #: ../../building.rst:751
 msgid ""
@@ -1329,6 +1510,9 @@ msgid ""
 "unit tests, concise and abundant, and there should be no problem in "
 "having your work included in Ghini's upstream."
 msgstr ""
+"자신의 포크를 유지하는 가장 좋은 방법은 특정 문제에 집중하고, 비교적 빠르게 작업하고, 종종 작업에 대한 풀 요청을 열고, 수락했는지 "
+"확인하는 것입니다. Ghini의 코딩 스타일을 따르고 단위 테스트를 작성하고 간결하고 풍부하며 Ghini의 업스트림에 작업을 포함시키는 "
+"데 문제가 없을 것입니다."
 
 #: ../../building.rst:757
 msgid ""
@@ -1337,45 +1521,49 @@ msgid ""
 "<https://help.github.com/articles/configuring-a-remote-for-a-fork/>`_ and"
 " `syncing a fork <https://help.github.com/articles/syncing-a-fork/>`_."
 msgstr ""
+"포크가 Ghini의 업스트림과 동기화되지 않은 경우 : 읽고 이해하고 github 가이드`포크 용 원격 구성 <https://help."
+"github.com/articles/configuring-a-remote-for-a-fork />`_ 및`포크 동기화 "
+"<https://help.github.com/articles/syncing-a-fork/>`_."
 
 #: ../../building.rst:763
 msgid "closing step"
-msgstr ""
+msgstr "마감 단계"
 
 #: ../../building.rst:765
 msgid ""
 "review this workflow. consider this as a guideline, to yourself and to "
 "your colleagues. please help make it better and matching the practice."
-msgstr ""
+msgstr "이 워크 플로우를 검토하십시오. 이것을 자신과 동료에게 지침으로 고려하십시오. 더 좋게 만들고 연습과 일치하도록 도와주세요."
 
 #: ../../building.rst:770
 msgid "Distributing ghini.desktop"
-msgstr ""
+msgstr "ghini.desktop 배포"
 
 #: ../../building.rst:773
 msgid "Python Package Index - PyPI"
-msgstr ""
+msgstr "Python 패키지 색인-PyPI"
 
 #: ../../building.rst:775
 msgid ""
 "This is not much mentioned, but we keep ghini.desktop on the Python "
 "Package Index, so you could install it by no more than::"
 msgstr ""
+"별로 언급되지는 않았지만 Python 패키지 색인에 ghini.desktop을 보관하므로 다음과 같은 방법으로 설치할 수 있습니다::"
 
 #: ../../building.rst:780
 msgid ""
 "There are a couple packages that can't be installed with ``pip``, but "
 "otherwise that's really all you need to type, and it's platform "
 "independent."
-msgstr ""
+msgstr "``pip ''로 설치할 수없는 몇 가지 패키지가 있지만 그렇지 않으면 입력해야 할 모든 것이 있으며 플랫폼에 독립적입니다."
 
 #: ../../building.rst:783
 msgid "Publishing on PyPI is a standard ``setup`` command::"
-msgstr ""
+msgstr "PyPI에 게시하는 것은 표준``setup ''명령입니다:"
 
 #: ../../building.rst:789
 msgid "Windows"
-msgstr ""
+msgstr "윈도우"
 
 #: ../../building.rst:791
 msgid ""
@@ -1384,6 +1572,8 @@ msgid ""
 "Windows 7, 8 and 10.  Windows Vista should also work but has not been "
 "tested."
 msgstr ""
+"Windows 설치 프로그램 또는 실행 파일을 빌드하려면 실행중인 Windows 시스템이 필요합니다. 여기에 설명 된 방법은 "
+"Windows 7, 8 및 10에서 성공적으로 사용되었습니다. Windows Vista도 작동해야하지만 테스트를 거치지는 않았습니다."
 
 #: ../../building.rst:795
 msgid ""
@@ -1391,6 +1581,8 @@ msgid ""
 "remainder of this section.  None of Ghini's contributors knows how to "
 "produce a Windows installer without having a Windows system."
 msgstr ""
+"GNU / Linux 또는 OSX를 사용하는 경우이 섹션의 나머지 부분에 관심이 없습니다. Ghini의 기여자 중 누구도 Windows "
+"시스템없이 Windows 설치 프로그램을 만드는 방법을 모릅니다."
 
 #: ../../building.rst:799
 msgid ""
@@ -1399,6 +1591,9 @@ msgid ""
 "workstation and that will install a specific version of ghini.desktop.  "
 "This is achieved with the NSIS script-driven installer authoring tool."
 msgstr ""
+"현재 지침의 목표는 모든 Windows 워크 스테이션에서 실행할 수 있고 특정 버전의 ghini.desktop을 설치하는 단일 실행 파일 "
+"인 Windows 설치 프로그램을 생성하는 데 도움을주는 것입니다. 이는 NSIS 스크립트 기반 설치 프로그램 저작 도구를 통해 "
+"이루어집니다."
 
 #: ../../building.rst:804
 msgid ""
@@ -1406,62 +1601,64 @@ msgid ""
 "but relocatable directory, which you can copy to a USB drive and which "
 "will let you use the software without needing an installation."
 msgstr ""
+"설치 프로그램 프로덕션의 부수적 인 제품으로, USB 드라이브에 복사 할 수 있고 설치할 필요없이 소프트웨어를 사용할 수있는 대규모이지만 "
+"재배치 가능한 디렉토리가 있습니다."
 
 #: ../../building.rst:808
 msgid "The files and directories relevant to this section:"
-msgstr ""
+msgstr "이 섹션과 관련된 파일 및 디렉토리 :"
 
 #: ../../building.rst:810
 msgid "``scripts/build-win.bat`` — the single batch script to run."
-msgstr ""
+msgstr "``scripts / build-win.bat`` — 실행할 단일 배치 스크립트입니다."
 
 #: ../../building.rst:811
 msgid "``setup.py`` — implements the NSIS and py2exe commands."
-msgstr ""
+msgstr "``setup.py ''— NSIS 및 py2exe 명령을 구현합니다."
 
 #: ../../building.rst:812
 msgid "``scripts/build-multiuser.nsi`` — the nsis script, used by the above."
-msgstr ""
+msgstr "``scripts / build-multiuser.nsi ''— 위에서 사용 된 nsis 스크립트."
 
 #: ../../building.rst:813
 msgid "``nsis/`` — contains redistributable NSIS files, put here for conveniency."
-msgstr ""
+msgstr "``nsis /``— 재배포 가능한 NSIS 파일을 포함하며 편의를 위해 여기에 넣습니다."
 
 #: ../../building.rst:814
 msgid "``ghini-runtime/`` — built by ``py2exe``, used by ``nsis``."
-msgstr ""
+msgstr "``ghini-runtime /``—``py2exe``에 의해 빌드되고``nsis``에 사용됩니다."
 
 #: ../../building.rst:815
 msgid "``dist/`` — receives the executable installation file."
-msgstr ""
+msgstr "``dist /``— 실행 가능한 설치 파일을받습니다."
 
 #: ../../building.rst:817
 msgid ""
 "Most steps are automated in the ``build-win.bat`` script.  Installation "
 "of a few tools needs to be done manually:"
-msgstr ""
+msgstr "대부분의 단계는``build-win.bat`` 스크립트에서 자동화됩니다. 몇 가지 도구를 수동으로 설치해야합니다:"
 
 #: ../../building.rst:820
 msgid "Download and install Git, Python 2.7 and PyGTK."
-msgstr ""
+msgstr "Git, Python 2.7 및 PyGTK를 다운로드하여 설치합니다."
 
 #: ../../building.rst:822
 msgid ""
 "This is outlined in the ``devinstall``-based :ref:`installation` "
 "instructions."
-msgstr ""
+msgstr "이것은``devinstall ''기반 : ref :`installation` 지침에 설명되어 있습니다."
 
 #: ../../building.rst:825
 msgid "Download and install `NSIS v3 <http://nsis.sourceforge.net/Download>`_."
-msgstr ""
+msgstr "`NSIS v3 <http://nsis.sourceforge.net/Download>`_를 다운로드하여 설치합니다."
 
 #: ../../building.rst:827
 msgid "A **reboot** is recommended."
-msgstr ""
+msgstr "** 재부팅 **이 권장됩니다."
 
 #: ../../building.rst:829
 msgid "Clone the ghini.desktop repository."
-msgstr ""
+msgstr "ghini.desktop 저장소를 복제합니다."
 
 #: ../../building.rst:831
 msgid ""
@@ -1469,6 +1666,8 @@ msgid ""
 " repository ``https://github.com/Ghini/ghini.desktop.git`` if you only "
 "wish to follow development."
 msgstr ""
+"패치를 제공 할 계획이라면 자체 포크를 사용하고 개발 만 따르고 싶다면 조직의 저장소``https : // github.com / "
+"Ghini / ghini.desktop.git``을 사용하십시오."
 
 #: ../../building.rst:835
 msgid ""
@@ -1477,10 +1676,13 @@ msgid ""
 "your choice, e.g. ``Local\\github\\Ghini\\``. Production branch "
 "``ghini-1.0`` is recommended as used in the example."
 msgstr ""
+"GitHub에서 보관하려는 위치로 저장소를 복제하고 브랜치를 체크 아웃합니다. ``<path-to-keep-ghini>``를 선택한 "
+"경로로 바꾸십시오. ``로컬 \\ github \\ Ghini \\``. 예제에 사용 된대로 프로덕션 브랜치``ghini-1.0 ''을 "
+"권장합니다."
 
 #: ../../building.rst:840
 msgid "To do this, open a command prompt and type these commands::"
-msgstr ""
+msgstr "이렇게하려면 명령 프롬프트를 열고 다음 명령을 입력하십시오:"
 
 #: ../../building.rst:847
 msgid ""
@@ -1488,6 +1690,8 @@ msgid ""
 "Windows, with NSIS.  Use it to follow development, or to propose your "
 "pull requests, and to build Windows installers."
 msgstr ""
+"위의 결과는 Windows에서 NSIS를 사용하는 완전한 개발 환경입니다. 이를 사용하여 개발을 따르거나 풀 요청을 제안하고 "
+"Windows 설치 프로그램을 빌드하십시오."
 
 #: ../../building.rst:851
 msgid ""
@@ -1496,38 +1700,42 @@ msgid ""
 "``dist\\ghini.desktop-<version>-setup.exe`` file, and a working, complete"
 " relocatable directory named ``ghini-runtime``."
 msgstr ""
+"모든 후속 단계는``scripts \\ build_win.bat`` 스크립트에서 자동화됩니다. 그것을 실행하고 몇 분 후에 새로운``"
+"dist \\ ghini.desktop- <version> -setup.exe`` 파일과``ghini-runtime``이라는 이름의 "
+"작동하고 완전한 재배치 가능한 디렉토리가 있어야합니다."
 
 #: ../../building.rst:856
 msgid "Read the rest if you need details about the way the script works."
-msgstr ""
+msgstr "스크립트 작동 방식에 대한 세부 정보가 필요하면 나머지를 읽으십시오."
 
 #: ../../building.rst:858
 msgid "The ``build_win.bat`` script"
-msgstr ""
+msgstr "``build_win.bat`` 스크립트"
 
 #: ../../building.rst:861
 msgid ""
 "A batch file is available that can complete the last few steps.  To use "
 "it use this command::"
-msgstr ""
+msgstr "마지막 몇 단계를 완료 할 수있는 배치 파일을 사용할 수 있습니다. 이를 사용하려면 다음 명령을 사용하십시오::"
 
 #: ../../building.rst:866
 msgid "``build_win.bat`` accepts 2 arguments:"
-msgstr ""
+msgstr "``build_win.bat``는 2 개의 인수를받습니다:"
 
 #: ../../building.rst:868
 msgid "``/e`` — executable only."
-msgstr ""
+msgstr "``/ e ''— 실행 만 가능합니다."
 
 #: ../../building.rst:870
 msgid ""
 "Produce an executable only, skipping the extra step of building an "
 "installer, and will copy ``win_gtk.bat`` into place."
-msgstr ""
+msgstr "설치 프로그램 빌드의 추가 단계를 건너 뛰고 실행 파일 만 생성하고``win_gtk.bat``를 제자리에 복사합니다."
 
 #: ../../building.rst:873
 msgid "``venv_path`` — A path to the location for the virtual environment to use."
 msgstr ""
+"``venv_path`` — A path to the location for the virtual environment to use."
 
 #: ../../building.rst:875
 #, python-format
@@ -1535,6 +1743,8 @@ msgid ""
 "Defaults to ``\"%HOMEDRIVE%%HOMEPATH%\"\\.virtualenvs\\%CHECKOUT%-exe``, "
 "where ``CHECKOUT`` corresponds to the name of the branch you checked out."
 msgstr ""
+"기본값은`` \"% HOMEDRIVE %% HOMEPATH %\"\\. virtualenvs \\ % CHECKOUT % -exe``"
+"이며, 여기서``CHECKOUT``은 체크 아웃 한 브랜치의 이름에 해당합니다."
 
 #: ../../building.rst:879
 msgid ""
@@ -1542,10 +1752,12 @@ msgid ""
 "in a folder beside where you have ghini.desktop, you could execute "
 "``scripts\\build_win.bat /e ..\\ghi2exe``"
 msgstr ""
+"실행 파일 만 생성하고 ghini.desktop이있는 폴더 옆에있는 가상 환경을 사용하려면``scripts \\ build_win.bat "
+"/ e .. \\ ghi2exe``를 실행할 수 있습니다"
 
 #: ../../building.rst:884
 msgid "py2exe will not work with eggs"
-msgstr ""
+msgstr "py2exe는 계란과 함께 작동하지 않습니다"
 
 #: ../../building.rst:887
 msgid ""
@@ -1553,6 +1765,8 @@ msgid ""
 "installed as eggs.  There are several methods to accomplish this, "
 "including:"
 msgstr ""
+"py2exe로 Windows 실행 파일을 빌드하려면 달걀로 설치되지 ** 않는 ** 패키지가 필요합니다. 이를 수행하는 방법은 다음과 "
+"같습니다:"
 
 #: ../../building.rst:890
 msgid ""
@@ -1563,10 +1777,13 @@ msgid ""
 "``devinstall.bat``) you can try ``pip install -I .`` but your mileage may"
 " vary."
 msgstr ""
+"``pip ''를 사용하여 설치합니다. 가장 쉬운 방법은 아래에 설명 된대로``pip install .``을 사용하여 현재 계란으로 "
+"설치된 모듈이없는 가상 환경에 설치하는 것입니다. 달걀을 사용하여 설치 위에 설치하려면 (예 :``devinstall.bat ''로 만든 "
+"환경)``pip install -I .``를 시도 할 수 있지만 마일리지는 다를 수 있습니다."
 
 #: ../../building.rst:897
 msgid "By adding::"
-msgstr ""
+msgstr "추가하여::"
 
 #: ../../building.rst:902
 msgid ""
@@ -1577,24 +1794,30 @@ msgid ""
 "need a fresh virtual environment with no dependent packages installed as "
 "eggs."
 msgstr ""
+"setup.cfg (또는 유사하게``zip_safe = False``에서``setup.py ''의``setuptools.setup "
+"()``으로)``python setup.py install``을 사용할 수 있지만 다음이 필요합니다. C 확장을 얻으려면`"
+"Microsoft Visual C ++ Compiler for Python 2.7 <http://aka.ms/vcpython27>`_을 "
+"다운로드하여 설치하고, 종속 패키지가 달걀로 설치되지 않은 새로운 가상 환경이 필요합니다."
 
 #: ../../building.rst:908
 msgid "The included ``build-win`` script uses the ``pip`` method."
-msgstr ""
+msgstr "포함 된``build-win ''스크립트는``pip ''메소드를 사용합니다."
 
 #: ../../building.rst:910
 msgid "installing virtualenv and working with environments"
-msgstr ""
+msgstr "virtualenv 설치 및 환경 작업"
 
 #: ../../building.rst:913
 msgid "Install virtualenv, create a virtual environment and activate it."
-msgstr ""
+msgstr "virtualenv를 설치하고 가상 환경을 만들고 활성화합니다."
 
 #: ../../building.rst:915
 msgid ""
 "With only Python 2.7 on your system (where ``<path-to-venv>`` is the path"
 " to where you wish to keep the virtual environment) use::"
 msgstr ""
+"시스템에 Python 2.7 만있는 경우 (여기서``<path-to-venv>``는 가상 환경을 유지하려는 경로입니다) 다음을 "
+"사용하십시오::"
 
 #: ../../building.rst:922
 msgid ""
@@ -1604,32 +1827,35 @@ msgid ""
 "-m pip`` (run ``python --version`` first to check.  If you get anything "
 "other than version 2.7 you'll need to use one of these methods.)"
 msgstr ""
+"Python 3도 설치된 시스템에서는 절대 경로로 pip 및 virtualenv를 호출해야 할 수 있습니다. ``C : \\ "
+"Python27 \\ Scripts \\ pip ''또는 Python 런처 (예 : ``py -2.7 -m pip ''(먼저``"
+"python --version``을 실행하여 확인하십시오. 버전 2.7이 아닌 다른 것이 있으면이 방법 중 하나를 사용해야합니다.)"
 
 #: ../../building.rst:928
 msgid "Populate the virtual environment"
-msgstr ""
+msgstr "가상 환경 채우기"
 
 #: ../../building.rst:931
 msgid "Install dependencies and ghini.desktop into the virtual environment::"
-msgstr ""
+msgstr "가상 환경에 종속성 및 ghini.desktop을 설치합니다::"
 
 #: ../../building.rst:936
 msgid "Compile for Windows"
-msgstr ""
+msgstr "Windows 용 컴파일"
 
 #: ../../building.rst:939
 msgid "Build the executable::"
-msgstr ""
+msgstr "실행 파일 빌드 ::"
 
 #: ../../building.rst:943
 msgid ""
 "The ``ghini-runtime`` folder will now contain a full working copy of the "
 "software in a frozen, self contained state."
-msgstr ""
+msgstr "이제``ghini-runtime ''폴더에는 고정 된 자체 포함 상태의 소프트웨어의 전체 작업 복사본이 포함됩니다."
 
 #: ../../building.rst:946
 msgid "This folder is what is packaged by NSIS."
-msgstr ""
+msgstr "이 폴더는 NSIS에서 패키징 한 것입니다."
 
 #: ../../building.rst:948
 msgid ""
@@ -1639,16 +1865,19 @@ msgid ""
 "the desktop).  To start ghini.desktop double click ``ghini.exe`` in "
 "explorer (or create a shortcut to it)."
 msgstr ""
+"이 동일한 폴더도 원하는대로 전송할 수 있으며 제자리에서 작동합니다. (예 : 데모 목적으로 USB 플래시 드라이브에 배치하거나 바탕 "
+"화면에 생성 된 바로 가기를 사용하여``C : \\ Program Files``에 수동으로 복사). ghini.desktop을 시작하려면 "
+"탐색기에서``ghini.exe``를 두 번 클릭하거나 바로 가기를 만듭니다."
 
 #: ../../building.rst:955
 msgid "Fixing paths to GTK components."
-msgstr ""
+msgstr "GTK 구성 요소에 대한 경로 수정."
 
 #: ../../building.rst:958
 msgid ""
 "If you run the relocatable compiled program, unpackaged, you might "
 "occasionally have trouble with the GUI not displaying correctly."
-msgstr ""
+msgstr "재배치 가능한 컴파일 된 프로그램 (패키지 해제)을 실행하면 GUI가 올바르게 표시되지 않는 문제가 발생할 수 있습니다."
 
 #: ../../building.rst:961
 msgid ""
@@ -1656,44 +1885,48 @@ msgid ""
 "correctly.  You can do this by running the ``win_gtk.bat``, from the "
 "``ghini-runtime`` folder."
 msgstr ""
+"이 경우 GTK 구성 요소에 대한 경로를 올바르게 설정해야합니다. ``ghini-runtime ''폴더에서``win_gtk.bat``를 "
+"실행하면됩니다."
 
 #: ../../building.rst:965
 msgid ""
 "You will only need to run this once each time the location of the folder "
 "changes.  Thereafter ``ghini.exe`` will run as expected."
-msgstr ""
+msgstr "폴더 위치가 변경 될 때마다 한 번만 실행하면됩니다. 그 후``ghini.exe``가 예상대로 실행됩니다."
 
 #: ../../building.rst:969
 msgid "Finally, invoke NSIS"
-msgstr ""
+msgstr "마지막으로 NSIS를 호출합니다"
 
 #: ../../building.rst:972
 msgid "Build the installer::"
-msgstr ""
+msgstr "설치 프로그램 빌드 ::"
 
 #: ../../building.rst:976
 msgid ""
 "This should leave a file named ``ghini.desktop-<version>-setup.exe`` in "
 "the ``dist`` folder.  This is your Windows installer."
 msgstr ""
+"그러면``dist ''폴더에``ghini.desktop- <version> -setup.exe``라는 파일이 남습니다. 이것은 "
+"Windows 설치 프로그램입니다."
 
 #: ../../building.rst:979
 msgid "about the installer"
-msgstr ""
+msgstr "설치 프로그램에 대해"
 
 #: ../../building.rst:982
 msgid "Capable of single user or global installs."
-msgstr ""
+msgstr "단일 사용자 또는 글로벌 설치가 가능합니다."
 
 #: ../../building.rst:984
 msgid ""
 "At this point in time ghini.desktop installed this way will not check or "
 "or notify you of any updated version.  You will need to check yourself."
-msgstr ""
+msgstr "이 시점에서 이렇게 설치된 ghini.desktop은 업데이트 된 버전을 확인하거나 알리지 않습니다. 자신을 확인해야합니다."
 
 #: ../../building.rst:988
 msgid "Capable of downloading and installing optional extra components:"
-msgstr ""
+msgstr "선택적 추가 구성 요소를 다운로드하고 설치할 수 있습니다:"
 
 #: ../../building.rst:990
 msgid ""
@@ -1702,6 +1935,8 @@ msgid ""
 "installer will let you know and offer to open the Oracle web site for you"
 " to download and install it from."
 msgstr ""
+"Apache FOP-xslt 보고서 템플릿을 사용하려면 FOP를 설치하십시오. FOP에는 Java 런타임이 필요합니다. 현재 설치되어 "
+"있지 않은 경우 설치 프로그램이이를 알려주고 Oracle 웹 사이트를 열어 다운로드하여 설치할 수 있도록 제안합니다."
 
 #: ../../building.rst:995
 msgid ""
@@ -1821,7 +2056,7 @@ msgstr ""
 
 #: ../../editing.rst:26
 msgid "Notes"
-msgstr ""
+msgstr "주기"
 
 #: ../../editing.rst:27
 msgid ""
@@ -1844,7 +2079,7 @@ msgstr ""
 
 #: ../../editing.rst:39
 msgid "Family"
-msgstr ""
+msgstr "과명"
 
 #: ../../editing.rst:40
 msgid "The Family editor allows you to add or change a botanical family."
@@ -1896,7 +2131,7 @@ msgstr ""
 
 #: ../../editing.rst:69
 msgid "Genus"
-msgstr ""
+msgstr "속명"
 
 #: ../../editing.rst:71
 msgid "The Genus editor allows you to add or change a botanical genus."
@@ -2086,7 +2321,7 @@ msgstr ""
 
 #: ../../editing.rst:193
 msgid "Pictures"
-msgstr ""
+msgstr "사진"
 
 #: ../../editing.rst:195
 msgid ""
@@ -5767,7 +6002,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:193 ../../use_cases-jbq.rst:597
 msgid "Details"
-msgstr ""
+msgstr "상세"
 
 #: ../../use_cases-jbq.rst:196
 msgid ""
@@ -6435,15 +6670,15 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:651
 msgid "Accession"
-msgstr ""
+msgstr "억세션"
 
 #: ../../use_cases-jbq.rst:651
 msgid "Species"
-msgstr ""
+msgstr "종명"
 
 #: ../../use_cases-jbq.rst:651
 msgid "Location"
-msgstr ""
+msgstr "위치명"
 
 #: ../../use_cases-jbq.rst:653
 msgid "Invernadero 1 (calor)"
@@ -6465,7 +6700,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:667 ../../use_cases-jbq.rst:702
 msgid "Accession ID"
-msgstr ""
+msgstr "억세션 ID"
 
 #: ../../use_cases-jbq.rst:667 ../../use_cases-jbq.rst:702
 msgid "Type of Material"
@@ -6473,15 +6708,15 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:667 ../../use_cases-jbq.rst:702
 msgid "Quantity"
-msgstr ""
+msgstr "수량"
 
 #: ../../use_cases-jbq.rst:667
 msgid "Provenance"
-msgstr ""
+msgstr "도입처, 원산지"
 
 #: ../../use_cases-jbq.rst:669
 msgid "Unknown"
-msgstr ""
+msgstr "모름"
 
 #: ../../use_cases-jbq.rst:672 ../../use_cases-jbq.rst:707
 msgid ""
@@ -6533,7 +6768,7 @@ msgstr ""
 
 #: ../../use_cases-jbq.rst:702
 msgid "Source"
-msgstr ""
+msgstr "소스"
 
 #: ../../use_cases-jbq.rst:704
 msgid "specified"
@@ -7521,7 +7756,7 @@ msgstr ""
 
 #: ../../users.rst:19
 msgid "Permissions"
-msgstr ""
+msgstr "권한"
 
 #: ../../users.rst:20
 msgid "Ghini allows read, write and execute permissions."
