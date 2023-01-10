@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Ghini 1.0\n"
 "Report-Msgid-Bugs-To: mario@anche.no\n"
 "POT-Creation-Date: 2021-01-21 13:54-0500\n"
-"PO-Revision-Date: 2021-05-10 16:33+0000\n"
+"PO-Revision-Date: 2023-01-10 23:55+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/ghini/"
 "documentation-10/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../administration.rst:2
@@ -4555,16 +4555,15 @@ msgstr ""
 "criado na etapa anterior."
 
 #: ../../installing.rst:332
-#, fuzzy
 msgid ""
 "Right-click on it, select run as administrator, confirm you want it to "
 "make changes to your computer.  These changes are in the Start Menu only:"
 " create the Ghini group, place the Ghini shortcut."
 msgstr ""
-"botão direito do mouse sobre ele, selecione executar como administrador, "
-"confirme que você quer fazer alterações no seu computador. Essas "
-"alterações são apenas do menu iniciar: criar o grupo Ghini, colocar o "
-"atalho Ghini."
+"Clique com o botão direito do rato nele, selecione executar como "
+"administrador, confirme que deseja que ele faça alterações no seu "
+"computador.  Essas alterações estão apenas no Menu Iniciar: crie o grupo "
+"Ghini, coloque o atalho Ghini."
 
 #: ../../installing.rst:336
 msgid "download the batch file, it will help you staying up-to-date:"
