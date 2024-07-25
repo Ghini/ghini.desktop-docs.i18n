@@ -2284,18 +2284,17 @@ msgid ""
 "trust that if you manage a botanic collection, you will find Ghini overly"
 " useful and we hope that this page will convince you about it."
 msgstr ""
-"Ce logiciel, est-il ça que vouz cherchait ? Cette question est pour vous "
+"Ce logiciel est-il ce que vous cherchiez ? Cette question est pour vous "
 "à répondre. Nous sommes persuadés que si vous gérez une collection "
-"botanique, vous y trouverez Ghini trop utile et nous espérons que cette "
-"page vous convaincra à ce sujet."
+"botanique, vous trouverez Ghini très utile et nous espérons que cette "
+"page vous en convaincra."
 
 #: ../../goal.rst:8
 msgid ""
 "This page shows how Ghini makes software meet the needs of a botanic "
 "garden."
 msgstr ""
-"Cette page montre comment Ghini rend les logiciel à répondre aux besoins "
-"d’un jardin botanique."
+"Cette page montre comment Ghini répond aux besoins d’un jardin botanique."
 
 #: ../../goal.rst:11
 msgid "Botanic Garden"
